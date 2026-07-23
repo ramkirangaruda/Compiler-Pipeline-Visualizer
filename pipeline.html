@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler Pipeline Visualizer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+        :root {
+            --bg: #0A1930;
+            --bg2: #081426;
+            --panel: #0F2340;
+            --panel2: #132B4E;
+            --line: rgba(148, 187, 230, 0.14);
+            --line-strong: rgba(148, 187, 230, 0.28);
+            --text: #E8EEF5;
+            --muted: #7C93B3;
+            --dim: #4E6280;
+            --amber: #FFB454;
+            --amber-dim: rgba(255, 180, 84, 0.16);
+            --teal: #64D8CB;
+            --teal-dim: rgba(100, 216, 203, 0.14);
+            --red: #FF6B6B;
+            --red-dim: rgba(255, 107, 107, 0.14);
+            --mono: 'JetBrains Mono', ui-monospace, 'Courier New', monospace;
+            --display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background:
+                linear-gradient(var(--line) 1px, transparent 1px) 0 0/40px 40px,
+                linear-gradient(90deg, var(--line) 1px, transparent 1px) 0 0/40px 40px,
+                radial-gradient(ellipse 1200px 800px at 50% -10%, #10254A 0%, var(--bg) 55%);
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: var(--mono);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        ::selection {
+            background: var(--amber);
+            color: var(--bg2);
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--panel2);
+            border-radius: 5px;
+            border: 2px solid var(--bg);
+        }
+
+        :focus-visible {
+            outline: 2px solid var(--amber);
+            outline-offset: 2px;
+        }
+
+        .wrap {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 28px 28px 60px;
+        }
+
+        /* ---------- HEADER ---------- */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 24px;
+            margin-bottom: 26px;
+            flex-wrap: wrap;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 20px;
+        }
+
+        .brand-eyebrow {
+            font-family: var(--mono);
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            color: var(--teal);
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .brand-eyebrow .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--teal);
+            box-shadow: 0 0 8px var(--teal);
+            animation: pulse 2.4s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.35;
+            }
+        }
+
+        h1 {
+            font-family: var(--display);
+            font-weight: 700;
+            font-size: 32px;
+            letter-spacing: -0.01em;
+            margin: 0;
+            color: #F4F8FC;
+        }
+
+        h1 span {
+            color: var(--amber);
+        }
+
+        .subtitle {
+            font-family: var(--display);
+            color: var(--muted);
+            font-size: 14.5px;
+            margin-top: 8px;
+            max-width: 560px;
+            line-height: 1.5;
+        }
+
+        .header-meta {
+            font-size: 11px;
+            color: var(--dim);
+            text-align: right;
+            line-height: 1.9;
+        }
+
+        .header-meta b {
+            color: var(--muted);
+            font-weight: 600;
+        }
+
+        /* ---------- LAYOUT ---------- */
+        .layout {
+            display: grid;
+            grid-template-columns: 360px 1fr;
+            gap: 20px;
+            align-items: start;
+        }
+
+        @media(max-width:980px) {
+            .layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: linear-gradient(180deg, var(--panel) 0%, var(--panel2) 100%);
+            border: 1px solid var(--line);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .panel-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .panel-title {
+            font-family: var(--display);
+            font-size: 12px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            font-weight: 600;
+        }
+
+        .panel-body {
+            padding: 16px;
+        }
+
+        /* ---------- SIDEBAR ---------- */
+        .examples {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .chip {
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            color: var(--muted);
+            font-family: var(--mono);
+            font-size: 11.5px;
+            padding: 6px 10px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all .15s;
+        }
+
+        .chip:hover {
+            border-color: var(--teal);
+            color: var(--teal);
+        }
+
+        .chip.active {
+            background: var(--amber-dim);
+            border-color: var(--amber);
+            color: var(--amber);
+        }
+
+        textarea#src {
+            width: 100%;
+            height: 280px;
+            resize: vertical;
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            color: var(--text);
+            font-family: var(--mono);
+            font-size: 13px;
+            line-height: 1.6;
+            padding: 14px;
+            tab-size: 2;
+        }
+
+        textarea#src:focus {
+            border-color: var(--teal);
+        }
+
+        .run-btn {
+            margin-top: 12px;
+            width: 100%;
+            background: var(--amber);
+            color: #1A1000;
+            border: none;
+            font-family: var(--display);
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.03em;
+            padding: 13px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform .1s, box-shadow .2s;
+            box-shadow: 0 0 0 rgba(255, 180, 84, 0);
+        }
+
+        .run-btn:hover {
+            box-shadow: 0 4px 18px rgba(255, 180, 84, 0.35);
+            transform: translateY(-1px);
+        }
+
+        .run-btn:active {
+            transform: translateY(0);
+        }
+
+        .err-box {
+            margin-top: 10px;
+            background: var(--red-dim);
+            border: 1px solid rgba(255, 107, 107, 0.4);
+            color: var(--red);
+            border-radius: 8px;
+            padding: 10px 12px;
+            font-size: 12.5px;
+            display: none;
+            line-height: 1.5;
+        }
+
+        .err-box.show {
+            display: block;
+        }
+
+        .lang-ref {
+            margin-top: 14px;
+            font-size: 11.5px;
+            color: var(--dim);
+            line-height: 1.8;
+            border-top: 1px solid var(--line);
+            padding-top: 12px;
+        }
+
+        .lang-ref b {
+            color: var(--muted);
+        }
+
+        .lang-ref code {
+            color: var(--teal);
+        }
+
+        /* ---------- PIPELINE STRIP (signature element) ---------- */
+        .pipeline {
+            background: linear-gradient(180deg, var(--panel) 0%, var(--panel2) 100%);
+            border: 1px solid var(--line);
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin-bottom: 20px;
+            overflow-x: auto;
+        }
+
+        .pipeline-track {
+            display: flex;
+            align-items: center;
+            min-width: 640px;
+        }
+
+        .p-node {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            flex: 0 0 auto;
+            width: 120px;
+        }
+
+        .p-node .ring {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            border: 2px solid var(--dim);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background: var(--bg2);
+            transition: all .25s;
+        }
+
+        .p-node .ring svg {
+            width: 20px;
+            height: 20px;
+            stroke: var(--dim);
+            transition: stroke .25s;
+        }
+
+        .p-node .label {
+            font-family: var(--display);
+            font-size: 11px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--dim);
+            font-weight: 600;
+            transition: color .25s;
+            text-align: center;
+        }
+
+        .p-node.done .ring {
+            border-color: var(--teal);
+            box-shadow: 0 0 0 3px var(--teal-dim);
+        }
+
+        .p-node.done .ring svg {
+            stroke: var(--teal);
+        }
+
+        .p-node.done .label {
+            color: var(--teal);
+        }
+
+        .p-node.active .ring {
+            border-color: var(--amber);
+            box-shadow: 0 0 0 5px var(--amber-dim);
+            animation: ringPulse 1.6s infinite;
+        }
+
+        .p-node.active .ring svg {
+            stroke: var(--amber);
+        }
+
+        .p-node.active .label {
+            color: var(--amber);
+        }
+
+        @keyframes ringPulse {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 4px var(--amber-dim);
+            }
+
+            50% {
+                box-shadow: 0 0 0 8px transparent;
+            }
+        }
+
+        .p-trace {
+            flex: 1 1 auto;
+            height: 2px;
+            background: var(--line-strong);
+            position: relative;
+            top: -19px;
+            min-width: 20px;
+        }
+
+        .p-trace .flow {
+            position: absolute;
+            inset: 0;
+            background: repeating-linear-gradient(90deg, var(--teal) 0 6px, transparent 6px 12px);
+            opacity: 0;
+            transition: opacity .25s;
+        }
+
+        .p-trace.flowing .flow {
+            opacity: 0.9;
+            animation: flowMove 0.6s linear infinite;
+        }
+
+        @keyframes flowMove {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: -18px 0;
+            }
+        }
+
+        /* ---------- TABS ---------- */
+        .tabs {
+            display: flex;
+            gap: 2px;
+            border-bottom: 1px solid var(--line);
+            padding: 0 8px;
+        }
+
+        .tab {
+            font-family: var(--display);
+            font-size: 12.5px;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            color: var(--muted);
+            padding: 12px 16px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all .15s;
+        }
+
+        .tab:hover {
+            color: var(--text);
+        }
+
+        .tab.active {
+            color: var(--amber);
+            border-bottom-color: var(--amber);
+        }
+
+        .tab-content {
+            display: none;
+            padding: 20px;
+            min-height: 420px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* ---------- TOKENS TAB ---------- */
+        .source-scan {
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 16px;
+            font-size: 13.5px;
+            line-height: 2;
+            white-space: pre-wrap;
+            word-break: break-word;
+            margin-bottom: 16px;
+            min-height: 60px;
+        }
+
+        .ch {
+            transition: background .1s, color .1s;
+            border-radius: 2px;
+        }
+
+        .ch.scanned-ident {
+            background: var(--teal-dim);
+            color: var(--teal);
+        }
+
+        .ch.scanned-num {
+            background: var(--amber-dim);
+            color: var(--amber);
+        }
+
+        .ch.scanned-op {
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text);
+        }
+
+        .ch.scanned-kw {
+            background: rgba(180, 140, 255, 0.16);
+            color: #C9B3FF;
+        }
+
+        .ch.current {
+            outline: 2px solid var(--amber);
+        }
+
+        .scan-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-sm {
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            color: var(--muted);
+            font-family: var(--display);
+            font-weight: 600;
+            font-size: 12px;
+            padding: 8px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all .15s;
+        }
+
+        .btn-sm:hover {
+            border-color: var(--teal);
+            color: var(--teal);
+        }
+
+        .btn-sm.primary {
+            border-color: var(--amber);
+            color: var(--amber);
+        }
+
+        .speed-wrap {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 11px;
+            color: var(--dim);
+            margin-left: auto;
+        }
+
+        input[type=range] {
+            accent-color: var(--amber);
+        }
+
+        .dfa-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 18px;
+        }
+
+        @media(max-width:760px) {
+            .dfa-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .dfa-box {
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .dfa-box .dfa-title {
+            font-family: var(--display);
+            font-size: 11px;
+            color: var(--muted);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        .dfa-box svg {
+            width: 100%;
+            height: auto;
+        }
+
+        .state-circle {
+            fill: var(--bg2);
+            stroke: var(--dim);
+            stroke-width: 2;
+            transition: all .2s;
+        }
+
+        .state-circle.accept-ring {
+            stroke-width: 2;
+        }
+
+        .state-circle.active {
+            stroke: var(--amber);
+            fill: var(--amber-dim);
+        }
+
+        .state-label {
+            fill: var(--muted);
+            font-family: var(--mono);
+            font-size: 11px;
+            transition: fill .2s;
+        }
+
+        .state-label.active {
+            fill: var(--amber);
+        }
+
+        .dfa-edge {
+            stroke: var(--dim);
+            stroke-width: 1.4;
+            fill: none;
+        }
+
+        .dfa-edge-label {
+            fill: var(--dim);
+            font-family: var(--mono);
+            font-size: 9.5px;
+        }
+
+        table.tok-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12.5px;
+        }
+
+        table.tok-table th {
+            text-align: left;
+            color: var(--muted);
+            font-family: var(--display);
+            font-weight: 600;
+            font-size: 11px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            padding: 8px 10px;
+            border-bottom: 1px solid var(--line-strong);
+        }
+
+        table.tok-table td {
+            padding: 7px 10px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 10.5px;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+        }
+
+        .badge.IDENT {
+            background: var(--teal-dim);
+            color: var(--teal);
+        }
+
+        .badge.NUMBER {
+            background: var(--amber-dim);
+            color: var(--amber);
+        }
+
+        .badge.KEYWORD {
+            background: rgba(180, 140, 255, 0.16);
+            color: #C9B3FF;
+        }
+
+        .badge.OP {
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--muted);
+        }
+
+        tr.tok-new {
+            animation: tokIn .4s ease;
+        }
+
+        @keyframes tokIn {
+            from {
+                opacity: 0;
+                transform: translateY(-4px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ---------- TREE ---------- */
+        .tree-wrap {
+            overflow-x: auto;
+            padding: 8px 0;
+        }
+
+        ul.tree,
+        ul.tree ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 28px;
+            position: relative;
+        }
+
+        ul.tree {
+            padding-left: 0;
+        }
+
+        ul.tree ul {
+            border-left: 1px solid var(--line-strong);
+        }
+
+        ul.tree li {
+            position: relative;
+            padding: 5px 0 5px 18px;
+        }
+
+        ul.tree ul li::before {
+            content: '';
+            position: absolute;
+            left: -1px;
+            top: 16px;
+            width: 16px;
+            height: 1px;
+            background: var(--line-strong);
+        }
+
+        .node-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-size: 12px;
+        }
+
+        .node-pill .ntype {
+            color: var(--amber);
+            font-weight: 600;
+        }
+
+        .node-pill .nval {
+            color: var(--teal);
+        }
+
+        .node-pill .nname {
+            color: var(--text);
+        }
+
+        /* ---------- IR / OPTIMIZER ---------- */
+        .ir-list {
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .ir-row {
+            display: grid;
+            grid-template-columns: 44px 1fr;
+            gap: 10px;
+            padding: 6px 12px;
+            font-size: 13px;
+            border-bottom: 1px solid var(--line);
+            align-items: center;
+        }
+
+        .ir-row:last-child {
+            border-bottom: none;
+        }
+
+        .ir-row .idx {
+            color: var(--dim);
+            font-size: 11px;
+        }
+
+        .ir-row .code-line {
+            color: var(--text);
+        }
+
+        .ir-row .code-line .kw {
+            color: var(--amber);
+        }
+
+        .ir-row.label-row .code-line {
+            color: var(--teal);
+            font-weight: 600;
+        }
+
+        .ir-row.current {
+            background: var(--amber-dim);
+        }
+
+        .ir-row.removed {
+            background: var(--red-dim);
+            text-decoration: line-through;
+            color: var(--dim);
+        }
+
+        .ir-row.changed {
+            background: var(--teal-dim);
+        }
+
+        .opt-summary {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+
+        .opt-stat {
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 10px 14px;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .opt-stat .num {
+            font-family: var(--display);
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--amber);
+        }
+
+        .opt-stat .lbl {
+            font-size: 10.5px;
+            color: var(--muted);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        .diff-cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        @media(max-width:820px) {
+            .diff-cols {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .diff-col-title {
+            font-family: var(--display);
+            font-size: 11px;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        /* ---------- EXECUTION ---------- */
+        .vm-grid {
+            display: grid;
+            grid-template-columns: 1.3fr 1fr;
+            gap: 16px;
+        }
+
+        @media(max-width:820px) {
+            .vm-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .vm-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+        }
+
+        .vars-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12.5px;
+            margin-bottom: 14px;
+        }
+
+        .vars-table th {
+            text-align: left;
+            color: var(--muted);
+            font-family: var(--display);
+            font-size: 10.5px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            padding: 6px 10px;
+            border-bottom: 1px solid var(--line-strong);
+        }
+
+        .vars-table td {
+            padding: 6px 10px;
+            border-bottom: 1px solid var(--line);
+            color: var(--text);
+        }
+
+        .vars-table td.vname {
+            color: var(--teal);
+        }
+
+        .console-box {
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 13px;
+            min-height: 90px;
+            color: var(--amber);
+        }
+
+        .console-box .line {
+            padding: 2px 0;
+        }
+
+        .console-box .placeholder {
+            color: var(--dim);
+        }
+
+        .verify-box {
+            margin-top: 16px;
+            background: var(--bg2);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 14px;
+        }
+
+        .verify-result {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+
+        .verify-result .ok {
+            color: var(--teal);
+        }
+
+        .verify-result .bad {
+            color: var(--red);
+        }
+
+        .hint {
+            color: var(--dim);
+            font-size: 12px;
+            line-height: 1.6;
+            margin-top: 6px;
+        }
+
+        .empty-state {
+            color: var(--dim);
+            font-size: 13px;
+            padding: 30px 10px;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: var(--dim);
+            font-size: 11.5px;
+            line-height: 1.8;
+        }
+
+        footer b {
+            color: var(--muted);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <header>
+            <div>
+                <div class="brand-eyebrow"><span class="dot"></span> CO1&ndash;CO5 &middot; end-to-end demonstration
+                </div>
+                <h1>Compiler <span>Pipeline</span> Visualizer</h1>
+                <div class="subtitle">A working compiler for a small imperative language &mdash; watch source code
+                    become
+                    tokens, a syntax tree, three-address code, optimized code, and finally a running program, one phase
+                    at a time.
+                </div>
+            </div>
+            <div class="header-meta"><b>Target language:</b> mini-imperative (let / if / else / while /
+                print)<br><b>Backend:</b> stack-free 3AC virtual machine</div>
+        </header>
+
+        <div class="layout">
+            <!-- SIDEBAR -->
+            <div class="panel">
+                <div class="panel-head">
+                    <div class="panel-title">Source Program</div>
+                </div>
+                <div class="panel-body">
+                    <div class="examples" id="examples"></div>
+                    <textarea id="src" spellcheck="false"></textarea>
+                    <button class="run-btn" id="runBtn">Compile &amp; Run &#9656;</button>
+                    <div class="err-box" id="errBox"></div>
+                    <div class="lang-ref">
+                        <b>Grammar reference</b><br>
+                        <code>let x = expr;</code> &nbsp; declare<br>
+                        <code>x = expr;</code> &nbsp; assign<br>
+                        <code>if (cond) { .. } else { .. }</code><br>
+                        <code>while (cond) { .. }</code><br>
+                        <code>print(expr);</code><br>
+                        ops: <code>+ - * / &lt; &gt; &lt;= &gt;= == !=</code>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAIN -->
+            <div>
+                <div class="pipeline">
+                    <div class="pipeline-track" id="pipelineTrack"></div>
+                </div>
+
+                <div class="panel">
+                    <div class="tabs" id="tabs"></div>
+
+                    <div class="tab-content active" id="tab-tokens">
+                        <div class="scan-controls">
+                            <button class="btn-sm primary" id="playScan">&#9654; Play scan</button>
+                            <button class="btn-sm" id="stepScan">Step</button>
+                            <button class="btn-sm" id="resetScan">Reset</button>
+                            <div class="speed-wrap">Speed <input type="range" id="scanSpeed" min="1" max="10" value="6">
+                            </div>
+                        </div>
+                        <div class="source-scan" id="sourceScan"><span class="empty-state">Compile a program to begin
+                                scanning.</span></div>
+                        <div class="dfa-row">
+                            <div class="dfa-box">
+                                <div class="dfa-title">Identifier / Keyword DFA</div>
+                                <svg id="dfaIdent" viewBox="0 0 300 110"></svg>
+                            </div>
+                            <div class="dfa-box">
+                                <div class="dfa-title">Number Literal DFA</div>
+                                <svg id="dfaNumber" viewBox="0 0 300 110"></svg>
+                            </div>
+                        </div>
+                        <table class="tok-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Type</th>
+                                    <th>Lexeme</th>
+                                    <th>Line</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tokTable"></tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-content" id="tab-tree">
+                        <div class="tree-wrap" id="treeWrap">
+                            <div class="empty-state">Compile a program to see its syntax tree.</div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="tab-ir">
+                        <div class="hint" style="margin-bottom:12px;">Three-address code generated directly from the
+                            syntax tree via
+                            post-order traversal. Temporaries (t1, t2 &hellip;) hold intermediate values; labels (L1, L2
+                            &hellip;)
+                            mark control-flow targets &mdash; the linear equivalent of backpatched jump lists.</div>
+                        <div class="ir-list" id="irList">
+                            <div class="empty-state">Compile a program to generate 3AC.</div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="tab-opt">
+                        <div class="opt-summary" id="optSummary"></div>
+                        <div class="diff-cols">
+                            <div>
+                                <div class="diff-col-title">Unoptimized</div>
+                                <div class="ir-list" id="irOrig"></div>
+                            </div>
+                            <div>
+                                <div class="diff-col-title">Optimized</div>
+                                <div class="ir-list" id="irOpt"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="tab-exec">
+                        <div class="vm-grid">
+                            <div>
+                                <div class="vm-controls">
+                                    <button class="btn-sm primary" id="vmPlay">&#9654; Run</button>
+                                    <button class="btn-sm" id="vmStep">Step</button>
+                                    <button class="btn-sm" id="vmReset">Reset</button>
+                                    <div class="speed-wrap">Speed <input type="range" id="vmSpeed" min="1" max="10"
+                                            value="6"></div>
+                                </div>
+                                <div class="diff-col-title">Executing (optimized code)</div>
+                                <div class="ir-list" id="vmCode" style="max-height:360px;overflow-y:auto;"></div>
+                            </div>
+                            <div>
+                                <div class="diff-col-title">Variables</div>
+                                <table class="vars-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="vmVars"></tbody>
+                                </table>
+                                <div class="diff-col-title">Console output</div>
+                                <div class="console-box" id="vmConsole"><span class="placeholder">(no output yet)</span>
+                                </div>
+                                <div class="verify-box">
+                                    <div class="diff-col-title" style="margin-bottom:2px;">Correctness check</div>
+                                    <div class="hint">Runs the unoptimized and optimized 3AC to completion and compares
+                                        output &mdash;
+                                        proof the optimizer preserves program semantics.</div>
+                                    <button class="btn-sm" id="verifyBtn" style="margin-top:10px;">Verify optimization
+                                        correctness</button>
+                                    <div class="verify-result" id="verifyResult"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer>Recursive-descent parser &middot; post-order 3AC generation &middot; constant folding + copy propagation
+            +
+            dead-code elimination + peephole passes &middot; linear scan execution on a label-addressed
+            VM<br><b>Compiler
+                Design</b> course project</footer>
+    </div>
+
+    <script>
+        /* =========================================================
+           CORE COMPILER LOGIC (Lexer -> Parser -> IR -> Optimizer -> VM)
+           ========================================================= */
+        const KEYWORDS = new Set(['let', 'if', 'else', 'while', 'print']);
+
+        function lex(src) {
+            const tokens = []; let i = 0, line = 1;
+            const isDigit = c => c >= '0' && c <= '9';
+            const isAlpha = c => /[a-zA-Z_]/.test(c);
+            const isAlnum = c => /[a-zA-Z0-9_]/.test(c);
+            while (i < src.length) {
+                let c = src[i];
+                if (c === '\n') { line++; i++; continue; }
+                if (/\s/.test(c)) { i++; continue; }
+                if (isDigit(c)) {
+                    let j = i; while (j < src.length && isDigit(src[j])) j++;
+                    if (src[j] === '.' && isDigit(src[j + 1])) { j++; while (j < src.length && isDigit(src[j])) j++; }
+                    tokens.push({ type: 'NUMBER', value: src.slice(i, j), start: i, end: j, line }); i = j; continue;
+                }
+                if (isAlpha(c)) {
+                    let j = i; while (j < src.length && isAlnum(src[j])) j++;
+                    const word = src.slice(i, j);
+                    tokens.push({ type: KEYWORDS.has(word) ? 'KEYWORD' : 'IDENT', value: word, start: i, end: j, line }); i = j; continue;
+                }
+                const two = src.slice(i, i + 2);
+                if (['==', '!=', '<=', '>='].includes(two)) { tokens.push({ type: 'OP', value: two, start: i, end: i + 2, line }); i += 2; continue; }
+                if ('+-*/=<>(){};'.includes(c)) { tokens.push({ type: 'OP', value: c, start: i, end: i + 1, line }); i++; continue; }
+                throw new Error(`Lexical error: unexpected character '${c}' on line ${line}`);
+            }
+            tokens.push({ type: 'EOF', value: '', start: i, end: i, line });
+            return tokens;
+        }
+
+        function parse(tokens) {
+            let pos = 0;
+            const peek = () => tokens[pos];
+            const at = (type, value) => peek().type === type && (value === undefined || peek().value === value);
+            const advance = () => tokens[pos++];
+            function expect(type, value) {
+                if (!at(type, value)) throw new Error(`Syntax error: expected '${value || type}' but found '${peek().value || 'EOF'}' on line ${peek().line}`);
+                return advance();
+            }
+            function parseProgram() { const body = []; while (!at('EOF')) body.push(parseStatement()); return { type: 'Program', body }; }
+            function parseStatement() {
+                if (at('KEYWORD', 'let')) return parseVarDecl();
+                if (at('KEYWORD', 'if')) return parseIf();
+                if (at('KEYWORD', 'while')) return parseWhile();
+                if (at('KEYWORD', 'print')) return parsePrint();
+                if (at('OP', '{')) return parseBlock();
+                if (at('IDENT')) return parseAssign();
+                throw new Error(`Syntax error: unexpected token '${peek().value}' on line ${peek().line}`);
+            }
+            function parseVarDecl() { expect('KEYWORD', 'let'); const name = expect('IDENT').value; expect('OP', '='); const init = parseExpr(); expect('OP', ';'); return { type: 'VarDecl', name, init }; }
+            function parseAssign() { const name = expect('IDENT').value; expect('OP', '='); const value = parseExpr(); expect('OP', ';'); return { type: 'Assign', name, value }; }
+            function parseBlock() { expect('OP', '{'); const body = []; while (!at('OP', '}')) body.push(parseStatement()); expect('OP', '}'); return { type: 'Block', body }; }
+            function parseIf() { expect('KEYWORD', 'if'); expect('OP', '('); const cond = parseExpr(); expect('OP', ')'); const then = parseBlock(); let alt = null; if (at('KEYWORD', 'else')) { advance(); alt = parseBlock(); } return { type: 'If', cond, then, alt }; }
+            function parseWhile() { expect('KEYWORD', 'while'); expect('OP', '('); const cond = parseExpr(); expect('OP', ')'); const body = parseBlock(); return { type: 'While', cond, body }; }
+            function parsePrint() { expect('KEYWORD', 'print'); expect('OP', '('); const value = parseExpr(); expect('OP', ')'); expect('OP', ';'); return { type: 'Print', value }; }
+            function parseExpr() { return parseRelational(); }
+            function parseRelational() { let left = parseAdditive(); while (at('OP') && ['<', '>', '<=', '>=', '==', '!='].includes(peek().value)) { const op = advance().value; const right = parseAdditive(); left = { type: 'BinOp', op, left, right }; } return left; }
+            function parseAdditive() { let left = parseTerm(); while (at('OP') && ['+', '-'].includes(peek().value)) { const op = advance().value; const right = parseTerm(); left = { type: 'BinOp', op, left, right }; } return left; }
+            function parseTerm() { let left = parseUnary(); while (at('OP') && ['*', '/'].includes(peek().value)) { const op = advance().value; const right = parseUnary(); left = { type: 'BinOp', op, left, right }; } return left; }
+            function parseUnary() { if (at('OP', '-')) { advance(); const expr = parseUnary(); return { type: 'Unary', op: '-', expr }; } return parsePrimary(); }
+            function parsePrimary() {
+                if (at('NUMBER')) return { type: 'Num', value: advance().value };
+                if (at('IDENT')) return { type: 'Ident', name: advance().value };
+                if (at('OP', '(')) { advance(); const e = parseExpr(); expect('OP', ')'); return e; }
+                throw new Error(`Syntax error: unexpected token '${peek().value}' on line ${peek().line}`);
+            }
+            const ast = parseProgram(); expect('EOF'); return ast;
+        }
+
+        function genIR(ast) {
+            let tempCount = 0, labelCount = 0; const code = [];
+            const newTemp = () => 't' + (++tempCount);
+            const newLabel = () => 'L' + (++labelCount);
+            function genExpr(node) {
+                if (node.type === 'Num') return node.value;
+                if (node.type === 'Ident') return node.name;
+                if (node.type === 'Unary') { const v = genExpr(node.expr); const t = newTemp(); code.push({ op: 'uminus', arg1: v, result: t }); return t; }
+                if (node.type === 'BinOp') { const l = genExpr(node.left), r = genExpr(node.right); const t = newTemp(); code.push({ op: node.op, arg1: l, arg2: r, result: t }); return t; }
+            }
+            function genStmt(node) {
+                switch (node.type) {
+                    case 'VarDecl': { const v = genExpr(node.init); code.push({ op: '=', arg1: v, result: node.name }); break; }
+                    case 'Assign': { const v = genExpr(node.value); code.push({ op: '=', arg1: v, result: node.name }); break; }
+                    case 'Print': { const v = genExpr(node.value); code.push({ op: 'print', arg1: v }); break; }
+                    case 'Block': node.body.forEach(genStmt); break;
+                    case 'If': {
+                        const c = genExpr(node.cond); const Lelse = newLabel(), Lend = newLabel();
+                        code.push({ op: 'iffalse', arg1: c, result: node.alt ? Lelse : Lend });
+                        genStmt(node.then);
+                        if (node.alt) { code.push({ op: 'goto', result: Lend }); code.push({ op: 'label', result: Lelse }); genStmt(node.alt); }
+                        code.push({ op: 'label', result: Lend });
+                        break;
+                    }
+                    case 'While': {
+                        const Lstart = newLabel(), Lend = newLabel();
+                        code.push({ op: 'label', result: Lstart });
+                        const c = genExpr(node.cond);
+                        code.push({ op: 'iffalse', arg1: c, result: Lend });
+                        genStmt(node.body);
+                        code.push({ op: 'goto', result: Lstart });
+                        code.push({ op: 'label', result: Lend });
+                        break;
+                    }
+                }
+            }
+            ast.body.forEach(genStmt);
+            return code;
+        }
+
+        function isLiteral(x) { return typeof x === 'string' && /^-?\d+(\.\d+)?$/.test(x); }
+        function isTemp(x) { return typeof x === 'string' && /^t\d+$/.test(x); }
+
+        function foldConstants(code) {
+            let count = 0;
+            const out = code.map(ins => {
+                if (['+', '-', '*', '/', '<', '>', '<=', '>=', '==', '!='].includes(ins.op) && isLiteral(ins.arg1) && isLiteral(ins.arg2)) {
+                    const a = parseFloat(ins.arg1), b = parseFloat(ins.arg2); let v;
+                    switch (ins.op) {
+                        case '+': v = a + b; break; case '-': v = a - b; break; case '*': v = a * b; break; case '/': v = a / b; break;
+                        case '<': v = a < b ? 1 : 0; break; case '>': v = a > b ? 1 : 0; break; case '<=': v = a <= b ? 1 : 0; break;
+                        case '>=': v = a >= b ? 1 : 0; break; case '==': v = a == b ? 1 : 0; break; case '!=': v = a != b ? 1 : 0; break;
+                    }
+                    count++; return { op: '=', arg1: String(v), result: ins.result };
+                }
+                if (ins.op === 'uminus' && isLiteral(ins.arg1)) { count++; return { op: '=', arg1: String(-parseFloat(ins.arg1)), result: ins.result }; }
+                return ins;
+            });
+            return { code: out, count };
+        }
+
+        function copyPropagate(code) {
+            let count = 0; const map = {};
+            const chase = (x) => { let seen = new Set(); while (map[x] !== undefined && !seen.has(x)) { seen.add(x); x = map[x]; } return x; };
+            const out = code.map(ins => {
+                const ni = { ...ins };
+                if (ni.arg1 !== undefined && !isLiteral(ni.arg1)) { const c = chase(ni.arg1); if (c !== ni.arg1) { ni.arg1 = c; count++; } }
+                if (ni.arg2 !== undefined && !isLiteral(ni.arg2)) { const c = chase(ni.arg2); if (c !== ni.arg2) { ni.arg2 = c; count++; } }
+                if (ni.op === 'label') { for (const k in map) delete map[k]; }
+                if (ni.op === '=') { map[ni.result] = ni.arg1; }
+                else if (ni.result !== undefined && !['iffalse', 'goto', 'print', 'label'].includes(ni.op)) { delete map[ni.result]; }
+                return ni;
+            });
+            return { code: out, count };
+        }
+
+        function eliminateDeadCode(code) {
+            let count = 0, changed = true, cur = code.slice();
+            while (changed) {
+                changed = false;
+                const used = new Set();
+                cur.forEach(ins => {
+                    if (ins.arg1 !== undefined && !isLiteral(ins.arg1)) used.add(ins.arg1);
+                    if (ins.arg2 !== undefined && !isLiteral(ins.arg2)) used.add(ins.arg2);
+                });
+                cur = cur.filter(ins => {
+                    if (isTemp(ins.result) && !used.has(ins.result) && ins.op !== 'label') { count++; changed = true; return false; }
+                    return true;
+                });
+            }
+            return { code: cur, count };
+        }
+
+        function peephole(code) {
+            let count = 0; let cur = code.slice();
+            const redirect = {};
+            for (let i = 0; i < cur.length - 1; i++) { if (cur[i].op === 'label' && cur[i + 1].op === 'label') { redirect[cur[i + 1].result] = cur[i].result; } }
+            if (Object.keys(redirect).length) {
+                cur = cur.map(ins => {
+                    if ((ins.op === 'goto' || ins.op === 'iffalse') && redirect[ins.result] !== undefined) { count++; return { ...ins, result: redirect[ins.result] }; }
+                    return ins;
+                });
+            }
+            const out = [];
+            for (let i = 0; i < cur.length; i++) {
+                const ins = cur[i];
+                if (ins.op === 'goto') { const next = cur[i + 1]; if (next && next.op === 'label' && next.result === ins.result) { count++; continue; } }
+                out.push(ins);
+            }
+            return { code: out, count };
+        }
+
+        function optimize(code) {
+            const report = []; let c = code, r;
+            r = foldConstants(c); c = r.code; report.push(['Constant folding', r.count]);
+            r = copyPropagate(c); c = r.code; report.push(['Copy propagation', r.count]);
+            r = eliminateDeadCode(c); c = r.code; report.push(['Dead code elimination', r.count]);
+            r = peephole(c); c = r.code; report.push(['Peephole optimization', r.count]);
+            return { code: c, report };
+        }
+
+        function vmRun(code, maxSteps = 100000) {
+            const labelMap = {}; code.forEach((ins, idx) => { if (ins.op === 'label') labelMap[ins.result] = idx; });
+            const vars = {}, output = [];
+            const resolve = x => isLiteral(x) ? parseFloat(x) : (vars[x] !== undefined ? vars[x] : 0);
+            let pc = 0, steps = 0;
+            while (pc < code.length && steps < maxSteps) {
+                const ins = code[pc]; steps++;
+                switch (ins.op) {
+                    case 'label': pc++; break;
+                    case '=': vars[ins.result] = resolve(ins.arg1); pc++; break;
+                    case '+': vars[ins.result] = resolve(ins.arg1) + resolve(ins.arg2); pc++; break;
+                    case '-': vars[ins.result] = resolve(ins.arg1) - resolve(ins.arg2); pc++; break;
+                    case '*': vars[ins.result] = resolve(ins.arg1) * resolve(ins.arg2); pc++; break;
+                    case '/': vars[ins.result] = resolve(ins.arg1) / resolve(ins.arg2); pc++; break;
+                    case '<': vars[ins.result] = resolve(ins.arg1) < resolve(ins.arg2) ? 1 : 0; pc++; break;
+                    case '>': vars[ins.result] = resolve(ins.arg1) > resolve(ins.arg2) ? 1 : 0; pc++; break;
+                    case '<=': vars[ins.result] = resolve(ins.arg1) <= resolve(ins.arg2) ? 1 : 0; pc++; break;
+                    case '>=': vars[ins.result] = resolve(ins.arg1) >= resolve(ins.arg2) ? 1 : 0; pc++; break;
+                    case '==': vars[ins.result] = resolve(ins.arg1) == resolve(ins.arg2) ? 1 : 0; pc++; break;
+                    case '!=': vars[ins.result] = resolve(ins.arg1) != resolve(ins.arg2) ? 1 : 0; pc++; break;
+                    case 'uminus': vars[ins.result] = -resolve(ins.arg1); pc++; break;
+                    case 'goto': pc = labelMap[ins.result]; break;
+                    case 'iffalse': pc = resolve(ins.arg1) ? pc + 1 : labelMap[ins.result]; break;
+                    case 'print': output.push(resolve(ins.arg1)); pc++; break;
+                    default: pc++;
+                }
+            }
+            return { vars, output };
+        }
+
+        /* =========================================================
+           UI STATE + RENDERING
+           ========================================================= */
+        const EXAMPLES = {
+            'Sum 1..N': `let n = 10;
+let sum = 0;
+let i = 1;
+while (i <= n) {
+  sum = sum + i;
+  i = i + 1;
+}
+print(sum);`,
+            'Factorial': `let n = 6;
+let fact = 1;
+let i = 1;
+while (i <= n) {
+  fact = fact * i;
+  i = i + 1;
+}
+print(fact);`,
+            'If / Else + Folding': `let a = 4;
+let b = 7;
+let c = 2 + 3 * 4;
+if (a > b) {
+  print(a);
+} else {
+  print(b);
+}
+print(c);`,
+            'GCD': `let a = 48;
+let b = 18;
+while (a != b) {
+  if (a > b) {
+    a = a - b;
+  } else {
+    b = b - a;
+  }
+}
+print(a);`
+        };
+
+        const PIPELINE_STAGES = [
+            { key: 'tokens', label: 'Lexer', tab: 'tab-tokens', icon: '<path d="M4 4h16v16H4z" fill="none" stroke-width="1.5"/><path d="M8 9h8M8 13h5"/>' },
+            { key: 'tree', label: 'Parser', tab: 'tab-tree', icon: '<path d="M12 4v4M12 4l-5 5M12 4l5 5M7 9v4M17 9v4M7 13l5 5M17 13l-5 5"/>' },
+            { key: 'ir', label: 'IR Gen', tab: 'tab-ir', icon: '<path d="M4 6h16M4 12h10M4 18h13"/>' },
+            { key: 'opt', label: 'Optimize', tab: 'tab-opt', icon: '<path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.4L12 15.8 7.1 18.1 8 12.7 4 8.8l5.5-.8z"/>' },
+            { key: 'exec', label: 'Execute', tab: 'tab-exec', icon: '<polygon points="6,4 20,12 6,20"/>' },
+        ];
+
+        let state = { tokens: null, ast: null, ir: null, optResult: null, sourceForScan: '' };
+
+        function el(id) { return document.getElementById(id); }
+
+        /* ---- examples ---- */
+        function buildExamples() {
+            const box = el('examples');
+            Object.keys(EXAMPLES).forEach((name, idx) => {
+                const c = document.createElement('div');
+                c.className = 'chip' + (idx === 0 ? ' active' : '');
+                c.textContent = name;
+                c.onclick = () => {
+                    document.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
+                    c.classList.add('active');
+                    el('src').value = EXAMPLES[name];
+                };
+                box.appendChild(c);
+            });
+            el('src').value = EXAMPLES['Sum 1..N'];
+        }
+
+        /* ---- pipeline strip ---- */
+        function buildPipeline() {
+            const track = el('pipelineTrack');
+            track.innerHTML = '';
+            PIPELINE_STAGES.forEach((s, i) => {
+                const node = document.createElement('div');
+                node.className = 'p-node'; node.id = 'pnode-' + s.key;
+                node.innerHTML = `<div class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${s.icon}</svg></div><div class="label">${s.label}</div>`;
+                node.onclick = () => selectTab(s.tab);
+                track.appendChild(node);
+                if (i < PIPELINE_STAGES.length - 1) {
+                    const trace = document.createElement('div');
+                    trace.className = 'p-trace'; trace.id = 'ptrace-' + i;
+                    trace.innerHTML = '<div class="flow"></div>';
+                    track.appendChild(trace);
+                }
+            });
+        }
+        function setPipelineState(doneKeys, activeKey) {
+            PIPELINE_STAGES.forEach((s, i) => {
+                const node = el('pnode-' + s.key);
+                node.classList.remove('done', 'active');
+                if (doneKeys.includes(s.key)) node.classList.add('done');
+                if (s.key === activeKey) node.classList.add('active');
+                if (i < PIPELINE_STAGES.length - 1) {
+                    const trace = el('ptrace-' + i);
+                    const nextDone = doneKeys.includes(PIPELINE_STAGES[i + 1].key) || doneKeys.includes(s.key);
+                    trace.classList.toggle('flowing', doneKeys.includes(s.key));
+                }
+            });
+        }
+
+        /* ---- tabs ---- */
+        function buildTabs() {
+            const names = [['tab-tokens', 'Tokens'], ['tab-tree', 'Syntax Tree'], ['tab-ir', '3-Address Code'], ['tab-opt', 'Optimizer'], ['tab-exec', 'Execution']];
+            const box = el('tabs'); box.innerHTML = '';
+            names.forEach(([id, label], i) => {
+                const t = document.createElement('div');
+                t.className = 'tab' + (i === 0 ? ' active' : '');
+                t.textContent = label; t.dataset.tab = id;
+                t.onclick = () => selectTab(id);
+                box.appendChild(t);
+            });
+        }
+        function selectTab(id) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === id));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.toggle('active', c.id === id));
+        }
+
+        /* ---- IR formatting ---- */
+        function fmtIns(ins) {
+            switch (ins.op) {
+                case 'label': return `<span class="kw">${ins.result}:</span>`;
+                case 'goto': return `<span class="kw">goto</span> ${ins.result}`;
+                case 'iffalse': return `<span class="kw">iffalse</span> ${ins.arg1} <span class="kw">goto</span> ${ins.result}`;
+                case 'print': return `<span class="kw">print</span>(${ins.arg1})`;
+                case 'uminus': return `${ins.result} = -${ins.arg1}`;
+                case '=': return `${ins.result} = ${ins.arg1}`;
+                default: return `${ins.result} = ${ins.arg1} ${ins.op} ${ins.arg2}`;
+            }
+        }
+        function renderIRList(container, code, opts) {
+            opts = opts || {};
+            container.innerHTML = '';
+            if (!code.length) { container.innerHTML = '<div class="empty-state">No instructions.</div>'; return; }
+            code.forEach((ins, i) => {
+                const row = document.createElement('div');
+                row.className = 'ir-row' + (ins.op === 'label' ? ' label-row' : '');
+                row.id = (opts.idPrefix || '') + 'ir-' + i;
+                row.innerHTML = `<div class="idx">${ins.op === 'label' ? '' : i}</div><div class="code-line">${fmtIns(ins)}</div>`;
+                container.appendChild(row);
+            });
+        }
+
+        /* ---- Tree rendering ---- */
+        function exprLabel(node) {
+            if (node.type === 'Num') return `<span class="node-pill"><span class="ntype">Num</span><span class="nval">${node.value}</span></span>`;
+            if (node.type === 'Ident') return `<span class="node-pill"><span class="ntype">Ident</span><span class="nname">${node.name}</span></span>`;
+            if (node.type === 'BinOp') return `<span class="node-pill"><span class="ntype">BinOp</span><span class="nname">${node.op}</span></span>`;
+            if (node.type === 'Unary') return `<span class="node-pill"><span class="ntype">Unary</span><span class="nname">${node.op}</span></span>`;
+            return '';
+        }
+        function buildTreeHTML(node) {
+            if (node.type === 'Program') {
+                return `<ul class="tree"><li>${'<span class="node-pill"><span class="ntype">Program</span></span>'}${childList(node.body)}</li></ul>`;
+            }
+            return renderStmt(node);
+        }
+        function childList(children) {
+            if (!children || !children.length) return '';
+            return '<ul>' + children.map(c => `<li>${renderStmt(c)}</li>`).join('') + '</ul>';
+        }
+        function renderStmt(node) {
+            switch (node.type) {
+                case 'VarDecl': return `<span class="node-pill"><span class="ntype">VarDecl</span><span class="nname">${node.name}</span></span>` + `<ul><li>${renderExpr(node.init)}</li></ul>`;
+                case 'Assign': return `<span class="node-pill"><span class="ntype">Assign</span><span class="nname">${node.name}</span></span>` + `<ul><li>${renderExpr(node.value)}</li></ul>`;
+                case 'Print': return `<span class="node-pill"><span class="ntype">Print</span></span>` + `<ul><li>${renderExpr(node.value)}</li></ul>`;
+                case 'Block': return `<span class="node-pill"><span class="ntype">Block</span></span>` + childList(node.body);
+                case 'If': {
+                    let inner = `<ul><li><span class="node-pill"><span class="ntype">cond</span></span><ul><li>${renderExpr(node.cond)}</li></ul></li>`;
+                    inner += `<li><span class="node-pill"><span class="ntype">then</span></span>${childList(node.then.body)}</li>`;
+                    if (node.alt) inner += `<li><span class="node-pill"><span class="ntype">else</span></span>${childList(node.alt.body)}</li>`;
+                    inner += '</ul>';
+                    return `<span class="node-pill"><span class="ntype">If</span></span>` + inner;
+                }
+                case 'While': {
+                    let inner = `<ul><li><span class="node-pill"><span class="ntype">cond</span></span><ul><li>${renderExpr(node.cond)}</li></ul></li>`;
+                    inner += `<li><span class="node-pill"><span class="ntype">body</span></span>${childList(node.body.body)}</li></ul>`;
+                    return `<span class="node-pill"><span class="ntype">While</span></span>` + inner;
+                }
+                default: return renderExpr(node);
+            }
+        }
+        function renderExpr(node) {
+            if (node.type === 'BinOp') return exprLabel(node) + `<ul><li>${renderExpr(node.left)}</li><li>${renderExpr(node.right)}</li></ul>`;
+            if (node.type === 'Unary') return exprLabel(node) + `<ul><li>${renderExpr(node.expr)}</li></ul>`;
+            return exprLabel(node);
+        }
+
+        /* ---- DFA diagrams ---- */
+        function drawIdentDFA() {
+            const svg = el('dfaIdent');
+            svg.innerHTML = `
+    <circle class="state-circle" id="ident-s0" cx="50" cy="55" r="20"></circle>
+    <text class="state-label" id="ident-s0-t" x="50" y="59" text-anchor="middle">S0</text>
+    <circle class="state-circle" id="ident-s1" cx="180" cy="55" r="20"></circle>
+    <circle class="state-circle" cx="180" cy="55" r="25" fill="none" stroke="var(--dim)" stroke-width="1.2"></circle>
+    <text class="state-label" id="ident-s1-t" x="180" y="59" text-anchor="middle">S1</text>
+    <path class="dfa-edge" d="M70,55 L155,55" marker-end="url(#arrow1)"></path>
+    <text class="dfa-edge-label" x="112" y="46" text-anchor="middle">letter, _</text>
+    <path class="dfa-edge" d="M180,30 C160,10 200,10 180,30" marker-end="url(#arrow1)"></path>
+    <text class="dfa-edge-label" x="180" y="12" text-anchor="middle">letter, digit, _</text>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="var(--dim)"></path></marker></defs>
+    <text class="dfa-edge-label" x="10" y="52" text-anchor="start">start</text>
+    <path class="dfa-edge" d="M2,55 L28,55" marker-end="url(#arrow1)"></path>
+  `;
+        }
+        function drawNumberDFA() {
+            const svg = el('dfaNumber');
+            svg.innerHTML = `
+    <circle class="state-circle" id="num-s0" cx="35" cy="55" r="18"></circle>
+    <text class="state-label" id="num-s0-t" x="35" y="59" text-anchor="middle">S0</text>
+    <circle class="state-circle" id="num-s1" cx="120" cy="55" r="18"></circle>
+    <circle class="state-circle" cx="120" cy="55" r="23" fill="none" stroke="var(--dim)" stroke-width="1.2"></circle>
+    <text class="state-label" id="num-s1-t" x="120" y="59" text-anchor="middle">S1</text>
+    <circle class="state-circle" id="num-s2" cx="205" cy="55" r="18"></circle>
+    <text class="state-label" id="num-s2-t" x="205" y="59" text-anchor="middle">S2</text>
+    <circle class="state-circle" id="num-s3" cx="275" cy="55" r="18"></circle>
+    <circle class="state-circle" cx="275" cy="55" r="23" fill="none" stroke="var(--dim)" stroke-width="1.2"></circle>
+    <text class="state-label" id="num-s3-t" x="275" y="59" text-anchor="middle">S3</text>
+    <path class="dfa-edge" d="M53,55 L102,55" marker-end="url(#arrow2)"></path>
+    <text class="dfa-edge-label" x="77" y="46" text-anchor="middle">digit</text>
+    <path class="dfa-edge" d="M120,30 C102,10 138,10 120,30" marker-end="url(#arrow2)"></path>
+    <text class="dfa-edge-label" x="120" y="12" text-anchor="middle">digit</text>
+    <path class="dfa-edge" d="M138,55 L187,55" marker-end="url(#arrow2)"></path>
+    <text class="dfa-edge-label" x="162" y="46" text-anchor="middle">.</text>
+    <path class="dfa-edge" d="M223,55 L257,55" marker-end="url(#arrow2)"></path>
+    <text class="dfa-edge-label" x="240" y="46" text-anchor="middle">digit</text>
+    <path class="dfa-edge" d="M275,30 C257,10 293,10 275,30" marker-end="url(#arrow2)"></path>
+    <text class="dfa-edge-label" x="275" y="12" text-anchor="middle">digit</text>
+    <defs><marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="var(--dim)"></path></marker></defs>
+  `;
+        }
+        function setDFAActive(prefix, stateName) {
+            ['s0', 's1', 's2', 's3'].forEach(s => {
+                const c = document.getElementById(prefix + '-' + s), t = document.getElementById(prefix + '-' + s + '-t');
+                if (c) { c.classList.toggle('active', s === stateName); }
+                if (t) { t.classList.toggle('active', s === stateName); }
+            });
+        }
+
+        /* =========================================================
+           SCANNING (Tokens tab) ANIMATION
+           ========================================================= */
+        let scanTimer = null, scanIdx = 0;
+        function renderSourceScan(src) {
+            const box = el('sourceScan');
+            box.innerHTML = '';
+            [...src].forEach((ch, i) => {
+                const span = document.createElement('span');
+                span.className = 'ch'; span.id = 'srcch-' + i;
+                span.textContent = ch;
+                box.appendChild(span);
+            });
+        }
+        function classForToken(t) {
+            if (t.type === 'IDENT') return 'scanned-ident';
+            if (t.type === 'NUMBER') return 'scanned-num';
+            if (t.type === 'KEYWORD') return 'scanned-kw';
+            return 'scanned-op';
+        }
+        function resetScan() {
+            clearInterval(scanTimer); scanTimer = null; scanIdx = 0;
+            renderSourceScan(state.sourceForScan);
+            el('tokTable').innerHTML = '';
+            setDFAActive('ident', null); setDFAActive('num', null);
+        }
+        function stepScan() {
+            if (!state.tokens) return;
+            const toks = state.tokens.filter(t => t.type !== 'EOF');
+            if (scanIdx >= toks.length) { clearInterval(scanTimer); scanTimer = null; setDFAActive('ident', null); setDFAActive('num', null); return; }
+            const t = toks[scanIdx];
+            for (let i = t.start; i < t.end; i++) { const s = document.getElementById('srcch-' + i); if (s) s.classList.add(classForToken(t)); }
+            setDFAActive('ident', t.type === 'IDENT' || t.type === 'KEYWORD' ? 's1' : null);
+            setDFAActive('num', t.type === 'NUMBER' ? (t.value.includes('.') ? 's3' : 's1') : null);
+            const row = document.createElement('tr'); row.className = 'tok-new';
+            row.innerHTML = `<td>${scanIdx + 1}</td><td><span class="badge ${t.type}">${t.type}</span></td><td>${t.value}</td><td>${t.line}</td>`;
+            el('tokTable').appendChild(row);
+            scanIdx++;
+        }
+        function playScan() {
+            clearInterval(scanTimer);
+            const speed = 11 - parseInt(el('scanSpeed').value, 10);
+            scanTimer = setInterval(() => {
+                stepScan();
+                if (!state.tokens || scanIdx >= state.tokens.filter(t => t.type !== 'EOF').length) { clearInterval(scanTimer); scanTimer = null; }
+            }, speed * 90);
+        }
+
+        /* =========================================================
+           VM STEPPER (Execution tab)
+           ========================================================= */
+        let vmState = null, vmTimer = null;
+        function vmInit() {
+            const code = state.optResult.code;
+            const labelMap = {}; code.forEach((ins, idx) => { if (ins.op === 'label') labelMap[ins.result] = idx; });
+            vmState = { code, labelMap, vars: {}, output: [], pc: 0, finished: code.length === 0 };
+            renderIRList(el('vmCode'), code, { idPrefix: 'vm-' });
+            vmRenderState();
+        }
+        function vmResolve(x) { return isLiteral(x) ? parseFloat(x) : (vmState.vars[x] !== undefined ? vmState.vars[x] : 0); }
+        function vmStep() {
+            if (!vmState || vmState.finished) return;
+            const { code } = vmState;
+            if (vmState.pc >= code.length) { vmState.finished = true; vmRenderState(); return; }
+            const ins = code[vmState.pc];
+            switch (ins.op) {
+                case 'label': vmState.pc++; break;
+                case '=': vmState.vars[ins.result] = vmResolve(ins.arg1); vmState.pc++; break;
+                case '+': vmState.vars[ins.result] = vmResolve(ins.arg1) + vmResolve(ins.arg2); vmState.pc++; break;
+                case '-': vmState.vars[ins.result] = vmResolve(ins.arg1) - vmResolve(ins.arg2); vmState.pc++; break;
+                case '*': vmState.vars[ins.result] = vmResolve(ins.arg1) * vmResolve(ins.arg2); vmState.pc++; break;
+                case '/': vmState.vars[ins.result] = vmResolve(ins.arg1) / vmResolve(ins.arg2); vmState.pc++; break;
+                case '<': vmState.vars[ins.result] = vmResolve(ins.arg1) < vmResolve(ins.arg2) ? 1 : 0; vmState.pc++; break;
+                case '>': vmState.vars[ins.result] = vmResolve(ins.arg1) > vmResolve(ins.arg2) ? 1 : 0; vmState.pc++; break;
+                case '<=': vmState.vars[ins.result] = vmResolve(ins.arg1) <= vmResolve(ins.arg2) ? 1 : 0; vmState.pc++; break;
+                case '>=': vmState.vars[ins.result] = vmResolve(ins.arg1) >= vmResolve(ins.arg2) ? 1 : 0; vmState.pc++; break;
+                case '==': vmState.vars[ins.result] = vmResolve(ins.arg1) == vmResolve(ins.arg2) ? 1 : 0; vmState.pc++; break;
+                case '!=': vmState.vars[ins.result] = vmResolve(ins.arg1) != vmResolve(ins.arg2) ? 1 : 0; vmState.pc++; break;
+                case 'uminus': vmState.vars[ins.result] = -vmResolve(ins.arg1); vmState.pc++; break;
+                case 'goto': vmState.pc = vmState.labelMap[ins.result]; break;
+                case 'iffalse': vmState.pc = vmResolve(ins.arg1) ? vmState.pc + 1 : vmState.labelMap[ins.result]; break;
+                case 'print': vmState.output.push(vmResolve(ins.arg1)); vmState.pc++; break;
+                default: vmState.pc++;
+            }
+            if (vmState.pc >= code.length) vmState.finished = true;
+            vmRenderState();
+        }
+        function vmRenderState() {
+            document.querySelectorAll('#vmCode .ir-row').forEach(r => r.classList.remove('current'));
+            if (!vmState.finished) { const row = el('vm-ir-' + vmState.pc); if (row) row.classList.add('current'); row && row.scrollIntoView({ block: 'nearest' }); }
+            const varNames = Object.keys(vmState.vars).filter(n => !/^t\d+$/.test(n));
+            el('vmVars').innerHTML = varNames.length ? varNames.map(n => `<tr><td class="vname">${n}</td><td>${vmState.vars[n]}</td></tr>`).join('') : '<tr><td colspan="2" style="color:var(--dim);">no variables yet</td></tr>';
+            el('vmConsole').innerHTML = vmState.output.length ? vmState.output.map(o => `<div class="line">&gt; ${o}</div>`).join('') : '<span class="placeholder">(no output yet)</span>';
+        }
+        function vmPlay() {
+            clearInterval(vmTimer);
+            const speed = 11 - parseInt(el('vmSpeed').value, 10);
+            vmTimer = setInterval(() => {
+                if (!vmState || vmState.finished) { clearInterval(vmTimer); return; }
+                vmStep();
+            }, speed * 70);
+        }
+        function vmReset() { clearInterval(vmTimer); vmInit(); }
+
+        /* =========================================================
+           MAIN COMPILE FLOW
+           ========================================================= */
+        function showError(msg) {
+            const box = el('errBox'); box.textContent = msg; box.classList.add('show');
+        }
+        function clearError() { el('errBox').classList.remove('show'); el('errBox').textContent = ''; }
+
+        function compileAndRun() {
+            clearError();
+            const src = el('src').value;
+            let tokens, ast, ir, optResult;
+            try {
+                tokens = lex(src);
+            } catch (e) { showError(e.message); setPipelineState([], null); return; }
+            try {
+                ast = parse(tokens);
+            } catch (e) { showError(e.message); setPipelineState(['tokens'], null); return; }
+            ir = genIR(ast);
+            optResult = optimize(ir);
+
+            state = { tokens, ast, ir, optResult, sourceForScan: src };
+
+            setPipelineState(['tokens', 'tree', 'ir', 'opt', 'exec'], null);
+
+            // Tokens tab
+            resetScan();
+
+            // Tree tab
+            el('treeWrap').innerHTML = buildTreeHTML(ast);
+
+            // IR tab
+            renderIRList(el('irList'), ir, { idPrefix: 'plain-' });
+
+            // Optimizer tab
+            const totalRemoved = optResult.report.reduce((s, [, c]) => s + c, 0);
+            el('optSummary').innerHTML = optResult.report.map(([name, count]) =>
+                `<div class="opt-stat"><div class="num">${count}</div><div class="lbl">${name}</div></div>`
+            ).join('') + `<div class="opt-stat"><div class="num">${ir.length} &rarr; ${optResult.code.length}</div><div class="lbl">Instruction count</div></div>`;
+            renderIRList(el('irOrig'), ir, { idPrefix: 'orig-' });
+            renderIRList(el('irOpt'), optResult.code, { idPrefix: 'optd-' });
+
+            // Execution tab
+            vmInit();
+            el('verifyResult').innerHTML = '';
+
+            selectTab('tab-tokens');
+        }
+
+        /* =========================================================
+           EVENT WIRING
+           ========================================================= */
+        window.addEventListener('DOMContentLoaded', () => {
+            buildExamples();
+            buildPipeline();
+            buildTabs();
+            drawIdentDFA();
+            drawNumberDFA();
+
+            el('runBtn').onclick = compileAndRun;
+            el('playScan').onclick = playScan;
+            el('stepScan').onclick = () => { clearInterval(scanTimer); scanTimer = null; stepScan(); };
+            el('resetScan').onclick = resetScan;
+
+            el('vmPlay').onclick = vmPlay;
+            el('vmStep').onclick = () => { clearInterval(vmTimer); vmStep(); };
+            el('vmReset').onclick = vmReset;
+
+            el('verifyBtn').onclick = () => {
+                if (!state.ir) { return; }
+                const r1 = vmRun(state.ir);
+                const r2 = vmRun(state.optResult.code);
+                const match = JSON.stringify(r1.output) === JSON.stringify(r2.output);
+                el('verifyResult').innerHTML = match
+                    ? `<span class="ok">&#10003;</span> <span>Outputs match &mdash; <b>[${r1.output.join(', ')}]</b>. Optimization is semantics-preserving.</span>`
+                    : `<span class="bad">&#10007;</span> <span>Mismatch! Unoptimized: [${r1.output.join(', ')}] vs Optimized: [${r2.output.join(', ')}]</span>`;
+            };
+
+            compileAndRun();
+        });
+    </script>
+</body>
+
+</html>
