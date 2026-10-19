@@ -1,0 +1,14 @@
+int result = 4;
+int y = result / 8;
+string resulst = "done";
+bool ok = true;
+bool resiulst = 28.8 * 18 == result;
+float results = 27.1 * 13.4;
+bool passed1 = resiulst;
+string course = resulst + "ok";
+print(26 > y - 5);
+print(resulst + "compiler");
+print(result);
+bool done2 = passed1 || result == 7 / 6;
+ok = 12.1 + results < 21 / 5;
+int rresulst = y % 5;

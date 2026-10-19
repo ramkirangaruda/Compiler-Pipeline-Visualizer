@@ -1,0 +1,11 @@
+string course = "compiler";
+int size = 14 + 14;
+string city2 = "compiler";
+int size3 = 15 + 7;
+float weight = 25.1 + 4;
+print(size3);
+print(course);
+print(course);
+print(weight);
+course = "bob";
+print(icty2);

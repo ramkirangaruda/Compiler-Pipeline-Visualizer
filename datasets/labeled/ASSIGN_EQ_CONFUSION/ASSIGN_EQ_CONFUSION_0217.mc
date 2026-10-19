@@ -1,0 +1,14 @@
+bool has_more = (5 - 22) < 14;
+int hns_more = (3 - 0);
+int has_morex = hns_more + hns_more;
+bool is_even3 = 8 / 9 == 5 + has_morex;
+bool is_even1 = has_more;
+bool has_moiex = !has_more;
+string label = "token";
+is_even3 = is_even1;
+has_more = is_even3;
+print(has_moiex);
+hns_more == has_morex;
+print(has_more);
+bool done = hns_more % 7 <= 33 - has_morex;
+print("parse");

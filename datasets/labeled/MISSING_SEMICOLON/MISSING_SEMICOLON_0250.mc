@@ -1,0 +1,10 @@
+int lives3 = (14 % 5);
+float distance2 = 26.7 - 15.4;
+int x = 38;
+string course = "token"
+int y = (40 + 19);
+course = course;
+print(distance2 != (2 / 5));
+string city2 = "alice";
+int tickets1 = (x + x);
+print(distance2 - 34 <= (tickets1 - tickets1));

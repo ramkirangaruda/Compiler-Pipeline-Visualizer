@@ -1,0 +1,15 @@
+int first = 8 + 10;
+float distance1 = 22.1 * 22.8;
+int stock3 = (21 + 20);
+string city = "world";
+int total = first;
+print(stock3);
+first = total;
+city = "compiler";
+print(total);
+int cityx = 39;
+print((stock3 / 3);
+print(city);
+int k = 39 / 7;
+city = "alice";
+print(distance1 - 12.7 == (cityx / 3));

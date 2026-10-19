@@ -1,0 +1,14 @@
+string greeting1 = "bob";
+int num = (30 * 31)
+float nom = 21.1;
+string owner = "pipeline";
+int n1 = num / 2;
+float rate3 = nom;
+bool ok1 = rate3 <= n1;
+string word = "hello";
+nom = n1 / 3;
+greeting1 = greeting1;
+print(word);
+print((num + 38) != (n1 + n1) || n1 <= num + num);
+print(rate3);
+print(owner);

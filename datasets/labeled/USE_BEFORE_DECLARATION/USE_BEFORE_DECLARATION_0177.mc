@@ -1,0 +1,11 @@
+float speed2 = 13.7;
+int limit = 12;
+int z = limit;
+bool done1 = owner != "hello";
+string owner = "compiler";
+print(owner + "compiler");
+int age = (limit / 2);
+print(z);
+int tickets = (limit + 31);
+print(z);
+print(owner);

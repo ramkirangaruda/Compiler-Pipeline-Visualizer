@@ -1,0 +1,13 @@
+string course;
+string word = course + "ok";
+float wordx = 21.3;
+float price = wordx;
+price = 27 - 18;
+print(wordx);
+course = 1.5;
+print(wordx);
+print(price);
+print(course);
+print(word);
+price = 40;
+print(wordx);

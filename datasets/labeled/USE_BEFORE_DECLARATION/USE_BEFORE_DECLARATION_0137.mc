@@ -1,0 +1,13 @@
+float salary = 28.3;
+string owner = "hello";
+string title = "robot";
+bool ownerx = false;
+string course = "compiler";
+owner = "done";
+print(36);
+string owsnerx = "hello";
+print(price);
+float price = salary * salary;
+print(salary);
+price = salary - salary;
+print(price);

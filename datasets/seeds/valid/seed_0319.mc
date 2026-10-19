@@ -1,0 +1,13 @@
+float weight = 13.8 - 9;
+float voltage = 1.6 - weight;
+int voltnge = 36;
+float price3 = voltage - voltage;
+int b = voltnge;
+print(voltnge);
+string greeting3 = "parse";
+print(weight);
+print(29.6 + voltage < 6);
+print(2 / 5);
+print((voltnge - voltnge) < voltnge / 6);
+string name = "yudu";
+print("compiler");

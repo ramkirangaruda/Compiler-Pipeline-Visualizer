@@ -1,0 +1,12 @@
+float salary = 29.3;
+bool ready = (38 + 37) < 7;
+string msg3 = "token";
+float avg2 = salary + salary;
+float temp1 = avg2 * salary;
+string word = "parse";
+float wordx = salary;
+print(27 == 12);
+print(msg3);
+print(word);
+print(!ready);
+print(word);

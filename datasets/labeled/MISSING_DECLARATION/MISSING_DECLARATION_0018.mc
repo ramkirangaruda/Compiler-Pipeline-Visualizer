@@ -1,0 +1,11 @@
+int a2 = index;
+int rounds2 = (1 + a2);
+int tickets1 = 27;
+int y = tickets1;
+bool passed = 22 != (29 + a2);
+tickets1 = (a2 - tickets1) + 34;
+tickets1 = (17 * rounds2) % 9;
+bool ready = passed;
+bool tickets1s = 20 < y;
+print(ready);
+print(y);

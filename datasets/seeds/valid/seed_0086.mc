@@ -1,0 +1,12 @@
+int n2 = (11 + 15);
+int result = n2 % 3;
+bool flag = 1 - n2 == (n2 % 2);
+bool valid = 19 - 37 <= result + n2;
+bool has_more = result + 19 >= n2 * result;
+flag = n2 - 1 < result;
+print(flag);
+valid = (25 + 11) == (37 - n2);
+print(valid);
+flag = (result * 14) != result - n2;
+flag = 27.8 < result + n2 && (n2 * result) != 19;
+print("world");

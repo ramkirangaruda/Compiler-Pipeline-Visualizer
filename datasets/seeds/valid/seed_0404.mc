@@ -1,0 +1,13 @@
+float ratio = 21.7;
+int age = (3 + 32);
+string city = "hello";
+float speed = 5.8 + 19.1;
+string speted = city;
+bool done = false;
+string greeting2 = city;
+int marks = age;
+marks = age;
+city = greeting2 + "world";
+marks = age + 9 / 8;
+speted = "hello";
+print(marks);

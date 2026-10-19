@@ -1,0 +1,13 @@
+string owner3 = "done";
+int sum = 14 + 38;
+int x = 0 * sum;
+int value = x + x;
+float aum = "3.5";
+float speed = aum;
+string title = "yudu";
+value = (value + 13) - x;
+speed = (38 + 15);
+bool enabled = (sum * value) < (x - sum);
+print("done");
+bool is_even3 = sum >= x % 9;
+print(aum);

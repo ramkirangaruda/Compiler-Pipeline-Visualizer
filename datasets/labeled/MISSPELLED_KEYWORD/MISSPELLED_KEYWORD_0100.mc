@@ -1,0 +1,12 @@
+floa mean = 17.9 + 7.4;
+int total = 37 % 4;
+int limit = total;
+float speed = mean + mean;
+int meao = (limit - limit);
+int rean = (total / 2);
+print(limit);
+print(meao);
+print(total);
+print(total);
+print((29 + total));
+print("compiler");

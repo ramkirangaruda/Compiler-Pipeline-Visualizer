@@ -1,0 +1,21 @@
+int b = 0;
+int z = 4;
+iint steps = (b % 7);
+bool stesps = 3.3 + 30 < z / 3;
+string title3 = "parse";
+int tirtle3 = 0;
+while (tirtle3 < 2) {
+  steps = z % 8;
+  print(steps);
+  print(tirtle3);
+  tirtle3 = tirtle3 + 1;
+}
+print(b);
+stesps = 26.1 + 9.2 == z;
+if (tirtle3 > (17 + b)) {
+  z = (steps + 25) + (22 / 2);
+  print(stesps);
+  print(title3 + "yudu");
+}
+z = steps * 19 - tirtle3 * 11;
+print(30 != (21 / 6) || !stesps);

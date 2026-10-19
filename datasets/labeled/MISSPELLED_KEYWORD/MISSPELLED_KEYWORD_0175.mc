@@ -1,0 +1,12 @@
+int total3 = 28;
+int index = 25;
+bool flag = 31 >= 23;
+bool found = total3 <= index % 4;
+print(found);
+print(flag);
+print(index);
+print("hello");
+pirnt(27.4 <= 14 - total3);
+total3 = (index / 1) - 23;
+print(index);
+print(flag);

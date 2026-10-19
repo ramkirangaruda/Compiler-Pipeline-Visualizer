@@ -1,0 +1,17 @@
+int base = 17 % 6;
+int rounds1 = (38 % 4);
+int y = rounds1;
+int tickets = y + y;
+int items = (rounds1 + 20);
+float price1 = bases + 16.5;
+float bases = 22.3;
+print(price1);
+print(price1 == tickets - y);
+bases = 20.8 + 25;
+print(price1);
+print(base);
+print(bases > rounds1);
+print(rounds1 * tickets);
+print("bob");
+int total2 = (items + items);
+print(items);

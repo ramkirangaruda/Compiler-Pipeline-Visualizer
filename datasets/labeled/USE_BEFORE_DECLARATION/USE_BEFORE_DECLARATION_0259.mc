@@ -1,0 +1,13 @@
+int width = 6;
+string title = "hello";
+bool enabled = 4.1 > 36;
+float rate1 = 9.4 * width;
+bool has_more = width % 5 < width - width;
+int points = (width + width);
+owner3 = owner3 + "token";
+string owner3 = title;
+points = (12 % 7) / 7;
+float tax = rate1 * 16;
+rate1 = width;
+print(title + "bob");
+print(title);

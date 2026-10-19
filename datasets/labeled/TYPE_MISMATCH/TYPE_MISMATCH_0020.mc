@@ -1,0 +1,10 @@
+int k2 = 22;
+int years = 2.75;
+int limit;
+bool enabled = true;
+print(years);
+k2 = 23 + 19 / 5;
+print(30);
+print(k2);
+limit = limit;
+print(enabled);

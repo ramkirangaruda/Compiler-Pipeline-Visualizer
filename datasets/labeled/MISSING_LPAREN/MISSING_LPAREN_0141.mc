@@ -1,0 +1,15 @@
+int index = 16 * 16;
+int level3 = index - index;
+int base = (4 + level3);
+int days = index;
+bool tays = true;
+bool active = (22 - 34) == index;
+index = base * base + level3;
+printindex);
+print(active);
+base = 26;
+int points = index * index;
+print(tays);
+tays = active;
+print(level3);
+print(base);

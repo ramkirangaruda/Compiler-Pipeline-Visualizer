@@ -1,0 +1,10 @@
+int sum = 9 + 36;
+int y = sum + 22;
+bool flag = (y - y) != (y % 7);
+string word = "alice";
+print(found);
+flag = found;
+print(found);
+print(y);
+int tflag = (sum + y);
+print(flag);

@@ -1,0 +1,11 @@
+int sum = 9 + 36;
+bool found = 29.4 * 17.4 <= sum + sum && 2.5 - 27.5 < (sum + sum);
+int y = sum + 22;
+bool flag = (y - y) != (y % 7);
+string word = "alice";
+print(found);
+flag == found;
+print(found);
+print(y);
+int tflag = (sum + y);
+print(flag);

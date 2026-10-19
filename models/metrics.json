@@ -1,0 +1,1329 @@
+{
+  "trained_at": "2026-10-19T06:40:12+00:00",
+  "selected_model": "Gradient Boosting",
+  "dataset": {
+    "n_seeds": 700,
+    "n_samples": 3120,
+    "n_train": 2470,
+    "n_test": 650,
+    "n_handwritten": 36,
+    "per_label": {
+      "MISSING_SEMICOLON": 260,
+      "MISSING_RPAREN": 260,
+      "MISSING_LPAREN": 260,
+      "MISSING_RBRACE": 260,
+      "MISSING_LBRACE": 260,
+      "MISSPELLED_KEYWORD": 260,
+      "ASSIGN_EQ_CONFUSION": 260,
+      "TYPO_IDENTIFIER": 260,
+      "MISSING_DECLARATION": 260,
+      "USE_BEFORE_DECLARATION": 260,
+      "OUT_OF_SCOPE_USE": 260,
+      "TYPE_MISMATCH": 260
+    },
+    "per_label_split": {
+      "MISSING_SEMICOLON": {
+        "train": 210,
+        "test": 50
+      },
+      "MISSING_RPAREN": {
+        "train": 206,
+        "test": 54
+      },
+      "MISSING_LPAREN": {
+        "train": 199,
+        "test": 61
+      },
+      "MISSING_RBRACE": {
+        "train": 195,
+        "test": 65
+      },
+      "MISSING_LBRACE": {
+        "train": 214,
+        "test": 46
+      },
+      "MISSPELLED_KEYWORD": {
+        "train": 205,
+        "test": 55
+      },
+      "ASSIGN_EQ_CONFUSION": {
+        "train": 206,
+        "test": 54
+      },
+      "TYPO_IDENTIFIER": {
+        "train": 206,
+        "test": 54
+      },
+      "MISSING_DECLARATION": {
+        "train": 205,
+        "test": 55
+      },
+      "USE_BEFORE_DECLARATION": {
+        "train": 211,
+        "test": 49
+      },
+      "OUT_OF_SCOPE_USE": {
+        "train": 213,
+        "test": 47
+      },
+      "TYPE_MISMATCH": {
+        "train": 200,
+        "test": 60
+      }
+    },
+    "n_features": 40
+  },
+  "models": [
+    {
+      "name": "Logistic Regression",
+      "cv_accuracy": 0.9834,
+      "cv_accuracy_std": 0.0027,
+      "cv_macro_f1": 0.9833,
+      "test_accuracy": 0.9785,
+      "test_macro_f1": 0.9786,
+      "test_log_loss": 0.0579,
+      "train_seconds": 0.8
+    },
+    {
+      "name": "Decision Tree",
+      "cv_accuracy": 0.9798,
+      "cv_accuracy_std": 0.0054,
+      "cv_macro_f1": 0.9797,
+      "test_accuracy": 0.98,
+      "test_macro_f1": 0.98,
+      "test_log_loss": 0.7213,
+      "train_seconds": 0.2
+    },
+    {
+      "name": "Random Forest",
+      "cv_accuracy": 0.9818,
+      "cv_accuracy_std": 0.004,
+      "cv_macro_f1": 0.9816,
+      "test_accuracy": 0.9815,
+      "test_macro_f1": 0.9816,
+      "test_log_loss": 0.0911,
+      "train_seconds": 3.0
+    },
+    {
+      "name": "Gradient Boosting",
+      "cv_accuracy": 0.9842,
+      "cv_accuracy_std": 0.0039,
+      "cv_macro_f1": 0.9842,
+      "test_accuracy": 0.9862,
+      "test_macro_f1": 0.9862,
+      "test_log_loss": 0.0329,
+      "train_seconds": 44.8
+    }
+  ],
+  "test": {
+    "accuracy": 0.9862,
+    "macro_f1": 0.9862,
+    "per_class": [
+      {
+        "label": "MISSING_SEMICOLON",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 50
+      },
+      {
+        "label": "MISSING_RPAREN",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 54
+      },
+      {
+        "label": "MISSING_LPAREN",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 61
+      },
+      {
+        "label": "MISSING_RBRACE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 65
+      },
+      {
+        "label": "MISSING_LBRACE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 46
+      },
+      {
+        "label": "MISSPELLED_KEYWORD",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 55
+      },
+      {
+        "label": "ASSIGN_EQ_CONFUSION",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 54
+      },
+      {
+        "label": "TYPO_IDENTIFIER",
+        "precision": 0.9091,
+        "recall": 0.9259,
+        "f1": 0.9174,
+        "support": 54
+      },
+      {
+        "label": "MISSING_DECLARATION",
+        "precision": 0.9259,
+        "recall": 0.9091,
+        "f1": 0.9174,
+        "support": 55
+      },
+      {
+        "label": "USE_BEFORE_DECLARATION",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 49
+      },
+      {
+        "label": "OUT_OF_SCOPE_USE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 47
+      },
+      {
+        "label": "TYPE_MISMATCH",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 60
+      }
+    ],
+    "confusion": {
+      "labels": [
+        "MISSING_SEMICOLON",
+        "MISSING_RPAREN",
+        "MISSING_LPAREN",
+        "MISSING_RBRACE",
+        "MISSING_LBRACE",
+        "MISSPELLED_KEYWORD",
+        "ASSIGN_EQ_CONFUSION",
+        "TYPO_IDENTIFIER",
+        "MISSING_DECLARATION",
+        "USE_BEFORE_DECLARATION",
+        "OUT_OF_SCOPE_USE",
+        "TYPE_MISMATCH"
+      ],
+      "matrix": [
+        [
+          50,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          54,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          61,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          65,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          46,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          55,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          54,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          50,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          50,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          49,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          47,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          60
+        ]
+      ]
+    }
+  },
+  "handwritten": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_class": [
+      {
+        "label": "MISSING_SEMICOLON",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_RPAREN",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_LPAREN",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_RBRACE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_LBRACE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSPELLED_KEYWORD",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "ASSIGN_EQ_CONFUSION",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "TYPO_IDENTIFIER",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_DECLARATION",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "USE_BEFORE_DECLARATION",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "OUT_OF_SCOPE_USE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "TYPE_MISMATCH",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      }
+    ],
+    "confusion": {
+      "labels": [
+        "MISSING_SEMICOLON",
+        "MISSING_RPAREN",
+        "MISSING_LPAREN",
+        "MISSING_RBRACE",
+        "MISSING_LBRACE",
+        "MISSPELLED_KEYWORD",
+        "ASSIGN_EQ_CONFUSION",
+        "TYPO_IDENTIFIER",
+        "MISSING_DECLARATION",
+        "USE_BEFORE_DECLARATION",
+        "OUT_OF_SCOPE_USE",
+        "TYPE_MISMATCH"
+      ],
+      "matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "n": 36
+  },
+  "baseline": {
+    "test": {
+      "accuracy": 0.8615,
+      "macro_f1": 0.8517,
+      "per_class": [
+        {
+          "label": "MISSING_SEMICOLON",
+          "precision": 0.6944,
+          "recall": 1.0,
+          "f1": 0.8197,
+          "support": 50
+        },
+        {
+          "label": "MISSING_RPAREN",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 54
+        },
+        {
+          "label": "MISSING_LPAREN",
+          "precision": 1.0,
+          "recall": 0.2459,
+          "f1": 0.3947,
+          "support": 61
+        },
+        {
+          "label": "MISSING_RBRACE",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 65
+        },
+        {
+          "label": "MISSING_LBRACE",
+          "precision": 0.9375,
+          "recall": 0.9783,
+          "f1": 0.9574,
+          "support": 46
+        },
+        {
+          "label": "MISSPELLED_KEYWORD",
+          "precision": 0.7013,
+          "recall": 0.9818,
+          "f1": 0.8182,
+          "support": 55
+        },
+        {
+          "label": "ASSIGN_EQ_CONFUSION",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 54
+        },
+        {
+          "label": "TYPO_IDENTIFIER",
+          "precision": 0.5625,
+          "recall": 1.0,
+          "f1": 0.72,
+          "support": 54
+        },
+        {
+          "label": "MISSING_DECLARATION",
+          "precision": 1.0,
+          "recall": 0.7273,
+          "f1": 0.8421,
+          "support": 55
+        },
+        {
+          "label": "USE_BEFORE_DECLARATION",
+          "precision": 1.0,
+          "recall": 0.7755,
+          "f1": 0.8736,
+          "support": 49
+        },
+        {
+          "label": "OUT_OF_SCOPE_USE",
+          "precision": 1.0,
+          "recall": 0.6596,
+          "f1": 0.7949,
+          "support": 47
+        },
+        {
+          "label": "TYPE_MISMATCH",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 60
+        }
+      ],
+      "confusion": {
+        "labels": [
+          "MISSING_SEMICOLON",
+          "MISSING_RPAREN",
+          "MISSING_LPAREN",
+          "MISSING_RBRACE",
+          "MISSING_LBRACE",
+          "MISSPELLED_KEYWORD",
+          "ASSIGN_EQ_CONFUSION",
+          "TYPO_IDENTIFIER",
+          "MISSING_DECLARATION",
+          "USE_BEFORE_DECLARATION",
+          "OUT_OF_SCOPE_USE",
+          "TYPE_MISMATCH"
+        ],
+        "matrix": [
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            54,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            21,
+            0,
+            15,
+            0,
+            2,
+            23,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            65,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            45,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            54,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            54,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            54,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            15,
+            40,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11,
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            16,
+            0,
+            0,
+            31,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            60
+          ]
+        ]
+      }
+    },
+    "handwritten": {
+      "accuracy": 0.8889,
+      "macro_f1": 0.8603,
+      "per_class": [
+        {
+          "label": "MISSING_SEMICOLON",
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571,
+          "support": 3
+        },
+        {
+          "label": "MISSING_RPAREN",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "MISSING_LPAREN",
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        },
+        {
+          "label": "MISSING_RBRACE",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "MISSING_LBRACE",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "MISSPELLED_KEYWORD",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "ASSIGN_EQ_CONFUSION",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "TYPO_IDENTIFIER",
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 3
+        },
+        {
+          "label": "MISSING_DECLARATION",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "USE_BEFORE_DECLARATION",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        {
+          "label": "OUT_OF_SCOPE_USE",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "TYPE_MISMATCH",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      ],
+      "confusion": {
+        "labels": [
+          "MISSING_SEMICOLON",
+          "MISSING_RPAREN",
+          "MISSING_LPAREN",
+          "MISSING_RBRACE",
+          "MISSING_LBRACE",
+          "MISSPELLED_KEYWORD",
+          "ASSIGN_EQ_CONFUSION",
+          "TYPO_IDENTIFIER",
+          "MISSING_DECLARATION",
+          "USE_BEFORE_DECLARATION",
+          "OUT_OF_SCOPE_USE",
+          "TYPE_MISMATCH"
+        ],
+        "matrix": [
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ]
+      }
+    }
+  },
+  "reliability": [
+    {
+      "range": "0.0-0.5",
+      "n": 0,
+      "accuracy": null
+    },
+    {
+      "range": "0.5-0.7",
+      "n": 4,
+      "accuracy": 0.25
+    },
+    {
+      "range": "0.7-0.9",
+      "n": 8,
+      "accuracy": 0.625
+    },
+    {
+      "range": "0.9-1.0",
+      "n": 638,
+      "accuracy": 0.9953
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "paren_bal_total",
+      "importance": 0.2729
+    },
+    {
+      "feature": "brace_bal_total",
+      "importance": 0.2566
+    },
+    {
+      "feature": "sem_declared_later",
+      "importance": 0.1154
+    },
+    {
+      "feature": "found",
+      "importance": 0.1025
+    },
+    {
+      "feature": "sem_closed_scope",
+      "importance": 0.0982
+    },
+    {
+      "feature": "prev1_kw_dist",
+      "importance": 0.0763
+    },
+    {
+      "feature": "expected",
+      "importance": 0.0748
+    },
+    {
+      "feature": "sem_n_close_visible",
+      "importance": 0.0557
+    },
+    {
+      "feature": "sem_min_dist_all",
+      "importance": 0.02
+    },
+    {
+      "feature": "sem_nearest_compat",
+      "importance": 0.0132
+    },
+    {
+      "feature": "sem_min_ratio_visible",
+      "importance": 0.0074
+    },
+    {
+      "feature": "ctx",
+      "importance": 0.0015
+    },
+    {
+      "feature": "prev4",
+      "importance": 0.0012
+    },
+    {
+      "feature": "token_ratio",
+      "importance": 0.0012
+    },
+    {
+      "feature": "sem_min_dist_visible",
+      "importance": 0.0006
+    },
+    {
+      "feature": "err_stage",
+      "importance": 0.0
+    },
+    {
+      "feature": "err_code",
+      "importance": 0.0
+    },
+    {
+      "feature": "prev1",
+      "importance": 0.0
+    },
+    {
+      "feature": "prev5",
+      "importance": 0.0
+    },
+    {
+      "feature": "ty_kind",
+      "importance": 0.0
+    }
+  ]
+}

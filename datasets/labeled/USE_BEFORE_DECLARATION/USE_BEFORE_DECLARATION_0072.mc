@@ -1,0 +1,11 @@
+string label = "done";
+int labels = (29 - 22);
+float discount = 18.5 - 0.9;
+string owner = "token";
+string title = "token";
+print(y - labels >= (labels % 9));
+int y = 16 + labels;
+label = label;
+print(labels);
+print(y);
+print(y);

@@ -1,0 +1,12 @@
+int n = 20;
+bool done = 19.7 - 14.9 != 0;
+int sone = (27 + 8);
+int dosne = n * sone;
+string course = "pipeline";
+int first = (5 / 4);
+first = 27 / 3
+first = first;
+print(dosne);
+course = course;
+n = (first - sone) + dosne / 5;
+print(n);

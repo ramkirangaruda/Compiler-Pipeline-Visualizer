@@ -1,0 +1,125 @@
+{
+  "n_seeds": 700,
+  "n_samples": 3120,
+  "per_label": {
+    "MISSING_SEMICOLON": 260,
+    "MISSING_RPAREN": 260,
+    "MISSING_LPAREN": 260,
+    "MISSING_RBRACE": 260,
+    "MISSING_LBRACE": 260,
+    "MISSPELLED_KEYWORD": 260,
+    "ASSIGN_EQ_CONFUSION": 260,
+    "TYPO_IDENTIFIER": 260,
+    "MISSING_DECLARATION": 260,
+    "USE_BEFORE_DECLARATION": 260,
+    "OUT_OF_SCOPE_USE": 260,
+    "TYPE_MISMATCH": 260
+  },
+  "per_label_split": {
+    "MISSING_SEMICOLON": {
+      "train": 210,
+      "test": 50
+    },
+    "MISSING_RPAREN": {
+      "train": 206,
+      "test": 54
+    },
+    "MISSING_LPAREN": {
+      "train": 199,
+      "test": 61
+    },
+    "MISSING_RBRACE": {
+      "train": 195,
+      "test": 65
+    },
+    "MISSING_LBRACE": {
+      "train": 214,
+      "test": 46
+    },
+    "MISSPELLED_KEYWORD": {
+      "train": 205,
+      "test": 55
+    },
+    "ASSIGN_EQ_CONFUSION": {
+      "train": 206,
+      "test": 54
+    },
+    "TYPO_IDENTIFIER": {
+      "train": 206,
+      "test": 54
+    },
+    "MISSING_DECLARATION": {
+      "train": 205,
+      "test": 55
+    },
+    "USE_BEFORE_DECLARATION": {
+      "train": 211,
+      "test": 49
+    },
+    "OUT_OF_SCOPE_USE": {
+      "train": 213,
+      "test": 47
+    },
+    "TYPE_MISMATCH": {
+      "train": 200,
+      "test": 60
+    }
+  },
+  "handwritten_per_label": {
+    "MISSING_SEMICOLON": 3,
+    "MISSING_RPAREN": 3,
+    "MISSING_LPAREN": 3,
+    "MISSING_RBRACE": 3,
+    "MISSING_LBRACE": 3,
+    "MISSPELLED_KEYWORD": 3,
+    "ASSIGN_EQ_CONFUSION": 3,
+    "TYPO_IDENTIFIER": 3,
+    "MISSING_DECLARATION": 3,
+    "USE_BEFORE_DECLARATION": 3,
+    "OUT_OF_SCOPE_USE": 3,
+    "TYPE_MISMATCH": 3
+  },
+  "n_handwritten": 36,
+  "feature_columns": [
+    "err_stage",
+    "err_code",
+    "ctx",
+    "expected",
+    "found",
+    "prev1",
+    "prev2",
+    "prev3",
+    "prev4",
+    "prev5",
+    "next1",
+    "ty_kind",
+    "ty_target",
+    "ty_expr",
+    "nl_before_found",
+    "found_first_on_line",
+    "line_ratio",
+    "token_ratio",
+    "paren_bal_before",
+    "brace_bal_before",
+    "paren_bal_total",
+    "brace_bal_total",
+    "prev1_kw_dist",
+    "prev1_len",
+    "prev1_is_ident",
+    "sem_name_len",
+    "sem_min_dist_visible",
+    "sem_min_ratio_visible",
+    "sem_n_close_visible",
+    "sem_min_dist_all",
+    "sem_declared_later",
+    "sem_closed_scope",
+    "sem_n_visible",
+    "sem_min_dist_keyword",
+    "sem_lvalue",
+    "sem_same_first_char",
+    "sem_len_diff_nearest",
+    "sem_nearest_compat",
+    "ty_both_numeric",
+    "ty_expr_literal"
+  ]
+}

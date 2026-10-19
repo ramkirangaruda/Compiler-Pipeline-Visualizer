@@ -1,0 +1,11 @@
+int marks = 36 + 23;
+float price3 = 22.4 - marks;
+int price3s = (marks + marks);
+bool ok = (marks - marks) > 2 + 33;
+string greeting3 = "bob";
+ok = 1 > price3s + price3s;
+print(price3s);
+greeting3 = greeting3;
+price3 = price3 - marks;
+price3 = price3;
+print(price3s);

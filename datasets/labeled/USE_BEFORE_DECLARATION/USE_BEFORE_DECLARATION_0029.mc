@@ -1,0 +1,13 @@
+string text = "token";
+int size = (27 + 20);
+string name = text;
+int x3 = 25 - size;
+int k3 = (x3 * x3);
+print(size);
+name = "bob";
+print(k3);
+string owner = owner3;
+string owner3 = "done";
+print(k3);
+text = "ok";
+print(text + "world");

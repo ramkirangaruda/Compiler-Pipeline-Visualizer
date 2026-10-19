@@ -1,0 +1,11 @@
+int n = 2;
+int result = points1 * n;
+int points1 = n % 8;
+int j = result * 1;
+int second = j + 16;
+print(points1);
+j = points1;
+print(points1);
+int tickets = 0;
+print(j);
+print(result);
