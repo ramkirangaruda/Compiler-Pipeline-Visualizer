@@ -1,0 +1,40 @@
+{
+  "name": "compiler-pipeline-visualizer-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch:reactbits": "node scripts/fetch-reactbits.mjs"
+  },
+  "dependencies": {
+    "@codemirror/language": "^6.10.3",
+    "@codemirror/lint": "^6.8.2",
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/view": "^6.34.1",
+    "@fontsource-variable/dm-sans": "^5.1.0",
+    "@fontsource-variable/jetbrains-mono": "^5.1.0",
+    "@fontsource-variable/unbounded": "^5.1.0",
+    "@gsap/react": "^2.1.2",
+    "@hugeicons/core-free-icons": "^4.3.3",
+    "@hugeicons/react": "^1.1.10",
+    "@lezer/highlight": "^1.2.5",
+    "@react-three/drei": "9.114.3",
+    "@react-three/fiber": "8.17.10",
+    "@uiw/react-codemirror": "^4.23.5",
+    "d3-hierarchy": "^3.1.2",
+    "gsap": "^3.13.0",
+    "motion": "^12.23.12",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "^6.28.0",
+    "recharts": "^2.13.3",
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.11"
+  }
+}
