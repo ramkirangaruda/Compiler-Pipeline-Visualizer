@@ -10,7 +10,7 @@ if (temp < (0 % 9)) {
 } else {
   int limit = 0;
   while (limit < 4) {
-    print(mean);
+    printmean);
     limit = limit + 1;
   }
   int rounds = (20 + 8);
@@ -41,7 +41,7 @@ if ((j - j) == (j + 39) || (27 - 14) > j) {
 }
 print(j);
 int meanx = 0;
-while meanx < 6) {
+while (meanx < 6) {
   if (14 != (j * stock)) {
     int score = j;
     print(score);

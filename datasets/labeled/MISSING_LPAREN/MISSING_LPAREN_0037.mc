@@ -6,7 +6,7 @@ int marks = width * 1;
 int years = (width + marks3);
 bool flag = salary * marks != marks3;
 int z = 0;
-while (z < 3) {
+while z < 3) {
   if (25 / 4 <= marks) {
     int value3 = 20 / 7;
     print(value3);
@@ -28,7 +28,7 @@ if (23 <= width / 7) {
   int height = (marks % 4);
   print(height);
   int result = 0;
-  while result < 4) {
+  while (result < 4) {
     int j = width;
     float price = salary * lives3;
     result = result + 1;

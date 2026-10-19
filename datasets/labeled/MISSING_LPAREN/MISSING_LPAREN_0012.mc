@@ -29,8 +29,8 @@ if ((meanx / 7) >= stock) {
 stock = (stock * 23) / 9;
 print(active);
 print(mean);
-if 20 <= (6 + meanx)) {
+if (20 <= (6 + meanx)) {
   print(active);
-  print(mean);
+  printmean);
 }
 print(mean);

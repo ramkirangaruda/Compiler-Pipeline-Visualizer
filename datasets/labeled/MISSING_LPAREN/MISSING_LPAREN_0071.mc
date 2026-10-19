@@ -13,7 +13,7 @@ while (fiirsts < 3) {
 }
 int steps = 0;
 while (steps < 4) {
-  print(name + "parse");
+  printname + "parse");
   int b = 39;
   steps = steps + 1;
 }
@@ -29,4 +29,4 @@ int width = 5;
 name = "compiler";
 stock = 37 % 3 % 5;
 string text = "ok";
-print"bob");
+print("bob");

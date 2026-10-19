@@ -9,12 +9,12 @@ if (26 + 39 != 31) {
   salarys = (31 + 10) > 8 + 37;
   print(salarys);
 }
-if (true && 11 - 40) >= (13 - 4)) {
+if (true && (11 - 40) >= (13 - 4)) {
   float distance = salary;
   done = 13.6 + 0.9 >= 30 / 7;
   print("alice");
 } else {
-  if ((8 % 8) <= 20 - 30) {
+  if (8 % 8) <= 20 - 30 {
     print(valid);
     print(salary);
   }

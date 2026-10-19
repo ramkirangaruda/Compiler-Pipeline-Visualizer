@@ -30,7 +30,7 @@ if (2 * z < (36 + z)) {
   while (x < 3) {
     print(b);
     actives = "robot";
-    print(tax1 * tax1 == z);
+    printtax1 * tax1 == z);
     x = x + 1;
   }
   float daone2 = tax1 + 8.2;
@@ -46,7 +46,7 @@ if (2 * z < (36 + z)) {
   print(activess);
 }
 int points = 0;
-while points < 2) {
+while (points < 2) {
   z = (8 % 5) * points;
   points = points + 1;
 }

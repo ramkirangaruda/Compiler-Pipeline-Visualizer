@@ -83,3 +83,20 @@ def test_rule_handled_errors_have_no_ml_prediction(engine):
 def test_explanation_is_returned(engine):
     res = engine.diagnose("int x = 5\nint y = 6;")
     assert res["entries"][0]["explanation"]
+
+
+def test_compiler_narrows_hypotheses_before_ml_ranks(engine):
+    # both parentheses missing: unlike anything in the training set, but it is a *syntax* error,
+    # so a semantic cause must never be offered
+    res = engine.diagnose("int a = 5;\nif a > 3 {\n  print(a);\n}\n")
+    p = res["entries"][0]["prediction"]
+    assert p["family"] == "syntax" and all(x["label"] in engine_syntax(x) for x in p["probs"])
+    res = engine.diagnose("int n = 1;\nprint(m);")
+    assert res["entries"][0]["prediction"]["family"] == "semantic"
+    res = engine.diagnose("int x = 2.5;")
+    assert res["entries"][0]["prediction"]["label"] == "TYPE_MISMATCH"
+
+
+def engine_syntax(x):
+    from repair.labels import SYNTAX_CAUSES
+    return SYNTAX_CAUSES

@@ -15,7 +15,7 @@ if (10.3 - 17.7 < level3 * steps) {
   int days1 = 0;
   while (days1 < 5) {
     print("ok");
-    print(passed);
+    printpassed);
     days1 = days1 + 1;
   }
 }
@@ -41,7 +41,7 @@ if (points / 5 < steps) {
   }
 } else if (!is_even) {
   if (0 == 1 + 37) {
-    print(level3 * points));
+    print((level3 * points));
     int msgn = limit3 % 3;
   } else {
     int age = (9 + 16);

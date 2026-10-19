@@ -21,7 +21,7 @@ if (false) {
 } else if (false) {
   int b = seats1 % 1;
   print(b);
-  print(lives3);
+  printlives3);
 }
-printseats1);
+print(seats1);
 print(steps);

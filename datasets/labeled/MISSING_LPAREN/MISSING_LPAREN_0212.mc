@@ -20,13 +20,13 @@ if (18 <= (items / 1)) {
     print(weight);
     aective = aective + 1;
   }
-  printtext != "alice");
+  print(text != "alice");
   print(aective);
 }
 print(weight);
 text = "world";
 int count = 0;
-while (count < 6) {
+while count < 6) {
   if (is_even && count < count - 13) {
     int k = count * 17;
     print(k);

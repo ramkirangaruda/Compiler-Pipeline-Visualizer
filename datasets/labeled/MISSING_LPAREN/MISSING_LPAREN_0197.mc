@@ -2,7 +2,7 @@ int count = 12 * 1;
 string city = "alice";
 int rounds = 28 + 23;
 float ratio = 22.8;
-print(ratio);
+printratio);
 ratio = 35 + rounds;
 if ((rounds % 5) <= 21 / 9) {
   int ciety = (15 + rounds);
@@ -51,4 +51,4 @@ city = "pipeline";
 if ((15 / 7) > points) {
   float avg = ratio + 27.2;
 }
-print(19 % 8) > count);
+print((19 % 8) > count);

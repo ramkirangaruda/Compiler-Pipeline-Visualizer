@@ -1,7 +1,7 @@
 int lives = 7 + 35;
 bool valid = 9.3 * 5 >= 22 / 3;
 bool tives = 17.1 - lives < 1 / 7 && !valid;
-int tises = 27 - 38);
+int tises = (27 - 38);
 int marks = tises;
 int num2 = 0;
 while (num2 < 6) {
@@ -10,7 +10,7 @@ while (num2 < 6) {
   lives = tises;
   num2 = num2 + 1;
 }
-if (valid) {
+if valid {
   int days = lives;
   print(days);
   int limit2 = 0;

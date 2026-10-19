@@ -16,7 +16,7 @@ while (height < 4) {
     print(balance1);
   }
   if (true) {
-    print(second2);
+    printsecond2);
     float temp = balance1 * 1.4;
     int a = balancen * second2;
   } else {
@@ -32,7 +32,7 @@ if (true) {
   int words = (second2 + balancen);
   word = "ok";
   if (false) {
-    printheight);
+    print(height);
     print(height);
   }
 }

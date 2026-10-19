@@ -21,7 +21,7 @@ if ((meian + 5) >= 26 - meian) {
   } else if ((meian * 11) < (17 / 5) && (27 + points) != meian + means) {
     int seats = 34 + base;
     print(seats);
-    printmean);
+    print(mean);
     mean = mean + 26;
   } else if ((1 % 8) == limit + base) {
     mean = (24 + limit);
@@ -42,5 +42,5 @@ while (msean < 6) {
   base = (13 / 4) * base - msean;
   msean = msean + 1;
 }
-base = miean + 16 + (meian / 8);
+base = miean + 16 + meian / 8);
 print(mean + mean >= 13 * 26);

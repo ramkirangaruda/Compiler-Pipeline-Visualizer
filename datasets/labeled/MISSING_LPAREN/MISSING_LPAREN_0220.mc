@@ -12,7 +12,7 @@ if (donex == "parse") {
   }
 } else if (true) {
   int rounds = 0;
-  while rounds < 4) {
+  while (rounds < 4) {
     donex = donex;
     done = true;
     rounds = rounds + 1;
@@ -87,7 +87,7 @@ if (done) {
   }
 } else {
   print("pipeline");
-  if (donex != "world" || false) {
+  if donex != "world" || false {
     print((23 - 15));
   } else {
     print(label);

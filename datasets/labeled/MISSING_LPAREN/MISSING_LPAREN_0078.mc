@@ -2,7 +2,7 @@ bool passed = 4.2 * 19.2 < 14 * 37 && false;
 int value1 = 9 / 7;
 string ialue1 = "ok";
 float balance = 14.8;
-if (balance - value1 != (32 * 35)) {
+if balance - value1 != (32 * 35) {
   float avg = balance * value1;
 }
 if (passed) {
@@ -12,7 +12,7 @@ if (passed) {
     print(value1);
     marks2 = marks2 + 1;
   }
-  if passed) {
+  if (passed) {
     int width = (value1 + value1);
     print(width);
     width = (38 % 2) * 25;

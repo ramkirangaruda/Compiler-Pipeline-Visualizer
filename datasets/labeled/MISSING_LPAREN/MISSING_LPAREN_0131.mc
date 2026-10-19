@@ -9,14 +9,14 @@ print(ralrry);
 print(title2);
 print(index);
 print(title2x);
-if true) {
+if (true) {
   int height = index;
   print(height);
   print(height);
   if (salary - 11 != 30) {
     int seats = (index % 1);
     print(seats);
-    int title2ox = (15 - index);
+    int title2ox = 15 - index);
     print("pipeline");
   } else {
     print(title2x);

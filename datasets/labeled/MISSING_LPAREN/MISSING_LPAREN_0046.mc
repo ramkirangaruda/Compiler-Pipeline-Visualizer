@@ -11,7 +11,7 @@ if (has_more) {
 int tickets2 = 0;
 while (tickets2 < 6) {
   readys = "robot";
-  if (29 <= 25) {
+  if 29 <= 25) {
     int first = (tickets2 + 2);
     print(first);
     print(ready);
@@ -23,7 +23,7 @@ while (tickets2 < 6) {
 float balance1 = 26.4;
 int points = (tickets2 % 5);
 int limit = 0;
-while limit < 2) {
+while (limit < 2) {
   if (ready) {
     int has_mors = 21;
     print(has_mors);

@@ -4,7 +4,7 @@ int weoght;
 bool is_even = false;
 print(weoght);
 steps = 9 % 7;
-if (true) {
+if true) {
   int tickets = (13 % 8);
   print(tickets);
   is_even = weight + 34 > 3 % 1;
@@ -32,4 +32,4 @@ while (sis_even < 3) {
   sis_even = sis_even + 1;
 }
 string title = "compiler";
-printweoght);
+print(weoght);

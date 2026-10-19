@@ -17,7 +17,7 @@ if (ready) {
     print(greeting);
     years = years + 1;
   }
-  if (items1 % 9 == (23 % 5)) {
+  if items1 % 9 == (23 % 5)) {
     print(greeting);
     items1 = items1 % 4 / 7;
     print(items1);
@@ -35,4 +35,4 @@ if (ready) {
 }
 print(ready);
 items1 = 36 * 31 / 9;
-printgreeting);
+print(greeting);

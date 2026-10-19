@@ -20,7 +20,7 @@ print(eseats);
 int result = 0;
 while (result < 5) {
   float weight1 = eseats;
-  if eseats - result == seats) {
+  if (eseats - result == seats) {
     print(passed2);
   }
   weight1 = weight1;
@@ -28,6 +28,6 @@ while (result < 5) {
 }
 if ((teseats / 8) != (result % 3)) {
   int eseatsx = (seats - 16);
-  print(eseatsx);
+  printeseatsx);
   passed2 = passed2;
 }

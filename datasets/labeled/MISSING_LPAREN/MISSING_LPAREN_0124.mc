@@ -3,14 +3,14 @@ int itext1 = 0;
 int first = 34 % 4;
 int texst1 = (7 * first);
 first = itext1;
-print(itext1);
+printitext1);
 text1 = "pipeline";
 if (true) {
   int textr1 = texst1 / 7;
   print(textr1);
   first = 39 + textr1 + texst1;
 } else {
-  texst1 = itext1 + texst1) % 8;
+  texst1 = (itext1 + texst1) % 8;
   if ((itext1 + 6) <= itext1) {
     texst1 = texst1 / 5 / 8;
   } else {

@@ -36,12 +36,12 @@ print(text);
 if (36 == (6 / 4)) {
   int j = 8 * 23;
   print(j);
-  if !valid) {
+  if (!valid) {
     print(valid);
     print(j);
     print("parse");
   } else {
-    index = (j * j) * j + j;
+    index = j * j) * j + j;
     index = 17 + j * j * 22;
   }
   int n = j + index;

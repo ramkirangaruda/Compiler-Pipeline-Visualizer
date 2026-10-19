@@ -12,7 +12,7 @@ if (31 + steps > steps % 9) {
   print(passed3);
   rounds3 = 3;
 }
-printenabled);
+print(enabled);
 print(enabled);
 steps = (steps / 1) * 40 - steps;
 if (rate2 * rate2 >= (steps / 4)) {
@@ -26,7 +26,7 @@ if (rate2 * rate2 >= (steps / 4)) {
   }
   int index = steps - steps;
 }
-if (steps - steps > (steps * 20)) {
+if (steps - steps > steps * 20)) {
   if (true) {
     int size = 0;
     print(size);

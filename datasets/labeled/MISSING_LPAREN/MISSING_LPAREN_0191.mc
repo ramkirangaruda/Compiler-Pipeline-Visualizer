@@ -44,7 +44,7 @@ if (msg == "robot") {
     print(years3);
     limit1 = limit1 + 1;
   }
-} else if (false) {
+} else if false) {
   print(msg);
   if (z2 != 4) {
     msg = "parse";
@@ -54,7 +54,7 @@ if (msg == "robot") {
   print(y);
   sum3 = 17 - y % 8;
   if (false) {
-    printz2 % 1);
+    print(z2 % 1);
     tickets3 = n;
   } else if ((y * years) != z2 * tickets3 || msg == "ok") {
     float area3 = tax + tax;

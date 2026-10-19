@@ -10,7 +10,7 @@ while (rounds3 < 5) {
   print(rounds3 * result > i / 2);
   rounds3 = rounds3 + 1;
 }
-i = (result + 0) + (result * 1);
+i = (result + 0) + result * 1);
 print(is_even);
 int second = 0;
 while (second < 4) {
@@ -20,6 +20,6 @@ while (second < 4) {
 }
 int x = rounds3 % 4;
 is_even = (rounds3 % 7) < 40 + age;
-y = i - y) / 3;
+y = (i - y) / 3;
 print(result);
 print(age);

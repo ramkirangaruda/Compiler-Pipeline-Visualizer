@@ -20,7 +20,7 @@ while (height < 4) {
 int num = 0;
 while (num < 3) {
   if ((15 / 1) > count) {
-    print(avg);
+    printavg);
   }
   num = num + 1;
 }
@@ -30,7 +30,7 @@ if (passed) {
   int num1 = (6 / 6);
   print(num1);
   print(greeting3);
-  int tickets3 = height * a);
+  int tickets3 = (height * a);
   int years = 0;
   while (years < 2) {
     print(count / 4);

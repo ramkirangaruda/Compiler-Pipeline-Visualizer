@@ -12,6 +12,6 @@ while (rounds < 5) {
   rounds = rounds + 1;
 }
 print(flag2);
-print(count);
-printn);
+printcount);
+print(n);
 print(count);

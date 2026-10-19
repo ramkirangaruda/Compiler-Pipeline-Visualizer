@@ -15,7 +15,7 @@ if (29.5 == seats) {
   }
 }
 print(ready1);
-ready1 = 20 * 3 != (34 - 29);
+ready1 = 20 * 3 != 34 - 29);
 int width2 = 0;
 while (width2 < 2) {
   print(0 + width2 <= (17 % 7));
@@ -23,7 +23,7 @@ while (width2 < 2) {
   width2 = width2 + 1;
 }
 int height = 0;
-while height < 5) {
+while (height < 5) {
   print(ready1 || x * height >= (height - width2));
   print(word);
   valid = (width2 * 6) != (seats - 31);

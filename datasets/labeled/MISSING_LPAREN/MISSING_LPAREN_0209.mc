@@ -30,7 +30,7 @@ score1 = level - score1 + years1;
 bool ok = num + score1 < years1 + 34;
 int steps3 = 0;
 while (steps3 < 6) {
-  if (12 + 36) <= 5 % 6) {
+  if ((12 + 36) <= 5 % 6) {
     print(ok);
     a = steps3;
     print("world");
@@ -46,7 +46,7 @@ if (2 + score1 != 26 || false) {
     a = 20;
     salary = (count + 36);
   } else {
-    int b1 = (24 + 7);
+    int b1 = 24 + 7);
   }
   int salariy = (count - 9);
 } else {

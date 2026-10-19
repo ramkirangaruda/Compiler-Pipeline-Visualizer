@@ -12,7 +12,7 @@ if (31 + 5 > second) {
 }
 second = second % 6;
 print(done);
-if true || flag3) {
+if (true || flag3) {
   int x = second / 6;
   print(x);
   int width1 = 0;
@@ -80,7 +80,7 @@ if (28.6 + 28.7 >= 10 * age) {
     n = n + 1;
   }
   int rounds = 0;
-  while (rounds < 2) {
+  while rounds < 2 {
     print((39 / 1));
     print(age);
     rounds = rounds + 1;

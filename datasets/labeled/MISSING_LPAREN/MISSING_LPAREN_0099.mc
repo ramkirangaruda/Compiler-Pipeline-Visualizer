@@ -4,7 +4,7 @@ int age = value3;
 bool ready = value3 % 9 != age * age;
 bool agie = false;
 string title = "compiler";
-printagie);
+print(agie);
 print(age);
 if (title == "compiler" || true) {
   if (17.1 > (age * 27)) {
@@ -53,7 +53,7 @@ int result = 0;
 while (result < 2) {
   print(y3);
   age = 32 / 3 - 39 / 9;
-  if (28 % 6 >= index) {
+  if 28 % 6 >= index {
     int is_even3x = y3 * index;
     print(is_even3x);
     value3 = 19 / 2 * index / 9;

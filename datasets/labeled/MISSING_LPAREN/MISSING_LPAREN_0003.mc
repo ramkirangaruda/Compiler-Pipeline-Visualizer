@@ -11,14 +11,14 @@ while (age < 2) {
   y3 = (31 - 24) / 6;
   age = age + 1;
 }
-int marks = 26 - y3);
+int marks = (26 - y3);
 int n = 0;
 while (n < 5) {
   if (ready) {
     int first = tickets * marks;
     print(first);
     bool flag = 17 / 5 != (8 * age);
-    print((40 + 23) > (y3 + y3));
+    print((40 + 23) > y3 + y3));
     y3 = 0;
   }
   if (ready) {

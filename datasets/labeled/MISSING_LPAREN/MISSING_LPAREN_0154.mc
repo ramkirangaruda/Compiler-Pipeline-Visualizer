@@ -30,7 +30,7 @@ if (!done && weight != (items + i2)) {
     items = (14 % 3) - points1 - 18;
   } else {
     items = 4;
-    print"bob");
+    print("bob");
   }
 }
 if (!flag) {
@@ -61,7 +61,7 @@ if (19 == (items + items)) {
     int num = 37 % 3;
     print(num);
     print(items);
-    print("compiler");
+    print"compiler");
   } else {
     string owner = "world";
   }

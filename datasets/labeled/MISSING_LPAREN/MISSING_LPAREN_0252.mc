@@ -21,7 +21,7 @@ while (a < 6) {
     text = text;
     n = (n % 5) * (1 - 20);
   }
-  if done) {
+  if done {
     print(a);
     text = "done";
   }

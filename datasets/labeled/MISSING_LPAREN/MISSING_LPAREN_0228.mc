@@ -26,14 +26,14 @@ while (z1 < 4) {
 years2s = 33 >= k1 % 7;
 print(found);
 bool has_more2 = x != (z1 + 10);
-if (7.1 >= 12 && (years2 + x) >= (29 / 7)) {
+if (7.1 >= 12 && years2 + x) >= (29 / 7)) {
   int years = 0;
   while (years < 5) {
     print(years);
     print(years2);
     years = years + 1;
   }
-  bool yeors = 23.7 >= 32 / 2);
+  bool yeors = 23.7 >= (32 / 2);
 } else {
   if ((20 * 24) == (years2 / 6)) {
     int steps = z1;

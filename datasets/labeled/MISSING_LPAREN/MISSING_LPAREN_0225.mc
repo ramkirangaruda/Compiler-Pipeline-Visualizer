@@ -13,7 +13,7 @@ while (y < 5) {
 }
 int marks1 = 0;
 while (marks1 < 5) {
-  print(avg);
+  printavg);
   marks1 = marks1 + 1;
 }
 print(y);
@@ -21,7 +21,7 @@ voltage = 36 + second;
 int items = 0;
 while (items < 4) {
   valids = aeg;
-  if (second + 9 != 26 * marks1)) {
+  if (second + 9 != (26 * marks1)) {
     int vailids = second;
     print(vailids);
     float weight = avg - 27.8;

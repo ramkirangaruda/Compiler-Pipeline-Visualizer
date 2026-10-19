@@ -12,7 +12,7 @@ if (ratio1 + 19.2 != 38 / 6) {
     int steps = n * sum;
     print(steps);
     n = n;
-  } else if 20.5 * ratio1 == sum / 6) {
+  } else if (20.5 * ratio1 == sum / 6) {
     print("robot");
   }
 } else {
@@ -23,7 +23,7 @@ if (ratio1 + 19.2 != 38 / 6) {
     j = j + 1;
   }
   int soumx = 0;
-  while (soumx < 3) {
+  while soumx < 3) {
     int height = (j / 5);
     print(14 + soumx);
     soumx = soumx + 1;

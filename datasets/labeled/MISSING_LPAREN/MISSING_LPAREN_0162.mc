@@ -6,11 +6,11 @@ if (ritio) {
   if ((ritios % 2) >= (ritios - 24)) {
     int ritoo = (7 - seats);
     print(ritoo);
-    ritoo = ritios * 16) % 8;
+    ritoo = (ritios * 16) % 8;
   }
 }
 int age = (ritios / 4);
-if (5 * age > age && (18 + 6) <= (ritios / 9)) {
+if (5 * age > age && (18 + 6) <= ritios / 9)) {
   int years3 = 0;
   while (years3 < 3) {
     print(age);

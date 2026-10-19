@@ -32,8 +32,8 @@ while (x < 5) {
   } else {
     int lives = 24;
     print(lives);
-    print(15.4 >= tickets + 30));
-    level = (33 + 7) / 1;
+    print(15.4 >= (tickets + 30));
+    level = 33 + 7) / 1;
   }
   x = x + 1;
 }

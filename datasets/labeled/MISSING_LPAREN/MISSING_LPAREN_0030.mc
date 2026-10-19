@@ -8,7 +8,7 @@ if (35 > labelx) {
     labelx = (n * 15) * n % 6;
     bool ok = passed;
   }
-  if passed) {
+  if (passed) {
     int j = (n * labelx);
     print(j);
     print(12 < labelx / 3);
@@ -16,7 +16,7 @@ if (35 > labelx) {
 } else {
   print(label);
 }
-if (30.5 <= labelx % 5) {
+if 30.5 <= labelx % 5 {
   int passei = labelx - n;
   print(passei);
   float price = 25.9 - 17;

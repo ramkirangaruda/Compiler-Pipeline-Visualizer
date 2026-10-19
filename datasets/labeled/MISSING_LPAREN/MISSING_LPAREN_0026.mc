@@ -15,7 +15,7 @@ if (2.2 + distance1 >= (j / 2)) {
   print(label);
 } else if (false) {
   int b = 16;
-  printb);
+  print(b);
   string label2 = "alice";
 } else {
   int years = (16 % 3);
@@ -35,6 +35,6 @@ if (2.2 + distance1 >= (j / 2)) {
 }
 labnel = labnel;
 print(j + j > 23 * j);
-print(distance1);
+printdistance1);
 int balances = (j * j);
 print(labnel);

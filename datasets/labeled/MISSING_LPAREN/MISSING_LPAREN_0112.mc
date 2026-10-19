@@ -27,14 +27,14 @@ if (seats < 37 + 30) {
   if ((seats + 36) != 25 % 3) {
     print("yudu");
     print(first2);
-    print("alice");
+    print"alice");
   } else if (weight >= first2 / 6) {
     print(seats);
   }
   int seight = a;
 } else {
   int j3 = seats - 24;
-  printj3);
+  print(j3);
   j3 = (a % 4) + j3 - first2;
   if (2 + first2 == seats) {
     a = (seats % 6) * (8 + 0);

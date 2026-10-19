@@ -4,12 +4,12 @@ string stocks = "parse";
 float stoicks = 2.1 + 0.1;
 int x1 = 8 + 8;
 int stoickss = (15 % 2);
-bool passed = 6 > stoickss / 3);
+bool passed = 6 > (stoickss / 3);
 print(x1 - 5);
 if (stocks == "bob") {
   stocks = stocks + "compiler";
 }
-if (stoicks > (13 % 3)) {
+if stoicks > (13 % 3) {
   stocks = "compiler";
   float rate2 = stoicks - stoicks;
   rate2 = second;

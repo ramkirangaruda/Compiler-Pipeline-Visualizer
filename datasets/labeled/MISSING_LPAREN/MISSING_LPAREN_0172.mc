@@ -9,7 +9,7 @@ float salary = city2s + city2s;
 string msg = "pipeline";
 int result = 29;
 print(mean);
-if (8.1 != num / 8 || city2 == "world") {
+if 8.1 != num / 8 || city2 == "world") {
   print(msg);
   print(result);
   if (true) {
@@ -21,7 +21,7 @@ if (8.1 != num / 8 || city2 == "world") {
 } else {
   int z = (rounds - 34);
   print(z);
-  if 11 / 4 < 8) {
+  if (11 / 4 < 8) {
     salary = city2s * 11.4;
     print(num);
   }

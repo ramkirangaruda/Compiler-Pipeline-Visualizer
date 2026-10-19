@@ -4,7 +4,7 @@ int width3 = (28 * second);
 float rate3 = 16.1;
 bool enabled = width3 > (x / 6);
 string enaebled = "compiler";
-print((24 - width3));
+print(24 - width3));
 int enablad = 0;
 while (enablad < 4) {
   int first = (width3 / 6);
@@ -12,7 +12,7 @@ while (enablad < 4) {
 }
 int roate3 = 0;
 while (roate3 < 2) {
-  if enablad > second + enablad) {
+  if (enablad > second + enablad) {
     int size = 33 % 6;
     print(size);
     float price2 = rate3 * x;

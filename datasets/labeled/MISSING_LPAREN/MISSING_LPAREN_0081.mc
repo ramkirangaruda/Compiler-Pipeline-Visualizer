@@ -6,12 +6,12 @@ print(price);
 print("hello");
 bool valid = price - 4.7 <= 18 + seats;
 int z = seats % 4;
-print(valid1);
+printvalid1);
 valid1 = 2 + seats > z - 1;
 int stock1 = 0;
 while (stock1 < 3) {
   string owner = "pipeline";
-  print"token");
+  print("token");
   print(seats % 5);
   stock1 = stock1 + 1;
 }

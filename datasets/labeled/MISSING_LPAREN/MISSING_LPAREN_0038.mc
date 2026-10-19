@@ -12,11 +12,11 @@ while (n < 5) {
   n = n + 1;
 }
 print(n);
-printn);
+print(n);
 float temp1 = ratio;
 if (steps < i) {
   int activt2 = 0;
-  while (activt2 < 2) {
+  while activt2 < 2) {
     i = i / 6;
     activt2 = activt2 + 1;
   }

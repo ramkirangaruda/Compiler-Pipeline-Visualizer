@@ -40,7 +40,7 @@ if (9.7 - 24.6 >= (titles % 8)) {
   print(nitle);
 } else {
   int nitae = titles / 4;
-  printnitae);
+  print(nitae);
   print(flag);
   print(nitae);
 }
@@ -63,7 +63,7 @@ if (13 - titles != 6) {
 print(name);
 titles = titles;
 titles = titles / 5 / 8;
-if ((titles * titles) != (titles + titles)) {
+if (titles * titles) != (titles + titles)) {
   int base1 = 35;
   print(base1);
   print(flag);

@@ -15,7 +15,7 @@ while (b1 < 3) {
 }
 greeting = "alice";
 print(avg2);
-if (passed) {
+if passed) {
   print(passed);
   int dones = 0;
   while (dones < 5) {
@@ -23,4 +23,4 @@ if (passed) {
     dones = dones + 1;
   }
 }
-printb1);
+print(b1);

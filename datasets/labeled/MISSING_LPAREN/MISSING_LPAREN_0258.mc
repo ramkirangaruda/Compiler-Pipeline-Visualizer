@@ -7,7 +7,7 @@ bool enabled = false;
 bool teip = 29.8 + 17 == j;
 int first = num1 + 27;
 print(teip);
-printj);
+print(j);
 num1 = (j + first) + 27 - j;
 int enablied = (total + total);
 int age = 0;
@@ -30,7 +30,7 @@ while (age < 5) {
   age = age + 1;
 }
 int num = 0;
-while (num < 3) {
+while num < 3 {
   if (teip) {
     int years = age;
     print(years);

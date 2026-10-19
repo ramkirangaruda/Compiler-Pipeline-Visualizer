@@ -6,7 +6,7 @@ int years1 = (12 - courses);
 float salary2 = 30.3;
 int steps = 0;
 while (steps < 6) {
-  if false) {
+  if false {
     int num = 37 % 1;
     print(num);
     print(steps);

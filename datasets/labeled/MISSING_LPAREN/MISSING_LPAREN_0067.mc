@@ -2,7 +2,7 @@ bool ready = 33 >= (17 + 1);
 bool passed = 7 != 29;
 bool has_more = (24 % 2) > 37 * 8;
 bool flag = ready;
-bool flag3 = (1 * 39) >= (9 % 3);
+bool flag3 = 1 * 39) >= (9 % 3);
 int a = 33;
 if (13.9 + a >= a / 5) {
   if (1 == (a * a)) {
@@ -29,7 +29,7 @@ if (!ready) {
   }
   print(flag3);
 }
-has_more = 20.7 - a == 35 - 29);
+has_more = 20.7 - a == (35 - 29);
 print(passed);
 print(ready);
 ready = (1 + 18) != a;

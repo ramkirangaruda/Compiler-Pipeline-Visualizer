@@ -7,7 +7,7 @@ int rounds1 = age * 8;
 string ase = ate;
 int index = 0;
 while (index < 5) {
-  printrounds1);
+  print(rounds1);
   if (done) {
     int marks = rounds1 / 1;
     print(marks);
@@ -22,7 +22,7 @@ while (index < 5) {
 }
 atte = atte;
 int atex = 0;
-while (atex < 5) {
+while atex < 5 {
   int seats = age / 4;
   agee = agee - 0;
   print(index);

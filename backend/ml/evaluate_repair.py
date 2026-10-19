@@ -27,7 +27,7 @@ def toks(src: str) -> list:
 
 
 def evaluate(engine: Engine, rows: list[dict], mode: str) -> dict:
-    per = defaultdict(lambda: {"n": 0, "label_ok": 0, "verified": 0, "exact": 0, "top3_verified": 0})
+    per = defaultdict(lambda: {"n": 0, "label_ok": 0, "verified": 0, "exact": 0, "top3_verified": 0, "autofix": 0})
     for r in rows:
         src = (ROOT / "datasets" / r["file"]).read_text(encoding="utf-8")
         seed = (ROOT / "datasets" / "seeds" / "valid" / f"{r['seed_id']}.mc").read_text(encoding="utf-8")
@@ -46,7 +46,9 @@ def evaluate(engine: Engine, rows: list[dict], mode: str) -> dict:
                 p["exact"] += 1
         if any(c["status"] == "verified" for c in e["candidates"][:3]):
             p["top3_verified"] += 1
-    total = {k: sum(v[k] for v in per.values()) for k in ("n", "label_ok", "verified", "exact", "top3_verified")}
+        if engine.autofix(src, mode=mode)["ok"]:
+            p["autofix"] += 1
+    total = {k: sum(v[k] for v in per.values()) for k in ("n", "label_ok", "verified", "exact", "top3_verified", "autofix")}
     rate = lambda a, b: round(a / b, 4) if b else 0.0
     return {
         "overall": {
@@ -55,6 +57,7 @@ def evaluate(engine: Engine, rows: list[dict], mode: str) -> dict:
             "verified_fix_rate": rate(total["verified"], total["n"]),
             "exact_recovery_rate": rate(total["exact"], total["n"]),
             "top3_verified_rate": rate(total["top3_verified"], total["n"]),
+            "autofix_success_rate": rate(total["autofix"], total["n"]),
         },
         "per_label": [
             {
@@ -63,6 +66,7 @@ def evaluate(engine: Engine, rows: list[dict], mode: str) -> dict:
                 "label_accuracy": rate(per[l]["label_ok"], per[l]["n"]),
                 "verified_fix_rate": rate(per[l]["verified"], per[l]["n"]),
                 "exact_recovery_rate": rate(per[l]["exact"], per[l]["n"]),
+                "autofix_success_rate": rate(per[l]["autofix"], per[l]["n"]),
             }
             for l in LABEL_NAMES
         ],

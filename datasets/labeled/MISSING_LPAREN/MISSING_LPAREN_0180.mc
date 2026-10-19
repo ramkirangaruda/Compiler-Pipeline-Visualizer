@@ -1,4 +1,4 @@
-int stock2 = 39 * 6);
+int stock2 = (39 * 6);
 int i = 39;
 int first3 = stock2;
 float ratio2 = 4.8 - i;
@@ -13,7 +13,7 @@ while (ratio2x < 3) {
 stock2 = (first3 - ratio2x) - stock2;
 int index1 = 0;
 while (index1 < 3) {
-  int points2 = (ratio2x / 9);
+  int points2 = ratio2x / 9);
   print(stock2);
   index1 = index1 + 1;
 }

@@ -4,7 +4,7 @@ int j = (x * 30);
 bool found = (x / 4) < j;
 string owner = "robot";
 int y = 0;
-while y < 3) {
+while (y < 3) {
   int b = (j - x);
   print(y);
   y = y + 1;
@@ -13,7 +13,7 @@ print(found);
 x = j % 5 - 8 + j;
 if (active) {
   int first3 = 0;
-  while (first3 < 5) {
+  while first3 < 5 {
     print(found);
     print((6 * y) <= (first3 % 6));
     print(first3);

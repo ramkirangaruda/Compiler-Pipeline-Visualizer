@@ -16,7 +16,7 @@ if (salary * salary > (25 + 37)) {
 }
 print(discount);
 print(salary);
-printsalary);
+print(salary);
 if (false) {
   print(name);
 } else {
@@ -48,7 +48,7 @@ if ((first + index) != first) {
     index = 29 % 4;
     print(name);
     salary = salary;
-  } else if (false) {
+  } else if false {
     print(discount);
     int height2 = 40 / 1;
   } else {

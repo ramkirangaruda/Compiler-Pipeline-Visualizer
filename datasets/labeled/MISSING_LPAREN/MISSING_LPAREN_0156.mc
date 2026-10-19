@@ -11,7 +11,7 @@ while (x < 3) {
   x = x + 1;
 }
 height2s = "bob";
-if (15 - 28 <= (x % 3)) {
+if (15 - 28 <= x % 3)) {
   int z = 1 - value;
   print(z);
   string label2 = height2s;
@@ -44,7 +44,7 @@ if (34 / 3 > fltg) {
   int flagx = value + first2;
   print(flagx);
   if ((n2 - 33) <= fltg + n2) {
-    printn2);
+    print(n2);
     print(flag);
   } else if (8.4 * height2 <= 10 / 8) {
     int age3 = (x % 9);

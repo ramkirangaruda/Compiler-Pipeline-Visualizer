@@ -13,7 +13,7 @@ if (enabled) {
   print(label);
 }
 if (40 + y3 > y3) {
-  if ((21 / 4) >= y3 / 3)) {
+  if ((21 / 4) >= (y3 / 3)) {
     int marks = (39 + y3);
     print(marks);
     distance = (4 / 2);
@@ -81,7 +81,7 @@ if ((y3 + 25) < 29 + y3) {
   } else if (label != "token") {
     int ies_even = steps;
     print(ies_even);
-    print(enabled);
+    printenabled);
   } else if (is_even) {
     int count = y3 * y3;
     print(count);

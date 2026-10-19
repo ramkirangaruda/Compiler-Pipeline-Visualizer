@@ -9,7 +9,7 @@ print(oarks);
 if (valid1 && (oarksx / 5) == (17 - 14)) {
   valid1 = valid1;
   if ((31 * 22) <= 0) {
-    printoarks);
+    print(oarks);
     print(b);
     print(19.5 - b <= 25 - oarksx);
   }
@@ -17,7 +17,7 @@ if (valid1 && (oarksx / 5) == (17 - 14)) {
 } else {
   int level = 5 - 22;
   print(level);
-  print(valid1);
+  printvalid1);
 }
 msg = "token";
 if (29.8 + oarksx > oarksx || marks <= b) {

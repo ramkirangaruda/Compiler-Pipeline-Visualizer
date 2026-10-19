@@ -9,7 +9,7 @@ if (true) {
   print(labels);
 }
 print(ratio);
-if 3 > 15 + 32) {
+if (3 > 15 + 32) {
   print(done);
 } else {
   int sum2 = 27 * 26;
@@ -22,7 +22,7 @@ if 3 > 15 + 32) {
 }
 if (label == "yudu") {
   name2 = "bob";
-  print("robot");
+  print"robot");
 } else {
   float laasbels = ratio;
   int level = 0;

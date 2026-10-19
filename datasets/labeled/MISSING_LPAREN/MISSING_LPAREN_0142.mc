@@ -18,7 +18,7 @@ if (is_even) {
 }
 if ((28 * b2) != 26) {
   int n2 = (points + 32);
-  print(n2);
+  printn2);
   if (is_even) {
     print(is_even);
     age1 = 31;
@@ -39,4 +39,4 @@ while (greetitng < 3) {
   index = 8 - (32 + points);
   greetitng = greetitng + 1;
 }
-printis_even);
+print(is_even);

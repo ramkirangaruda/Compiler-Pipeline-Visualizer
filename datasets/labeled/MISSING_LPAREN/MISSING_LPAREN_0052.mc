@@ -10,9 +10,9 @@ if (greeting == "pipeline") {
   print(y1);
   print(title);
   title = "robot";
-  printy1 + y1);
+  print(y1 + y1);
 }
-if (6.1 - 34 >= (16 * 9)) {
+if 6.1 - 34 >= (16 * 9) {
   print(course);
   if (true) {
     greeting = "compiler";

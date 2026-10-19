@@ -5,9 +5,9 @@ int sflag = (5 / 4);
 bool enabled = flag;
 int first = 23;
 string course = "pipeline";
-weight = 21 + 17);
+weight = (21 + 17);
 print(first);
-if (first - sflag > first) {
+if first - sflag > first {
   print(course);
   weight = 10 % 2;
 } else {

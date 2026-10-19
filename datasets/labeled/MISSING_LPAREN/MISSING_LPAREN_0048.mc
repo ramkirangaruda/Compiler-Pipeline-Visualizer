@@ -13,7 +13,7 @@ if (active && !active) {
     print(city);
     lives = lives + 1;
   }
-  printcity);
+  print(city);
 } else {
   if (active) {
     active = 34 + 30 >= 11 % 2;
@@ -29,7 +29,7 @@ if (active) {
   print(stock);
   print(means);
   if (mean >= (13 % 4)) {
-    int days = (stock / 8);
+    int days = stock / 8);
     print(days);
     name = "world";
     int n1 = (12 + days);

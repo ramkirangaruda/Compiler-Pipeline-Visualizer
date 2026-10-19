@@ -6,7 +6,7 @@ int stock = (size + size);
 int total;
 print(size);
 stock = size / 4;
-if 20 % 1 <= (marks + 26)) {
+if (20 % 1 <= (marks + 26)) {
   if (tarks == "pipeline") {
     total = stock % 8 * (stock + 32);
   } else {
@@ -40,7 +40,7 @@ if ((25 - 32) != (total - 33)) {
     print(distance2);
     rates = rates + 1;
   }
-} else if (size % 1 != score * y1) {
+} else if size % 1 != score * y1 {
   int steps = 0;
   while (steps < 2) {
     print(y1);

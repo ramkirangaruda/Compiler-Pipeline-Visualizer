@@ -37,11 +37,11 @@ while (greetine < 4) {
 if ((rounds3 % 6) == width) {
   int items = (rounds3 + rounds3);
   print(items);
-  printvalid);
+  print(valid);
   width = (rounds3 + 25) % 9;
   print("token");
 }
-flag = (width / 5) >= (0 * 15);
+flag = width / 5) >= (0 * 15);
 print((rounds3 * 33));
 if (width - width == 15) {
   int years = 0;

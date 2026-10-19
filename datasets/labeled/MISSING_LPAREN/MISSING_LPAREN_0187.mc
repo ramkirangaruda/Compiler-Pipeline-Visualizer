@@ -9,11 +9,11 @@ int tpeod = level * z2;
 if (false) {
   int marks = tpeod;
   print(marks);
-  if (12 + tpeod > (40 / 6) && tpeod <= marks) {
+  if 12 + tpeod > (40 / 6) && tpeod <= marks) {
     int j = level;
     print(j);
     z2 = z2;
-    printj);
+    print(j);
   }
 }
 speod = "robot";

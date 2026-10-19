@@ -62,13 +62,13 @@ if (!ready) {
     print(readty);
     points = (27 % 8) * second - points;
     int z = (width - 35);
-  } else if 28 < 26 - index1) {
+  } else if (28 < 26 - index1) {
     int size = width;
   } else if ((width / 4) <= (16 * index1)) {
     print(ready);
   } else {
     int readn = index1 + width;
-    print(readn);
+    printreadn);
     print(index1);
   }
   if ((24 + 23) != 29 + 40) {

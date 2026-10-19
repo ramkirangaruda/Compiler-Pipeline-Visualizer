@@ -49,10 +49,10 @@ if ((39 + score) <= (level % 2)) {
   b = 7;
 } else {
   int items = (23 % 5);
-  printitems);
+  print(items);
   int num = 15;
   string nem = "done";
   print(nem);
 }
 print(score2);
-print(b);
+printb);

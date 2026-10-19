@@ -10,11 +10,11 @@ while (age < 2) {
   age = age + 1;
 }
 word = "bob";
-print(tord);
+printtord);
 second2 = 15 + 38;
 int sum = 0;
 while (sum < 4) {
-  printage > 39 - second2);
+  print(age > 39 - second2);
   int height = 14 + age;
   sum = sum + 1;
 }

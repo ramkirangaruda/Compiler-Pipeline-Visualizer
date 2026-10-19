@@ -28,7 +28,7 @@ if (false) {
     print(first);
     float rate = ratio + 37;
     print(rate - rate != first);
-    printmsg);
+    print(msg);
   } else {
     valid1 = true;
     msg = "ok";
@@ -71,7 +71,7 @@ if (false) {
   print(total);
 } else {
   int items = 0 + second2;
-  print(items);
+  printitems);
   valid1 = msg != "hello";
 }
 print(label);

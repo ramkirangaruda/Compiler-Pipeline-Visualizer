@@ -17,11 +17,11 @@ while (size1 < 5) {
   size1 = size1 + 1;
 }
 int index3 = 0;
-while index3 < 4) {
+while (index3 < 4) {
   print(size1);
   index3 = index3 + 1;
 }
 width1 = 27 / 8 / 6;
 print(width1x);
-width1x = (index3 % 2) >= (index3 * index3);
+width1x = index3 % 2) >= (index3 * index3);
 print(size1);

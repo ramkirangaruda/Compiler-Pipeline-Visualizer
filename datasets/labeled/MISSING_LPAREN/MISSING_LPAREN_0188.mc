@@ -1,6 +1,6 @@
 int result = 3 * 35;
 int rounds = (5 * 33);
-int first = 20 + 39);
+int first = (20 + 39);
 bool resultx = (rounds + first) >= 23 / 9;
 string city = "world";
 if (false) {
@@ -14,7 +14,7 @@ if (false) {
   print(num);
   num = first;
 }
-if (24 % 7 > 16 * rounds) {
+if 24 % 7 > 16 * rounds {
   print(city);
   print(first);
 }

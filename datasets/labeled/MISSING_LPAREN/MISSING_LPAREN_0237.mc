@@ -23,7 +23,7 @@ if (27 / 9 != 6 + age) {
     a = a + 1;
   }
 } else {
-  printj);
-  print(tickets);
+  print(j);
+  printtickets);
 }
 print(title);

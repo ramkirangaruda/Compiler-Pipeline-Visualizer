@@ -4,10 +4,10 @@ int index = 40 + years;
 float voltage = 10.5;
 float indsx = voltage + index;
 index = index;
-printyears);
+print(years);
 int voltagie = 0;
 while (voltagie < 3) {
-  if (indsx == (26 % 5)) {
+  if indsx == (26 % 5) {
     int k = voltagie % 1;
     print(k);
     string volnage = "ok";

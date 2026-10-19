@@ -2,8 +2,8 @@ int y = (27 - 7);
 bool enabled = 1.3 - 8.3 >= 22 + y;
 float price = 16.7 + 3.1;
 bool found = 25 % 7 > y;
-if (price - 21.6 >= y + y) {
-  int enabledx = y + 18);
+if price - 21.6 >= y + y {
+  int enabledx = (y + 18);
   print(enabledx);
   print(found);
   print(enabled);

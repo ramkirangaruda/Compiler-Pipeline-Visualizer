@@ -13,14 +13,14 @@ if ((count2 - count2) != (count2 % 9)) {
     print(course);
     i = i + 1;
   }
-  if ((count2 + 32) > (23 - count2)) {
+  if (count2 + 32) > (23 - count2)) {
     course = name + "robot";
     count2 = 36 - 4 * 17;
   } else if (30 - count2 != i + 40) {
     print("bob");
   } else if (rate > count2) {
     print(i);
-    printi);
+    print(i);
   } else {
     int ratae = count2;
   }

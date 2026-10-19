@@ -23,14 +23,14 @@ if (14.9 - 23 < 4) {
     print(ssock3 + "parse");
   }
 } else {
-  if (7.8 - iteock3 <= iteock3 - 9) {
+  if 7.8 - iteock3 <= iteock3 - 9) {
     int age = stock3 * iteock3;
     print(age);
     iteock3 = iteock3;
   }
 }
 int days = 0;
-while days < 6) {
+while (days < 6) {
   print(days);
   if (16.1 + 6.7 >= (iteock3 - days)) {
     int score = days;

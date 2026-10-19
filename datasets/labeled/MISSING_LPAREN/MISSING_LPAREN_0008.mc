@@ -1,4 +1,4 @@
-bool passed = (33 * 17) > (29 % 7);
+bool passed = 33 * 17) > (29 % 7);
 int n = (33 * 29);
 int i = 35;
 string owner = "compiler";
@@ -34,7 +34,7 @@ if (passed) {
   int age1 = 0;
   while (age1 < 4) {
     print("yudu");
-    is_even1 = (aowner + n) != i % 7);
+    is_even1 = (aowner + n) != (i % 7);
     string course = course2 + "token";
     age1 = age1 + 1;
   }

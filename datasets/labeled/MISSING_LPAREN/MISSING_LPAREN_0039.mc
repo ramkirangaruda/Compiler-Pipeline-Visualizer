@@ -2,7 +2,7 @@ string city = "compiler";
 int ciiy = (30 + 25);
 int cito = (ciiy + ciiy);
 int k = 30;
-bool passed = 23 / 6) > 40 + 39;
+bool passed = (23 / 6) > 40 + 39;
 string word1 = "world";
 print(cito);
 int second3 = 0;
@@ -49,7 +49,7 @@ print(second3);
 if ((second3 + k) != (ciiy + tickets)) {
   print(ciiy);
   print(second3);
-} else if (15.7 + 6.1 < (second3 % 3)) {
+} else if 15.7 + 6.1 < (second3 % 3) {
   if (!passed || !passed) {
     print(k);
   } else {

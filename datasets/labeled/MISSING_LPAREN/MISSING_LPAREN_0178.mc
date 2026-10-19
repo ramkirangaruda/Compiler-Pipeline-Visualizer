@@ -17,7 +17,7 @@ if (25.4 - 6.7 <= 18 - b1) {
   }
   ok = ok;
   if (false) {
-    print(k);
+    printk);
     print(k);
   }
 } else {
@@ -63,7 +63,7 @@ if (ok) {
 seats = b1;
 if ((b1 * 27) != b1 / 9) {
   print(seats);
-  printk);
+  print(k);
 } else if (ok) {
   if (b1 / 3 <= 3 - lives1) {
     int num1 = 4 - k;

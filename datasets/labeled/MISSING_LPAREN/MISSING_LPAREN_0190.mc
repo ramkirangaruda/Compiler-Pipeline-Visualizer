@@ -52,7 +52,7 @@ if (true) {
   while (leabel < 6) {
     print(label3);
     print("hello");
-    printworde3 % 3);
+    print(worde3 % 3);
     leabel = leabel + 1;
   }
 }
@@ -72,7 +72,7 @@ if ((8 + 19) == (oabel + 22)) {
 print(label);
 int index = 0;
 while (index < 5) {
-  print(worde3);
+  printworde3);
   string course = "ok";
   print(word);
   index = index + 1;

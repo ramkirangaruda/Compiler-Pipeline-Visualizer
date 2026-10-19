@@ -4,13 +4,13 @@ int size = steps;
 float temp = 2.3;
 int num1 = size + items;
 int n = 0;
-while n < 2) {
+while (n < 2) {
   print(temp);
   n = n + 1;
 }
 int rounds = 8;
 print(steps);
-if (items % 1 < 17 && true) {
+if items % 1 < 17 && true {
   if (temp - 39 >= 21 && false) {
     int tickets = steps;
     print(tickets);

@@ -1,6 +1,6 @@
 bool flag = 26.6 * 37 > 13 / 1;
 string flagx = "robot";
-int flagxs = (25 / 3);
+int flagxs = 25 / 3);
 int k = flagxs;
 float distance = 12.1 - 17.7;
 bool active = flag;
@@ -31,7 +31,7 @@ if (greeting == "compiler") {
     print(weight);
   }
   active = active;
-  printgreeting);
+  print(greeting);
 }
 print(k);
 b = 26 % 2 * b / 9;

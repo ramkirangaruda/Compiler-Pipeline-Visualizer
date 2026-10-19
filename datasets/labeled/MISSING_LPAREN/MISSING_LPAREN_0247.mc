@@ -3,7 +3,7 @@ int second = (30 - score3);
 string owner = "yudu";
 string name2 = "hello";
 int y = 0;
-while y < 5) {
+while (y < 5) {
   name2 = "compiler";
   y = y + 1;
 }
@@ -23,7 +23,7 @@ if ((22 / 6) < score3 % 4) {
 }
 print(false);
 int height = 0;
-while (height < 5) {
+while height < 5 {
   if (16.6 >= second + first3) {
     string label = name2;
   } else {

@@ -52,7 +52,7 @@ while (num < 3) {
   }
   num = num + 1;
 }
-print26 / 7);
+print(26 / 7);
 if (!ok3) {
   print(first);
   print(first);
@@ -64,7 +64,7 @@ if (!ok3) {
   }
 } else if ((z1 + z1) == z) {
   int tickets = first;
-  print(tickets);
+  printtickets);
   int days = 0;
   while (days < 6) {
     avg = 26.8 + avg;

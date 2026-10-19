@@ -23,7 +23,7 @@ if (has_more) {
 } else if ((count / 4) > (count + count)) {
   int steps = (count / 9);
   print(steps);
-  steps = (base2 + count) - base2 / 7);
+  steps = (base2 + count) - (base2 / 7);
 } else if (base2 <= 31 / 2) {
   int score = 26;
   print(score);
@@ -63,7 +63,7 @@ if (count / 4 <= base2 / 7 || base2 + count > count / 6) {
   int index = count;
   print(index);
   if (30.2 + 33 <= has_mores) {
-    print(count);
+    printcount);
     int actiave = (5 - index);
   }
   print(has_more);

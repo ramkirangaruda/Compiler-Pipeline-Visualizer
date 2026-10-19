@@ -49,7 +49,7 @@ if (y < b / 7) {
 } else if ((18 - b) >= 34) {
   int items = y;
   print(items);
-  printtitle);
+  print(title);
   print(owner);
 } else {
   int n = (ttemp + b);
@@ -59,7 +59,7 @@ if (y < b / 7) {
     k = k + 1;
   }
 }
-if (temp <= (y + 5)) {
+if (temp <= y + 5)) {
   int toemp = 0;
   while (toemp < 5) {
     ready = (toemp * toemp) == (b - y);

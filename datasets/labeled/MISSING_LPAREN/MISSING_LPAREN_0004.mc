@@ -1,6 +1,6 @@
 int result = 21;
 string word = "alice";
-int tord = (10 * 17);
+int tord = 10 * 17);
 int height = (29 + tord);
 bool flag;
 bool is_even = !flag;
@@ -23,7 +23,7 @@ int height3 = 0;
 while (height3 < 4) {
   print(tord);
   int first = tord;
-  printheight3);
+  print(height3);
   height3 = height3 + 1;
 }
 if (!is_even && !flag) {

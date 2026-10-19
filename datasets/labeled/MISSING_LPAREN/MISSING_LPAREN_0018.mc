@@ -15,7 +15,7 @@ if (1.2 * z < total - total) {
   print(flag);
 } else {
   int steps = z - 10;
-  printsteps);
+  print(steps);
   if (ready1) {
     print(total);
     print(z);
@@ -28,7 +28,7 @@ if (1.2 * z < total - total) {
 print("world");
 int first = 0;
 while (first < 3) {
-  flag = z - z < (25 / 1);
+  flag = z - z < 25 / 1);
   flag = z < (24 + total) || 31 % 9 <= first;
   first = first + 1;
 }

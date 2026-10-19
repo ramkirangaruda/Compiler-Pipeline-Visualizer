@@ -8,13 +8,13 @@ int speeds = 0;
 while (speeds < 4) {
   if (false) {
     int first = (22 - 17);
-    print(first);
+    printfirst);
     print(greeting3);
     marks = (marks + 16) - first;
   } else {
     speed = 21.9;
     speed = 28.6 + width;
-    print(3.9 - marks < 30 * speeds));
+    print(3.9 - marks < (30 * speeds));
   }
   print(false);
   speeds = speeds + 1;

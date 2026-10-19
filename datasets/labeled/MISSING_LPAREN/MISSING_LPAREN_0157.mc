@@ -7,7 +7,7 @@ int total = 14;
 int items2 = 2 / 6;
 items2 = 11;
 int b = items2;
-printspeed);
+print(speed);
 float tax = 8.2 + b;
 int speedx = 0;
 while (speedx < 6) {
@@ -34,7 +34,7 @@ if (10.6 - 37 != (result / 7)) {
     size = size + 1;
   }
 }
-if (speed * 10 >= spees * spees) {
+if speed * 10 >= spees * spees {
   print(spees);
   print(spees);
 } else {

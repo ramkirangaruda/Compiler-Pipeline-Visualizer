@@ -9,6 +9,6 @@ string word = "hello";
 nom = n1 / 3;
 greeting1 = greeting1;
 print(word);
-print((num + 38) != (n1 + n1) || n1 <= num + num);
+print(num + 38) != (n1 + n1) || n1 <= num + num);
 print(rate3);
-printowner);
+print(owner);

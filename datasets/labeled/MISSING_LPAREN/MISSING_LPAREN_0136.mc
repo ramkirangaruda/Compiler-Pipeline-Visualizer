@@ -32,7 +32,7 @@ if ((39 * 4) > 17) {
 }
 int age3 = 0;
 while (age3 < 4) {
-  if (18 / 9) != 12) {
+  if ((18 / 9) != 12) {
     print("token");
     int rounds2 = (steps + steps);
   } else {
@@ -92,7 +92,7 @@ if (has_more2) {
     ratio = 28.7 - 2.6;
   }
   int base3 = 0;
-  while (base3 < 5) {
+  while base3 < 5) {
     print(tratio);
     string seecond = "compiler";
     base3 = base3 + 1;

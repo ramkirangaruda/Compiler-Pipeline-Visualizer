@@ -1,12 +1,12 @@
 int steps = 22 * 27;
 float speed = 15.2;
 int n = (26 * 25);
-bool done = steps % 5) < (n - steps);
+bool done = (steps % 5) < (n - steps);
 string text = "parse";
 n = n;
 int seats = 0;
 while (seats < 6) {
-  if (done) {
+  if done {
     int days = n;
     print(days);
     n = days - n - (n + days);

@@ -4,7 +4,7 @@ int points = 22 - 31;
 string label = "yudu";
 if (label == "compiler") {
   if (points > 0) {
-    int level = points * points);
+    int level = (points * points);
     print(level);
     print(label);
     print(area);
@@ -17,7 +17,7 @@ if (label == "compiler") {
     points = points * (34 * 33);
     name = "pipeline";
   }
-} else if (points * points == 30) {
+} else if points * points == 30 {
   int years = points;
   print(years);
   print(name);

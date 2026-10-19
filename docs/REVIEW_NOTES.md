@@ -41,10 +41,11 @@ live-variable data-flow analysis · optimization (folding, propagation, DCE, bra
 ## Results to quote
 | | ML | Rule baseline |
 |---|---|---|
-| Cause accuracy, 650 held-out programs | 98.6 % | 86.2 % |
+| Cause accuracy, 650 held-out programs | 98.6 % | 87.5 % |
 | Hand-written programs (n = 36) | 100 % | 88.9 % |
-| Top-ranked fix recompiles cleanly | 99.1 % | 88.1 % |
-| Top fix reproduces the original program | 73.1 % | 66.9 % |
+| Top-ranked fix recompiles cleanly | 96.2 % | 87.1 % |
+| Auto-fix ends in a clean program | 98.8 % | 89.7 % |
+| Top fix reproduces the original program | 70.2 % | 65.9 % |
 
 (Re-generate with `python -m ml.train` and `python -m ml.evaluate_repair`; current numbers are on the Dashboard.)
 
@@ -60,7 +61,7 @@ live-variable data-flow analysis · optimization (folding, propagation, DCE, bra
 7. **Dataset** - one folder per cause; sample next to its ground truth.
 
 ## Questions you will be asked
-**Why not just rules?** The rules exist as the baseline and reach 86 %. They fail where evidence must be combined:
+**Why not just rules?** The rules exist as the baseline and reach 87.5 %. They fail where evidence must be combined:
 typo vs missing declaration on short names, `)` vs `=`, `}` vs `else`, fused `printx)`. ML closes that gap, and
 the Dashboard shows it per cause.
 

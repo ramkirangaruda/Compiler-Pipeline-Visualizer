@@ -41,7 +41,7 @@ if (done) {
   owner = title + "alice";
 }
 if (price >= (6 / 8)) {
-  if (3 / 3 >= stock - k3 && (stock + 8) < 34 * z) {
+  if (3 / 3 >= stock - k3 && stock + 8) < 34 * z) {
     int j3 = steps - steps;
     print(j3);
     ok = !ok;
@@ -69,7 +69,7 @@ if (price >= (6 / 8)) {
   print(z);
   if (found3) {
     int second1 = (k3 + 20);
-    printsecond1);
+    print(second1);
     print(num);
     print(second1);
   } else {

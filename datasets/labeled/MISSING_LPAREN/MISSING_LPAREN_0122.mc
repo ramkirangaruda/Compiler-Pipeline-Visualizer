@@ -4,7 +4,7 @@ int ratiio3 = (30 - 32);
 int rounds = 10 + 22;
 int score = 14;
 float rate = ratio3 - ratio3;
-bool has_more1 = ratiio3 - 13) != 34 % 8;
+bool has_more1 = (ratiio3 - 13) != 34 % 8;
 string course = "yudu";
 has_more1 = is_even;
 float price = 28.1 - 16.3;
@@ -12,7 +12,7 @@ if (true) {
   rounds = ratiio3 % 9 + (score * score);
 }
 int items = 0;
-while (items < 5) {
+while items < 5 {
   print(course);
   items = items + 1;
 }

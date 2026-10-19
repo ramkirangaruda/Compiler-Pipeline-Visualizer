@@ -3,7 +3,7 @@ int width3 = 29 + 23;
 int days = 5;
 int n = 0 % 3;
 string word = "alice";
-width3 = n + 16 + width3 * 16);
+width3 = n + 16 + (width3 * 16);
 print(width3 <= 10 % 7);
 int greetineg1 = width3 + days;
 greeting1 = "token";
@@ -39,7 +39,7 @@ if (greetineg1 != width3 / 4) {
   }
 }
 int i = 0;
-while (i < 2) {
+while i < 2) {
   string course3 = "parse";
   int y = n;
   i = i + 1;

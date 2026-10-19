@@ -13,7 +13,7 @@ while (num < 4) {
   num = num + 1;
 }
 if (tickets / 8 == (tickets - x)) {
-  printcity3);
+  print(city3);
   float avg1 = temp * 3;
   print(temp);
 } else if (34 > num) {
@@ -36,7 +36,7 @@ if (tickets / 8 == (tickets - x)) {
 print(ticketsx);
 int age = 0;
 while (age < 3) {
-  print(city3);
+  printcity3);
   age = age + 1;
 }
 int lives = 0;

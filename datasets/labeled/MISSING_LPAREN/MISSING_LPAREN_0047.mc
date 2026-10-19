@@ -11,7 +11,7 @@ while (result < 3) {
   if (items3 - 20 >= 13 / 9) {
     int citys = items3 * ciny;
     print(citys);
-    first = (caity + 19) + (items3 + ciny);
+    first = (caity + 19) + items3 + ciny);
   } else if (result - 30 == (result * 34)) {
     int z = 30;
     print(z);
@@ -24,7 +24,7 @@ while (result < 3) {
   result = result + 1;
 }
 print(city);
-print(34 % 7));
+print((34 % 7));
 float mean = 3.1 + balance1;
 print(items3);
 print(city);

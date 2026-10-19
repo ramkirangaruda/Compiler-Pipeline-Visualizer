@@ -3,7 +3,7 @@ string limist = "robot";
 string label1 = limist + "token";
 bool ready = 8.4 < limit * limit;
 string text3 = "bob";
-if (ready) {
+if ready) {
   int libel1 = limit;
   print(libel1);
   int readys = 24;
@@ -29,7 +29,7 @@ print(!ready && limit / 6 >= (limit % 6));
 int readyx = 0;
 while (readyx < 3) {
   print(34);
-  if ready) {
+  if (ready) {
     int points = (limit / 4);
     print(points);
     limist = "pipeline";

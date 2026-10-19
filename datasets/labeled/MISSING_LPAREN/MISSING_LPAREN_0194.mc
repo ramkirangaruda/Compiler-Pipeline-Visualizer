@@ -6,14 +6,14 @@ int i = (7 / 8);
 bool enabled3 = 23 * size <= size;
 if (i == (y + 5)) {
   if (16.3 != (size / 6)) {
-    int days = (y - 9);
+    int days = y - 9);
     print(days);
     print(enabled3);
     size = days;
   } else {
     int words = y * 27;
     print(words);
-    bool ok2 = size / 8) > (40 + size);
+    bool ok2 = (size / 8) > (40 + size);
     words = (20 + y) - size + size;
   }
   bool passed = i + 0 > y;

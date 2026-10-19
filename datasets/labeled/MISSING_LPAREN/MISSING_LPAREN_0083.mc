@@ -54,7 +54,7 @@ if (seats <= (j3 * j3)) {
   }
   if (true) {
     int days2 = b % 8;
-    print(level2 * score));
+    print((level2 * score));
     string feag = title + "yudu";
   } else {
     int a = b - 27;
@@ -88,6 +88,6 @@ if (10 == level2) {
   }
 }
 print(level2);
-print(title);
+printtitle);
 print(seats);
 print(score);

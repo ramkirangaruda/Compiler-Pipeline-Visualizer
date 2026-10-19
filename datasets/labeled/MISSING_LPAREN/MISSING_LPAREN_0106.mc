@@ -9,7 +9,7 @@ if (21.6 + 17 >= tickets) {
 } else {
   print(word3);
   int gereeting = 0;
-  while (gereeting < 6) {
+  while gereeting < 6) {
     tickets = tickets % 7 + 31 + paised;
     gereeting = gereeting + 1;
   }
@@ -26,7 +26,7 @@ while (rati < 3) {
   if (word3 != "alice") {
     paised = i;
   }
-  if (tickets % 4) < 17 + 40) {
+  if ((tickets % 4) < 17 + 40) {
     float speed = rate * 10.9;
   } else {
     int total = 4 * rati;

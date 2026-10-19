@@ -18,14 +18,14 @@ if (5 % 9 > (32 - index2)) {
     int limit = 13 + i;
     print(limit);
     course3 = course3;
-    printindex2);
+    print(index2);
     i = i - index2;
   }
   if (true) {
     print(i);
     float coursea = temp + temp;
     temp = i;
-  } else if (false) {
+  } else if false) {
     index2 = i;
   } else {
     print(i);

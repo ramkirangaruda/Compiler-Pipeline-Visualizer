@@ -13,9 +13,9 @@ if (scourse % 6 < scourse) {
   int value = z2;
   print(value);
   int num = (39 + value);
-  printdays);
+  print(days);
 } else {
-  print(found);
+  printfound);
   int a3 = 0;
   while (a3 < 5) {
     print(tax);

@@ -9,7 +9,7 @@ courose = course == "bob" && (16 + 36) >= 20;
 int width = 27;
 print(distance3);
 courose = owner == "bob";
-print(courose);
+printcourose);
 if (courose) {
   print(distance3);
 } else if (discount - discount < 6 * width) {
@@ -21,5 +21,5 @@ if (courose) {
   print(days);
   float courosr = 9.4;
 }
-printwidth);
+print(width);
 print(!courose);

@@ -1,4 +1,4 @@
-int base = 32 / 3);
+int base = (32 / 3);
 int value;
 bool flag1 = (35 + value) < value;
 int x = (value + 5);
@@ -31,7 +31,7 @@ if (true) {
 print(flag1);
 int j = x;
 flag1 = true;
-if (flag1) {
+if flag1 {
   flag1 = (4 % 3) > 37;
   j = 22 - j / 4;
   j = base;

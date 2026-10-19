@@ -15,7 +15,7 @@ while (x3 < 5) {
   } else {
     print(mtg);
     int lives = value2 - x3;
-    printmarks);
+    print(marks);
   }
   print((5 + x3));
   x3 = x3 + 1;
@@ -24,7 +24,7 @@ area = (marks + 6);
 value2 = value2 + 11;
 if (36 - 38 == 35) {
   int n = x3;
-  print(n);
+  printn);
   if ((10 - value2) > x3 + n) {
     print(is_even);
   }

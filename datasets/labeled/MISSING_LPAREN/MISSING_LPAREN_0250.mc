@@ -10,7 +10,7 @@ print(salary);
 lives = lives + 27 - lives;
 if (j3 * 20 > j3) {
   int limit = (lives % 1);
-  print(limit);
+  printlimit);
   float livess = olives - j3;
   if (!valid2 && salary != points3) {
     int vanid2 = 25 - 3;
@@ -22,7 +22,7 @@ if (j3 * 20 > j3) {
   }
 } else if (13.9 + 26.3 < (4 - j3)) {
   int seats = 37;
-  printseats);
+  print(seats);
   print(j3);
   string label3 = course;
 } else {

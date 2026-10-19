@@ -60,7 +60,7 @@ if (items / 3 < (items / 2)) {
 int k3 = 0;
 while (k3 < 4) {
   bool scoere2 = b3 < (items - b3);
-  printscoere2);
-  print(active);
+  print(scoere2);
+  printactive);
   k3 = k3 + 1;
 }

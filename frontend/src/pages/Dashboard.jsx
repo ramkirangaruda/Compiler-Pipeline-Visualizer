@@ -122,8 +122,8 @@ export default function Dashboard() {
 
       <div className="container kpis">
         <Kpi title="Cause accuracy" ml={m.test.accuracy} base={base.test.accuracy} sub={`${m.dataset.n_test} held-out programs · 12 causes`} />
-        <Kpi title="Macro F1" ml={m.test.macro_f1} base={base.test.macro_f1} sub="every cause weighted equally" />
         <Kpi title="Verified fix rate" ml={re?.ml.overall.verified_fix_rate ?? 0} base={re?.baseline.overall.verified_fix_rate} sub="top-ranked fix recompiles cleanly" />
+        <Kpi title="Auto-fix success" ml={re?.ml.overall.autofix_success_rate ?? 0} base={re?.baseline.overall.autofix_success_rate} sub="apply-best-and-recompile ends in a clean program" />
         {hw && <Kpi title="Hand-written set" ml={hw.accuracy} base={base.handwritten?.accuracy} sub={`${hw.n} programs unlike the generator`} />}
       </div>
 
@@ -189,7 +189,8 @@ export default function Dashboard() {
             <Card title="End-to-end repair outcomes" sub="Full engine on held-out programs: features → classifier → candidates → compiler validation. 'Exact' means the fix reproduces the original program token-for-token." className="span2">
               <div className="rtiles">
                 {[['Label accuracy', re.ml.overall.label_accuracy, re.baseline.overall.label_accuracy],
-                  ['Verified fix', re.ml.overall.verified_fix_rate, re.baseline.overall.verified_fix_rate],
+                  ['Verified fix (first try)', re.ml.overall.verified_fix_rate, re.baseline.overall.verified_fix_rate],
+                  ['Auto-fix success', re.ml.overall.autofix_success_rate, re.baseline.overall.autofix_success_rate],
                   ['Exact recovery', re.ml.overall.exact_recovery_rate, re.baseline.overall.exact_recovery_rate]].map(([t, a, b]) => (
                   <div className="rtile" key={t}><span>{t}</span><b>{pct(a)}</b><small>rules {pct(b)} · <em>+{((a - b) * 100).toFixed(1)} pts</em></small></div>
                 ))}

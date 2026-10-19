@@ -13,7 +13,7 @@ while (count2 < 6) {
 }
 print("pipeline");
 float agei = voltage;
-if (!ok) {
+if !ok) {
   print("alice");
 } else {
   int agti = 0;
@@ -39,4 +39,4 @@ if (true && (count2 - 38) >= (result % 5)) {
   voltage = (29 * 2);
 }
 print(36);
-printk);
+print(k);

@@ -8,8 +8,8 @@ if (true) {
   int z2 = (rounds * 40);
 } else {
   float area3 = 21.1 - 37;
-  print"robot");
-  print(steps + 16);
+  print("robot");
+  printsteps + 16);
 }
 if (rounds == (32 % 1)) {
   if ((rounds * rounds) <= rounds * rounds) {

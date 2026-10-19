@@ -6,7 +6,7 @@ int items2 = n;
 int lives = (items2 * 14);
 string name = "pipeline";
 if (has_more2) {
-  int nhas_more2 = (36 + 32);
+  int nhas_more2 = 36 + 32);
   print(nhas_more2);
   int areas = lives * marks;
   print(has_more2);
@@ -16,7 +16,7 @@ if (has_more2) {
   marks = n + tname / 9;
   n = items2;
 } else {
-  printarea);
+  print(area);
   items2 = lives;
 }
 int years = 0;

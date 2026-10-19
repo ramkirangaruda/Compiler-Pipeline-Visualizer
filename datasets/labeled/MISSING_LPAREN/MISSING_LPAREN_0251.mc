@@ -23,7 +23,7 @@ while (second < 4) {
     print(ciity);
     string word = "pipeline";
     lives = (5 / 8) + (ciity * height);
-  } else if (valid) {
+  } else if valid) {
     int size = 40 / 1;
     print(size);
     level = level / 6;
@@ -48,4 +48,4 @@ while (value1 < 2) {
   value1 = value1 + 1;
 }
 print(ok);
-printlevel);
+print(level);

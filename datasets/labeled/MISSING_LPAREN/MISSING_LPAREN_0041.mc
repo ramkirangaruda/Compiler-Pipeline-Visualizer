@@ -16,7 +16,7 @@ if (false) {
   } else {
     int days1 = (14 * index);
     print(days1);
-    print(days1);
+    printdays1);
   }
 }
 print(msg);
@@ -33,7 +33,7 @@ while (a < 6) {
 }
 if (flag3) {
   int mss = (a % 9);
-  printmss);
+  print(mss);
   marks = (38 - 16) / 1;
   if (12 * a < 21 / 3) {
     int value1 = flage3;

@@ -20,7 +20,7 @@ if (years >= ratex && false) {
     ratex = 29 + limit + 38;
   }
   if (enabled || !is_even) {
-    int days = (lives + 35);
+    int days = lives + 35);
     print(days);
     lives = lives % 2;
     enabled = is_even;
@@ -51,7 +51,7 @@ if (years >= ratex && false) {
     limit = years;
   }
   rate = 20;
-  printyears >= z + ratex);
+  print(years >= z + ratex);
 }
 ratex = years % 3 / 1;
 print("robot");

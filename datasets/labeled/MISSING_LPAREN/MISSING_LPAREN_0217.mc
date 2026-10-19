@@ -10,7 +10,7 @@ if ((22 + 2) < (width / 4)) {
   int k = 1 - 26;
   print(k);
   int score2 = 20 * 22;
-  if ((score2 / 9) <= lives2 + k)) {
+  if ((score2 / 9) <= (lives2 + k)) {
     print(ready2);
     k = (33 + width) + (count3 * count3);
     float weight = 1.5 - 2;
@@ -31,7 +31,7 @@ lives2 = 3 + lives2 / 2;
 name = "bob";
 if (name == "yudu") {
   int x3 = 18;
-  print(x3);
+  printx3);
   print(19 + 35);
 } else if (26.8 >= lives2 - lives2) {
   if (ready2) {

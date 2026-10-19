@@ -7,7 +7,7 @@ if (27 >= total * total) {
   course = course + "hello";
   if (tax != (total + total2)) {
     print(total2);
-    tax = 12 - total2);
+    tax = (12 - total2);
     print(total2);
   }
 }
@@ -51,7 +51,7 @@ float weight = tax;
 int days = 0;
 while (days < 5) {
   enabled1 = enabled1;
-  print(total2);
+  printtotal2);
   print(false);
   days = days + 1;
 }

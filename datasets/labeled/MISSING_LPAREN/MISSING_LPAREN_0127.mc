@@ -41,7 +41,7 @@ if (y % 7 != marks3 - y) {
   }
 } else {
   int size1 = marks3 - marks3;
-  print(size1);
+  printsize1);
   bool enabled = true;
   if ((size1 - size1) <= 13 + 13) {
     print(speed);
@@ -77,7 +77,7 @@ if (valid) {
   marks3 = marks3 / 2 % 4;
 }
 print(32 * value);
-if y >= marks3) {
+if (y >= marks3) {
   int a = y + 16;
   print(a);
   print(14.9 + speed == y);

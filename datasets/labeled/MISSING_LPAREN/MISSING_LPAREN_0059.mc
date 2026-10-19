@@ -1,5 +1,5 @@
 int seats = (31 % 3);
-int sum = seats + seats);
+int sum = (seats + seats);
 float tax = 11.9 - sum;
 int years = (sum * seats);
 bool is_even = tax + seats >= 30;
@@ -54,7 +54,7 @@ if (true) {
     bool enabled = tax - sums <= (29 % 2);
     print(sumx);
     sumx = "ok";
-  } else if (false) {
+  } else if false {
     int height = (seats + seats);
     print(height);
     print(13 / 2 == years - k);

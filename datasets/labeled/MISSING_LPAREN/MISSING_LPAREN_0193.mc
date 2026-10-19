@@ -5,7 +5,7 @@ if (false) {
   int z = (rounds3 * 24);
   print(z);
   int years = 0;
-  while years < 6) {
+  while years < 6 {
     rounds3 = 28 / 4 * (11 + 36);
     print("compiler");
     rounds3 = z % 3 + rounds3;

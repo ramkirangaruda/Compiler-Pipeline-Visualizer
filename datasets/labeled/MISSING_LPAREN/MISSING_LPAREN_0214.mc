@@ -26,7 +26,7 @@ dayss = dayss;
 if (dayss) {
   int height = 0;
   while (height < 6) {
-    print(days - value));
+    print((days - value));
     print(greeting);
     height = height + 1;
   }
@@ -39,7 +39,7 @@ if (dayss) {
   }
 } else {
   if (false) {
-    print(seats);
+    printseats);
     print(greeting);
   }
   print(value);

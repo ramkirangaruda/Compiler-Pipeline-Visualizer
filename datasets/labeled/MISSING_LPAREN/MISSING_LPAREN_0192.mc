@@ -27,14 +27,14 @@ print(value1);
 print(size);
 print(ok3);
 int x = 0;
-while (x < 5) {
+while x < 5) {
   if (28.2 * 24 >= value1 - value1) {
     i = 5;
     is_even = (x % 9) == (size + size);
   } else {
     int score = 1;
     print(score);
-    i = 2 + value1 + value1);
+    i = 2 + (value1 + value1);
     score = size + size % 6;
   }
   x = x + 1;

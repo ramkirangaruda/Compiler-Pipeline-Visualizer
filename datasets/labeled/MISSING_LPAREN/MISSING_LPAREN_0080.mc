@@ -47,7 +47,7 @@ if (passed3) {
     print(value2);
     print(value2);
   } else {
-    int level = (value2 * value2);
+    int level = value2 * value2);
     print(level);
     print(area);
   }
@@ -59,7 +59,7 @@ int i = 0;
 while (i < 2) {
   int points = level1;
   if (passed3) {
-    printvalue2);
+    print(value2);
     print(ovalue2);
   }
   i = i + 1;

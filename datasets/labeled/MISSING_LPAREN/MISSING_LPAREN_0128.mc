@@ -3,7 +3,7 @@ int size = 22;
 int num = width;
 bool found = num == num + num || width + 29 != size;
 int limit = (num % 6);
-bool passed = (width * size) >= 9;
+bool passed = width * size) >= 9;
 string word3 = "alice";
 print(found && num <= (num / 4));
 print(limit);
@@ -31,5 +31,5 @@ if ((width + limit) <= (3 - size) && !found) {
 }
 print(word3 + "alice");
 int num3 = 3;
-printpiassed > (12 % 8));
+print(piassed > (12 % 8));
 print(num3);

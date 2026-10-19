@@ -1,6 +1,6 @@
 int total2 = 35;
 int days = total2;
-int count = days - total2);
+int count = (days - total2);
 int x1 = days + days;
 int height = total2 % 2;
 int level2 = 31;
@@ -11,7 +11,7 @@ print(level2);
 if (28 + 30 <= (days - level2)) {
   total2 = 2 + level2 / 2;
 }
-if (!has_more) {
+if !has_more {
   msg2 = msg2;
   print(x1);
   level2 = total2 * 6 + 32;

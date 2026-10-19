@@ -72,3 +72,17 @@ ML_CODES = {
     "E_EXPECTED_TOKEN", "E_UNEXPECTED_TOKEN", "E_UNEXPECTED_EOF",
     "E_UNDECLARED", "E_TYPE_MISMATCH", "E_BAD_OPERAND", "E_BAD_CONDITION",
 }
+
+SYNTAX_CAUSES = [k for k, v in LABELS.items() if v["family"] == "syntax"]
+
+# The compiler narrows the hypothesis space: the failing phase and error code
+# already rule most causes out. ML then ranks the causes that remain.
+CANDIDATE_CAUSES = {
+    "E_EXPECTED_TOKEN": SYNTAX_CAUSES,
+    "E_UNEXPECTED_TOKEN": SYNTAX_CAUSES,
+    "E_UNEXPECTED_EOF": SYNTAX_CAUSES,
+    "E_UNDECLARED": ["TYPO_IDENTIFIER", "MISSING_DECLARATION", "USE_BEFORE_DECLARATION", "OUT_OF_SCOPE_USE"],
+    "E_TYPE_MISMATCH": ["TYPE_MISMATCH"],
+    "E_BAD_OPERAND": ["TYPE_MISMATCH"],
+    "E_BAD_CONDITION": ["TYPE_MISMATCH"],
+}

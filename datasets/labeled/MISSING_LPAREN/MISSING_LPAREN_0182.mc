@@ -4,7 +4,7 @@ float distance1 = 17.9 + 9;
 int n = lives2 + lives2;
 n = lives2 / 2 % 5;
 int distance1s = 0;
-while distance1s < 3) {
+while (distance1s < 3) {
   if (label == "done") {
     print(distance1 >= n);
     float voltage = 17.7;
@@ -21,4 +21,4 @@ while (height < 4) {
   height = height + 1;
 }
 bool has_more = 17 <= 38;
-print(lives2);
+printlives2);

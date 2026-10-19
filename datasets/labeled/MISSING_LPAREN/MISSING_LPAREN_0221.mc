@@ -4,7 +4,7 @@ string name = title;
 int steps1 = (3 * 1);
 float voltage = discount - 38;
 float titlex = discount - voltage;
-bool ready = steps1 / 1 > steps1 + steps1);
+bool ready = steps1 / 1 > (steps1 + steps1);
 print(ready);
 steps1 = steps1 * steps1 + steps1;
 if (27 > steps1 + steps1) {
@@ -22,7 +22,7 @@ if (27 > steps1 + steps1) {
   int n = 6 / 2;
   print(n);
   int limit = 0;
-  while (limit < 4) {
+  while limit < 4 {
     print(titlex);
     discount = 8 - limit;
     limit = limit + 1;

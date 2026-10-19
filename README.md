@@ -109,13 +109,14 @@ end-to-end against the real compiler. Exact numbers are on the Dashboard and in 
 
 | | ML (Gradient Boosting) | Rule baseline |
 |---|---|---|
-| Cause accuracy (650 held-out programs) | **98.6 %** | 86.2 % |
+| Cause accuracy (650 held-out programs) | **98.6 %** | 87.5 % |
 | Hand-written programs (36) | **100 %** | 88.9 % |
-| Top fix recompiles cleanly | **99.1 %** | 88.1 % |
+| Top-ranked fix recompiles cleanly | **96.2 %** | 87.1 % |
+| Auto-fix ends in a clean program | **98.8 %** | 89.7 % |
 
 **Honesty notes.** The training data is synthetic (valid programs corrupted by mutators), which is why
 the hand-written set exists. Programs are assumed to contain one fault at a time; several faults are repaired
-one after another. Exact-recovery of the original program is lower than "recompiles cleanly" (73 %) because
+one after another. Exact-recovery of the original program is lower than "recompiles cleanly" (70 %) because
 several different fixes can be valid. The language has no functions, arrays or pointers.
 
 ## Project layout

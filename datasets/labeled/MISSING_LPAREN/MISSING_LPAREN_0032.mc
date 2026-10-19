@@ -3,8 +3,8 @@ bool is_even3 = 8.4 * n != 25 * n;
 int marks = 4;
 bool rarks = is_even3;
 int stock = 0;
-while (stock < 5) {
-  printis_even3);
+while stock < 5 {
+  print(is_even3);
   stock = stock + 1;
 }
 marks = (29 - 18) + 14;

@@ -55,7 +55,7 @@ if (true) {
   aroea2 = 20;
 }
 if (msg2 != "token") {
-  int areas2 = (17 + years);
+  int areas2 = 17 + years);
   print(areas2);
   int k = 0;
   while (k < 5) {
@@ -79,7 +79,7 @@ if (false) {
     print(area);
     int yearee = 38;
   }
-} else if 39 - 39 > 32 / 1) {
+} else if (39 - 39 > 32 / 1) {
   if (false) {
     int ysare = (emsg2 % 3);
     print(ysare);

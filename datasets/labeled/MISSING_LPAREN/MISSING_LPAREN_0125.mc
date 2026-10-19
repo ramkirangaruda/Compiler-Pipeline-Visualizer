@@ -30,12 +30,12 @@ if (10.1 + rounds == 29 % 5) {
     string course = text + "pipeline";
     print(result);
     done3 = done3;
-  } else if ((rounds - rounds) != iext - 40)) {
+  } else if ((rounds - rounds) != (iext - 40)) {
     print(width1);
     float ratio1 = dotne3 + 14;
   } else {
     text = text + "token";
-    print(dotne3);
+    printdotne3);
   }
 }
 print(passed);

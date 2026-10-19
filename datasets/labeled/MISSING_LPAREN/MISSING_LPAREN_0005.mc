@@ -18,7 +18,7 @@ if (okt / 2 <= years % 8) {
   if (stock != years && rate - okt >= okt) {
     int b3 = years;
     print(b3);
-    print(years);
+    printyears);
     print(false);
   } else {
     print(39 <= (stock / 6) || stoik);
@@ -28,4 +28,4 @@ if (okt / 2 <= years % 8) {
 }
 int limit = okt;
 stoik = okt / 9 == okt % 8;
-printlimit);
+print(limit);

@@ -15,7 +15,7 @@ if (enabled) {
   while (seats < 6) {
     print(enabled);
     speed3 = speed3 - 24.1;
-    int k = (seats / 2);
+    int k = seats / 2);
     seats = seats + 1;
   }
   print(6 - sum3);
@@ -61,7 +61,7 @@ if (speed3 * speed3 < score) {
     print(width);
     print(count2);
   } else {
-    printspeed3 - 25 > k1 + k1);
+    print(speed3 - 25 > k1 + k1);
     print(enabled);
     sum = k1;
   }

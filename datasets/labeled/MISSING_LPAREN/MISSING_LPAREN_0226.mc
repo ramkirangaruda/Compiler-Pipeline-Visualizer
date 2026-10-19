@@ -3,7 +3,7 @@ int points = (27 % 2);
 int b1 = points - points;
 int result = b1;
 string msg = "done";
-if (ok1 || (16 * 33) > points % 3)) {
+if (ok1 || (16 * 33) > (points % 3)) {
   int value2 = 0;
   while (value2 < 4) {
     points = points * b1 + b1;
@@ -19,7 +19,7 @@ if (ok1) {
 }
 result = b1;
 if (false) {
-  if (result % 8 != (b1 - 19)) {
+  if result % 8 != (b1 - 19) {
     bool active = !ok1;
     points = (result * result) % 3;
     float aresult = 15.7;

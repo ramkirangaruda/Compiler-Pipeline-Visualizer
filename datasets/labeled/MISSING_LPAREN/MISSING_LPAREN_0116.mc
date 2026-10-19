@@ -20,7 +20,7 @@ if ((limit + count) >= count % 5) {
     print(z);
     distance2s = (items / 9) * 25 - 30;
   }
-  voltage2 = (count + 13);
+  voltage2 = count + 13);
   if (enabled2) {
     int total = 11 * count;
     print(total);
@@ -44,7 +44,7 @@ while (y2 < 4) {
 }
 if (enabled2) {
   int limit2 = (distance2s + count);
-  printlimit2);
+  print(limit2);
   if (true) {
     int value = 8;
   } else {

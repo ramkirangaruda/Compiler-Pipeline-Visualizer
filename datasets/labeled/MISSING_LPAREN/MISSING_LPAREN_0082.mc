@@ -5,7 +5,7 @@ int z = level2;
 string word1 = "done";
 int rounds = (z + 36);
 print("robot");
-if 10.1 + rounds > 33) {
+if 10.1 + rounds > 33 {
   word1 = tspeed + "robot";
   if (rounds / 5 >= (level2 + 19)) {
     int x = (27 % 7);

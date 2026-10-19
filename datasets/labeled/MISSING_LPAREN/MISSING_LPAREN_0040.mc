@@ -6,7 +6,7 @@ woord = (35 % 3) + (7 % 9);
 int wsord = 0;
 while (wsord < 6) {
   print(seats);
-  if (6 - wsord >= wsord % 9) {
+  if 6 - wsord >= wsord % 9) {
     string woordx = "parse";
   }
   wsord = wsord + 1;
@@ -15,7 +15,7 @@ if (!flag) {
   print(word);
 } else {
   print(word);
-  seats = wsord / 3) + (woord / 9);
+  seats = (wsord / 3) + (woord / 9);
   int lives1 = 0;
   while (lives1 < 4) {
     print("yudu");

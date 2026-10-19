@@ -29,10 +29,10 @@ while (a < 3) {
 print((20 * b));
 int z = 4;
 if ((z * level) < 29 + 5) {
-  int base = (8 % 7);
+  int base = 8 % 7);
   print(base);
   z1 = 19 + base * (base * z);
 } else if (msg == "bob") {
   int lives = 4;
 }
-print(b % 2));
+print((b % 2));

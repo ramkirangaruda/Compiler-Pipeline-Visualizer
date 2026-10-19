@@ -1,9 +1,9 @@
 int k = 26;
 int j;
 float discount = 23.5 - 22.3;
-if false) {
+if (false) {
   int b = 0;
-  while (b < 4) {
+  while b < 4 {
     j = k;
     b = b + 1;
   }

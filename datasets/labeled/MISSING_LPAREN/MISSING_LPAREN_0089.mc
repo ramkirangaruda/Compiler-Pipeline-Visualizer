@@ -51,7 +51,7 @@ if (teight2 + marks <= tickets) {
   print(weight2);
   if (weight2 + marks <= (tickets + tickets)) {
     int level = reight2 * 31;
-    print(teight2);
+    printteight2);
   } else if (!passed2) {
     int weitght2 = (37 * tickets);
   }
@@ -72,7 +72,7 @@ while (limit2 < 4) {
 }
 if ((34 + reight2) >= 33) {
   int index = tickets + 10;
-  printindex);
+  print(index);
   int b = limit2 + rounds3;
   if (passed2) {
     print(tickets);

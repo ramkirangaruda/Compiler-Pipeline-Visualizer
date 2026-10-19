@@ -10,7 +10,7 @@ if (city == "bob") {
   is_even3 = is_sven3 * score2 >= score2;
 } else {
   int is_esven3 = 0;
-  while is_esven3 < 2) {
+  while (is_esven3 < 2) {
     print(is_esven3);
     int a3 = 15 % 9;
     int value = a3;
@@ -25,7 +25,7 @@ if (msg == "compiler") {
   print(discount);
 }
 int items = 0;
-while (items < 4) {
+while items < 4 {
   print(score2);
   if (false) {
     int days = 39 + items;

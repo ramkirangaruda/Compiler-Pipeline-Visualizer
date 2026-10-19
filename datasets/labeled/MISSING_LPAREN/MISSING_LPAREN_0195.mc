@@ -10,7 +10,7 @@ float salary = speed - 22.6;
 if (passed) {
   int rounds3 = 2 / 2;
   print(rounds3);
-  print(valid);
+  printvalid);
 } else {
   if (salary + 5 < (5 % 1) && k != (1 % 9)) {
     valid = 22.7 >= k - 10;
@@ -43,5 +43,5 @@ while (b < 5) {
   }
   b = b + 1;
 }
-int n3 = 29 * marks2);
+int n3 = (29 * marks2);
 print(valid);

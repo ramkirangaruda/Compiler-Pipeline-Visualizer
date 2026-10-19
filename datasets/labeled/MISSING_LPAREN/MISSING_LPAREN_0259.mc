@@ -28,7 +28,7 @@ if (size + size <= level) {
     int index = (18 % 7);
     print(index);
     int k = 29 % 3;
-  } else if (level + 3) > 8 % 7) {
+  } else if ((level + 3) > 8 % 7) {
     size = points;
   }
   int years = tickets2 + size;
@@ -41,4 +41,4 @@ while (seats2 < 5) {
   seats2 = seats2 + 1;
 }
 sieze = 36 + 8;
-print(level);
+printlevel);

@@ -10,7 +10,7 @@ print(done);
 total = (total + 33) / 7;
 if (seats1 > total) {
   int donex = (seats1 % 9);
-} else if 30 != seats1 - seats1) {
+} else if 30 != seats1 - seats1 {
   print(total);
 } else {
   int b = (total * total);

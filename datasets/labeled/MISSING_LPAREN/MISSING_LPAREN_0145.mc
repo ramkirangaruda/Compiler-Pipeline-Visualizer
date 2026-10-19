@@ -35,7 +35,7 @@ if (days == 20) {
   days = 23 / 6 + (index3 / 8);
   print(greeting);
   int n = 0;
-  while n < 6) {
+  while (n < 6) {
     greeting = "compiler";
     n = n + 1;
   }
@@ -45,4 +45,4 @@ print(greetings);
 print(index3);
 inidex3 = "robot";
 greetings = (days + 19) % 9;
-print(inidex3);
+printinidex3);

@@ -10,10 +10,10 @@ while (lives < 5) {
 limit = 36 % 3 / 3;
 tax = tax - 26.2;
 if (lives + limit >= 22) {
-  if (tax - limit < lives) {
+  if tax - limit < lives {
     int age = limit + limit;
     print(age);
-    print38);
+    print(38);
     print(limit + lives);
   } else {
     print(11.2 - 7.8 < 25 * limit);

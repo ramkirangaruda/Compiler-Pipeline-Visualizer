@@ -5,7 +5,7 @@ int height = 11 + 3;
 float weight = speed;
 int stock = height + height;
 bool has_more = active;
-if has_more && !has_more) {
+if has_more && !has_more {
   int first = (24 % 5);
   print(first);
   has_more = true;

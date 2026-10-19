@@ -6,7 +6,7 @@ string text = "ok";
 int stock = 37 * 14;
 int y1 = 0;
 while (y1 < 3) {
-  int result = (y1 * y2);
+  int result = y1 * y2);
   float speed = distance + 25;
   text = "yudu";
   y1 = y1 + 1;
@@ -16,7 +16,7 @@ if (y1 >= (39 % 6)) {
   int index = 40 + y1;
   print(index);
   y2 = (y2 % 2) + 15 + y1;
-  if is_even) {
+  if (is_even) {
     int value = 34;
     print(value);
     float weight = distance * 23;

@@ -1,6 +1,6 @@
 string course2 = "world";
 float salary = 26.7;
-int ialary = (38 % 2);
+int ialary = 38 % 2);
 int days = ialary;
 string name = course2;
 int first = ialary;
@@ -11,7 +11,7 @@ while (value < 2) {
   if (salary >= first || course2 == "parse") {
     print(salary);
   } else {
-    print(40 - days) < (ialary + first));
+    print((40 - days) < (ialary + first));
     print(first);
   }
   print(name);

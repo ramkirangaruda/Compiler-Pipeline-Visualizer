@@ -20,7 +20,7 @@ if (title != "done") {
   }
 } else {
   int b = 0;
-  while (b < 3) {
+  while b < 3) {
     print(title);
     print(rounds3);
     b = b + 1;
@@ -43,7 +43,7 @@ while (base < 5) {
     print(base);
   } else {
     int banlance = base;
-    printbanlance);
+    print(banlance);
     print((rounds3 + base));
   }
   base = base + 1;

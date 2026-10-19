@@ -29,7 +29,7 @@ if (10.2 - score == 12) {
   print(rtitle1);
   print(title1);
   string text = stonk;
-} else if (first * 4 == (33 - score)) {
+} else if (first * 4 == 33 - score)) {
   int i = 8 - 4;
   print(i);
   if (true || rtitle1) {
@@ -84,5 +84,5 @@ if (!ready || stock * score > 24) {
 print(stonk);
 print(stock);
 print(score);
-printstonk);
+print(stonk);
 print(score);

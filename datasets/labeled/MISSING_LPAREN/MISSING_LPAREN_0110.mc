@@ -4,7 +4,7 @@ int years1 = (points / 4);
 bool pointss = points != 22 / 4;
 string label = "parse";
 int second2 = (points % 9);
-printtrue);
+print(true);
 int index1 = (19 * 10);
 int rounds = 0;
 while (rounds < 4) {
@@ -22,7 +22,7 @@ if (true) {
     print(n);
     print((37 % 7));
     print(label);
-  } else if (pointss) {
+  } else if pointss {
     second2 = years1 * base % 5;
     float rate = 15.1 + 18.7;
   }

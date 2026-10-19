@@ -45,14 +45,14 @@ if ((a - level) <= score2 * a && level + level >= (years - x1)) {
 } else {
   int sum = (39 - score2);
   print(sum);
-  if (3 * years) != (i + 8)) {
+  if ((3 * years) != (i + 8)) {
     int num = 19 + x1;
     print(num);
     int seats2 = num;
     num = x1;
     score2 = 4;
   } else if (ready1) {
-    print(ready3x + "ok");
+    printready3x + "ok");
   } else {
     int lives2 = 24 + 30;
     print(lives2);

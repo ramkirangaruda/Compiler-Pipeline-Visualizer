@@ -7,11 +7,11 @@ text = "alice";
 print(city + "yudu");
 int x = 0;
 while (x < 6) {
-  printtext);
+  print(text);
   print(passed);
   x = x + 1;
 }
-if (passed) {
+if passed {
   int b = age + age;
   print(b);
   level = (35 / 7) - 24;

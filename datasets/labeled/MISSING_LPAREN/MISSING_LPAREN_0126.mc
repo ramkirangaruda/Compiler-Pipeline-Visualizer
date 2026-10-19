@@ -28,7 +28,7 @@ if ((38 * discount2x) > discount2x) {
 } else {
   int size = (discount2x + 23);
   print(size);
-  if 36 - size < (size / 2)) {
+  if (36 - size < (size / 2)) {
     title = "alice";
     print(done);
     int marks3 = (size * size);
@@ -38,7 +38,7 @@ if ((38 * discount2x) > discount2x) {
     print(size);
     discount2 = 23.7 - discount2x;
   } else if ((discount2x * discount2x) != discount2x) {
-    print(title);
+    printtitle);
     done = discount2 - 1.3 >= discount2x + discount2x;
   }
 }

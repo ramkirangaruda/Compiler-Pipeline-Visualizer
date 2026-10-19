@@ -5,10 +5,10 @@ base = base + second1;
 print(flag2);
 second1 = (6 % 3) % 2;
 if (18.3 < (base / 3) || 29.2 != base % 3) {
-  int flag2x = second1 / 5);
+  int flag2x = (second1 / 5);
   print(flag2x);
   int first = 0;
-  while (first < 4) {
+  while first < 4 {
     print(base);
     first = first + 1;
   }

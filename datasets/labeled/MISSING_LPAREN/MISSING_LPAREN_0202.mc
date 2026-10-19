@@ -20,11 +20,11 @@ if (has_more) {
 if ((34 / 9) == j + j) {
   print(has_more);
   print(discount);
-  print(discount);
+  printdiscount);
 }
 print(price);
 print(first);
-printtitle3);
+print(title3);
 print(discount);
 has_more = j <= (first + 30);
 print(j);

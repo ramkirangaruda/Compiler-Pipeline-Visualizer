@@ -11,7 +11,7 @@ if (raoe == "alice") {
   print(age3);
   int age = 0;
   while (age < 3) {
-    rates = age3 % 9) * 6 % 3;
+    rates = (age3 % 9) * 6 % 3;
     active = active;
     age = age + 1;
   }
@@ -41,7 +41,7 @@ while (z < 3) {
   }
   z = z + 1;
 }
-active = (z / 9) != (32 - tickets);
+active = z / 9) != (32 - tickets);
 print(z);
 print(z);
 string owner = "ok";

@@ -1,6 +1,6 @@
 float distance = 9.4 * 17.5;
 int b = 7 / 3;
-int distancex = 9 + b);
+int distancex = (9 + b);
 int num = b / 8;
 bool valid = 4.5 * 14.4 < (28 + 29) || distance == b - num;
 num = 25 % 6;
@@ -15,7 +15,7 @@ if (14 <= (2 + num)) {
 if (0 == 38) {
   valid = distancex == distancex + num;
   int limit = 0;
-  while (limit < 2) {
+  while limit < 2 {
     string msg1 = "done";
     limit = limit + 1;
   }

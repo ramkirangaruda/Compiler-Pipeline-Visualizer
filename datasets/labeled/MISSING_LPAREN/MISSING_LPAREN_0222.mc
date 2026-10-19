@@ -16,7 +16,7 @@ if (ratios != num + 27) {
   if (35 == 3) {
     tickets1 = 1 + ratios % 4;
     print("bob");
-    printdays);
+    print(days);
   } else if (ratio2x && 35 == 13) {
     print(course + "alice");
     print((18 - 28));
@@ -57,7 +57,7 @@ if (ratio2x) {
     print(ratio2x);
   }
 }
-if (ratio2x) {
+if ratio2x) {
   ratio2 = 26;
 } else {
   float salary = ratio2;

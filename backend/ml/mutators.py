@@ -98,6 +98,25 @@ def m_rparen(fe, rng) -> Result:
 
 
 def m_lparen(fe, rng) -> Result:
+    toks = fe.tokens
+    if rng.random() < 0.2:  # a beginner writes `if x > 3 {` - both header parentheses missing
+        heads = []
+        for i, t in enumerate(toks[:-1]):
+            if t.kind == "KEYWORD" and t.value in ("if", "while") and toks[i + 1].value == "(":
+                depth = 0
+                for j in range(i + 1, len(toks)):
+                    if toks[j].kind == "PUNCT" and toks[j].value == "(":
+                        depth += 1
+                    elif toks[j].kind == "PUNCT" and toks[j].value == ")":
+                        depth -= 1
+                        if depth == 0:
+                            heads.append((toks[i + 1], toks[j]))
+                            break
+        if heads:
+            lp, rp = rng.choice(heads)
+            src = fe.source
+            return (src[: lp.start] + src[lp.end : rp.start] + src[rp.end :],
+                    {"line": lp.line, "mutation": "removed both header parentheses", "name": None})
     return _remove_token(fe, rng, lambda f, t: t.kind == "PUNCT" and t.value == "(", "'('")
 
 

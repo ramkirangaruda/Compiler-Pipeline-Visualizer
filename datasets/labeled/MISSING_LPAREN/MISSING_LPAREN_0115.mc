@@ -52,14 +52,14 @@ if (30.4 > size - size) {
   int k2 = (i / 9);
   print(k2);
   print(first2);
-  print(i);
+  printi);
   int b1 = 31;
 } else {
   print(voltage - count == first2 * size);
   if (flag) {
     print(weight * 32 <= i % 2);
   }
-  if is_even) {
+  if (is_even) {
     int x2 = (i % 1);
     print(x2);
     print(flag);

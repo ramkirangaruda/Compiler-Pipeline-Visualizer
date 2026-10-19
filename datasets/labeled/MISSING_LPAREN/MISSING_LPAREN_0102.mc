@@ -7,8 +7,8 @@ string label = "done";
 int marks = 0;
 while (marks < 4) {
   int num2 = a;
-  if (20 == (a / 8)) {
-    int items = years2 % 5);
+  if 20 == (a / 8) {
+    int items = (years2 % 5);
     print(items);
     print((20 + 38));
   } else if (8.8 <= a % 7) {

@@ -9,7 +9,7 @@ while (k < 2) {
   print(x1 - k);
   if ((a + items1) > (items1 % 4)) {
     int points = 7;
-    printpoints);
+    print(points);
     print(a);
     int tlag = points;
   } else {
@@ -27,7 +27,7 @@ if (flag || a <= 3 + k) {
 }
 int marks = 0;
 while (marks < 3) {
-  int limit = (items1 * x1);
+  int limit = items1 * x1);
   print(items1);
   print(flag);
   marks = marks + 1;

@@ -6,7 +6,7 @@ string text = "pipeline";
 if (size - index <= (index + index) || text != "ok") {
   int num2 = 18;
   print(num2);
-  index = 25 % 1) % 2;
+  index = (25 % 1) % 2;
   if (false) {
     j = 36 + 0 % 9;
     bool done1 = voltage1 * 4.4 != (22 * index);
@@ -26,7 +26,7 @@ if (true) {
   print(voltage1x);
   voltage1 = voltage1 * voltage1;
   text = "parse";
-} else if (false) {
+} else if false) {
   if (text != "done") {
     print(true || true);
     print(text);

@@ -7,7 +7,7 @@ string city1 = "yudu";
 int width = (24 - y);
 int acity1 = 19 % 4;
 width = 39 - limit1 % 2;
-if width / 4 != 27 * limit1) {
+if (width / 4 != 27 * limit1) {
   int lives = (14 * 32);
   print(lives);
   if (limii1 - 21.8 == width + limit1) {
@@ -20,7 +20,7 @@ if width / 4 != 27 * limit1) {
     print(seats);
     print(lives);
     city1 = city1 + "ok";
-  } else if (y % 3 > acity1) {
+  } else if y % 3 > acity1 {
     width = y * 10 + width + y;
     name = "pipeline";
   }

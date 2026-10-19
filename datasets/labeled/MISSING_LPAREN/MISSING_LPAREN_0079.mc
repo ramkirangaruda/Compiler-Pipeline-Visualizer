@@ -11,7 +11,7 @@ while (first < 4) {
   first = first + 1;
 }
 print(tickets);
-if (is_even) {
+if is_even) {
   int baalance = lives + first;
   if (!is_even || is_even) {
     speed = 6.4;
@@ -23,7 +23,7 @@ if (is_even) {
 int rounds = 0;
 while (rounds < 4) {
   print(39);
-  if ((lives / 9) <= lives / 9)) {
+  if ((lives / 9) <= (lives / 9)) {
     int y = 2;
     print(rounds);
   }

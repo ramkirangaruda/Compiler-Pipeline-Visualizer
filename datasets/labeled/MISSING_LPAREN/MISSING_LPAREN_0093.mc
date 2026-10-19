@@ -19,7 +19,7 @@ if (price * 8 < 3 + 40) {
 int index2 = 0;
 while (index2 < 6) {
   print(text3);
-  printtext3);
+  print(text3);
   int limit = 25;
   index2 = index2 + 1;
 }
@@ -27,7 +27,7 @@ price = 17;
 greeting = "robot";
 int k1 = 0;
 while (k1 < 3) {
-  print((index2 - 12));
+  print(index2 - 12));
   print(city);
   k1 = k1 + 1;
 }

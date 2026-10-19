@@ -1,10 +1,10 @@
 float avg = 24.6;
 bool aog = avg + 19 != 11 || avg * 10 < 7 + 26;
 int y1 = 32;
-if (true) {
+if true) {
   if (39 - y1 > (y1 / 9)) {
     int k = (y1 - y1);
-    printk);
+    print(k);
     print(k);
     int ovg = 37 - y1;
   } else if ((y1 * y1) < 9) {

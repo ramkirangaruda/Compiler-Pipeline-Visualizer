@@ -6,7 +6,7 @@ string city3 = "token";
 bool done = (age1 + 13) >= (24 % 6);
 string text = city3 + "alice";
 done = !valid;
-printgreeting);
+print(greeting);
 text = city3 + "compiler";
 int a1 = 0;
 while (a1 < 4) {
@@ -28,7 +28,7 @@ int years = age1 + 10;
 int valird = 0;
 while (valird < 4) {
   print(text);
-  if (speed - speed > age1) {
+  if speed - speed > age1 {
     print(valid);
     speed = 18 / 4;
     bool is_even = (40 * a1) != 21 + a1;

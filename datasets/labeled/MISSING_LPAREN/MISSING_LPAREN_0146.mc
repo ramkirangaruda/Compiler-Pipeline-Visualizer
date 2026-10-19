@@ -18,7 +18,7 @@ if (rate + 5 > points / 1) {
   if (limit2 % 6 == points / 8) {
     int level = 40 + 31;
     print(level);
-    print(level);
+    printlevel);
   } else {
     int points2 = (0 - points);
     print(points2);
@@ -33,7 +33,7 @@ if (enabled3 || rate > n) {
   print(rate);
   int size = 0;
   while (size < 2) {
-    printk);
+    print(k);
     limit2 = stock - 33 - k * 5;
     rate = size;
     size = size + 1;

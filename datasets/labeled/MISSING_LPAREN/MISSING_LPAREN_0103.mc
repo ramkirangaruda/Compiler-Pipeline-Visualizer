@@ -38,11 +38,11 @@ if (greeting == "yudu") {
   }
   int levelsx = 0;
   while (levelsx < 2) {
-    printlevels);
+    print(levels);
     greeting = "hello";
     levelsx = levelsx + 1;
   }
-  if (10 <= (29 / 4)) {
+  if (10 <= 29 / 4)) {
     print(level);
     deays = (tickets % 8);
     bool done = tickets / 9 == 7 + 32;

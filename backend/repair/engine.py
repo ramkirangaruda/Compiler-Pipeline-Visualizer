@@ -12,7 +12,7 @@ from . import baseline
 from .candidates import generate, gen_rules
 from .classifier import MODEL_PATH, Classifier
 from .features import extract
-from .labels import LABELS, ML_CODES
+from .labels import CANDIDATE_CAUSES, LABELS, ML_CODES
 from .validator import validate
 
 STATUS_RANK = {"verified": 2, "partial": 1, "rejected": 0}
@@ -44,6 +44,18 @@ class Engine:
     def model_loaded(self) -> bool:
         return self.clf is not None
 
+    @staticmethod
+    def _constrain(probs: dict[str, float], code: str) -> dict[str, float]:
+        """Keep only the causes the compiler's own error code leaves possible, renormalised."""
+        allowed = CANDIDATE_CAUSES.get(code)
+        if not allowed:
+            return probs
+        kept = {l: p for l, p in probs.items() if l in allowed}
+        total = sum(kept.values())
+        if total < 1e-9:
+            return {l: 1.0 / len(allowed) for l in allowed}
+        return {l: p / total for l, p in kept.items()}
+
     # ----------------------------------------------------------- one diag
     def diagnose_one(self, d: Diagnostic, fe: Frontend, mode: str = "ml") -> dict:
         source = fe.source
@@ -61,7 +73,7 @@ class Engine:
                 probs = {base_label: 1.0}
                 entry["handled_by"] = "baseline" if mode == "baseline" else "rules-fallback"
             else:
-                probs = self.clf.predict_proba(feats)
+                probs = self._constrain(self.clf.predict_proba(feats), d.code)
                 entry["handled_by"] = "ml"
             ranked = sorted(probs.items(), key=lambda kv: -kv[1])
             top_label, top_p = ranked[0]

@@ -43,7 +43,7 @@ export default function Home() {
   const [m, setM] = useState(null);
   useEffect(() => { api.model().then(setM).catch(() => {}); }, []);
   const acc = m?.metrics?.test?.accuracy ?? 0.986;
-  const fix = m?.repair_eval?.ml?.overall?.verified_fix_rate ?? 0.99;
+  const fix = m?.repair_eval?.ml?.overall?.autofix_success_rate ?? 0.98;
   const n = m?.metrics?.dataset?.n_samples ?? 3120;
   const base = m?.metrics?.baseline?.test?.accuracy;
   const nFeat = m?.metrics?.dataset?.n_features ?? 40;
@@ -84,7 +84,7 @@ export default function Home() {
               <Stat label={base ? `cause accuracy (rules: ${(base * 100).toFixed(0)}%)` : 'cause accuracy'}>
                 <CountUp to={+(acc * 100).toFixed(1)} decimals={1} suffix="%" duration={2} trigger="load" />
               </Stat>
-              <Stat label="fixes verified by compiler">
+              <Stat label="errors auto-repaired, compiler-verified">
                 <CountUp to={+(fix * 100).toFixed(1)} decimals={1} suffix="%" duration={2} trigger="load" />
               </Stat>
             </div>

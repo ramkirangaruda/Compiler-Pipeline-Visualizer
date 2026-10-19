@@ -16,8 +16,8 @@ if (30 >= (base % 6)) {
 int raoio2 = 0;
 while (raoio2 < 2) {
   validx = "yudu";
-  if (false) {
-    int age = 9 / 7);
+  if false) {
+    int age = (9 / 7);
     print(age);
     print(age);
     base = 2;

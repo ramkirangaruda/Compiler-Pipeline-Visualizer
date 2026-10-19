@@ -9,7 +9,7 @@ if (word != "robot" && false) {
   int value = (2 / 3);
   print(value);
   marks = 30;
-  printmarks);
+  print(marks);
 }
 course2 = "bob";
 print(marks);
@@ -22,7 +22,7 @@ while (lives < 3) {
 }
 marks = 15 + 7 * 9;
 int height3 = 0;
-while (height3 < 3) {
+while height3 < 3) {
   int width2 = (24 % 9);
   width2 = words;
   int first = (width2 * 13);

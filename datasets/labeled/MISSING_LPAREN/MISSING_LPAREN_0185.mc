@@ -1,5 +1,5 @@
 bool valid = (34 * 19) == 21;
-bool enabled = (30 + 8) <= 38 + 22;
+bool enabled = 30 + 8) <= 38 + 22;
 int valrid = 4 / 5;
 float temp2 = 22.4;
 string valrrid = "world";
@@ -13,7 +13,7 @@ while (steps < 2) {
 }
 print(valrrid);
 print(5);
-printtemp2);
+print(temp2);
 int enabledx = 0;
 while (enabledx < 5) {
   enabled = 8 + enabledx > (valrid % 5);

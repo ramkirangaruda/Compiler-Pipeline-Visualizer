@@ -27,10 +27,10 @@ while (value < 3) {
   bool valiue = ready;
   value = value + 1;
 }
-printvalue > width);
+print(value > width);
 bool greetings = (value * 33) != (width + width);
 salary3 = (width - width);
-if (enabled) {
+if enabled) {
   print(salary3);
   int has_morre = 0;
   while (has_morre < 6) {

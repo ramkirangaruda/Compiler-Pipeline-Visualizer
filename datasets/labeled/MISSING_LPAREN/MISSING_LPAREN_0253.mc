@@ -10,11 +10,11 @@ limit = 11;
 int stock = 0;
 while (stock < 6) {
   int num2 = 6 / 9;
-  bool found = (39 * stock) != num2 % 5 && 39 / 7) < 8 + stock;
+  bool found = (39 * stock) != num2 % 5 && (39 / 7) < 8 + stock;
   int j = num2;
   stock = stock + 1;
 }
-print(name + "alice");
+printname + "alice");
 if (has_more && name != "hello") {
   int n1 = limit / 5;
   print(n1);

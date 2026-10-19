@@ -27,7 +27,7 @@ while (height < 3) {
   height = height + 1;
 }
 bool is_even = label != "compiler";
-if avg == seats % 8 || ssats == "hello") {
+if (avg == seats % 8 || ssats == "hello") {
   print(height);
   print(ssats);
 }
@@ -40,7 +40,7 @@ if (sears < 19 * seats || ssats != "alice") {
   if (height - 11 >= rounds3 * rounds3) {
     labels = height - seats;
     print(is_even);
-    print(j);
+    printj);
   } else {
     print(ssats != "pipeline");
     is_even = !is_even || (rounds3 % 2) != 25;

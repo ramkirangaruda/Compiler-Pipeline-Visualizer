@@ -5,7 +5,7 @@ string course = "parse";
 int tickets = n * n;
 bool ok = course != "robot" && false;
 string owner = course;
-if n3 == 33) {
+if (n3 == 33) {
   print(course);
   course = "yudu";
 }
@@ -24,7 +24,7 @@ while (width < 3) {
   print(owner != "ok");
   width = width + 1;
 }
-if (ok) {
+if ok) {
   print(tickets * 24);
   n = tickets % 6 + n3;
   n3 = 27 - 30 % 6;

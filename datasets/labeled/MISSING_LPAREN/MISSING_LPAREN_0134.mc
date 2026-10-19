@@ -9,7 +9,7 @@ int i1 = (second3 / 9);
 int age = score3;
 int items = 0;
 while (items < 5) {
-  print((i1 / 3) < score3 / 5);
+  print(i1 / 3) < score3 / 5);
   items = items + 1;
 }
 string course = msg;
@@ -20,7 +20,7 @@ if (!markss) {
   total = score3 + 30 % 2;
   msg = "pipeline";
   print(items);
-} else if markss) {
+} else if (markss) {
   int limit1 = 0;
   while (limit1 < 4) {
     rounds = 35 % 3;

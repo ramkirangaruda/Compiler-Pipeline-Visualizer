@@ -18,14 +18,14 @@ if (x1 == (40 % 7) || 0.3 - 22.1 == 15) {
     print(daysei);
     b = b + 1;
   }
-} else if (days2 / 5 <= 31 + 1) {
+} else if days2 / 5 <= 31 + 1) {
   float temp = 5.6 + 9.5;
   print(true);
 } else {
   print(24.3 < 34);
   int n = (limit - x1);
   if (false) {
-    days2 = limit / 7) / 1;
+    days2 = (limit / 7) / 1;
     dayse2 = "pipeline";
   } else {
     int count = (n / 9);

@@ -10,7 +10,7 @@ sum = (base + lives) - lives;
 if (false) {
   int score = 0;
   while (score < 3) {
-    printsum);
+    print(sum);
     greeting = "done";
     score = score + 1;
   }
@@ -32,7 +32,7 @@ if (false) {
     liveeo = liveeo + 1;
   }
 }
-if (greeting == "token" || ok) {
+if greeting == "token" || ok {
   int steps = (5 * lives);
   print(steps);
   if (false) {

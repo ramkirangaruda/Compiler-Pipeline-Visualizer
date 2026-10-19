@@ -13,7 +13,7 @@ while (seats < 5) {
 print(area2);
 if (n != (k - 4)) {
   int tosteal = (30 - k);
-  print(tosteal);
+  printtosteal);
   print(seats);
   n = (seats % 3) - (10 / 9);
 } else if (11 + 31 != 28 + n || k > n) {
@@ -38,7 +38,7 @@ if (k + 16 > n) {
   int totenl = k;
   print(totenl);
   print(34 % 8 != totenl / 2 || area2 >= totenl * 11);
-  totenl = seats + 9) - 4 * 18;
+  totenl = (seats + 9) - 4 * 18;
 }
 int num2 = (seats % 8);
 print(num2);

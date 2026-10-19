@@ -4,10 +4,10 @@ int years = 13 + 21;
 string valuex = msg1;
 bool ready = 17.3 <= 4 * value;
 int age = years * 23;
-printvalue);
+print(value);
 print(ready);
 int b1 = 0;
-while (b1 < 2) {
+while b1 < 2) {
   if (age * age >= age) {
     value = b1;
     int num = years - 23;

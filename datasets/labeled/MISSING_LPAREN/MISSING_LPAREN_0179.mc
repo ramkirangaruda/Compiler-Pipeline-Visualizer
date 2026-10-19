@@ -20,7 +20,7 @@ if (38 < 13 / 2) {
   int items = 0;
   while (items < 5) {
     n1 = a + 28 * (a + 18);
-    printname);
+    print(name);
     items = items + 1;
   }
 }
@@ -31,7 +31,7 @@ while (k < 4) {
   name = course2;
   k = k + 1;
 }
-print(n1);
+printn1);
 n1 = (k * a) + a;
 int total = 0;
 while (total < 4) {

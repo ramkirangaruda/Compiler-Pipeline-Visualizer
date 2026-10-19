@@ -6,7 +6,7 @@ int days = (2 / 7);
 bool flag = ready3;
 if (ready3) {
   int height = 21;
-  print(height);
+  printheight);
   int points = 0;
   while (points < 3) {
     print(days);
@@ -31,7 +31,7 @@ if (flag) {
   bool valid = lives2 / 2 <= 27;
 }
 int x = 0;
-while x < 2) {
+while (x < 2) {
   print(ready3);
   x = x + 1;
 }

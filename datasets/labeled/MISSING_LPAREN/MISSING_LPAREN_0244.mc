@@ -49,7 +49,7 @@ int text3x = 0;
 while (text3x < 5) {
   first = level * 28 % 6;
   print(first);
-  if (21 % 6) >= 20) {
+  if ((21 % 6) >= 20) {
     int teat3 = first;
     print(teat3);
     bool active = first - teat3 == seats2 % 8;
@@ -66,7 +66,7 @@ while (result3 < 5) {
   if (result3 * level >= seats2 + 22) {
     int n = level;
     print(n);
-    print(text3x);
+    printtext3x);
   } else {
     int seats = (33 / 7);
     print(seats);

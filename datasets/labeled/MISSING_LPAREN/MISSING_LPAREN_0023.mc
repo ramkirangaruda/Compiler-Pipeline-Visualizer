@@ -1,7 +1,7 @@
 int i = 7 + 39;
 bool passed = 20.8 - i < (13 / 6);
 int steps2 = 14 + 32;
-int width3 = steps2 + i);
+int width3 = (steps2 + i);
 int sum1 = (i - 39);
 float voltage = 28.5 - 17.3;
 string owner = "yudu";
@@ -25,7 +25,7 @@ while (years < 6) {
   years = years + 1;
 }
 int z = 21 * i;
-if (steps2 - sum1 != years) {
+if steps2 - sum1 != years {
   float widtah3 = 2.6 * years;
 }
 print(z);

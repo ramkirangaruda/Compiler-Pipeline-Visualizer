@@ -16,7 +16,7 @@ if (found) {
   n = years * 23 - n / 2;
 }
 if (7.7 <= 22 || discount2 <= n * n) {
-  if (25 > (n + 27)) {
+  if (25 > n + 27)) {
     int size2 = n + 29;
     print(size2);
     print(temp3);
@@ -35,7 +35,7 @@ if (7.7 <= 22 || discount2 <= n * n) {
     greeting1 = "pipeline";
   } else {
     float ratio = temp3 * value;
-    printgreeting1 == "world");
+    print(greeting1 == "world");
     int first2 = (n - n);
   }
 } else {

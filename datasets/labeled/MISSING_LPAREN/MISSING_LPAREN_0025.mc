@@ -7,8 +7,8 @@ z = 23 + width2 % 1;
 int age2 = j;
 print(j);
 width2 = (age2 / 2) + (15 - width2);
-if (true) {
-  j = 40 + j) % 2;
+if true {
+  j = (40 + j) % 2;
 }
 print(z);
 int y = 0;

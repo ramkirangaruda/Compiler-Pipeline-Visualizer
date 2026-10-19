@@ -8,7 +8,7 @@ if (true) {
   print(has_more2);
 }
 int level = 0;
-while level < 4) {
+while (level < 4) {
   if ((age1 - age1) >= 6 * age1) {
     print(age1);
     print(level);
@@ -28,6 +28,6 @@ if (ready) {
   has_more2 = (39 * level) > 10 || rounds % 4 <= 23;
 }
 if (29.3 + 30.5 != level + 17) {
-  print(rounds);
+  printrounds);
 }
 print(age1);

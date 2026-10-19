@@ -5,7 +5,7 @@ bool area1x = 0.9 <= (24 + baliance);
 if (23.9 * balance >= baliance) {
   int seats = 16;
   print(seats);
-  if ((seats / 4) == seats * baliance && false) {
+  if (seats / 4) == seats * baliance && false) {
     print(area1);
     print((seats % 4) <= (seats % 1));
   }
@@ -24,7 +24,7 @@ while (result < 5) {
   result = result + 1;
 }
 print(area1x);
-printarea1);
+print(area1);
 if (area1x) {
   area1x = area1 == result / 6;
 } else {

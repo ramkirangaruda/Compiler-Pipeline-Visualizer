@@ -16,7 +16,7 @@ if (height * limit >= height / 5) {
   }
   int y3 = 0;
   while (y3 < 3) {
-    printowner);
+    print(owner);
     string means = "world";
     y3 = y3 + 1;
   }
@@ -47,7 +47,7 @@ print(henight);
 temp = limit;
 if (label1 == "compiler") {
   int temps = 1;
-  print(temps);
+  printtemps);
   height = 24 + temps * (temps % 7);
 } else {
   if (label1 != "hello") {

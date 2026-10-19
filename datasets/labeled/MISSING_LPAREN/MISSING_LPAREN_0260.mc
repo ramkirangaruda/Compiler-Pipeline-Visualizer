@@ -14,9 +14,9 @@ while (z < 3) {
     print(balance);
     balonce = 20 + 37 / 7;
     string word = nlimit;
-  } else if ((total + total) > balonce) {
+  } else if (total + total) > balonce) {
     int balances = total + 40;
-    printbalances);
+    print(balances);
     int days = balonce;
   } else {
     bool flag = !ready && 7 - total != 14 + 36;

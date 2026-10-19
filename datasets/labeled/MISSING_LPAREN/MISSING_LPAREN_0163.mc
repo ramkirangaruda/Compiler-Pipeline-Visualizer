@@ -17,7 +17,7 @@ while (i < 3) {
   print(x);
   i = i + 1;
 }
-if 12.5 * base3 >= (9 + 17)) {
+if (12.5 * base3 >= (9 + 17)) {
   print((40 + 25) != stock % 6);
   print(base3);
   stock = 38 + (18 / 5);
@@ -29,7 +29,7 @@ if 12.5 * base3 >= (9 + 17)) {
   print(width3);
 }
 lives1 = 9;
-print("alice");
+print"alice");
 int num = 0;
 while (num < 5) {
   print(width3);

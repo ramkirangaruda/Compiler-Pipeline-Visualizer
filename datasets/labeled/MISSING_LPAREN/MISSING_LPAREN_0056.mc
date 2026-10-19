@@ -8,12 +8,12 @@ bool has_more = (14 + 37) <= latbel1;
 string title3 = label1 + "token";
 title3 = "yudu";
 title3 = laabel1;
-if ((31 % 4) >= 2) {
+if (31 % 4) >= 2) {
   base = (base * latbel1) % 4;
 } else if (speetd == "world") {
   int lanel1 = (latbel1 + latbel1);
 }
-if !has_more) {
+if (!has_more) {
   int result = 40;
   print(result);
   int tickets = base * latbel1;

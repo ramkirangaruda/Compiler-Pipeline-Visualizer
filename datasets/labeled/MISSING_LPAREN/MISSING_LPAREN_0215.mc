@@ -45,7 +45,7 @@ if ((lives - 40) != lives + first) {
 }
 int rounds2 = (lives + 35);
 first = 15 + 37 * level;
-if 25 + 10 != 27 + first && 9.2 * 16 > (4 / 4)) {
+if (25 + 10 != 27 + first && 9.2 * 16 > (4 / 4)) {
   int steps = level;
 } else if (25.2 * lives < 6) {
   int steps2 = (lives + j);
@@ -53,4 +53,4 @@ if 25 + 10 != 27 + first && 9.2 * 16 > (4 / 4)) {
   print(steps2 * steps2);
 }
 first = (24 / 7) / 8;
-print(ready);
+printready);

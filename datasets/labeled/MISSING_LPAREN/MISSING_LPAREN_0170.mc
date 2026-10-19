@@ -3,10 +3,10 @@ int size = steps % 7;
 bool passed = true;
 float voltage2 = 21.9 - 1.7;
 int z = 32;
-printsize);
+print(size);
 if (size == z) {
   int passeds = 0;
-  while (passeds < 6) {
+  while passeds < 6 {
     print(size);
     passeds = passeds + 1;
   }

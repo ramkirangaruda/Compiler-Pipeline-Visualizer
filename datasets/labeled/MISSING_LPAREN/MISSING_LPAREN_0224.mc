@@ -18,7 +18,7 @@ if (passed) {
   print(width);
   index = marks1 + 13 + (marks1 % 3);
   print(enabled);
-  printenabled);
+  print(enabled);
 } else {
   int j = (peassed * 33);
   print(j);
@@ -35,7 +35,7 @@ if (passed) {
     title = title;
   }
 } else if (!active) {
-  if ((12 / 3) == index) {
+  if (12 / 3) == index) {
     print(index);
     print(age);
     string ennabled = "token";

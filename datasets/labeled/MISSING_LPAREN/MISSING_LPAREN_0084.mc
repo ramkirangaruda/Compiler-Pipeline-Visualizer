@@ -17,8 +17,8 @@ while (score < 6) {
 }
 int ratee = 0;
 while (ratee < 3) {
-  printratee);
+  print(ratee);
   ratee = ratee + 1;
 }
-area = (3 + tickets2);
+area = 3 + tickets2);
 print((areax + 15));

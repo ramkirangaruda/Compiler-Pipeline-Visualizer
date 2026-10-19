@@ -16,7 +16,7 @@ if (text != "robot") {
     print(true);
     print(value);
   } else {
-    print(steps + steps);
+    printsteps + steps);
     print(width);
     width = 30 + steps % 6;
   }
@@ -52,7 +52,7 @@ if (4.1 >= value % 4) {
     print(stock);
     float speed = 2.8 - 7.2;
     value = value % 9 / 4;
-    speed = 7 - 0);
+    speed = (7 - 0);
   } else if (true) {
     int points = 36;
     width = result + (points % 1);

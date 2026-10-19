@@ -14,7 +14,7 @@ if ((28 + 8) >= 17 % 9) {
   }
 } else {
   int days = 15;
-  printdays);
+  print(days);
   word1 = "bob";
 }
 print(voltage3 + 16 < years);
@@ -32,4 +32,4 @@ if (!flag) {
   title = word;
 }
 print(n);
-print(n);
+printn);

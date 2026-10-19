@@ -8,7 +8,7 @@ if ((value + value) <= (size * value)) {
   print(text);
   int score = 0;
   while (score < 5) {
-    print(value);
+    printvalue);
     score = score + 1;
   }
   text = "done";
@@ -42,7 +42,7 @@ while (steps < 6) {
   steps = steps + 1;
 }
 print(count * seats == size);
-printcount);
+print(count);
 size = count + (21 + 22);
 print(total);
 int texn = 0;
