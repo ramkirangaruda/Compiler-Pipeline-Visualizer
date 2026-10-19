@@ -33,6 +33,11 @@ Source → Lexer → Parser → Semantic → IR (3AC) → Optimizer → VM
 
 Requirements: Python 3.10+ and Node 18+.
 
+**One click:** double-click `start.bat` (Windows) or run `./start.sh` (macOS/Linux). On first run it creates the
+Python environment, installs packages and builds the UI; then everything is served on **http://localhost:8000**.
+
+**Development mode** (hot reload, two terminals):
+
 ```bash
 # 1. backend (from the repository root)
 cd backend
@@ -55,7 +60,7 @@ cd backend
 python -m ml.build_dataset        # writes datasets/ (seeds, labeled/<CAUSE>/, features CSVs)
 python -m ml.train                # compares 4 models, writes models/*.joblib + metrics.json
 python -m ml.evaluate_repair      # end-to-end repair evaluation -> models/repair_eval.json
-python -m pytest                  # 191 tests
+python -m pytest                  # 195 tests
 ```
 
 Production build of the UI: `npm run build` (output in `frontend/dist`).

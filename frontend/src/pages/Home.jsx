@@ -76,16 +76,16 @@ export default function Home() {
             </div>
             <div className="stats">
               <Stat label="error causes classified">
-                <CountUp to={12} duration={1.6} />
+                <CountUp to={12} duration={1.6} trigger="load" />
               </Stat>
               <Stat label="labelled programs">
-                <CountUp to={n} duration={2} separator="," />
+                <CountUp to={n} duration={2} separator="," trigger="load" />
               </Stat>
               <Stat label={base ? `cause accuracy (rules: ${(base * 100).toFixed(0)}%)` : 'cause accuracy'}>
-                <CountUp to={+(acc * 100).toFixed(1)} decimals={1} suffix="%" duration={2} />
+                <CountUp to={+(acc * 100).toFixed(1)} decimals={1} suffix="%" duration={2} trigger="load" />
               </Stat>
               <Stat label="fixes verified by compiler">
-                <CountUp to={+(fix * 100).toFixed(1)} decimals={1} suffix="%" duration={2} />
+                <CountUp to={+(fix * 100).toFixed(1)} decimals={1} suffix="%" duration={2} trigger="load" />
               </Stat>
             </div>
           </div>

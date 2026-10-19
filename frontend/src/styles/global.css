@@ -178,3 +178,6 @@ td { padding: 7px 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.07); font
 .dcard { min-width: 0; overflow: hidden; }
 .card.syl { overflow-x: auto; }
 .mtable { display: block; overflow-x: auto; }
+
+/* show source operators literally (!=, <=, ->) - no font ligatures in code */
+code, pre, td, svg text, .mono, .cm-editor { font-variant-ligatures: none; }

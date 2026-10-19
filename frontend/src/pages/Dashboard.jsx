@@ -17,7 +17,7 @@ function Kpi({ title, ml, base, sub, decimals = 1 }) {
   return (
     <SpotlightCard theme="light" className="kpi" intensity={0.2}>
       <div className="kpi-title">{title}</div>
-      <div className="kpi-num"><CountUp to={+(ml * 100).toFixed(decimals)} decimals={decimals} suffix="%" duration={1.6} /></div>
+      <div className="kpi-num"><CountUp to={+(ml * 100).toFixed(decimals)} decimals={decimals} suffix="%" duration={1.6} trigger="load" /></div>
       {base != null && (
         <div className="kpi-cmp">
           <span>rule baseline <b>{pct(base)}</b></span>

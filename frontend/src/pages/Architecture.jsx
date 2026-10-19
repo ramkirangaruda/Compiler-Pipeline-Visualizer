@@ -165,7 +165,7 @@ export default function Architecture() {
   ml/         seeds · mutators · build_dataset
               train · evaluate_repair
   app/        FastAPI (examples, compile, autofix…)
-  tests/      191 tests
+  tests/      195 tests
 datasets/     seeds · labeled/<CAUSE>/ · handwritten
 models/       error_classifier.joblib · metrics.json
 frontend/     React + Vite + React Bits + three.js
