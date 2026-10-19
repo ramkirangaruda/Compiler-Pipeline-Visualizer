@@ -69,17 +69,24 @@ def _is_int(v) -> bool:
     return isinstance(v, int) and not isinstance(v, bool)
 
 
+def wrap32(v):
+    """`int` is a 32-bit two's-complement integer, as in C on common targets."""
+    if _is_int(v):
+        return ((v + 2**31) % 2**32) - 2**31
+    return v
+
+
 def apply_binary(op: str, a, b):
     if op == "+":
-        return a + b
+        return wrap32(a + b)
     if op == "-":
-        return a - b
+        return wrap32(a - b)
     if op == "*":
-        return a * b
+        return wrap32(a * b)
     if op == "/":
         if _is_int(a) and _is_int(b):
             q = abs(a) // abs(b)
-            return q if (a < 0) == (b < 0) else -q
+            return wrap32(q if (a < 0) == (b < 0) else -q)
         return a / b
     if op == "%":
         r = abs(a) % abs(b)
@@ -101,7 +108,7 @@ def apply_binary(op: str, a, b):
 
 def apply_unary(op: str, a):
     if op == "neg":
-        return -a
+        return wrap32(-a)
     if op == "not":
         return not a
     if op == "itof":

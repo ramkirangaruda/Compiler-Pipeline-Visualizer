@@ -70,6 +70,16 @@ def test_execution_semantics():
     assert r["execution"]["output"] == ["true"]
 
 
+def test_int_is_32_bit_and_wraps():
+    r = compile_source("int x = 2147483647;\nx = x + 1;\nprint(x);\nint y = 65536 * 65536;\nprint(y);")
+    assert r["execution"]["output"] == ["-2147483648", "0"] and r["verify"]["match"]
+
+
+def test_infinite_loop_is_cut_off_safely():
+    r = compile_source("int x = 1;\nwhile (true) {\n x = x * 3;\n}\n")
+    assert r["execution"]["halted"] == "step_limit" and r["verify"]["match"] is not None
+
+
 def test_runtime_error_is_reported_not_raised():
     r = compile_source("int z = 0;\nprint(10 / z);")
     assert r["execution"]["halted"] == "error" and "division by zero" in r["execution"]["error"]

@@ -4,13 +4,17 @@ from __future__ import annotations
 
 import csv
 import json
+import sys
+import threading
 import time
 from collections import Counter
 from pathlib import Path
 from typing import Literal
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from minic import compile_source
@@ -19,6 +23,11 @@ from repair.labels import LABELS
 
 from .examples import all_examples
 
+# Deeply nested source recurses deeply in the parser/analyzer: allow a generous
+# depth and give worker threads a big stack so it never crashes the interpreter.
+sys.setrecursionlimit(8000)
+threading.stack_size(64 * 1024 * 1024)
+
 ROOT = Path(__file__).resolve().parents[2]
 DATASETS = ROOT / "datasets"
 MODELS = ROOT / "models"
@@ -26,6 +35,13 @@ MAX_SOURCE = 20_000
 
 app = FastAPI(title="Compiler Pipeline Visualizer API", version="1.0.0")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+
+
+@app.exception_handler(RecursionError)
+def too_deep(_: Request, __: RecursionError):
+    return JSONResponse(status_code=422, content={"detail": "Program is nested too deeply to analyse."})
+
+
 engine = Engine()
 
 SESSION = {
@@ -188,3 +204,9 @@ def dataset_samples(label: str, offset: int = 0, limit: int = Query(8, le=50)):
             }
         )
     return {"label": label, "total": len(rows), "offset": offset, "samples": out}
+
+
+# Serve the production UI (npm run build) from the same process when it exists.
+UI_DIST = ROOT / "frontend" / "dist"
+if UI_DIST.exists():
+    app.mount("/", StaticFiles(directory=UI_DIST, html=True), name="ui")

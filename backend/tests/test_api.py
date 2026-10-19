@@ -47,3 +47,15 @@ def test_model_and_dataset_endpoints():
 
 def test_session_counters():
     assert client.get("/api/session").json()["compiles"] >= 2
+
+
+def test_degenerate_inputs_never_crash():
+    for src in ["", "// only a comment", "@@@ ### $$$", 'string s = "héllo ✓";\nprint(s);', "int a = 1;\r\nprint(a);\r\n",
+                "int x = " + "(" * 200 + "1" + ")" * 200 + ";"]:
+        r = client.post("/api/compile", json={"source": src})
+        assert r.status_code == 200, src[:30]
+
+
+def test_absurdly_nested_source_is_rejected_cleanly():
+    r = client.post("/api/compile", json={"source": "int x = " + "+".join(["1"] * 4000) + ";"})
+    assert r.status_code in (200, 422)  # never a 500
