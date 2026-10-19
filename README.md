@@ -31,7 +31,7 @@ Source → Lexer → Parser → Semantic → IR (3AC) → Optimizer → VM
 
 ## Run it
 
-Requirements: Python 3.10+ and Node 18+.
+Requirements: Python 3.11+ (developed on 3.12) and Node 18+ (developed on 20).
 
 **One click:** double-click `start.bat` (Windows) or run `./start.sh` (macOS/Linux). On first run it creates the
 Python environment, installs packages and builds the UI; then everything is served on **http://localhost:8000**.
