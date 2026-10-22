@@ -212,3 +212,7 @@ tr.cur td { background: rgba(231, 214, 35, 0.16); }
 .cfg-ins { font-family: var(--mono); font-size: 12px; fill: #fff; } .cfg-live { font-family: var(--mono); font-size: 10.5px; fill: var(--mint); } .cfg-live.out { fill: #ff9ec1; }
 .cfg-edge { fill: none; stroke: #c9bcff; stroke-width: 1.7; } .cfg-edge.back { stroke: var(--yellow); stroke-dasharray: 5 4; }
 .cfg-elabel { font-family: var(--mono); font-size: 11px; font-weight: 800; fill: var(--yellow); }
+
+.ctl-label { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255, 255, 255, 0.7); }
+.badge.rl { background: rgba(231, 214, 35, 0.2); color: var(--yellow); }
+.toast { animation: fadeIn 0.35s ease both; }

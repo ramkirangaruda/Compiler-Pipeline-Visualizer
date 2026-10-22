@@ -5,6 +5,7 @@ import {
 import CountUp from '../reactbits/CountUp.jsx';
 import SpotlightCard from '../reactbits/SpotlightCard.jsx';
 import FadeContent from '../reactbits/FadeContent.jsx';
+import RlSection from '../components/RlSection.jsx';
 import { api } from '../api.js';
 import { SHORT, featureLabel, pct } from '../lib/format.js';
 import './dashboard.css';
@@ -232,6 +233,8 @@ export default function Dashboard() {
               </ResponsiveContainer>
             </div>
           </Card>
+
+          <RlSection />
 
           <Card title="Live session" sub="Counters from this API process - compile something in the Studio and watch them move." className="span2">
             {live ? (

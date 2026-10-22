@@ -27,7 +27,7 @@ const SYLLABUS = [
   ['Code optimization', 'Folding, propagation, algebraic, branch folding, unreachable code', 'Optimizer tab'],
   ['Code generation / VM', 'Label-addressed VM replays every executed instruction', 'Execute tab'],
   ['Error recovery', 'Expected-token sets and parse contexts captured at the failure point', 'Diagnosis'],
-  ['ML-assisted repair', 'Classifier ranks causes; the compiler validates every fix', 'Diagnosis'],
+  ['ML + RL repair', 'Classifier ranks causes, an RL policy picks the fix, the compiler validates it', 'Diagnosis'],
 ];
 
 function Stat({ children, label }) {
@@ -98,13 +98,14 @@ export default function Home() {
         <div className="container how-inner">
           <div className="how-copy">
             <span className="chip">How it works</span>
-            <SplitText text="The compiler finds the failure. ML finds the cause. The compiler checks the fix."
+            <SplitText text="The compiler finds the failure. ML finds the cause. RL picks the fix. The compiler checks it."
               tag="h2" className="how-title" splitType="words" delay={40} textAlign="left" color="#5423E7" />
             <ol className="how-steps">
               <li><b>1 · Detect</b><span>Lexer, parser and semantic analyzer report <em>what</em> failed - with the expected tokens, parse context and symbol-table facts.</span></li>
               <li><b>2 · Featurize</b><span>Those compiler-internal facts become a {nFeat}-feature vector. No raw text is fed to the model.</span></li>
               <li><b>3 · Classify</b><span>A trained classifier ranks <em>why</em> it failed across 12 causes and explains which features mattered.</span></li>
-              <li><b>4 · Validate</b><span>Each candidate repair is re-run through lexer → parser → semantic analysis. Only fixes the compiler accepts are offered.</span></li>
+              <li><b>4 · Choose</b><span>A <em>reinforcement-learning</em> policy decides which candidate fix to apply first - rewarded by the compiler, and still learning from your accepts and undos.</span></li>
+              <li><b>5 · Validate</b><span>Each candidate repair is re-run through lexer → parser → semantic analysis. Only fixes the compiler accepts are offered.</span></li>
             </ol>
             <Link to="/architecture" className="learn-more">Read the architecture →</Link>
           </div>
@@ -123,7 +124,13 @@ export default function Home() {
                   <div><u style={{ width: '1.5%' }} /><span>Missing closing brace</span><b>1%</b></div>
                   <div><u style={{ width: '1%' }} /><span>Misspelled keyword</span><b>1%</b></div>
                 </div></div></Card>
-              <Card><div className="swap-card"><span className="swap-n">4 · Compiler validates</span>
+              <Card><div className="swap-card"><span className="swap-n">4 · RL policy picks the fix</span>
+                <div className="swap-bars">
+                  <div><u style={{ width: '78%' }} /><span>Insert ';' after `20`</span><b>π 78%</b></div>
+                  <div><u style={{ width: '14%' }} /><span>Insert ')' after `20`</span><b>π 14%</b></div>
+                  <div><u style={{ width: '8%' }} /><span>Insert '}' before `int`</span><b>π 8%</b></div>
+                </div><p className="swap-msg">reward = progress toward the intended program</p></div></Card>
+              <Card><div className="swap-card"><span className="swap-n">5 · Compiler validates</span>
                 <div className="swap-cands">
                   <div className="ok">✓ Insert ';' after `20` <em>verified</em></div>
                   <div className="no">✗ Insert ')' after `20` <em>rejected</em></div>

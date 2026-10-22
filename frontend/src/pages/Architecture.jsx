@@ -33,6 +33,7 @@ const SYLLABUS = [
   ['Code optimization', 'minic/optimizer.py', 'Optimizer tab (before / after diff)'],
   ['Code generation / target machine', 'minic/vm.py', 'Execute tab (stepper)'],
   ['Machine learning for diagnostics', 'repair/ + ml/', 'Dashboard · AI Diagnosis'],
+  ['Reinforcement learning (REINFORCE policy)', 'repair/rl/ + ml/rl/', 'Dashboard (RL section) · fix order toggle'],
 ];
 
 const FEATURES = [
@@ -62,7 +63,7 @@ function Diagram() {
   );
   const arrow = (d, cls = '') => <path d={d} className={`aa ${cls}`} markerEnd="url(#arr)" />;
   return (
-    <svg viewBox="0 0 1000 520" className="arch-svg" role="img" aria-label="Architecture diagram">
+    <svg viewBox="0 0 1000 530" className="arch-svg" role="img" aria-label="Architecture diagram">
       <defs>
         <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" /></marker>
       </defs>
@@ -74,24 +75,28 @@ function Diagram() {
       {box(660, 40, 120, 64, 'IR gen', '3-address')}
       {box(820, 40, 170, 64, 'Optimizer → VM', 'folding · liveness', 'yellow')}
       {arrow('M130,72 L168,72')}{arrow('M290,72 L328,72')}{arrow('M450,72 L488,72')}{arrow('M620,72 L658,72')}{arrow('M780,72 L818,72')}
-      <text x="10" y="196" className="lane err">ON FAILURE (ML is one component inside this loop)</text>
-      {arrow('M390,104 C390,150 250,170 250,222', 'err')}{arrow('M555,104 C555,150 330,170 330,222', 'err')}
-      <text x="296" y="160" className="lbl err">error + compiler facts</text>
-      {box(170, 222, 220, 76, 'Feature extractor', 'parse state · tokens · symbols', 'err')}
-      {box(430, 222, 200, 76, 'ML classifier', '12 causes + confidence', 'ml')}
-      {box(670, 222, 200, 76, 'Repair generator', 'candidate edits per cause', 'mint')}
-      {arrow('M390,260 L428,260', 'err')}{arrow('M630,260 L668,260', 'err')}
-      {box(670, 380, 200, 76, 'Compiler validator', 're-run lexer·parser·semantic', 'yellow')}
-      {arrow('M770,298 L770,378', 'err')}
-      {arrow('M870,418 C960,418 960,262 872,262', 'loop')}
-      <text x="880" y="345" className="lbl loop">rejected →</text>
-      <text x="880" y="360" className="lbl loop">next candidate</text>
-      {box(430, 380, 150, 76, 'Verified fix', 'shown to the user', 'ok')}
-      {arrow('M668,430 L582,430', 'err')}
-      {box(170, 380, 200, 76, 'Auto-fix loop', 'apply best, re-compile', 'src')}
-      {arrow('M428,418 L372,418', 'err')}
-      {arrow('M270,380 C150,300 30,200 70,106', 'loop')}
-      <text x="40" y="320" className="lbl loop">re-enter at the Lexer</text>
+      <text x="10" y="196" className="lane err">ON FAILURE (ML classifier + RL policy are components inside this loop)</text>
+      {arrow('M390,104 C390,165 125,150 125,220', 'err')}{arrow('M555,104 C555,175 175,168 175,220', 'err')}
+      <text x="250" y="150" className="lbl err">error + compiler facts</text>
+      {box(30, 222, 170, 76, 'Feature extractor', 'parse state · tokens · symbols', 'err')}
+      {box(235, 222, 170, 76, 'ML classifier', '12 causes + confidence', 'ml')}
+      {box(440, 222, 190, 76, 'Repair generator', 'candidate edits per cause', 'mint')}
+      {box(665, 222, 190, 76, 'RL policy', 'REINFORCE · picks the fix', 'rl')}
+      {arrow('M200,260 L233,260', 'err')}{arrow('M405,260 L438,260', 'err')}{arrow('M630,260 L663,260', 'err')}
+      {box(665, 380, 190, 76, 'Compiler validator', 're-run lexer·parser·semantic', 'yellow')}
+      {arrow('M760,298 L760,378', 'err')}
+      {arrow('M855,418 C955,418 955,262 857,262', 'loop')}
+      <text x="868" y="338" className="lbl loop">rejected →</text>
+      <text x="868" y="353" className="lbl loop">next candidate</text>
+      {box(440, 380, 170, 76, 'Verified fix', 'shown to the user', 'ok')}
+      {arrow('M663,418 L612,418', 'err')}
+      {box(205, 380, 190, 76, 'Auto-fix loop', 'apply best, re-compile', 'src')}
+      {arrow('M438,418 L397,418', 'err')}
+      {arrow('M205,418 C-12,430 -12,150 195,106', 'loop')}
+      <text x="8" y="352" className="lbl loop">re-enter</text>
+      <text x="8" y="367" className="lbl loop">at the Lexer</text>
+      {arrow('M760,456 C760,500 960,500 960,470', 'loop')}
+      <text x="780" y="506" className="lbl loop">user accept (+1) / undo (−1) → online policy update</text>
     </svg>
   );
 }
@@ -102,7 +107,7 @@ export default function Architecture() {
       <div className="container page-head">
         <span className="eyebrow">Architecture · design decisions · honesty notes</span>
         <h1 style={{ marginTop: 16 }}>How it is <span className="hl">built</span></h1>
-        <p>Compiler techniques are the backbone. ML is one intelligent component inside the system - and the compiler has the last word.</p>
+        <p>Compiler techniques are the backbone. ML ranks the cause, reinforcement learning picks the fix - and the compiler has the last word.</p>
       </div>
 
       <div className="container">
@@ -126,6 +131,7 @@ export default function Architecture() {
             {[
               ['The compiler validates the ML', 'Every candidate repair is applied to the source and re-run through lexer → parser → semantic analysis. A fix is shown as "verified" only if the compiler accepts it. Wrong predictions are rescued: a mis-ranked typo fix is rejected because it creates a type error, and the correct declaration fix still surfaces.'],
               ['Explainable by construction', 'The classifier never sees raw text. It sees 40 features the compiler computed - parse context, expected tokens, scope facts, edit distances. A feature-occlusion explanation shows which of them drove each prediction.'],
+              ['Reinforcement learning picks the fix', 'When several fixes are possible, which to apply first is a sequential decision. A REINFORCE policy over candidate-fix features is trained on programs with 1-3 faults: the compiler supplies the reward (does it compile? is it closer to the intended program?) and the policy is compared with the heuristic order and a random chooser on held-out programs. It keeps learning online from the fixes users accept (+1) or undo (-1).'],
               ['A fair baseline', 'A hand-written rule classifier reads the same facts. The dashboard reports both, on the held-out set, on a hand-written set, and end-to-end - so the value added by ML is measured, not asserted.'],
               ['Honest limits', 'Training data is synthetic (mutated programs). Single-fault programs are the target; programs with several interacting faults are repaired one fault at a time. The language is a restricted C subset: no functions, arrays or pointers.'],
             ].map(([t, d], i) => (
@@ -162,10 +168,13 @@ export default function Architecture() {
               optimizer · cfg · vm · pipeline
   repair/     features · classifier · candidates
               validator · engine · baseline · labels
+  repair/rl/  candidate features · softmax policy
+  ml/rl/      repair MDP · multi-fault generator
+              REINFORCE training + evaluation
   ml/         seeds · mutators · build_dataset
               train · evaluate_repair
   app/        FastAPI (examples, compile, autofix…)
-  tests/      195 tests
+  tests/      212 tests
 datasets/     seeds · labeled/<CAUSE>/ · handwritten
 models/       error_classifier.joblib · metrics.json
 frontend/     React + Vite + React Bits + three.js

@@ -31,7 +31,7 @@ function Evidence({ items }) {
   );
 }
 
-function Candidate({ c, best, onApply }) {
+function Candidate({ c, best, onApply, entry }) {
   const [open, setOpen] = useState(best && c.status !== 'rejected');
   return (
     <div className={`cand ${c.status} ${best ? 'best' : ''}`}>
@@ -42,6 +42,7 @@ function Candidate({ c, best, onApply }) {
         </span>
         <span className="cand-title">{c.title}</span>
         {best && <span className="badge neutral">best</span>}
+        {c.rl_prob != null && <span className="badge neutral rl" title="Probability the reinforcement-learning policy assigns to this fix">π {pct(c.rl_prob, 0)}</span>}
         <span className="cand-score" title="P(cause) × fix plausibility">{pct(c.score, 0)}</span>
         <span className="cand-caret">{open ? '▾' : '▸'}</span>
       </div>
@@ -54,7 +55,7 @@ function Candidate({ c, best, onApply }) {
             <span className="chip chip-dark">plausibility {pct(c.local_score, 0)}</span></div>
           <Diff hunks={c.diff} />
           {c.status !== 'rejected' && (
-            <button className="btn btn-sm" onClick={() => onApply(c.new_source)}>Apply this fix</button>
+            <button className="btn btn-sm" onClick={() => onApply(c.new_source, c, entry)}>Apply this fix</button>
           )}
         </div>
       )}
@@ -111,9 +112,9 @@ function Entry({ e, onApply }) {
         <div className="dx-pred rules"><h4>Rule-based fix</h4><p className="dx-explain">This lexical / structural error is handled by deterministic rules - no ML needed.</p></div>
       )}
 
-      <h5 className="dx-cands-title">Candidate fixes <small>every candidate was re-compiled before being shown</small></h5>
+      <h5 className="dx-cands-title">Candidate fixes <small>every candidate was re-compiled before being shown · ordered by {e.ranker === 'rl' ? 'the RL policy' : 'the heuristic score'}</small></h5>
       {e.candidates.length === 0 && <div className="empty">No automatic repair available for this error.</div>}
-      {e.candidates.map((c) => <Candidate key={c.id} c={c} best={c.id === e.best} onApply={onApply} />)}
+      {e.candidates.map((c) => <Candidate key={c.id} c={c} best={c.id === e.best} onApply={onApply} entry={e} />)}
     </article>
   );
 }

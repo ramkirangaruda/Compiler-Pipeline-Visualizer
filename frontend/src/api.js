@@ -16,11 +16,14 @@ const post = (path, body) =>
 export const api = {
   health: () => req('/health'),
   examples: () => req('/examples'),
-  compile: (source, optimize = true, mode = 'ml') => post('/compile', { source, optimize, mode }),
-  autofix: (source, mode = 'ml') => post('/autofix', { source, mode }),
+  compile: (source, optimize = true, mode = 'ml', ranker = 'rl') => post('/compile', { source, optimize, mode, ranker }),
+  autofix: (source, mode = 'ml', ranker = 'rl') => post('/autofix', { source, mode, ranker }),
   model: () => req('/model'),
   session: () => req('/session'),
   dataset: () => req('/dataset'),
   samples: (label, offset = 0, limit = 6) =>
     req(`/dataset/samples?label=${encodeURIComponent(label)}&offset=${offset}&limit=${limit}`),
+  rl: () => req('/rl'),
+  rlFeedback: (decision_id, candidate_id, reward) => post('/rl/feedback', { decision_id, candidate_id, reward }),
+  rlReset: () => post('/rl/reset', {}),
 };

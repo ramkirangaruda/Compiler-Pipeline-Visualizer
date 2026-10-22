@@ -32,6 +32,16 @@ lose time translating symptoms into fixes.
 Compiler pipeline on top; on failure a branch: feature extractor → ML classifier → repair generator → validator,
 with rejected candidates returning to the generator. See `docs/ARCHITECTURE.md` or the Architecture page.
 
+## Reinforcement learning (what to say)
+* **Why RL?** Picking a fix is a *sequential* decision under delayed feedback: a fix changes the program, and the next error depends on it.
+  The compiler gives a natural reward signal, so no human labels are needed.
+* **MDP:** state = broken program (via candidate fixes), action = apply one fix, reward = progress toward the intended program,
+  +bonus for compiling / exact recovery, step cost. **Algorithm:** REINFORCE with baseline + entropy bonus; linear softmax policy.
+* **Evidence:** learning curve and held-out comparison against the heuristic and a random chooser (Dashboard, RL section).
+* **Online RL:** every accepted fix (+1) and every undo (-1) in the Studio updates the running policy - show it live in the Dashboard.
+* **Honest limits:** the policy can only choose among the candidates the repair generators propose; the reward during training uses the
+  known original program; the policy learns the conventions of the training corpus (e.g. declarations grouped at the top).
+
 ## Syllabus mapping
 Regular expressions/DFA (lexer) · CFG and recursive-descent parsing · parse tree/AST · syntax-error handling ·
 symbol table and scopes · type checking · syntax-directed translation · three-address code · basic blocks and CFG ·
@@ -46,6 +56,10 @@ live-variable data-flow analysis · optimization (folding, propagation, DCE, bra
 | Top-ranked fix recompiles cleanly | 96.2 % | 87.1 % |
 | Auto-fix ends in a clean program | 98.8 % | 89.7 % |
 | Top fix reproduces the original program | 70.2 % | 65.9 % |
+| *RL ordering, single fault:* top fix reproduces the original | 71.5 % | |
+
+**RL policy vs heuristic, 1,500 held-out programs with 1-3 faults:** exact recovery 39.0 % vs 37.5 % (paired bootstrap +1.5 pts, 95 % CI +0.9 to +2.2);
+mean distance to the intended program 8.24 vs 9.59 tokens (CI of the difference -1.51 to -1.21); a random chooser gets 29.2 % / 9.22. Real but modest.
 
 (Re-generate with `python -m ml.train` and `python -m ml.evaluate_repair`; current numbers are on the Dashboard.)
 
@@ -80,5 +94,11 @@ log-loss (confidence quality). Features are compiler facts, so predictions are e
 
 **What is the time complexity?** Lexing and parsing are linear; semantic analysis is linear plus edit-distance over
 visible names; liveness converges in a few passes over the CFG; each repair candidate costs one front-end run.
+
+**Where exactly is the reinforcement learning?** The fix-selection policy (`backend/repair/rl`, trained by `backend/ml/rl/train_rl.py`): REINFORCE on a repair MDP,
+plus online updates from user accept/undo feedback. The classifier is supervised; the policy is RL.
+
+**Why is the RL gain modest on single faults?** On one fault the heuristic is already near the ceiling of what the candidates can reach. The gain
+appears where choices interact: declaration placement and programs with several faults.
 
 **Limitations?** Single-fault target, synthetic training data, small language, brace repair depends on indentation.

@@ -214,5 +214,113 @@
         "autofix_success_rate": 1.0
       }
     ]
+  },
+  "ml_rl": {
+    "overall": {
+      "n": 650,
+      "label_accuracy": 0.9862,
+      "verified_fix_rate": 0.9615,
+      "exact_recovery_rate": 0.7154,
+      "top3_verified_rate": 0.9615,
+      "autofix_success_rate": 0.9877
+    },
+    "per_label": [
+      {
+        "label": "MISSING_SEMICOLON",
+        "n": 50,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 1.0,
+        "exact_recovery_rate": 1.0,
+        "autofix_success_rate": 1.0
+      },
+      {
+        "label": "MISSING_RPAREN",
+        "n": 54,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 0.9815,
+        "exact_recovery_rate": 0.9259,
+        "autofix_success_rate": 0.9815
+      },
+      {
+        "label": "MISSING_LPAREN",
+        "n": 61,
+        "label_accuracy": 0.9836,
+        "verified_fix_rate": 0.6393,
+        "exact_recovery_rate": 0.5902,
+        "autofix_success_rate": 0.9016
+      },
+      {
+        "label": "MISSING_RBRACE",
+        "n": 65,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 1.0,
+        "exact_recovery_rate": 0.8154,
+        "autofix_success_rate": 1.0
+      },
+      {
+        "label": "MISSING_LBRACE",
+        "n": 46,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 1.0,
+        "exact_recovery_rate": 0.9783,
+        "autofix_success_rate": 1.0
+      },
+      {
+        "label": "MISSPELLED_KEYWORD",
+        "n": 55,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 0.9818,
+        "exact_recovery_rate": 0.9818,
+        "autofix_success_rate": 1.0
+      },
+      {
+        "label": "ASSIGN_EQ_CONFUSION",
+        "n": 54,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 1.0,
+        "exact_recovery_rate": 1.0,
+        "autofix_success_rate": 1.0
+      },
+      {
+        "label": "TYPO_IDENTIFIER",
+        "n": 54,
+        "label_accuracy": 0.9074,
+        "verified_fix_rate": 1.0,
+        "exact_recovery_rate": 0.9815,
+        "autofix_success_rate": 1.0
+      },
+      {
+        "label": "MISSING_DECLARATION",
+        "n": 55,
+        "label_accuracy": 0.9455,
+        "verified_fix_rate": 0.9818,
+        "exact_recovery_rate": 0.1636,
+        "autofix_success_rate": 0.9818
+      },
+      {
+        "label": "USE_BEFORE_DECLARATION",
+        "n": 49,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 1.0,
+        "exact_recovery_rate": 0.6122,
+        "autofix_success_rate": 1.0
+      },
+      {
+        "label": "OUT_OF_SCOPE_USE",
+        "n": 47,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 1.0,
+        "exact_recovery_rate": 0.1064,
+        "autofix_success_rate": 1.0
+      },
+      {
+        "label": "TYPE_MISMATCH",
+        "n": 60,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 1.0,
+        "exact_recovery_rate": 0.4333,
+        "autofix_success_rate": 1.0
+      }
+    ]
   }
 }

@@ -54,12 +54,20 @@ SESSION = {
     "by_label": Counter(),
     "stage_ms": Counter(),
 }
+RL_METRICS = MODELS / "rl_metrics.json"
 
 
 class SourceIn(BaseModel):
     source: str = Field(max_length=MAX_SOURCE)
     optimize: bool = True
     mode: Literal["ml", "baseline"] = "ml"
+    ranker: Literal["heuristic", "rl"] = "rl"  # who orders the candidate fixes
+
+
+class FeedbackIn(BaseModel):
+    decision_id: str = Field(max_length=64)
+    candidate_id: str = Field(max_length=32)
+    reward: float = Field(ge=-1.0, le=1.0)
 
 
 def _read_json(path: Path):
@@ -104,7 +112,7 @@ def compile_(body: SourceIn):
     diagnosis = None
     if not result["ok"]:
         SESSION["failed"] += 1
-        diagnosis = engine.diagnose(body.source, mode=body.mode)
+        diagnosis = engine.diagnose(body.source, mode=body.mode, ranker=body.ranker)
         _record(diagnosis)
     result["diagnosis"] = diagnosis
     return result
@@ -113,7 +121,7 @@ def compile_(body: SourceIn):
 @app.post("/api/diagnose")
 def diagnose(body: SourceIn):
     _check(body.source)
-    diag = engine.diagnose(body.source, mode=body.mode)
+    diag = engine.diagnose(body.source, mode=body.mode, ranker=body.ranker)
     _record(diag)
     return diag
 
@@ -121,10 +129,31 @@ def diagnose(body: SourceIn):
 @app.post("/api/autofix")
 def autofix(body: SourceIn):
     _check(body.source)
-    res = engine.autofix(body.source, mode=body.mode)
+    res = engine.autofix(body.source, mode=body.mode, ranker=body.ranker)
     SESSION["autofixes"] += 1
     SESSION["autofix_ok"] += int(res["ok"])
     return res
+
+
+@app.get("/api/rl")
+def rl():
+    """Reinforcement-learning fix policy: training results + live online-learning status."""
+    return {"status": engine.rl_status(), "metrics": _read_json(RL_METRICS)}
+
+
+@app.post("/api/rl/feedback")
+def rl_feedback(body: FeedbackIn):
+    """One online policy-gradient step: +1 when the user accepts a fix, -1 when they undo it."""
+    res = engine.feedback(body.decision_id, body.candidate_id, body.reward)
+    if res is None:
+        raise HTTPException(404, "unknown decision (it may have expired) or no policy loaded")
+    return res
+
+
+@app.post("/api/rl/reset")
+def rl_reset():
+    engine.reset_policy()
+    return engine.rl_status()
 
 
 @app.get("/api/model")

@@ -4,8 +4,9 @@ validator re-compiles each one before it is ever shown as a fix."""
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, fields
 
+from minic import ast as A
 from minic.pipeline import Frontend
 from minic.tokens import ALL_RESERVED, Diagnostic
 from minic.util import edit_distance, similarity
@@ -56,8 +57,9 @@ def stmt_removal_span(src: str, s: int, e: int) -> tuple[int, int]:
     return s, e
 
 
-def make(label: str, title: str, desc: str, edits: list[Edit], score: float) -> dict:
-    return {"label": label, "title": title, "description": desc, "edits": edits, "local_score": round(score, 3)}
+def make(label: str, title: str, desc: str, edits: list[Edit], score: float, strategy: str = "default") -> dict:
+    return {"label": label, "title": title, "description": desc, "edits": edits, "local_score": round(score, 3),
+            "strategy": strategy}
 
 
 def _short(text: str, n: int = 24) -> str:
@@ -283,6 +285,42 @@ def _decl_text(ty: str, name: str) -> str:
     return f"{ty} {name} = {DEFAULTS[ty]};"
 
 
+def _scope_bodies(fe: Frontend) -> dict[int, list]:
+    """scope id -> the statement list that scope contains (0 = the whole program)."""
+    out: dict[int, list] = {0: fe.program.body} if fe.program is not None else {}
+
+    def walk(n):
+        if isinstance(n, A.Block) and getattr(n, "_sid", None) is not None:
+            out[n._sid] = n.body
+        if isinstance(n, A.Node):
+            for f in fields(n):
+                walk(getattr(n, f.name))
+        elif isinstance(n, list):
+            for x in n:
+                walk(x)
+
+    if fe.program is not None:
+        walk(fe.program)
+    return out
+
+
+def _placements(src: str, body: list) -> dict[str, tuple[int, str]]:
+    """Plausible insertion points for a declaration in a scope: its first line, or just after the
+    run of declarations the scope opens with (a common convention). -> {strategy: (offset, indent)}"""
+    if not body:
+        return {}
+    out = {"top": (line_start(src, body[0].start), indent_str(src, body[0].start))}
+    last = None
+    for st in body:
+        if isinstance(st, A.VarDecl):
+            last = st
+        else:
+            break
+    if last is not None and src.find("\n", last.end) >= 0:
+        out["after_decls"] = (line_end(src, last.end) + 1, indent_str(src, last.start))
+    return out
+
+
 def gen_missing_decl(d: Diagnostic, fe: Frontend) -> list[dict]:
     if d.code != "E_UNDECLARED":
         return []
@@ -290,19 +328,25 @@ def gen_missing_decl(d: Diagnostic, fe: Frontend) -> list[dict]:
     ty = ex.get("hint_type") or "int"
     out, seen = [], set()
 
-    def add(ty_, anchor, score, why):
-        pos = line_start(src, anchor)
+    def add(ty_, pos, indent, score, why, strategy):
         key = (pos, ty_)
         if key in seen:
             return
         seen.add(key)
-        text = indent_str(src, anchor) + _decl_text(ty_, name) + "\n"
-        out.append(make("MISSING_DECLARATION", f"Declare `{_decl_text(ty_, name)}`", why, [Edit(pos, pos, text)], score))
+        out.append(make("MISSING_DECLARATION", f"Declare `{_decl_text(ty_, name)}`", why,
+                        [Edit(pos, pos, indent + _decl_text(ty_, name) + "\n")], score, strategy))
 
-    add(ty, ex["top_stmt_start"], 0.9, f"Declared at the top level so every later use of `{name}` can see it (type inferred from usage: {ty}).")
-    add(ty, ex["use_stmt_start"], 0.6, "Declared immediately before the statement that uses it.")
+    top = ex["top_stmt_start"]
+    use = ex["use_stmt_start"]
+    add(ty, line_start(src, top), indent_str(src, top), 0.9,
+        f"Declared at the top level so every later use of `{name}` can see it (type inferred from usage: {ty}).", "before_use")
+    add(ty, line_start(src, use), indent_str(src, use), 0.6, "Declared immediately before the statement that uses it.", "before_use")
+    for strat, (pos, ind) in _placements(src, _scope_bodies(fe).get(0, [])).items():
+        add(ty, pos, ind, 0.5 if strat == "after_decls" else 0.4,
+            "Declared with the program's other declarations." if strat == "after_decls" else "Declared on the first line of the program.",
+            strat)
     if ty in ("int", "float"):
-        add("float" if ty == "int" else "int", ex["top_stmt_start"], 0.35, "Alternative numeric type.")
+        add("float" if ty == "int" else "int", line_start(src, top), indent_str(src, top), 0.35, "Alternative numeric type.", "before_use")
     return out
 
 
@@ -312,16 +356,23 @@ def gen_use_before_decl(d: Diagnostic, fe: Frontend) -> list[dict]:
         return []
     src, ld, name = fe.source, ex["later_decl"], d.extra["name"]
     anchor = ex["top_stmt_start"] if ld["scope_id"] == 0 else ex["use_stmt_start"]
-    pos = line_start(src, anchor)
     text = src[ld["stmt_start"] : ld["stmt_end"]]
     ds, de = stmt_removal_span(src, ld["stmt_start"], ld["stmt_end"])
-    if ds <= pos < de:
-        return []
-    return [
-        make("USE_BEFORE_DECLARATION", f"Move the declaration of `{name}` above its first use",
-             f"`{name}` is declared later in the same scope; the declaration is moved before line {d.line}.",
-             [Edit(pos, pos, indent_str(src, anchor) + text + "\n"), Edit(ds, de, "")], 0.9)
-    ]
+    out = []
+
+    def add(pos, indent, score, why, strategy):
+        if ds <= pos < de or pos == ds:
+            return
+        out.append(make("USE_BEFORE_DECLARATION", f"Move the declaration of `{name}` {why}",
+                        f"`{name}` is declared later in the same scope; its declaration is moved ({why}).",
+                        [Edit(pos, pos, indent + text + "\n"), Edit(ds, de, "")], score, strategy))
+
+    add(line_start(src, anchor), indent_str(src, anchor), 0.9, "above its first use", "before_use")
+    body = _scope_bodies(fe).get(ld["scope_id"], [])
+    for strat, (pos, ind) in _placements(src, body).items():
+        add(pos, ind, 0.5 if strat == "after_decls" else 0.4,
+            "to the end of the scope's leading declarations" if strat == "after_decls" else "to the top of its scope", strat)
+    return out
 
 
 def gen_out_of_scope(d: Diagnostic, fe: Frontend) -> list[dict]:
@@ -330,32 +381,36 @@ def gen_out_of_scope(d: Diagnostic, fe: Frontend) -> list[dict]:
         return []
     scopes = fe.sem.scopes
     decl, name, src = ex["closed_decl"], ex["name"], fe.source
-    path, s = [], decl["scope_id"]
-    while s is not None:
-        path.append(s)
-        s = scopes[s].parent
+    path, sc = [], decl["scope_id"]
+    while sc is not None:
+        path.append(sc)
+        sc = scopes[sc].parent
     use_stack = set(ex["use_stack"])
-    nca = next((i for i, sc in enumerate(path) if sc in use_stack), None)
+    nca = next((i for i, c in enumerate(path) if c in use_stack), None)
     if not nca:
         return []
     owner = scopes[path[nca - 1]].owner_start
-    pos = line_start(src, owner)
-    ind = indent_str(src, owner)
     ty = decl["type"]
     stmt = src[decl["stmt_start"] : decl["stmt_end"]]
+    has_init = "=" in stmt
     ds, de = stmt_removal_span(src, decl["stmt_start"], decl["stmt_end"])
+    spots = {"before_block": (line_start(src, owner), indent_str(src, owner))}
+    spots.update(_placements(src, _scope_bodies(fe).get(path[nca], [])))
     out = []
-    if "=" in stmt:
-        out.append(
-            make("OUT_OF_SCOPE_USE", f"Hoist `{name}` into the enclosing scope",
-                 f"Declare `{name}` before the block that currently owns it, and turn the inner declaration into an assignment.",
-                 [Edit(pos, pos, ind + _decl_text(ty, name) + "\n"), Edit(decl["type_start"], decl["name_start"], "")], 0.9)
-        )
-    out.append(
-        make("OUT_OF_SCOPE_USE", f"Move the whole declaration of `{name}` out of its block",
-             "The full declaration (with initialiser) is moved in front of the block.",
-             [Edit(pos, pos, ind + stmt + "\n"), Edit(ds, de, "")], 0.55)
-    )
+    for strat, (pos, ind) in spots.items():
+        if ds <= pos < de:
+            continue
+        where = {"before_block": "in front of the block", "top": "at the top of the enclosing scope",
+                 "after_decls": "with the enclosing scope's other declarations"}[strat]
+        bonus = {"before_block": 0.0, "after_decls": -0.2, "top": -0.3}[strat]
+        if has_init:
+            out.append(make("OUT_OF_SCOPE_USE", f"Hoist `{name}` {where}",
+                            f"Declare `{name}` {where}, and turn the inner declaration into an assignment.",
+                            [Edit(pos, pos, ind + _decl_text(ty, name) + "\n"), Edit(decl["type_start"], decl["name_start"], "")],
+                            0.9 + bonus, f"split:{strat}"))
+        out.append(make("OUT_OF_SCOPE_USE", f"Move the whole declaration of `{name}` {where}",
+                        "The full declaration (with initialiser) is moved out of its block.",
+                        [Edit(pos, pos, ind + stmt + "\n"), Edit(ds, de, "")], 0.55 + bonus, f"whole:{strat}"))
     return out
 
 

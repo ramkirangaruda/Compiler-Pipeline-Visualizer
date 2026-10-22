@@ -26,12 +26,12 @@ def toks(src: str) -> list:
     return [(t.kind, t.value) for t in lex(src)[0]]
 
 
-def evaluate(engine: Engine, rows: list[dict], mode: str) -> dict:
+def evaluate(engine: Engine, rows: list[dict], mode: str, ranker: str = "heuristic") -> dict:
     per = defaultdict(lambda: {"n": 0, "label_ok": 0, "verified": 0, "exact": 0, "top3_verified": 0, "autofix": 0})
     for r in rows:
         src = (ROOT / "datasets" / r["file"]).read_text(encoding="utf-8")
         seed = (ROOT / "datasets" / "seeds" / "valid" / f"{r['seed_id']}.mc").read_text(encoding="utf-8")
-        res = engine.diagnose(src, mode=mode, only_first=True)
+        res = engine.diagnose(src, mode=mode, only_first=True, ranker=ranker, explain=False)
         p = per[r["label"]]
         p["n"] += 1
         if not res["entries"]:
@@ -46,7 +46,7 @@ def evaluate(engine: Engine, rows: list[dict], mode: str) -> dict:
                 p["exact"] += 1
         if any(c["status"] == "verified" for c in e["candidates"][:3]):
             p["top3_verified"] += 1
-        if engine.autofix(src, mode=mode)["ok"]:
+        if engine.autofix(src, mode=mode, ranker=ranker)["ok"]:
             p["autofix"] += 1
     total = {k: sum(v[k] for v in per.values()) for k in ("n", "label_ok", "verified", "exact", "top3_verified", "autofix")}
     rate = lambda a, b: round(a / b, 4) if b else 0.0
@@ -79,8 +79,10 @@ def main() -> None:
     rows = [r for r in csv.DictReader((ROOT / "datasets" / "manifest.csv").open(encoding="utf-8")) if r["split"] == "test"]
     print(f"evaluating {len(rows)} held-out programs")
     out = {"ml": evaluate(engine, rows, "ml"), "baseline": evaluate(engine, rows, "baseline")}
+    if engine.policy is not None:  # same single-fault programs, fixes ordered by the RL policy instead of the heuristic
+        out["ml_rl"] = evaluate(engine, rows, "ml", ranker="rl")
     (ROOT / "models" / "repair_eval.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
-    for k in ("ml", "baseline"):
+    for k in out:
         print(k, out[k]["overall"])
 
 

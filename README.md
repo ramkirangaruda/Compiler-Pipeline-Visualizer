@@ -22,6 +22,7 @@ Source → Lexer → Parser → Semantic → IR (3AC) → Optimizer → VM
 |---|---|---|
 | Compiler | `backend/minic/` | lexer, recursive-descent parser, AST, scoped symbol table + type checker, three-address code, optimizer (folding, algebraic, copy/constant propagation, branch folding, unreachable code, liveness-based DCE), basic blocks + CFG + live-variable analysis, VM with execution trace |
 | ML repair | `backend/repair/` | 40 compiler-derived features, 12-cause classifier, candidate repair generators, compiler validation loop, auto-fix, rule baseline, feature-occlusion explanations |
+| Reinforcement learning | `backend/repair/rl/`, `backend/ml/rl/` | REINFORCE fix-selection policy over compiler-validated candidates, repair MDP, multi-fault generator, online learning from user accepts/undos |
 | Training | `backend/ml/` | seed-program generator, 12 error mutators, dataset builder, model comparison + training, end-to-end repair evaluation |
 | API | `backend/app/` | FastAPI: compile, diagnose, autofix, examples, model metrics, dataset browser |
 | Web UI | `frontend/` | React + Vite, [React Bits](https://reactbits.dev) components, three.js 3D scenes, CodeMirror editor, Recharts dashboard |
@@ -60,7 +61,8 @@ cd backend
 python -m ml.build_dataset        # writes datasets/ (seeds, labeled/<CAUSE>/, features CSVs)
 python -m ml.train                # compares 4 models, writes models/*.joblib + metrics.json
 python -m ml.evaluate_repair      # end-to-end repair evaluation -> models/repair_eval.json
-python -m pytest                  # 195 tests
+python -m ml.rl.train_rl          # trains + evaluates the RL fix policy -> models/rl_policy.json, rl_metrics.json
+python -m pytest                  # 212 tests
 ```
 
 Production build of the UI: `npm run build` (output in `frontend/dist`).
@@ -77,6 +79,29 @@ Production build of the UI: `npm run build` (output in `frontend/dist`).
   end-to-end repair outcomes, confidence calibration, dataset composition, live session counters.
 * **Dataset** - browse every labelled folder; each sample is shown beside its ground-truth program.
 * **Architecture** - the full diagram, design decisions, feature vector, syllabus-to-code mapping, grammar.
+
+## Reinforcement learning: the fix-selection policy
+
+The classifier says *why* the program failed; reinforcement learning decides *which fix to apply first*.
+
+* **MDP.** State = the broken program (summarised by its compiler-validated candidate fixes); action = apply one candidate;
+  reward = progress toward the intended program + a bonus when it compiles (and a larger one when it equals the original) - a step cost.
+* **Learning.** A linear-softmax policy over candidate features, trained with REINFORCE (baseline + entropy bonus) on
+  programs with 1-3 faults, warm-started from the hand-written ordering.
+* **Online.** In the Studio, accepting a suggested fix is a +1 reward and undoing it a -1: each triggers a live policy-gradient step.
+* **Safe by construction.** The policy only orders candidates; the compiler still validates each one and rejected fixes stay last.
+* **Results** on held-out multi-fault programs and the learning curve are on the Dashboard (RL section) and in `models/rl_metrics.json`.
+
+| Held-out programs with 1-3 faults (1,500) | Heuristic order | **RL policy** | Random |
+|---|---|---|---|
+| Exact recovery of the intended program | 37.5 % | **39.0 %** | 29.2 % |
+| Ends in a program that compiles | 98.3 % | 98.3 % | 95.9 % |
+| Mean tokens still differing from the intended program | 9.59 | **8.24** | 9.22 |
+
+Paired bootstrap, RL minus heuristic: exact recovery **+1.5 pts** (95 % CI +0.9 to +2.2), distance **-1.36 tokens** (CI -1.51 to -1.21) -
+the intervals exclude zero, so the improvement is real, but it is **modest**. On single-fault programs the RL ordering lifts exact recovery
+from 70.2 % to 71.5 %. The gain comes from choices the heuristic cannot rank well, mainly where a declaration should be placed; the policy
+can only choose among the candidates the repair generators propose, which caps what it can achieve.
 
 ## The language (MiniC)
 

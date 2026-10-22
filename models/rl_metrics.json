@@ -1,0 +1,937 @@
+{
+  "trained_at": "2026-10-22T07:00:07+00:00",
+  "config": {
+    "episodes": 6000,
+    "gamma": 0.95,
+    "lr": 0.08,
+    "feature_dim": 87,
+    "train_seeds": 560,
+    "test_seeds": 140,
+    "eval_episodes": 1500
+  },
+  "mdp": {
+    "state": "broken program, summarised by the compiler-validated candidate fixes for its first error",
+    "action": "apply one candidate fix (up to 10 per state)",
+    "reward": "progress toward the intended program (token distance) - 0.05 per step; +0.5 if it compiles, +1.0 more if it equals the original, -0.5 on timeout",
+    "policy": "linear softmax over candidate features, warm-started from the heuristic ranking",
+    "algorithm": "REINFORCE with a per-step baseline and entropy bonus"
+  },
+  "curve": [
+    {
+      "episode": 50,
+      "avg_return": 0.9901,
+      "success_rate": 0.98,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 100,
+      "avg_return": 1.2611,
+      "success_rate": 0.98,
+      "exact_rate": 0.44
+    },
+    {
+      "episode": 150,
+      "avg_return": 0.9985,
+      "success_rate": 1.0,
+      "exact_rate": 0.36
+    },
+    {
+      "episode": 200,
+      "avg_return": 1.1013,
+      "success_rate": 0.98,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 250,
+      "avg_return": 0.9215,
+      "success_rate": 1.0,
+      "exact_rate": 0.3
+    },
+    {
+      "episode": 300,
+      "avg_return": 0.7117,
+      "success_rate": 0.92,
+      "exact_rate": 0.3
+    },
+    {
+      "episode": 350,
+      "avg_return": 0.8752,
+      "success_rate": 0.98,
+      "exact_rate": 0.28
+    },
+    {
+      "episode": 400,
+      "avg_return": 1.1686,
+      "success_rate": 0.96,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 450,
+      "avg_return": 1.0154,
+      "success_rate": 0.98,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 500,
+      "avg_return": 0.9515,
+      "success_rate": 1.0,
+      "exact_rate": 0.32
+    },
+    {
+      "episode": 550,
+      "avg_return": 1.3453,
+      "success_rate": 1.0,
+      "exact_rate": 0.52
+    },
+    {
+      "episode": 600,
+      "avg_return": 1.0274,
+      "success_rate": 1.0,
+      "exact_rate": 0.36
+    },
+    {
+      "episode": 650,
+      "avg_return": 1.0176,
+      "success_rate": 0.96,
+      "exact_rate": 0.36
+    },
+    {
+      "episode": 700,
+      "avg_return": 1.4046,
+      "success_rate": 1.0,
+      "exact_rate": 0.5
+    },
+    {
+      "episode": 750,
+      "avg_return": 1.0836,
+      "success_rate": 1.0,
+      "exact_rate": 0.32
+    },
+    {
+      "episode": 800,
+      "avg_return": 1.0637,
+      "success_rate": 1.0,
+      "exact_rate": 0.34
+    },
+    {
+      "episode": 850,
+      "avg_return": 1.3958,
+      "success_rate": 1.0,
+      "exact_rate": 0.52
+    },
+    {
+      "episode": 900,
+      "avg_return": 1.0526,
+      "success_rate": 0.98,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 950,
+      "avg_return": 1.2854,
+      "success_rate": 1.0,
+      "exact_rate": 0.48
+    },
+    {
+      "episode": 1000,
+      "avg_return": 1.0277,
+      "success_rate": 0.96,
+      "exact_rate": 0.32
+    },
+    {
+      "episode": 1050,
+      "avg_return": 0.9891,
+      "success_rate": 1.0,
+      "exact_rate": 0.34
+    },
+    {
+      "episode": 1100,
+      "avg_return": 1.3065,
+      "success_rate": 0.98,
+      "exact_rate": 0.44
+    },
+    {
+      "episode": 1150,
+      "avg_return": 1.1325,
+      "success_rate": 1.0,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 1200,
+      "avg_return": 1.0875,
+      "success_rate": 0.94,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 1250,
+      "avg_return": 1.1471,
+      "success_rate": 1.0,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 1300,
+      "avg_return": 1.0747,
+      "success_rate": 1.0,
+      "exact_rate": 0.36
+    },
+    {
+      "episode": 1350,
+      "avg_return": 1.1775,
+      "success_rate": 0.98,
+      "exact_rate": 0.5
+    },
+    {
+      "episode": 1400,
+      "avg_return": 1.5442,
+      "success_rate": 0.98,
+      "exact_rate": 0.54
+    },
+    {
+      "episode": 1450,
+      "avg_return": 1.2909,
+      "success_rate": 1.0,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 1500,
+      "avg_return": 0.9123,
+      "success_rate": 1.0,
+      "exact_rate": 0.28
+    },
+    {
+      "episode": 1550,
+      "avg_return": 1.0813,
+      "success_rate": 0.96,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 1600,
+      "avg_return": 1.1558,
+      "success_rate": 1.0,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 1650,
+      "avg_return": 1.1283,
+      "success_rate": 1.0,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 1700,
+      "avg_return": 0.8789,
+      "success_rate": 0.94,
+      "exact_rate": 0.32
+    },
+    {
+      "episode": 1750,
+      "avg_return": 1.0536,
+      "success_rate": 1.0,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 1800,
+      "avg_return": 1.1483,
+      "success_rate": 1.0,
+      "exact_rate": 0.36
+    },
+    {
+      "episode": 1850,
+      "avg_return": 1.1831,
+      "success_rate": 0.98,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 1900,
+      "avg_return": 1.3993,
+      "success_rate": 0.98,
+      "exact_rate": 0.52
+    },
+    {
+      "episode": 1950,
+      "avg_return": 0.7625,
+      "success_rate": 1.0,
+      "exact_rate": 0.24
+    },
+    {
+      "episode": 2000,
+      "avg_return": 1.1475,
+      "success_rate": 0.96,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 2050,
+      "avg_return": 1.2495,
+      "success_rate": 0.98,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 2100,
+      "avg_return": 1.3727,
+      "success_rate": 1.0,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 2150,
+      "avg_return": 1.0263,
+      "success_rate": 0.96,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 2200,
+      "avg_return": 1.5544,
+      "success_rate": 1.0,
+      "exact_rate": 0.58
+    },
+    {
+      "episode": 2250,
+      "avg_return": 1.2938,
+      "success_rate": 1.0,
+      "exact_rate": 0.44
+    },
+    {
+      "episode": 2300,
+      "avg_return": 1.1997,
+      "success_rate": 0.98,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 2350,
+      "avg_return": 1.3313,
+      "success_rate": 1.0,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 2400,
+      "avg_return": 1.3192,
+      "success_rate": 1.0,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 2450,
+      "avg_return": 1.1226,
+      "success_rate": 0.98,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 2500,
+      "avg_return": 1.016,
+      "success_rate": 0.96,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 2550,
+      "avg_return": 1.1306,
+      "success_rate": 0.98,
+      "exact_rate": 0.34
+    },
+    {
+      "episode": 2600,
+      "avg_return": 1.3946,
+      "success_rate": 1.0,
+      "exact_rate": 0.48
+    },
+    {
+      "episode": 2650,
+      "avg_return": 1.3143,
+      "success_rate": 1.0,
+      "exact_rate": 0.44
+    },
+    {
+      "episode": 2700,
+      "avg_return": 1.0874,
+      "success_rate": 0.98,
+      "exact_rate": 0.36
+    },
+    {
+      "episode": 2750,
+      "avg_return": 1.1491,
+      "success_rate": 1.0,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 2800,
+      "avg_return": 1.2287,
+      "success_rate": 0.98,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 2850,
+      "avg_return": 1.2006,
+      "success_rate": 1.0,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 2900,
+      "avg_return": 0.9949,
+      "success_rate": 1.0,
+      "exact_rate": 0.34
+    },
+    {
+      "episode": 2950,
+      "avg_return": 1.1156,
+      "success_rate": 0.96,
+      "exact_rate": 0.36
+    },
+    {
+      "episode": 3000,
+      "avg_return": 1.1988,
+      "success_rate": 0.98,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 3050,
+      "avg_return": 1.4437,
+      "success_rate": 0.96,
+      "exact_rate": 0.54
+    },
+    {
+      "episode": 3100,
+      "avg_return": 1.0873,
+      "success_rate": 1.0,
+      "exact_rate": 0.32
+    },
+    {
+      "episode": 3150,
+      "avg_return": 0.8339,
+      "success_rate": 0.98,
+      "exact_rate": 0.26
+    },
+    {
+      "episode": 3200,
+      "avg_return": 1.2567,
+      "success_rate": 0.98,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 3250,
+      "avg_return": 1.2495,
+      "success_rate": 1.0,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 3300,
+      "avg_return": 1.2946,
+      "success_rate": 0.98,
+      "exact_rate": 0.48
+    },
+    {
+      "episode": 3350,
+      "avg_return": 1.0226,
+      "success_rate": 0.94,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 3400,
+      "avg_return": 1.1185,
+      "success_rate": 0.92,
+      "exact_rate": 0.36
+    },
+    {
+      "episode": 3450,
+      "avg_return": 1.0595,
+      "success_rate": 0.96,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 3500,
+      "avg_return": 1.249,
+      "success_rate": 0.96,
+      "exact_rate": 0.5
+    },
+    {
+      "episode": 3550,
+      "avg_return": 0.9686,
+      "success_rate": 0.96,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 3600,
+      "avg_return": 0.8296,
+      "success_rate": 0.92,
+      "exact_rate": 0.26
+    },
+    {
+      "episode": 3650,
+      "avg_return": 1.4918,
+      "success_rate": 0.98,
+      "exact_rate": 0.54
+    },
+    {
+      "episode": 3700,
+      "avg_return": 0.8987,
+      "success_rate": 0.98,
+      "exact_rate": 0.28
+    },
+    {
+      "episode": 3750,
+      "avg_return": 1.5298,
+      "success_rate": 1.0,
+      "exact_rate": 0.54
+    },
+    {
+      "episode": 3800,
+      "avg_return": 1.267,
+      "success_rate": 0.98,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 3850,
+      "avg_return": 0.8171,
+      "success_rate": 0.98,
+      "exact_rate": 0.3
+    },
+    {
+      "episode": 3900,
+      "avg_return": 1.1908,
+      "success_rate": 0.98,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 3950,
+      "avg_return": 1.3306,
+      "success_rate": 1.0,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 4000,
+      "avg_return": 1.4616,
+      "success_rate": 1.0,
+      "exact_rate": 0.5
+    },
+    {
+      "episode": 4050,
+      "avg_return": 1.1777,
+      "success_rate": 0.98,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 4100,
+      "avg_return": 1.0535,
+      "success_rate": 0.96,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 4150,
+      "avg_return": 1.0619,
+      "success_rate": 0.96,
+      "exact_rate": 0.36
+    },
+    {
+      "episode": 4200,
+      "avg_return": 1.2971,
+      "success_rate": 0.98,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 4250,
+      "avg_return": 1.4253,
+      "success_rate": 1.0,
+      "exact_rate": 0.44
+    },
+    {
+      "episode": 4300,
+      "avg_return": 1.1429,
+      "success_rate": 0.96,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 4350,
+      "avg_return": 1.0046,
+      "success_rate": 1.0,
+      "exact_rate": 0.3
+    },
+    {
+      "episode": 4400,
+      "avg_return": 1.2413,
+      "success_rate": 0.96,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 4450,
+      "avg_return": 1.1126,
+      "success_rate": 0.98,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 4500,
+      "avg_return": 1.2151,
+      "success_rate": 0.98,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 4550,
+      "avg_return": 1.2493,
+      "success_rate": 0.96,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 4600,
+      "avg_return": 1.3406,
+      "success_rate": 0.98,
+      "exact_rate": 0.5
+    },
+    {
+      "episode": 4650,
+      "avg_return": 1.1995,
+      "success_rate": 1.0,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 4700,
+      "avg_return": 1.0919,
+      "success_rate": 0.98,
+      "exact_rate": 0.34
+    },
+    {
+      "episode": 4750,
+      "avg_return": 0.8899,
+      "success_rate": 0.94,
+      "exact_rate": 0.3
+    },
+    {
+      "episode": 4800,
+      "avg_return": 0.9816,
+      "success_rate": 1.0,
+      "exact_rate": 0.28
+    },
+    {
+      "episode": 4850,
+      "avg_return": 1.0111,
+      "success_rate": 0.96,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 4900,
+      "avg_return": 1.1145,
+      "success_rate": 1.0,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 4950,
+      "avg_return": 1.3687,
+      "success_rate": 0.98,
+      "exact_rate": 0.48
+    },
+    {
+      "episode": 5000,
+      "avg_return": 1.1868,
+      "success_rate": 0.98,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 5050,
+      "avg_return": 1.1883,
+      "success_rate": 0.98,
+      "exact_rate": 0.48
+    },
+    {
+      "episode": 5100,
+      "avg_return": 1.0246,
+      "success_rate": 1.0,
+      "exact_rate": 0.34
+    },
+    {
+      "episode": 5150,
+      "avg_return": 1.0746,
+      "success_rate": 0.98,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 5200,
+      "avg_return": 1.3266,
+      "success_rate": 1.0,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 5250,
+      "avg_return": 1.3264,
+      "success_rate": 1.0,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 5300,
+      "avg_return": 1.1626,
+      "success_rate": 1.0,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 5350,
+      "avg_return": 1.4823,
+      "success_rate": 1.0,
+      "exact_rate": 0.52
+    },
+    {
+      "episode": 5400,
+      "avg_return": 1.0649,
+      "success_rate": 0.96,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 5450,
+      "avg_return": 1.0707,
+      "success_rate": 0.96,
+      "exact_rate": 0.38
+    },
+    {
+      "episode": 5500,
+      "avg_return": 1.0663,
+      "success_rate": 1.0,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 5550,
+      "avg_return": 1.1984,
+      "success_rate": 1.0,
+      "exact_rate": 0.42
+    },
+    {
+      "episode": 5600,
+      "avg_return": 0.99,
+      "success_rate": 0.98,
+      "exact_rate": 0.3
+    },
+    {
+      "episode": 5650,
+      "avg_return": 1.3418,
+      "success_rate": 0.98,
+      "exact_rate": 0.48
+    },
+    {
+      "episode": 5700,
+      "avg_return": 1.0284,
+      "success_rate": 0.98,
+      "exact_rate": 0.3
+    },
+    {
+      "episode": 5750,
+      "avg_return": 1.1867,
+      "success_rate": 1.0,
+      "exact_rate": 0.4
+    },
+    {
+      "episode": 5800,
+      "avg_return": 1.4382,
+      "success_rate": 0.96,
+      "exact_rate": 0.56
+    },
+    {
+      "episode": 5850,
+      "avg_return": 1.3116,
+      "success_rate": 0.96,
+      "exact_rate": 0.5
+    },
+    {
+      "episode": 5900,
+      "avg_return": 1.2821,
+      "success_rate": 0.96,
+      "exact_rate": 0.46
+    },
+    {
+      "episode": 5950,
+      "avg_return": 0.9179,
+      "success_rate": 1.0,
+      "exact_rate": 0.32
+    },
+    {
+      "episode": 6000,
+      "avg_return": 1.2556,
+      "success_rate": 1.0,
+      "exact_rate": 0.44
+    }
+  ],
+  "eval": {
+    "heuristic": {
+      "overall": {
+        "n": 1500,
+        "success_rate": 0.9833,
+        "exact_rate": 0.3747,
+        "mean_steps": 2.006,
+        "mean_distance": 9.592,
+        "mean_return": 1.042
+      },
+      "by_faults": {
+        "1": {
+          "n": 500,
+          "success_rate": 0.992,
+          "exact_rate": 0.746,
+          "mean_steps": 1.02,
+          "mean_distance": 2.522,
+          "mean_return": 1.7899
+        },
+        "2": {
+          "n": 500,
+          "success_rate": 0.986,
+          "exact_rate": 0.272,
+          "mean_steps": 2.02,
+          "mean_distance": 9.986,
+          "mean_return": 0.8351
+        },
+        "3": {
+          "n": 500,
+          "success_rate": 0.972,
+          "exact_rate": 0.106,
+          "mean_steps": 2.998,
+          "mean_distance": 16.268,
+          "mean_return": 0.5011
+        }
+      }
+    },
+    "rl": {
+      "overall": {
+        "n": 1500,
+        "success_rate": 0.9833,
+        "exact_rate": 0.39,
+        "mean_steps": 2.006,
+        "mean_distance": 8.235,
+        "mean_return": 1.1453
+      },
+      "by_faults": {
+        "1": {
+          "n": 500,
+          "success_rate": 0.992,
+          "exact_rate": 0.756,
+          "mean_steps": 1.02,
+          "mean_distance": 2.238,
+          "mean_return": 1.8235
+        },
+        "2": {
+          "n": 500,
+          "success_rate": 0.986,
+          "exact_rate": 0.298,
+          "mean_steps": 2.02,
+          "mean_distance": 8.574,
+          "mean_return": 0.9844
+        },
+        "3": {
+          "n": 500,
+          "success_rate": 0.972,
+          "exact_rate": 0.116,
+          "mean_steps": 2.998,
+          "mean_distance": 13.892,
+          "mean_return": 0.6279
+        }
+      }
+    },
+    "random": {
+      "overall": {
+        "n": 1500,
+        "success_rate": 0.9593,
+        "exact_rate": 0.292,
+        "mean_steps": 2.034,
+        "mean_distance": 9.221,
+        "mean_return": 0.8217
+      },
+      "by_faults": {
+        "1": {
+          "n": 500,
+          "success_rate": 0.984,
+          "exact_rate": 0.662,
+          "mean_steps": 1.041,
+          "mean_distance": 2.584,
+          "mean_return": 1.524
+        },
+        "2": {
+          "n": 500,
+          "success_rate": 0.966,
+          "exact_rate": 0.166,
+          "mean_steps": 2.068,
+          "mean_distance": 9.62,
+          "mean_return": 0.5874
+        },
+        "3": {
+          "n": 500,
+          "success_rate": 0.928,
+          "exact_rate": 0.048,
+          "mean_steps": 3.052,
+          "mean_distance": 15.46,
+          "mean_return": 0.3536
+        }
+      }
+    },
+    "paired_vs_heuristic": {
+      "exact_rate_diff": {
+        "mean": 0.0153,
+        "ci_low": 0.0093,
+        "ci_high": 0.022,
+        "significant": true
+      },
+      "distance_diff": {
+        "mean": -1.3573,
+        "ci_low": -1.5113,
+        "ci_high": -1.212,
+        "significant": true
+      },
+      "return_diff": {
+        "mean": 0.1033,
+        "ci_low": 0.0868,
+        "ci_high": 0.1222,
+        "significant": true
+      }
+    }
+  },
+  "top_weights": [
+    {
+      "feature": "status=rejected",
+      "weight": -4.032
+    },
+    {
+      "feature": "heuristic_score",
+      "weight": 3.393
+    },
+    {
+      "feature": "status=verified",
+      "weight": 2.29
+    },
+    {
+      "feature": "is_heuristic_top",
+      "weight": 1.858
+    },
+    {
+      "feature": "strategy=split:before_block",
+      "weight": -1.51
+    },
+    {
+      "feature": "OUT_OF_SCOPE_USE&strategy=split:before_block",
+      "weight": -1.51
+    },
+    {
+      "feature": "OUT_OF_SCOPE_USE&strategy=whole:before_block",
+      "weight": 1.393
+    },
+    {
+      "feature": "strategy=whole:before_block",
+      "weight": 1.393
+    },
+    {
+      "feature": "label=TYPO_IDENTIFIER",
+      "weight": 1.139
+    },
+    {
+      "feature": "label=MISSING_DECLARATION",
+      "weight": -1.139
+    },
+    {
+      "feature": "strategy=default",
+      "weight": 1.139
+    },
+    {
+      "feature": "pure_insert",
+      "weight": -1.138
+    },
+    {
+      "feature": "verified&label=TYPO_IDENTIFIER",
+      "weight": 1.083
+    },
+    {
+      "feature": "verified&label=MISSING_DECLARATION",
+      "weight": -0.727
+    },
+    {
+      "feature": "plausibility",
+      "weight": 0.645
+    },
+    {
+      "feature": "MISSING_DECLARATION&strategy=after_decls",
+      "weight": -0.505
+    }
+  ]
+}

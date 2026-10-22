@@ -13,6 +13,7 @@ const ML_STEPS = [
   ['Feature extractor', 'compiler state → 40 features'],
   ['ML classifier', 'rank 12 causes'],
   ['Repair generator', 'candidate edits'],
+  ['RL policy', 'chooses the fix'],
   ['Validator', 're-compile each fix'],
 ];
 
@@ -43,7 +44,7 @@ export default function PipelineStrip({ stages, diagnosis, onSelect }) {
           <span className="pbranch-tag">compile failed → ML diagnosis</span>
           {ML_STEPS.map(([t, d], i) => (
             <React.Fragment key={t}>
-              <span className={`bstep ${has ? (i === 3 && !verified ? 'warn' : 'on') : ''}`} style={{ '--d': `${i * 0.18}s` }}>
+              <span className={`bstep ${has ? (i === 4 && !verified ? 'warn' : 'on') : ''}`} style={{ '--d': `${i * 0.18}s` }}>
                 <b>{t}</b><small>{d}</small>
               </span>
               {i < ML_STEPS.length - 1 && <span className="barrow">→</span>}

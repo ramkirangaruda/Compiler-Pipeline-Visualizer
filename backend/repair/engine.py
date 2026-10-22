@@ -3,6 +3,9 @@ candidate repairs -> compiler validation -> ranked, verified fixes."""
 from __future__ import annotations
 
 import difflib
+import threading
+import uuid
+from collections import OrderedDict
 from typing import Optional
 
 from minic.pipeline import Frontend, run_frontend
@@ -13,6 +16,8 @@ from .candidates import generate, gen_rules
 from .classifier import MODEL_PATH, Classifier
 from .features import extract
 from .labels import CANDIDATE_CAUSES, LABELS, ML_CODES
+from .rl.features import candidate_matrix
+from .rl.policy import POLICY_PATH, Policy
 from .validator import validate
 
 STATUS_RANK = {"verified": 2, "partial": 1, "rejected": 0}
@@ -39,6 +44,17 @@ class Engine:
         self.clf = classifier
         if self.clf is None and load and MODEL_PATH.exists():
             self.clf = Classifier()
+        # reinforcement-learning fix policy (optional; trained by `python -m ml.rl.train_rl`)
+        self.policy: Optional[Policy] = None
+        self._lock = threading.Lock()
+        self._decisions: OrderedDict = OrderedDict()
+        self._online = {"updates": 0, "reward_sum": 0.0, "history": []}
+        if load and POLICY_PATH.exists():
+            try:
+                self.policy = Policy.load()
+            except (ValueError, OSError):
+                self.policy = None
+        self._trained_theta = self.policy.theta.copy() if self.policy else None
 
     @property
     def model_loaded(self) -> bool:
@@ -57,7 +73,8 @@ class Engine:
         return {l: p / total for l, p in kept.items()}
 
     # ----------------------------------------------------------- one diag
-    def diagnose_one(self, d: Diagnostic, fe: Frontend, mode: str = "ml") -> dict:
+    def diagnose_one(self, d: Diagnostic, fe: Frontend, mode: str = "ml", ranker: str = "heuristic",
+                     explain: bool = True) -> dict:
         source = fe.source
         entry: dict = {"diagnostic": d.to_dict(), "duplicates": 0}
 
@@ -88,7 +105,7 @@ class Engine:
                 "low_confidence": top_p < 0.5,
                 "probs": [{"label": l, "title": LABELS[l]["title"], "prob": round(p, 4)} for l, p in ranked[:6]],
             }
-            if self.clf is not None and mode == "ml":
+            if explain and self.clf is not None and mode == "ml":
                 entry["explanation"] = self.clf.explain(feats, top_label)
             raw = []
             for l, p in ranked[:3]:
@@ -110,6 +127,7 @@ class Engine:
                 {
                     "label": c["label"],
                     "label_title": LABELS.get(c["label"], {}).get("title", "Rule-based fix"),
+                    "strategy": c.get("strategy", "default"),
                     "title": c["title"],
                     "description": c["description"],
                     "edits": [e.to_dict() for e in c["edits"]],
@@ -124,9 +142,31 @@ class Engine:
                 }
             )
         cands.sort(key=lambda c: (-STATUS_RANK[c["status"]], -c["score"]))
-        for i, c in enumerate(cands):
-            c["id"] = f"fix-{i + 1}"
-        entry["candidates"] = cands[:10]
+        cands = cands[:10]
+        entry["ranker"] = "heuristic"
+        if self.policy is not None and cands:
+            # the RL policy scores every candidate; with ranker="rl" it also decides the order.
+            # rejected fixes always stay last: nothing the compiler refused is ever offered.
+            X = candidate_matrix(cands, len(fe.errors), d.stage)
+            pr = self.policy.probs(X)
+            for i, c in enumerate(cands):
+                c["_row"] = i
+                c["rl_prob"] = round(float(pr[i]), 4)
+            if ranker == "rl":
+                cands.sort(key=lambda c: (c["status"] == "rejected", -c["rl_prob"]))
+                entry["ranker"] = "rl"
+            for i, c in enumerate(cands):
+                c["id"] = f"fix-{i + 1}"
+            decision = uuid.uuid4().hex[:12]
+            with self._lock:
+                self._decisions[decision] = (X, {c["id"]: c.pop("_row") for c in cands})
+                while len(self._decisions) > 2000:
+                    self._decisions.popitem(last=False)
+            entry["decision_id"] = decision
+        else:
+            for i, c in enumerate(cands):
+                c["id"] = f"fix-{i + 1}"
+        entry["candidates"] = cands
         best = next((c for c in cands if c["status"] != "rejected"), None)
         entry["best"] = best["id"] if best else None
         if best:
@@ -134,7 +174,8 @@ class Engine:
         return entry
 
     # ---------------------------------------------------------- whole file
-    def diagnose(self, source: str, mode: str = "ml", only_first: bool = False) -> dict:
+    def diagnose(self, source: str, mode: str = "ml", only_first: bool = False, ranker: str = "heuristic",
+                 explain: bool = True) -> dict:
         fe = run_frontend(source)
         errors = fe.errors
         entries, undeclared_seen = [], {}
@@ -144,7 +185,7 @@ class Engine:
                 if name in undeclared_seen:
                     undeclared_seen[name]["duplicates"] += 1
                     continue
-            entry = self.diagnose_one(d, fe, mode)
+            entry = self.diagnose_one(d, fe, mode, ranker, explain)
             if d.code == "E_UNDECLARED":
                 undeclared_seen[d.extra["name"]] = entry
             entries.append(entry)
@@ -153,18 +194,19 @@ class Engine:
         return {
             "model_loaded": self.model_loaded,
             "mode": mode,
+            "ranker": ranker if self.policy is not None else "heuristic",
             "errors": len(errors),
             "entries": entries,
         }
 
     # ------------------------------------------------------------- autofix
-    def autofix(self, source: str, max_steps: int = 12, mode: str = "ml") -> dict:
+    def autofix(self, source: str, max_steps: int = 12, mode: str = "ml", ranker: str = "heuristic") -> dict:
         steps, cur = [], source
         for i in range(max_steps):
             fe = run_frontend(cur)
             if not fe.errors:
                 break
-            res = self.diagnose(cur, mode=mode, only_first=True)
+            res = self.diagnose(cur, mode=mode, only_first=True, ranker=ranker, explain=False)
             if not res["entries"]:
                 break
             e = res["entries"][0]
@@ -193,4 +235,47 @@ class Engine:
             "steps": steps,
             "final_source": cur,
             "remaining": [d.message for d in final.errors],
+        }
+
+    # ------------------------------------------------- online reinforcement
+    def feedback(self, decision_id: str, candidate_id: str, reward: float) -> Optional[dict]:
+        """Apply one policy-gradient step from user feedback (+1 accepted, -1 undone)."""
+        with self._lock:
+            rec = self._decisions.get(decision_id)
+            if rec is None or self.policy is None:
+                return None
+            X, rows = rec
+            a = rows.get(candidate_id)
+            if a is None:
+                return None
+            reward = max(-1.0, min(1.0, float(reward)))
+            before = float(self.policy.probs(X)[a])
+            after = self.policy.online_update(X, a, reward)
+            self._online["updates"] += 1
+            self._online["reward_sum"] += reward
+            self._online["history"] = (self._online["history"] + [reward])[-60:]
+            return {"before": round(before, 4), "after": round(after, 4), "updates": self._online["updates"]}
+
+    def reset_policy(self) -> None:
+        with self._lock:
+            if POLICY_PATH.exists():
+                try:
+                    self.policy = Policy.load()
+                except (ValueError, OSError):
+                    pass
+            self._online = {"updates": 0, "reward_sum": 0.0, "history": []}
+            self._trained_theta = self.policy.theta.copy() if self.policy else None
+
+    def rl_status(self) -> dict:
+        n = self._online["updates"]
+        shift = 0.0
+        if self.policy is not None and self._trained_theta is not None:
+            shift = float(((self.policy.theta - self._trained_theta) ** 2).sum() ** 0.5)
+        return {
+            "loaded": self.policy is not None,
+            "online_updates": n,
+            "mean_reward": round(self._online["reward_sum"] / n, 3) if n else None,
+            "history": self._online["history"],
+            "weight_shift": round(shift, 4),
+            "top_weights": self.policy.top_weights() if self.policy else [],
         }

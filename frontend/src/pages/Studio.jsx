@@ -23,6 +23,10 @@ export default function Studio() {
   const [fixing, setFixing] = useState(false);
   const [error, setError] = useState(null);
   const [mode, setMode] = useState('ml');
+  const [ranker, setRanker] = useState('rl');
+  const [lastDecision, setLastDecision] = useState(null);
+  const [applied, setApplied] = useState(null);
+  const [toast, setToast] = useState(null);
   const [optimize, setOptimize] = useState(true);
   const [live, setLive] = useState(true);
   const [tab, setTab] = useState('diagnosis');
@@ -39,7 +43,7 @@ export default function Studio() {
     const my = ++seq.current;
     setBusy(true);
     try {
-      const r = await api.compile(src, opts.optimize ?? optimize, opts.mode ?? mode);
+      const r = await api.compile(src, opts.optimize ?? optimize, opts.mode ?? mode, opts.ranker ?? ranker);
       if (my !== seq.current) return;
       setResult(r);
       setError(null);
@@ -49,7 +53,7 @@ export default function Studio() {
     } finally {
       if (my === seq.current) setBusy(false);
     }
-  }, [mode, optimize]);
+  }, [mode, optimize, ranker]);
 
   // initial compile + live compile (debounced) on edits / option changes
   useEffect(() => {
@@ -63,23 +67,39 @@ export default function Studio() {
   const loadExample = (ex) => {
     setActive(ex.id);
     setAutofix(null);
+    setApplied(null);
     setUndoSrc(null);
     setSource(ex.source);
     if (!live) run(ex.source);
   };
 
-  const applyFix = (newSource) => {
+  // reinforcement signal for the RL fix policy: +1 when a suggested fix is accepted, -1 when it is undone
+  const sendFeedback = (decisionId, candidateId, reward) => {
+    api.rlFeedback(decisionId, candidateId, reward)
+      .then((r) => setToast(`RL policy updated from your ${reward > 0 ? 'accept' : 'undo'}: π(this fix) ${(r.before * 100).toFixed(0)}% → ${(r.after * 100).toFixed(0)}%`))
+      .catch(() => {});
+  };
+
+  const applyFix = (newSource, cand, entry) => {
     setUndoSrc(source);
     setAutofix(null);
+    setApplied({ title: cand?.title || 'fix', source: newSource });
     setSource(newSource);
+    if (cand && entry?.decision_id) {
+      setLastDecision({ decision: entry.decision_id, candidate: cand.id });
+      sendFeedback(entry.decision_id, cand.id, 1);
+    } else {
+      setLastDecision(null);
+    }
     if (!live) run(newSource);
   };
 
   const doAutofix = async () => {
     setFixing(true);
     try {
-      const res = await api.autofix(source, mode);
+      const res = await api.autofix(source, mode, ranker);
       setUndoSrc(source);
+      setApplied(null);
       setAutofix(res);
       setSource(res.final_source);
       if (!live) run(res.final_source);
@@ -90,7 +110,16 @@ export default function Studio() {
     }
   };
 
-  const undo = () => { setSource(undoSrc); setUndoSrc(null); setAutofix(null); if (!live) run(undoSrc); };
+  const undo = () => {
+    if (lastDecision) { sendFeedback(lastDecision.decision, lastDecision.candidate, -1); setLastDecision(null); }
+    setSource(undoSrc); setUndoSrc(null); setAutofix(null); setApplied(null); if (!live) run(undoSrc);
+  };
+
+  useEffect(() => {
+    if (!toast) return undefined;
+    const t = setTimeout(() => setToast(null), 4200);
+    return () => clearTimeout(t);
+  }, [toast]);
 
   const dx = result?.diagnosis;
   const diags = result?.diagnostics || [];
@@ -109,7 +138,7 @@ export default function Studio() {
   const entryFor = (d) => dx?.entries?.find((e) => e.diagnostic.start === d.start && e.diagnostic.code === d.code);
   const quickFix = (e) => {
     const best = e?.candidates?.find((c) => c.id === e.best);
-    if (best) applyFix(best.new_source);
+    if (best) applyFix(best.new_source, best, e);
   };
 
   const tabs = TABS.filter(([id]) => id !== 'diagnosis' || (result && !result.ok));
@@ -140,9 +169,15 @@ export default function Studio() {
             <p className="muted">Edit MiniC, watch every phase, and break things on purpose. Live compile is {live ? 'on' : 'off'} · <kbd>Ctrl</kbd>+<kbd>Enter</kbd> compiles.</p>
           </div>
           <div className="studio-actions">
+            <span className="ctl-label">Diagnosis</span>
             <div className="seg-ctl" role="group" aria-label="Diagnosis mode">
               <button className={mode === 'ml' ? 'on' : ''} onClick={() => setMode('ml')} title="Machine-learning classifier">ML</button>
               <button className={mode === 'baseline' ? 'on' : ''} onClick={() => setMode('baseline')} title="Hand-written rules only">Rules</button>
+            </div>
+            <span className="ctl-label">Fix order</span>
+            <div className="seg-ctl" role="group" aria-label="Fix ordering">
+              <button className={ranker === 'rl' ? 'on' : ''} onClick={() => setRanker('rl')} title="Reinforcement-learning policy orders the candidate fixes">RL</button>
+              <button className={ranker === 'heuristic' ? 'on' : ''} onClick={() => setRanker('heuristic')} title="Hand-written score ordering">Heuristic</button>
             </div>
             <label className="toggle"><input type="checkbox" checked={optimize} onChange={(e) => setOptimize(e.target.checked)} /> Optimizer</label>
             <label className="toggle"><input type="checkbox" checked={live} onChange={(e) => setLive(e.target.checked)} /> Live</label>
@@ -164,10 +199,19 @@ export default function Studio() {
         </div>
 
         {error && <div className="banner bad">{error}</div>}
+        {toast && <div className="banner good toast" role="status">🎯 {toast}</div>}
         {autofix && undoSrc != null && (
           <div className={`banner ${autofix.ok ? 'good' : 'warn'}`}>
             Auto-fix applied {autofix.steps.length} step{autofix.steps.length === 1 ? '' : 's'}: {autofix.ok ? 'the program now compiles.' : 'some errors remain.'}
             <button className="btn-flat" onClick={undo}>Undo</button>
+          </div>
+        )}
+
+        {applied && undoSrc != null && !autofix && source === applied.source && (
+          <div className="banner good">
+            Applied: {applied.title}
+            <button className="btn-flat" onClick={undo}>Undo</button>
+            <span className="muted">accept = +1 and undo = −1 reward for the RL policy</span>
           </div>
         )}
 

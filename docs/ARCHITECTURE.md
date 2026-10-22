@@ -59,6 +59,33 @@ Correctness check: the optimizer is verified by running the unoptimized and opti
 Errors that are not ambiguous (stray characters, unterminated strings, redeclarations) are handled by rules and
 labelled as such in the UI - ML is used where it adds information.
 
+## 3b. Reinforcement learning (`backend/repair/rl/`, `backend/ml/rl/`)
+
+Choosing *which candidate fix to apply first* is a sequential decision: each fix changes the program, and the
+next error depends on what was done. It is modelled as an MDP and learned by trial and error.
+
+| MDP element | Definition |
+|---|---|
+| State | the broken program, summarised by the compiler-validated candidate fixes for its first error |
+| Action | apply one candidate fix (up to 10 per state) - including *where* a declaration is placed |
+| Reward | progress toward the intended program (token distance) - 0.05 per step; +0.5 if the program compiles, +1.0 more if it equals the original, -0.5 on timeout |
+| Policy | linear softmax over candidate features (label, compiler status, probabilities, edit size, placement strategy, ...), warm-started from the heuristic ordering |
+| Algorithm | REINFORCE with a per-step baseline, entropy bonus and gamma = 0.95 |
+
+* **Environment** (`ml/rl/env.py`) - `RepairEnv` applies the chosen fix, recompiles and returns the reward. The original program
+  is known only during training (the dataset generated the faults) and is used purely to compute the reward;
+  at run time the policy sees candidate features alone.
+* **Training distribution** (`ml/rl/multifault.py`) - programs with 1, 2 or 3 injected faults, from training seeds only.
+  Evaluation uses held-out seeds.
+* **Action space** - the repair generators offer several placement strategies for declarations (right before the use, top of the
+  scope, after the scope's leading declarations, in front of the owning block), so there is a real choice to learn.
+* **Comparison** - the learned policy is evaluated against the hand-written heuristic ordering and a random chooser on the same
+  held-out programs (success, exact recovery, distance to the intended program, steps).
+* **Online learning** - the running policy is updated with one policy-gradient step whenever a user applies a suggested fix (+1)
+  or undoes it (-1) in the Studio (`POST /api/rl/feedback`); it is session-only and can be reset to the trained weights.
+* **Safety** - the policy only *orders* candidates. Rejected fixes always stay last and the offered fix is never one the compiler
+  refused, so the "compiler validates the ML" guarantee is unchanged.
+
 ## 4. Data (`datasets/`, `backend/ml/`)
 
 * `seeds.py` writes type-correct, terminating programs (loop counters are protected), including *near-name*
