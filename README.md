@@ -35,7 +35,7 @@ Source → Lexer → Parser → Semantic → IR (3AC) → Optimizer → VM
 Requirements: Python 3.11+ (developed on 3.12) and Node 18+ (developed on 20).
 
 **One click:** double-click `start.bat` (Windows) or run `./start.sh` (macOS/Linux). On first run it creates the
-Python environment, installs packages and builds the UI; then everything is served on **http://localhost:8000**.
+Python environment, installs packages and builds the UI; then everything is served on **http://localhost:8010**.
 
 **Development mode** (hot reload, two terminals):
 
@@ -45,12 +45,12 @@ cd backend
 python -m venv .venv
 .venv\Scripts\activate            # Windows   (source .venv/bin/activate on macOS/Linux)
 pip install -r requirements.txt
-python -m uvicorn app.main:app --port 8000
+python -m uvicorn app.main:app --port 8010
 
 # 2. frontend (second terminal)
 cd frontend
 npm install
-npm run dev                       # http://localhost:5173  (proxies /api to :8000)
+npm run dev                       # http://localhost:5173  (proxies /api to :8010)
 ```
 
 The trained model and datasets are committed, so everything works straight after install.
@@ -69,16 +69,16 @@ Production build of the UI: `npm run build` (output in `frontend/dist`).
 
 ## The web app
 
-* **Home** - animated 3D pipeline scene, how it works, syllabus coverage.
-* **Studio** - edit MiniC with live compile. Every phase has its own view: animated lexer with DFA diagrams,
-  2D/3D syntax tree, symbol/scope table, three-address code, control-flow graph with live-in/live-out sets,
-  optimizer before/after diff, and a stepping VM. When a program fails, **AI Diagnosis** shows the ranked causes,
-  the features that drove the prediction, the compiler-detected line versus the ML-localised line, and
-  candidate fixes badged *verified / partial / rejected*. One-click quick fix or auto-fix-all (with undo).
-* **Dashboard** - model comparison, ML vs rule-baseline per cause, confusion matrix, feature importance,
-  end-to-end repair outcomes, confidence calibration, dataset composition, live session counters.
-* **Dataset** - browse every labelled folder; each sample is shown beside its ground-truth program.
-* **Architecture** - the full diagram, design decisions, feature vector, syllabus-to-code mapping, grammar.
+* **Home** - the 3D pipeline scene and a short explanation of how it works.
+* **Studio** - type MiniC and it compiles as you type. When the program fails you get one clear diagnosis: the
+  likely cause, how sure the model is, and a suggested fix (checked by the compiler) with a diff and an **Apply fix**
+  button; **Undo** reverts it. When it compiles, tabs show the program's output and every compiler phase
+  (tokens, syntax tree, symbols, optimized code, flow graph). The example menu has working and broken programs.
+* **Dashboard** - four headline numbers and four charts: ML vs rules, the four models, and the reinforcement
+  learning results.
+* **Architecture** - the system diagram.
+
+The labelled datasets live in `datasets/` (one folder per error cause); see `datasets/README.md`.
 
 ## Reinforcement learning: the fix-selection policy
 

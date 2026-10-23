@@ -4,7 +4,6 @@ import ClickSpark from './reactbits/ClickSpark.jsx';
 import Home from './pages/Home.jsx';
 import Studio from './pages/Studio.jsx';
 import Dashboard from './pages/Dashboard.jsx';
-import Dataset from './pages/Dataset.jsx';
 import Architecture from './pages/Architecture.jsx';
 import { api } from './api.js';
 
@@ -24,7 +23,7 @@ function Logo() {
 }
 
 function Nav({ health }) {
-  const links = [['/studio', 'Studio'], ['/dashboard', 'Dashboard'], ['/dataset', 'Dataset'], ['/architecture', 'Architecture']];
+  const links = [['/studio', 'Studio'], ['/dashboard', 'Dashboard'], ['/architecture', 'Architecture']];
   return (
     <header className="nav">
       <div className="container nav-inner">
@@ -68,7 +67,6 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/studio" element={<Studio />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/dataset" element={<Dataset />} />
           <Route path="/architecture" element={<Architecture />} />
           <Route path="*" element={<Home />} />
         </Routes>

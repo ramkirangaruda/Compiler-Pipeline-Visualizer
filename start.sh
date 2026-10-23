@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# One-command launcher (macOS/Linux): sets everything up on first run, then serves API + UI on http://localhost:8000
+# One-command launcher (macOS/Linux): sets everything up on first run, then serves API + UI on http://localhost:8010
 set -e
 cd "$(dirname "$0")"
 
@@ -17,5 +17,5 @@ if [ ! -f frontend/dist/index.html ]; then
   (cd frontend && npm run build)
 fi
 
-echo "Compiler Pipeline Visualizer -> http://localhost:8000  (Ctrl+C to stop)"
-exec backend/.venv/bin/python -m uvicorn --app-dir backend app.main:app --port 8000
+echo "Compiler Pipeline Visualizer -> http://localhost:8010  (Ctrl+C to stop)"
+exec backend/.venv/bin/python -m uvicorn --app-dir backend app.main:app --port 8010

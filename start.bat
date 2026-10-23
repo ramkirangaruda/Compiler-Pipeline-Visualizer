@@ -1,5 +1,5 @@
 @echo off
-rem One-click launcher (Windows): sets everything up on first run, then serves the API and the UI on http://localhost:8000
+rem One-click launcher (Windows): sets everything up on first run, then serves the API and the UI on http://localhost:8010
 setlocal
 cd /d "%~dp0"
 
@@ -22,11 +22,11 @@ if not exist frontend\dist\index.html (
 )
 
 echo.
-echo  Compiler Pipeline Visualizer is starting at http://localhost:8000
+echo  Compiler Pipeline Visualizer is starting at http://localhost:8010
 echo  (Ctrl+C to stop)
 echo.
-start "" http://localhost:8000
-backend\.venv\Scripts\python.exe -m uvicorn --app-dir backend app.main:app --port 8000
+start "" http://localhost:8010
+backend\.venv\Scripts\python.exe -m uvicorn --app-dir backend app.main:app --port 8010
 goto :eof
 
 :fail

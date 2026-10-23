@@ -66,13 +66,13 @@ mean distance to the intended program 8.24 vs 9.59 tokens (CI of the difference 
 ## Five-minute demo script
 1. **Home** - show the 3D pipeline; point at the ML node and the validator loop.
 2. **Studio → "Missing semicolon"** - the compiler flags line 3 (red); the ML-localised fault is line 2 (mint).
-   Open *AI Diagnosis*: ranked causes, evidence, the rule baseline agreeing, *verified* fix. Click *Quick fix*.
-3. **Studio → "Missing declaration"** (`name = "John";`) - the model says missing declaration, not typo, because the
+   Open the *Diagnosis* tab: likely cause, confidence, the checked fix with its diff. Click *Apply fix*, then *Undo*.
+3. **Studio → "Missing declaration"** (`name = "John";`) - the model says missing declaration, not a typo, because the
    nearest in-scope name `age` is type-incompatible. Show the typo candidate being **rejected** by the compiler.
-4. **Studio → "Several errors at once"** → *Auto-fix all*, then *Undo*.
+4. **Studio → "Several errors at once"** → *Fix all* in the Problems box, then *Undo*.
 5. **Studio → "Optimizer showcase"** - CFG with live-in/live-out, optimizer diff, "output identical" check, stepping VM.
-6. **Dashboard** - ML vs rules per cause, confusion matrix, end-to-end repair outcomes.
-7. **Dataset** - one folder per cause; sample next to its ground truth.
+6. **Dashboard** - the four headline numbers, ML vs rules per error type, the RL results.
+7. **datasets/ folder** - one folder per error cause, each program verified by the compiler.
 
 ## Questions you will be asked
 **Why not just rules?** The rules exist as the baseline and reach 87.5 %. They fail where evidence must be combined:

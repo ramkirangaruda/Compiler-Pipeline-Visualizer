@@ -1,5 +1,5 @@
 {
-  "trained_at": "2026-10-19T07:18:43+00:00",
+  "trained_at": "2026-10-23T11:11:39+00:00",
   "selected_model": "Gradient Boosting",
   "dataset": {
     "n_seeds": 700,
@@ -82,7 +82,7 @@
       "test_accuracy": 0.9785,
       "test_macro_f1": 0.9786,
       "test_log_loss": 0.0585,
-      "train_seconds": 0.8
+      "train_seconds": 4.5
     },
     {
       "name": "Decision Tree",
@@ -92,7 +92,7 @@
       "test_accuracy": 0.98,
       "test_macro_f1": 0.98,
       "test_log_loss": 0.7213,
-      "train_seconds": 0.2
+      "train_seconds": 2.1
     },
     {
       "name": "Random Forest",
@@ -102,7 +102,7 @@
       "test_accuracy": 0.9815,
       "test_macro_f1": 0.9816,
       "test_log_loss": 0.095,
-      "train_seconds": 3.2
+      "train_seconds": 8.8
     },
     {
       "name": "Gradient Boosting",
@@ -112,7 +112,7 @@
       "test_accuracy": 0.9862,
       "test_macro_f1": 0.9864,
       "test_log_loss": 0.0501,
-      "train_seconds": 45.0
+      "train_seconds": 118.5
     }
   ],
   "test": {

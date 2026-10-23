@@ -10,7 +10,6 @@ const trunc = (s, n = 15) => (s.length > n ? `${s.slice(0, n - 1)}…` : s);
 
 function Tree2D({ root }) {
   const wrapRef = useRef(null);
-  const [zoom, setZoom] = useState(null);
   const layout = useMemo(() => {
     const h = hierarchy(root);
     d3tree().nodeSize([112, 84]).separation((a, b) => (a.parent === b.parent ? 1 : 1.15))(h);
@@ -25,16 +24,10 @@ function Tree2D({ root }) {
     const w = wrapRef.current?.clientWidth || 700;
     return Math.min(1, (w - 8) / layout.width);
   }, [layout]);
-  const scale = zoom ?? fit;
+  const scale = fit;
 
   return (
     <div className="graph-wrap" ref={wrapRef}>
-      <div className="graph-tools">
-        <button className="btn-flat" onClick={() => setZoom(Math.min(2, scale + 0.15))}>＋</button>
-        <button className="btn-flat" onClick={() => setZoom(Math.max(0.2, scale - 0.15))}>－</button>
-        <button className="btn-flat" onClick={() => setZoom(null)}>Fit</button>
-        <span className="muted mono">{layout.nodes.length} nodes</span>
-      </div>
       <div className="graph-scroll">
         <svg width={layout.width * scale} height={layout.height * scale} viewBox={`0 0 ${layout.width} ${layout.height}`} role="img" aria-label="Abstract syntax tree">
           <g transform={`translate(${70 - layout.minX},34)`}>
@@ -169,9 +162,8 @@ function layoutCfg(blocks) {
   return { pos, back, width: totalW, height: y };
 }
 
-export function CfgView({ cfg, cfgBefore }) {
-  const [which, setWhich] = useState('opt');
-  const data = which === 'opt' ? cfg : cfgBefore;
+export function CfgView({ cfg }) {
+  const data = cfg;
   const blocks = data?.blocks || [];
   const L = useMemo(() => layoutCfg(blocks), [blocks]);
   if (!cfg) return <div className="empty">Compile a valid program to see its control-flow graph.</div>;
@@ -189,12 +181,7 @@ export function CfgView({ cfg, cfgBefore }) {
   };
   return (
     <div>
-      <div className="seg">
-        <button className={`btn-flat ${which === 'opt' ? 'on' : ''}`} onClick={() => setWhich('opt')}>Optimized CFG</button>
-        <button className={`btn-flat ${which === 'orig' ? 'on' : ''}`} onClick={() => setWhich('orig')}>Unoptimized CFG</button>
-        <span className="muted mono">{blocks.length} basic blocks · {data.edges} edges</span>
-      </div>
-      <p className="hint">Basic blocks start at <i>leaders</i> (the first instruction, jump targets, and instructions after jumps). <b>live-in / live-out</b> come from iterative live-variable analysis - the same data-flow result that drives dead-code elimination.</p>
+      <p className="muted cfg-sum">{blocks.length} basic blocks · {data.edges} edges · <span className="mint">live-in</span> / <span className="pink">live-out</span> variables under each block</p>
       <div className="graph-scroll cfg">
         <svg width={L.width} height={L.height} role="img" aria-label="Control flow graph">
           <defs>

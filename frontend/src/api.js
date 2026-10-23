@@ -20,9 +20,6 @@ export const api = {
   autofix: (source, mode = 'ml', ranker = 'rl') => post('/autofix', { source, mode, ranker }),
   model: () => req('/model'),
   session: () => req('/session'),
-  dataset: () => req('/dataset'),
-  samples: (label, offset = 0, limit = 6) =>
-    req(`/dataset/samples?label=${encodeURIComponent(label)}&offset=${offset}&limit=${limit}`),
   rl: () => req('/rl'),
   rlFeedback: (decision_id, candidate_id, reward) => post('/rl/feedback', { decision_id, candidate_id, reward }),
   rlReset: () => post('/rl/reset', {}),
