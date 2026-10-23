@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Editor from '../components/studio/Editor.jsx';
-import PhaseBar from '../components/studio/PipelineStrip.jsx';
+import PipelineStrip from '../components/studio/PipelineStrip.jsx';
 import DiagnosisView from '../components/studio/DiagnosisView.jsx';
 import { TreeView, CfgView } from '../components/studio/GraphViews.jsx';
 import { TokensView, SymbolsView, CodeView, RunView } from '../components/studio/StageViews.jsx';
@@ -184,7 +184,7 @@ export default function Studio() {
           </section>
 
           <section className="studio-right">
-            <PhaseBar stages={result?.stages} onSelect={(t) => tabs.includes(t) && setTab(t)} />
+            <PipelineStrip stages={result?.stages} diagnosis={dx} onSelect={(t) => tabs.includes(t) && setTab(t)} />
             <div className="panel tabs-panel">
               <div className="tabs" role="tablist">
                 {tabs.map((id) => (
