@@ -6,29 +6,12 @@ import SplitText from '../reactbits/SplitText.jsx';
 import CountUp from '../reactbits/CountUp.jsx';
 import Magnet from '../reactbits/Magnet.jsx';
 import ShinyText from '../reactbits/ShinyText.jsx';
-import SpotlightCard from '../reactbits/SpotlightCard.jsx';
 import CardSwap, { Card } from '../reactbits/CardSwap.jsx';
 import Ballpit from '../reactbits/Ballpit.jsx';
-import FadeContent from '../reactbits/FadeContent.jsx';
 import Hero3D from '../components/Hero3D.jsx';
 import ErrorBoundary from '../components/ErrorBoundary.jsx';
 import { api } from '../api.js';
 import './home.css';
-
-const SYLLABUS = [
-  ['Lexical analysis', 'Regular expressions → DFA-style scanner with live token animation', 'Tokens tab'],
-  ['Context-free grammar', 'LL(1) recursive-descent parser for a C-like language', 'Grammar'],
-  ['Parse tree / AST', 'Typed syntax tree with source spans - 2D and 3D views', 'Parse Tree tab'],
-  ['Symbol table', 'Scope tree, shadowing and unique variable naming', 'Symbols tab'],
-  ['Type checking', 'int/float/bool/string, widening, operator rules, bool conditions', 'Semantic'],
-  ['Syntax-directed translation', 'Post-order AST walk emits three-address code', '3AC tab'],
-  ['Basic blocks & CFG', 'Leaders, edges and a drawn control-flow graph', 'CFG tab'],
-  ['Data-flow analysis', 'Iterative live-variable analysis drives dead-code elimination', 'CFG tab'],
-  ['Code optimization', 'Folding, propagation, algebraic, branch folding, unreachable code', 'Optimizer tab'],
-  ['Code generation / VM', 'Label-addressed VM replays every executed instruction', 'Execute tab'],
-  ['Error recovery', 'Expected-token sets and parse contexts captured at the failure point', 'Diagnosis'],
-  ['ML + RL repair', 'Classifier ranks causes, an RL policy picks the fix, the compiler validates it', 'Diagnosis'],
-];
 
 function Stat({ children, label }) {
   return (
@@ -136,24 +119,6 @@ export default function Home() {
                   <div className="no">✗ Insert ')' after `20` <em>rejected</em></div>
                 </div><p className="swap-msg">Re-run lexer → parser → semantic analysis</p></div></Card>
             </CardSwap>
-          </div>
-        </div>
-
-        {/* ---------------- syllabus ---------------- */}
-        <div className="container syllabus">
-          <h2 className="sy-title">Every compiler phase is <span className="mint-ink">really</span> implemented</h2>
-          <p className="sy-sub">Not a wrapper around a model - the full pipeline is the backbone, and ML is one component inside it.</p>
-          <div className="sy-grid">
-            {SYLLABUS.map(([t, d, tag], i) => (
-              <FadeContent key={t} blur duration={600} delay={(i % 4) * 80}>
-                <SpotlightCard theme="light" className="sy-card" intensity={0.22}>
-                  <div className="sy-n">{String(i + 1).padStart(2, '0')}</div>
-                  <h3>{t}</h3>
-                  <p>{d}</p>
-                  <span className="chip">{tag}</span>
-                </SpotlightCard>
-              </FadeContent>
-            ))}
           </div>
         </div>
       </section>
