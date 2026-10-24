@@ -17,9 +17,7 @@ from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from cfront.pipeline import compile_source as compile_c
 from minic import compile_source
-from repair import langs
 from repair.engine import Engine
 from repair.labels import LABELS
 
@@ -64,7 +62,6 @@ class SourceIn(BaseModel):
     optimize: bool = True
     mode: Literal["ml", "baseline"] = "ml"
     ranker: Literal["heuristic", "rl"] = "rl"  # who orders the candidate fixes
-    language: Literal["minic", "c"] = "minic"
 
 
 class FeedbackIn(BaseModel):
@@ -92,8 +89,7 @@ def _record(diag: dict) -> None:
 @app.get("/api/health")
 def health():
     return {"status": "ok", "model_loaded": engine.model_loaded,
-            "model": engine.clf.model_name if engine.clf else None,
-            "languages": {k: c.model_name if c else None for k, c in engine.clfs.items()}}
+            "model": engine.clf.model_name if engine.clf else None}
 
 
 @app.get("/api/examples")
@@ -102,25 +98,21 @@ def examples():
 
 
 @app.get("/api/labels")
-def labels(language: Literal["minic", "c"] = "minic"):
-    return [{"label": k, **v} for k, v in langs.get(language).labels.items()]
+def labels():
+    return [{"label": k, **v} for k, v in LABELS.items()]
 
 
 @app.post("/api/compile")
 def compile_(body: SourceIn):
     _check(body.source)
-    if body.language == "c":
-        result = compile_c(body.source)
-    else:
-        result = compile_source(body.source, run_optimizer=body.optimize)
-        result["language"] = "minic"
+    result = compile_source(body.source, run_optimizer=body.optimize)
     SESSION["compiles"] += 1
     for s in result["stages"]:
         SESSION["stage_ms"][s["key"]] += s["ms"]
     diagnosis = None
     if not result["ok"]:
         SESSION["failed"] += 1
-        diagnosis = engine.diagnose(body.source, mode=body.mode, ranker=body.ranker, language=body.language)
+        diagnosis = engine.diagnose(body.source, mode=body.mode, ranker=body.ranker)
         _record(diagnosis)
     result["diagnosis"] = diagnosis
     return result
@@ -129,7 +121,7 @@ def compile_(body: SourceIn):
 @app.post("/api/diagnose")
 def diagnose(body: SourceIn):
     _check(body.source)
-    diag = engine.diagnose(body.source, mode=body.mode, ranker=body.ranker, language=body.language)
+    diag = engine.diagnose(body.source, mode=body.mode, ranker=body.ranker)
     _record(diag)
     return diag
 
@@ -137,7 +129,7 @@ def diagnose(body: SourceIn):
 @app.post("/api/autofix")
 def autofix(body: SourceIn):
     _check(body.source)
-    res = engine.autofix(body.source, mode=body.mode, ranker=body.ranker, language=body.language)
+    res = engine.autofix(body.source, mode=body.mode, ranker=body.ranker)
     SESSION["autofixes"] += 1
     SESSION["autofix_ok"] += int(res["ok"])
     return res
@@ -165,14 +157,13 @@ def rl_reset():
 
 
 @app.get("/api/model")
-def model(language: Literal["minic", "c"] = "minic"):
-    lang = langs.get(language)
+def model():
+    metrics = _read_json(MODELS / "metrics.json")
     return {
-        "language": lang.key,
-        "loaded": engine.clfs[lang.key] is not None,
-        "metrics": _read_json(lang.metrics_path),
-        "repair_eval": _read_json(lang.eval_path),
-        "dataset": _read_json(lang.data_dir / "processed" / "dataset_stats.json"),
+        "loaded": engine.model_loaded,
+        "metrics": metrics,
+        "repair_eval": _read_json(MODELS / "repair_eval.json"),
+        "dataset": _read_json(DATASETS / "processed" / "dataset_stats.json"),
     }
 
 

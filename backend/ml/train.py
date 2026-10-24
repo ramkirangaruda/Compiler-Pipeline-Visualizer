@@ -28,17 +28,13 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.tree import DecisionTreeClassifier
 
-import argparse
-
-from repair import langs
+from repair import baseline
+from repair.features import CAT_COLUMNS, FEATURE_COLUMNS, NUM_COLUMNS
+from repair.labels import LABEL_NAMES
 
 ROOT = Path(__file__).resolve().parents[2]
+PROCESSED = ROOT / "datasets" / "processed"
 MODELS = ROOT / "models"
-# set by main(): the language being trained (MiniC by default, `--lang c` for real C)
-LANG = langs.get("minic")
-CAT_COLUMNS, NUM_COLUMNS, FEATURE_COLUMNS, LABEL_NAMES = LANG.cat_columns, LANG.num_columns, LANG.columns, LANG.label_names
-PROCESSED = LANG.data_dir / "processed"
-baseline = None
 SEED = 7
 TIE_TOLERANCE = 0.005  # models within this CV macro-F1 of the best are considered tied
 warnings.filterwarnings("ignore")
@@ -86,16 +82,6 @@ def report(y_true, y_pred, labels) -> dict:
 
 
 def main() -> None:
-    global LANG, CAT_COLUMNS, NUM_COLUMNS, FEATURE_COLUMNS, LABEL_NAMES, PROCESSED, baseline
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--lang", default="minic", choices=["minic", "c"])
-    LANG = langs.get(ap.parse_args().lang)
-    CAT_COLUMNS, NUM_COLUMNS, FEATURE_COLUMNS, LABEL_NAMES = LANG.cat_columns, LANG.num_columns, LANG.columns, LANG.label_names
-    PROCESSED = LANG.data_dir / "processed"
-
-    class baseline:   # noqa: N801 - the language's rule baseline behind the old module-style name
-        predict = staticmethod(LANG.baseline_predict)
-
     df = pd.read_csv(PROCESSED / "features.csv", keep_default_na=False)
     hw = pd.read_csv(PROCESSED / "handwritten_features.csv", keep_default_na=False)
     for frame in (df, hw):
@@ -179,14 +165,13 @@ def main() -> None:
     joblib.dump(
         {"pipeline": best, "model_name": best_name, "neutral": neutral,
          "trained_at": datetime.now(timezone.utc).isoformat(timespec="seconds")},
-        LANG.model_path,
+        MODELS / "error_classifier.joblib",
     )
 
     stats = json.loads((PROCESSED / "dataset_stats.json").read_text(encoding="utf-8"))
     metrics = {
         "trained_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "selected_model": best_name,
-        "language": LANG.key,
         "dataset": {
             "n_seeds": stats["n_seeds"], "n_samples": stats["n_samples"],
             "n_train": int(len(train)), "n_test": int(len(test)), "n_handwritten": int(len(hw)),
@@ -200,7 +185,7 @@ def main() -> None:
         "reliability": bins,
         "feature_importance": importance[:20],
     }
-    LANG.metrics_path.write_text(json.dumps(metrics, indent=2), encoding="utf-8")
+    (MODELS / "metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
     print(f"test acc={test_report['accuracy']}  macro-F1={test_report['macro_f1']}  "
           f"baseline acc={base['test']['accuracy']}")
     if hw_report:

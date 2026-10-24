@@ -3,6 +3,7 @@ and pushed back through lexer -> parser -> semantic analysis. A suggestion is
 only presented as a fix if the compiler accepts it."""
 from __future__ import annotations
 
+from minic.pipeline import Frontend, run_frontend
 from minic.tokens import Diagnostic
 
 from .candidates import Edit, apply_edits
@@ -12,12 +13,12 @@ def _signature(d: Diagnostic) -> tuple:
     return (d.code, d.extra.get("name"), d.extra.get("kind"))
 
 
-def validate(source: str, edits: list[Edit], before, target: Diagnostic) -> dict:
+def validate(source: str, edits: list[Edit], before: Frontend, target: Diagnostic) -> dict:
     try:
         new_source = apply_edits(source, edits)
     except ValueError:
         return {"status": "rejected", "reason": "edits overlap", "errors_after": -1, "new_source": source}
-    after = before.rerun(new_source)
+    after = run_frontend(new_source)
     errs = after.errors
     n_before, n_after = len(before.errors), len(errs)
 

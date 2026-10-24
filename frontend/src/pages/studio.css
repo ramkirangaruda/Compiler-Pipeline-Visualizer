@@ -163,9 +163,3 @@ tr.flash td { animation: flash 0.9s ease-out; } @keyframes flash { from { backgr
 .cfg-ins { font-family: var(--mono); font-size: 12px; fill: #fff; } .cfg-live { font-family: var(--mono); font-size: 10.5px; fill: var(--mint); } .cfg-live.out { fill: #ff9ec1; }
 .cfg-edge { fill: none; stroke: #c9bcff; stroke-width: 1.7; } .cfg-edge.back { stroke: var(--yellow); stroke-dasharray: 5 4; }
 .cfg-elabel { font-family: var(--mono); font-size: 11px; font-weight: 800; fill: var(--yellow); }
-
-.c-out { margin: 0; white-space: pre-wrap; font: inherit; color: inherit; }
-.ins code { white-space: pre; }
-.lang-seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; background: rgba(255, 255, 255, 0.04); }
-.lang-seg button { border: 0; background: transparent; color: var(--text, #fff); font: inherit; font-weight: 700; font-size: 13px; padding: 5px 14px; border-radius: 999px; cursor: pointer; opacity: 0.7; }
-.lang-seg button[aria-pressed='true'] { background: var(--yellow, #E7D623); color: #2b2600; opacity: 1; }

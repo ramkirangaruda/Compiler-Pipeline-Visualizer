@@ -108,7 +108,7 @@ function Tree3D({ root }) {
 
 export function TreeView({ ast }) {
   const [mode, setMode] = useState('2d');
-  const root = useMemo(() => (ast ? (ast.node ? astToTree(ast) : ast) : null), [ast]); // C arrives as a ready-made tree
+  const root = useMemo(() => (ast ? astToTree(ast) : null), [ast]);
   if (!root) return <div className="empty">The parser stopped on a syntax error, so there is no complete syntax tree.</div>;
   return (
     <div>

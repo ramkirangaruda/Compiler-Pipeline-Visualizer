@@ -17,7 +17,7 @@ from .optimizer import optimize
 from .parser import parse
 from .semantic import SemanticResult, analyze
 from .tac import generate
-from .tokens import ALL_RESERVED, Diagnostic, Token
+from .tokens import Diagnostic, Token
 from .vm import run as vm_run
 
 
@@ -29,11 +29,6 @@ class Frontend:
     program: Optional[A.Program]
     parse_error: Optional[Diagnostic]
     sem: Optional[SemanticResult]
-    lang = "minic"
-    keywords = ALL_RESERVED
-
-    def rerun(self, source: str) -> "Frontend":
-        return run_frontend(source)
 
     @property
     def errors(self) -> list[Diagnostic]:

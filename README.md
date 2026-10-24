@@ -21,13 +21,12 @@ Source → Lexer → Parser → Semantic → IR (3AC) → Optimizer → VM
 | Part | Where | What |
 |---|---|---|
 | Compiler | `backend/minic/` | lexer, recursive-descent parser, AST, scoped symbol table + type checker, three-address code, optimizer (folding, algebraic, copy/constant propagation, branch folding, unreachable code, liveness-based DCE), basic blocks + CFG + live-variable analysis, VM with execution trace |
-| Real C | `backend/cfront/` | tokenizer, pycparser grammar, header-aware prelude, C scope/type checker, tree-walking interpreter (output matches gcc) |
 | ML repair | `backend/repair/` | 40 compiler-derived features, 12-cause classifier, candidate repair generators, compiler validation loop, auto-fix, rule baseline, feature-occlusion explanations |
 | Reinforcement learning | `backend/repair/rl/`, `backend/ml/rl/` | REINFORCE fix-selection policy over compiler-validated candidates, repair MDP, multi-fault generator, online learning from user accepts/undos |
 | Training | `backend/ml/` | seed-program generator, 12 error mutators, dataset builder, model comparison + training, end-to-end repair evaluation |
 | API | `backend/app/` | FastAPI: compile, diagnose, autofix, examples, model metrics, dataset browser |
 | Web UI | `frontend/` | React + Vite, [React Bits](https://reactbits.dev) components, three.js 3D scenes, CodeMirror editor, Recharts dashboard |
-| Data | `datasets/`, `datasets/c/` | MiniC: 700 valid seeds, **3,120 labelled error programs in one folder per cause**, 36 hand-written test programs. C: 600 seeds, **2,800 labelled programs** verified against gcc, 42 hand-written programs |
+| Data | `datasets/` | 700 valid seeds, **3,120 labelled error programs in one folder per cause**, 36 hand-written test programs, extracted feature CSVs |
 | Models | `models/` | trained classifier (`.joblib`), `metrics.json`, `repair_eval.json` |
 | Original | `legacy/pipeline.html` | the first single-file prototype this grew out of |
 
@@ -63,10 +62,7 @@ python -m ml.build_dataset        # writes datasets/ (seeds, labeled/<CAUSE>/, f
 python -m ml.train                # compares 4 models, writes models/*.joblib + metrics.json
 python -m ml.evaluate_repair      # end-to-end repair evaluation -> models/repair_eval.json
 python -m ml.rl.train_rl          # trains + evaluates the RL fix policy -> models/rl_policy.json, rl_metrics.json
-python -m ml.build_dataset_c      # real C: datasets/c/ (every sample cross-checked with gcc)
-python -m ml.train --lang c       # C classifier -> models/error_classifier_c.joblib, metrics_c.json
-python -m ml.evaluate_repair --lang c
-python -m pytest                  # 229 tests
+python -m pytest                  # 212 tests
 ```
 
 Production build of the UI: `npm run build` (output in `frontend/dist`).
@@ -107,28 +103,6 @@ the intervals exclude zero, so the improvement is real, but it is **modest**. On
 from 70.2 % to 71.5 %. The gain comes from choices the heuristic cannot rank well, mainly where a declaration should be placed; the policy
 can only choose among the candidates the repair generators propose, which caps what it can achieve.
 
-## Real C, not just MiniC
-
-The Studio has a **MiniC | C** switch. C is the real language: the same diagnose-and-repair loop runs on ordinary C programs.
-
-* **Front end** (`backend/cfront/`) - own tokenizer + preprocessor-directive handling, [pycparser](https://github.com/eliben/pycparser)
-  for the grammar (its LALR tables tell us which tokens it *would* have accepted - the C counterpart of MiniC's expected-token set),
-  and our own scope/type analysis with real C rules (pointers, arrays, structs, typedefs, enums, for-loop scope, call arity).
-  Standard-library declarations are fed to the parser **only if the matching `#include` is present**, so forgetting `<stdio.h>`
-  is a genuine, diagnosable error exactly as in a real compiler.
-* **Interpreter** (`backend/cfront/interp.py`) - runs the checked program (32-bit integer wrap-around, pointer arithmetic, `printf`, the
-  common `<string.h>`/`<math.h>`/`<stdlib.h>`/`<ctype.h>` functions) with a step trace for the Run tab. It matches gcc's output on every seed program.
-* **14 causes** - the 12 MiniC causes plus *missing `#include`* and *wrong argument count*; 50 features; its own classifier, candidate
-  generators (hoist a loop variable out of a `for`, add `&`/`*`, cast a float operand of `%`, add the missing header …) and gcc-style validation loop.
-  The reinforcement-learning policy is shared: it ranks candidates by generic features, so it works for either language.
-* **Data** (`datasets/c/`) - 600 valid seed programs, **2,800 labelled broken programs in one folder per cause**, 42 hand-written textbook-style
-  programs. **gcc (`-std=c11`) is the independent oracle**: every seed compiles with gcc, and every labelled mutant is rejected by gcc
-  (it agreed on 2,800/2,800 candidates before filtering).
-
-Rebuild: `python -m ml.build_dataset_c`, `python -m ml.train --lang c`, `python -m ml.evaluate_repair --lang c`.
-**C results** (569 held-out programs, split by seed): cause accuracy **98.2 %** (rule baseline 67.8 %); hand-written programs 97.6 % (baseline 76.2 %); top-ranked fix recompiles cleanly **91.4 %** (baseline 66.4 %); auto-fix ends in a clean program **95.6 %** (baseline 71.2 %); exact recovery of the original program 64.5 % (65.6 % with the RL ordering). Selected model: Logistic Regression.
-Not supported: the preprocessor beyond `#include`/`#define` constants, `goto`, function pointers, unions/bit-fields in the interpreter, `scanf` input.
-
 ## The language (MiniC)
 
 ```c
@@ -168,14 +142,14 @@ end-to-end against the real compiler. Exact numbers are on the Dashboard and in 
 **Honesty notes.** The training data is synthetic (valid programs corrupted by mutators), which is why
 the hand-written set exists. Programs are assumed to contain one fault at a time; several faults are repaired
 one after another. Exact-recovery of the original program is lower than "recompiles cleanly" (70 %) because
-several different fixes can be valid. MiniC itself has no functions, arrays or pointers - the C mode covers those.
+several different fixes can be valid. The language has no functions, arrays or pointers.
 
 ## Project layout
 
 ```
-backend/   minic/ cfront/ repair/ ml/ app/ tests/
-datasets/  seeds/valid/  labeled/<CAUSE>/*.mc  handwritten/<CAUSE>/  processed/   c/ (same layout, *.c)
-models/    error_classifier.joblib  metrics.json  repair_eval.json  (+ *_c.* for C)
+backend/   minic/ repair/ ml/ app/ tests/
+datasets/  seeds/valid/  labeled/<CAUSE>/*.mc  handwritten/<CAUSE>/  processed/
+models/    error_classifier.joblib  metrics.json  repair_eval.json
 frontend/  src/{pages,components,reactbits,lib}  scripts/fetch-reactbits.mjs
 docs/      ARCHITECTURE.md  REVIEW_NOTES.md
 legacy/    pipeline.html
