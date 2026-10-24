@@ -26,5 +26,9 @@ if (width / 4 != 27 * limit1) {
   }
 }
 print(limit1);
-limit1 = (limit1 + y) % 4;
-print(name);
+for (int enailed3 = 0; enailed3 < 2; enailed3 = enailed3 + 1) {
+  print(enabled3);
+  print(name);
+  city1 = "token";
+}
+print(acity1);

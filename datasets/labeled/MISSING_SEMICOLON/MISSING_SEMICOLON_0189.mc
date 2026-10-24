@@ -16,19 +16,18 @@ if (height * years3 < height + 10 || j != 2) {
   }
 }
 print((height / 8) == score);
-print(rate);
-if (true) {
-  print(active);
-} else if (29.5 + height >= 12) {
-  print(years3);
-} else {
-  int b = years3;
-  print(b);
-  print("hello")
-  if (11 >= score - j) {
-    float distance = rate + 24.6;
-    bool found1 = true;
-  }
+for (int k3 = 0; k3 < 2; k3 = k3 + 1) {
+  print(msg);
 }
-years3 = years3 + 21 + 40 - 21;
-print(rate);
+j = years3 - (j + 39);
+if (26.2 + rate > 12 / 4) {
+  print(height);
+  int age = 0
+  while (age < 6) {
+    int items1 = (33 - 18);
+    float speed1 = rate;
+    age = age + 1;
+  }
+} else {
+  int actives = (years3 % 4);
+}

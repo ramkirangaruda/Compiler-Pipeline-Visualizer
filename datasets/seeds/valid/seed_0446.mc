@@ -6,18 +6,15 @@ bool sase = true;
 string greeting = "compiler";
 greeting = "alice";
 int height = 17;
-int z = 0;
-while (z < 2) {
-  print(has_more);
-  if ((height + height) == z + height && (height * has_mores) < (height / 4)) {
-    print(has_mores);
-    print(label3);
-  }
-  if (has_more) {
-    sase = 13.9 * height <= (26 + base);
-  }
-  z = z + 1;
+for (int z = 0; z < 2; z = z + 1) {
+  has_more = false;
 }
-print(height - 15 <= z - has_mores);
-print(greeting);
-print(z);
+if (false) {
+  print(has_mores);
+}
+height = height;
+for (int steps = 0; steps < 2; steps = steps + 1) {
+  sase = has_mores < (has_mores + height);
+  print(label3);
+}
+print(base);

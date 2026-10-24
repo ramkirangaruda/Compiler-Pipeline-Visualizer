@@ -8,45 +8,31 @@ bool livees = ok;
 print(greeting);
 sum = (base + lives) - lives;
 if (false) {
-  int score = 0;
-  while (score < 3) {
-    print(sum);
-    greeting = "done";
-    score = score + 1;
+  for (int score = 0; score < 3; score = score + 1) {
+    livees = 9.1 * score != score;
+    print(sums);
+    livees = livees;
   }
-  int total2 = 0;
-  while (total2 < 2) {
-    greeting = greeting + "parse";
-    total2 = total2 + 1;
-  }
-  int width = 0;
-  while (width < 5) {
-    print("alice");
-    print(width);
-    width = width + 1;
-  }
-} else {
-  int liveeo = 0;
-  while (liveeo < 6) {
-    ok = lives % 1 >= (16 + sum);
-    liveeo = liveeo + 1;
-  }
-}
-if (greeting == "token" || ok) {
-  int steps = (3.5);
-  print(steps);
-  if (false) {
-    int value2 = sum;
-    print(value2);
-    steps = lives;
+  print(ok);
+  if (31 % 7 < (19 + sum)) {
+    print((33 + base) <= sum + 4);
+    ok = livees;
   } else {
-    int items = (39 + 32);
-    print(items);
-    print("parse");
+    int width = 11 + lives;
+    print(width);
+    int n1 = 0;
+    int y3 = sum - width;
+    print(y3);
+  }
+} else if (ok) {
+  print(greeting);
+  int livers = 0;
+  while (livers < 6) {
     print(sums);
     float discount = sums - 14.5;
+    print("pipeline");
+    livers = livers + 1;
   }
-  print("pipeline");
 } else {
   int num1 = 0;
   while (num1 < 6) {
@@ -55,5 +41,27 @@ if (greeting == "token" || ok) {
   }
   print(7 + num1);
 }
-lives = base - 40;
-print(livees);
+for (int liivees = 0; liivees < 2; liivees = liivees + 1) {
+  print("yudu");
+  print(greeting + "done");
+}
+sums = (sum + sum);
+if (livees) {
+  int i = (lives * 23);
+  print(i);
+  int liveesx = 0;
+  while (liveesx < 3) {
+    print(sum);
+    print(greeting);
+    ok = 0;
+    liveesx = liveesx + 1;
+  }
+  bool is_even1 = 16 > (liveesx - 26);
+} else {
+  int limit = (base / 3);
+  print(limit);
+  lives = 34 % 6;
+  sum = (sum + 23) - 32 % 7;
+  print(greeting);
+}
+print(lives);

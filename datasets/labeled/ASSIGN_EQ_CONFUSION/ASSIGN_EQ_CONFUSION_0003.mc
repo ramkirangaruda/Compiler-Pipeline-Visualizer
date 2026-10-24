@@ -14,7 +14,7 @@ if ((rounds % 5) <= 21 / 9) {
     print(ratso);
     print("ok");
     ratso = (ratso / 2) + 7 * 21;
-    ratso == ratso * rounds;
+    ratso = ratso * rounds;
   }
   int ratios = 0;
   while (ratios < 6) {
@@ -29,7 +29,7 @@ if ((rounds % 5) <= 21 / 9) {
 }
 bool found = true;
 if (ratio != count + rounds) {
-  rounds = rounds * count - rounds;
+  rounds == rounds * count - rounds;
   city = "alice";
   if (false) {
     int first = 13 + rounds;
@@ -49,6 +49,13 @@ while (points < 5) {
 }
 city = "pipeline";
 if ((15 / 7) > points) {
-  float avg = ratio + 27.2;
+  int limit = 0;
+  for (limit = 0; limit < 6; limit = limit + 1) {
+    bool done = 23 <= (19 % 8);
+  }
+} else if (found || !found) {
+  int age3 = 36;
+  print(age3);
+  bool poiants = rounds - rounds >= (4 / 4);
 }
-print((19 % 8) > count);
+print(rounds);

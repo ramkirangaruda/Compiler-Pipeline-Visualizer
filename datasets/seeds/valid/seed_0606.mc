@@ -14,19 +14,17 @@ while (first1 < 5) {
   first1 = first1 + 1;
 }
 int y3 = 0;
-while (y3 < 6) {
-  int count1 = (36 % 7);
-  if (29.2 * tax > (count1 / 9)) {
-    int libel = 29;
-    print(tax);
-    print(libel);
-  } else {
-    bool count1x = ready;
-  }
-  y3 = y3 + 1;
+for (y3 = 0; y3 < 6; y3 = y3 + 1) {
+  tax = 13.1 * tax;
 }
-float distance2 = tax - y3;
-ready = tax * tax == (1 / 4);
-print(distance2);
-print(label + "bob");
-print(first1);
+print((rounds / 8));
+print(base);
+int years = 0;
+while (years < 3) {
+  if ((rounds - base) > 0) {
+    ready = ready;
+  }
+  years = years + 1;
+}
+ready = (years + 33) > first1;
+print(base);

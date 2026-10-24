@@ -1,44 +1,52 @@
-string text = "yudu";
-float distance = 7.4 - 39;
-int b = 40;
-bool valid = true;
-print(b);
-int years = 0;
-while (years < 3) {
-  print(text);
-  bool done = !valid;
-  if (valid) {
-    distance = distance - b;
-  } else {
-    int days = (years + 24);
-    print(days);
-    print(true || done);
-    print(done);
+string owner = "yudu";
+string greeting = "pipeline";
+int a = (11 + 10);
+int score = (a + 34);
+bool has_more = owner != "alice";
+string label = "pipeline";
+int owners = (32 % 6);
+print((11 % 5) == a + a);
+int i = (owners + a);
+print(has_more);
+print("world");
+if (has_more) {
+  int steps = a;
+  print(steps);
+  string title = "world";
+  if (has_more) {
+    owners = (owners + i) / 2;
+    print(owners);
   }
-  years = years + 1;
-}
-if (8.5 - 11 >= (years - b)) {
-  int items = 3;
-  float salary = 22.7 + b;
-} else if (text != "ok") {
-  int limit = (6 * b);
-  print(limit);
-  b = limit / 7 * years / 7;
-  print("bob");
+  print("token");
  else {
-  if (distance - 16.8 <= (years - years)) {
-    print(distance);
-    float speed = distance - distance;
-    print(speed);
-  } else if ((years - b) != (years + b)) {
-    int texts = years;
-    print(texts);
-    print("compiler");
+  int width = 0;
+  for (width = 0; width < 5; width = width + 1) {
+    float avg1 = 1.7 * 11;
+    greeting = "alice";
+    score = (score * owners) / 2;
+  }
+  print(width);
+  int size = 0;
+  while (size < 3) {
+    print(owners);
+    size = size + 1;
+  }
+  int points = 0;
+  while (points < 3) {
+    owner = "parse";
+    print("parse");
+    print(greeting + "bob");
+    points = points + 1;
   }
 }
-b = 31 - b % 1;
-print("done");
-print(years);
-valid = 4 + years == years % 9;
-print(20 * years);
-print(distance);
+print(has_more);
+a = 11 * score * score;
+int lives = 0;
+while (lives < 5) {
+  if (!has_more && has_more) {
+    print(score);
+  }
+  print(has_more);
+  lives = lives + 1;
+}
+print(true);

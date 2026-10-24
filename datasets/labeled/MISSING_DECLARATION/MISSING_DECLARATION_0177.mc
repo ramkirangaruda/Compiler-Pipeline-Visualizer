@@ -1,7 +1,6 @@
 int i2 = (17 + 30);
 float weight = 22.9;
 int rounds = i2 + 25;
-bool flag = i2 < rounds + 32 || (i2 / 4) != i2 % 8;
 print("pipeline");
 int items = 35;
 if (22 / 2 >= i2) {
@@ -50,32 +49,14 @@ if (!flag) {
   print(index3);
   print(done);
 }
-rounds = i2 - i2 + (14 - 38);
-if (19 == (items + items)) {
-  if (weight > (12 % 7)) {
-    rounds = (i2 + 38) % 7;
-    int z = rounds / 5;
-    bool ok3 = 1.8 + 18.9 == 5 / 3;
+for (int flags = 0; flags < 5; flags = flags + 1) {
+  weight = 29.9;
+  if (19 == (i2 + flags)) {
+    int size2 = rounds + 12;
+    print(flags);
+    i2 = flags * items + (items - flags);
   }
-  if (24 + 14 != items) {
-    int num = 37 % 3;
-    print(num);
-    print(items);
-    print("compiler");
-  } else {
-    string owner = "world";
-  }
-  if (6 != i2) {
-    items = (items / 4) % 9;
-    weight = (items * rounds);
-  } else {
-    print(level);
-    bool ok = 33 - 6 > items + 5;
-    int height2 = level;
-    print(weight);
-  }
-} else {
-  print(rounds);
-  int tickets = items;
+  print(items);
 }
-print(items + 1);
+print(i2);
+print(items);

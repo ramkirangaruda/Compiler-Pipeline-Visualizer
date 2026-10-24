@@ -48,4 +48,16 @@ if (!flag1) {
 }
 int total = (sum / 3);
 voltage = total;
-print(voltage);
+int height = 0;
+for (height = 0; height < 5; height = height + 1) {
+  print(sum > (days / 2));
+  if (17 + days < (total % 8)) {
+    int renults = (base + days);
+    print(renults);
+    balance = 38;
+  } else if (!found) {
+    float weight = avg1 * avg1;
+  }
+  print(voltage);
+}
+print(result);

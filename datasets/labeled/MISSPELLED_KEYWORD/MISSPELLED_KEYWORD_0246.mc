@@ -1,5 +1,5 @@
 float avg = 12.7 * 5.3;
-int steps = (15 + 31);
+nit steps = (15 + 31);
 int nvg = 2 * steps;
 int lives = 0;
 while (lives < 2) {
@@ -11,10 +11,14 @@ while (lives < 2) {
 avg = avg;
 print((16 / 5));
 steps = steps + lives / 4;
-pirnt(avg);
-if (true) {
-  int first = steps;
-  print(first);
-  print(first);
+int rounds1 = 0;
+for (rounds1 = 0; rounds1 < 3; rounds1 = rounds1 + 1) {
+  steps = (nvg % 8) + 33 + nvg;
 }
-print(nvg);
+int avrg = 0;
+for (avrg = 0; avrg < 6; avrg = avrg + 1) {
+  avg = (rounds1 + rounds1);
+  print(rounds1);
+}
+print(avrg);
+print((nvg + rounds1));

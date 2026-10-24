@@ -1,51 +1,71 @@
-float area2 = 21.8;
-int age3 = 19 + 31;
-bool ready = true || 0 * age3 > age3;
-string owner = "compiler";
-print(owner != "ok");
-if ((age3 / 5) >= (age3 + age3)) {
-  area2 = 20.4;
-  int stock = 0;
-  while (stock < 3) {
-    int marks = 22;
-    int size = 15;
-    stock = stock + 1;
+bool enabled = (23 - 12) == 6 * 5;
+float temp = 17.8;
+int second = 0;
+while (second < 2) {
+  string word = "alice";
+  word = "ok";
+  temp = 30.6 * 23;
+  float weight = 13.7;
+  second = second + 1;
+}
+int tempx = 0;
+while (tempx < 3) {
+  int lives3 = (second + 38);
+  if ((lives3 / 6) == (second * second)) {
+    int count = (31 + 33);
+    print(count);
+    word = "hello";
   }
-  if (owner == "pipeline") {
-    int sum3 = stock;
-    print(sum3);
-    area2 = (age3 * 28);
-    print(area2);
-    print("alice");
+  lives3 = second;
+  tempx = tempx + 1;
+}
+for (int height = 0; height < 6; height = height + 1) {
+  temp = second / 3;
+  print(tempx - tempx);
+}
+int age = second % 7;
+for (int items2 = 0; items2 < 5; items2 = items2 + 1) {
+  if (6 + 30 > (tempx + items2)) {
+    temp = (8 + age);
+  } else {
+    word = "bob";
+    age = 10 / 1 + age;
   }
-} else {
-  print(area2);
-  area2 = 35 / 5;
-  owner = "yudu";
 }
-int first = 0;
-while (first < 3) {
-  float weight = area2 * area2;
-  print(age3);
-  first = first + 1;
+int score = 0;
+for (score = 0; score < 3; score = score + 1) {
+  word = word;
 }
-int arta2 = 0;
-while (arta2 < 3) {
-  print(area2);
-  print(owner);
-  arta2 = arta2 + 1;
+int wond = 0;
+while (wond < 6) {
+  string msg = "ok";
+  print(msg);
+  wond = wond + 1;
 }
-if (ready) {
-  int z = 1;
-  print(z);
-  if (area2 * area2 < (arta2 + first)) {
-    print(5);
-    bool done3 = weight - age3 >= age3 + age3 || !ready;
+int base1 = 0;
+while (base1 < 6) {
+  if (word != "alice") {
+    int marks = (33 % 8);
+    print(marks);
+    age = (21 + 1) + 24 / 4;
+    print(enabled);
+  } else {
+    int teme = 9 / 4;
+    print(teme);
+    print(enabled);
+    print(enabled);
   }
-  age3 = 1 % 3;
-  print(first);
+  print(second);
+  if ((base1 - 0) <= 24) {
+    word = "pipeline";
+  } else if (!enabled || 40 / 4 != (19 + base1)) {
+    float discount = temp * temp;
+  } else {
+    int enableid = 8;
+    print(enableid);
+    enableid = age;
+  }
+  base1 = base1 + 1;
 }
-age3 = arta2 + (arta2 + 12);
-print((age3 - age3) < 32);
-int rounds2 = age3;
-print(age3);
+print((second + second));
+print("yudu");

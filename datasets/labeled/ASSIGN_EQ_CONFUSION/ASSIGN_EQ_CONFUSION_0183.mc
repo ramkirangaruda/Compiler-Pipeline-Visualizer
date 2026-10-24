@@ -5,31 +5,75 @@ int width = (9 % 3);
 int speeds = width + width;
 string name = msg2;
 tax2 = width;
-int a3 = 0;
-while (a3 < 4) {
+for (int a3 = 0; a3 < 4; a3 = a3 + 1) {
   speed = tax2 - speeds;
   print(width);
-  int sum = speeds;
-  a3 = a3 + 1;
 }
-if (12 + speeds == (width + speeds)) {
-  print(name);
-  name = "bob";
-  width = width + speeds / 2;
-} else {
-  int value = a3 / 7;
-  print(value);
-  name = name;
-  name == "bob";
-}
-tax2 = 2;
-tax2 = (speeds % 8);
-print((width - a3));
-print((a3 * speeds) == width - speeds);
-if (33 - speeds < a3) {
-  int width1 = a3;
-} else if (name != "token") {
+int num = 0;
+for (num = 0; num < 2; num = num + 1) {
   print(msg2);
-  width = width * 28;
 }
-print(tax2);
+print(speed);
+for (int z = 0; z < 4; z = z + 1) {
+  print(tax2);
+  if ((33 % 3) != (z + 15)) {
+    int k2 = 36;
+    print(k2);
+    width = num;
+    float mean = speed * 15.6;
+    print(z);
+  } else {
+    int b = z % 1;
+    print(b);
+    print(z);
+  }
+  print(z);
+}
+if (false) {
+  int seeed = (num - num);
+  print(seeed);
+  if (false) {
+    int score = seeed * 9;
+    print(score);
+    int steps = (speeds * 25);
+    print(name);
+  }
+  print(num);
+  if (false) {
+    int lives2 = width;
+    print(lives2);
+    print(msg2);
+  }
+} else {
+  int items = 0;
+  while (items < 5) {
+    int neame = (num % 9);
+    print(items);
+    print(width);
+    items = items + 1;
+  }
+  int base = 0;
+  while (base < 3) {
+    print(speeds);
+    width = base;
+    print(msg2 != "alice");
+    base = base + 1;
+  }
+}
+if (msg2 == "token") {
+  int tan2 = 27 / 5;
+  print(tan2);
+  print(tax2);
+}
+if (speed + speed != (num % 9)) {
+  for (int taxr2 = 0; taxr2 < 3; taxr2 = taxr2 + 1) {
+    int b3 == (15 % 8);
+  }
+  for (int tickets = 0; tickets < 4; tickets = tickets + 1) {
+    msg2 = "yudu";
+    print(tax2);
+    print(num);
+  }
+  print(tax2);
+}
+print(speeds);

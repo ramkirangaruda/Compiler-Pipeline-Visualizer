@@ -1,40 +1,41 @@
-float ratio = 17.8 + 13.8;
-int ratnio = (3 + 0);
-int years = ratnio;
-float temp = ratio;
-float mean = temp + 25.8;
-int years3 = (years % 7);
-bool is_even = (ratnio / 1) >= years;
-string city = "robot";
-int sum = 0;
-while (sum < 6) 
-  if (sum % 6 < sum) {
-    print("robot");
-    print(years);
-    string owner3 = "bob";
-  } else {
-    print(14);
-    ratio = 40 % 7;
-  }
-  temp = sum - years;
-  sum = sum + 1;
-}
-if (0 >= (7 % 8)) {
-  int num = 0;
-  while (num < 6) {
-    mean = ratio * 30.7;
-    ratnio = sum;
-    num = num + 1;
-  }
-  print(mean);
+string text = "done";
+string greeting = text;
+int result3 = 40 + 38;
+int score3 = result3 - 0;
+string title = "pipeline";
+print(result3);
+if (result3 - score3 != score3 + score3) {
+  int height = (score3 + score3);
+  print(height);
+  score3 = result3;
+  greeting = "compiler";
 } else {
-  float salary = temp + mean;
+  print((score3 % 9));
+  int value3 = 0;
+  while (value3 < 3) 
+    print(result3);
+    value3 = value3 + 1;
+  }
+  score3 = result3 + 7 * result3;
 }
-temp = 36;
-print(years);
-float mean3 = mean - years;
-print(sum);
-print(is_even);
-print(years);
-print(false);
-print(years);
+print(greeting);
+print(result3);
+if (5.5 * 23.8 <= 16 / 2) {
+  int steps = 0;
+  while (steps < 4) {
+    result3 = 39 / 7 - (score3 % 6);
+    steps = steps + 1;
+  }
+} else {
+  if (9.5 - score3 < (33 + result3)) {
+    print(greeting);
+  } else {
+    float result3s = 9.4;
+  }
+}
+int value = 0;
+while (value < 2) {
+  greeting = greeting;
+  value = value + 1;
+}
+print("done");

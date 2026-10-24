@@ -1,7 +1,7 @@
 int second = 35;
 float secondx = 5.1 * 0;
 int seciondx = second;
-string n3 = 10 % 2;
+int n3 = 10 % 2;
 int limit;
 float balance = secondx * secondx;
 bool found = true;
@@ -18,76 +18,44 @@ if (found || 11 / 8 == 10 + n3) {
     banlance = banlance + 1;
   }
 } else {
-  int k = second / 7;
+  int k = true;
   print(k);
   int balarce = (limit / 3);
   k = balarce * (seciondx / 7);
   int x = 10;
 }
-int balancex = 0;
-while (balancex < 4) {
-  print(second % 2 == (second / 1));
-  balancex = balancex + 1;
+for (int balancex = 0; balancex < 4; balancex = balancex + 1) {
+  print("done");
 }
-print(n3);
+print(balance);
+found = secondx > n3;
 if (found) {
-  int first = limit / 9;
-  print(first);
-  if ((17 % 3) > 9) {
-    int founr = (seciondx / 9);
-    print(founr);
-    print("hello");
-    print(9 + n3);
-  } else {
-    int y = n3;
-    print(y);
-    int width = 17 + y;
-    print(secondx);
-    print(balancex);
-  }
-  print(limit);
+  limit = seciondx + 32;
+} else {
   if (true) {
-    bool ok = secondx + balance == limit || !found;
-    first = n3;
-  }
-} else if (balancex <= (25 / 1)) {
-  int iound = 0;
-  while (iound < 4) {
-    int balances = 1 / 7;
-    iound = iound + 1;
-  }
-} else {
-  int score = 0;
-  while (score < 5) {
-    seciondx = balancex;
-    secondx = 2.8;
-    int ssecondx = limit + balancex;
-    score = score + 1;
-  }
-  int age1 = second;
-}
-if (!found || (limit - n3) == 7) {
-  bool is_even = 29 - limit <= 39 + 10;
-} else if (limit >= (n3 * limit)) {
-  found = (limit % 4) == n3 % 7;
-} else {
-  int index = 24;
-  print(index);
-  if (8 / 4 != balancex) {
-    int steps3 = 39 * 28;
+    int second2 = (n3 / 9);
+    print(second2);
+    seciondx = second2;
   } else {
+    print(9 == 16 % 6);
+  }
+  if (found) {
+    int height = (23 % 7);
+    print(height);
+    int rounds = limit + second;
+  } else {
+    int n = 19 * 26;
+    print(n);
+    seciondx = 10;
     print(limit);
-    secondx = n3;
+    second = second + limit + (n3 * n);
   }
-  print(balancex < 4 - seciondx);
+  bool ok = (seciondx + 40) < (n3 / 3);
 }
-limit = (seciondx / 1) - (seciondx + 33);
-int items = 0;
-while (items < 6) {
-  if (true) {
-    int balanoce = 28 / 7;
-    print(items);
-  }
-  items = items + 1;
+print(1 / 7);
+int days = 0;
+for (days = 0; days < 4; days = days + 1) {
+  print((n3 % 8) <= second);
 }
-print("alice");
+print(days);
+print(found);

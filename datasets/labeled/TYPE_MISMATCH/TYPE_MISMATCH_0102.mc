@@ -20,7 +20,7 @@ while (x < 2) {
   x = x + 1;
 }
 if (29 * sum == x % 3) {
-  word = 5;
+  word = "pipeline";
   found = (2 / 9) <= 31 + sum;
 }
 int steps = 0;
@@ -45,7 +45,13 @@ print(b);
 if (found) {
   print(nsui * sum == (b % 5) && 38 == 37 * sum);
 } else {
-  print(ready);
-  print(nsui);
+  int age = 0;
+  for (age = "text"; age < 6; age = age + 1) {
+    print(steps);
+    print(steps);
+    print(x);
+  }
+  print(age);
+  print(name2 + "done");
 }
-print(word);
+print(b);

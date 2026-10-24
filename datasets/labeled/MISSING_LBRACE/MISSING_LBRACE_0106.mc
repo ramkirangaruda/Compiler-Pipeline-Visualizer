@@ -1,29 +1,30 @@
-float speed = 5.8 - 16.3;
-float weight = speed;
-bool flag = true;
-int sflag = (5 / 4);
-bool enabled = flag;
-int first = 23;
-string course = "pipeline";
-weight = (21 + 17);
-print(first);
-if (first - sflag > first) 
-  print(course);
-  weight = 10 % 2;
-} else {
-  int lives3 = 0;
-  while (lives3 < 6) {
-    weight = sflag;
-    print("yudu");
-    print(sflag);
-    lives3 = lives3 + 1;
+int index1 = (2 + 32);
+int second = 35;
+int total2 = 22 + 12;
+string name2 = "token";
+print("robot");
+if (true) {
+  if (true) {
+    int tickets = 2 + second;
+    print(tickets);
+    second = tickets;
   }
-  if (first > lives3 / 6) {
-    print((32 - sflag) <= (first - 5));
+  float temp = 4.4;
+  int y = 0;
+  for (y = 0; y < 2; y = y + 1) {
+    print(second);
+    name2 = name2;
+    print("alice");
   }
 }
-weight = speed;
-int stock2 = (first + sflag);
-first = 27;
-print(stock2);
-print(flag);
+print(index1);
+for (int height = 0; height < 5; height = height + 1) 
+  int size = (total2 + index1);
+  index1 = 20;
+}
+if (1 * 1 >= (index1 * second)) {
+  print((second - 19));
+} else {
+  print(total2);
+}
+print(name2 + "alice");

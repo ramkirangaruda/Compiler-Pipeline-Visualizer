@@ -1,92 +1,71 @@
-int steps = 37;
-float price2 = 11.1 * 7.8;
-int n = (14 + steps);
-string course = "world";
-if (n * 38 < (21 - n) && n > 6) {
-  float steaps = price2 - steps;
-  int score = 38 + steps;
-  print(score);
-  course = "alice";
-} else if (price2 + steps < (steps + 11)) {
-  int steapss = (16 * steps);
-  print(steapss);
-  n = (2 + n) / 1;
-  if ((23 + steps) < (steapss + n)) {
-    print((23 + 34));
-  } else if ((steps % 2) > (8 + 15)) {
-    int stock = 11;
+bool active1 = 0 > 32 / 9;
+int num1 = (29 % 1);
+int sum = 0;
+while (sum < 6) {
+  string text = "ok";
+  if (!active1 || num1 + num1 != 8 % 4) {
+    int rounds = (sum / 6);
+    print(rounds);
+    print(sum);
+    active1 = sum == 0 % 5;
+    text = "pipeline";
+  } else if (33 - 37 != 14 / 2) {
+    print(6);
+    num1 = (17 + num1) % 3;
   }
-} else if (course != "bob" || false) {
-  print(n);
-  int caurse = n;
+  sum = sum + 1;
+}
+if (text == "world") {
+  if ((sum % 6) >= (10 * 28)) {
+    int num = 9 * 12;
+  } else if (true) {
+    int b = 38;
+    print(b);
+    print(active1);
+  } else {
+    int height = num1;
+    print(height);
+    active1 = active1;
+    print((sum + sum));
+    active1 = 10.7 >= 23 % 4;
+  }
 } else {
+  print(active1);
+}
+num1 = 13 - 0 / 8;
+float distance = 6.2 + 6.8;
+for (int level = 0; level < 2; level = level + 1) {
   if (true) {
-    steps = (n + 13) * steps / 5;
+    int i1 = (sum % 5);
+    print(i1);
+    print(i1);
+    int result = 28 - level;
   } else {
-    int x = (steps * n);
-    print(x);
-    string label = "world";
+    int rounds3 = (0 - 23);
+    print(rounds3);
+    print(active1);
   }
-  int j3 = 0;
-  while (j3 < 3) {
-    course = "hello";
-    print(price2);
-    print(steaps);
-    j3 = j3 + 1;
-  }
-}
-if (steps - 13 == (n / 4)) {
-  course = course;
-  n = 33 * steps / 7;
-  int num = 0;
-  while (num < 3) {
-    print(n);
-    num = num + 1;
-  }
-}
-if (27 / 4 > (11 + n)) {
-  int k = (steps + steps);
-  int rounds = 0;
-  while (rounds < 6) {
-    print(5 * n);
-    steaps = 12.5 - steps;
-    print(course);
-    rounds = rounds + 1;
-  }
-} else if (steaps + 1.6 >= 38 % 3) {
-  print(course);
-} else if ((n - n) == (31 + n)) {
-  int y = (n % 9);
-  print(y);
-  print(n);
-  print(y);
-} else {
-  print(price2);
-  if (false) {
-    steps = (steps - 39) + n % 8;
-    print("robot");
-    print(course);
+  if (distance - distance == 17 + sum) {
+    int distancoe = (27 / 9);
+    text = text + "parse";
+    print(distance);
+  } else if ((31 % 5) <= num1) {
+    int stock = (sum + num1);
+    print(stock);
+    int total = sum;
+    float balance3 = distance + 29.2;
   } else {
-    int n3 = (n + steps);
-    print(n3);
-    steps = (n3 + n) + steps - n3;
+    int j1 = 2;
+    print(j1);
+    j1 = 22 / 3;
   }
 }
-print(course + "compiler");
-steaps = steps - 18;
-steaps = steps * 19;
-if ((steps / 5) == 24) {
-  float ratio = steaps * 39;
-  print(steaps);
-} else if (steps * 35 != steps % 5) {
-  int marks1 = steps;
-  print(marks1);
-  int score3 = 0;
-  while (score3 < 3) {
-    print((marks1 + 17) > 5 && price2 + 21.9 != steps + 6);
-    print(n);
-    print(course);
-    score3 = score3 + 1;
-  }
+int texe = 0;
+while (texe < 3) {
+  distance = 22 % 3;
+  print(text + "yudu");
+  print(12 + 16 == 15 / 2);
+  texe = texe + 1;
 }
-print(steps * n >= n);
+float texnt = distance + 2.8;
+print((sum - 2));

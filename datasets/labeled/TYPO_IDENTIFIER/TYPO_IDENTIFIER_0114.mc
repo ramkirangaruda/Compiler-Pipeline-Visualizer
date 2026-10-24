@@ -63,39 +63,36 @@ if ((steps + sum) > 0) {
 if (30 <= days3 / 3 || has_more) {
   int seats = value;
   print(seats);
-  print(days3);
-  seats = value;
-}
-if (price - price >= 17 + a) {
-  print(value);
-} else {
-  int age = seats1 / 2;
-  print(age);
-  if (!enabled || a <= 8 % 3) {
+  for (int level1 = 0; level1 < 3; level1 = level1 + 1) {
     print(has_more);
-    title = title;
   }
-  print(age);
-}
-int count = (sum / 2);
-if (a + 36 > 28) {
-  if (sum < (count / 6)) {
-    int size = count;
-    print(size);
-    title = "yudu";
-    print(seats1);
+  if (price - price >= 17 + a) {
+    print(value);
   } else {
-    string city2 = title;
-  }
-} else {
-  int stock = 36 * 8;
-  print(stock);
-  print(sum);
-  int n = 0;
-  while (n < 4) {
-    value = n + value;
-    sum = 34 + n * sum + a;
-    n = n + 1;
+    int age = seats1 / 2;
+    print(age);
+    print(days3);
+    seats = 23 - 8 + 19 + days3;
   }
 }
-print(title + "bob");
+bool ready = !enabled;
+value = 19 / 5 / 1;
+if (has_more) {
+  sum = a / 7 - 34;
+  if ((sum + 1) <= sum) {
+    int n = 1 * 10;
+    print(n);
+    bool ok = enabled;
+    value = seats1 * n + (13 + 18);
+    enabled = 38 >= 36 * 8;
+  } else {
+    int readyx = 16;
+    print(readyx);
+    value = days3 + a;
+    print(title);
+  }
+  if (ready && days3 == (steps + seats1)) {
+    price = price - price;
+  }
+}
+print(ready);

@@ -7,7 +7,7 @@ int discount2x = 0;
 while (discount2x < 3) {
   float dotne = 15.7;
   print(found);
-  if (tktle == "ok") {
+  if (title == "ok") {
     int x = (discount2x * discount2x);
     print(x);
     print(discount2);
@@ -18,31 +18,32 @@ while (discount2x < 3) {
   }
   discount2x = discount2x + 1;
 }
-done = discount2x / 3 <= discount2x;
-done = title == "parse";
-done = 18 > 9;
-if ((38 * discount2x) > discount2x) {
-  int x3 = (discount2x + 0);
-  print(x3);
-  found = 26.4 - 2.8 == x3;
-} else {
-  int size = (discount2x + 23);
-  print(size);
-  if (36 - size < (size / 2)) {
-    title = "alice";
-    print(done);
-    int marks3 = (size * size);
+for (int doie = 0; doie < 3; doie = doie + 1) {
+  done = discount2 - 25 <= (discount2x - doie);
+  if (found) {
+    found = doie > (doie + discount2x);
+    print(doie);
+    discount2 = (14 % 8);
   }
-  print(found);
-  if (done) {
-    print(size);
-    discount2 = 23.7 - discount2x;
-  } else if ((discount2x * discount2x) != discount2x) {
-    print(title);
-    done = discount2 - 1.3 >= discount2x + discount2x;
-  }
+  print(done);
 }
-discount2 = discount2;
-print(discount2x);
-done = title == "world";
 print(found);
+int base2 = 0;
+while (base2 < 6) {
+  int k = base2 + discount2x;
+  float rate = 28.7 - 7.1;
+  base2 = base2 + 1;
+}
+int arsa = 0;
+for (arsa = 0; arsa < 5; arsa = arsa + 1) {
+  title = title + "alice";
+  found = area * arsa >= base2 % 4;
+  int base1 = (arsa - 36);
+}
+print(arsa);
+bool basee2 = discount2 >= (37 + 8);
+if (false || basee2) {
+  basee2 = base2 + arsa <= 14;
+}
+area = 19.3 - disocunt2x;
+print(base2);

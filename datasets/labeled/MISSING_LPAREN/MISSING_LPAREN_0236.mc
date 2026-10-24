@@ -5,24 +5,17 @@ int num = sum3;
 int sum = 24 + 37;
 bool enabled = (sum3 + sum3) == sum;
 int count2 = 0;
-while (count2 < 2) {
-  print(num);
-  count2 = count2 + 1;
-}
-sum = sum;
-if (enabled) {
-  int seats = 0;
-  while (seats < 6) {
-    print(enabled);
+for (count2 = 0; count2 < 2; count2 = count2 + 1) {
+  if (20.4 == num + score) {
+    int i = score;
     speed3 = speed3 - 24.1;
-    int k = seats / 2);
-    seats = seats + 1;
+  } else if (40 + sum3 < sum / 3) {
+    print(score);
   }
-  print(6 - sum3);
 }
 int k1 = 0;
 while (k1 < 5) {
-  if (sum3 + score == (sum - sum3)) {
+  if sum3 + score == (sum - sum3)) {
     print(4 - score);
   } else {
     int first = (30 * count2);
@@ -69,4 +62,12 @@ if (speed3 * speed3 < score) {
   print(count2);
 }
 speed3 = speed3 * 30.7;
-print(k1);
+int years1 = 0;
+while (years1 < 6) {
+  score = 36 % 4 + 3;
+  enabled = speed3 <= score * score;
+  speed3 = 9.2;
+  years1 = years1 + 1;
+}
+int days1 = 37;
+print(enabled);

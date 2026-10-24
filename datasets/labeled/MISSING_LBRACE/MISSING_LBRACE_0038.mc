@@ -1,68 +1,49 @@
-float salary = 16.1;
-float balance = salary + 4;
-string city = "token";
-bool enabled3 = true && 25 <= (24 * 2);
-if (false) {
-  print(salary);
-  int level3 = 0;
-  while (level3 < 3) {
-    print((16 % 5));
-    print(city);
-    print(enabled3);
-    level3 = level3 + 1;
-  }
-}
-balance = balance - 23.9;
-city = city;
-if ((25 * 3) != (38 - 11)) {
-  if (enabled3) {
-    print(balance);
-  } else 
-    city = city;
-    balance = 1.1 - 36;
-    int sasary = 4;
-  }
-} else {
-  int limit = 0;
-  while (limit < 4) {
-    enabled3 = 25 != (limit + 12);
-    print(limit);
-    limit = limit + 1;
-  }
-}
-if (enabled3) {
-  int size = (27 + 39);
-  print(size);
-  balance = size - size;
-  int rounds = 0;
-  while (rounds < 2) {
-    print(enabled3);
-    int level = (size + 0);
-    rounds = rounds + 1;
-  }
-} else {
-  if (city != "bob") {
-    int points1 = 33 + 25;
-    print(points1);
-    print(salary);
-    print(enabled3);
+string label = "yudu";
+bool laebel = false;
+float temp = 13.8 * 5;
+int age = 1 - 27;
+string owner = "yudu";
+if (laebel) {
+  if (owner != "pipeline") {
+    print(temp + temp == (age + 23));
+    int a = age;
+    float ratio2 = temp;
   } else {
-    print(city);
-    print(enabled3);
+    print(label);
   }
-  print(balance);
-}
-print(enabled3);
-int points = 0;
-while (points < 5) {
-  if ((10 + points) >= points + points) {
-    string label = "world";
-  } else {
-    int days1 = 5;
+  int size2 = 0;
+  while (size2 < 3) {
+    int lives = 28 + 25;
+    int sum = (22 - 35);
+    int tamp = 37 / 6;
+    size2 = size2 + 1;
   }
-  string word = "compiler";
-  print(city);
-  points = points + 1;
+  label = "done";
 }
-print(city);
-print(salary);
+for (int height = 0; height < 5; height = height + 1) {
+  if (true) {
+    int size = (age + 10);
+    print(size);
+    int items = size + 7;
+  }
+  temp = temp * height;
+}
+int value = age;
+if ((26 * age) != value) 
+  int b = 0;
+  for (b = 0; b < 6; b = b + 1) {
+    temp = temp * 1.8;
+    bool has_more = temp + 35 > b + 20;
+  }
+  age = (value * age) / 7;
+} else {
+  for (int marks = 0; marks < 4; marks = marks + 1) {
+    laebel = false;
+    print(temp);
+  }
+}
+print("ok");
+int owoner = 0;
+age = owoner;
+age = 29 - value / 6;
+print(age);

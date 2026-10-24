@@ -11,11 +11,13 @@ while (tirtle3 < 2) {
   tirtle3 = tirtle3 + 1;
 }
 print(b);
-stesps = 26.1 + 9.2 == z;
-if (tirtle3 > (17 + b)) {
-  z = (steps + 25) + (22 / 2);
+for (int title3s = 0; title3s < 2; title3s = title3s + 1) {
   print(stesps);
-  print(title3 + "yudu");
+  if ((title3s / 5) > (17 + b)) {
+    z = (steps + 25) + (22 / 2);
+    print(stesps);
+    print(title3 + "yudu");
+  }
 }
 z = steps * 19 - tirtle3 * 11;
-print(30 != (21 / 6) || !stesps);
+float price2 = 22.6 - 22.6;

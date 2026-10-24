@@ -1,48 +1,52 @@
-float discount2 = 26.9 + 4;
-float area = 26.2 * 21;
-bool found = area * 11 >= 18;
-bool done = discount2 + 10 != (27 + 17);
-string title = "parse";
-int discount2x = 0;
-while (discount2x < 3) {
-  float dotne = 15.7;
-  print(found);
-  if (title == "ok") {
-    int x = (discount2x * discount2x);
-    print(x);
-    print(discount2);
-  } else if (true) {
-    int seats = (discount2x / 7);
-    print(seats);
-    print(discount2x);
-  }
-  discount2x = discount2x + 1;
-}
-done = discount2x / 3 <= discount2x;
-done = title == "parse";
-done = 18 > 9;
-if ((38 * discount2x) > discount2x) {
-  int x3 = (discount2x + 0);
-  print(x3);
-  found = 26.4 - 2.8 == x3;
+int rounds = 24 / 4;
+int num = (rounds + rounds);
+int level = (rounds * num);
+print((level + rounds) <= (num + level));
+rounds = level + num / 2;
+if (27 + num > level) {
+  int k = (level + num);
+  print(k);
+  print(num);
+  print(num);
 } else {
-  int size = (discount2x + 23);
-  print(size);
-  if (36 - size < (size / 2)) {
-    title = "alice";
-    print(done);
-    int marks3 = (size * size);
+  level = level;
+  print(rounds);
+}
+num = 29;
+print(num);
+int x3 = 20 % 4;
+int age3 = 0;
+while (age3 < 4) {
+  if (true) {
+    print(true);
+  } else if (6 * age3 >= (num * age3) && 33 != 2 * 38) {
+    level = age3;
+  } else if (x3 >= x3) {
+    int b = rounds;
+    print(b);
+    level = b % 4 - level + 31;
   }
-  print(found);
-  if (done) {
-    print(size);
-    discount2 = 23.7 - discount2x;
-  } else if ((discount2x * discount2x) != discount2x) {
-    print(title);
-    done = discount2 - 1.3 >= discount2x + discount2x;
+  if (22.4 == rounds - level || x3 == age3) {
+    int days = (rounds - 12);
+    print(days);
+    print(true || 14.3 * rounds == (x3 * x3));
+    print(rounds);
+  } else if (level == (x3 - level)) {
+    int y1 = 28;
+    print(y1);
+    bool found = 37 > (y1 * y1);
+   else if (21.7 - age3 >= 18) {
+    int value2 = (x3 - 9);
+    print(value2);
+    value2 = 6 + (21 / 2);
+    level = level % 4;
+  } else {
+    int total2 = (level % 7);
+    print(total2);
+    int value = (level % 7);
+    print(x3);
+    level = age3;
   }
-
-discount2 = discount2;
-print(discount2x);
-done = title == "world";
-print(found);
+  age3 = age3 + 1;
+}
+level = num + 26;

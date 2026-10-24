@@ -1,66 +1,33 @@
-float area = 25.4 + 8;
-int years = 3;
-string msg = "robot";
-int index = years + years;
-int level = index % 1;
-msg = "pipeline";
-if (area + area >= (29 - level)) {
-  msg = msg;
-} else if (level != 10 + years) {
-  print(level);
-} else {
-  int mssg = (30 - years);
-  print(mssg);
-  int msgx = 0;
-  while (msgx < 3) {
-    print(years);
-    mssg = index - index % 6;
-    print(level * msgx);
-    msgx = msgx + 1;
-  }
+float area = 28.5 - 11.2;
+int rounds = (31 / 2);
+string name = "hello";
+float temp = area + 16;
+string owner = "parse";
+string name3 = owner + "yudu";
+print(owner);
+int tickets3 = (rounds + rounds);
+int items = (16 + tickets3);
+int b = 0;
+while (b < 5) {
+  owner = name;
+  name = owner + "token";
+  b = b + 1;
 }
-index = index;
-print("robot");
-if ((level * index) == years) {
-  if (years == index / 3) {
-    int steps1 = (23 + level);
-    index = (years - 9) - 11 * years;
-  } else if (27 - 1 <= index || area < 1) 
-    print(years);
-  } else {
-    int age = level / 9;
-    level = years * 40 * years;
+float ratio = temp;
+rounds = 15 + (rounds - tickets3);
+if (area <= (b / 1)) {
+  print(tickets3);
+  int items2 = 0;
+  while (items2 < 6) {
+    print(items2);
+    print(33 - b == 2 % 4);
+    items2 = items2 + 1;
   }
-} else if (9 >= level) {
-  if (1 + 30 != 12) {
-    level = index / 5 - index * 13;
-    years = (index + 9) / 4;
-  } else {
-    print(level);
-    area = index % 2;
-    print(msg);
-  }
-  int asg = 0;
-  while (asg < 2) {
-    print(msg);
-    asg = asg + 1;
-  }
-} else {
-  if (false) {
-    print(msg);
-  } else {
-    int score = (39 + years);
-    print(score);
-    print(area);
-    msg = msg;
-    msg = "robot";
-  }
+  int a = items * 23;
 }
-int value = 0;
-while (value < 6) {
-  msg = "world";
-  value = value + 1;
+print(false);
+print((24 * tickets3));
+for (int areas = 0; areas < 3; areas = areas + 1) 
+  print(rounds);
 }
-print(level);
-print(index);
-print(index);
+print(true && name3 != "pipeline");

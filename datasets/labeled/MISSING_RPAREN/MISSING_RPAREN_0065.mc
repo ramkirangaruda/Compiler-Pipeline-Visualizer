@@ -4,66 +4,52 @@ int index = seeed;
 string speaed = "world";
 bool has_more = false;
 string title = "world";
-speed = 12.1 * speed;
-print(seeed);
-int titlr = 0;
-while (titlr < 3) {
-  print(has_more);
-  print("world";
-  print(speaed);
-  titlr = titlr + 1;
-}
-if (false) {
+for (int sopeed = 0; sopeed < 6; sopeed = sopeed + 1) {
+  print(speaed;
   print(title);
-  int days = 0;
-  while (days < 6) {
-    speaed = "parse";
-    days = days + 1;
-  }
+  print(speed);
+}
+if (speed - speed <= 24 + 32) {
+  int base2 = (index * 33);
+  print(base2);
+  float rate1 = speed - 20.5;
 } else {
-  speed = speed;
+  int result = (index + index);
+  print(result);
+  if (true) {
+    print(result);
+  } else {
+    int height2 = 10 * index;
+    print(height2);
+    has_more = !has_more;
+    speed = speed * speed;
+    seeed = 39 + 8 * (30 % 5);
+  }
+}
+if ((31 + index) > index) {
+  int size2 = seeed + 7;
+  print(size2);
+  if (31 <= 8 * seeed) {
+    int second = index / 1;
+  } else {
+    size2 = size2;
+    string course1 = title + "pipeline";
+  }
+  int i = seeed + seeed;
+}
+print(speaed);
+if (false) {
+  int tritle = 32;
+  print(tritle);
+  int marks1 = 0;
+  while (marks1 < 2) {
+    print(speaed);
+    index = index;
+    print(has_more);
+    marks1 = marks1 + 1;
+  }
+  speaed = title;
 }
 print(index);
-print(speaed);
-if (has_more) {
-  int age = (titlr % 4);
-  print(age);
-  if (!has_more) {
-    int steed = seeed;
-    bool enabled2 = !has_more;
-    seeed = 39 + 8 * (30 % 5);
-  } else if ((31 + age) > age) {
-    int size2 = index + 7;
-    print(size2);
-    int first = 8 * index;
-    print(speaed);
-  } else if (1.1 * 25.1 >= titlr / 2) {
-    int speedx = (40 % 4);
-  } else {
-    int has_morex = (30 % 1);
-    print(has_morex);
-    float voltage2 = speed;
-  }
-} else {
-  print(index);
-  if (21.4 - speed < index % 3) {
-    int trtle = 4 / 9;
-    print(trtle);
-    has_more = speed - 17 >= (seeed + index);
-    print(29 / 6);
-    print(speed >= 25);
-  } else if (!has_more && has_more) {
-    index = titlr / 8 / 5;
-    speaed = title;
-  } else {
-    float weight = speed * index;
-    print(speed);
-    int value = index - 13;
-  }
-  int size = 0;
-  while (size < 4) {
-    print(has_more || speed > titlr * index);
-    size = size + 1;
-  }
-}
-print(title);
+has_more = speed - 17 >= (seeed + seeed);
+print(seeed);

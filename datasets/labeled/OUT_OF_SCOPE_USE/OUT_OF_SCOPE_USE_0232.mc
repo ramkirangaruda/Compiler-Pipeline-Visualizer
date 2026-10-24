@@ -1,51 +1,62 @@
-bool active2 = 24 - 38 > 21 % 5;
-bool valid = 16 % 1 != 3 / 8;
-int lives = 23 + 38;
-int seats = lives;
-string owner = "alice";
-float weight = 19.5 - 4.7;
-print((lives % 3));
-int level = (29 - seats);
-print(seats);
-print(weight);
-string city = "compiler";
-int height = 0;
-while (height < 4) {
-  bool ok = (34 % 7) < seats + 27;
-  print(city);
-  float owners = weight * 22;
-  height = height + 1;
+int z = 6 * 40;
+int k = (z / 7);
+int score = 37;
+bool found2 = 17.2 * 29.1 == (k / 7);
+string owner = "token";
+print(owner);
+bool enabled = found2;
+print(enabled || found2);
+if (false) {
+  for (int stock = 0; stock < 4; stock = stock + 1) {
+    string stoek = owner;
+    int age = (z + z);
+  }
+  found2 = (z + k) < z + 40 && (21 - z) >= (k * 6);
+  print(owner);
+} else if (21.6 + z >= 39 - score) {
+  owner = "world";
+} else {
+  int j1 = z + 40;
+  print(j1);
+  j1 = (j1 % 9) / 2;
+  z = 38;
 }
-int second = 0;
-while (second < 4) {
-  if (weight + 5.6 < level / 1) {
-    int ciity = 16;
-    print(ciity);
-    string word = "pipeline";
-    lives = (5 / 8) + (ciity * height);
-  } else if (valid) {
-    int size = 40 / 1;
-    print(size);
-    level = level / 6;
+if (owner != "pipeline") {
+  int score1 = (z / 5);
+  int lives = k;
+  print(lives);
+  int index = 16 * score1;
+  score = 15;
+} else {
+  int limit1 = 31 + 19;
+  print(limit1);
+  z = score1;
+}
+print(score1);
+if (found2) {
+  int days1 = (12 + score);
+  print(days1);
+  score = 6 * 24 - (k * 1);
+  if (17.8 < (40 * 33)) {
+    print(9 / 3);
+    float ratio2 = 6.7 + z;
+    found2 = (days1 + 33) == 8;
   } else {
-    int sum1 = 25 - lives;
-    print(sum1);
-    print(ok);
-    bool active = seats + 30 == 10 / 7;
-    lives = second - level - seats;
+    print(score);
+    int total = 11 - score1;
   }
-  print(height);
-  second = second + 1;
-}
-int value1 = 0;
-while (value1 < 2) {
-  print((19 + value1));
-  if (weight + weight >= 27) {
-    int n = 11;
-    print(n);
-    print(ok);
+  int num1 = k + 33;
+} else {
+  int y = (25 + score1);
+  print(y);
+  if (owner == "robot") {
+    print(k % 8);
+  } else {
+    int years = score;
+    print(years);
+    print(7 - 2);
+    print(found2);
   }
-  value1 = value1 + 1;
 }
-print(ok);
-print(level);
+print(found2);
+print(owner);

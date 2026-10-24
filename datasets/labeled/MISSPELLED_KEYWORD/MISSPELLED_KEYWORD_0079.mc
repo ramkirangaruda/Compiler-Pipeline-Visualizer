@@ -39,19 +39,31 @@ if (active) {
     second = second + 1;
   }
 }
-int years = 0;
-while (years < 4) {
-  string name3 = "alice";
-  print(name);
-  if (false) {
-    strin word2 = "robot";
-    string label = "robot";
+for (int years = 0; years < 4; years = years + 1) {
+  bool flag3 = count - count <= (count + 15);
+  namex = namex;
+}
+count = (index * 0) * 13;
+if (true) {
+  int b = count % 1;
+  rint(b);
+  print(namex);
+} else if (0.7 - count == 8) {
+  int i = 7;
+  print(i);
+  if (count == (index % 2)) {
+    int y = 23 + i;
+    print(y);
+    count = (y / 9) % 5;
+  } else {
+    print(count);
+    print("ok");
   }
-  years = years + 1;
+  i = count;
+} else {
+  count = (count / 8) % 4;
+  name = name + "bob";
+  active = !active;
 }
-int a = (count + index);
-if (active) {
-  print(name);
-}
+active = 2 == (31 - index);
 print(name);
-print(namex);

@@ -1,8 +1,8 @@
 bool flag3 = 5.8 * 19 > 19 % 2;
 int marks = 19 + 4;
-int flage3 = ("text");
+int flage3 = (marks % 8);
 int index = 40;
-float ratio = 21.5;
+string ratio = 21.5;
 string msg = "bob";
 if (false) {
   print(marks);
@@ -44,9 +44,9 @@ if (flag3) {
   index = index / 4 / 6;
 }
 int level = 0;
-while (level < 2) {
-  print(a);
-  level = level + 1;
+for (level = 0; level < 2; level = level + 1) {
+  index = level + level + 23 + 7;
 }
-print(marks);
 print(level);
+print(ratio);
+print(!flag3 || (a + 37) >= 17 / 4);

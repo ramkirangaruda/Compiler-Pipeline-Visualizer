@@ -6,72 +6,50 @@ string course3 = "ok";
 if (total2 % 9 < (total2 + 40)) {
   int width = total2 / 6;
   print(width);
-  print("done");
-  print(total2);
-} else {
-  if ((total2 - total2) != lives * 7) {
-    int rounds = (17 % 2);
-    print(rounds);
-    print(total2);
-    found = found;
-  } else {
-    int tickets2 = (lives / 2);
-    print(tickets2);
-    bool ok = (tickets2 * 36) <= tickets2 || enabled;
+  for (int index = 0; index < 4; index = index + 1) {
     print(enabled);
-    tickets2 = (tickets2 % 1) - lives;
+    print(width);
   }
-  int k = 0;
-  while (k < 5) {
-    float temp = 27.8;
-    temp = lives - 38;
-    k = k + 1;
+  if (lives >= (7 / 9)) {
+    found = course3 == "bob" || found;
   }
 }
-int b3 = 0;
-while (b3 < 2) {
-  print(found);
-  total2 = (total2 + total2) / 7;
-  print(course3);
-  b3 = b3 + 1;
+if (found) {
+  if (11.2 != 29 + lives || 40 * lives >= lives / 6) {
+    print(found);
+  }
+  int z = 0;
+  while (z < 6) {
+    found = found;
+    found = found;
+    z = z + 1;
+  }
+  bool valid = 12.6 != (total2 + lives);
 }
-int corrse3 = 0;
-while (corrse3 < 3) {
-  if (found) {
-    int base3 = 4;
-    print(base3);
+print(total2);
+int n = 13 % 6;
+if (24 * 17 < (n + total2)) {
+  int years3 = lives * lives;
+  print(years3);
+  for (int stock = 0; stock < 4; stock = stock + 1) {
+    print(lives);
     print(lives - lives);
-    print(course3 + "world");
-    string title = "hello";
-  } else if (b3 >= total2) {
-    int z = 29 - b3;
-    print(z);
-    int value = 4 * 40;
-    print(36 == (lives * value));
-  } else if (true) {
-    int size = b3;
-    print(size);
-    string greeting = "robot";
   }
-  corrse3 = corrse3 + 1;
+  print(course3 + "world");
 }
-total2 = total2;
-if (b3 / 8 == (24 + 28)) {
-  int enableds = corrse3;
-  print(enableds);
-  total2 = lives;
-} else {
-  int second1 = b3;
-  print(second1);
-  int stock = 35 % 8;
-}
-lives = b3 / 2 / 8;
-if (4.7 + corrse3 == (8 % 6)) {
-  found = !found;
-  while (days < 4) {
-    bool valid = true;
-    days = days + 1;
+print((31 + lives));
+for (int level = 0; level < 2; level = level + 1) {
+  if (found) {
+    print(csurse3);
+    print(n);
+    print(total2);
   }
-  course3 = course3 + "robot";
+  if (36 == n * lives) {
+    int i = (8 / 6);
+    print(i);
+    lives = total2 - 12 + 20;
+    lives = 28;
+  }
+  bool enabled3 = !found;
 }
 print(lives);

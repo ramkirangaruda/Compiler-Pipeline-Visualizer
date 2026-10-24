@@ -11,34 +11,31 @@ float price = 28.1 - 16.3;
 if (true) {
   rounds = ratiio3 % 9 + (score * score);
 }
-int items = 0;
-while (items < 5) {
-  print(course);
-  items = items + 1;
-}
-print(items);
-print(is_even);
-price = ratio3 + score;
-if (!is_even || true) {
-  if (5 > items) {
-    int stock = (29 * 34);
-    print(stock);
-    stock = 10 % 3 + ratiio3;
-    print(rate);
-  }
-  int tickets = 0;
-  while (tickets < 4) {
-    print("ok");
-    print(4);
-    tickets = tickets + 1;
-  }
-  if (items < 11 + 6) {
-    int i = rounds * tickets;
-    print(i);
-    is_even = (i / 4) == score + 26;
+for (int items = 0; items < 5; items = items + 1) {
+  if (score % 8 == ratiio3 + 21) {
+    int is_evin = ratiio3 + ratiio3;
+    print(is_evin);
+    rounds = ratiio3;
   } else {
-    print((21 / 1));
+    price = (items % 7);
   }
+  is_even = has_more1;
+  ratiio3 = rounds - 0 % 3;
 }
-print(rounds);
+ratio3 = rounds % 9;
+int y = 0;
+for (y = 0; y < 2; y = y + 1) {
+  int sum1 = 10;
+}
+print(y);
+if (11 + 6 > (score * ratiio3)) {
+  if (has_more1) {
+    int x = (26 - ratiio3);
+    print(score);
+  }
+  score = ratiio3;
+  print(ratio3);
+}
+rate = price * ratio3;
+print(false);
 print(is_even);

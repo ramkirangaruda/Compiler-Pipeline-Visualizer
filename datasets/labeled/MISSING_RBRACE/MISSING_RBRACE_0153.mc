@@ -1,55 +1,46 @@
-int a = (18 + 35);
-int num1 = 13 + 5;
-int years2 = (num1 + num1);
-string text = "parse";
-bool flag2 = 30.4 - a > years2 + 9;
-string label = "done";
-int marks = 0;
-while (marks < 4) {
-  int num2 = a;
-  if (20 == (a / 8)) {
-    int items = (years2 % 5);
-    print(items);
-    print((20 + 38));
-  } else if (8.8 <= a % 7) {
-    int value = num1;
-    print(value);
-    float salary2 = 12.9 * years2;
-    int laobel = (a * 1);
-  }
-  marks = marks + 1;
+string greeting = "token";
+int z = 26;
+bool active1 = false;
+string label = "pipeline";
+print(33 % 2 == 35 + 40);
+print(greeting);
+for (int j2 = 0; j2 < 5; j2 = j2 + 1) {
+  print(greeting);
+  greeting = "hello";
+  bool passed = active1;
 }
-int num = 25;
-print("world");
-a = num * (a - years2);
-print(num);
-if (!flag2) {
-  int width = 9 + 20;
-  print(width);
-  num1 = num + (14 / 1);
-  if ((37 % 8) < years2) {
-    int tickets1 = 39;
-    print(tickets1);
-    text = text;
+if (30 + z > z / 6) {
+  int total = z;
+  print(total);
+  label = "pipeline";
+  for (int years = 0; years < 4; years = years + 1) {
+    total = (total / 8) * (10 - 8);
+  }
+  if (active1) {
+    label = "token";
   } else {
-    int x2 = num1 % 6;
+    int x2 = (z + z);
     print(x2);
-    flag2 = x2 - a == (27 % 1);
-    string owner = "pipeline";
-    width = 36 * (19 + 28);
+    print((total + 14) < (12 * x2));
+    label = "hello";
+    label = "compiler";
   }
-  years2 = years2;
-
-if (true) {
-  label = "robot";
-  float balance = 16.3 * 21;
-  print(num1);
 } else {
-  int level = 0;
-  while (level < 2) {
-    float distance = 14.3 - 7.2;
-    level = level + 1;
+  if (greeting == "yudu") {
+    greeting = label + "robot";
+    active1 = true;
+    float balance = 23.7 + z;
+  } else {
+    print(label);
+    print("ok");
+    label = "robot";
   }
+  int sum2 = 0;
+  while (sum2 < 3) {
+    int second = (27 / 6);
+    sum2 = sum2 + 1;
+  
+  print(sum2);
 }
-text = "pipeline";
-print(years2);
+int result = 22 + z;
+print((35 % 2));

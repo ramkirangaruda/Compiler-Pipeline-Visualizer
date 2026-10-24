@@ -19,8 +19,11 @@ while (value < 2) {
 }
 print(course2);
 int items = 0;
-while (items < 4) {
-  float distance2 = 4.6;
-  items = items + 1;
+for (items = 0; items < 4; items = items + 1) {
+  print(course2);
+  print(ialary);
+  if (ialary < (value * days)) {
+    name = name;
+  }
 }
-print(course2);
+print(items);

@@ -1,58 +1,52 @@
-int rounds3 = 35;
-float balance = 21.8 + rounds3;
-int tickets;
-string title = "parse";
-if (title != "done") {
-  int years = rounds3 - tickets;
-  print(years);
-  print(title);
-  print((years + rounds3) == 14 + 3);
-  if (true) {
-    int marks = tickets - 5;
-    print(marks);
-    print(balance);
-    print(tickets);
+string owner = "alice";
+int steps = 20 % 1;
+float rate2 = 12.1 - 28;
+bool passed3 = (1 - 31) == steps && false;
+bool enabled = passed3 || 17.6 - 6 != steps;
+if (31 + steps > steps % 9) 
+  steps = (14 + steps) * steps;
+} else {
+  int rounds3 = 35;
+  print(rounds3);
+  for (int size = 0; size < 5; size = size + 1) {
+    print(steps);
+    passed3 = true;
+    int width = steps;
+  }
+  if ((36 / 6) < (8 * 21)) {
+    owner = "hello";
   } else {
-    int height = (15 - 11);
-    print(height);
-    print(rounds3);
-    balance = tickets / 1;
+    int seats = steps;
+    print(seats);
+    passed3 = 30.6 + rate2 >= 0 || rounds3 + steps != (33 + steps);
+    print((rounds3 / 2) == 3 + 34);
+    int index = (6 - seats);
   }
-} else 
-  int b = 0;
-  while (b < 3) {
-    print(title);
-    print(rounds3);
-    b = b + 1;
-  }
-  int items = 0;
-  while (items < 3) {
-    tickets = tickets + b % 8;
-    title = "bob";
-    rounds3 = b + 21 + tickets + 20;
-    items = items + 1;
+  if ((rounds3 * steps) < (20 - 20)) {
+    int result = 21 - steps;
+    print(result);
+    int rounds = steps;
   }
 }
-print(rounds3);
-int base = 0;
-while (base < 5) {
-  tickets = tickets + (rounds3 + tickets);
-  if (false) {
-    int count = (base + 4);
-    print(count);
-    print(base);
-  } else {
-    int banlance = base;
-    print(banlance);
-    print((rounds3 + base));
+int passaed3 = 0;
+for (passaed3 = 0; passaed3 < 3; passaed3 = passaed3 + 1) {
+  print(passed3);
+}
+print(passaed3);
+if (passaed3 * passaed3 <= 40) {
+  int points1 = 0;
+  while (points1 < 6) {
+    enabled = passed3 && 22 < passaed3 - 32;
+    points1 = points1 + 1;
   }
-  base = base + 1;
+  int days = 0;
+  while (days < 4) {
+    print(enabled);
+    print((26 - 14));
+    days = days + 1;
+  }
 }
-bool found3 = balance + balance < 39;
-if ((30 + 12) >= tickets) {
-  print(balance);
-} else if (7.8 > (tickets * 6)) {
-  print(found3);
-  tickets = rounds3 / 7;
-}
-print(title);
+print(enabled);
+print(enabled);
+passed3 = (passaed3 / 5) <= (16 * steps);
+print(enabled);

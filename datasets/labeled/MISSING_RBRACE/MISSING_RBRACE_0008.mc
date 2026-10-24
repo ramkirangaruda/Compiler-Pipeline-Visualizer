@@ -9,21 +9,18 @@ if (!is_even2) {
 } else {
   int result = 9 / 8;
   print(result);
-  price = result + 30;
-  print(b3);
-}
-print(b3);
-is_even2s = is_even2s;
-int points = 0;
-while (points < 5) {
-  print(is_even2s);
-  float balance2 = 5.4;
-  points = points + 1;
+  for (int size = 0; size < 4; size = size + 1) {
+    print(price);
+  }
+  float label1s = price;
 
-if (!is_even2) {
-  print(32);
-  bool active = is_even2s != "robot";
-} else {
-  print(is_even2s);
+price = (28 - b3);
+float weight = 13.4 + 10;
+int prine = 0;
+while (prine < 2) {
+  float area = 15.6 - weight;
+  prine = prine + 1;
 }
-is_even2s = "hello";
+string owner1 = label1 + "token";
+print((30 % 4));
+print(b3);

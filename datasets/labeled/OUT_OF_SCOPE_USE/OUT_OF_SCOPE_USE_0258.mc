@@ -1,90 +1,70 @@
-bool passed = false;
-int second = 31 * 8;
-int j = 12 + second;
-bool done = passed;
-float speed = 19.6 - second;
-bool flag3 = (11 - second) > j;
-print("alice");
-if (31 + 5 > second) {
-  print(done);
-  print((j / 6) > second / 6 || !flag3);
+bool valid = 20.8 - 9 == (31 % 6);
+int x = 20;
+bool valid2 = 23.1 - 23.3 == 27 + x;
+print(valid2);
+float voltage = 21.8 + 26.2;
+int b1 = 0;
+while (b1 < 5) {
+  if (valid) {
+    voltage = (9 / 6);
+    voltage = voltage * x;
+  }
+  voltage = 24.3;
+  float voltage3 = 6.4;
+  b1 = b1 + 1;
 }
-second = second % 6;
-print(done);
-if (true || flag3) {
-  int x = second / 6;
-  print(x);
-  int width1 = 0;
-  while (width1 < 4) {
-    print((second / 4) != (second * x));
-    width1 = width1 + 1;
-  }
-  int base = 0;
-  while (base < 3) {
-    x = x * 7 - (second + x);
-    base = base + 1;
-  }
-  int items = 0;
-  while (items < 2) {
-    print(done);
-    items = items + 1;
-  }
-} else {
-  done = 11 % 2 >= (second * second);
-  float discount1 = 21.7 - 4.4;
+int b = b1 + x;
+int points = 0;
+while (points < 3) {
+  bool ok = valid;
+  print(true || (points + 15) != 25 * 0);
+  print(b1);
+  b = b1;
+  points = points + 1;
 }
-if (second + 5 != j) {
-  string greeting = "robot";
-  j = second + j % 7;
-  if (flag3) {
-    j = (27 % 2) % 6;
-    speed = 33 / 2;
-  } else if (second * 25 < 15) {
-    print(40 % 3);
+for (int steps = 0; steps < 2; steps = steps + 1) {
+  if ((x / 6) > 40) {
+    int sum = (33 + 20);
+    print(sum);
+    x = (20 + 1) + (steps - 23);
+  }
+}
+int y = 0;
+while (y < 4) {
+  if (x - 29 > b1 / 1) {
+    voltage = 30.1;
+    x = b1;
+    x = 0 - 6 + (y % 9);
+  }
+  print(b);
+  y = y + 1;
+}
+if ((37 + 16) > (points / 6)) {
+  int lives = b1 + points;
+  print(lives);
+  if (valid) {
+    int j = (13 / 7);
+    print(j);
+    voltage = (j / 9);
+    valid = valid;
+    int result = 37 + j;
   } else {
-    int speod = (23 / 6);
-    print(j * speod);
+    int count = x - y;
+    print(count);
+    valid2 = (y - b) > b * b;
+    print(points);
+    voltage = y - b;
   }
-  print(j);
+  voltage = x;
 } else {
-  int fliag3 = 15 / 7;
-  print(fliag3);
-  if (!passed) {
-    int stock = second * 2;
-    print(stock);
-    int level = 21 + fliag3;
-    print(!done);
+  int score3 = 0;
+  while (score3 < 5) {
+    ok = (29 + 9) >= points;
+    print(11.4 + voltage < 4);
+    print(26);
+    score3 = score3 + 1;
   }
-  print(j);
+  print(voltage);
+  print(ok);
 }
-passed = 19 + j > (j + 13) || 11.3 - 27.9 > j || done;
-int age = (14 * j);
-if (28.6 + 28.7 >= 10 * age) {
-  int sum = (17 - j);
-  print(sum);
-  int score = 0;
-  while (score < 2) {
-    int grreting = (second / 7);
-    score = score + 1;
-  }
-} else if (20.3 == j + 4) {
-  int second1 = second;
-  print(second1);
-  flag3 = flag3;
-  bool is_even = passed;
-} else {
-  int n = 0;
-  while (n < 5) {
-    print(greeting);
-    print(done);
-    n = n + 1;
-  }
-  int rounds = 0;
-  while (rounds < 2) {
-    print((39 / 1));
-    print(age);
-    rounds = rounds + 1;
-  }
-  int size = 27 % 6;
-}
-print(greeting);
+print(ok);

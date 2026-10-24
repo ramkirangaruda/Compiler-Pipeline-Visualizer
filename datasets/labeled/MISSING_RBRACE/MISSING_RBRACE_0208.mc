@@ -1,20 +1,29 @@
-int stock2 = (39 * 6);
-int i = 39;
-int first3 = stock2;
-float ratio2 = 4.8 - i;
-print(ratio2);
-int ratio2x = 0;
-while (ratio2x < 3) {
-  string greeting = "alice";
-  print(ratio2);
-  print(ratio2);
-  ratio2x = ratio2x + 1;
-
-stock2 = (first3 - ratio2x) - stock2;
-int index1 = 0;
-while (index1 < 3) {
-  int points2 = (ratio2x / 9);
-  print(stock2);
-  index1 = index1 + 1;
+bool valid = 1.2 * 24.1 >= 20;
+int marks = 39 + 31;
+bool oarks = (marks + marks) == (16 + 32) || marks / 2 >= (24 / 6);
+int oarksx = 20 % 3;
+int b = 22 / 1;
+bool valid1 = true;
+string msg = "ok";
+print(oarks);
+if (valid1 && (oarksx / 5) == (17 - 14)) {
+  for (int result = 0; result < 2; result = result + 1) {
+    print("bob");
+    marks = b * 22 + b - oarksx;
+  }
+  print(oarks);
+  marks = (17 / 1) * 25 - oarksx;
+} else {
+  int items = (b * 37);
+  print(items);
+  print(items);
 }
-print(stock2);
+msg = "done";
+msg = "token";
+if (29.8 + oarksx > oarksx || marks <= b) {
+  int a1 = marks % 4;
+
+valid1 = false;
+print("yudu");
+msg = "bob";
+print("world");

@@ -6,68 +6,36 @@ int total = 24;
 int b = 0;
 while (b < 6) {
   speee1 = stock % 2 / 6;
-  print(stock);
+  print(stock;
   print("pipeline");
   b = b + 1;
 }
-print(stock);
-print(speed1 - 19.5 == speee1 * 10 || 3.1 - 19.1 > b + 40);
-int steps = 0;
-while (steps < 6 {
-  stock = steps * 3 + 27;
-  total = b;
-  if (area != 12 + stock) {
-    int marks = (total / 9);
-    print(marks);
-    int n = speee1 * 37;
-  } else if ((steps * steps) > steps / 1) {
-    int oarea = total;
-    stock = 6 + total % 7;
-  } else {
-    print(stock);
-    print(30 < stock);
-    print(speee1 > stock);
-  }
-  steps = steps + 1;
-}
-print(true);
-if (b % 2 > (4 % 5)) {
-  total = (speee1 / 5) / 5;
-} else {
-  int artea = stock;
-  print(artea);
-  int value = b + 19;
-  if ((artea - 5) > (4 % 3)) {
-    float speed = speed1 - stock;
-    print(stock);
-  }
-}
-if (steps - 37 > (33 + total) || false) {
-  int k2 = 0;
-  while (k2 < 6) {
-    string name = "parse";
-    name = "alice";
-    k2 = k2 + 1;
-  }
-  print("hello");
-  speee1 = (steps * b) + b + b;
-} else {
-  int width1 = (3 - speee1);
-  print(width1);
-  if (speee1 + 2 <= total) {
-    total = 39 + 3;
-  }
-  area = (stock - b);
-}
-int j2 = (b % 2);
 int seats2 = 0;
-while (seats2 < 5) {
-  if (false || true) {
-    stock = speee1;
-  } else {
-    print("ok");
-    stock = seats2;
-  }
-  seats2 = seats2 + 1;
+for (seats2 = 0; seats2 < 2; seats2 = seats2 + 1) {
+  print(stock / 6 != (total * total));
+  print(total);
+  speee1 = (speee1 % 1) + 39 + 29;
 }
 print(seats2);
+int points = 0;
+while (points < 3) {
+  print(area);
+  points = points + 1;
+}
+if (false || area + speed1 == b + points) {
+  int araea = (points - 15);
+  print(araea);
+  print((points + points) < 31 * 30);
+  araea = 12 % 6 + araea;
+  print(total);
+}
+area = 7.4;
+int level1 = 0;
+while (level1 < 6) {
+  print(total);
+  print(speee1);
+  level1 = level1 + 1;
+}
+total = seats2 - level1 - (35 * points);
+speed1 = 34 / 9;
+speed1 = 28.2;

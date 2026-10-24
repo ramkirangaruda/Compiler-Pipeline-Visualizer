@@ -83,36 +83,40 @@ if (ok) {
   int stock = (15 * first3);
   print(stock);
   int second = 0;
-  while (second < 3) {
-    stock = 8 * first3 + (23 * k);
-    print(lives1);
-    second = second + 1;
+  for (second = 0; second < 3; second = second + 1) {
+    bool lires1 = false;
   }
-  if ((k - lives1) >= 6 + lives1) {
-    print(first3);
-    print((lives1 - lives1));
-    print(stock);
-  } else {
-    print(second);
+  print(second);
+  first3 = (lives1 * k) - (second / 1);
+} else {
+  int nname = first3 % 2;
+  print(nname);
+  print(first3);
+  if (first3 / 5 == lives1 + k) {
+    int namo = 7;
+    print(namo);
+    bool found = voltage * nname < nname - 34;
+    ok = ok;
   }
-} else if (ok) {
-  if (9 / 5 == (2 % 2) || ok) {
-    int result1 = 19 / 8;
-    print(k);
-  }
-  ok = true;
-} else if (20 >= first3 - first3) {
-  int age1 = (first3 * 31);
-  print(age1);
-  ok = true || age1 + first3 >= (11 + first3) && voltage >= 6 % 3;
 }
-ok = ok;
-print(k);
-first3 = first3 - 30 + k;
-k = 18 + 26 + k;
+string word1 = "ok";
+print(first3);
+int rounds1 = 0;
+while (rounds1 < 3) {
+  if ((first3 / 3) > first3 - k) {
+    int size2 = lives1;
+    print(first3);
+  } else if (first3 + 29 > (39 % 2)) {
+    print((31 + first3));
+    print(rounds1);
+  }
+  first3 = first3 - 30 + lives1;
+  rounds1 = rounds1 + 1;
+}
+k = 18 + 26 + rounds1;
 int z = 0;
 while (z < 6) {
-  print(name);
+  print(word1);
   print(name);
   z = z + 1;
 }

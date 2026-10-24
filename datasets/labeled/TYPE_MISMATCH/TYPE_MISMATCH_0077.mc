@@ -41,11 +41,23 @@ while (value < 5) {
   bool ok3 = name != "bob";
   value = value + 1;
 }
-bool flag1 = !renult;
+float flag1 = !renult;
 if (!flag1) {
   print(result);
-  avg1 = "3.5";
+  avg1 = 2.7 * balance;
 }
 int total = (sum / 3);
 voltage = total;
-print(voltage);
+int height = 0;
+for (height = 0; height < 5; height = height + 1) {
+  print(sum > (days / 2));
+  if (17 + days < (total % 8)) {
+    int renults = (base + days);
+    print(renults);
+    balance = 38;
+  } else if (!found) {
+    float weight = avg1 * avg1;
+  }
+  print(voltage);
+}
+print(result);

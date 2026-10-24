@@ -1,23 +1,45 @@
-float avg = 25.3;
-int height = 7 * 36;
-int years = 22 / 3;
-string name2 = "bob";
-int result = 38;
-bool active = false;
-bool ok2 = name2 != "bob";
-string title = "pipeline";
-if (active) 
-  title = "ok";
-  years = years - 10 - 36;
-  print(active);
-} else {
-  int second = 33 % 5;
-  print(second);
-  avg = (12 + 25);
+string greeting = "yudu";
+string title3 = greeting + "robot";
+int days;
+bool dayss = days / 1 < days * days;
+int value = 30 / 1;
+print(title3);
+int seats = 0;
+while (seats < 5) 
+  print(9 / 3);
+  if (greeting == "ok") {
+    int limit = (days + 16);
+    print(limit);
+    title3 = "yudu";
+  } else {
+    int dayssx = 38;
+    print(dayssx);
+    dayss = dayss;
+    print(dayssx);
+    print((dayssx - 22) <= (dayssx * 25));
+  }
+  print(dayss);
+  seats = seats + 1;
 }
-print(title + "world");
-print(active);
-print("bob");
-string greeting = name2;
-string title1 = greeting;
-print(result + 31);
+print(seats);
+dayss = dayss;
+if (dayss) {
+  int height = 0;
+  for (height = 0; height < 6; height = height + 1) {
+    print(value - days);
+    print(days);
+    print(seats);
+  }
+  print(height);
+  dayss = false || !dayss && dayss;
+} else {
+  int tickets = 5;
+  print(tickets);
+  if (!dayss) {
+    int dayts = seats;
+    print(dayts);
+    print(tickets);
+    int stock = tickets;
+  }
+  print(value);
+}

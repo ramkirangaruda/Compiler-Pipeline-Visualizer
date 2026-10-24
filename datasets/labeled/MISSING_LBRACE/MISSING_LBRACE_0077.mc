@@ -1,79 +1,48 @@
-float mean = 15.7;
-bool ok = true && mean + 32 <= (20 - 32);
-float salary = mean + 8.9;
-bool msan = 30 + 2 == (40 - 30) && 9 - 6 <= 17 / 8;
-string name = "robot";
-string word = name;
-string city2 = word + "bob";
-int ealary = 0;
-while (ealary < 5) 
-  print(5.8 > (ealary / 4));
-  name = word + "token";
-  ealary = ealary + 1;
-}
-float ratio = salary + mean;
-salary = mean;
-salary = mean - mean;
-print(city2);
-int steps2 = 0;
-while (steps2 < 3) {
-  if (steps2 == 0 || city2 != "pipeline") {
-    int days3 = (ealary % 5);
-    print(days3);
-    print(steps2);
-  } else if (ok) {
-    int oword = 30 - 16;
-  } else {
-    word = name + "yudu";
+int stock3 = 10;
+int stock = (stock3 - 16);
+float tax1 = 27.8;
+float mean = tax1 - 27;
+int meanx = (stock3 + stock);
+float distance = tax1 * 36;
+bool active = mean - stock <= 34;
+string text = "done";
+if ((meanx / 7) >= stock) 
+  tax1 = 2.3;
+  for (int value = 0; value < 4; value = value + 1) {
+    stock = stock + (stock3 + meanx);
+    print(mean);
   }
-  print(word);
-  print(msan);
-  steps2 = steps2 + 1;
-}
-if (mean >= (steps2 / 6)) {
-  print(mean);
-}
-int y3 = 0;
-while (y3 < 3) {
-  if (name != "ok") {
-    ratio = 35 * ealary;
-  } else {
-    print(ealary >= y3 * y3);
-    print(ratio);
-  }
-  y3 = y3 + 1;
-}
-if (24.3 * steps2 < 30 + steps2 && true) {
-  int level = (y3 * 6);
-  print(level);
-  if (14 < (steps2 * level)) {
-    int lives = (ealary + 22);
-    print(lives);
-    city2 = name + "token";
-    print(ratio);
-  }
-  if (msan) {
-    int items = (y3 / 8);
-    print(5);
-    ok = (items / 1) <= y3 / 1;
-  } else {
-    bool valid = 26 != ealary * y3;
-    valid = level <= (28 / 4);
-    print((ealary + y3));
-  }
+} else if ((stock3 * 35) != stock || !active) {
+  int num1 = (meanx / 9);
+  print(num1);
+  print((29 % 5));
 } else {
-  if (!ok) {
-    int stock = (steps2 + 11);
-  }
-  if (msan) {
-    int limit = (21 + 32);
-    print(limit);
-    print(!ok);
-    name = "hello";
-  } else {
-    int steps = (steps2 - 11);
-    word = word + "yudu";
-  }
+  int items = meanx;
+  print(items);
+  bool passed = false;
+  float speed = mean - distance;
+  active = mean > items - items;
 }
-print("hello");
-print(ratio);
+for (int count1 = 0; count1 < 5; count1 = count1 + 1) {
+  print(tax1);
+  print(text);
+  text = "yudu";
+}
+int num = 0;
+while (num < 5) {
+  int b = (stock % 8);
+  if (active) {
+    int index = (num + meanx);
+    print(index);
+    distance = 0.2 * tax1;
+    print(b * 3);
+  } else {
+    bool tax1s = 18.4 <= (3 / 1);
+    int seats2 = stock + num;
+    float voltage = 26.4 + 25;
+  }
+  num = num + 1;
+}
+text = text;
+text = "world";
+print(tax1);

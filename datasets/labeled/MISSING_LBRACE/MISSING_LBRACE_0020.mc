@@ -1,38 +1,48 @@
-string greeting = "bob";
-float salary;
-string label = greeting;
-string owner = "token";
-bool has_more = greeting == "pipeline";
-int value = 0;
-while (value < 3) 
-  print("token");
-  if (has_more) {
-    int years = 11;
-    print(years);
-    owner = "parse";
-    label = "yudu";
+string greeting1 = "bob";
+int width3 = 29 + 23;
+int days = 5;
+int n = 0 % 3;
+string word = "alice";
+width3 = n + 16 + (width3 * 16);
+print(width3 <= 10 % 7);
+int greetineg1 = width3 + days;
+greeting1 = "token";
+if (greetineg1 != width3 / 4) 
+  int steps = 27;
+  print(steps);
+  if (greetineg1 % 3 <= width3) {
+    print(width3);
+    print(width3);
+    days = 3;
+  } else {
+    int b = steps;
+    print(b);
+    b = (37 * 13) * (greetineg1 + greetineg1);
+    print(n);
+    int first = b;
   }
-  value = value + 1;
-}
-label = "ok";
-if (!has_more) {
+} else {
+  int k1 = 8 / 6;
+  print(k1);
+  for (int num = 0; num < 2; num = num + 1) {
+    greetineg1 = 22;
+    greetineg1 = 21;
+    print(k1);
+  }
+  int height = 0;
+  while (height < 4) {
+    greeting1 = word;
+    print("compiler");
+    float tax = 30.2 - 28.5;
+    height = height + 1;
+  }
   int i = 0;
-  while (i < 4) {
-    print(i);
-    print(greeting);
-    print(salary);
-    i = i + 1;
-  }
-  if (greeting != "robot") {
-    int score = 30 + 17;
-    salary = i / 6;
+  for (i = 0; i < 2; i = i + 1) {
+    string msg = "parse";
+    int y = n;
+    greetineg1 = 19;
   }
 }
-int num = 0;
-while (num < 5) {
-  print(owner);
-  print(num);
-  num = num + 1;
-}
-owner = "done";
-print(greeting);
+days = (n + greetineg1) + 26 + 38;
+days = width3;
+print(days);

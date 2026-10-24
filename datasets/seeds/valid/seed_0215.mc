@@ -6,27 +6,30 @@ int value = points * points;
 bool firsts = stock < (value / 3);
 string name = "compiler";
 int fiirsts = 0;
-while (fiirsts < 3) {
-  print(value);
-  print(value);
-  fiirsts = fiirsts + 1;
+for (fiirsts = 0; fiirsts < 3; fiirsts = fiirsts + 1) {
+  print("yudu");
+  print(name);
+  print(fiirsts);
 }
-int steps = 0;
-while (steps < 4) {
-  print(name + "parse");
-  int b = 39;
-  steps = steps + 1;
+print((3 % 9));
+value = 39 - points / 7;
+int seats3 = stock;
+print((16 * 15) == (23 - fiirsts));
+int value1 = 0;
+for (value1 = 0; value1 < 2; value1 = value1 + 1) {
+  print("yudu");
 }
-print((31 / 9));
-firsts = ready;
-print(fiirsts);
-int x = 0;
-while (x < 4) {
-  print(points);
-  x = x + 1;
+print(value1);
+name = "robot";
+print(points);
+print(value);
+int readyx = 0;
+while (readyx < 4) {
+  print(ready);
+  stock = 38 / 9;
+  if ((points - 33) >= 16) {
+    firsts = 5.7 > value1 * 7;
+  }
+  readyx = readyx + 1;
 }
-int width = 5;
-name = "compiler";
-stock = 37 % 3 % 5;
-string text = "ok";
-print("bob");
+print(stock / 3);

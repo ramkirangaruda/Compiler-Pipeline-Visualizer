@@ -14,21 +14,15 @@ while (stock < 6) {
   int j = num2;
   stock = stock + 1;
 }
-printname + "alice");
-if (has_more && name != "hello") {
-  int n1 = limit / 5;
-  print(n1);
-  if (has_more) {
-    city = name + "bob";
-  } else {
-    int base2 = 19;
-    print(base2);
-    ratio = ratio - base2;
-    ratio = 14.3 - limit;
-    flag3 = ratio * 28.1 == (29 / 1);
+int value = 0;
+for value = 0; value < 5; value = value + 1) {
+  if (has_more && name != "hello") {
+    int n1 = limit / 5;
+    print(n1);
+    city = name;
   }
-} else if ((39 + 4) < stock + 22) {
-  print(ratio);
-  city = "parse";
+  print(flag3);
 }
+print(value);
+flag3 = flag3;
 print(limit);

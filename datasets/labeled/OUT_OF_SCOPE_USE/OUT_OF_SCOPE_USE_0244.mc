@@ -1,55 +1,55 @@
-int a = (18 + 35);
-int num1 = 13 + 5;
-int years2 = (num1 + num1);
-bool flag2 = 30.4 - a > years2 + 9;
-string label = "done";
-int marks = 0;
-while (marks < 4) {
-  string text = "parse";
-  int num2 = a;
-  if (20 == (a / 8)) {
-    int items = (years2 % 5);
-    print(items);
-    print((20 + 38));
-  } else if (8.8 <= a % 7) {
-    int value = num1;
-    print(value);
-    float salary2 = 12.9 * years2;
-    int laobel = (a * 1);
-  }
-  marks = marks + 1;
+bool ok = 11.9 + 4 > 12;
+int days;
+string daysx = "hello";
+int dayix = (days * days);
+bool ready2 = (14 * 1) != dayix + 27;
+string greeting = "ok";
+ok = greeting == "ok";
+if (days - 6 != days) {
+  print(greeting);
+  print(daysx);
+  days = days + 25 % 7;
 }
-int num = 25;
-print("world");
-a = num * (a - years2);
-print(num);
-if (!flag2) {
-  int width = 9 + 20;
-  print(width);
-  num1 = num + (14 / 1);
-  if ((37 % 8) < years2) {
-    int tickets1 = 39;
-    print(tickets1);
-    text = text;
+for (int stock1 = 0; stock1 < 4; stock1 = stock1 + 1) {
+  if (13.1 != (18 + stock1)) {
+    print(ok);
+  }
+  ok = 25.6 > (9 + 23);
+  if (ok) {
+    int count = days;
+    int b3 = (5 + dayix);
+    print(ok);
   } else {
-    int x2 = num1 % 6;
-    print(x2);
-    flag2 = x2 - a == (27 % 1);
-    string owner = "pipeline";
-    width = 36 * (19 + 28);
+    int b = 12 + stock1;
+    print(b);
+    b = dayix;
   }
-  years2 = years2;
 }
-if (true) {
-  label = "robot";
-  float balance = 16.3 * 21;
-  print(num1);
+string datys = "compiler";
+int days3 = 0;
+for (days3 = 0; days3 < 5; days3 = days3 + 1) {
+  print(days3 / 1);
+}
+print(days3);
+if (daysx == "pipeline") {
+  int ready2s = (days % 5);
+  dayix = 12 + days3 / 2;
+  int daoysx = 0;
+  while (daoysx < 3) {
+    daysx = "world";
+    float area3 = 21.7 + 0.5;
+    daoysx = daoysx + 1;
+  }
+  ok = ready2;
 } else {
-  int level = 0;
-  while (level < 2) {
-    float distance = 14.3 - 7.2;
-    level = level + 1;
+  int x = (dayix / 5);
+  print(x);
+  if (25.5 + 8.9 >= x + days || 34 != days) {
+    int first = 39 % 7;
+    print(first);
+    x = first;
   }
 }
-text = "pipeline";
-print(years2);
+daysx = daysx;
+ok = (ready2s * ready2s) > 25 % 4;
+print(greeting);

@@ -1,73 +1,66 @@
-float voltage1;
-int index = 25;
-int j = index;
-int size = (index + 37);
-string text = "pipeline";
-if (size - index <= (index + index) || text != "ok") {
-  int num2 = 18;
-  print(num2);
-  index = (25 % 1) % 2;
+int age = (27 - 0);
+int b2 = (age * age);
+int tickets3 = 38 % 9;
+bool passed1 = false;
+float discount = 22.1 - 22.5;
+bool found = age > b2;
+bool flag3 = (tickets3 + b2) > (b2 % 3);
+string greeting1 = "done";
+b2 = tickets3;
+if (flag3) {
+  if (true) {
+    int base = (40 * age);
+    print(base);
+    tickets3 = (tickets3 % 5) / 1;
+    print(passed1);
+  } else if ((38 / 5) >= 32) {
+    int discsunt = (2 * 9);
+    print(discsunt);
+    int sum = 13;
+  }
+} else if (greeting1 == "ok") {
+  if ((tickets3 / 5) <= (tickets3 + tickets3)) {
+    int discounts = b2;
+    print(discounts);
+    print(tickets3);
+    float speed = discount - age;
+    discounts = (tickets3 + age) * (28 / 5);
+  }
+  int steps = 0;
+  for (steps = 0; steps < 2; steps = steps + 1) {
+    print(age);
+  }
+  print(steps);
+} else {
+  b2 = tickets3;
   if (false) {
-    j = 36 + 0 % 9;
-    bool done1 = voltage1 * 4.4 != (22 * index);
-    text = "compiler";
-  } else if (index != (20 % 9)) {
-    int level1 = (index / 2);
-    print(level1);
-    size = 0 * 29 - level1;
-    int limit = 9 % 2;
+    int total3 = (age % 8);
+    print(total3);
+    greeting1 = greeting1;
   }
+  age = b2 + 4 - tickets3;
 }
-text = text;
-j = (index - size) % 6;
-print(text);
-if (true) {
-  int voltage1x = index * size;
-  print(voltage1x);
-  voltage1 = voltage1 * voltage1;
-  text = "parse";
-} else if (false) {
-  if (text != "done") {
-    print(true || true);
-    print(text);
-    text = "yudu";
+print("robot");
+discount = age - b2;
+print(tickets3);
+if ((19 + 23) != 11) {
+  for (int years = 0; years < 5; years = years + 1) {
+    print(tickets3);
+    print(b2 > age + b2);
+    int marks = (29 / 7);
   }
-  if (text == "bob") {
-    print(index);
-  } else if ((j * 16) != (index % 7)) {
-    index = 7;
+  print(greeting1);
+  if (flag3) {
+    int result = (b2 - 7);
+    print(result);
+    print(b2);
   } else {
-    int total = (index + j);
-    print(total);
-    print(index);
-    print((total / 9));
+    print(flag3);
   }
-} else {
-  print(false);
+} else 
+  int points3 = (tickets3 * tickets3);
+  print(points3);
+  greeting1 = "alice";
 }
-print(index);
-if (j + index <= (40 * j)) {
-  int days = size + size;
-  print(days);
-  if (text != "pipeline") {
-    int days2 = (20 + 20);
-    print(days2);
-    index = 22;
-  } else if (false || true) 
-    days = days + (index / 6);
-    int vsltage1 = (j - days);
-  } else {
-    j = 10;
-    print(text);
-    size = size + j + 5;
-  }
-  int z1 = 0;
-  while (z1 < 5) {
-    size = 22;
-    z1 = z1 + 1;
-  }
-} else {
-  int z = (12 + 13);
-  print(z);
-  print(index);
-}
+print(discount + discount < tickets3);
+print(discount);

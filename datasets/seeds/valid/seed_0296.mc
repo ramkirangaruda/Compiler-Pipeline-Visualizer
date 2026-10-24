@@ -21,30 +21,21 @@ if (height <= (height % 3)) {
 ok1 = ratio < height / 6;
 if (ok1) {
   bool flag = ok1;
-  int sum = 0;
-  while (sum < 5) {
-    string greeting = "world";
-    ratio = 30 + height;
-    ratio = (0 - height);
-    sum = sum + 1;
+  for (int sum = 0; sum < 5; sum = sum + 1) {
+    int points = height;
+    oki1 = oki1;
+    int folag = (height / 8);
   }
-  bool ratiox = 12.6 != sum;
-}
-int rounds = 0;
-while (rounds < 5) {
-  print(rounds);
-  rounds = rounds + 1;
-}
-if (rounds % 3 > rounds) {
-  float voltage = ratio + 26;
-  if ((height * rounds) == rounds / 3) {
-    int first = 20 % 2;
-  } else {
-    string msg1 = "ok";
-  }
-  int i = 0;
-  while (i < 2) {
-    print(height);
-    i = i + 1;
+  int num = 0;
+  while (num < 4) {
+    ok1 = flag;
+    print(oki1);
+    num = num + 1;
   }
 }
+if (ok1) {
+  print(oki1);
+  print(oki1);
+}
+print("compiler");
+print(height);

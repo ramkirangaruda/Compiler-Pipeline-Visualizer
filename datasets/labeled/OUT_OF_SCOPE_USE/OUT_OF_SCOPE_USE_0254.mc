@@ -1,108 +1,38 @@
-float area2 = 5.8 + 0;
-int years = (14 * 27);
-int points = 40;
-int aroea2 = (years + points);
-string msg2 = "alice";
-print(years);
-float yeare = area2;
-int emsg2 = 0;
-while (emsg2 < 6) {
-  if (true) {
-    int b = 21;
-    print(b);
-    print(points);
-    print(aroea2);
-  } else if (years * aroea2 < 27) {
-    aroea2 = years;
-    float emsg2x = 5.6 - yeare;
-  } else {
-    points = (25 + 21) + (23 + emsg2);
-  }
-  points = (points + 32) / 7;
-  emsg2 = emsg2 + 1;
-}
-if (false) {
-  bool pointss = false;
-  int stock = years + years;
-  aroea2 = aroea2 % 2;
-}
-if (true) {
-  int tickets = years;
-  if (area2 * 27.7 > aroea2) {
-    int total = points / 5;
-    print(total);
-    int iyeare = 25 + 27;
-    print(37 != iyeare / 1);
-  } else {
-    print(msg2 == "robot");
-  }
-} else if (false) {
-  int steps1 = emsg2 * tickets;
-} else {
-  int x = (12 / 7);
-  print(x);
-  print(x);
-  if (3 >= years) {
-    print(msg2 + "parse");
-    print(false);
-    yeare = tickets - tickets;
-  } else {
-    int size = (30 - years);
-    print(size);
-    print("robot");
-    size = (tickets / 8) * years * 39;
-  }
-  aroea2 = 20;
-}
-if (msg2 != "token") {
-  int areas2 = (17 + years);
-  print(areas2);
-  int k = 0;
-  while (k < 5) {
-    print(false);
-    print(k);
-    msg2 = msg2 + "compiler";
-    k = k + 1;
-  }
-} else {
-  tickets = 22 * tickets + 38 + points;
-}
-if (false) {
-  if (28.9 > 32) {
-    int width1 = 1;
-    print(width1);
-    print(area2);
-  } else {
-    int k2 = tickets;
-    print(k2);
-    float area = area2 * 37;
-    print(area);
-    int yearee = 38;
-  }
-} else if (39 - 39 > 32 / 1) {
-  if (false) {
-    int ysare = (emsg2 % 3);
-    print(ysare);
-    print(yeare);
-    print(points);
-  } else {
-    int steps2 = 23;
-    print(steps2);
-    tickets = years;
-    string name = msg2 + "compiler";
-  }
-} else {
-  if (true) {
-    int level = aroea2;
-    print(level);
-    int seats3 = (29 / 1);
-    area2 = yeare;
-    bool msg2x = true && false;
-  } else {
-    int index = (3 / 2);
-    print(index);
-    years = emsg2 - 36 + aroea2 * years;
+float ratio = 29.5 * 25;
+bool ritio = true;
+int seats = 26 + 32;
+if (ritio) {
+  int ritios = (seats % 3);
+  if ((ritios % 2) >= (ritios - 24)) {
+    int ritoo = (7 - seats);
+    print(ritoo);
+    ritoo = (ritios * 16) % 8;
   }
 }
-print(aroea2);
-print(yeare);
+int age = (ritios / 4);
+if (5 * age > age && (18 + 6) <= (ritios / 9)) {
+  int years3 = 0;
+  while (years3 < 3) {
+    print(age);
+    seats = age;
+    years3 = years3 + 1;
+  }
+  seats = age;
+  for (int limit = 0; limit < 2; limit = limit + 1) {
+    ritio = seats - seats > ritios;
+    print(ritio);
+    print(seats);
+  }
+}
+for (int points = 0; points < 3; points = points + 1) {
+  seats = 13 * ritios / 5;
+  print(age);
+}
+if (ritio) {
+  int k = 36 - 12;
+  print(k);
+  print(ritio);
+  print(ritios);
+}
+age = 4 - ritios + 40 * seats;
+print(age);

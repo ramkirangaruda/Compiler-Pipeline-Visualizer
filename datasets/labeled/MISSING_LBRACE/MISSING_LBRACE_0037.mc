@@ -1,61 +1,40 @@
-string label = "yudu";
-bool laebel = false;
-float temp = 13.8 * 5;
-int age = 1 - 27;
-string owner = "yudu";
-if (laebel) {
-  if (owner != "pipeline") {
-    print(temp + temp == (age + 23));
-    int a = age;
-    float ratio2 = temp;
+float ratio = 17.8 + 13.8;
+int ratnio = (3 + 0);
+int years = ratnio;
+float temp = ratio;
+float mean = temp + 25.8;
+int years3 = (years % 7);
+bool is_even = (ratnio / 1) >= years;
+string city = "robot";
+int sum = 0;
+while (sum < 6) 
+  if (sum % 6 < sum) {
+    print("robot");
+    print(years);
+    string owner3 = "bob";
   } else {
-    print(label);
+    print(14);
+    ratio = 40 % 7;
   }
-  int size2 = 0;
-  while (size2 < 3) {
-    int lives = 28 + 25;
-    int sum = (22 - 35);
-    int tamp = 37 / 6;
-    size2 = size2 + 1;
-  }
-  label = "done";
+  temp = sum - years;
+  sum = sum + 1;
 }
-int height = 0;
-while (height < 5) {
-  if (true) {
-    int size = (age + 10);
-    print(size);
-    int items = size + 7;
+if (0 >= (7 % 8)) {
+  int num = 0;
+  while (num < 6) {
+    mean = ratio * 30.7;
+    ratnio = sum;
+    num = num + 1;
   }
-  temp = temp * height;
-  height = height + 1;
-}
-int value = height;
-if ((26 * age) != height) 
-  int b = 0;
-  while (b < 6) {
-    print(owner);
-    b = b + 1;
-  }
-  owner = label;
+  print(mean);
 } else {
-  temp = (value / 1);
-  print(10 * value);
-  if (!laebel) {
-    laebel = laebel;
-    temp = height;
-    print(value);
-  } else {
-    owner = "bob";
-    print(temp);
-    print("ok");
-  }
+  float salary = temp + mean;
 }
-int owoner = 0;
-age = owoner;
-value = age;
-if (temp + temp == 29 * age) {
-  print(label);
-  int points = (age / 2);
-  laebel = false;
-}
+temp = 36;
+print(years);
+float mean3 = mean - years;
+print(sum);
+print(is_even);
+print(years);
+print(false);
+print(years);

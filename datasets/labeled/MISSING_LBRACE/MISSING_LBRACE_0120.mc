@@ -1,17 +1,16 @@
-int total2 = 6 + 38;
-int index = (total2 + 30);
-string tsotal2 = "done";
-string name1 = tsotal2 + "robot";
-bool nname1 = name1 == "world";
-int a = index * 10;
-name1 = "hello";
-tsotal2 = "done";
-tsotal2 = name1;
-int tickets = (a * index);
-if (nname1) 
-  print("done");
-} else {
-  int items2 = 22;
-  total2 = (index * items2) * (index - total2);
+int rounds = (21 + 34);
+bool active = 22 + rounds == rounds * rounds;
+int stock = 35;
+bool done = (36 - 27) > stock;
+int seats = 39;
+print(seats);
+print(active);
+int doane = 0;
+while (doane < 5) 
+  print(seats);
+  rounds = stock + 25 - seats % 4;
+  doane = doane + 1;
 }
-print(tickets);
+active = !done;
+string city = "done";
+print("done");

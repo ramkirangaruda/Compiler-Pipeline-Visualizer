@@ -7,7 +7,7 @@ float salary2 = 30.3;
 int steps = 0;
 while (steps < 6) {
   if (false) {
-    int num = "text";
+    int num = 37 % 1;
     print(num);
     print(steps);
     print(true);
@@ -17,7 +17,7 @@ while (steps < 6) {
 print((years1 % 1));
 salary2 = salary2 - 40;
 if (years1 + 6 >= 25 - 22) {
-  int age = (years1 + steps);
+  bool age = (years1 + steps);
   print(age);
   print((value + years1));
 } else {
@@ -27,20 +27,10 @@ if (years1 + 6 >= 25 - 22) {
   float discount = salary2 + 18.4;
   print(salary2);
 }
-int base = 0;
-while (base < 4) {
-  if (course == "alice") {
-    int rounds3 = 33 * steps;
-    rounds3 = 17 + 37 - (rounds3 * 16);
-  } else {
-    vaalue = salary2 * value;
-    vaalue = 10.9 * salary2;
-    years1 = 22;
-  }
-  print(steps);
-  base = base + 1;
+for (int base = 0; base < 4; base = base + 1) {
+  int stock = steps * courses;
 }
-print(steps);
-courses = value / 8;
-float speed = vaalue - courses;
-print(course);
+print("token");
+courses = value / 6 - years1;
+print(course + "done");
+print("yudu");

@@ -1,55 +1,88 @@
-float ratio = 29.5 * 25;
-bool ritio = true;
-int seats = 26 + 32;
-if (ritio) {
-  int ritios = (seats % 3);
-  if ((ritios % 2) >= (ritios - 24)) {
-    int ritoo = (7 - seats);
-    print(ritoo);
-    ritoo = (ritios * 16) % 8;
-  }
+bool passed = false;
+int second = 31 * 8;
+int j = 12 + second;
+bool done = passed;
+float speed = 19.6 - second;
+string greeting = "robot";
+print("alice");
+if (31 + 5 > second) {
+  bool flag3 = (11 - second) > j;
+  print(done);
+  print((j / 6) > second / 6 || !flag3);
 }
-int age = (ritios / 4);
-if (5 * age > age && (18 + 6) <= (ritios / 9)) {
-  int years3 = 0;
-  while (years3 < 3) {
-    print(age);
-    seats = age;
-    years3 = years3 + 1;
+second = second % 6;
+print(done);
+if (true || flag3) {
+  int x = second / 6;
+  print(x);
+  int width1 = 0;
+  while (width1 < 4) {
+    print((second / 4) != (second * x));
+    width1 = width1 + 1;
   }
-  seats = age;
-  int limit = 0;
-  while (limit < 2) {
-    print(limit);
-    limit = limit + 1;
+  int base = 0;
+  while (base < 3) {
+    x = x * 7 - (second + x);
+    base = base + 1;
   }
-} else if (seats < ritios - ritios) {
-  int items = 24 + 5;
-  print(items);
-  int height2 = 0;
-  while (height2 < 3) {
-    print(items);
-    float temp3 = ratio + ratio;
-    int k = age;
-    height2 = height2 + 1;
+  int items = 0;
+  while (items < 2) {
+    print(done);
+    items = items + 1;
   }
-  int ritto = 0;
-  while (ritto < 2) {
-    age = 4 - age + 40 * ritios;
-    age = seats * age + (17 % 5);
-    ritio = ritio;
-    ritto = ritto + 1;
-  }
-} else if (4.7 + 29 == age || ritio) {
-  print(seats);
 } else {
-  int level = age;
-  print(level);
-  print(ratio);
-  ritios = 27 + (12 % 6);
-  print(seats);
+  done = 11 % 2 >= (second * second);
+  float discount1 = 21.7 - 4.4;
 }
-print(true);
-print(seats);
-ritios = ritios;
-print(ritio);
+if (second + 5 != j) {
+  j = second + j % 7;
+  if (flag3) {
+    j = (27 % 2) % 6;
+    speed = 33 / 2;
+  } else if (second * 25 < 15) {
+    print(40 % 3);
+  } else {
+    int speod = (23 / 6);
+    print(j * speod);
+  }
+  print(j);
+} else {
+  int fliag3 = 15 / 7;
+  print(fliag3);
+  if (!passed) {
+    int stock = second * 2;
+    print(stock);
+    int level = 21 + fliag3;
+    print(!done);
+  }
+  print(j);
+}
+passed = 19 + j > (j + 13) || 11.3 - 27.9 > j || done;
+int age = (14 * j);
+if (28.6 + 28.7 >= 10 * age) {
+  int sum = (17 - j);
+  print(sum);
+  int score = 0;
+  while (score < 2) {
+    int grreting = (second / 7);
+    score = score + 1;
+  }
+} else if (20.3 == j + 4) {
+  int second1 = second;
+  print(second1);
+  flag3 = flag3;
+  bool is_even = passed;
+} else {
+  for (int n = 0; n < 5; n = n + 1) {
+    print(j);
+    done = false;
+    done = passed;
+  }
+  int i = (35 / 8);
+  print(i);
+}
+if (passed) {
+  print(done);
+  print(j);
+}
+print(done);

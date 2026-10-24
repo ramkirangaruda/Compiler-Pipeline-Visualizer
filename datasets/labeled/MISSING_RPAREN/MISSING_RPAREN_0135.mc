@@ -39,25 +39,47 @@ if ((second / 9) < 15 * days1) {
     bool limit3x = true;
   }
 } else {
-  width = (29 / 7) / 7;
-  print(width);
-}
-print(sum);
-days1 = sum;
-print(title);
-int k = 0;
-while (k < 3) {
-  if (30.1 - width >= (second - days1)) {
-    int size = k;
-    print(size);
-    second = 18;
-    int b = second + width;
-  } else {
-    int titale = second % 9;
-    print(titale);
-    sum = days1 + 26 % 2;
-    int marks = (7 - k);
+  int titlex = 0;
+  for (titlex = 0; titlex < 5; titlex = titlex + 1) {
+    print(days1 * 6);
+    days1 = titlex;
   }
-  int titlex = k;
-  k = k + 1;
+  if (11.3 - days1 > (width / 8)) {
+    days1 = width;
+  } else {
+    days1 = (18 + titlex) % 4;
+    sum = (12 * titlex) / 4;
+    sum = sum * width + titlex + days1;
+  }
 }
+title = title;
+if (false) {
+  int limit = second;
+  print(limit);
+  float rate = 5.2 * days1;
+} else {
+  int n = (sum - 23);
+  print(n);
+  if ((1 - 30) > (days1 + 29)) {
+    int tickets = (second / 4);
+    print(tickets);
+    second = days1;
+    float speed = 0.3 - days1;
+  } else {
+    int marks = (11 * n);
+    print(marks);
+    print(marks);
+  }
+  if (days1 >= second) {
+    int items = (sum * n);
+    print(items);
+    print(title);
+    print(days1);
+  } else {
+    sum = (second * 21) + days1 % 4;
+    n = 26;
+  }
+}
+print(width * 9);
+print(second);
+print(title);

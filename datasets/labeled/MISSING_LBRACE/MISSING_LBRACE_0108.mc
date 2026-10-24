@@ -1,26 +1,28 @@
-int total = (14 * 16);
-int stock = (total + total);
-int k2 = total + stock;
-int num = (k2 % 7);
-bool enabled = 8.6 + num <= 38 % 4;
-print(total);
-int rounds1 = 0;
-while (rounds1 < 4) {
-  print(num - 30);
-  rounds1 = rounds1 + 1;
+int steps = (4 / 8);
+int second = steps;
+int z = (16 + steps);
+int marks = steps + steps;
+float area3 = 24.7;
+int j = 0;
+while (j < 5) {
+  print((26 * second));
+  print(second % 1);
+  j = j + 1;
 }
-k2 = (k2 - total) + 21;
-int stock3 = 0;
-while (stock3 < 3) {
-  if (31 - 16 > (k2 + stock)) {
-    stock = k2 / 3;
-    print(enabled);
-    print(total);
-  } else 
-    num = k2 / 4;
-  }
-  string label1 = "alice";
-  stock3 = stock3 + 1;
+print(second);
+int width = 12;
+print(z);
+if (width + 9 != j + 0) {
+  int total = (steps * z);
+  print(total);
+  float ratio1 = 7.8;
+} else {
+  print(second != (marks % 8));
 }
-print("alice");
-print((19 + 14));
+for (int result2 = 0; result2 < 3; result2 = result2 + 1) 
+  area3 = area3 + width;
+  float mean = area3 * area3;
+  marks = steps;
+}
+print(second);
+int count = second;

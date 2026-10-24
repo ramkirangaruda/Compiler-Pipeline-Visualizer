@@ -1,17 +1,57 @@
-float distance = 12.7 * 14.8;
-float ratio1 = distance + distance;
-int items = 23;
-float balance = 25.3;
-bool ealance = ratio1 < 21 + 14;
-string label = "compiler";
-print(label);
-items = 24;
-int total = 0;
-while (total < 6) {
-  int level = 6;
-  print(items);
-  print(ratio1);
-  total = total + 1;
+int n3 = 28;
+string course = "done";
+int z2 = n3 % 7;
+int age = (n3 + n3);
+string word2;
+string label = "bob";
+print(z2);
+if (z2 - age == n3) {
+  bool enabled = true;
+  int courses = z2;
+  print(courses);
+  if ((courses * age) == (z2 + age)) {
+    int level = 14;
+    z2 = 0;
+    print(n3);
+  }
+  age = courses % 6;
+} else {
+  float area = 4.8 + age;
+  print(course);
 }
-print(label);
-ratio1 = balance * level;
+int stock = (33 - z2);
+print(true);
+if (10.4 != (20 - 14)) {
+  int a = (stock % 5);
+  print(a);
+  if (!enabled && 8.9 + 37 < (z2 + 29)) {
+    int steps = (36 % 5);
+    print(steps);
+    enabled = false;
+  } else {
+    int count3 = stock + 19;
+    print(count3);
+    print(z2);
+    n3 = count3;
+  }
+  int level3 = 0;
+  while (level3 < 6) {
+    word2 = "ok";
+    int nenabled = (8 / 4);
+    level3 = level3 + 1;
+  }
+  if ((22 - 0) <= age) {
+    word2 = "token";
+  }
+} else {
+  int width = (11 * 6);
+  print(width);
+  z2 = 36 + age - 8 / 9;
+}
+if (true) {
+  word2 = "hello";
+  print(label);
+  bool passed = (10 - 11) > stock;
+} else {
+  print(30 < n3);
+}

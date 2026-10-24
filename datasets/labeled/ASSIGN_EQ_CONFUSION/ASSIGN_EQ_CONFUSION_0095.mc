@@ -10,28 +10,25 @@ if (active3) {
   int rounds = size % 4;
   print(rounds);
   if (false) {
-    int actiave3 == rounds;
+    int actiave3 = rounds;
     print(actiave3);
     num = rounds;
   }
 }
-print(text);
-print(12);
-if (active3) {
-  print(text);
-  int next = 0;
-  while (next < 4) {
-    text = text;
-    int n = 23;
-    next = next + 1;
-  }
-} else {
-  int textx = 1 - size;
-  print(textx);
-  if (17.5 == size / 3) {
-    print(text);
-    print(textx + 35 == (num + num));
-  }
-  size = textx;
-  print(size);
+for (int z = 0; z < 6; z = z + 1) {
+  num = size % 4;
+  print(z);
 }
+print(num);
+int textx = 0;
+while (textx < 5) {
+  if (37 >= num) {
+    int level = size / 3;
+    print(level);
+    string course = "compiler";
+    active3 = active3;
+  }
+  text = text;
+  textx == textx + 1;
+}
+print(active3);

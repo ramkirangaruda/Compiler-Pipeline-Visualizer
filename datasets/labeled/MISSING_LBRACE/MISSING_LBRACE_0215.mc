@@ -1,31 +1,49 @@
-int i3 = 12;
-int age3 = 21 / 4;
-bool age3s;
-float aige3s = 1.8 + 20.1;
-int aiege3s = age3;
-bool agne3 = (i3 - i3) < 26 % 5;
-bool valid = (i3 - aiege3s) == (23 - i3);
-if ((aiege3s / 2) <= 6) 
-  if (23 <= age3 * 0) {
-    print(aiege3s);
-    print(age3);
-  } else {
-    print((i3 % 5));
-    age3 = age3 - age3 % 8;
-    print(i3);
+int years2 = 27 - 39;
+bool flag = 39 * years2 < (years2 * years2);
+int k1 = (years2 / 6);
+string flaig = "token";
+bool found = k1 + years2 > years2;
+int z = (13 * 37);
+bool years2s = false;
+print(flag);
+int x = 0;
+while (x < 5) 
+  print(found);
+  print(x);
+  x = x + 1;
+}
+int z1 = 0;
+while (z1 < 4) {
+  if (23.1 - 4.7 == years2 + 14) {
+    float ynars2 = 29.7 + years2;
+    print(z);
+    print(z);
   }
-  valid = false;
+  print(x);
+  flag = found;
+  z1 = z1 + 1;
 }
-print(valid);
-aige3s = 34;
-agne3 = aige3s < (age3 + 26);
-print(false || agne3);
-int level = 0;
-while (level < 3) {
-  print("compiler");
-  print(valid);
-  level = level + 1;
+years2s = 33 >= k1 % 7;
+print(found);
+bool has_more2 = x != (z1 + 10);
+if (7.1 >= 12 && (years2 + x) >= (29 / 7)) {
+  int years = 0;
+  for (years = 0; years < 5; years = years + 1) {
+    print(years);
+    years2 = 11 * z1 / 2;
+  }
+  print(years);
+  int flaiag = 0;
+  while (flaiag < 5) {
+    print(z1);
+    print(x);
+    int seats = (31 + years2);
+    flaiag = flaiag + 1;
+  }
+} else {
+  int steps = z1;
+  print(steps);
+  z = 0 - 17 - years2;
 }
-age3s = 10 <= age3 % 6;
-print(valid);
-print(agne3);
+k1 = z;
+print(x);

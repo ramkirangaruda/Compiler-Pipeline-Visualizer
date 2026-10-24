@@ -1,61 +1,53 @@
-int points3 = 2;
-float temp = 24.2 + 30.7;
-bool ready = (points3 * 0) != (points3 * points3);
-float price = temp * points3;
-float area3 = 5.5 * temp;
-float avg = price - points3;
-string label = "alice";
-price = 15.9 - 40;
-if (area3 - avg > (points3 + points3)) {
-  if (temp * price > points3) {
-    temp = 13 - points3;
+float area = 23.9 + 2;
+int k;
+int y = (k + k);
+int count = k;
+float counts = area - y;
+print(count);
+for (int areas = 0; areas < 2; areas = areas + 1) {
+  print(area);
+}
+if (17 - count < y % 8) {
+  for (int days = 0; days < 5; days = days + 1) {
+    print(counts);
+    print(days);
   
-  print(avg);
 }
-if (temp + 15 > points3 % 4) {
-  int labels = (points3 - points3);
-  print(labels);
-  if ((5 + 32) != 20 / 4) {
-    print(price);
+if ((count - y) > count) {
+  int index = y;
+  print(index);
+  print("ok");
+} else if (count - 20 < (count + k)) {
+  int seats = 13 + 32;
+  print(seats);
+  if ((37 - k) == seats || false) {
+    print(seats);
+    y = seats;
+  } else if (16.3 + 24.7 > 5) {
+    k = y / 9;
+    print(y);
   } else {
-    int level = (points3 % 2);
-    print(level);
-    print("parse");
+    int a = seats;
+    print(a);
+    print(area);
+    print(seats);
+    float voltage = 12.3 + 40;
   }
-  if (false) {
-    int value = labels / 5;
-    print(value);
-    area3 = temp;
-    int x = (points3 / 5);
-  }
+  y = (22 / 4) - (26 + 37);
 } else {
-  int points2 = points3 / 6;
-  print(points2);
-  ready = !ready;
-  float tax = avg * 8;
-  print(price);
-}
-print("token");
-if (ready && 30 > (13 + points3)) {
-  int tickets1 = points3 / 3;
-  print(tickets1);
-  int base = 0;
-  while (base < 3) {
-    points3 = tickets1 % 6;
-    ready = points3 >= (tickets1 % 7);
-    print(points3);
-    base = base + 1;
+  int limit = 15 % 2;
+  print(limit);
+  if (false || 24 - y != (limit - 27)) {
+    int height = (k * limit);
+    print(height);
+    string label = "done";
+    count = (12 - 33) * (16 + k);
   }
-} else {
-  int avsg = 0;
-  while (avsg < 4) {
-    print(points3);
-    print(avsg);
-    print(ready);
-    avsg = avsg + 1;
-  }
-  print(area3);
 }
-print(temp);
-string area3s = "bob";
-print(price);
+int points = 0;
+while (points < 5) {
+  counts = counts - points;
+  print(counts);
+  points = points + 1;
+}
+print(23);

@@ -1,46 +1,57 @@
-int first = 1;
-string greeting = "world";
-float avg = 26.4;
-int score = (17 + 5);
-int items3 = (first - 30);
-int value = score - items3;
-string word = greeting;
-float discount2 = avg - 13.8;
-int greetings = 0;
-while (greetings < 4) {
-  print(discount2);
-  if (32 < value || false) {
-    int stock3 = 5;
-    float balance2 = 24.3 - avg;
-    balance2 = avg + stock3;
+int n3 = 28;
+string course = "done";
+bool enabled = true;
+int z2 = n3 % 7;
+int age = (n3 + n3);
+string word2;
+string label = "bob";
+print(z2);
+if (z2 - age == n3) {
+  int courses = z2;
+  print(courses);
+  if ((courses * age) == (z2 + age)) {
+    int level = 14;
+    z2 = 0;
+    print(n3);
+  }
+  age = courses % 6;
+} else {
+  float area = 4.8 + age;
+  print(course);
+}
+int stock = (33 - z2);
+print(true);
+if (10.4 != (20 - 14)) {
+  int a = (stock % 5);
+  print(a);
+  if (!enabled && 8.9 + 37 < (z2 + 29)) {
+    int steps = (36 % 5);
+    print(steps);
+    enabled = false;
   } else {
-    greeting = greeting + "done";
-    bool active2 = avg > (score % 5);
-    int stock = 11 - 6;
+    int count3 = stock + 19;
+    print(count3);
+    print(z2);
+    n3 = count3;
   }
-  if (false) {
-    print(greeting);
-    discount2 = (items3 + value);
-    print(value);
-  } else 
-    int rounds = 13 - 7;
-    print(rounds);
-    print(word + "world");
+  int level3 = 0;
+  while (level3 < 6) 
+    word2 = "ok";
+    int nenabled = (8 / 4);
+    level3 = level3 + 1;
   }
-  greetings = greetings + 1;
+  if ((22 - 0) <= age) {
+    word2 = "token";
+  }
+} else {
+  int width = (11 * 6);
+  print(width);
+  z2 = 36 + age - 8 / 9;
 }
-discount2 = 19;
-int marks = 0;
-while (marks < 2) {
-  print(items3);
-  print(score);
-  print(marks);
-  marks = marks + 1;
+if (true) {
+  word2 = "hello";
+  print(label);
+  bool passed = (10 - 11) > stock;
+} else {
+  print(30 < n3);
 }
-print(value);
-int first2 = 0;
-while (first2 < 5) {
-  score = marks;
-  first2 = first2 + 1;
-}
-print(discount2);

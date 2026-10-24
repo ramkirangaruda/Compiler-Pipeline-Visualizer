@@ -1,51 +1,23 @@
-int limit2 = (39 * 4);
-float rate = 24.4;
-int arate = (limit2 + 5);
-int points = arate;
-bool enabled3 = true;
-string name = "bob";
-print(enabled3);
-points = 1 - limit2 * (25 + arate);
-int n = 0;
-while (n < 4) {
-  print(26 - 27);
-  print(arate);
-  n = n + 1;
-}
-if (rate + 5 > points / 1) {
-  int k = (limit2 * limit2);
-  float rate3 = rate - 19;
-  if (limit2 % 6 == points / 8) {
-    int level = 40 + 31;
-    print(level);
-    print(level);
-  } else {
-    int points2 = (0 - points);
-    print(points2);
-    print(k);
-    rate = 1 / 5;
-  }
-  int days = arate - 6;
-}
-if (enabled3 || rate > n) {
-  int stock = (arate % 9);
-  print(stock);
-  print(rate);
-  int size = 0;
-  while (size < 2) {
-    print(k);
-    limit2 = stock - 33 - k * 5;
-    rate = size;
-    size = size + 1;
-  }
+int base = (18 % 5);
+float ratio2 = 2.7 + 31;
+int stock = (base + 28);
+bool valid = 8.7 - 2 >= base;
+string validx = "yudu";
+base = (36 / 5) % 2;
+print(valid);
+if (30 >= (base % 6)) {
+  float discount = ratio2 + 3;
+  print(validx);
+  base = (stock % 9) * 0;
 } else {
-  int first = (28 * points);
-  print(first);
-  if (enabled3) {
-    int nnabled3 = k * limit2;
-    print(nnabled3);
-    print(name == "ok" || true);
-    bool ok = (32 - 24) <= n + 14;
+  ratio2 = 12.3 + base;
+  discount = discount - 16.7;
+}
+for (int raoio2 = 0; raoio2 < 2; raoio2 = raoio2 + 1) {
+  if (discount >= 23 / 3) {
+    float validxx = ratio2 + base;
+    print(validx);
   }
 }
-print(name + "yudu");
+valid = 0 + 11 != (base + stock);
+print(stock);

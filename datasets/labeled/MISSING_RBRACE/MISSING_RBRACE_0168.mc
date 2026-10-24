@@ -1,27 +1,33 @@
-int stock = 15 / 2;
-int rounds3 = stock;
-float rounsds3 = 12.4;
-if (false) {
-  int z = (rounds3 * 24);
-  print(z);
-  int years = 0;
-  while (years < 6) {
-    rounds3 = 28 / 4 * (11 + 36);
-    print("compiler");
-    rounds3 = z % 3 + rounds3;
-    years = years + 1;
+string city = "done";
+int citys = (21 * 5);
+int first = (5 % 8);
+float ceity = 23.9 + citys;
+bool flag = false;
+first = 2 * first + (citys + first);
+if (citys % 2 > first / 1) {
+  citys = citys;
+  if (25 <= (31 + first)) {
+    float tax = ceity - 24.9;
+    first = 17;
+  } else {
+    print(ceity);
   }
- else {
-  int count1 = (rounds3 - rounds3);
-  print(count1);
-  print(stock);
+  print(flag);
+ else if (true) {
+  int n = (first - 24);
+  print(n);
+  print(n);
+  int height1 = (n * 4);
 }
-rounsds3 = (rounds3 + 2);
-print(rounsds3);
-print(rounds3);
-stock = 19;
-print(stock);
-print("bob");
-print(stock);
-rounds3 = rounds3 - stock + 28;
-print(rounsds3);
+int b = 30 % 2;
+if ((b / 7) <= 26 + first) {
+  print(first);
+} else {
+  string greeting = "yudu";
+  if (flag && flag) {
+    print(b);
+    print(ceity);
+    string ceitey = "done";
+  }
+}
+ceity = ceity;

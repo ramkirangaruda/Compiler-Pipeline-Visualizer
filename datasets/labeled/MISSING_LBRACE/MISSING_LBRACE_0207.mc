@@ -1,58 +1,35 @@
-bool ready = true && (19 + 36) == (32 + 24);
-int b;
-int k = b;
-float balance = 16.1;
-bool ok = k / 4 != (k + b);
-int score = 0;
-while (score < 4) {
-  print(k);
-  score = score + 1;
-}
-ok = b != k;
-int score2 = 0;
-while (score2 < 4) {
-  ok = balance + 6.1 > score2 / 1;
-  int rounds = 32;
-  score2 = score2 + 1;
-}
-if (!ready && 7 + 2 >= score) {
-  int tickets1 = (score + b);
-  print(tickets1);
-  int z = 0;
-  while (z < 5) 
-    balance = 1.7;
-    z = z + 1;
+int n = 34;
+float discount2 = 6.2 - 3.1;
+float temp3;
+string greeting1 = "parse";
+float speed = 26.7 - 0;
+float balance1 = 11.9;
+bool found = true;
+print(greeting1);
+string text3 = "pipeline";
+if (found) {
+  int points = 0;
+  for (points = 0; points < 2; points = points + 1) {
+    found = found;
+    speed = (5 / 3);
+    string obalance1 = "hello";
   }
-  ok = b < z + score2;
-} else {
-  int first = 0;
-  while (first < 6) {
-    balance = balance * score;
-    ok = ok;
-    ready = balance + balance >= (36 - first);
-    first = first + 1;
+  print(points);
+} else if (greeting1 == "alice") 
+  balance1 = (13 - n);
+}
+int lives = 0;
+while (lives < 3) {
+  if (found) {
+    print(found);
+    print(16 >= (n + lives));
   }
-  print(b);
-  print(score);
+  print(text3);
+  print(balance1);
+  lives = lives + 1;
 }
-int level = 0;
-while (level < 6) {
-  ready = ready;
-  print(balance);
-  level = level + 1;
+for (int j1 = 0; j1 < 5; j1 = j1 + 1) {
+  n = (n + n) + (6 / 5);
+  bool ok = n >= (34 - n);
 }
-if ((39 + score) <= (level % 2)) {
-  b = k;
-  float voltage = balance * 17;
-} else if (4.5 < k + 13) {
-  print(balance);
-  b = 7;
-} else {
-  int items = (23 % 5);
-  print(items);
-  int num = 15;
-  string nem = "done";
-  print(nem);
-}
-print(score2);
-print(b);
+print(speed);

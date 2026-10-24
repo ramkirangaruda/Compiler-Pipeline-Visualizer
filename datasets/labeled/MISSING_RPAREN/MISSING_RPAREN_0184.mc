@@ -17,21 +17,49 @@ if (city == "ok" && true) {
   if ((25 / 7) != height1 * value) {
     float area = rate;
     print(city);
-    iate = (total + total + 10;
+    iate = (total + total) + 10;
   } else {
     iate = value + (total - height1);
   }
 }
 if (false) {
-  city = "robot";
-  int tickets = 0;
-  while (tickets < 4) {
-    iate = (iate - 2) % 6;
-    tickets = tickets + 1;
+  for (int first1 = 0; first1 < 4; first1 = first1 + 1) {
+    rate = rate - rate;
+    rate = 28 * value;
+    print(city);
   }
-} else {
-  int second = (total + height1);
+  iate = 32 - 3 + height1;
+} else if (city == "alice") {
+  iate = 8 + 34 % 3;
 }
-total = height1;
-iate = z / 6 * (z + height1);
-string heioght1 = city + "ok";
+int score = 0;
+while (score < 5 {
+  value = 7 + iate * height1 - total;
+  score = score + 1;
+}
+int x = 0;
+while (x < 5) {
+  print(height1);
+  if (34 * x != 6 * 4) {
+    int steps = 23;
+    print(steps);
+    print(city);
+  }
+  x = x + 1;
+}
+if (rate != 10) {
+  rate = 25.9 + rate;
+  if (13 * 14 >= score) {
+    int ratex = 15;
+    print(rate);
+  } else {
+    print((13 * height1));
+    bool ready = city != "token" && city != "yudu";
+    rate = rate;
+  }
+  int tickets = iate / 3;
+} else {
+  total = x;
+  iate = 39 * 4 % 8;
+}
+print(score);

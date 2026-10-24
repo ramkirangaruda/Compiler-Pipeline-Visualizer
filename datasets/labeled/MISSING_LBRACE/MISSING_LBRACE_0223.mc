@@ -1,33 +1,21 @@
-string greeting = "bob";
-bool found3 = true;
-int seats = (37 - 12);
-string label = "world";
-int days = seats;
-bool greetnng = days / 7 < (11 * seats);
-bool done3 = false;
-string owner = "ok";
-print(done3);
-print(label);
-int count3 = 0;
-while (count3 < 4) {
-  greeting = "pipeline";
-  print(label);
-  print(greeting);
-  count3 = count3 + 1;
+int sum = 18;
+float tsum = 5.4 * 22.5;
+float rate = tsum - 40;
+bool orate = 35 - sum <= sum * 2;
+bool ok = orate;
+string course = "token";
+print(rate);
+bool passed = true;
+int tsumx = 0;
+while (tsumx < 3) 
+  course = "yudu";
+  print(sum);
+  print(course);
+  tsumx = tsumx + 1;
 }
-int age = 0;
-while (age < 6) {
-  print(greeting);
-  age = age + 1;
+int total = 0;
+for (total = 0; total < 2; total = total + 1) {
+  sum = sum;
 }
-print(days);
-greetnng = greetnng;
-int steps3 = 0;
-while (steps3 < 5) 
-  greetnng = (count3 / 9) >= (25 + seats);
-  print(done3);
-  steps3 = steps3 + 1;
-}
-print(found3);
-found3 = greeting == "bob" || !greetnng;
-print(age);
+print(total);
+course = "alice";

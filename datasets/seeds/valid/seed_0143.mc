@@ -8,60 +8,23 @@ print(2 * marks);
 if ((marks + marks) > 2) {
   marks = (5 + second) + (second % 1);
 } else {
-  int eound = 0;
-  while (eound < 5) {
-    found = eound / 8 == eound % 8;
-    print(marks);
+  for (int eound = 0; eound < 5; eound = eound + 1) {
     print(markes);
-    eound = eound + 1;
+    print(marks);
+    print(eound);
   }
 }
-if (!found) {
-  if (found) {
-    int score = second;
-    print(score);
-    print(second);
-    print(score);
-    print(16.5 - 30 >= score);
-  } else {
-    found = !found;
-    marks = (2 + second) + (second - second);
-  }
-}
-print(!found);
-if (second / 7 <= (second / 6)) {
-  print("pipeline");
-  int items = 0;
-  while (items < 6) {
-    int height = 25;
-    items = items + 1;
-  }
+bool done = (second + second) > 1 + second;
+print(done);
+int tickets = 36 % 1;
+float marksx = 15.7;
+if (marksx - second >= 12 % 5) {
+  int first = (second / 5);
+  print(first);
+  int level = tickets;
 } else {
-  print(found);
-  if (true || !markes) {
-    found = 22.4 > second * marks;
-    second = marks;
-    bool enabled1 = 21.9 >= 31 + second;
-  } else if (22.7 * 26.2 < 3) {
-    int lives2 = marks;
-    print(lives2);
-    print(found);
-  } else if ((40 + marks) > marks % 8) {
-    int age3 = second - 16;
-    print(age3);
-    print(second);
-    float tax2 = 14.1 * marks;
-  } else {
-    int i = second + second;
-    print(i);
-    print("yudu");
-  }
-  if (22.5 <= 39) {
-    print(found);
-    found = second * 33 >= marks - marks;
-    bool valid = markes;
-  }
+  int height2 = 22;
+  print(height2);
+  print(tickets);
+  tickets = 19;
 }
-markes = marks <= 37 / 1;
-print(second);
-print(second);

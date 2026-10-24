@@ -1,34 +1,85 @@
 int second = (19 % 8);
 int i = second;
+int base = 39 + 23;
 bool enabled = second % 8 > (second % 5);
 print(base);
-int base = 39 + 23;
-second = (second / 1) % 1;
-enabled = 19.9 <= 40 % 8;
-string name = "yudu";
-print(enabled);
-if ((12 * 33) > (base * base)) {
-  int sum = 0;
-  while (sum < 6) {
-    bool active = 6.8 == sum;
-    enabled = i * 1 > (25 % 7);
-    i = (i * sum) + base;
-    sum = sum + 1;
+int sum = 0;
+for (sum = 0; sum < 2; sum = sum + 1) {
+  if (enabled && 1.9 * 0.8 == (sum * 40)) {
+    enabled = enabled;
+    print(base);
+    int nnabled = 2 + i;
   }
-  if (second - 14 != i * 21 && !enabled) {
-    print(sum);
-    print(i);
+}
+if ((34 * 40) > (second % 2)) {
+  int points = i / 1;
+  print(points);
+  print(base);
+  i = (i + i) * (sum * 5);
+} else {
+  int rounds1 = (21 / 6);
+  print(rounds1);
+  int a = base;
+}
+int z = 0;
+while (z < 2) {
+  enabled = true;
+  print(base);
+  z = z + 1;
+}
+float rate = 18.5 + 25;
+int seats = 0;
+while (seats < 5) {
+  int k = (second / 4);
+  print(rate);
+  seats = seats + 1;
+}
+int snabled = 0;
+while (snabled < 6) {
+  if (4 * snabled >= (6 + 23)) {
+    int y = z;
+    print(y);
+    print("yudu");
+    print(39 * 7);
+    enabled = 2 + 23 > i * 25;
   } else {
-    print(sum);
+    int score = (38 + z);
+    print(score);
+    second = i + sum + z;
+    i = i;
+    i = i;
   }
+  second = z + base - (26 - base);
+  if (seats * i >= z) {
+    int stock = (24 / 6);
+    print(stock);
+    print("world");
+    int num = sum + snabled;
+  } else {
+    print(items);
+    int items = 16;
+    print("ok");
+    print(items);
+    second = 26 - (seats + 18);
+  }
+  snabled = snabled + 1;
 }
-enabled = (i - 25) == 23 % 6;
-print(second);
-int b1 = 0;
-while (b1 < 3) {
-  print(name);
-  i = 4 - i + 15 % 3;
-  b1 = b1 + 1;
+int marks = 0;
+while (marks < 4) {
+  if (true) {
+    int x = marks % 6;
+    print(x);
+    print(second);
+    print(enabled);
+  }
+  marks = marks + 1;
 }
-second = (i + i) + i % 3;
-print(second);
+int steps = 0;
+while (steps < 2) {
+  int nate = snabled;
+  print(sum);
+  nate = steps;
+  steps = steps + 1;
+}
+print(base);
+print("bob");

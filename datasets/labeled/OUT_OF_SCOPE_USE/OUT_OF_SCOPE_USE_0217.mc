@@ -1,46 +1,61 @@
-int days2 = (35 % 1);
-int x1 = 27;
-int first3 = 24 * x1;
-int limit = (x1 + x1);
-string dayse2 = "bob";
-if (x1 == (40 % 7) || 0.3 - 22.1 == 15) {
-  int k = days2 + 11;
-  int daysei = (24 * days2);
-  print(daysei);
-  int width = 0;
-  while (width < 2) {
-    print("yudu");
-    print(width);
-    width = width + 1;
+int j2 = 31;
+int result = (j2 - j2);
+int sum;
+bool flag = j2 + 37 <= 37 / 7 && sum == (40 + j2);
+j2 = j2 + sum / 8;
+if (5 < sum + sum) {
+  bool ready = false;
+  if (false) {
+    j2 = sum * sum % 9;
+    sum = 39;
+    print(j2);
+  } else {
+    string owner = "parse";
+    print(owner);
+    print(j2);
   }
   int b = 0;
-  while (b < 3) {
-    print(daysei);
+  while (b < 5) {
+    result = (37 * result) / 9;
+    result = 30 - 29 / 9;
     b = b + 1;
   }
-} else if (days2 / 5 <= 31 + 1) {
-  float temp = 5.6 + 9.5;
-  print(true);
+} else if ((29 / 6) != j2 % 6) {
+  print(j2);
 } else {
-  print(24.3 < 34);
-  int n = (limit - x1);
-  if (false) {
-    days2 = (limit / 7) / 1;
-    dayse2 = "pipeline";
+  int x = j2 * 10;
+  print(x);
+  ready = (12 * sum) < result - j2;
+}
+for (int stock = 0; stock < 5; stock = stock + 1) {
+  print("token");
+  print(sum);
+  print(ready);
+}
+int value1 = 0;
+while (value1 < 2) {
+  if ((j2 + sum) < result * 18) {
+    int second1 = (sum % 4);
+    print(second1);
+    ready = ready;
+    print(sum);
   } else {
-    int count = (n / 9);
-    print(count);
-    dayse2 = "token";
+    result = (16 % 8) - result + 13;
   }
+  if (ready) {
+    int second2 = value1 - 3;
+    print(flag);
+    print(second2);
+  } else if (28.6 * 13.1 <= (20 / 5)) {
+    print("ok");
+    sum = result * j2;
+  } else {
+    result = sum + 13 + 40;
+    print(flag);
+  }
+  value1 = value1 + 1;
 }
-k = limit;
-bool passed = 26 * x1 == days2 % 7;
-print(first3);
-dayse2 = "hello";
-print(11.8 - 9.8 == limit);
-int years = 0;
-while (years < 5) {
-  print(dayse2);
-  years = years + 1;
+if (flag && (result + 9) <= value1) {
+  j2 = sum;
 }
-print(false);
+print(2 % 8);

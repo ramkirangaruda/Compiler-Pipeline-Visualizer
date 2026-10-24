@@ -1,26 +1,30 @@
-int z1 = (3 / 1);
-float ratio = 12.5 * z1;
-int sum1 = 31 * 16;
-float discount = 3.9 + 17;
-bool sum1s = ratio + z1 <= z1 + 30 || (6 % 2) >= (10 - 19);
-print(z1);
-print(ratio);
-print(ratio);
-string label = "bob";
-int y1 = 0;
-while (y1 < 4) 
-  if (false) {
-    print(sum1s);
-    ratio = 26.7 - sum1;
-    print(y1);
+int stock2 = 35;
+bool ok = (stock2 / 1) <= stock2 + stock2;
+int rounds = (13 + stock2);
+int result = stock2;
+string course2 = "bob";
+print(course2);
+print(ok);
+print(result);
+if (!ok && (result + result) >= 34) 
+  int steps = (11 + stock2);
+  print(steps);
+  steps = (15 + 16) / 1;
+  print(9 + stock2);
+} else {
+  float voltage = 9.8 - 16;
+}
+for (int base = 0; base < 2; base = base + 1) {
+  float temp = 15.8;
+  print(base);
+}
+int course2x = 0;
+for (course2x = 0; course2x < 3; course2x = course2x + 1) {
+  result = 25 - stock2 / 6;
+  if (false && 7.9 != course2x - stock2) {
+    print(rounds);
+    print(course2x);
   }
-  z1 = sum1;
-  y1 = y1 + 1;
 }
-int points1 = 0;
-while (points1 < 3) {
-  label = label + "compiler";
-  points1 = points1 + 1;
-}
-sum1s = y1 - sum1 != (z1 / 2);
-print(label);
+print(course2x);
+course2 = "done";

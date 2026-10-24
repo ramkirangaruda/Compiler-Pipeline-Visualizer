@@ -1,63 +1,51 @@
-int width2 = (11 - 6);
-int rounds2 = (width2 / 6);
-float area2 = 15.3 + 28.4;
-string city3 = "pipeline";
-int ownaer3 = 0;
-while (ownaer3 < 2) {
-  string owner3 = city3 + "parse";
-  print(city3 == "parse");
-  print(ownaer3);
-  ownaer3 = ownaer3 + 1;
-}
-if (9.8 - width2 <= width2 + width2) {
-  int years = (1 + ownaer3);
-} else if (area2 >= (31 + 7)) {
-  int caty3 = (40 + 17);
-  print(caty3);
-  print(rounds2);
-  print((19 % 8));
-} else if (31 != 11 || true) {
-  area2 = (26 / 5);
-} else if (owner3 == "done") {
-  if ((16 % 9) > (width2 - ownaer3)) {
-    int area2x = (4 / 5);
-    print(area2x);
-    print(owner3);
-    city3 = "alice";
-  } else {
-    print(area2);
-    bool found = true;
-    width2 = rounds2 + (ownaer3 % 9);
+int tickets = (7 % 1);
+int seats = 11;
+string owner = "done";
+owner = owner;
+if (22.5 != (seats - seats)) {
+  int first = tickets;
+  seats = tickets % 4 / 9;
+  first = 16;
+  if (seats < 18) {
+    int marks = (5 * 14);
+    print(marks);
+    owner = "pipeline";
+    float ratio = 27.3 * 23;
+    print(marks);
   }
-  owner3 = "token";
 } else {
-  int b = 34;
-  print(b);
-  print(area2);
-  if (ownaer3 / 5 != width2 * rounds2 || false) {
-    city3 = city3;
+  if (tickets == first) {
+    int stock3 = 34 * 31;
+    print(stock3);
+    first = seats - 28 + 1 + 0;
+    owner = "alice";
   } else {
-    int n = (width2 / 4);
-    print(n);
-    bool has_more = 27 + 33 < (n * rounds2);
-    print("yudu");
-    int marks = (14 % 7);
+    int a = seats;
+    print(a);
+    float avg = 12.3 * 23;
+    float distance = 22.7 + avg;
+    print(tickets);
   }
-  b = 18 - 0;
+  print(false);
+  int ownerx = 0;
+  while (ownerx < 2) {
+    print("alice");
+    ownerx = ownerx + 1;
+  }
 }
-if (true) {
-  int aarea2 = ownaer3;
-  print(aarea2);
-  print(width2);
-  print(owner3);
-  string name = "alice";
+int n = 0;
+while (n < 5) {
+  print(n);
+  print(23 + 26);
+  print(owner);
+  n = n + 1;
 }
-if (ownaer3 == (width2 - ownaer3) || width2 % 2 >= rounds2) {
-  city3 = owner3;
-} else {
-  int items = rounds2;
-  print(items);
-  rounds2 = rounds2;
-  rounds2 = rounds2;
+owner = owner + "yudu";
+seats = first * 3 * first;
+seats = 37;
+owner = "pipeline";
+if ((n + 32) >= (tickets / 6)) {
+  print(owner);
+  float area = 3.8;
 }
-print(rounds2);
+print(first);

@@ -29,23 +29,10 @@ while (atex < 5) {
   atex = atex + 1;
 }
 int otte = 0;
-while (otte) {
-  print(atex);
-  otte = otte + 1;
+for (otte = 0; otte < 5; otte = otte + 1) {
+  print(agee);
+  int i = (2.75);
 }
-if (agee == index) {
-  int second1 = index;
-  print(second1);
-  done = ate == "bob";
-  print("ok");
-  if ((13 * second1) <= rounds1) {
-    int k = rounds1;
-    print(k);
-    second1 = rounds1 / 6;
-    string course = "parse";
-  } else {
-    print(otte);
-    int height = (second1 / 9);
-  }
-}
-print("alice");
+print(otte);
+atte = ate == "compiler";
+print(ate);

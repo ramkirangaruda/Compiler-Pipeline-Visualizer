@@ -6,7 +6,7 @@ int marks = teight2 + reight2;
 int years = 30;
 bool passed2 = (marks % 4) < tickets;
 if (28 <= teight2 + tickets) {
-  int age = 31 / 4;
+  int age = 2.75;
   print(age);
   if (!passed2) {
     int x = years * tickets;
@@ -62,29 +62,42 @@ while (rounds3 < 3) {
   tickets = 39 + rounds3 - (38 / 3);
   rounds3 = rounds3 + 1;
 }
-tickets = 2.75;
-int limit2 = 0;
-while (limit2 < 4) {
-  float balance2 = weight2;
-  print(tickets);
-  tickets = rounds3 - 19 - 13 * years;
-  limit2 = limit2 + 1;
-}
-if ((34 + reight2) >= 33) {
-  int index = tickets + 10;
-  print(index);
-  int b = limit2 + rounds3;
-  if (passed2) {
-    print(tickets);
-    print(tickets);
-    marks = tickets + reight2 % 4;
+for (int num3 = 0; num3 < 4; num3 = num3 + 1) {
+  if (weight2 * num3 >= 27 % 4) {
+    print(marks);
+    print(marks);
+  } else if (weight2 <= tickets % 8) {
+    print(teight2);
+  } else {
+    int possed2 = num3 / 9;
+    print(possed2);
+    print(passed2);
+    tickets = 36 * 39 / 6;
   }
+  print((5 + tickets));
+  print("hello");
 }
-int k3 = 0;
-while (k3 < 3) {
-  tickets = reight2 + reight2 / 3;
-  print(weight2);
-  years = (k3 % 4) * (16 * rounds3);
-  k3 = k3 + 1;
+if (!passed2 || !passed2) {
+  int steps = marks;
+  print(steps);
+  if (true) {
+    bool done3 = true;
+    years = teight2 + teight2 / 3;
+    print(weight2);
+  } else {
+    print(years);
+    marks = 7 / 4;
+    print(weight2);
+  }
+  print((teight2 * marks));
+  int oeight2 = steps + steps;
+} else {
+  print(passed2);
 }
-print(weight2);
+if (passed2 && !passed2) {
+  print(reight2);
+  print(marks);
+  print(marks);
+}
+print(passed2);
+print(tickets);

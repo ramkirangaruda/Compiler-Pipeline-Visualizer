@@ -1,82 +1,52 @@
-string city2 = "done";
-float price = 7.9;
-string name = "compiler";
-bool flag = price != 1;
-if (flag) {
-  print(flag);
-  int total = 0;
-  while (total < 4) {
-    print(22);
-    total = total + 1;
+string owner = "alice";
+int steps = 20 % 1;
+float rate2 = 12.1 - 28;
+bool passed3 = (1 - 31) == steps && false;
+bool enabled = passed3 || 17.6 - 6 != steps;
+if (31 + steps > steps % 9) {
+  steps = (14 + steps) * steps;
+ else {
+  int rounds3 = 35;
+  print(rounds3);
+  for (int size = 0; size < 5; size = size + 1) {
+    print(steps);
+    passed3 = true;
+    int width = steps;
   }
-} else if (27 + 18 < 18 || 19 != 16 % 1) {
-  int total3 = 21;
-  print(total3);
-  int rounds = 0;
-  while (rounds < 5) {
-    print((19 % 5));
-    print(flag);
-    print(rounds);
-    rounds = rounds + 1;
-  }
-} else {
-  int sum1 = 31;
-  print(sum1);
-  int total1 = 0;
-  while (total1 < 4) {
-    print(city2);
-    price = sum1 / 2;
-    city2 = "yudu";
-    total1 = total1 + 1;
-  }
-}
-print(price);
-if (flag || false) {
-  int years = 0;
-  while (years < 5) {
-    city2 = name + "yudu";
-    city2 = name + "done";
-    float balance = 12.5;
-    years = years + 1;
-  }
-}
-flag = flag;
-if (false && 3 % 1 >= 20) {
-  int index2 = 0;
-  print(index2);
-  if (index2 + 18 == index2 - 32) {
-    print(true);
+  if ((36 / 6) < (8 * 21)) {
+    owner = "hello";
   } else {
-    index2 = index2;
-    print(city2);
+    int seats = steps;
+    print(seats);
+    passed3 = 30.6 + rate2 >= 0 || rounds3 + steps != (33 + steps);
+    print((rounds3 / 2) == 3 + 34);
+    int index = (6 - seats);
   }
-  int second = 0;
-  while (second < 6) {
-    print(price);
-    second = second + 1;
+  if ((rounds3 * steps) < (20 - 20)) {
+    int result = 21 - steps;
+    print(result);
+    int rounds = steps;
   }
-  int a = second;
-} else {
-  int i = 5 * 22;
-  print(i);
-  int score = 0;
-  while (score < 5) {
-    flag = flag;
-    print(price);
-    float area = price * score;
-    score = score + 1;
-  
 }
-price = 26 * 11;
-print(flag);
-print(14 < (17 * 29));
-if (price >= 19 / 9) {
-  int steps = 0;
-  while (steps < 2) {
-    int age = steps;
-    int sname = (steps * 19);
-    steps = steps + 1;
-  }
-} else {
-  print(false);
+int passaed3 = 0;
+for (passaed3 = 0; passaed3 < 3; passaed3 = passaed3 + 1) {
+  print(passed3);
 }
+print(passaed3);
+if (passaed3 * passaed3 <= 40) {
+  int points1 = 0;
+  while (points1 < 6) {
+    enabled = passed3 && 22 < passaed3 - 32;
+    points1 = points1 + 1;
+  }
+  int days = 0;
+  while (days < 4) {
+    print(enabled);
+    print((26 - 14));
+    days = days + 1;
+  }
+}
+print(enabled);
+print(enabled);
+passed3 = (passaed3 / 5) <= (16 * steps);
+print(enabled);

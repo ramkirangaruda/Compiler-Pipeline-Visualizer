@@ -1,83 +1,72 @@
-int n1 = 13 / 9;
-int stock3 = 36 / 3;
-float balance = 15.9;
-int j = 22 - 22;
-int height = 27 % 9;
-bool found1 = 21 % 8 != (stock3 - n1);
-string title = "token";
-print(title + "alice");
-if (j >= 25) {
-  float avg = balance;
-  int tickets = 22 - 31;
-  print(tickets);
-  print("yudu");
-  if (!found1) {
-    int avt = (stock3 % 2);
-    print(avt);
-    bool valid = balance != 30 - stock3;
-  }
-  title = title;
-} else if (!found1 || height + height != stock3 - 29) {
-  int items = j;
-  print(items);
-  j = stock3;
-  print(height);
-} else {
-  int level = 24 + stock3;
-  print(level);
-  print(height);
-  int level2 = 0;
-  while (level2 < 3) {
-    print(avg);
-    print((height + 37) != (stock3 % 6));
-    float price2 = balance + avg;
-    level2 = level2 + 1;
-  }
-  if (!found1) {
-    height = 34;
-  }
+int level = 8;
+int count = 30 % 7;
+int z3 = (count / 1);
+int limit = (15 + 32);
+int height = 28 % 9;
+bool flag = 8.3 - limit > count + z3;
+string label3 = "hello";
+level = 17 * 31 % 6;
+for (int flae = 0; flae < 3; flae = flae + 1) {
+  string word = label3;
+  z3 = flae + height + limit;
 }
-int index = n1;
-print(stock3 - 27 >= 18 - 39);
-if (!found1) {
-  stock3 = n1;
-  if (18.6 - avg >= stock3) {
-    int count3 = (j + height);
-    print(count3);
-    index = (j * height) % 5;
-    print("ok");
-  } else if (!found1) {
-    int marks2 = height + 22;
-  }
-  print(6 / 5 <= height && balance - avg > index);
-}
-if (title == "ok") {
-  int limit = 22 * index;
-  print(limit);
-  int x = 0;
-  while (x < 3) {
-    float nound1 = avg * 23;
-    x = x + 1;
-  }
-  if (6.2 * 39 <= index || 25 != 28 / 9) {
+if (flag) {
+  int items = (4 % 3);
+  for (int days = 0; days < 3; days = days + 1) {
+    limit = 19;
     print(limit);
-    print(limit);
-    print(index);
-  } else {
-    print(found1);
+    float salary = 23.1;
   }
-} else if (!found1) {
-  int k = index + stock3;
-  print(k);
-  avg = avg - balance;
+  int seats = (33 + 15);
+  print(label3);
 } else {
-  balance = balance * 39;
-  int result = 0;
-  while (result < 2) {
-    height = (j * height) + height;
-    print(n1);
-    result = result + 1;
+  int stock1 = (39 + 7);
+  print(stock1);
+  print(17);
+  for (int sum3 = 0; sum3 < 2; sum3 = sum3 + 1) {
+    int label3x = 26;
   }
 }
-print(n1);
-print(found1);
+if (flag) {
+  for (int x = 0; x < 3; x = x + 1) {
+    print(level);
+    limit = (39 % 8) / 2;
+    int width = count - height;
+  }
+  int flags = 0;
+  while (flags < 5) {
+    count = z3;
+    flags = flags + 1;
+  }
+  label3 = "compiler";
+}
+print(items);
+int width2 = 0;
+while (width2 < 2) {
+  if (false) {
+    int n3 = (limit + 25);
+    print(n3);
+    print(flag);
+    height = 23;
+    print(height);
+  }
+  print(flag);
+  width2 = width2 + 1;
+}
+print(width2);
+if (flag) {
+  int years1 = 21 * 27;
+  print(years1);
+  items = items % 3 / 5;
+} else if (flag) {
+  if (21 / 2 != limit) {
+    int k = (limit / 4);
+    print(k);
+    flag = flag;
+  }
+}
+print(label3);
+for (int value = 0; value < 4; value = value + 1) {
+  count = (value % 3) / 2;
+}
+print(limit);

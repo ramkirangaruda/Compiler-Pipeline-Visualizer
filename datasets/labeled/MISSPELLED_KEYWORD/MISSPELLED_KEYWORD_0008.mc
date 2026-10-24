@@ -21,44 +21,28 @@ if (i == (y + 5)) {
   float area = balance + balance;
   print(enabled3);
   int second = 0;
-  while (second < 2) {
-    print(word);
-    second = second + 1;
+  for (second = 0; second < 2; second = second + 1) {
+    print(enabled3);
+    y = i;
   }
+  print(second);
 }
-if (enabled3) {
-  int index = (37 + i);
-  print(index);
-  int height = 0;
-  while (height < 6) {
-    word = "ok";
-    height = height + 1;
-  }
+bool found = (16 / 9) <= size;
+word = word;
+print((size + 33));
+if (13.2 * y >= size) {
+  int points = 11 + y;
+  print(points);
+  print(15 == (i % 7));
+  points = (i / 2) % 8;
 } else {
-  int wordx = 33 - 6;
-  print(wordx);
+  bool sizie = balance == y && size + size == (3 % 2);
+}
+prizt(32);
+int count = 0;
+while (count < 4) {
+  print(count);
   print(enabled3);
-  prizt(wordx);
+  count = count + 1;
 }
-print(size);
-if (enabled3) {
-  int level = size;
-  print(level);
-  print(i);
-} else {
-  float tax1 = 30.7;
-  int marks = 0;
-  while (marks < 3) {
-    float discount = 5.3 + tax1;
-    print(y);
-    marks = marks + 1;
-  }
-}
-print("token");
-int score = 0;
-while (score < 4) {
-  y = 37 % 8 / 6;
-  score = score + 1;
-}
-print(balance);
-print(score);
+print(found);

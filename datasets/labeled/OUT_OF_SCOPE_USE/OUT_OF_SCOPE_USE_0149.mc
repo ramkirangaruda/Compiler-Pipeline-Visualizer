@@ -1,116 +1,82 @@
-string name = "robot";
-bool ok = false || 13.7 > 4 * 22;
-int names = 0 % 8;
-string greeting = name + "yudu";
-if (!ok) {
-  bool passed = 12.7 + 23.7 <= (names + names);
-  int n1 = names;
-  print(n1);
-  int size2 = 0;
-  while (size2 < 3) {
-    name = "hello";
-    print(names);
-    ok = ok;
-    size2 = size2 + 1;
-  }
+string owner = "alice";
+int items = (32 * 32);
+float mean = 10.4;
+bool ready1 = 6 >= items / 7;
+int ready1x = (items + 17);
+int meann = 0;
+while (meann < 2) {
+  bool is_even = mean + items != (11 + items);
+  string text = "parse";
+  meann = meann + 1;
 }
-names = names + 27 * (5 - names);
-if (0 + 6 > (names + names)) {
-  passed = (38 / 8) <= (names + 12);
-  print(greeting);
-  if (names - names < (names / 4)) {
-    int n = names * names;
-    print(n);
-    print(greeting != "ok");
-  } else {
-    ok = 27 <= 39 / 4;
-    float rate3 = 16.9 - names;
-    greeting = "done";
+float temp = 14.5 - 32;
+if (ready1x - 16 < meann + 30 || (items - 37) != 18 + 8) {
+  int score = (ready1x / 9);
+  print(score);
+  mean = 14.8;
+  print(items);
+} else if ((ready1x + ready1x) > (meann % 5)) {
+  int index3 = ready1x;
+  print(index3);
+  int height = 0;
+  while (height < 2) {
+    int size1 = index3 + 12;
+    height = height + 1;
   }
-}
-int steps = 0;
-while (steps < 4) {
-  print(steps);
-  name = "done";
-  steps = steps + 1;
-}
-if (33 + steps > (19 - steps)) {
-  int passedx = names;
-  print(passedx);
-  if (ok) {
-    print(steps);
-    print(greeting == "bob");
-  } else {
-    int num3 = passedx * names;
-    print(num3);
-    bool has_more = 30.6 - 6.3 <= (8 + 23);
-    num3 = 28;
-  }
-  int y2 = 0;
-  while (y2 < 2) {
-    int second = (40 - steps);
-    print(greeting);
-    print(greeting);
-    y2 = y2 + 1;
-  }
+  print(owner);
 } else {
-  int rounds = (3 + steps);
-  print(rounds);
-  greeting = "done";
-}
-greeting = "parse";
-int k = 0;
-while (k < 3) {
-  if (true) {
-    int lives = 9;
-    float avg1 = 15.2 + 19;
-    print(ok);
-  } else {
-    ok = 13.5 * 23.5 == k % 7;
-    print(ok);
-  }
-  print(k);
-  k = k + 1;
-}
-if (14.7 * 1.8 >= k + names) {
-  int marks1 = steps;
-  print(marks1);
-  if (10.3 == (steps + names)) {
-    int points2 = (1 + marks1);
-    print(points2);
-    bool ready = 31 % 4 >= 4 / 4;
+  owner = "alice";
+  print(meann);
+  int width = 0;
+  while (width < 3) {
+    ready1 = is_even;
+    width = width + 1;
   }
 }
-ok = steps / 4 >= 38 / 1;
-if (passed || 5.9 * names == steps + k) {
-  int k2 = steps;
-  print(ok);
-} else if (28.1 - 26 <= names % 8) {
-  int marks = 0;
-  while (marks < 4) {
-    print((k * k));
-    print(30.7 - names != (22 - k));
-    print(passed);
-    marks = marks + 1;
+temp = 21.1 * 5;
+if (0 + 29 < (meann % 6)) {
+  int points = 0;
+  while (points < 6) {
+    print(ready1x);
+    print(temp);
+    print(temp);
+    points = points + 1;
   }
+  print(is_even);
+  print(points);
 } else {
-  if (11.2 - 3.4 == 21) {
-    int passtd = steps + names;
-    print(passtd);
-    ok = (names % 9) != 10 % 4;
+  if ((32 + 12) >= (13 % 4) || is_even) {
+    int a = (ready1x / 6);
+    print(a);
+    print(ready1);
+    ready1x = items;
+  } else if (24 + ready1x > (ready1x + 27)) {
+    int height3 = items / 3;
+    print(height3);
+    print(items);
+    print(mean);
+  } else if (23.8 + temp >= items) {
+    mean = 10;
   } else {
-    names = 32 + 12 % 6;
-    passed = (5 * names) < steps;
-    int a2 = (names + names);
+    int meanx = items;
+    print(meanx);
+    temp = 7.2 + temp;
+    mean = 24.7;
   }
-  if (ok) {
-    int y = 0 / 2;
-    print(y);
-    print(ok);
-    print(name);
-  } else {
-    name = name;
-  }
-  float area1 = 29.3;
+  float tax1 = 14.5 * 11.7;
 }
-print("bob");
+print((ready1x - items));
+print(mean);
+string msg2 = owner + "done";
+int i = (9 - 9);
+int first = 0;
+while (first < 3) {
+  if (33 % 7 == 40 + 27) {
+    int seats = (meann + meann);
+    print(seats);
+    print(14.2 * ready1x != items / 9);
+  }
+  msg2 = "ok";
+  first = first + 1;
+}
+print(is_even);

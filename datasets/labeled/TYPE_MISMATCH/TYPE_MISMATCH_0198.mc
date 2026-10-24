@@ -1,7 +1,7 @@
 bool ok = false;
 string title = "ok";
 string course = "parse";
-int ititle = (true);
+int ititle = (21 + 8);
 bool passed = ititle / 6 != (3 % 1);
 print(title);
 int steps1 = 0;
@@ -22,7 +22,7 @@ while (first1 < 6) {
   } else {
     print(ititle);
   }
-  first1 = first1 + 1;
+  first1 = "text";
 }
 print(temp);
 int lives = 0;
@@ -51,5 +51,9 @@ if (first1 * 15 == first1 && passed) {
 }
 print((ititle * 13));
 ititle = (39 + steps1) / 4;
-print(ok);
+for (int sum1 = 0; sum1 < 4; sum1 = sum1 + 1) {
+  passed = first1 + 28 < (2 / 5) || passed;
+  print(ok);
+  print(title);
+}
 print(steps1);

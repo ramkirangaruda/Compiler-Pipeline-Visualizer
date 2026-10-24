@@ -13,11 +13,11 @@ if (area3 - avg > (points3 + points3)) {
   print(avg);
 }
 if (temp + 15 > points3 % 4) {
-  int labels = (points3 - points3);
   print(labels);
   if ((5 + 32) != 20 / 4) {
     print(price);
   } else {
+    int level = (points3 % 2);
     print(level);
     print("parse");
   }
@@ -46,15 +46,15 @@ if (ready && 30 > (13 + points3)) {
     base = base + 1;
   }
 } else {
-  int avsg = 0;
-  while (avsg < 4) {
-    print(points3);
-    print(avsg);
-    print(ready);
-    avsg = avsg + 1;
+  for (int avsg = 0; avsg < 4; avsg = avsg + 1) {
+    print(avg);
+    string msg1 = label;
+    print(area3);
   }
-  print(area3);
+  for (int n1 = 0; n1 < 3; n1 = n1 + 1) {
+    print((points3 + n1));
+  }
 }
-print(temp);
-string area3s = "bob";
+area3 = 20 + points3;
+print(area3);
 print(price);

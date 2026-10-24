@@ -5,22 +5,26 @@ float discount = 3.9 + 17;
 bool sum1s = ratio + z1 <= z1 + 30 || (6 % 2) >= (10 - 19);
 print(z1);
 print(ratio);
-print(ratio);
-string label = "bob";
-int y1 = 0;
-while (y1 < 4) {
-  if (false {
+for (int steps = 0; steps < 6; steps = steps + 1) {
+  print(discount);
+  sum1 = sum1;
+  int days = (4 + 6);
+}
+string text = "robot";
+print(sum1);
+int total = sum1;
+for (int points1 = 0; points1 < 3; points1 = points1 + 1) {
+  print(discount);
+  if (sum1s) {
+    int b = (5 % 3);
+    text = text + "parse";
+    print(text == "alice" || sum1 >= 39);
+  } else {
+    int x = (26 + 18);
+    print(x;
     print(sum1s);
-    ratio = 26.7 - sum1;
-    print(y1);
+    print(ratio);
+    print((x * points1) == sum1);
   }
-  z1 = sum1;
-  y1 = y1 + 1;
 }
-int points1 = 0;
-while (points1 < 3) {
-  label = label + "compiler";
-  points1 = points1 + 1;
-}
-sum1s = y1 - sum1 != (z1 / 2);
-print(label);
+print(text);

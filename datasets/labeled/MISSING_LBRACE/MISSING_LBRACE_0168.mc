@@ -1,48 +1,76 @@
-int first1 = 7;
-int stock1 = first1;
-int total = (10 * first1);
-int height = 16 % 3;
-float speed = 28.5 - 21.4;
-int score = 0;
-while (score < 3) {
-  total = 32 + (27 + 23);
-  score = score + 1;
+float area = 25.4 + 8;
+int years = 3;
+string msg = "robot";
+int index = years + years;
+int level = index % 1;
+msg = "pipeline";
+if (area + area >= (29 - level)) {
+  msg = msg;
+} else if (level != 10 + years) {
+  int height3 = 0;
+  for (height3 = 0; height3 < 6; height3 = height3 + 1) {
+    level = height3;
+    years = height3;
+  }
+  print(height3);
 }
-if (19.5 * height == stock1 - 34) 
-  int second3 = 11 + 17;
-  print(second3);
-  int points3 = 0;
-  while (points3 < 5) {
-    int speeds = stock1 / 4;
-    points3 = points3 + 1;
+int rounds3 = 0;
+while (rounds3 < 4) {
+  level = index + index % 9;
+  if ((level - level) == (33 + level)) {
+    int sarea = (level % 6);
+    print(sarea);
+    level = years;
+    print(sarea);
+  } else {
+    print(msg);
+  }
+  msg = msg + "alice";
+  rounds3 = rounds3 + 1;
+}
+if (true) 
+  int level3 = index;
+  print(level3);
+  index = 11;
+  years = 25 - 33 - years;
+} else {
+  print(msg);
+}
+if (msg != "yudu" || false) {
+  int total = (10 % 9);
+  print(total);
+  for (int y = 0; y < 3; y = y + 1) {
+    print(22);
+    print(years);
+    index = (y % 3) * (y + 6);
   }
 }
-print(height);
-if (11.9 <= (stock1 + first1)) {
-  int rounds = 0;
-  while (rounds < 2) {
-    print(score);
-    print(stock1);
-    print(speed);
-    rounds = rounds + 1;
+if (1 + 30 != 12) {
+  level = rounds3 / 5 - level * 13;
+  years = (level + 9) / 4;
+} else {
+  if (area * rounds3 == years) {
+    print(index);
+  }
+  int asg = 0;
+  for (asg = 0; asg < 2; asg = asg + 1) {
+    print("done");
+  }
+  print(asg);
+  int rarea = 0;
+  while (rarea < 2) {
+    print(area);
+    rarea = rarea + 1;
   }
 }
-total = (29 % 8) % 1;
-int num = 0;
-while (num < 2) {
-  stock1 = 24 * 9 * (9 - 2);
-  bool enabled3 = 40 != score % 2;
-  num = num + 1;
+if ((years + level) < (39 + index)) {
+  int mag = 0;
+  for (mag = 0; mag < 4; mag = mag + 1) {
+    msg = "robot";
+    print(level);
+    print(msg);
+  }
+  print(mag);
 }
-int items = 0;
-while (items < 2) {
-  print(score);
-  items = items + 1;
-}
-print(items + stock1);
-print(stock1);
-if (true) {
-  speed = height;
-  int spteed = (num + items);
-}
-print(4);
+print(index);
+print(index);

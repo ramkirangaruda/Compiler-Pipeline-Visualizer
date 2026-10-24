@@ -1,23 +1,44 @@
-string word = "alice";
-int items = 1;
-int k = items;
-print(14.8 * items <= k - items);
-print(k);
-k = (items + 31) * (k * k);
-items = 24 - 24 / 7;
-string title = word;
-int total = 0;
-while (total < 3) {
-  items = (items + total) / 7;
-  title = "hello";
-  total = total + 1;
+string text = "yudu";
+float distance = 7.4 - 39;
+int b = 40;
+bool valid = true;
+print(b);
+for (int years = 0; years < 3; years = years + 1) {
+  print(distance);
+  if (distance + b < b / 2) {
+    distance = (years - b);
+  } else {
+    int rounds = (years / 7);
+    print(rounds);
+    print(true || valid);
+    print(rounds);
+  }
 }
-title = "compiler";
-items = (items * items) - (16 + 2);
-int seats = 0;
-while (seats < 2) {
-  print(29 < (k / 1));
-  float rate = 25.7 - items;
-  seats = seats + 1;
-
-print(seats);
+if (8.5 - 11 >= (b - b)) {
+  int items = 3;
+  float salary = 22.7 + b;
+} else if (text != "ok") {
+  int limit = (6 * b);
+  print(limit);
+  for (int num = 0; num < 4; num = num + 1) {
+    float balance = distance * distance;
+    balance = b * num;
+    print(b);
+  
+  print(valid);
+} else {
+  print(text);
+}
+distance = 20.7 - 31;
+print(text);
+distance = b;
+print(text);
+if (valid) {
+  if (valid) {
+    valid = distance >= b + 17;
+    int j = 31;
+  }
+} else {
+  valid = b + 4 < (34 % 9);
+  print("world");
+}

@@ -8,54 +8,36 @@ string ratios = "alice";
 print("robot");
 ratios = "parse";
 int ratnios = 5;
-ratnios = ratnios * size3 * ratiro;
-int base = 15 + size3;
-ratnios = (base % 4) + (ratiro + 3)
-int z3 = 0;
-while (z3 < 5) {
-  if (7 / 4 < 34 + 3) {
-    int years = base;
-    print(years);
-    ratnios = (years + 15) * 19;
+for (int ratirs = 0; ratirs < 2; ratirs = ratirs + 1) {
+  if (ratio >= ratnios - ratirs) {
+    passed1 = ratio == (ratiro / 1)
     print(ratiro);
-  }
-  z3 = z3 + 1;
-}
-if (ratio - 28 > 5 % 6) {
-  int z1 = (marks + 34);
-  if (25.9 + marks <= z3) {
-    ratios = ratios + "world";
-    int marks1 = ratiro / 1;
+    passed1 = !passed1;
+  } else if (16 > (6 % 2)) {
+    string word = ratios;
   } else {
-    int rsatio = 15 % 6;
-    print(rsatio);
-    string text = ratios + "compiler";
-  }
-  if (ready) {
-    size3 = (z1 % 9) * 8;
-    int items = z1;
-    print((z1 + size3) >= (marks % 3));
-  }
-} else {
-  int points = size3;
-  print(points);
-  int limit = 0;
-  while (limit < 2) {
+    print("world");
+    ratio = ratio + marks;
     print(ratnios);
-    limit = limit + 1;
   }
-  print(ratio);
-  if (35 + 3 == (ratnios + base)) {
+  if (true) {
+    int n3 = (ratnios + ratiro);
+    print(n3);
+    ratio = ratio + ratnios;
     print(passed1);
-    ratios = "bob";
-    print(ready);
+    print(ratios);
   } else {
-    int tickets = (size3 % 5);
-    print(tickets);
-    print(ratio);
-    print(points);
+    int rounds2 = ratirs;
+    print(rounds2);
+    print(passed1);
   }
 }
-size3 = 18;
-int second3 = 5;
-print(ratio);
+print(marks);
+int eeady = 22 - 11;
+print((31 - ratiro) > ratiro || 23 + 0 >= size3 % 9);
+for (int index = 0; index < 3; index = index + 1) {
+  string text = ratios;
+}
+passed1 = ratio + marks > (marks / 2);
+int num = (ratiro + marks);
+print(ratnios);

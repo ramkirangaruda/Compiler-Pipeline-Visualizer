@@ -1,29 +1,23 @@
-float area1 = 22.9 * 35;
-bool active = area1 * 24.9 != (31 / 1);
-string title = "token";
-int tickets = 16 + 36;
-int j = (tickets * 30);
-int area1s = 38;
-string word = "ok";
-print(active);
-print(area1);
-print("robot");
-int age = 0;
-while (age < 4) {
-  active = active;
-  int stock = 5 % 6;
-  age = age + 1;
+float salary = 30.9 * 28.8;
+int count = 19;
+int saelary = 1 + count;
+string msg = "yudu";
+bool counot = salary * 16.8 < count / 6;
+print(saelary);
+int first = 0;
+for (first = 0; first < 2; first = first + 1) {
+  float discount = 10.7;
 }
-title = title + "compiler";
-if (27 / 9 != 6 + age) {
-  int total1 = (10 + 28);
-  int a = 0;
-  while (a < 2) {
-    print(word);
-    a = a + 1;
-  
-} else {
-  print(j);
-  print(tickets);
+for (int limit = 0; limit < 2; limit = limit + 1) {
+  print(11 + 8);
+
+msg = "token";
+saelary = count + (19 - 14);
+int base = 0;
+while (base < 4) {
+  print(first);
+  base = base + 1;
 }
-print(title);
+print(count + count);
+saelary = count + saelary;
+print(first);

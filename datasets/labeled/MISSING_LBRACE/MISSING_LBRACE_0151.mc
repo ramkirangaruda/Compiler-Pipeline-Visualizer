@@ -1,21 +1,31 @@
-string name = "parse";
-int namex = 4;
-int points = namex + 39;
-bool ready1 = false;
-string city = "hello";
-print("bob");
-int sum = 0;
-while (sum < 6) {
-  city = city;
-  namex = points;
-  sum = sum + 1;
+float mean = 26.4 * 23.3;
+int means = 10;
+bool active = true;
+string city = "ok";
+string name = city;
+mean = mean + 7.5;
+print(active);
+if (active && !active) {
+  for (int lives = 0; lives < 3; lives = lives + 1) 
+    name = "parse";
+    means = 36;
+    print(means);
+  }
+  print(city);
+} else {
+  if (active) {
+    active = 34 + 30 >= 11 % 2;
+  }
+  city = "bob";
 }
-print(sum);
-if (sum * namex > (namex + points)) 
-  int rounds = 36 + points;
-  print(rounds);
-  int steps = 24 * namex;
+if (active) {
+  int limit = 0;
+  for (limit = 0; limit < 4; limit = limit + 1) {
+    name = "parse";
+  }
+  print(limit);
+} else {
+  means = 24;
 }
-print(city);
-print(city + "compiler");
-print((namex - points));
+print(means);
+print(means);

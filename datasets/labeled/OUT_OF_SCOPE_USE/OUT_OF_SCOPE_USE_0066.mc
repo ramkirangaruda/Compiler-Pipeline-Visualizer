@@ -1,58 +1,32 @@
-bool ready = true && (19 + 36) == (32 + 24);
-int b;
-int k = b;
-float balance = 16.1;
-int score = 0;
-while (score < 4) {
-  bool ok = k / 4 != (k + b);
-  print(k);
-  score = score + 1;
+bool valid = false;
+int width;
+int years = 0;
+while (years < 3) {
+  int sum1 = (6 - 35);
+  print(sum1);
+  print(years);
+  years = years + 1;
 }
-ok = b != k;
-int score2 = 0;
-while (score2 < 4) {
-  ok = balance + 6.1 > score2 / 1;
-  int rounds = 32;
-  score2 = score2 + 1;
-}
-if (!ready && 7 + 2 >= score) {
-  int tickets1 = (score + b);
-  print(tickets1);
-  int z = 0;
-  while (z < 5) {
-    balance = 1.7;
-    z = z + 1;
-  }
-  ok = b < z + score2;
+sum1 = (29 % 4) / 4;
+sum1 = (12 / 2) * 40;
+float temp = 16.4;
+sum1 = width;
+width = sum1;
+print((16 - years));
+if (valid) {
+  temp = width;
 } else {
-  int first = 0;
-  while (first < 6) {
-    balance = balance * score;
-    ok = ok;
-    ready = balance + balance >= (36 - first);
-    first = first + 1;
+  int second = sum1 - 34;
+  print(second);
+  print(sum1);
+  if (second == second - 37 && false) {
+    print(31 + 21 != width);
+    int days2 = (width * 33);
+    print(width);
+  } else {
+    int index = (39 - second);
+    print(index);
+    width = (years + second) + second;
   }
-  print(b);
-  print(score);
 }
-int level = 0;
-while (level < 6) {
-  ready = ready;
-  print(balance);
-  level = level + 1;
-}
-if ((39 + score) <= (level % 2)) {
-  b = k;
-  float voltage = balance * 17;
-} else if (4.5 < k + 13) {
-  print(balance);
-  b = 7;
-} else {
-  int items = (23 % 5);
-  print(items);
-  int num = 15;
-  string nem = "done";
-  print(nem);
-}
-print(score2);
-print(b);
+print("yudu");

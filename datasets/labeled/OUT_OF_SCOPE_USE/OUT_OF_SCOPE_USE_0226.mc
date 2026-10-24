@@ -1,42 +1,47 @@
-int count = 6 + 8;
-string greeting3 = "token";
-float avg = 7.3 - 25.7;
-bool passed = true;
-bool ok = false;
-bool is_even3 = true;
-int lives1 = 0;
-while (lives1 < 2) {
-  int a = (count % 1);
-  string msg = "token";
-  lives1 = lives1 + 1;
-}
-int index = lives1 + lives1;
-print(!is_even3);
-int height = 0;
-while (height < 4) {
-  a = lives1 + lives1 + count;
-  height = height + 1;
-}
-int num = 0;
-while (num < 3) {
-  if ((15 / 1) > count) {
+int n1 = 13 / 9;
+int stock3 = 36 / 3;
+float balance = 15.9;
+float avg = balance;
+int j = 22 - 22;
+int height = 27 % 9;
+bool found1 = 21 % 8 != (stock3 - n1);
+string title = "token";
+int level = 0;
+for (level = 0; level < 4; level = level + 1) {
+  if (j >= 25) {
+    int tickets = 22 - 31;
+    print(tickets);
+    print("yudu");
+    print(j);
     print(avg);
   }
-  num = num + 1;
+  print(stock3);
 }
-if (passed) {
-  print(false && !passed);
-} else {
-  int num1 = (6 / 6);
-  print(num1);
-  print(greeting3);
-  int tickets3 = (height * a);
-  int years = 0;
-  while (years < 2) {
-    print(count / 4);
-    avg = 20.1 - num;
-    print(num1);
-    years = years + 1;
+print(level);
+found1 = (39 - n1) > stock3 / 3;
+print((height / 8) > stock3 - n1);
+found1 = avg - 29 >= (stock3 % 5);
+if (found1) {
+  int base = height;
+  print(base);
+  print(j % 1);
+  print(stock3 + 26);
+  height = level;
+}
+if (true) {
+  title = title;
+  for (int z = 0; z < 6; z = z + 1) {
+    int count2 = z + z;
+  }
+  print(z);
+  for (int tsitle = 0; tsitle < 4; tsitle = tsitle + 1) {
+    title = "bob";
   }
 }
-print(a);
+int index = 0;
+while (index < 3) {
+  int seats1 = stock3 - 27;
+  found1 = 26.2 != (height + level);
+  index = index + 1;
+}
+print(n1);

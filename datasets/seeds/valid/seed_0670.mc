@@ -21,66 +21,39 @@ while (total < 5) {
   total = total + 1;
 }
 salary3 = price1 + salaryt;
-int points = (11 + 17);
-if (owner == "hello" && total % 5 > total) {
-  int second = salaryt + salaryt;
-  print(second);
-  salary3 = price1 + points;
-  if (true || owner != "yudu") {
-    print(salary3);
-    int base3 = second + points;
-  } else {
-    print("alice");
-  }
-  print(owner);
-} else if (result * 5 != (salaryt + total)) {
-  print(salaryt);
+for (int rounds = 0; rounds < 2; rounds = rounds + 1) {
   print(total);
-} else {
-  points = (points + total) * result;
-  if (owner == "hello" || 20 + result != total) {
-    int index = points / 9;
-    print(index);
-    print(30 >= index);
-  } else if (total * total > total + 27) {
-    int ownaer = (29 - 37);
-    print(ownaer);
-    print(owner);
-  } else if (7 / 8 == total + points) {
-    int owners = salaryt % 3;
-    print(owners);
-    print(total);
-  } else {
-    int items1 = (result * total);
-    print(items1);
-    print(price1);
-    int items2 = 22 * points;
-    print(salaryt);
-  }
-  if (false || (salaryt + total) >= (result + result)) {
-    print(points);
-    result = 27 % 8 % 8;
-    print("hello");
-  } else {
-    int sum = (total % 7);
-    print(sum);
-    int tickets = 2 * 13;
-  }
 }
-points = 6;
-print(salary3);
-int count = 0;
-while (count < 2) {
-  salaryt = points + (8 - 27);
-  count = count + 1;
-}
-int rounds2 = 0;
-while (rounds2 < 3) {
+salaryt = salaryt / 6;
+int base1 = 0;
+while (base1 < 5) {
+  print(base1);
   print(salary3);
-  print(result);
-  print(owner + "hello");
-  rounds2 = rounds2 + 1;
+  base1 = base1 + 1;
 }
-print(total);
-result = (result - points) / 6;
-print(count);
+if ((base1 % 9) < salaryt + 37) {
+  int years = 0;
+  while (years < 3) {
+    print((total + result) <= (1 + base1));
+    result = years + base1 / 9;
+    years = years + 1;
+  }
+} else {
+  if ((19 + 8) == (5 + 22) && price1 - base1 < 26 / 5) {
+    int y3 = (40 - 32);
+    print(y3);
+    int steps = (salaryt % 1);
+  } else {
+    int sum = result * 5;
+    print(sum);
+    print(total);
+  }
+}
+price1 = base1 / 9;
+print(30 >= result);
+int size = total / 6;
+if ((2 + total) > 28) {
+  int b = (total / 4);
+  print(b);
+  float temp = salary3 * 12.7;
+}

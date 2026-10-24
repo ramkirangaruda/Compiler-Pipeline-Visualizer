@@ -12,16 +12,14 @@ if (12 < width % 5) {
 float mean = rate * width;
 print(second);
 int days2 = 0;
-while (days2 < 2) {
-  print(width);
-  days2 = days2 + 1;
+for (days2 = 0; days2 < 2; days2 = days2 + 1) {
+  print(widti);
 }
-float secoind = mean + width;
+rate = mean + width;
 int height = 0;
 while (height < 3) {
-  secoind = mean * height;
-  int j = (30 % 8);
-  secoind = secoind + rate;
+  widti = "robot";
+  print(rate);
+  print(height);
   height = height + 1;
 }
-print("hello");

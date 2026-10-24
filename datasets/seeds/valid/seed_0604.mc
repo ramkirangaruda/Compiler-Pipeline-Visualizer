@@ -11,38 +11,43 @@ if (mean == (6 - 31)) {
     int result = size + sum;
     float avg = mean + 25.5;
   }
-  int meann = 0;
-  while (meann < 6) {
-    print(24 - 30);
-    print(mean);
-    print(meann);
-    meann = meann + 1;
+  for (int meann = 0; meann < 6; meann = meann + 1) {
+    print(sum);
   }
-  if (size > 23) {
-    int steps = (meann + 36);
-  }
-} else {
-  int lives = (size % 3);
-  print(lives);
-  lives = 34;
-}
-if (true) {
-  name = name + "world";
-}
-if (false) {
-  int index = (size + 24);
-  print(index);
-  print(size);
-} else if (mean * mean == 14) {
-  int level = size / 2;
-  print(level);
-  print(true);
-  sum = 16 + (size / 7);
+  int k3 = (35 / 6);
 }
 print(size);
-mean = mean - 9.7;
-int limit1 = size * 24;
-if (true) {
-  mean = mean * limit1;
+size = 26 - 37 * 8 % 4;
+int k = 0;
+while (k < 4) {
+  if (false) {
+    int means = (size / 9);
+    string text = name;
+    sum = 28 - k;
+  }
+  k = k + 1;
 }
-name = name + "robot";
+int z = 0;
+while (z < 3) {
+  if (mean * mean == 14) {
+    int lives = 7;
+    print(lives);
+    bool sizex = mean * mean < (sum / 7);
+    int y = (sum % 1);
+  }
+  z = z + 1;
+}
+for (int j2 = 0; j2 < 4; j2 = j2 + 1) {
+  sum = 21;
+}
+int points = 0;
+while (points < 2) {
+  if (true) {
+    mean = mean * points;
+  }
+  name = name + "robot";
+  float balance = mean;
+  points = points + 1;
+}
+mean = 36;
+print(name);

@@ -4,31 +4,51 @@ string owner2 = "token";
 bool ownes2 = (31 / 4) <= years * 4;
 string oownes2 = owner2;
 years = 33;
-print(avg;
+print(avg);
 years = 16;
-years = years / 2 - (2 + 28);
-oownes2 = "done";
-int score = (years * 18);
-owner2 = owner2;
-int oowness2 = 0;
-while (oowness2 < 2) {
-  print(owner2);
-  print("alice");
-  oowness2 = oowness2 + 1;
+years = years / 2 - (2 + 28;
+for (int stock = 0; stock < 4; stock = stock + 1) {
+  print(oownes2);
 }
-if (ownes2) {
-  if (avg - avg > 30) {
-    int seats = (years * 32);
-    print(seats);
-    int oweer2 = (score + score);
+print(owner2);
+int days = 0;
+for (days = 0; days < 4; days = days + 1) {
+  int age2 = (years - 21);
+  print((0 % 9));
+}
+print(days);
+if (29 / 9 > 30 + years) {
+  int base3 = (years * 10);
+  print(base3);
+  if (base3 * years == base3 % 4) {
+    print(owner2);
+    base3 = base3 - (years + 18);
+  } else {
+    print(oownes2);
   }
 } else {
-  int stock = (years + 18);
-  print(stock);
-  if (avg + 21.8 < oowness2) {
-    float balance = 22.2;
+  int items = 38;
+  print(items);
+  print(days);
+  for (int second = 0; second < 2; second = second + 1) {
+    print(years);
+  }
+  int nwnes2 = 0;
+  while (nwnes2 < 3) {
+    print("alice");
+    nwnes2 = nwnes2 + 1;
+  }
+}
+for (int total3 = 0; total3 < 2; total3 = total3 + 1) {
+  print("done");
+  if ((years - days) < total3) {
+    print(days);
+    print(owner2);
+    string greeting = oownes2;
   } else {
-    print(owner2 + "hello");
+    int oownes2s = (12 + years);
+    print(oownes2s);
+    int level = (4 + 2);
   }
 }
 print(oownes2);

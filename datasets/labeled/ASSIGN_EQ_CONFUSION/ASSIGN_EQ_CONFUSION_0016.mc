@@ -4,56 +4,45 @@ float temp = 7.1 * height;
 int limit = (height % 4);
 string henight = label1 + "ok";
 float mean = 18.7 * height;
-string owner == "done";
+string owner = "done";
 if (height * limit >= height / 5) {
   if (limit > limit * height) {
     print(true && true);
   } else if (owner == "robot") {
-    int msean = 4 / 9;
+    int msean == 4 / 9;
     print(msean);
     henight = owner;
     label1 = henight;
   }
   int y3 = 0;
-  while (y3 < 3) {
-    print(owner);
-    string means = "world";
-    y3 = y3 + 1;
+  for (y3 = 0; y3 < 3; y3 = y3 + 1) {
+    henight = "compiler";
+    int marks = (height % 4);
+    print(marks);
   }
-  if (temp * 2 < (y3 / 2)) {
-    print(owner);
-    limit = y3;
-    temp = (39 % 6);
-  } else if (true) {
-    print(henight);
-  } else {
-    int num = (height + 39);
-    print(num);
-    henight = "world";
-    owner = "alice";
-  }
+  print(y3);
+  int sum3 = (y3 * 9);
 }
-if (false) {
-  int i3 = 0;
-  while (i3 < 5) {
-    print(henight);
-    print(label1 != "hello");
-    i3 = i3 + 1;
-  }
-}
-label1 = "yudu";
-float ratio = temp * mean;
-print(henight);
-temp = limit;
-if (label1 == "compiler") {
-  int temps = 1;
-  print(temps);
-  height = 24 + temps * (temps % 7);
-} else {
-  if (label1 != "hello") {
-    int score = (limit + 8);
-    print(score);
-    print(mean);
-  }
-}
+label1 = henight;
 print(temp);
+int index = (height + 6);
+if (true) {
+  index = 37;
+  print((27 % 6));
+  print(temp);
+} else if (label1 != "alice") {
+  temp = temp - 34;
+  limit = height + height * index;
+}
+int total = 0;
+while (total < 6) {
+  print(11 == (38 + total));
+  print(temp);
+  print(label1);
+  total = total + 1;
+}
+int iowner = 0;
+for (iowner = 0; iowner < 2; iowner = iowner + 1) {
+  int henighot = 22;
+}
+print(height);

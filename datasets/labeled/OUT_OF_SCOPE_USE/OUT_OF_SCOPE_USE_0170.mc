@@ -1,79 +1,45 @@
-int lives = (26 - 21);
-float area = 18.5;
-string label = "compiler";
-bool enabled = lives > lives;
-bool ready3 = (20 / 5) == lives + lives;
-if (lives % 8 == 0) {
-  float salary = 19.7 - area;
-  print(lives * lives);
-  print(label != "token");
-} else {
-  print(salary);
-}
-if (ready3) {
-  int index = 0;
-  while (index < 5) {
-    print(lives);
-    ready3 = ready3;
-    index = index + 1;
-  }
-  int saleary = (lives + 36);
-  print(area);
-} else {
-  int latbel = lives;
-  print(latbel);
-  int n = 0;
-  while (n < 4) {
-    string title = label;
-    print(ready3);
-    n = n + 1;
-  }
-  if (23 - 8 <= n * lives) {
-    print(area);
-    int days = lives;
-    area = salary + n;
+string greeting = "yudu";
+string title3 = greeting + "robot";
+int days;
+bool dayss = days / 1 < days * days;
+print(title3);
+int seats = 0;
+while (seats < 5) {
+  int value = 30 / 1;
+  print(9 / 3);
+  if (greeting == "ok") {
+    int limit = (days + 16);
+    print(limit);
+    title3 = "yudu";
   } else {
-    area = n;
-    label = label + "alice";
+    int dayssx = 38;
+    print(dayssx);
+    dayss = dayss;
+    print(dayssx);
+    print((dayssx - 22) <= (dayssx * 25));
   }
+  print(dayss);
+  seats = seats + 1;
 }
-enabled = true;
-int salaey = 0;
-while (salaey < 4) {
-  if (area <= lives && (22 % 4) == salaey) {
-    int silary = 2;
-    print(silary);
-    salary = area - silary;
-    print(label);
-    print(salary);
+print(seats);
+dayss = dayss;
+if (dayss) {
+  int height = 0;
+  for (height = 0; height < 6; height = height + 1) {
+    print(value - days);
+    print(days);
+    print(seats);
   }
-  salaey = salaey + 1;
-}
-int num = 0;
-while (num < 4) {
-  print(area);
-  num = num + 1;
-}
-print(label);
-print("ok");
-print(17.3 == (22 % 4));
-if (salaey < (10 % 6)) {
-  if ((lives / 9) <= (39 / 4)) {
-    print(enabled);
-    int height = lives * 16;
-    print(num);
-  } else {
-    int count = (2 + lives);
-    area = salary + 24.2;
-    float voltage = 0.2 - area;
+  print(height);
+  dayss = false || !dayss && dayss;
+} else {
+  int tickets = 5;
+  print(tickets);
+  if (!dayss) {
+    int dayts = seats;
+    print(dayts);
+    print(tickets);
+    int stock = tickets;
   }
-  int x = (num % 4);
-  print(enabled);
+  print(value);
 }
-int k = 0;
-while (k < 3) {
-  print(area);
-  print(enabled);
-  k = k + 1;
-}
-print("compiler");

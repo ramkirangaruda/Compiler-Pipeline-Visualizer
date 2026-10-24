@@ -26,20 +26,10 @@ if (years1 + 6 >= 25 - 22) {
   float discount = salary2 + 18.4;
   print(salary2);
 }
-int base = 0;
-while (base < 4) {
-  if (course == "alice") {
-    int rounds3 = 33 * steps;
-    rounds3 = 17 + 37 - (rounds3 * 16);
-  } else {
-    vaalue = salary2 * value;
-    vaalue = 10.9 * salary2;
-    years1 = 22;
-  }
-  print(steps);
-  base = base + 1;
+for (int base = 0; base < 4; base = base + 1) {
+  int stock = steps * courses;
 }
-print(steps);
-courses = value / 8;
-float speed = vaalue - courses;
-print(course);
+print("token");
+courses = value / 6 - years1;
+print(course + "done");
+print("yudu");

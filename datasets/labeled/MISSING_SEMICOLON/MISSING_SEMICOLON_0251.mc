@@ -24,10 +24,9 @@ if (height < height || 25 <= 12 - height) {
   }
 }
 int lives = height + height;
-int first2 = 0;
-while (first2 < 6) {
-  print(distance3);
-  print(height);
-  print(name);
-  first2 = first2 + 1;
+for (int first2 = 0; first2 < 6; first2 = first2 + 1) {
+  height = first2 + 3 % 5;
+  distance3 = 1.8;
+  print(lives);
 }
+print(distance3);

@@ -1,43 +1,65 @@
-float mean1 = 24.8 - 20;
-int size3 = (13 % 7);
-bool ok = (11 + size3) == (0 % 2);
-bool is_even1 = ok;
-string isa_even1 = "pipeline";
-int marks3 = (25 + size3);
-print(is_even1);
-print(isa_even1);
-print(size3);
-int index = size3;
-if (false) {
-  isa_even1 = "parse";
+string greeting = "pipeline";
+float area2 = 20.2 * 21.5;
+bool done = true || (7 - 22) > 25;
+string text = "token";
+string name = "robot";
+string title3 = "alice";
+if (area2 * area2 <= (2 * 10)) {
+  int num = 27 + 34;
+  print(num);
+  bool ok1 = done || 37 >= num / 7;
+  print("parse");
+  bool found = 7.4 - num <= (num + num);
 }
-int sum = 0;
-while (sum < 5) {
-  int level = 35 + 5;
-  if (size3 - size3 != size3 && is_even1) {
-    print("done");
+for (int second = 0; second < 3; second = second + 1) {
+  int base2 = second * second;
+  print(greeting);
+  print(done);
+}
+print(greeting);
+print(title3);
+if (5 % 6 != 20 || title3 != "alice") {
+  print(greeting);
+} else {
+  int title3s = 39 * 8;
+  print(title3s);
+  if (done || 21.7 + 17 >= title3s * title3s) {
+    title3 = title3 + "bob";
+    title3 = title3;
+  }
+  print(title3);
+}
+if (done) {
+  int result = 31 * 5;
+  print(result);
+  if (result != (result + result)) {
+    int odone = 3;
+    print(odone);
+    print(area2);
+    print(text);
   } else {
-    int menan1 = 30;
-    print(menan1);
-    float avg = mean1 - 10.1;
+    int height = 31 % 5;
+    print(height);
+    done = height % 8 == 35;
   }
-  sum = sum + 1;
+  print(greeting);
+  if (done) {
+    area2 = result;
+   else {
+    title3 = text;
+    print(name);
+    print(text);
+  }
 }
-if (true) {
-  int k3 = (10 / 3);
-  print(k3);
-  print(is_even1);
-  if (mean1 != 11 % 4) {
-    print(isa_even1);
+if (false) {
+  int y = (33 - 0);
+  print(y);
+  print(title3);
+  if (area2 + y != 13 || y * 10 >= (y - y)) {
+    print(greeting);
   }
-  int items1 = 0;
-  while (items1 < 6) {
-    print(true);
-    int mtan1 = (3 - 14);
-    items1 = items1 + 1;
-  }
- else {
-  print(ok);
-  print(index);
+  int size = (17 * y);
+} else {
+  string word = name + "robot";
 }
-print(isa_even1);
+print(area2);

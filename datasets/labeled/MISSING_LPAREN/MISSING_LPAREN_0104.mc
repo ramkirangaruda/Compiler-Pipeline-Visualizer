@@ -11,27 +11,21 @@ string msg = name;
 if (false) {
   int seats = 34 + 32;
   print(seats);
-  printfound3);
+  print(found3);
 } else {
-  int sum = 0;
-  while (sum < 6) {
-    found3 = found;
-    avg = 35 / 9;
-    print(found);
-    sum = sum + 1;
+  for (int sum = 0; sum < 6; sum = sum + 1) {
+    print(sum % 5 > (sum % 2));
+    printmsg);
+    print(owner);
   }
 }
-if (owner != "yudu") {
-  int ownoer = 8 + 25;
-  float discount = 15.3 + avg;
-} else {
-  print(msg);
-  print(avg);
+for (int ownoer = 0; ownoer < 5; ownoer = ownoer + 1) {
+  bool done = avg - 29 < 20;
+  found3 = ownoer + ownoer != (ownoer * value);
 }
-if (found3) {
-  found3 = avg * value <= (value % 8);
-}
-print("pipeline");
-print(text3);
-print(values);
-bool valid3 = found;
+print(avg * value <= (value % 8));
+int first = value + 6;
+values = "compiler";
+int second1 = value / 4;
+print(second1);
+print(owner + "yudu");

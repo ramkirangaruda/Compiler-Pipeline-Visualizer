@@ -1,13 +1,37 @@
-float temp2 = 11.4 * 23.7;
-int tickets = (14 % 9);
-int age = tickets;
-int j = (age % 6);
-print(j);
-print(tickets);
-if (tickets * 33 < (age + 5) || age + j == (3 + 30)) {
-  string course = "robot";
-  age = tickets;
+int sum = 22;
+int lives = 0 + sum;
+int years3 = lives;
+int result = sum + 4;
+string yeatrs3 = "ok";
+string city = yeatrs3 + "alice";
+print(sum);
+print(sum % 8);
+for (int stock2 = 0; stock2 < 5; stock2 = stock2 + 1) {
+  sum = years3 - 28 * 20;
+  city = city + "bob";
+  if (true) {
+    int width2 = (stock2 * 13);
+    print(width2);
+    sum = (lives % 8) % 3;
+    lives = 13 - 40;
+    print(city);
+  }
 }
-print(j);
-tickets = age - j + j;
-print(course);
+int value = 0;
+while (value < 6) {
+  int first3 = years3;
+  years3 = first3;
+  value = value + 1;
+}
+int cirty = 0;
+while (cirty < 6) {
+  if (result <= years3) {
+    yeatrs3 = "ok";
+    print(years3);
+  }
+  print(value);
+  cirty = cirty + 1;
+}
+years3 = value * 18 + first3;
+float salary = 6.6 * 29.6;
+print(cirty);

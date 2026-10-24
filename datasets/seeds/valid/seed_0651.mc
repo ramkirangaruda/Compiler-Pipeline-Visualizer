@@ -20,38 +20,26 @@ if (stoicks > (13 % 3)) {
   print(passed);
 } else {
   int snocks = 0;
-  while (snocks < 4) {
-    print(snocks);
-    print(stock);
-    snocks = snocks + 1;
+  for (snocks = 0; snocks < 4; snocks = snocks + 1) {
+    stoickss = (22 + 16) + (36 / 7);
+    print(stocks);
+    int result = 24;
   }
-  if (passed) {
-    stoickss = stock / 4 - 32 % 2;
-  } else if (11.4 < stoickss / 7 || false) {
-    second = 13;
-  } else {
-    int count = 21;
-    count = 25 * 27;
-  }
-  int first = snocks / 7;
-}
-stoickss = 37 % 9 - 37;
-if (passed) {
-  int n2 = (35 * 40);
-  print(n2);
+  print(snocks);
   print(stocks);
-  int stoicksx = 11;
-  n2 = (3 * n2) * (20 / 9);
-} else {
-  int base = x1 * stoickss;
-  print(base);
-  x1 = (19 / 3) % 1;
-  int tickets = 0;
-  while (tickets < 4) {
-    print(stock);
-    print(passed);
-    stock = (second * base) % 2;
-    tickets = tickets + 1;
+  int size = 0;
+  for (size = 0; size < 5; size = size + 1) {
+    print(stoicks);
+    print(second);
   }
+  print(size);
 }
-print(second);
+second = 33;
+int marks = 0;
+while (marks < 2) {
+  print(stoickss);
+  print(stocks + "alice");
+  print((38 - second));
+  marks = marks + 1;
+}
+print(stocks);

@@ -1,50 +1,26 @@
-int days = 10 - 26;
-int tickets = days - days;
-bool daas = true;
-int years = 6;
-bool enabled = daas;
-enabled = (years % 9) <= years % 3;
-print(daas);
-int tomp = 0;
-while (tomp < 3) {
-  float temp = 10.2 + 20.6;
-  int index3 = days;
-  enabled = true || daas;
-  if (7 != years % 3) {
-    print(years);
-    int rounds2 = days / 4;
-  } else {
-    int score = (40 % 7);
-    print(score);
-    print("parse");
-    tickets = 18;
+float rate = 9.1;
+int count2 = 17;
+string course = "parse";
+count2 = (count2 / 3) - 15 % 2;
+print(count2);
+if ((count2 - count2) != (count2 % 9)) {
+  string name = "ok";
+  int j = 0;
+  for (j = 0; j < 3; j = j + 1) {
+    rate = rate * 24;
   }
-  tomp = tomp + 1;
-}
-if (16.6 * 6.5 < 20 % 7 && 15 <= (tomp * tickets)) {
-  int base = (days * 23);
-  print(base);
-  tickets = 28;
-} else {
-  if (enabled) {
-    int size3 = years;
-    print(size3);
-    print(temp);
-  } else {
-    print(tickets);
-    print(temp);
-    print(tomp);
+  print(j);
+  int items = 0;
+  while (items < 4) {
+    print(rate);
+    int base = (count2 * 32);
+    print(rate);
+    items = items + 1;
   }
-  if (enabled) {
-    int tempx = 8 + tomp;
-    print(tempx);
-    tempx = tickets + 5;
-    print(days != 28);
-  } else if (years % 8 >= 17 + tickets) {
-    int height = (19 % 4);
-    print(height);
-    int seats = tickets;
+  if ((count2 / 3) < count2 - count2) {
+    int b = (count2 + count2);
   }
 }
-print(enabled);
-string greeting = "yudu";
+int coursre = (count2 + count2);
+print(count2);
+print(name);

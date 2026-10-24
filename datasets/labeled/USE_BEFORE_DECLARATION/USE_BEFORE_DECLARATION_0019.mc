@@ -25,18 +25,30 @@ while (num < 3) {
   num = num + 1;
 }
 if (passed) {
-  print(false && !passed);
+  for (int second = 0; second < 4; second = second + 1) {
+    is_even3 = avg * 4.1 > (6 / 6);
+    print(greeting3);
+    int tickets3 = (height * a);
+  }
 } else {
-  int num1 = (6 / 6);
-  print(num1);
-  print(greeting3);
-  int tickets3 = (height * a);
-  int years = 0;
-  while (years < 2) {
-    print(count / 4);
-    avg = 20.1 - num;
-    print(num1);
-    years = years + 1;
+  if (num > num + 13 && !ok) {
+    bool done = (count + 29) < count + index;
+    bool ready = 2 / 1 == 10;
+    print(height * 31);
+  } else {
+    greeting3 = "done";
+    is_even3 = 5 - count < (index + 37);
+    int y = index - a;
+  }
+  if (11 < index) {
+    int count2 = (24 / 3);
+    print(count2);
+    float coune2 = avg;
+    string label1 = "hello";
+    print(a);
+  } else {
+    print(passed);
+    print(lives1);
+    ok = 28 / 9 > index % 4;
   }
 }
-print(a);

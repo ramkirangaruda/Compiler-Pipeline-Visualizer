@@ -1,27 +1,33 @@
-int tickets = 1;
-int z = tickets;
-int age = 11;
-int emean3 = tickets % 7;
-print(false);
-string msg1 = "yudu";
-int msg1s = 0;
-while (msg1s < 3) {
-  float mean3 = 17.9 - 23.4;
-  int seats1 = z;
-  emean3 = 24 + 36 % 1;
-  print(true);
-  msg1s = msg1s + 1;
+int j = 2;
+int score = (38 % 6);
+bool active = score <= (34 / 8);
+int height = score + score;
+int years3 = 30;
+string msg = "bob";
+print(active);
+score = 29;
+if (height * years3 < height + 10 || j != 2) {
+  float rate = 28.4 - height;
+  print("compiler");
+} else if (height - 11 <= score % 3) {
+  if ((score + years3) == height - height) {
+    print(j);
+    int days = (score + height);
+  }
 }
-float emean3s = mean3 * z;
-float msgn = mean3;
-print(tickets);
-int steps2 = 0;
-while (steps2 < 5) {
-  emean3s = (32 / 2);
-  tickets = 31 * msg1s * (17 % 5);
-  steps2 = steps2 + 1;
+print((height / 8) == score);
+for (int k3 = 0; k3 < 2; k3 = k3 + 1) {
+  print(msg);
 }
-tickets = 0 * (msg1s - 19);
-emean3 = (27 % 9) + 17 - emean3;
-string owner = "ok";
-print(mean3);
+j = years3 - (j + 39);
+if (26.2 + rate > 12 / 4) {
+  print(height);
+  int age = 0;
+  while (age < 6) {
+    int items1 = (33 - 18);
+    float speed1 = rate;
+    age = age + 1;
+  }
+} else {
+  int actives = (years3 % 4);
+}

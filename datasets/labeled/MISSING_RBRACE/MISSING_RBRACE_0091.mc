@@ -1,26 +1,47 @@
-int steps = 33 + 21;
-int size = steps % 7;
-bool passed = true;
-float voltage2 = 21.9 - 1.7;
-int z = 32;
-print(size);
-if (size == z) {
-  int passeds = 0;
-  while (passeds < 6) {
-    print(size);
-    passeds = passeds + 1;
-  
-  print(passed);
-  int age = 0;
-  while (age < 6) {
-    size = age - passeds / 5;
-    print(size);
-    age = age + 1;
+string name = "world";
+int result = 18 + 20;
+int count = 19;
+bool has_more = true;
+name = name;
+print(name);
+if (result / 9 != count % 3) {
+  result = result + result + count;
+  if (1.5 >= result) {
+    int age = count;
+    print(age);
+    print(name);
+    print(result);
+    print(age);
+  } else {
+    has_more = 28.7 * count == count / 4;
+  }
+} else if ((10 / 9) == (7 + count)) {
+  int has_sore = 4;
+  print(name);
+} else {
+  int z1 = 39 + result;
+  print(z1);
+  if ((count * 39) >= (count * result)) {
+    int first = 36;
+    print(first);
+    print(count);
+    result = (result + count) + (23 + z1);
+    result = 14 - first;
+  } else if (has_more) {
+    int lives = 5;
+    print(lives);
+    print(z1);
+   else {
+    string course3 = name;
+    z1 = z1 / 5 - 33;
+    print(z1);
   }
 }
-print("yudu");
-passed = z - size < (size - 17);
-voltage2 = 10.1 * z;
-print(z);
-print("bob");
-print(z);
+count = count % 8;
+print(result);
+print(result - 38);
+has_more = count + result != 7;
+print((19 % 8));
+int days1 = 38 / 8;
+print(count);
+print(result);

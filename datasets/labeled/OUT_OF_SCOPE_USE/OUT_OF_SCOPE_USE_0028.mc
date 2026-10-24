@@ -1,96 +1,53 @@
-string donex = "pipeline";
-string label = donex + "robot";
-bool flag = 27.2 - 18 < 30 - 11;
-if (donex == "parse") {
-  bool done = 8.6 * 36 != 32 / 7;
-  int score = 0;
-  while (score < 2) {
-    print(32 % 2);
-    flag = flag;
-    done = false;
-    score = score + 1;
-  }
-} else if (true) {
-  int rounds = 0;
-  while (rounds < 4) {
-    donex = donex;
-    done = true;
-    rounds = rounds + 1;
-  }
-  if (donex == "alice") {
-    done = 23 != (rounds * rounds);
-    print("hello");
-  } else if (3.3 < (rounds * 3)) {
-    int flaag = rounds / 8;
-    print(flaag);
-    flaag = flaag * rounds + (26 / 9);
-    print(flag);
-  }
-} else {
-  print(done);
+float area = 23.9 + 2;
+int k;
+int y = (k + k);
+int count = k;
+print(count);
+for (int areas = 0; areas < 2; areas = areas + 1) {
+  print(area);
 }
-print(label);
-donex = "token";
-if (18.6 == (34 * 11)) {
-  print(flag);
-} else {
-  print(done);
-  print(flag);
+if (17 - count < y % 8) {
+  float counts = area - y;
+  for (int days = 0; days < 5; days = days + 1) {
+    print(counts);
+    print(days);
+  }
 }
-if (16 * 35 >= 23) {
-  int donee = 14;
-  print(donee);
-  if (10.3 < donee) {
-    int marks = donee;
-    print(marks);
-    bool valid = 19.3 - marks < (2 % 8);
-    marks = 36 + donee * marks;
+if ((count - y) > count) {
+  int index = y;
+  print(index);
+  print("ok");
+} else if (count - 20 < (count + k)) {
+  int seats = 13 + 32;
+  print(seats);
+  if ((37 - k) == seats || false) {
+    print(seats);
+    y = seats;
+  } else if (16.3 + 24.7 > 5) {
+    k = y / 9;
+    print(y);
   } else {
-    done = flag;
-    donee = donee / 1 - (donee / 7);
-    int width2 = 33;
+    int a = seats;
+    print(a);
+    print(area);
+    print(seats);
+    float voltage = 12.3 + 40;
   }
-  print(39 + donee);
-  bool found = flag;
-} else if (18.6 * 21.6 == 15 * 15) {
-  int score3 = (12 - 37);
-  print(score3);
-  print(flag);
-  if (score3 < score3 + score3) {
-    int points = (score3 + score3);
-  }
-}
-if (done) {
-  int doner = 6 * 24;
-  print(doner);
-  flag = flag;
+  y = (22 / 4) - (26 + 37);
 } else {
-  int level = 40 * 30;
-  print(level);
-  level = 15;
-  int total = 0;
-  while (total < 5) {
-    float rate3 = 29.3 * 28.5;
-    total = total + 1;
+  int limit = 15 % 2;
+  print(limit);
+  if (false || 24 - y != (limit - 27)) {
+    int height = (k * limit);
+    print(height);
+    string label = "done";
+    count = (12 - 33) * (16 + k);
   }
 }
-label = donex;
-float salary = 5.2 * 27;
-done = salary - 34 == 19;
-if (done) {
-  print(done);
-  salary = 17.2 * 17;
-  int first3 = 0;
-  while (first3 < 6) {
-    print(salary <= (first3 - first3) && first3 % 5 >= (first3 % 8));
-    first3 = first3 + 1;
-  }
-} else {
-  print("pipeline");
-  if (donex != "world" || false) {
-    print((23 - 15));
-  } else {
-    print(label);
-  }
+int points = 0;
+while (points < 5) {
+  counts = counts - points;
+  print(counts);
+  points = points + 1;
 }
-print(done);
+print(23);

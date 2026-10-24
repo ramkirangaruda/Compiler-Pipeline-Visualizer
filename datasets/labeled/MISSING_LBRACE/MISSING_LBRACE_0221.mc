@@ -1,43 +1,27 @@
-int limit = 25 - 38;
-int z = (limit / 4);
-float weight2 = 23.4 + z;
-string weight2x = "bob";
-string weighs2 = "parse";
-string text = "token";
-print("yudu");
-int a = 0;
-while (a < 4) {
-  print(weight2);
-  a = a + 1;
-}
-int count = limit % 6;
-limit = 39;
-text = "done";
-print(weighs2);
-if (24.1 - count < 2 / 2) {
-  int base = 19;
-  print(base);
-  int height = 0;
-  while (height < 4) {
-    float ratio1 = weight2;
-    height = height + 1;
+string msg = "done";
+int i = (38 * 23);
+string greeting = "alice";
+int score = (34 + i);
+int j = i / 4;
+int size = 21;
+bool greetingx = i / 8 <= size + j;
+if (26 < score + 34) 
+  int value = i % 6;
+  print(value);
+  int index = (i - 9);
+  bool done = (18 * i) <= (30 + 17);
+} else if ((i - size) <= 22) {
+  j = i + j - i;
+  int greetingxs = 0;
+  while (greetingxs < 5) {
+    print(score);
+    print(!greetingx && greetingx);
+    print(size);
+    greetingxs = greetingxs + 1;
   }
-  int years = 0;
-  while (years < 3) {
-    print(base);
-    print(weight2);
-    years = years + 1;
-  }
-  print(weight2x);
 }
-if (false) 
-  int weinght2 = (count % 2);
-  print(weinght2);
-  int result2 = limit;
-  if (false) {
-    bool restult2 = 23.3 == (count / 1);
-  }
-} else {
-  print(z);
-}
-print(z);
+size = score + size / 2;
+msg = "token";
+int points = score + size;
+print(size);
+print(msg);

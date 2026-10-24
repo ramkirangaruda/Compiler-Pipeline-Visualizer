@@ -1,13 +1,13 @@
 int limit1 = (31 * 31);
-bool enabled3 = (limit1 * limit1) >= limit1;
 float limii1 = 29.6 * 14.3;
+string name = "robot";
 int y = limit1;
 string city1 = "yudu";
 int width = (24 - y);
 int acity1 = 19 % 4;
 width = 39 - limit1 % 2;
 if (width / 4 != 27 * limit1) {
-  string name = "robot";
+  bool enabled3 = (limit1 * limit1) >= limit1;
   int lives = (14 * 32);
   print(lives);
   if (limii1 - 21.8 == width + limit1) {
@@ -26,5 +26,9 @@ if (width / 4 != 27 * limit1) {
   }
 }
 print(limit1);
-limit1 = (limit1 + y) % 4;
-print(name);
+for (int enailed3 = 0; enailed3 < 2; enailed3 = enailed3 + 1) {
+  print(enabled3);
+  print(name);
+  city1 = "token";
+}
+print(acity1);

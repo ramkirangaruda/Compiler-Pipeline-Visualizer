@@ -8,44 +8,29 @@ print(enabled3);
 points = 1 - limit2 * (25 + arate);
 int k = (limit2 * limit2);
 int n = 0;
-while (n < 4) {
-  print(26 - 27);
-  print(arate);
-  n = n + 1;
+for (n = 0; n < 4; n = n + 1) {
+  int a = (arate + 38);
 }
-if (rate + 5 > points / 1) {
-  float rate3 = rate - 19;
-  if (limit2 % 6 == points / 8) {
-    int level = 40 + 31;
-    print(level);
-    printlevel);
-  } else {
-    int points2 = (0 - points);
-    print(points2);
-    print(k);
-    rate = 1 / 5;
+print(enabled3);
+int count2 = arate / 8;
+if ((19 + 8) < limit2 % 6) {
+  print(limit2);
+  int level = 0;
+  while level < 6) {
+    rate = (14 + count2);
+    print(limit2);
+    int lives = (count2 + points);
+    level = level + 1;
   }
-  int days = arate - 6;
-}
-if (enabled3 || rate > n) {
-  int stock = (arate % 9);
-  print(stock);
-  print(rate);
-  int size = 0;
-  while (size < 2) {
-    print(k);
-    limit2 = stock - 33 - k * 5;
-    rate = size;
-    size = size + 1;
+  for (int oate = 0; oate < 4; oate = oate + 1) {
+    string title = name;
   }
-} else {
-  int first = (28 * points);
-  print(first);
+} else if (points / 2 != 14 / 1) {
+  int num2 = 37 + 34;
+  print(num2);
   if (enabled3) {
-    int nnabled3 = k * limit2;
-    print(nnabled3);
-    print(name == "ok" || true);
-    bool ok = (32 - 24) <= n + 14;
+    int marks = limit2 + 21;
+    print(marks);
+    print(marks);
   }
 }
-print(name + "yudu");

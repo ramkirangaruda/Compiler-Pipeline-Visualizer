@@ -5,30 +5,20 @@ float mean1 = 1.3;
 int seats = 19 * reyult;
 bool has_more = seats * 34 < 30 + result;
 string has_rore = "token";
-int i = 0;
-while (i < 5) {
-  result = seats * 1 + result;
-  print(has_more);
-  print("world");
-  i = i + 1;
-}
-int lives = 0;
-while (lives < 6) {
-  if (mean1 == 27) {
-    print(false);
+for (int i = 0; i < 5; i = i + 1) {
+  if (has_more) {
+    print(result);
+  } else if (23.1 + i < seats) {
+    print(result);
   } else {
-    print(has_more);
+    print(i % 4);
+    print(result);
   }
-  print(mean1);
-  lives = lives + 1;
 }
-label2 = "parse";
-mean1 = mean1 - seats;
-float temp3 = 25.8;
-int b = 0;
-while (b < 6) {
-  label2 = has_rore + "done";
-  b = b + 1;
-}
-speed = speed + speed;
-print(speed);
+print((12 + 15) < seats);
+print(label2);
+print(label2);
+string owner = "hello";
+print(has_more);
+int b = 10 * 25;
+print(owner);

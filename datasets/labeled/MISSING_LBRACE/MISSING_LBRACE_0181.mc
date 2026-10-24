@@ -1,38 +1,44 @@
-int age2 = 12;
-int width3 = age2;
-int y2 = (width3 % 5);
-bool enabled2 = (13 + y2) < age2 - 22;
-string title = "yudu";
-if (0.2 * 36 == width3) {
-  int items = y2;
-  print(items);
-  int num = 0;
-  while (num < 2) {
-    print(num);
-    string greeting = "bob";
-    print(items);
-    num = num + 1;
-  }
-  if (enabled2 || (21 + y2) != (4 * width3)) {
-    int b = 12;
-    print(b);
-    print(enabled2);
-    int size = y2;
-    float voltage = 20.3 + 3.8;
-  }
-  age2 = items - age2 + 2 - 29;
-} else 
-  int tickets = 23 / 8;
-  print(tickets);
-  int j1 = 0;
-  while (j1 < 5) {
-    print(3);
-    j1 = j1 + 1;
+string text = "yudu";
+float distance = 7.4 - 39;
+int b = 40;
+bool valid = true;
+print(b);
+for (int years = 0; years < 3; years = years + 1) {
+  print(distance);
+  if (distance + b < b / 2) {
+    distance = (years - b);
+  } else {
+    int rounds = (years / 7);
+    print(rounds);
+    print(true || valid);
+    print(rounds);
   }
 }
-print("world");
-y2 = (22 + y2) + 37 * y2;
-y2 = 17 - width3 * 16 / 7;
-enabled2 = false && title != "hello";
-int enabled2x = 27;
-print(enabled2x);
+if (8.5 - 11 >= (b - b)) {
+  int items = 3;
+  float salary = 22.7 + b;
+} else if (text != "ok") {
+  int limit = (6 * b);
+  print(limit);
+  for (int num = 0; num < 4; num = num + 1) {
+    float balance = distance * distance;
+    balance = b * num;
+    print(b);
+  }
+  print(valid);
+} else 
+  print(text);
+}
+distance = 20.7 - 31;
+print(text);
+distance = b;
+print(text);
+if (valid) {
+  if (valid) {
+    valid = distance >= b + 17;
+    int j = 31;
+  }
+} else {
+  valid = b + 4 < (34 % 9);
+  print("world");
+}

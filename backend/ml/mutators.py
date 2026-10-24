@@ -213,7 +213,7 @@ def m_missing_decl(fe, rng) -> Result:
     uses = _ident_uses(fe)
     decls = [
         n for n in iter_nodes(fe.program)
-        if isinstance(n, A.VarDecl) and any(u[0] == n.name and u[1] > n.end for u in uses)
+        if isinstance(n, A.VarDecl) and not getattr(n, "_in_for", False) and any(u[0] == n.name and u[1] > n.end for u in uses)
     ]
     if not decls:
         return None
@@ -226,7 +226,7 @@ def m_use_before(fe, rng) -> Result:
     src, options = fe.source, []
     for body in stmt_lists(fe.program):
         for di, d in enumerate(body):
-            if not isinstance(d, A.VarDecl):
+            if not isinstance(d, A.VarDecl) or getattr(d, "_in_for", False):
                 continue
             for s in body[di + 1 :]:
                 if uses_name(s, d.name):
@@ -261,10 +261,27 @@ def m_out_of_scope(fe, rng) -> Result:
                 options.append((d, h, block))
             if uses_name(h, d.name):
                 break
+    # a counter declared before a `for` and used after it becomes loop-local: `int i; for (i = 0; ...)` -> `for (int i = 0; ...)`
+    for body in stmt_lists(fe.program):
+        for di, d in enumerate(body):
+            if not isinstance(d, A.VarDecl) or d.vtype != "int" or getattr(d, "_in_for", False):
+                continue
+            for hi in range(di + 1, len(body)):
+                h = body[hi]
+                if isinstance(h, A.Block) and getattr(h, "_is_for", False) and isinstance(h.body[0], A.Assign) and h.body[0].name == d.name:
+                    if any(uses_name(s, d.name) for s in body[hi + 1 :]):
+                        options.append((d, h, "for"))
+                    break
+                if uses_name(h, d.name):
+                    break
     if not options:
         return None
     d, h, block = rng.choice(options)
     ds, de = stmt_removal_span(src, d.start, d.end)
+    if block == "for":
+        init = h.body[0]
+        new = apply_edits(src, [Edit(ds, de, ""), Edit(init.start, init.start, "int ")])
+        return new, {"line": d.line, "mutation": f"made loop counter '{d.name}' local to its for loop", "name": d.name}
     pos = line_end(src, block.start) + 1
     text = indent_str(src, h.start) + "  " + src[d.start : d.end] + "\n"
     new = apply_edits(src, [Edit(ds, de, ""), Edit(pos, pos, text)])

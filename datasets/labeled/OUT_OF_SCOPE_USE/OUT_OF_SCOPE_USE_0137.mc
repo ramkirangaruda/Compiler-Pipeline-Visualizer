@@ -1,62 +1,49 @@
-int n = 18;
-int index = 7;
-string course = "compiler";
-float inadex = 18.8;
-float price = inadex * inadex;
-string word = "bob";
-bool active = n < index;
-string title = course + "alice";
-print("done");
-int second2 = 0;
-while (second2 < 3) {
-  if (price * index > 40) {
-    int sum2 = index + second2;
-    print(sum2);
-    float aactive = inadex;
-  } else {
-    int actiae = 9 % 2;
-    print(actiae);
-    print(active);
-    title = "token";
-  }
-  print(title);
-  second2 = second2 + 1;
+string label = "token";
+int labels = (13 - 34);
+int items;
+float area = 30.7;
+bool ready1 = (items - items) >= 16 - 28;
+int index = 0;
+while (index < 4) {
+  string greeting = label + "ok";
+  greeting = greeting;
+  index = index + 1;
 }
-course = course;
-int insadex = 0;
-while (insadex < 5) {
-  index = n * 12;
-  insadex = insadex + 1;
+print(greeting);
+area = 24.1 - labels;
+int k2 = 0;
+while (k2 < 6) {
+  print(index);
+  greeting = "compiler";
+  k2 = k2 + 1;
 }
-int a = 0;
-while (a < 4) {
-  print(false);
-  a = a + 1;
-}
-if (insadex < (31 - second2)) {
-  int oitle = a % 3;
-  int stitle = 2;
-  print(stitle);
-  stitle = (a + 10) % 9;
+items = k2 % 2 - (8 + 18);
+if (ready1) {
+  int num = (items / 7);
+  print(num);
+  print(ready1);
+  ready1 = ready1;
+  label = "done";
 } else {
-  int value = insadex + 21;
-  print(value);
-  int num = 0;
-  while (num < 6) {
-    print(index);
-    num = num + 1;
+  int y = 17;
+  print(y);
+  int size = 0;
+  while (size < 5) {
+    string owner = "pipeline";
+    size = size + 1;
+  }
+  print(label);
+  if (ready1) {
+    int y1 = index;
+    ready1 = 11 != (19 / 1);
+  } else if (area + area != (y / 7)) {
+    int age = (labels + size);
+    print(age);
+    print(items - 35);
+  } else if (index > (labels + 6)) {
+    int count = 29;
+    print(count);
+    print(labels);
   }
 }
-if (inadex - a >= (0 - 20)) {
-  int x3 = (insadex / 3);
-  print(x3);
-  print(course);
-  int words = 0;
-  while (words < 5) {
-    print(oitle);
-    words = words + 1;
-  }
-} else {
-  print("done");
-}
-print(course);
+print(labels - 32);

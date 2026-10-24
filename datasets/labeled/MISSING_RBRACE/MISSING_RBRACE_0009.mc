@@ -14,16 +14,12 @@ if (18 <= (items / 1)) {
     second = second + 1;
   }
 } else {
-  int aective = 0;
-  while (aective < 2) {
-    print(text);
-    print(weight);
-    aective = aective + 1;
+  for (int aective = 0; aective < 2; aective = aective + 1) {
+    print(items);
   }
-  print(text != "alice");
-  print(aective);
+  print(items);
+  float temp = 25.2 - 6;
 }
-print(weight);
 text = "world";
 int count = 0;
 while (count < 6) {
@@ -40,3 +36,5 @@ while (count < 6) {
   }
   count = count + 1;
 
+print(text);
+print(weight);

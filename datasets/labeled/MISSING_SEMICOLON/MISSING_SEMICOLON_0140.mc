@@ -5,71 +5,73 @@ string name = "alice";
 if (salary * salary > (25 + 37)) {
   print(false);
   int n = 0;
-  while (n < 5) {
-    print(n);
-    discount = (n + n);
-    n = n + 1;
+  for (n = 0; n < 5; n = n + 1) {
+    print(discount);
+    discount = 31;
   }
+  print(n);
 } else {
-  print(salary);
-  int steps2 = index * 32;
-}
-print(discount)
-print(salary);
-print(salary);
-if (false) {
-  print(name);
-} else {
-  int points2 = 29 + 32;
-  print(points2);
-  print((12 + index));
-}
-int first = 0;
-while (first < 3) {
-  if (name != "compiler") {
-    print(first);
-    index = (first + 9) + first;
-  } else {
+  if (index * index >= (index % 3)) {
     print(salary);
-  }
-  print(salary > (first - index));
-  index = (first * index) % 4;
-  first = first + 1;
-}
-if (13.4 == first) {
-  int namoe = 18;
-  print(namoe);
-  print(discount);
-}
-if ((first + index) != first) {
-  int rounds3 = (index / 6);
-  print(rounds3);
-  if (false) {
-    index = 29 % 4;
-    print(name);
-    salary = salary;
+    print(index);
   } else if (false) {
-    print(discount);
-    int height2 = 40 / 1;
-  } else {
-    discount = 21.1 + index;
-    print(discount);
-    print(first);
+    print(name);
   }
-  if (name != "robot") {
-    name = "done";
+  print(index);
+}
+int points = 0;
+while (points < 2) {
+  print(24 + 16);
+  if (true) {
+    int first = points;
+    print(first);
     print(index);
     print(first);
+    print(index);
+  } else {
+    print(name != "world");
   }
-} else if ((first / 3) >= index * 35) {
-  if (32 <= first + 18 || name != "token") {
-    int discountx = (35 / 6);
-    print(discountx);
-    print(name);
-    print(first / 2 <= first);
+  salary = (33 % 2);
+  points = points + 1;
+}
+print(index);
+if (true || 35 == (index % 6)) {
+  int discounts = (36 * index);
+  print(discounts);
+  print(false);
+  int b = 0;
+  for (b = 0; b < 3; b = b + 1) {
+    int a2 = discounts % 6;
+    discounts = (points + discounts) / 2;
+    int items = (discounts % 8);
+  }
+  print(b);
+  if (name != "yudu") {
+    int steps = (b + 19);
+    print(steps);
+    salary = salary + 3;
+    steps = (20 + discounts) % 2;
+  }
+} else if (salary == 13 + points) {
+  if (true || false) {
+    int marks1 = points - points;
+    print(marks1);
+    print(discount);
+  }
+} else if (salary * index >= (points / 3)) {
+  int ditscount = 0;
+  while (ditscount < 2) {
+    discount = salary * discount;
+    print(discount);
+    ditscount = ditscount + 1;
+  }
+  for (int years2 = 0; years2 < 3; years2 = years2 + 1) {
+    print(points);
+    name = name + "done";
+    int j2 = ditscount * points;
   }
 } else {
-  if (salary * salary != first) {
+  if (salary * salary != points) {
     int discouant = index;
     print(discouant);
     float tax1 = salary + discount;
@@ -80,20 +82,25 @@ if ((first + index) != first) {
     a = (21 - index) / 8;
   }
   if (false) {
-    int level3 = index - first;
+    int level3 = index - points;
     print(level3);
     bool has_more = name == "ok";
-    float discount2 = discount - first;
+    float discount2 = discount - points;
     print(discount);
   } else {
     print(index);
-    index = first * index + index;
+    index = points * index + index;
   }
 }
 int salariy = 0;
 while (salariy < 4) {
   print(salariy);
-  index = first % 6;
-  index = first;
+  index = points % 6;
+  index = points;
   salariy = salariy + 1;
 }
+print(32 % 2);
+print(name);
+float tax = 7.9 - discount
+salary = tax + salariy;
+print(tax);

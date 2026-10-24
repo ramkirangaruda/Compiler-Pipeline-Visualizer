@@ -18,5 +18,9 @@ if (msg == "parse") {
 ratio2 = (30 % 8);
 bool flag = true;
 print(tax >= (4 % 4));
-tax = 17.3;
-print(msg);
+for (int taxs = 0; taxs < 2; taxs = taxs + 1) {
+  msg = "hello";
+  tax = ratio2;
+  print(tax);
+}
+print(ratio2);

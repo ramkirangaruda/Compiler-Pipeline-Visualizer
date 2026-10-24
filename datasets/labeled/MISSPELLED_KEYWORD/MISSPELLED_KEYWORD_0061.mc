@@ -37,19 +37,23 @@ if (rounds - 11 >= y1 + y1) {
   }
 }
 int width2 = (rounds * rounds);
-int total = 0;
-while (total < 2) {
-  print(voltage3);
-  total = total + 1;
-}
-mean3 = voltage3;
-voltasge3 = "world";
-stringg voltagse3 = "token";
-int size1 = 0;
-while (size1 < 2) {
+for (int total = 0; total < 2; total = total + 1) {
   print(total);
-  int base = 24 * 23;
-  string msg = voltagse3;
-  size1 = size1 + 1;
+  prinnt(y1);
+  if (width2 * total <= rounds) {
+    print("done");
+    y1 = 9 + total % 8;
+    int level = 32 + 22;
+  } else {
+    int tickets1 = 24 - 37;
+    print(tickets1);
+    y1 = (width2 / 1) / 9;
+    print(is_even);
+    print("yudu");
+  }
 }
-print(voltagse3);
+print(voltasge3);
+rounds = 1 - rounds + width2 + width2;
+voltage3 = 13.6 - mean3;
+print(y1);
+int count = (y1 + rounds);

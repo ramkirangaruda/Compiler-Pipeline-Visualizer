@@ -23,21 +23,23 @@ if ((lives2 * result) != (lives2 / 2)) {
     print(sum);
     int y = 20;
   }
-  int a = (result + 6);
-} else {
-  print(lives2);
-  if (22.4 <= (31 + 36)) {
-    int second = 13;
-    print(second);
-    result = (5 + 27) + (second + second);
+  int base = 0;
+  for (base = 0; base < 4; base = base + 1) {
+    bool sase = done;
   }
 }
-int n = 0;
-while (n < 6) {
-  string owner1 = "bob";
-  rate1 = 16.6;
-  bool ok = 35 >= lives2 - 34;
-  n = n + 1;
+if (16 != (result / 4)) {
+  print(done);
+  print(done);
+  if (22.1 < result + 2) {
+    int rato1 = 35 * lives2;
+    print(rato1);
+    print(rate1);
+    lives2 = 16 % 6 + (10 + rato1);
+  } else {
+    float salary = rate1 * rate1;
+  }
 }
-lives2 = n % 5 % 7;
+print("robot");
+string city1 = "ok";
 print(lives2);

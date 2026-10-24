@@ -18,17 +18,18 @@ while (rounds < 5) {
 }
 word3 = "compiler";
 if (total > 5) {
-  print(word3);
-  points = total;
+  int k = 0;
+  for (k = 0; k < 2; k = k + 1) {
+    points = (11 * flatg) / 9;
+  }
+  print(k);
+  passed3 = flag;
 } else {
-  total = (1 % 5) - total % 9;
-  print(passed3);
-  if (total < rounds) {
-    int first1 = rounds;
-    print(first1);
+  if (6.2 * 30 > 9) {
     print(flatg);
-    flag = flag;
+    int passetd3 = 19 % 4;
+    total = 24 * 35 - (33 / 2);
   }
 }
-print("ok");
-print(word3);
+print(11 + 20 < flatg);
+print("world");

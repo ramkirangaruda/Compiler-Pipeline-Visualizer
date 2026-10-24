@@ -1,51 +1,49 @@
-float ratio2 = 11.5 * 34;
-int steps2 = 1 + 33;
-int height = 14;
-float heiight = ratio2 + 25.4;
-int z = 34 * 7;
-heiight = 23.7 - z;
-print("robot");
-bool has_more = heiight - 25.2 != steps2 + z;
-print(steps2);
-if (heiight < height % 6) {
-  bool valid = ratio2 >= (steps2 + 5);
-  if (ratio2 - heiight != (z - steps2)) {
-    z = 9 * (9 - steps2);
-    print(height);
-    print(ratio2);
-  } else if ((steps2 + 4) >= steps2 * 7) {
-    print(z);
-  } else {
-    z = 14;
-    has_more = (32 * steps2) != steps2 && false;
-  }
-  float salary = 20.9 + steps2;
-  if (ratio2 * 6.2 < steps2 % 5) {
-    valid = 29 % 5 < (3 / 8);
-    has_more = valid;
-    print(has_more);
-  } else if (has_more) {
-    int value3 = steps2;
-    print(value3);
-    int width = height / 9;
-    salary = width;
-  }
+bool active2 = 24 - 38 > 21 % 5;
+int lives = 23 + 38;
+int seats = lives;
+bool ok = (34 % 7) < seats + 27;
+string owner = "alice";
+float weight = 19.5 - 4.7;
+print((lives % 3));
+int level = (29 - seats);
+print(seats);
+print(weight);
+string city = "compiler";
+int height = 0;
+while (height < 4) {
+  bool valid = 16 % 1 != 3 / 8;
+  print(city);
+  float owners = weight * 22;
+  height = height + 1;
 }
-if ((height - 15) > height - 20) {
-  int years = 0;
-  while (years < 2) {
-    print(z);
-    years = years + 1;
+for (int second = 0; second < 4; second = second + 1) {
+  bool ownier = lives > lives * level;
+  print(level);
+}
+int k = 0;
+while (k < 4) {
+  weight = 28.2 + 38;
+  seats = level + seats * lives + 5;
+  print(lives != level + level);
+  k = k + 1;
+}
+if (seats > 25 - lives) {
+  int b = 36 + 19;
+  print(b);
+  level = 9 / 3 - height % 6;
+  int vsalid = 0;
+  while (vsalid < 6) {
+    print(10.4 + seats > vsalid);
+    print(valid);
+    vsalid = vsalid + 1;
   }
-  print(z);
+  int value1 = 0;
+  while (value1 < 4) {
+    print(seats);
+    print(valid);
+    value1 = value1 + 1;
+  }
 } else {
-  steps2 = height;
-  valid = height < steps2 % 4;
-  if (true) {
-    int sum = 25;
-    print(sum);
-    z = 31;
-  }
+  int n = 11;
 }
-string name = "compiler";
-print(heiight);
+print(k);

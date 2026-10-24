@@ -32,16 +32,29 @@ if ((13 * is_teven3) <= (36 * 38)) {
 is_even3 = tas_more != "hello";
 is_even3 = salary + is_teven3 > steps + 32;
 if (salary + 29.8 > (is_teven3 + 22)) {
-  print(2 + 25 == 3 - steps);
-  int result = 0;
-  while (result < 6) {
-    is_even3 = 1.8 - 8.6 > (32 / 4);
-    ok = tas_more == "pipeline";
-    tas_more = "bob";
-    result = result + 1;
+  for (int second3 = 0; second3 < 2; second3 = second3 + 1) {
+    steps = 25 + 37 * 39;
+    print("compiler");
   }
+  print(tas_more);
 } else {
-  tas_more = "parse";
-  is_even3 = 13 >= steps;
+  salary = 13.7 * 14.9;
+  if (ok) {
+    int height = is_teven3;
+    print(height);
+    tas_more = "parse";
+    is_even3 = 13 >= steps;
+    print(tas_more);
+  } else {
+    int value = (17 * 34);
+    print(value);
+    string word2 = tas_more + "token";
+    print(steps);
+    print(tas_more);
+  }
+  int n = 0;
+  while (n < 4) {
+    float tax = 30.8;
+    n = n + 1;
+  }
 }
-print(tas_more);

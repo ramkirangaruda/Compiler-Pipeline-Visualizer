@@ -29,27 +29,41 @@ if (base >= 32) {
   print("token");
 } else if (22 - base > b % 3) {
   int steps = 0;
-  while (steps < 3) {
-    print(steps);
-    int means = (21 + index);
-    steps = steps + 1;
+  for (steps = 0; steps < 3; steps = steps + 1) {
+    print("token");
+    aase = aase * index;
+    base = lives;
   }
-  if (has_more) {
-    int has_msore = (4 - index);
-    print(has_msore);
-    has_more = !has_more || moean == "ok";
-    print(aase);
+  print(steps);
+  if (7.6 - 2.6 < index + lives) {
+    print(moean);
+    base = (base / 8) / 1;
+    has_more = false;
+  } else {
+    print(index);
+    moean = moean;
+  }
+} else {
+  print(lives);
+  for (int b1 = 0; b1 < 3; b1 = b1 + 1) {
+    float indexx = 10.5 + aase;
   }
 }
-int first = 0;
-while (first < 2) {
-  print(b);
-  first = first + 1;
+int age2 = 0;
+for (age2 = 0; age2 < 4; age2 = age2 + 1) {
+  if (aase + 5 <= 39) {
+    print(age2);
+  } else if (lives / 1 >= (index / 2) && moean == "yudu") {
+    int y2 = (2 % 3);
+    print(y2);
+    b = index;
+    string city2 = "bob";
+  } else {
+    print(moean);
+    print(moean == "ok");
+    b = (21 / 3) + (36 / 8);
+  }
 }
-int steps2 = 0;
-while (steps2 < 3) {
-  print(index);
-  float balance = mean - mean;
-  b = 4;
-  steps2 = steps2 + 1;
-}
+print(age2);
+print(index);
+print(has_more);

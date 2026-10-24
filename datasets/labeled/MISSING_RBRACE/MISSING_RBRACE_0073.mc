@@ -1,69 +1,57 @@
-float speed = 27.2;
-int seeed = (5 * 22);
-int index = seeed;
-string speaed = "world";
-bool has_more = false;
-string title = "world";
-speed = 12.1 * speed;
-print(seeed);
-int titlr = 0;
-while (titlr < 3) {
-  print(has_more);
-  print("world");
-  print(speaed);
-  titlr = titlr + 1;
+string msg = "yudu";
+int j2 = (5 + 33);
+bool msgs = j2 - 39 <= 3;
+int n = j2;
+int steps2 = n + j2;
+bool ready3;
+bool found = true;
+string course = "yudu";
+for (int count = 0; count < 2; count = count + 1) {
+  int points1 = (count % 2);
+  int x = (j2 / 6);
 }
-if (false) {
-  print(title);
-  int days = 0;
-  while (days < 6) {
-    speaed = "parse";
-    days = days + 1;
+if (msgs) {
+  int a = 14;
+  print(a);
+  for (int width1 = 0; width1 < 2; width1 = width1 + 1) {
+    print(found);
   }
+}
+print(found);
+print("token");
+if ((23 + steps2) >= (24 / 7)) {
+  int score = 33 % 1;
+  print(score);
+  n = steps2;
+  int fouod = steps2 + score;
+  print(fouod);
 } else {
-  speed = speed;
-}
-print(index);
-print(speaed);
-if (has_more) {
-  int age = (titlr % 4);
-  print(age);
-  if (!has_more) {
-    int steed = seeed;
-    bool enabled2 = !has_more;
-    seeed = 39 + 8 * (30 % 5);
-  } else if ((31 + age) > age) {
-    int size2 = index + 7;
-    print(size2);
-    int first = 8 * index;
-    print(speaed);
-   else if (1.1 * 25.1 >= titlr / 2) {
-    int speedx = (40 % 4);
+  for (int rounds = 0; rounds < 5; rounds = rounds + 1) {
+    string city = "done";
+  }
+  if (steps2 + j2 >= (n + 35)) {
+    int steps = n;
   } else {
-    int has_morex = (30 % 1);
-    print(has_morex);
-    float voltage2 = speed;
+    int result = j2;
+    print(result);
+    print(msgs);
   }
-} else {
-  print(index);
-  if (21.4 - speed < index % 3) {
-    int trtle = 4 / 9;
-    print(trtle);
-    has_more = speed - 17 >= (seeed + index);
-    print(29 / 6);
-    print(speed >= 25);
-  } else if (!has_more && has_more) {
-    index = titlr / 8 / 5;
-    speaed = title;
-  } else {
-    float weight = speed * index;
-    print(speed);
-    int value = index - 13;
-  }
-  int size = 0;
-  while (size < 4) {
-    print(has_more || speed > titlr * index);
-    size = size + 1;
-  }
+  int years2 = 4;
 }
-print(title);
+found = msgs;
+if (23.5 - 30.3 >= (15 + 2)) {
+  steps2 = (8 + steps2) * n;
+  if (6 == j2) {
+    found = 32 + 18 <= j2 % 1;
+    msgs = (31 % 5) < (steps2 + n);
+    ready3 = false;
+  } else {
+    int tickets2 = (steps2 / 9);
+    print(tickets2);
+    found = course != "alice";
+  }
+
+ready3 = (3 - 23) > n;
+j2 = j2 + 10 % 1;
+msg = course;
+print(course);

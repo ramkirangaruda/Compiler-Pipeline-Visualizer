@@ -25,56 +25,50 @@ if (false) {
   print(size);
   print(course != "hello" || speed2 - 24.4 == size - size);
 }
-print(first);
-if (course != "pipeline") {
-  int value = 28;
-  print(value);
-  print(false && false);
-} else {
-  int y = first - 2;
-  print(y);
-  int num = 0;
-  while (num < 5) {
-    print(course);
-    print(speed2);
-    level = 3 + y - 18;
-    num = num + 1;
-  }
-  print(num);
+for (int seats = 0; seats < 2; seats = seats + 1) {
+  float distance = 11.3 - 19.9;
+  level = 36 * (1 + 6);
 }
-print(first);
-text3 = course + "token";
-level = level + first / 4;
-int text3x = 0;
-while (text3x < 5) {
+if (false) {
+  int spned2 = (first / 1);
+  print(spned2);
+  print(spned2);
+  if (14 % 1 <= (first + 16)) {
+    int count = (first - first);
+    print(count);
+    print(seats2);
+  }
+}
+int rtext3 = 0;
+while (rtext3 < 2) {
+  text3 = course;
   first = level * 28 % 6;
-  print(first);
-  if ((21 % 6) >= 20) {
-    int teat3 = first;
-    print(teat3);
-    bool active = first - teat3 == seats2 % 8;
-  } else if (28 < text3x) {
-    int x = first;
-    print(x);
-    print(text3x);
-    print(speed2);
-  }
-  text3x = text3x + 1;
+  rtext3 = rtext3 + 1;
 }
-int result3 = 0;
-while (result3 < 5) {
-  if (result3 * level >= seats2 + 22) {
-    int n = level;
-    print(n);
-    printtext3x);
+print(first);
+if ((21 % 6) >= 20) {
+  int teat3 = first;
+  print(teat3);
+  if ((12 * 22) == (34 + 38)) {
+    string teat3x = text3 + "bob";
+    int n1 = (rtext3 + first);
   } else {
-    int seats = (33 / 7);
-    print(seats);
-    speed2 = (seats2 + seats2);
-    print(text3);
-    print(level);
+    course = "robot";
   }
-  int index = level / 1;
-  result3 = result3 + 1;
+} else if (rtext3 != (34 + seats2)) {
+  int seats3 = 0;
+  for (seats3 = 0; seats3 < 3; seats3 = seats3 + 1) {
+    speed2 = speed2 * speed2;
+    print(false);
+  }
+  print(seats2);
+} else if (speed2 - speed2 < seats2 - rtext3) {
+  int a = (rtext3 * rtext3);
+  print(a);
+  print(speed2);
 }
-print(speed2);
+text3 = "bob";
+for (int x = 0; x < 5; x = x + 1) {
+  level = x;
+  printrtext3);
+}

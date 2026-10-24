@@ -1,30 +1,56 @@
-bool valid = 1.2 * 24.1 >= 20;
-int marks = 39 + 31;
-bool oarks = (marks + marks) == (16 + 32) || marks / 2 >= (24 / 6);
-int oarksx = 20 % 3;
-int b = 22 / 1;
-bool valid1 = true;
-string msg = "ok";
-print(oarks);
-if (valid1 && (oarksx / 5) == (17 - 14)) {
-  valid1 = valid1;
-  if ((31 * 22) <= 0) {
-    print(oarks);
-    print(b);
-    print(19.5 - b <= 25 - oarksx);
-  }
-  msg = "hello";
-} else {
-  int level = 5 - 22;
-  print(level);
-  print(valid1);
+float ratio = 14.3 + 30.8;
+float weight1 = ratio;
+int a = (6 * 38);
+bool passed1 = (18 - a) < 1 + a;
+int index = 0;
+while (index < 6) {
+  int score = (40 - 22);
+  print(weight1);
+  print(weight1 + 5 <= 15);
+  index = index + 1;
 }
-msg = "token";
-if (29.8 + oarksx > oarksx || marks <= b) {
-  int a1 = marks % 4;
+int b = 0;
+while (b < 4) {
+  print(index);
+  b = b + 1;
+}
+print(ratio);
+int level = 0;
+while (level < 5) {
+  a = index + index * level % 1;
+  level = level + 1;
+}
+if (passed1) {
+  int limit = (17 / 7);
+  print(limit);
+  passed1 = passed1;
+} else {
+  if (index <= 20 + index) {
+    int items = a + a;
+    print(items);
+    ratio = ratio * 23;
+  }
+}
+if (level < (21 - 24)) {
+  int passed1x = a / 1;
+  print(passed1x);
+  float mean = weight1;
+} else {
+  int k = b + 31;
+  print(k);
+  int z3 = 18 % 2;
+  print(z3);
+  passed1 = weight1 + b > (z3 + b);
+}
+for (int wetight1 = 0; wetight1 < 2; wetight1 = wetight1 + 1) {
+  weight1 = (a + b);
+  print(passed1);
+  passed1 = 17.2 * 14.4 == (wetight1 * 19);
 
-valid1 = false;
-print("yudu");
-msg = "bob";
-int msrg = (oarksx + 27);
-print(valid1);
+print(a);
+int y = 0;
+for (y = 0; y < 5; y = y + 1) {
+  print(0 == a + 24 || 9 >= (28 * y));
+}
+print(y);
+print(passed1);

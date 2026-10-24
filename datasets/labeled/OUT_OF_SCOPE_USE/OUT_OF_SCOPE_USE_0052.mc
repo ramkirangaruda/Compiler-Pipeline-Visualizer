@@ -1,80 +1,49 @@
-float tax = 17.2 + 21.1;
-int taxx = 10 + 4;
-int marks;
-string word1 = "yudu";
-float ratio = tax + tax;
-bool is_even = tax - marks >= marks + 22;
-bool found3 = word1 != "compiler";
-print(marks != taxx + marks);
-if (found3) {
-  int i = marks + 14;
-  print(i);
-  int limit3 = 0;
-  while (limit3 < 5) {
-    word1 = "ok";
-    limit3 = limit3 + 1;
+int years2 = 27 - 39;
+bool flag = 39 * years2 < (years2 * years2);
+int k1 = (years2 / 6);
+string flaig = "token";
+bool found = k1 + years2 > years2;
+bool years2s = false;
+print(flag);
+int x = 0;
+while (x < 5) {
+  int z = (13 * 37);
+  print(found);
+  print(x);
+  x = x + 1;
+}
+int z1 = 0;
+while (z1 < 4) {
+  if (23.1 - 4.7 == years2 + 14) {
+    float ynars2 = 29.7 + years2;
+    print(z);
+    print(z);
   }
-  print(word1);
-  int z1 = 0;
-  while (z1 < 4) {
-    print(taxx);
-    found3 = !is_even;
-    z1 = z1 + 1;
+  print(x);
+  flag = found;
+  z1 = z1 + 1;
+}
+years2s = 33 >= k1 % 7;
+print(found);
+bool has_more2 = x != (z1 + 10);
+if (7.1 >= 12 && (years2 + x) >= (29 / 7)) {
+  int years = 0;
+  for (years = 0; years < 5; years = years + 1) {
+    print(years);
+    years2 = 11 * z1 / 2;
+  }
+  print(years);
+  int flaiag = 0;
+  while (flaiag < 5) {
+    print(z1);
+    print(x);
+    int seats = (31 + years2);
+    flaiag = flaiag + 1;
   }
 } else {
-  if (tax <= 17) {
-    print(marks >= taxx);
-  } else if (ratio > taxx && ratio > taxx) {
-    print(tax);
-  } else {
-    int value = marks;
-    print(value);
-    int k = (8 + 17);
-  }
+  int steps = z1;
+  print(steps);
+  z = 0 - 17 - years2;
 }
-if (taxx * marks < taxx) {
-  string word = "token";
-}
-if (word1 != "hello") {
-  int sum = taxx * taxx;
-  print(sum);
-  sum = 17 % 1 - sum + 15;
-  if (ratio > marks + taxx) {
-    int n = sum / 3;
-    print(n);
-    print(sum);
-    int width = 31;
-  } else if (word1 != "world") {
-    print(sum);
-  } else if (28.6 - ratio == (marks + 24)) {
-    int index2 = (14 + 36);
-    print(index2);
-    print(index2);
-  }
-}
-if (taxx - 12 > 7) {
-  bool done = (taxx / 4) == (26 + taxx);
-  int first = (29 - 34);
-  print(first);
-  int result = 0;
-  while (result < 5) {
-    ratio = 40;
-    print(8.1 + 8.3 == (taxx % 7));
-    result = result + 1;
-  }
-  print(40 == (marks / 2));
-  print(marks);
-}
-if (ratio + tax < 7 + 17) {
-  int efound3 = (marks % 6);
-  print(efound3);
-  int wtrd1 = 0;
-  while (wtrd1 < 2) {
-    print(done);
-    ratio = taxx;
-    print(word1 + "bob");
-    wtrd1 = wtrd1 + 1;
-  }
-}
-print(is_even);
-print(done);
+k1 = z;
+print(x);

@@ -1,85 +1,112 @@
-int n = (13 * 22);
-int steps = (n * 23);
-float salary2 = 25.6;
-float stepr = salary2 + steps;
-if (n > steps) {
-  int a = steps;
-  print(a);
-  print(stepr);
-  if (salary2 * steps != (40 + steps)) {
-    int b1 = 32;
-    print(b1);
-    n = n + 12 + 40;
-  } else if ((a + n) > 38) {
-    print(stepr);
-    print(10 - a == steps * 4);
-  }
+bool valid = false;
+string title3;
+int marks = 6 + 2;
+float speed = 5.3 + 15.2;
+int title3x = 0;
+while (title3x < 3) {
+  print("alice");
+  title3 = "compiler";
+  print(title3x);
+  title3x = title3x + 1;
 }
-if (22 == n + 1) {
-  int level2 = 25;
-  print(level2);
-  print(salary2);
- else {
-  if (salary2 - stepr < (steps % 4)) {
-    int level = (n + 28);
-    print(level);
-    print(salary2);
+print("compiler");
+print(speed);
+print(marks);
+if (20 >= title3x + title3x) {
+  print(title3x);
+  int size = 24 - title3x;
+} else {
+  int limit = 0;
+  while (limit < 4) {
+    print(valid);
+    limit = limit + 1;
+  }
+  print(marks);
+}
+if ((title3x / 9) == marks) {
+  int sum = 0;
+  while (sum < 6) {
+    float soum = speed - 23.8;
+    speed = 6.2 * 13.3;
+    sum = sum + 1;
+  }
+  if (valid) {
+    print(valid);
+  } else if (sum < (title3x * sum) && (37 - sum) == title3x) {
+    title3 = title3;
+  } else if (1 * title3x == (marks - sum)) {
+    marks = sum - 16;
   } else {
-    int height = steps % 1;
-    print(height);
-    print(n);
-    print(stepr);
+    print(sum);
+    float discount = speed * 13;
+    print(sum);
   }
-}
-int value1 = 0;
-while (value1 < 3) {
-  if (false) {
-    print(true);
-  } else if (n > value1 + 7) {
-    int base = 6 - n;
-    print(value1);
-  } else if (n + 36 != 11) {
-    int seats = value1 / 3;
-    print(seats);
-    bool active = false;
-  }
-  if (stepr + 7.4 <= (value1 / 4) && false) {
-    print(34 % 9 >= value1 * value1);
-    string steprs = "robot";
-  }
-  float speed1 = salary2 * value1;
-  value1 = value1 + 1;
-}
-if ((steps * 22) >= steps - n && (29 * 36) >= (value1 - 20)) {
-  print("robot");
-  float temp = 28.6;
-  if (steps == 14 - 15) {
-    int stepe = 11 + n;
-    print(stepe);
-    print(value1);
-    print(n);
-  }
+  float balance1 = speed - marks;
 } else {
-  print(steps);
-  if ((n + value1) < 34 * 36 && 27 / 7 != (value1 + value1)) {
-    stepr = (n + steps);
-    n = (steps / 1) + 35;
-    print(n);
+  if (valid && 8 < 11 / 1) {
+    int total = (marks % 9);
+    print(total);
+    marks = 13;
+    bool enabled = valid;
+    marks = (total + 25) + marks + 4;
+   else {
+    int title3s = (marks + 24);
+    print(title3s);
+    print(title3);
+    print(title3s);
   }
+  int titlie3 = 0;
+  while (titlie3 < 4) {
+    print(title3x);
+    int lives = (titlie3 + 36);
+    titlie3 = titlie3 + 1;
+  }
+  print(marks);
 }
-if (20 == value1) {
-  int sum = 30 - steps;
-  print(sum);
-  if (false) {
-    print(salary2);
-  }
+if (valid) {
+  int score2 = 18 / 4;
+  print(score2);
+  score2 = 23 + 34 + 18;
 } else {
-  int rounds = value1 - 27;
-  print(rounds);
-  string text1 = "robot";
-  int lives = 0;
-  while (lives < 2) {
-    steps = 29 / 7 + 2;
-    lives = lives + 1;
+  int level = 3 - 22;
+  print(level);
+  for (int k = 0; k < 4; k = k + 1) {
+    print(valid);
+  }
+  if (valid) {
+    marks = level + 20 + level * 9;
+    marks = 2;
   }
 }
+int speerd = 0;
+for (speerd = 0; speerd < 2; speerd = speerd + 1) {
+  valid = title3x < marks;
+  if (speerd <= 25) {
+    int rounds = (marks % 7);
+    print(rounds);
+    print(speed);
+  } else {
+    int value = speerd * speerd;
+    print(value);
+    print(valid);
+  }
+  int days = (0 / 7);
+}
+print(speerd);
+int age = 0;
+while (age < 4) {
+  if (title3 != "hello") {
+    int result1 = (30 / 9);
+    print(result1);
+    print(age);
+    float weight = 17.1 - 30;
+    result1 = 4;
+  } else {
+    print(speerd);
+    int i = 28;
+    marks = speerd;
+  }
+  print(speerd);
+  age = age + 1;
+}
+print("bob");

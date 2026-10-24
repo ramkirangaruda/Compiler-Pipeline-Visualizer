@@ -1,54 +1,19 @@
-int count = 12 * 1;
-string city = "alice";
-int rounds = 28 + 23;
-float ratio = 22.8;
-print(ratio);
-ratio = 35 + rounds;
-if ((rounds % 5) <= 21 / 9) {
-  int ciety = (15 + rounds);
-  print(ciety);
-  print(count);
-} else if (false) {
-  if (4 % 3 != count % 1) {
-    int ratso = rounds - rounds;
-    print(ratso);
-    print("ok");
-    ratso = (ratso / 2) + 7 * 21;
-    ratso = ratso * rounds;
-  }
-  int ratios = 0;
-  while (ratios < 6) {
-    count = ratios * count + ratios / 2;
-    ratios = ratios + 1;
-  }
-} else {
-  int z = (count - 0);
-  print(z);
-  count = rounds + (count % 2);
-  rounds = z / 6;
+int base = (31 % 5);
+int level = 35;
+int size1 = 17 % 3;
+int limit = 10 * size1;
+float mean = 3.8 - base;
+int b1 = (limit + base);
+bool passed = base <= base + limit;
+string city = "hello";
+int width = 0;
+while (width < 6) 
+  print(false);
+  bool widthx = (24 - b1) >= (22 * 34) || limit + limit < (base * base);
+  width = width + 1;
 }
-bool found = true;
-if (ratio != count + rounds) 
-  rounds = rounds * count - rounds;
-  city = "alice";
-  if (false) {
-    int first = 13 + rounds;
-    print(first);
-    float balance = ratio * 3.6;
-    string roounds = "hello";
-  } else {
-    found = 9.9 > (count % 2);
-    ratio = 3.1 - 29.2;
-    print(ratio);
-  }
-}
-int points = 0;
-while (points < 5) {
-  int tickets = (points + rounds);
-  points = points + 1;
-}
-city = "pipeline";
-if ((15 / 7) > points) {
-  float avg = ratio + 27.2;
-}
-print((19 % 8) > count);
+passed = (level + limit) < (size1 % 9);
+mean = 10.1 + 16;
+base = level;
+string owner = "bob";
+print(b1);

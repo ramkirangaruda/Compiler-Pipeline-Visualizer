@@ -1,55 +1,47 @@
-int age = 13 + 28;
-int result = (age + 9);
-string name = "ok";
-bool has_more = 8.8 + 28.3 < (age % 7);
-print(4 / 8);
-print(result);
-result = result;
-has_more = has_more;
-int height = 0;
-while (height < 2) {
-  result = result;
-  if ((2 + result) == 22) {
-    int ntme = (22 / 3);
-    print(ntme);
-    print(age);
-    print(result);
-  }
-  print(age);
-  height = height + 1;
+float salary2 = 16.3 + 0.4;
+int i3 = (33 * 16);
+string salaro2 = "world";
+int salarry2 = i3 - i3;
+float area = 23.1 + salary2;
+string salarre2 = "token";
+int steps = 0;
+while (steps < 5) {
+  i3 = salarry2 + salarry2 / 6;
+  print(i3);
+  steps = steps + 1;
 }
-if (has_more) {
-  print((33 / 6));
-  age = result / 6 / 4;
+print("pipeline");
+string msg = salaro2;
+if (salarry2 - i3 > (salarry2 + 18)) {
+  if (salary2 * salary2 >= (11 + i3)) {
+    int salarret = 26 % 5;
+    print(salarret);
+    print(salarry2);
+    print(salarry2);
+    print(i3);
+  } else if (steps < i3) {
+    print(i3 >= 13 * salarry2);
+    salarry2 = (i3 - 5) + salarry2;
+  }
+  if (salary2 + 38 >= i3 % 3) {
+    int size = steps;
+    print(size);
+    salary2 = salary2;
+    salary2 = (size - 34);
+  } else {
+    print((salarry2 * salarry2));
+  }
 } else {
-  if (true) {
-    int value = (age * 28);
-    print(value);
-    value = value * 9 + value;
-    print(name == "done");
-  } else {
-    float salary1 = 30.6 + 18;
-  
-  print(6);
-}
-int lives = 0;
-while (lives < 2) {
-  print(name);
-  if ((age - lives) < (12 + height)) {
-    print(height);
-    int rhas_more = result;
-  } else {
-    print(age);
-    result = 9 / 2;
+  int limit = (9 - 33);
+  print(limit);
+  float temp = salary2 * i3;
+  print(salaro2);
+  int num = 0;
+  while (num < 5) {
+    print(msg);
+    num = num + 1;
   }
-  lives = lives + 1;
-}
-bool ok3 = has_more;
-int age1 = 0;
-while (age1 < 3) {
-  result = 20;
-  print(age1);
-  age1 = age1 + 1;
-}
-print(result);
-print(1 % 9 == (age1 + height));
+
+int lives = i3;
+print(salary2);
+print(area);

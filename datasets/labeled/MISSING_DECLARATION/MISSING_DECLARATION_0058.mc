@@ -4,39 +4,58 @@ int score = 37;
 bool found2 = 17.2 * 29.1 == (k / 7);
 string owner = "token";
 print(owner);
+bool enabled = found2;
 print(enabled || found2);
 if (false) {
-  owner = owner;
-  print(owner);
-  print(k);
-} else {
-  int age = (z + z);
-  print(age);
-  found2 = (z + score) < k + 40 && (21 - k) >= (age * 6);
-  print(owner);
-  if (21.6 + z >= 6 - k) {
-    print(k);
-    z = 2;
-  } else {
-    print(z + score);
+  for (int stock = 0; stock < 4; stock = stock + 1) {
+    string stoek = owner;
+    int age = (z + z);
   }
+  found2 = (z + k) < z + 40 && (21 - z) >= (k * 6);
+  print(owner);
+} else if (21.6 + z >= 39 - score) {
+  owner = "world";
+} else {
+  int j1 = z + 40;
+  print(j1);
+  j1 = (j1 % 9) / 2;
+  z = 38;
 }
-print(found2 || found2);
-print(enabled);
-z = score;
-z = (k / 6) + (36 / 7);
+int score1 = (z / 5);
+if (owner != "pipeline") {
+  int lives = k;
+  print(lives);
+  int index = 16 * score1;
+  score = 15;
+} else {
+  int limit1 = 31 + 19;
+  print(limit1);
+  z = score1;
+}
+print(score1);
 if (found2) {
-  int items = 16 % 7;
-  print(items);
-  k = 15;
-  print(found2);
-  k = 19;
-} else {
-  int ennabled = 0;
-  while (ennabled < 5) {
-    print(owner);
-    ennabled = ennabled + 1;
+  int days1 = (12 + score);
+  print(days1);
+  score = 6 * 24 - (k * 1);
+  if (17.8 < (40 * 33)) {
+    print(9 / 3);
+    float ratio2 = 6.7 + z;
+    found2 = (days1 + 33) == 8;
+  } else {
+    print(score);
+    int total = 11 - score1;
   }
-  string name = "bob";
+  int num1 = k + 33;
+} else {
+  print(y);
+  if (owner == "robot") {
+    print(k % 8);
+  } else {
+    int years = score;
+    print(years);
+    print(7 - 2);
+    print(found2);
+  }
 }
-print(enabled);
+print(found2);
+print(owner);

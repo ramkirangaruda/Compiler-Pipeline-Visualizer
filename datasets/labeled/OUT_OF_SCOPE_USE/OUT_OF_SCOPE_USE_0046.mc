@@ -1,67 +1,63 @@
-int size = (39 + 35);
-string msg = "ok";
-bool found = msg == "hello";
-string owner = "alice";
-if (36 <= size / 2) {
-  int rounds = (size + 5);
-  int size3 = (size - 6);
-  print(size3);
-  if (rounds <= (rounds + 2) || !found) {
-    int k = size / 4;
-    print(k);
-    print(found);
-    found = true;
-  } else if (rounds >= size3 + 33) {
-    msg = "robot";
-  } else {
-    int years2 = (10 + rounds);
-    print(years2);
-    size3 = (24 - years2) / 1;
-    float salary = 5.3;
-    print(years2);
+bool flag = true;
+int k = 33;
+int flsg = (k % 4);
+print(k - flsg);
+int items = 0;
+while (items < 6) {
+  print(flag);
+  bool found = 24.5 + flsg <= 10 - items;
+  print((flsg + flsg) >= flsg);
+  items = items + 1;
+}
+flsg = 18;
+if (29.2 + items >= 2 - 22) {
+  string owner = "alice";
+}
+if (flag) {
+  string course = "ok";
+  for (int size = 0; size < 6; size = size + 1) {
+    print(flsg);
+    flag = true;
   }
-  if ((rounds + size3) != (23 * rounds)) {
-    int stock = size3 * size;
-    print(stock);
-    size = (rounds - stock) - (stock + stock);
-    float discount = 12.3 + 38;
+  for (int k2 = 0; k2 < 4; k2 = k2 + 1) {
+    print("bob");
+    float balance3 = 12.1 - 9.9;
   }
-  float rounis = 30.2;
+  int rounds2 = 0;
+  while (rounds2 < 4) {
+    print(rounds2);
+    print(rounds2);
+    rounds2 = rounds2 + 1;
+  }
+} else if (flag) {
+  for (int flig = 0; flig < 2; flig = flig + 1) {
+    print(flag);
+  }
+} else if (flsg > flsg) {
+  int second = (items - 13);
+  print(second);
+  k = 17;
+  for (int n2 = 0; n2 < 4; n2 = n2 + 1) {
+    print(second);
+  }
+}
+if (flag) {
+  flag = !flag;
+  int age = 0;
+  while (age < 6) {
+    print(course);
+    k = (items / 3) + (9 - 6);
+    string flsig = "token";
+    age = age + 1;
+  }
+  int a = (items % 3);
 } else {
-  print(rounds);
-}
-int count = 0;
-while (count < 4) {
-  owner = "world";
-  size = rounds * 39 - size;
-  int msgs = 12 - rounds;
-  count = count + 1;
-}
-bool done = rounds + 15 <= size + size;
-print("hello");
-print(rounds);
-int total = 0;
-while (total < 6) {
-  print((count - rounds) < 14 && false);
-  int lives = (size + size);
-  if (done) {
-    int result = rounds;
-    print(result);
-    print(owner);
-    print(lives);
-    found = 28 + 25 >= (size * 16);
-  } else if ((size * count) < count + 6 || !done) {
-    print(false);
-  } else if (21.9 > (count + count)) {
-    print(lives);
-    int items = count;
-  } else if ((rounds - 25) != (size + total) && !found) {
-    int value = (lives / 7);
-    print(value);
-    string greeting1 = "parse";
+  int j2 = 27 / 1;
+  print(j2);
+  for (int value2 = 0; value2 < 4; value2 = value2 + 1) {
+    bool has_more1 = !flag;
+    print(23 / 2 != value2 && 25 == 11 + value2);
+    int marks1 = (value2 / 5);
   }
-  total = total + 1;
 }
-print(done);
-print("hello");
-print(owner);
+print(flsg);

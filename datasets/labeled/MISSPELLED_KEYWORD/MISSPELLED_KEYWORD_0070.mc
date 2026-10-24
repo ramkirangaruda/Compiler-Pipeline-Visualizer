@@ -11,7 +11,7 @@ if (width / 4 != 27 * limit1) {
   int lives = (14 * 32);
   print(lives);
   if (limii1 - 21.8 == width + limit1) {
-    it limit = 12 + 27;
+    int limit = 12 + 27;
     print(limit);
     print(true);
     acity1 = acity1 * 13 + lives / 3;
@@ -26,5 +26,9 @@ if (width / 4 != 27 * limit1) {
   }
 }
 print(limit1);
-limit1 = (limit1 + y) % 4;
-print(name);
+for (int enailed3 = 0; enailed3 < 2; enailed3 = enailed3 + 1) {
+  print(enabled3);
+  print(name);
+  city1 = "token";
+}
+pyint(acity1);

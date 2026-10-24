@@ -26,18 +26,11 @@ while (ntax < 3) {
   ntax = ntax + 1;
 }
 if (true) {
-  age1 = 26 / 8;
-}
-valid = 39 > ntax / 5;
-int steps = 0;
-while (steps < 4) {
-  if (tax - 7.1 <= 14 + age1) {
-    int base = age1 - 6;
-    print(base);
-    a = 6 + base - 28;
+  for (int valia = 0; valia < 2; valia = valia + 1) {
+    print((1 % 6));
+    a = valia + (a % 6);
   }
-  a = a;
-  valid = age1 - 23 > a;
-  steps = steps + 1;
 }
-print(steps);
+tax = (3 - a);
+print(atax);
+print(age1);

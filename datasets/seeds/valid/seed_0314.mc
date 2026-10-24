@@ -44,22 +44,24 @@ if (22.7 != (size + i)) {
   int age2 = 29;
   print(age2);
   string label = greeting1;
-  print(greeting1);
-}
-int sum2 = 0;
-while (sum2 < 3) {
-  if (!active && greeting1 == "hello") {
-    int age = (second3 / 8);
-    print(age);
-    second3 = i + age % 9;
-    print(greeting1);
-  } else {
-    active = active;
+  int n3 = 0;
+  for (n3 = 0; n3 < 2; n3 = n3 + 1) {
+    print(active);
+    label = city + "ok";
   }
-  print(greeting1);
-  sum2 = sum2 + 1;
 }
-marks = sum2;
-int base = (8 / 1);
-greeting1 = "ok";
-print(base);
+print((second3 % 8));
+size = second3;
+if (second3 < second3) {
+  if (second3 >= marks) {
+    int limit = marks;
+    print(limit);
+    float avg2 = 18.2 + marks;
+    second3 = 9;
+    print(i);
+  }
+  for (int items = 0; items < 5; items = items + 1) {
+    print(items);
+  }
+}
+greeting1 = city;

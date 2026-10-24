@@ -87,12 +87,8 @@ if (y >= marks3) {
     marks3 = value;
   }
 } else {
-  int years = 0;
-  while (years < 2) {
-    valid = 21.2 * speed <= marks3 % 8;
-    y = marks3;
-    speed = speed * value;
-    years = years + 1;
+  for (int years = 0; years < 2; years = years + 1) {
+    print(11.1 * y <= value);
   }
 }
-print(aarks3);
+print(speed);

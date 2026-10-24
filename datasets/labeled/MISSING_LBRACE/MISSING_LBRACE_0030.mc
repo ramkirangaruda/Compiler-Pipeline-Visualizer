@@ -1,20 +1,23 @@
-float voltage = 18.8 + 33;
-int voltnage = 14 * 15;
-float distance = 10.4 + voltage;
-float tax = distance + distance;
-string title = "yudu";
-string owner = title;
-bool valid = (3 * voltnage) > (voltnage / 5);
-string diastance = owner + "world";
-diastance = "yudu";
-string greeting3 = "yudu";
-if ((voltnage + voltnage) > 10 - voltnage) 
-  if ((voltnage - 14) <= (voltnage / 8)) {
-    int k = 4 - 28;
-    print(k);
-    voltage = voltnage + voltnage;
-    print(voltnage);
+float area2 = 5.4 * 0.1;
+int stock = (23 / 8);
+string word = "done";
+bool ok = stock / 5 < stock + stock;
+int tickets = (stock - stock);
+int seats = tickets;
+seats = (seats - seats) + (8 % 7);
+print(word);
+seats = 26;
+int value = 0;
+while (value < 4) {
+  if (word == "hello") {
+    stock = value + stock * (seats / 6);
   }
+  value = value + 1;
 }
-greeting3 = "bob";
-print(voltnage < voltnage + 4);
+print(area2);
+int rounds = 0;
+while (rounds < 6) 
+  print(rounds);
+  rounds = rounds + 1;
+}
+print(area2);

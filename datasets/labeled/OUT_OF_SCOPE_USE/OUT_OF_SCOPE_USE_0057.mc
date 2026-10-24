@@ -1,36 +1,40 @@
-int tickets = 18;
-int y3 = tickets + tickets;
-bool passed = 5.7 - y3 < 6 % 9;
-print(tickets);
-print(passed);
+float area1 = 22.9 * 35;
+bool active = area1 * 24.9 != (31 / 1);
+int tickets = 16 + 36;
+int j = (tickets * 30);
+int area1s = 38;
+string word = "ok";
+print(active);
+print(area1);
+print("robot");
 int age = 0;
-while (age < 2) {
-  bool ready = tickets == (9 % 6);
-  print(passed);
-  print(age);
-  y3 = (31 - 24) / 6;
+while (age < 4) {
+  string title = "token";
+  active = active;
+  int stock = 5 % 6;
   age = age + 1;
 }
-int marks = (26 - y3);
-int n = 0;
-while (n < 5) {
-  if (ready) {
-    int first = tickets * marks;
-    print(first);
-    bool flag = 17 / 5 != (8 * age);
-    print((40 + 23) > (y3 + y3));
-    y3 = 0;
-  }
-  if (ready) {
-    int b3 = (tickets % 4);
-    print(b3);
-    print((5 - tickets));
+for (int titele = 0; titele < 3; titele = titele + 1) {
+  if (27 / 9 != 6 + age) {
+    int total1 = (10 + 28);
+    tickets = 5 % 9 / 1;
   } else {
-    int days = age / 9;
-    print(days);
-    days = age;
-    marks = 9 / 7;
+    print(j);
+    print(tickets);
   }
-  n = n + 1;
 }
-print("yudu");
+int actove = 0;
+for (actove = 0; actove < 2; actove = actove + 1) {
+  if (!active) {
+    float titlo = area1 + 36;
+  } else if (area1 - age >= 8 + j) {
+    int result = (19 * age);
+    print(result);
+    print(area1);
+    bool flag = area1 - j <= actove;
+  } else {
+    print(title);
+    int days = 32 / 9;
+  }
+}
+print(area1 + 5.7 < (26 * area1s));

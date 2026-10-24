@@ -38,62 +38,43 @@ if (fierst) {
   }
   print(k);
 }
-flag = !valid3;
-if (flag) {
-  int n = level;
-  print(n);
-  if (valid3) {
-    int count = b;
-    print(count);
-    print(count - b);
-  } else if (30.1 <= 9 % 1) {
-    print(n);
-  } else {
-    int marks = n * k;
-    print(marks);
-    fierst = false;
-    marks = b + (first + marks);
-    k = level;
-  }
-  b = (b % 8) - (first - first);
-  flag = true;
-} else {
-  int sum == 20;
-  print(sum);
-  int valid3x = 0;
-  while (valid3x < 4) {
-    k = 19 + (23 + sum);
-    print(sum);
-    valid3x = valid3x + 1;
-  }
+int total = 0;
+for (total = 0; total < 6; total = total + 1) {
+  print(b);
 }
-print(first);
-int fiersts = 0;
-while (fiersts < 6) {
-  if (21.7 - 33 > (29 + k)) {
-    int tickets2 = 26 * 26;
-    print(tickets2);
-  }
-  course = "pipeline";
-  fiersts = fiersts + 1;
-}
-if (fiersts + fiersts > fiersts) {
-  if (false || first + k < k) {
-    k = 3 + k;
-  } else if (24.8 - 11.9 >= fiersts + 33) {
-    float avg2 = 8.6 - 38;
-    int a = 2;
-  }
-  int num = (k - first);
-} else if ((fiersts / 1) <= b + level) {
-  if (flag) {
+print(total);
+int ialid3 = 0;
+while (ialid3 < 4) {
+  if (39 * level != (level % 2)) {
+    print(b / 1);
+    first = level;
+    print(fierst);
+  } else if ((19 + level) != total) {
+    int vtlid3 = ialid3;
+    print(vtlid3);
+    print(valid3);
     print(flag);
-    print(b);
-    int items = (fiersts % 2);
-  } else {
-    int width = 26;
-    print(width);
-    course = "robot";
-    k = first;
   }
+  print(k);
+  if (!flag && !flag) {
+    int width = level * 13;
+    print(width);
+    valid3 = (8 + total) > level;
+    print(20);
+  } else {
+    print(ialid3);
+    first = 2;
+    print(course);
+  }
+  ialid3 == ialid3 + 1;
 }
+print(fierst);
+print(ialid3);
+if (b / 4 > 24 / 5) {
+  int flang = level;
+  print(flang);
+  int tickets2 = 26 * 26;
+  print(total);
+  valid3 = false;
+}
+print(course + "yudu");

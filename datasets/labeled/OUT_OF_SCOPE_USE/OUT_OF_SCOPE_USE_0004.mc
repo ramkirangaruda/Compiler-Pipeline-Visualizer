@@ -1,46 +1,61 @@
-string msg = "yudu";
-int j2 = (5 + 33);
-bool msgs = j2 - 39 <= 3;
-int n = j2;
-int steps2 = n + j2;
-bool found = true;
-string course = "yudu";
-msg = "hello";
-print(j2);
-print(j2);
-print(found);
-if (true) {
-  bool ready3;
-  int x = (j2 / 6);
+string text = "parse";
+int age = (23 / 8);
+string city = text;
+int level = (age + 34);
+text = "alice";
+print(city + "yudu");
+int x = 0;
+while (x < 6) {
+  bool passed = true;
+  print(text);
+  print(passed);
+  x = x + 1;
+}
+if (passed) {
+  int b = age + age;
+  print(b);
+  level = (35 / 7) - 24;
   print(x);
-  if (msgs) {
-    int a = 14;
-    print(a);
-    print(course);
-  } else if (40 >= x + 32) {
-    int height = (x + n);
-  } else {
-    int value3 = n;
-    print(value3);
-    x = 22 + 17;
-  }
-  int fouod = steps2 + x;
 } else {
-  ready3 = found;
-  msg = course;
-}
-string word3 = msg + "world";
-float discount = 17.5 * 12.8;
-print(ready3);
-int nsgs = 0;
-while (nsgs < 4) {
-  if ((steps2 + 2) > (29 * nsgs)) {
-    int j = 24;
-    print(j);
-    int width = nsgs + 10;
-    int days1 = (steps2 % 5);
+  int n = x;
+  print(n);
+  int b2 = 0;
+  while (b2 < 4) {
+    string passeds = city + "yudu";
+    print(x);
+    print(passed);
+    b2 = b2 + 1;
   }
-  nsgs = nsgs + 1;
+  int second = 0;
+  while (second < 4) {
+    n = 34 % 9;
+    print(passed);
+    text = "token";
+    second = second + 1;
+  }
+  print(level);
 }
-j2 = 16 - j2;
-print(found);
+if (passed) {
+  if (4.7 >= age) {
+    int rounds = (35 / 6);
+    print(rounds);
+    city = "token";
+    string text1 = "robot";
+  } else {
+    print(x);
+  }
+} else if (passed) {
+  int stock = 26 * x;
+  print(stock);
+  int days3 = x;
+  level = (31 + stock) + (x + x);
+} else if (25.6 + age >= level * x) {
+  level = age * 34 * (x % 3);
+}
+float ratio = 5.1 + 5;
+if (passed) {
+  int level2 = (16 * 29);
+  print(level2);
+  print(36);
+}
+print(age);

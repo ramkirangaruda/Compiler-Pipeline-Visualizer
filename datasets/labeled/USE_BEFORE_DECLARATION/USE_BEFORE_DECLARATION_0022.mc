@@ -33,8 +33,39 @@ if (text == "world") {
   print(active1);
 }
 num1 = 13 - 0 / 8;
-print(active1);
-print(2 < 0);
-print(text);
-print(distance);
 float distance = 6.2 + 6.8;
+for (int level = 0; level < 2; level = level + 1) {
+  if (true) {
+    int i1 = (sum % 5);
+    print(i1);
+    print(i1);
+    int result = 28 - level;
+  } else {
+    print(rounds3);
+    int rounds3 = (0 - 23);
+    print(active1);
+  }
+  if (distance - distance == 17 + sum) {
+    int distancoe = (27 / 9);
+    text = text + "parse";
+    print(distance);
+  } else if ((31 % 5) <= num1) {
+    int stock = (sum + num1);
+    print(stock);
+    int total = sum;
+    float balance3 = distance + 29.2;
+  } else {
+    int j1 = 2;
+    print(j1);
+    j1 = 22 / 3;
+  }
+}
+int texe = 0;
+while (texe < 3) {
+  distance = 22 % 3;
+  print(text + "yudu");
+  print(12 + 16 == 15 / 2);
+  texe = texe + 1;
+}
+float texnt = distance + 2.8;
+print((sum - 2));

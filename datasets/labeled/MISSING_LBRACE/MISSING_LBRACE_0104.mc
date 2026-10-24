@@ -1,49 +1,46 @@
-string greeting;
-float distance2 = 6.4;
-float greetang = 11.3 + 40;
-bool found = false || 34 <= 8 / 3;
-bool done1 = 34 - 12 <= 33;
-if (greetang >= (11 - 9)) {
-  print(greeting + "yudu");
-  print(greeting);
-} else if (36 + 20 < 13 % 8) {
-  print(found);
-} else {
-  int age3 = 14 + 14;
-  print(age3);
-  print(greeting);
-  print(found);
-  done1 = age3 < age3 || found || !done1;
-}
-int limit = 0;
-while (limit < 5) 
-  print(found);
-  limit = limit + 1;
-}
-print(greeting);
-print(greetang > limit);
-if (limit < (limit + limit)) {
-  found = !done1 || 24.2 - distance2 == 16 * 9;
-  greetang = limit;
-} else if (limit + limit <= 2 + limit) {
-  int x = 0;
-  while (x < 6) {
-    print("hello");
-    x = x + 1;
+int first = 1;
+string greeting = "world";
+float avg = 26.4;
+int score = (17 + 5);
+int items3 = (first - 30);
+int value = score - items3;
+string word = greeting;
+float discount2 = avg - 13.8;
+int greetings = 0;
+while (greetings < 4) {
+  print(discount2);
+  if (32 < value || false) {
+    int stock3 = 5;
+    float balance2 = 24.3 - avg;
+    balance2 = avg + stock3;
+  } else {
+    greeting = greeting + "done";
+    bool active2 = avg > (score % 5);
+    int stock = 11 - 6;
   }
-  int age = 0;
-  while (age < 5) {
-    print(greetang);
-    print(greetang);
-    age = age + 1;
+  if (false) {
+    print(greeting);
+    discount2 = (items3 + value);
+    print(value);
+  } else 
+    int rounds = 13 - 7;
+    print(rounds);
+    print(word + "world");
   }
+  greetings = greetings + 1;
 }
-print(limit);
-int k = 0;
-while (k < 4) {
-  print(greetang);
-  print(found);
-  print(greeting);
-  k = k + 1;
+discount2 = 19;
+int marks = 0;
+while (marks < 2) {
+  print(items3);
+  print(score);
+  print(marks);
+  marks = marks + 1;
 }
-print(greetang);
+print(value);
+int first2 = 0;
+while (first2 < 5) {
+  score = marks;
+  first2 = first2 + 1;
+}
+print(discount2);

@@ -46,7 +46,52 @@ if (ok && (21 - 23) < years1) {
   }
   float voltage = mean + years1;
 } else {
-  ok = tiakets == "done" || (x % 6) > (tickets + y3) && ok;
+  for (int meann = 0; meann < 5; meann = meann + 1) {
+    print("pipeline");
+    print((y3 / 1) == (x - 5));
+    years1 = 18 - 36 + years1;
+  }
 }
-int i2 = years1 % 9;
-ok = ok;
+if (ok) {
+  print((7 * 17));
+  int z = 31;
+  float salary = mean;
+}
+if (ok) {
+  int tickets1 = years1;
+  print(tickets1);
+  if (ok) {
+    tiakets = "pipeline";
+    tiakets = "bob";
+  } else if (mean - 9 < (1 / 4)) {
+    int rounds = tickets1;
+    print(rounds);
+    print(tickets);
+    print(29 - years1);
+  } else if ((tickets * 17) > years1 + 25) {
+    int score = tickets1 + 3;
+    print(score);
+    print(years1 + years1);
+  } else {
+    int mnean = (39 / 9);
+    print(mnean);
+    print(years1);
+    mnean = (y3 + 13) % 5;
+    tiakets = tiakets;
+  }
+  print((years1 * tickets1));
+} else if (27 < x) {
+  int value = (tickets - 27);
+  print(value);
+  print(ok);
+  value = 16;
+} else {
+  int index = (y3 * 18);
+  print(index);
+  if (ok) {
+    y3 = y3 + (tickets % 1);
+    ok = tickets + 28 > (years1 / 5);
+  }
+  print(x);
+}
+print(tiakets);

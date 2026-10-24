@@ -6,49 +6,37 @@ string seaes = "done";
 if (true) {
   int first = seats;
   print(first);
-  int n = 32 - 33;
-}
-int a1 = 0;
-while (a1 < 5) {
-  string label = seaes;
-  a1 = a1 + 1;
-}
-int marks = 0;
-while (marks < 2) {
-  distance3 = marks * marks;
-  tax = distance3 - seats;
-  distance3 = tax + marks;
-  marks = marks + 1;
-}
-if ((21 * a1) <= (seats * a1)) {
-  int distaice3 = a1;
-  print(distaice3);
-  int distante3 = 0;
-  while (distante3 < 2) {
-    print(distance3);
-    print((4 - distante3) > distaice3 + 30);
-    distante3 = distante3 + 1;
+  for (int size3 = 0; size3 < 2; size3 = size3 + 1) {
+    string course = "pipeline";
+    seaes = course + "robot";
+    string label = course;
   }
-  if (true) {
-    int taxx = distaice3;
-    print(taxx);
-    tax = distance3 + 30.8;
-  } else {
-    tax = seats;
-  }
-  tax = tax;
 } else {
-  int b = 2 * marks;
-  print(b);
-  distance3 = tax * b;
-  print(distance3);
-  if (distance3 != (b + 2)) {
-    print(distance3);
+  int j = 0;
+  for (j = 0; j < 5; j = j + 1) {
+    bool valid = seats + seats <= 15;
+    int diatance3 = (12 + seats);
+    string word = "compiler";
+  }
+  print(j);
+  print(seaes);
+  if (j >= seats / 3) {
+    print(tax);
+    print(tax);
   } else {
-    print(marks);
-    tax = distance3 + b;
-    print((marks - seats) < (seats + a1));
+    distance3 = tax;
+    int n = seats;
+    tax = j;
   }
 }
-int x3 = (12 * a1);
-print(seaes);
+int taxs = 0;
+while (taxs < 5) {
+  string name1 = "token";
+  tax = tax - 23.9;
+  seats = (taxs + 14) / 7;
+  taxs = taxs + 1;
+}
+print(distance3);
+distance3 = tax * taxs;
+print(distance3);
+print(distance3);

@@ -12,7 +12,7 @@ const miniC = StreamLanguage.define({
     if (stream.match('//')) { stream.skipToEnd(); return 'comment'; }
     if (stream.match(/^"(?:[^"\\]|\\.)*"?/)) return 'string';
     if (stream.match(/^\d+(\.\d+)?/)) return 'number';
-    if (stream.match(/^(if|else|while|print)\b/)) return 'keyword';
+    if (stream.match(/^(if|else|while|for|print)\b/)) return 'keyword';
     if (stream.match(/^(int|float|bool|string)\b/)) return 'typeName';
     if (stream.match(/^(true|false)\b/)) return 'bool';
     if (stream.match(/^[A-Za-z_]\w*/)) return 'variableName';

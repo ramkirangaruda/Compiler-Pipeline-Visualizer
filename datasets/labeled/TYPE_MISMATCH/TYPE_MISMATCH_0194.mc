@@ -1,6 +1,6 @@
 string name = "token";
 int b;
-int x = true;
+int x = b;
 int rounds = b;
 bool nare = name == "world";
 x = 35;
@@ -11,11 +11,12 @@ if (5.5 == rounds * 12) {
 } else {
   print(rounds);
   nare = 30 + b <= (b + b);
-  print(name + "ok");
+  for (int stock = 0; stock < 6; stock = stock + 1) {
+    x = b / 6;
+    print(nare);
+    name = "token";
+  }
 }
-print(name);
-print(nare);
-name = "token";
 nare = nare;
 print(name);
 int sum3 = 0;
@@ -62,4 +63,7 @@ if (2.7 - 24.8 <= x + 7) {
     print(23 + sum3 >= b + 20);
   }
 }
-print(b);
+b = rounds - (b % 9);
+x = rounds + 36 - (sum3 * sum3);
+float msg2 = "world";
+print(sum3);

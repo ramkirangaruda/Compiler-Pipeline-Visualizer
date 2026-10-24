@@ -51,36 +51,49 @@ while (index3 < 4) {
   index3 = index3 + 1;
 }
 int second = 0;
-while (second < 2) {
-  print(result);
-  second = second + 1;
-}
-if (ratio + ratio < (result - marks3)) {
-  if (speed + 26 < second / 5) {
-    int sperd = second;
-    print(sperd);
-    print(index3);
+for (second = 0; second < 2; second = second + 1) {
+  if (true) {
     print(second);
-  } else if (5.5 < marks3 + 35) {
-    int rounds = (27 * 4);
-  } else {
-    int items3 = (7 * index3);
-    print(items3);
-    bool valid = speed <= 7 + second;
-    print(result);
+    result = result / 3;
+  } else if (21 > (second + index3)) {
+    int level = second;
+    print(level);
+    ratio = speed + 6.4;
+    int seats1 = 15 % 4;
   }
-  print(owner);
-  bool done = true || owner != "alice";
-} else {
-  int size2 = marks3 + second;
-  print(size2);
-  print("done");
+  print(false);
+  speed = second * marks3;
 }
-if (marks3 > (second + 10)) {
-  int ratiox = index3 - marks3;
-  print(ratiox);
-  print(speed * 25 > 37 / 5);
-  print(ratiox);
+print(second);
+int rounds3 = 0;
+while (rounds3 < 4) {
+  owner = owner;
+  print(rounds3);
+  if (22.1 + 1.6 >= second) {
+    int b2 = marks3 - second;
+    print(b2);
+    print(speed);
+  } else {
+    int limit1 = (index3 + 8);
+    print(limit1);
+    result = (index3 - second) * 6;
+  }
+  rounds3 = rounds3 + 1;
 }
-result = index3 - index3 + result * marks3;
-speed = (marks3 * second);
+if ((marks3 * 15) <= 5 % 6) {
+  int stock = 25;
+  print(stock);
+  if (rounds3 % 8 != 2 * index3) {
+    print(stock);
+    string city = owner + "yudu";
+  }
+  stock = result * index3 + (marks3 * second);
+  string name1 = owner + "pipeline";
+}
+if (false) {
+  int size = (rounds3 % 5);
+  print(size);
+  float indtx3 = speed * index3;
+  print(speed);
+}
+speed = 6 / 1;

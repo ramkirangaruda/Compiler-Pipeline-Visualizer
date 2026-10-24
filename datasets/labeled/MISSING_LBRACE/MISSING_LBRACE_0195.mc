@@ -1,45 +1,60 @@
-int second = (7 * 8);
-int stock = (second % 8);
-int result = 26;
-int value = second / 7;
-print(result);
-if (true) {
-  if (true && 0.9 + 2 >= (result / 1)) {
-    print(result);
-  }
-  int i2 = 0;
-  while (i2 < 6) {
-    second = value - (40 + 7);
-    value = second % 5 - (stock * stock);
-    i2 = i2 + 1;
-  }
-  if (6.8 + 13.2 != (second - result)) 
-    int total1 = value / 4;
-    print(total1);
-    total1 = stock;
-    print(i2);
-  } else if (false) {
-    second = stock;
+string text = "ok";
+int points = 10;
+int size = 22 - points;
+int i = (32 / 2);
+int score3 = i;
+int num;
+string word = text;
+int j1 = 0;
+while (j1 < 4) {
+  word = "hello";
+  print(word);
+  j1 = j1 + 1;
+}
+if (word == "robot") {
+  print(score3);
+  size = num;
+} else 
+  float discount = 3.8 - num;
+  text = "robot";
+}
+points = 8 * score3 + (num + size);
+if (size <= (15 - 35)) {
+  if (false) {
+    word = "bob";
+    print(28);
+    print("token");
+  } else if (j1 - j1 < (6 - 13)) {
+    int wordx = score3;
+    print(wordx);
+    num = i * 16 - j1;
+    points = points * i % 3;
   } else {
-    print(13 + 2);
+    int z = (num / 8);
+    print(z);
+    bool flag3 = (3 / 1) <= (39 / 1);
   }
-}
-print(result);
-if (second - 9 >= stock || 17.2 + 13.3 <= stock) {
-  int a = 9 - 23;
-  print(a);
-  int x = 0;
-  while (x < 4) {
-    second = value;
-    second = stock / 5 + (value / 7);
-    print(stock);
-    x = x + 1;
+  print(num);
+} else {
+  int y = points % 4;
+  print(y);
+  float tax2 = 24.3 * 15.4;
+  if (false) {
+    int rounds = 29;
+    print(rounds);
+    print(12 + i != 28 * 0);
+    print("bob");
+    tax2 = tax2 * 23;
+  } else {
+    int words = 4;
+    print(words);
+    print(j1);
+    print(word);
   }
+  print(num / 2 > 28);
 }
-string stocek = "yudu";
-int second1 = 0;
-while (second1 < 6) {
-  print(result);
-  second1 = second1 + 1;
-}
-print((stock * value));
+float salary = 21.3 - 23.2;
+word = "yudu";
+print(25 > 17 * 3);
+print("world");
+print(size);

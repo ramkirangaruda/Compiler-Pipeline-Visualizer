@@ -1,101 +1,55 @@
-float price = 29.5 * 6.1;
-int sum = 7 * 34;
-bool enabled = true;
-int a = (19 % 3);
-int value = 38;
-int seats1 = 39 + 6;
-bool has_more = 16 - 8 <= 10 + 12;
-string title = "bob";
-has_more = has_more;
-int days3 = 0;
-while (days3 < 3) {
-  print((6 * 25) != (24 / 2));
-  days3 = days3 + 1;
+string text = "token";
+int size = (27 + 20);
+string name = text;
+int x3 = 25 - size;
+int k3 = (x3 * x3);
+string owner3 = "done";
+for (int k = 0; k < 3; k = k + 1) {
+  x3 = (37 + size) % 2;
 }
-int steps = 0;
-while (steps < 5) {
-  int level = days3 - sum;
-  int y = seats1 * 18;
-  value = steps + (a / 3);
-  steps = steps + 1;
+owner3 = "robot";
+k3 = (11 - 3) - k3 + k3;
+int tetxt = 0;
+while (tetxt < 5) {
+  int second = k3 + k3;
+  tetxt = tetxt + 1;
 }
-if (enabled) {
-  print(has_more);
-  if (has_more) {
-    int score = sum;
-    print(score);
-    print(enabled);
-    price = sum + 0;
-  } else {
-    int k2 = value + days3;
-    print(k2);
-    value = seats1;
-    bool active = !enabled;
-  }
+if (2 != tetxt % 5) {
+  int b = size;
+  print(b);
+  x3 = 21 + 8 + (26 / 1);
+  print(x3);
+  text = text + "world";
 } else {
-  int base = days3;
-  print(base);
-  print(has_more);
-  print(a);
+  int lives = (k3 % 1);
+  print(lives);
+  x3 = 11 / 4;
   if (false) {
-    print("yudu");
+    text = name;
+    lives = x3 + 16 % 3;
+    name = "yudu";
   } else {
-    int titlre = value - 34;
-    print(titlre);
-    print(steps);
+    int index = (k3 * k3);
+    print(index);
+    print(owner3);
   }
-}
-if ((steps + sum) > 0) {
-  if (price * 7.1 == (18 + a)) {
-    int a2 = 3 + steps;
-    print(a2);
-    print(sum - a >= (8 * value));
-    print(price);
-    has_more = !has_more;
+  size = lives % 3;
+
+for (int namie = 0; namie < 4; namie = namie + 1) {
+  bool tetxts = true;
+  if ((k3 % 7) >= (tetxt / 7)) {
+    int seats = (k3 + k3);
+    print(seats);
+    name = "yudu";
+    print("parse");
+    print(text);
   } else {
-    print(title);
-  
-} else {
-  print(seats1);
-  seats1 = (sum - 2) / 8;
-  print(days3);
-}
-if (30 <= days3 / 3 || has_more) {
-  int seats = value;
-  print(seats);
-  print(days3);
-  seats = value;
-}
-if (price - price >= 17 + a) {
-  print(value);
-} else {
-  int age = seats1 / 2;
-  print(age);
-  if (!enabled || a <= 8 % 3) {
-    print(has_more);
-    title = title;
-  }
-  print(age);
-}
-int count = (sum / 2);
-if (a + 36 > 28) {
-  if (sum < (count / 6)) {
-    int size = count;
+    int level = 5 + namie;
+    print(level);
+    level = (size / 8) + size * k3;
     print(size);
-    title = "yudu";
-    print(seats1);
-  } else {
-    string city2 = title;
+    int limit = namie;
   }
-} else {
-  int stock = 36 * 8;
-  print(stock);
-  print(sum);
-  int n = 0;
-  while (n < 4) {
-    value = n + value;
-    sum = 34 + n * sum + a;
-    n = n + 1;
-  }
+  print(tetxts);
 }
-print(title + "bob");
+print(owner3);

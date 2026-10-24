@@ -1,32 +1,30 @@
-int base = (18 % 5);
-float ratio2 = 2.7 + 31;
-int stock = (base + 28);
-bool valid = 8.7 - 2 >= base;
-float discount = ratio2 + 3;
-string validx = "yudu";
-base = (36 / 5) % 2;
-print(valid);
-if (30 >= (base % 6)) {
-  print(validx);
-  base = (stock % 9) * 0;
-} else {
-  ratio2 = 12.3 + base;
-  discount = discount - 16.7;
-}
-int raoio2 = 0;
-while (raoio2 < 2) 
-  validx = "yudu";
-  if (false) {
-    int age = (9 / 7);
-    print(age);
-    print(age);
-    base = 2;
-  } else {
-    print(raoio2);
-    valid = 0 + 11 != (base + stock);
+int steps = (13 + 25);
+int value = steps % 5;
+int items = steps;
+float stepa;
+int stepax = (value + steps);
+string owner2 = "alice";
+print((steps - 11));
+if (19 <= (steps + stepax)) {
+  if (owner2 != "hello") 
+    bool owner2s = stepa <= steps;
   }
-  stock = (base / 6) % 5;
-  raoio2 = raoio2 + 1;
+} else {
+  int orner2 = (steps + steps);
+  print(orner2);
+  stepax = steps;
+  print(owner2);
 }
-string ibase = "token";
-print(stock);
+value = (value + stepax) * (value / 2);
+items = stepax + stepax * 19 * value;
+for (int b = 0; b < 3; b = b + 1) {
+  if (false) {
+    print(owner2 == "done");
+    int width = 14 % 9;
+  } else if (true) {
+    stepa = (b + 13);
+    stepax = 18;
+  }
+}
+print("bob");
+print(items);

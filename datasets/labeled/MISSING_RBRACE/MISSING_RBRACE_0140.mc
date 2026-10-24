@@ -1,68 +1,53 @@
-float discount = 0.9 - 20.4;
-float rate = 23.4;
-float salary;
-bool has_more = (33 - 22) >= 5 - 10;
-string city = "done";
-discount = 9.2 + salary;
-if (discount <= 15) {
-  int stock = (27 % 3);
+bool valid = 39 + 11 == (8 + 26);
+int age1 = (30 * 20);
+float speed = 23.7;
+string greeting = "world";
+string city3 = "token";
+bool done = (age1 + 13) >= (24 % 6);
+string text = city3 + "alice";
+done = !valid;
+print(greeting);
+text = city3 + "compiler";
+int a1 = 0;
+while (a1 < 4) {
+  done = 10 + 7 < a1;
+  a1 = a1 + 1;
+}
+print(valid);
+if (speed * 15.2 < 4 % 1) {
+  int age2 = (a1 + 13);
+  print(age2);
+  done = true;
+  int second1 = 0;
+  while (second1 < 4) {
+    print(22 * second1 <= a1 + age2);
+    second1 = second1 + 1;
+  }
+}
+int years = age1 + 10;
+int valird = 0;
+while (valird < 4) {
+  print(text);
+  if (speed - speed > age1) {
+    print(valid);
+    speed = 18 / 4;
+    bool is_even = (40 * a1) != 21 + a1;
+   else {
+    int index = (12 % 2);
+    print(index);
+    print("done");
+  }
+  city3 = greeting;
+  valird = valird + 1;
+}
+if (true) {
+  int size = 33;
+  print(size);
+  print(size);
 } else {
-  print(discount);
-  city = city;
-  int ratex = 5;
+  int stock = valird + 16;
+  print(stock);
+  int num = 35 / 5;
 }
-if (rate + 2.9 >= (26 * 20)) {
-  if ((24 * 17) == 40) {
-    print(has_more);
-    float tax = discount;
-  } else {
-    discount = rate + 18.2;
-    print(salary);
-  }
-} else {
-  rate = (30 / 9);
-  if (10 * 7 <= 40) {
-    int discounts = 20 + 2;
-    print(discounts);
-    float avg = salary + 14;
-    string label = city;
-  } else {
-    int a = 4;
-    print(a);
-    print(has_more);
-    discount = a;
-  }
-  int y = 0;
-  while (y < 3) {
-    print(has_more);
-    has_more = city == "alice";
-    y = y + 1;
-  }
-
-if (20.1 >= 28 + 20) {
-  int limit3 = (4 / 4);
-  print(limit3);
-  int i = 0;
-  while (i < 6) {
-    print(!has_more);
-    int second = 36;
-    print(second);
-    i = i + 1;
-  }
-  print("done");
-} else {
-  print(rate);
-}
-int points = 0;
-while (points < 6) {
-  print(points);
-  print(discount);
-  points = points + 1;
-}
-has_more = discount - points < (35 % 5);
-int age = 0;
-while (age < 2) {
-  print(points);
-  age = age + 1;
-}
-print(has_more);
+print(valird);
+print(a1 + 6);

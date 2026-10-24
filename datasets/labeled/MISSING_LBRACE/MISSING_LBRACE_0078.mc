@@ -1,26 +1,34 @@
-int first;
-int j2 = first * 10;
-int rounds = 25 + j2;
-int height3 = 22 + 28;
-bool enabled = true;
-string word2 = "parse";
-int enasbled = 0;
-while (enasbled < 4) {
-  print(height3);
-  int enablid = (9 + 26);
-  enasbled = enasbled + 1;
+float mean = 15.7;
+bool ok = true && mean + 32 <= (20 - 32);
+float salary = mean + 8.9;
+bool msan = 30 + 2 == (40 - 30) && 9 - 6 <= 17 / 8;
+string name = "robot";
+string word = name;
+string city2 = word + "bob";
+int ealary = 0;
+while (ealary < 5) 
+  print(5.8 > (ealary / 4));
+  name = word + "token";
+  ealary = ealary + 1;
 }
-print(word2);
-print((first % 3));
-int x = (enasbled + j2);
-int enrbled = 0;
-while (enrbled < 6) 
-  string owner = word2;
-  float salary = 9.1 * 4.5;
-  j2 = 38 + (enrbled - rounds);
-  enrbled = enrbled + 1;
+float ratio = salary + mean;
+salary = mean;
+for (int limit = 0; limit < 2; limit = limit + 1) {
+  word = name;
+  print(ratio);
 }
-print((18 % 3));
-rounds = 32;
-print(word2);
-print(rounds);
+word = name;
+print(msan);
+int n = 0;
+while (n < 2) {
+  print(n);
+  if (salary - ratio > (n * ealary)) {
+    print(ok);
+  }
+  ok = ealary != 30;
+  n = n + 1;
+}
+print(msan);
+int j = ealary;
+print(word == "compiler" && mean >= (n / 6));
+print("hello");

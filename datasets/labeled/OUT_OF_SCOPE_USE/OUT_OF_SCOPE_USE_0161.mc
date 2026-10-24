@@ -1,65 +1,57 @@
-string word = "alice";
-int tord = (10 * 17);
-int height = (29 + tord);
-bool flag;
-bool is_even = !flag;
-string owner = word;
-if (!flag) {
-  int result = 21;
-  int k = height;
-  int days = 29;
-} else {
-  if (5.9 + 37 == (6 + height)) {
-    print(result);
+int marks3 = 19 - 32;
+string label3 = "hello";
+int j = (marks3 + marks3);
+if (marks3 + j >= 17) {
+  float mean = 28.7 - 19.8;
+  int i1 = 4 % 9;
+  print(i1);
+  print(label3);
+  if (mean - mean <= (i1 + marks3)) {
+    int result2 = (j + i1);
+    print(result2);
+    i1 = result2 + (marks3 % 8);
+    print(j + j);
   } else {
-    int num3 = result + tord;
-    print(num3);
-    int value = num3 / 5;
-    int level2 = 35;
-    print(word);
+    print(label3);
+    print(label3 == "token");
+  }
+  i1 = 23;
+} else if (37 != marks3) {
+  int first = (29 * j);
+  print(first);
+  int stock3 = 0;
+  while (stock3 < 4) {
+    print(marks3);
+    stock3 = stock3 + 1;
   }
 }
-int height3 = 0;
-while (height3 < 4) {
-  print(tord);
-  int first = tord;
-  print(height3);
-  height3 = height3 + 1;
-}
-if (!is_even && !flag) {
-  int tickets = 0;
-  while (tickets < 5) {
-    tord = 34;
-    tickets = tickets + 1;
-  }
-  int second = 0;
-  while (second < 6) {
-    print(height);
-    print(tord);
-    second = second + 1;
-  }
-  int lives2 = 0;
-  while (lives2 < 6) {
-    print(lives2);
-    bool enabled1 = 14.7 > (tickets + height3);
-    flag = enabled1;
-    lives2 = lives2 + 1;
-  }
-} else {
-  is_even = flag;
-  int owiner = 0;
-  while (owiner < 4) {
-    flag = false;
-    print(is_even);
-    owiner = owiner + 1;
+for (int labeil3 = 0; labeil3 < 3; labeil3 = labeil3 + 1) {
+  if (true) {
+    int level = (j - labeil3);
+    print(level);
+    mean = j + 29;
+    int total = 2 * marks3;
+    print(label3);
+  } else if (false) {
+    int base2 = marks3 - marks3;
+    print(base2);
+    float salary = mean * marks3;
+    salary = salary + salary;
+  } else {
+    marks3 = marks3 - 7 + 7;
   }
 }
-print((height % 4));
-print(height3 - height3);
-int score = 0;
-while (score < 2) {
-  print((height3 * tord));
-  score = score + 1;
+int y2 = 0;
+while (y2 < 2) {
+  j = (j * marks3) % 9;
+  y2 = y2 + 1;
 }
-tord = (result % 9) - (height3 % 3);
-tord = height3 + (2 - result);
+print(mean);
+marks3 = j;
+bool passed3 = false;
+if (j + 32 >= j * 24) {
+  print(label3);
+  print(j % 4);
+}
+int i = (32 / 1);
+print(i);

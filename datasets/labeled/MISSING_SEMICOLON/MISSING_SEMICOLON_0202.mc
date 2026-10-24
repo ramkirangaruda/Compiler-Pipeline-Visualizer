@@ -43,20 +43,17 @@ if (false && true) {
     flag = 29.2 <= (width % 4);
     print(flag);
   }
-  int second = 0;
-  while (second < 5) {
-    print(flag);
-    print(stepts);
-    second = second + 1;
+  for (int second = 0; second < 5; second = second + 1) {
+    label = "parse";
+    int score = 34 / 4;
+    flag = salary2 + second == 3 + 22;
   }
-}
-if (4 * steps > (steps - steps)) {
-  print("hello");
-  int years = (steps + steps);
 } else {
+  stepts = label + "compiler";
+  label = label;
   print(label);
-  print((40 / 5));
 }
+print((40 / 5));
 int b3 = 0;
 while (b3 < 3) {
   int value = (28 % 5);

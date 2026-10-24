@@ -1,66 +1,40 @@
-float area = 25.4 + 8;
-int years = 3;
-string msg = "robot";
-int index = years + years;
-int level = index % 1;
-msg = "pipeline";
-if (area + area >= (29 - level)) {
-  msg = msg;
-} else if (level != 10 + years) {
-  print(level);
-} else {
-  int mssg = (30 - years);
-  print(mssg);
-  int msgx = 0;
-  while (msgx < 3) {
-    print(years);
-    mssg = index - index % 6;
-    print(level * msgx);
-    msgx = msgx + 1;
-  }
-}
-index = index;
+float area1 = 22.9 * 35;
+bool active = area1 * 24.9 != (31 / 1);
+string title = "token";
+int tickets = 16 + 36;
+int j = (tickets * 30);
+int area1s = 38;
+string word = "ok";
+print(active);
+print(area1);
 print("robot");
-if ((level * index) == years) {
-  if (years == index / 3) {
-    int steps1 = (23 + level);
-    index = (years - 9) - 11 * years;
-  } else if (27 - 1 <= index || area < 1) {
-    print(years);
+int age = 0;
+while (age < 4) {
+  active = active;
+  int stock = 5 % 6;
+  age = age + 1;
+}
+for (int titele = 0; titele < 3; titele = titele + 1) {
+  if (27 / 9 != 6 + age) {
+    int total1 = (10 + 28);
+    tickets = 5 % 9 / 1;
   } else {
-    int age = level / 9;
-    level = years * 40 * years;
-  }
-} else if (9 >= level) {
-  if (1 + 30 != 12) {
-    level = index / 5 - index * 13;
-    years = (index + 9) / 4;
-  } else {
-    print(level);
-    area = index % 2;
-    print(msg);
-  }
-  int asg = 0;
-  while (asg < 2) {
-    print(msg);
-    asg = asg + 1;
-  }
-} else {
-  if (false) {
-    print(msg);
-  } else {
-    int score = (39 + years);
-    print(score);
-    print(area);
-    msg = msg;
-    msg = "robot";
+    print(j);
+    print(tickets);
   }
 
-int value = 0;
-while (value < 6) {
-  msg = "world";
-  value = value + 1;
+int actove = 0;
+for (actove = 0; actove < 2; actove = actove + 1) {
+  if (!active) {
+    float titlo = area1 + 36;
+  } else if (area1 - age >= 8 + j) {
+    int result = (19 * age);
+    print(result);
+    print(area1);
+    bool flag = area1 - j <= actove;
+  } else {
+    print(title);
+    int days = 32 / 9;
+  }
 }
-print(level);
-print(index);
-print(index);
+print(area1 + 5.7 < (26 * area1s));

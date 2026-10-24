@@ -33,26 +33,34 @@ if (active) {
     score3 = (stock + items) / 6;
     items = items + 1;
   }
-  print(stock);
-} else {
-  stock = lives + (actives + result);
-  if (!active || active) {
-    int actrive = 26;
-    print(actrive);
-    print(result);
-    active = 7 >= 5 + actrive;
-    int b = lives;
-  } else {
-    print(stock);
-    stock = actives;
-    lives = 0 + lives + lives;
-  }
-  if (active) {
-    int actnve = result;
-    print(actnve);
-    print(actnve);
+  for (int height = 0; height < 6; height = height + 1) {
+    string owner = "bob";
+    owner = "hello";
   }
 }
-stock = stock;
-print(lives);
-print(stock);
+active = active;
+if (!active || active) {
+  int actrive = 26;
+  print(actrive);
+  print(result);
+  active = 7 >= 5 + actrive;
+  int num = 0;
+  while (num < 6) {
+    print((8 * actrive));
+    print(actives);
+    int seats = result;
+    num = num + 1;
+  }
+} else if (true || 0 * result < (result - lives)) {
+  int days = (lives % 3);
+  int index = 0;
+  for (index = 0; index < 2; index = index + 1) {
+    int limit = 16;
+    print(result);
+  }
+} else {
+  int score1 = result + 39;
+  print(score1);
+  print(stock);
+}
+print("bob");

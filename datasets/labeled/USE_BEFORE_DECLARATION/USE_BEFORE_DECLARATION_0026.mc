@@ -18,65 +18,55 @@ if (is_even) {
 }
 if (33 * b1 < x % 6) {
   print(23);
-  int limit3 = 0;
-  while (limit3 < 5) {
-    enabled = true;
-    x = limit3;
-    limit3 = limit3 + 1;
+  for (int limit3 = 0; limit3 < 5; limit3 = limit3 + 1) {
+    b1 = 27 + 4 - limit3;
+    float ratio = salary;
+    print(limit3);
   }
-  if (19 + limit3 == x + b1) {
-    int height = 25;
-    print(height);
-    enabled = is_even;
-    print(b1);
-    height = limit3 * height % 3;
-  } else {
-    x = (7 + limit3) % 7;
-    bool valid = true || is_even;
-    b1 = b1;
+  for (int days = 0; days < 5; days = days + 1) {
+    salary = days;
   }
-} else {
-  int sum = (x / 1);
-  print(sum);
-  enabled = salary + sum <= sum * x;
-  salary = salary * salary;
-  int width1 = 0;
-  while (width1 < 5) {
+} else if (b1 % 3 >= 23) {
+  for (int lives1 = 0; lives1 < 2; lives1 = lives1 + 1) {
+    print(x);
     print(name);
-    is_even = salary - 27.8 != (7 + b1);
-    width1 = width1 + 1;
+    b1 = (b1 - b1) - (b1 - b1);
   }
-}
-b1 = b1;
-if ((b1 % 3) <= 8) {
-  if (false) {
-    int age = b1;
-    print(is_even);
+  int lives = 0;
+  while (lives < 4) {
+    print(name != "robot");
+    float price = salary;
+    lives = lives + 1;
   }
-  print(salary * 5.9 < 22);
-  x = 3 + b1 + (10 * x);
 } else {
-  int height3 = 0;
-  while (height3 < 4) {
-    print(height3);
-    name = "bob";
-    height3 = height3 + 1;
+  int num3 = 18 + 40;
+  print(num3);
+  for (int num2 = 0; num2 < 2; num2 = num2 + 1) {
+    print(b1);
   }
 }
-print((b1 + x) > x * x);
-if (!is_even) {
-  int y2 = 0;
-  while (y2 < 6) {
-    name = "world";
-    print(26);
-    print(true);
-    y2 = y2 + 1;
-  }
-  is_even = enabled;
+int k = 0;
+for (k = 0; k < 4; k = k + 1) {
+  print(x);
+  print("yudu");
+  b1 = b1 * k + (x % 5);
 }
-int i2 = 0;
-while (i2 < 6) {
-  int result = (x + x);
-  i2 = i2 + 1;
+print(k);
+int a = 0;
+while (a < 5) {
+  print((k + b1) > (19 + 19));
+  a = a + 1;
 }
-print(i2 > 1 + x);
+for (int width1 = 0; width1 < 5; width1 = width1 + 1) {
+  x = 17;
+  x = 22;
+}
+x = 3 + a + (10 * b1);
+int enabler = 0;
+while (enabler < 4) {
+  print(!enabled && !is_even);
+  enabled = salary * salary <= b1;
+  is_even = is_even;
+  enabler = enabler + 1;
+}
+print(k);

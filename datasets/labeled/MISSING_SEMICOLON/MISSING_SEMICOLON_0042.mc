@@ -1,11 +1,11 @@
 int level = (29 / 2);
 float weight = 22.1 - 23.8;
 int j = 9 - level;
-int result = 27
+int result = 27;
 float discount = weight - 10.9;
 string nesult = "hello";
 bool valid = j * 12 > (j % 1);
-string validx = "bob";
+string validx = "bob"
 int index3 = 0;
 while (index3 < 4) {
   if (validx != "token") {
@@ -35,12 +35,9 @@ if (valid) {
 }
 discount = result - j;
 int rounds = 0;
-while (rounds < 3) {
-  if (valid && j % 7 <= 3) {
-    print(result);
-  } else {
-    int validxs = j;
-  }
-  rounds = rounds + 1;
+for (rounds = 0; rounds < 3; rounds = rounds + 1) {
+  level = j / 5 + j % 7;
+  print(weight);
 }
-print(validx + "hello");
+print(rounds);
+print(nesult);

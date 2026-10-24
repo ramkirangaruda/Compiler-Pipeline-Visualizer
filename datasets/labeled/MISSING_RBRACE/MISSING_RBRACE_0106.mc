@@ -1,51 +1,84 @@
-int z1 = 38 + 27;
-int index = (z1 - z1);
-int x = (index / 2);
-string title = "parse";
-string city = title + "bob";
-bool ok1 = z1 == (2 - z1);
-bool is_even = ok1;
-if (22.3 - 8 < 40 + x) {
-  print(title);
-  string msg = title + "ok";
-  is_even = !is_even;
-} else if (is_even) {
-  if (ok1) {
-    int x1 = (index / 4);
-    print(x1);
-    title = city;
-    index = index - 38 - index;
-    print(ok1);
+int score = 16;
+int a = 28 - 5;
+float scores = 30.4;
+bool ready = false;
+if (a == score / 3 || !ready) {
+  print("ok");
+  if (11.6 + 12.8 <= (score / 7)) {
+    int items3 = score;
+    scores = items3;
+  } else if (ready) {
+    int score2 = score;
+    print(score2);
+    int days3 = 38;
+    scores = score2;
+  }
+
+if ((score % 7) < (a % 1)) {
+  int b = a + score;
+  if (9.8 < a * 27 && b >= 39) {
+    float scote = 14.4;
+  }
+} else {
+  if (!ready) {
+    scores = 25 / 3;
+    a = 39 - a / 8;
+    ready = (score - score) == (score % 1);
+  }
+}
+int height = a / 7;
+float distance = scores;
+int tickets = 0;
+while (tickets < 2) {
+  if (19.8 < 34) {
+    height = (15 + height) * a / 5;
   } else {
-    print(title);
-    z1 = x - index - (z1 + 30);
+    int distances = (height % 9);
+    print(distances);
+    print(ready);
+    print(ready);
+    print("robot");
   }
-  print(z1);
+  tickets = tickets + 1;
 }
-int ciaty = 0;
-while (ciaty < 2) {
-  if (1 != z1) {
-    int score = (2 / 3);
+if (36 == height) {
+  if (score < score) {
+    print(score + height <= (tickets % 1));
+    print(ready);
+    float balance = scores + a;
+  }
+  float rate = distance * distance;
+  print("hello");
+} else {
+  int base = (a + height);
+  print(base);
+  if (true) {
+    print("alice");
+    print(tickets);
+  } else {
+    int items = (base - tickets);
+    print(items);
+    scores = 29 - 5;
+    float area = scores + items;
+  }
+  int count = 0;
+  while (count < 5) {
+    print(scores);
+    count = count + 1;
+  }
+  if (!ready) {
+    int points = a;
+    print(points);
+    points = points;
+    print(a);
+    int marks2 = score;
+  } else if (tickets + 11 > 8 - 40) {
+    int marks1 = (score - 33);
+    print(marks1);
     print(score);
-    is_even = 13 + score <= (35 * score);
-  } else if (is_even) {
-    int total = 4;
-    print(total);
-    bool active = (38 * 8) == x / 7;
-    print("parse");
+    print(count);
   }
-  ciaty = ciaty + 1;
 }
-if (is_even) {
-  int k = x * ciaty;
-  print(k);
-  int score2 = 0;
-  while (score2 < 4) {
-    z1 = (z1 / 8) - (z1 + 40);
-    score2 = score2 + 1;
-  
-  int b = (x / 5);
-}
-int cityx = (index * index);
-print(index);
-print(5);
+print(distance);
+score = 25;
+print((38 * height));

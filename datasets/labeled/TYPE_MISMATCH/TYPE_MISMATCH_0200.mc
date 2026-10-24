@@ -14,34 +14,25 @@ print(ok);
 if (mean + first3 >= 11) {
   int width = first3 - first3;
   print(width);
-  print(salary1);
-  if (title == "robot") {
-    width = (width % 6) / 5;
-    print(width);
-    print(ok);
-  } else if (mean > 20 * 11) {
-    int years = (first3 + width);
-    print(years);
-    print(title);
-  } else {
-    int marks1 = 33;
-    print(marks1);
-    print(mean);
-    print(marks1 <= width);
-    print(ok);
+  for (int num = 0; num < 2; num = "text") {
+    salary1 = 16;
+    float area = salary1 - salary1;
+    float distance = 7.6 * 20;
   }
-}
-string course = title;
-mean = "text";
-if (24.4 <= (first3 % 3)) {
-  int steps3 = 0;
-  while (steps3 < 5) {
-    print(33);
-    course = "bob";
-    steps3 = steps3 + 1;
-  }
+  salary1 = width;
 } else {
-  title = "alice";
-  bool has_more = 13 >= first3 / 1;
+  for (int level = 0; level < 4; level = level + 1) {
+    mean = salary1 - level;
+  }
 }
 print(first3);
+if (!ok) {
+  int titles = 0;
+  while (titles < 4) {
+    print(ok);
+    title = "hello";
+    titles = titles + 1;
+  }
+  ok = ok;
+}
+print(false);

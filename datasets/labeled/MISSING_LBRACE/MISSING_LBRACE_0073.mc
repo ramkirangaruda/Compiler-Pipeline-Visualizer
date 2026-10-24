@@ -1,54 +1,69 @@
-string course = "done";
-bool flag = (17 % 4) <= 8 * 23 || 3.5 + 18.8 == 29 * 20;
-int items = 3;
-int i = 26 + items;
-int total = (39 - 23);
-string text = "token";
-if (flag) {
-  i = 2;
-} else {
-  int j = (total / 7);
-  print(j);
-  print(items);
-  int stock = total - j;
-  flag = j == (j % 5);
-}
-if (flag) {
-  int tsext = items * i;
-  print(tsext);
-  int lives = 0;
-  while (lives < 5) {
-    tsext = (1 % 2) + (items + 32);
-    lives = lives + 1;
+bool ready2 = true;
+string title = "yudu";
+int num = 8 - 40;
+string city = title;
+if (0.9 + 27.1 < num - num) {
+  int years = num * num;
+  print(years);
+  for (int y = 0; y < 5; y = y + 1) {
+    ready2 = num != 40 * years;
   }
-  print(course);
-} else {
-  int count = i + items;
-  print(count);
-  count = (31 - total) + (22 + 21);
-}
-int i1 = (items % 1);
-flag = (i % 4) == total * 34;
-if (i1 < i) {
-  int k = (items + 17);
-  print(k);
-  flag = (21 + items) >= i + items && flag || 12.2 - 23.9 == (24 + i1);
-  if (3 <= items * items) 
-    int size = (4 + 23);
-    print(size);
-    print(total * total);
-  } else if (17.5 - 8.8 >= k) {
-    int index = items;
-    print(index);
-    i1 = 6 + 24;
+  if (false && ready2) {
+    num = (3 / 9) + (40 / 8);
+    print(title);
+    city = "robot";
+  } else if (18.1 + years <= (12 / 9) || (num - years) >= 26 / 7) {
+    int height = 1;
+    print(height);
+    city = title;
+    print(city);
   } else {
-    int x = 22 * i;
-    print(x);
-    string tootal = "yudu";
-    k = (k + 16) + i / 6;
-    float tootals = 8.9 + 9.6;
+    int a = (num + 18);
+    print(a);
+    print(num);
+    print(!ready2 || 6.6 * 18.2 == (11 - 4));
   }
-  flag = flag;
+  if (ready2) 
+    int rounds = years % 5;
+    print(rounds);
+    title = city;
+    print(rounds);
+    print(title);
+  } else if (ready2) {
+    int j = (num / 3);
+    print(j);
+    print(city);
+  } else {
+    print(city);
+    ready2 = 14.9 - 17.4 == num;
+    title = "compiler";
+  }
+} else {
+  int days = 26;
+  print(days);
+  if (!ready2) {
+    city = "hello";
+    float salary = 21.8 * 17.9;
+  }
 }
-print(i1);
-print(text);
+city = "yudu";
+for (int citys = 0; citys < 3; citys = citys + 1) {
+  print((15 / 3));
+}
+int limit = 0;
+for (limit = 0; limit < 2; limit = limit + 1) {
+  ready2 = 28.8 != 17 / 5 || limit + 25 < 6 + limit;
+}
+if (!ready2 || ready2) {
+  if (9.7 - limit < 3 % 9) {
+    int reaody2 = num - limit;
+  }
+  int sum = 0;
+  while (sum < 4) {
+    print((36 * 30));
+    sum = sum + 1;
+  }
+}
+print(city);
+ready2 = num <= limit + num;
+print(17 + limit);

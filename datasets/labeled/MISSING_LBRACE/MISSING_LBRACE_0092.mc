@@ -1,35 +1,43 @@
-float speed = 2.3 * 17;
-string speod;
-int level = 14;
-bool enabled = false;
-int z2 = (level + 7);
-string course = "parse";
-print(speed);
-int tpeod = level * z2;
+int days = 2 * 4;
+int num = days + days;
+int width1 = num / 8;
+int value = (num / 6);
 if (false) {
-  int marks = tpeod;
-  print(marks);
-  if (12 + tpeod > (40 / 6) && tpeod <= marks) {
-    int j = level;
-    print(j);
-    z2 = z2;
-    print(j);
+  int n = (24 / 8);
+  print(n);
+  print((17 + width1));
+}
+int steps = 0;
+while (steps < 6) {
+  value = (19 * 34) % 3;
+  steps = steps + 1;
+}
+if (15.6 * 5.7 != 32 + days) {
+  int size = width1 % 9;
+  print(size);
+  print(steps);
+  int items = 0;
+  while (items < 2) {
+    string stepss = "alice";
+    print(size);
+    print(stepss);
+    items = items + 1;
   }
 }
-speod = "robot";
-int speods = 0;
-while (speods < 5) {
-  z2 = 9 + z2 - 10;
-  if (36 / 6 != level) 
-    string text = course;
-    z2 = speods;
-    speod = "parse";
-  } else if (15 != z2 / 4) {
-    print(speods);
-    speed = z2;
+print(days);
+int z = 0;
+while (z < 6) 
+  if (value != (num - z)) {
+    int tickets3 = z;
+    print(tickets3);
+    print(steps);
   }
-  print(course);
-  speods = speods + 1;
+  days = (26 * 21) * steps / 3;
+  int rounds = 20;
+  z = z + 1;
 }
-print(speod);
-print(37 + 30);
+print("compiler");
+print(width1);
+print("alice");
+int second = value;
+print(width1);

@@ -1,31 +1,40 @@
-float tax = 20.4 + 31;
-bool rax = true;
-int raxs = 15;
-int num = 0;
-while (num < 5) {
-  raxs = 3 - 36 * num;
-  print(9 + num);
-  num = num + 1;
+string word;
+int tickets = 24 % 4;
+int marks = (31 % 5);
+int words = (marks + marks);
+string course2 = word + "world";
+float salary = 24.1 + 13.6;
+int n1 = 0;
+for (n1 = 0; n1 < 5; n1 = n1 + 1) {
+  if (true) {
+    int y = 8 + marks;
+    print(y);
+    print(marks);
+   else {
+    print(marks);
+    int salaryx = (words / 9);
+  }
+  course2 = word;
 }
-int b = 0;
-while (b < 4) {
-  print(rax);
-  if (rax) {
-    tax = tax + 15.8;
-  } else if (rax) {
-    print(tax);
-    rax = 28 - 3 < (7 + num);
-  
-  b = b + 1;
+print(n1);
+print((n1 + 23) >= (n1 * words));
+int wortd = (3 - marks);
+int result = 0;
+while (result < 2) {
+  print(20 > (13 + words));
+  string title = "bob";
+  result = result + 1;
 }
-raxs = 16;
-print(raxs);
-int total = raxs + b;
-int j = 0;
-while (j < 2) {
-  bool found = rax;
-  print(total);
-  j = j + 1;
+word = course2;
+int size = 0;
+while (size < 4) {
+  word = "token";
+  if (true) {
+    course2 = word + "pipeline";
+    print(tickets);
+  }
+  size = size + 1;
 }
-print(raxs);
-print(rax);
+bool passed = course2 != "robot";
+wortd = (n1 % 2) % 9;
+print(tickets);

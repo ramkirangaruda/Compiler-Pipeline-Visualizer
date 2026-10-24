@@ -1,44 +1,92 @@
-int size = 17 / 2;
-float sieze;
-int tickets2 = (size - 3);
-int points = 7 / 2;
-string owner = "robot";
-print(points);
-int level = 0;
-while (level < 4) {
-  float tize = sieze * sieze;
-  tickets2 = (points * 27) + points;
-  level = level + 1;
+int sum = 23;
+int count = sum;
+bool flag = false;
+int num3 = 29 / 7;
+int value = count + num3;
+bool valid = !flag;
+int stock3 = 0;
+for (stock3 = 0; stock3 < 6; stock3 = stock3 + 1) {
+  print(stock3 % 8);
 }
-if (size + size <= level) {
-  int age = size - 28;
-  print(age);
-  sieze = 28.1;
-} else {
-  int j1 = size;
-  print(j1);
-  print("done");
-  if ((tickets2 - level) < level + 39) {
-    int seats1 = level;
-    print(seats1);
-    tickets2 = size / 6 % 4;
-    print(points);
-    seats1 = tickets2;
-  } else if (level % 3 != 38 * tickets2) {
-    int index = (18 % 7);
-    print(index);
-    int k = 29 % 3;
-  } else if ((level + 3) > 8 % 7) {
-    size = points;
+print(stock3);
+count = (sum * 11) + num3;
+if (37 * 22 >= sum + 24) {
+  float sunm = 5.4 * 22.4;
+  int points = 0;
+  while (points < 5) {
+    string owner = "yudu";
+    print(stock3);
+    sum = (25 - num3) % 5;
+    points = points + 1;
   }
-  int years = tickets2 + size;
+  count = 32 + (sum * value);
+} else {
+  int height3 = 9 + 9;
+  print(height3);
+  print(num3);
 }
-bool passed = (tickets2 - 19) != (points + 26);
-int seats2 = 0;
-while (seats2 < 5) {
-  tize = 3.6 - sieze;
-  int lives2 = 1;
-  seats2 = seats2 + 1;
+if (flag) {
+  int i = (20 + 7);
+  print(i);
+  print(stock3);
+  int age = 0;
+  while (age < 6) {
+    print((29 - 22) <= 33);
+    valid = 30 - sum < 27;
+    age = age + 1;
+  }
 }
-sieze = 36 + 8;
-print(level);
+count = 35 + stock3 + (value * stock3);
+print(16);
+if (num3 < num3 - 38) {
+  int flagx = (value + num3);
+  print(flagx);
+  int items = (sum + num3);
+  flagx = value / 9;
+  for (int z = 0; z < 5; z = z + 1) {
+    int steps = 17;
+    print(items);
+    sum = 3 + sum;
+  }
+} else {
+  print(flag);
+}
+if (17.1 > 29 % 5 && false) {
+  sum = sum - (num3 + 12);
+  int base = 0;
+  while (base < 5) {
+    print("done");
+    valid = sunm * stock3 < count;
+    base = base + 1;
+  }
+  valid = flag;
+} else {
+  int result = 0;
+  while (result < 2) {
+    value = (sum + stock3) - (15 / 4);
+    int rounds3 = (11 - 18);
+    print(stock3);
+    result = result + 1;
+  }
+}
+if (!valid) {
+  int flai = 6 - 23;
+  if (sunm >= 30 - 37) {
+    print(flai);
+    count = num3 + count + num3 + 24;
+  } else {
+    num3 = 21 * 24 % 6;
+    num3 = (num3 + num3) % 7;
+  }
+} else {
+  for (int j = 0; j < 4; j = j + 1) {
+    string greeting3 = "robot";
+    int volid = j - 16;
+    print((sum * j) == num3);
+  }
+  if (sunm - 10.1 > sum + 25) {
+    print(value);
+  }
+}
+flag = !valid;
+print("robot");

@@ -2,7 +2,7 @@ int base = (18 % 5);
 float ratio2 = 2.7 + 31;
 int stock = (base + 28);
 bool valid = 8.7 - 2 >= base;
-int discount = ratio2 + 3;
+float discount = ratio2 + 3;
 string validx = "yudu";
 base = (36 / 5) % 2;
 print(valid);
@@ -13,20 +13,11 @@ if (30 >= (base % 6)) {
   ratio2 = 12.3 + base;
   discount = discount - 16.7;
 }
-int raoio2 = 0;
-while (raoio2 < 2) {
-  validx = "yudu";
-  if (false) {
-    int age = (9 / 7);
-    print(age);
-    print(age);
-    base = 2;
-  } else {
-    print(raoio2);
-    valid = 0 + 11 != (base + stock);
+for (int raoio2 = 0; raoio2 < 2; raoio2 = 2.75) {
+  if (discount >= 23 / 3) {
+    float validxx = ratio2 + base;
+    print(validx);
   }
-  stock = (base / 6) % 5;
-  raoio2 = raoio2 + 1;
 }
-string ibase = "token";
+valid = 0 + 11 != (base + stock);
 print(stock);

@@ -2,10 +2,10 @@ string city = "ok";
 int limit = 3 + 21;
 float ratio = 17.4;
 bool has_more = limit > limit && ratio <= limit;
-bool flag2 = false;
+bool flag2 = 5;
 bool flag3 = (38 + 4) == (limit - limit);
 string name = city;
-flag2 = 5;
+flag2 = true;
 limit = 11;
 int stock = 0;
 while (stock < 6) {
@@ -14,21 +14,15 @@ while (stock < 6) {
   int j = num2;
   stock = stock + 1;
 }
-print(name + "alice");
-if (has_more && name != "hello") {
-  int n1 = limit / 5;
-  print(n1);
-  if (has_more) {
-    city = name + "bob";
-  } else {
-    int base2 = 19;
-    print(base2);
-    ratio = ratio - base2;
-    ratio = 14.3 - limit;
-    flag3 = ratio * 28.1 == (29 / 1);
+int value = 0;
+for (value = 0; value < 5; value = value + 1) {
+  if (has_more && name != "hello") {
+    int n1 = limit / 5;
+    print(n1);
+    city = name;
   }
-} else if ((39 + 4) < stock + 22) {
-  print(ratio);
-  city = "parse";
+  print(flag3);
 }
+print(value);
+flag3 = flag3;
 print(limit);

@@ -41,23 +41,42 @@ if (false) {
   index = (7 + 34) - (11 / 2);
   city2 = city2;
 } else if (false) {
-  int count = index % 3;
-  int z = 0;
-  while (z < 6) {
-    rate = 30.3;
-    z = z + 1;
+  int value = 0;
+  for (value = 0; value < 3; value = value + 1) {
+    print(index);
+    level = (value + value) * (index / 8);
+    city2 = city2 + "hello";
+  }
+  if ((value - 27) >= 21 || (35 / 2) == (level / 9)) {
+    print(level);
+  } else if (true && (23 / 8) != index) {
+    int rounds = (level / 5);
+    print(rounds);
+    rounds = value;
+    print(index);
+  } else {
+    city2 = "yudu";
+    int i = (index / 3);
   }
 } else {
-  int value = 17;
-  print(value);
-  int i = 0;
-  while (i < 3) {
-    int b = i % 7;
-    float salary = rate + 10.4;
-    city2 = city2 + "alice";
-    i = i + 1;
+  level = level / 3 + (level - 39);
+  if ((index * 24) > 39 || (level + index) >= level + level) {
+    int ocity2 = 30 - level;
+    print(ocity2);
+    ocity2 = 18;
+    print(city2);
+  } else if (21.3 - index <= index && level != (12 % 6)) {
+    int second = index / 5;
+  } else {
+    int result = (index / 5);
+    print(result);
+    int first = (19 + result);
+    first = 12;
+  }
+  if (false) {
+    print(rate);
+    print(index);
   }
 }
-print("ok");
-print(city2 != "robot" || city2 == "done");
-print(index * index);
+print(level);
+print(city2);

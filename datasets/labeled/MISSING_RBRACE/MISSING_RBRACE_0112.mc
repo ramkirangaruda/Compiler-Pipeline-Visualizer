@@ -1,73 +1,100 @@
-float area = 27.9 * 17;
-float speed1;
-int stock = (16 + 23);
-int speee1 = (39 * stock);
-int total = 24;
-int b = 0;
-while (b < 6) {
-  speee1 = stock % 2 / 6;
-  print(stock);
-  print("pipeline");
-  b = b + 1;
-}
-print(stock);
-print(speed1 - 19.5 == speee1 * 10 || 3.1 - 19.1 > b + 40);
-int steps = 0;
-while (steps < 6) {
-  stock = steps * 3 + 27;
-  total = b;
-  if (area != 12 + stock) {
-    int marks = (total / 9);
-    print(marks);
-    int n = speee1 * 37;
-  } else if ((steps * steps) > steps / 1) {
-    int oarea = total;
-    stock = 6 + total % 7;
+string label = "alice";
+bool labsel = label == "token";
+bool passed = (37 + 17) >= 5 / 6;
+int age1 = 9 - 39;
+int k = age1;
+bool has_more = passed;
+bool valid = 0.1 <= (23 / 2);
+if (true) {
+  int a = 0;
+  while (a < 3) {
+    print(labsel);
+    a = a + 1;
+  }
+} else {
+  int limit = 3;
+  print(limit);
+  print(passed);
+  valid = k * 16 <= 30 / 2;
+  if (valid && 5.9 == 26 + 19) {
+    print(age1 * limit > (37 + age1) || passed);
+    limit = age1 / 5 + 3 + limit;
+    has_more = age1 >= (32 - k);
   } else {
-    print(stock);
-    print(30 < stock);
-    print(speee1 > stock);
+    int first = (limit / 2);
+    print(first);
+    first = k;
+    passed = (8 / 9) > k - k;
   }
-  steps = steps + 1;
 }
-print(true);
-if (b % 2 > (4 % 5)) {
-  total = (speee1 / 5) / 5;
+age1 = k + 0 + k - age1;
+label = "yudu";
+print(age1);
+if (!labsel) {
+  int seats1 = 2 * age1;
+  print(seats1);
+  if ((k + k) <= 31 - age1) {
+    int nabsel = k % 4;
+    print(nabsel);
+    valid = passed;
+    k = (23 + nabsel) + (age1 * 1);
+  }
+  if (label == "bob") {
+    int has_sore = k;
+    print(has_sore);
+    valid = 12.2 > seats1 - k;
+    string greeting = label;
+  } else {
+    print("bob");
+    print(age1);
+  }
+  if ((k / 4) >= (age1 % 7)) {
+    print(valid);
+    print((k + age1));
+    print(passed);
+  } else {
+    string title = "yudu";
+    age1 = age1;
+  }
+}
+if (12.8 - k > k % 9) {
+  int age = 0;
+  while (age < 5) {
+    float temp = 1.3;
+    string word = label + "alice";
+    age = age + 1;
+  }
+  k = 18 % 2 * 5;
 } else {
-  int artea = stock;
-  print(artea);
-  int value = b + 19;
-  if ((artea - 5) > (4 % 3)) {
-    float speed = speed1 - stock;
-    print(stock);
-  }
+  print(passed);
+  print(age1);
+  print(label);
 }
-if (steps - 37 > (33 + total) || false) {
-  int k2 = 0;
-  while (k2 < 6) {
-    string name = "parse";
-    name = "alice";
-    k2 = k2 + 1;
+k = 22;
+if ((36 + age1) == age1 * age1) {
+  int sum3 = 0;
+  while (sum3 < 3) {
+    labsel = sum3 != 29 - age1;
+    sum3 = sum3 + 1;
   }
-  print("hello");
-  speee1 = (steps * b) + b + b;
+  int size = (sum3 * 37);
+  print(valid);
+}
+if (false) {
+  print(label);
+  print(passed);
 } else {
-  int width1 = (3 - speee1);
-  print(width1);
-  if (speee1 + 2 <= total) {
-    total = 39 + 3;
+  if (39 + k != (k + 26)) {
+    int items = (age1 - k);
+    print(items);
+    print(k);
+  } else if (label == "bob") {
+    int index = 8;
+    print(index);
+    print("robot");
+  } else {
+    int points = (age1 * k);
+    print(passed);
   }
-  area = (stock - b);
-}
-int j2 = (b % 2);
-int seats2 = 0;
-while (seats2 < 5) {
-  if (false || true) {
-    stock = speee1;
-   else {
-    print("ok");
-    stock = seats2;
-  }
-  seats2 = seats2 + 1;
-}
-print(seats2);
+
+print((30 % 6));

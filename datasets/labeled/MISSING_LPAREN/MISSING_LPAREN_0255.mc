@@ -6,55 +6,58 @@ bool valid = salary + 30 == (31 + 21) || 25 == (27 % 1);
 if (26 + 39 != 31) {
   print(done);
 } else {
-  salarys = (31 + 10) > 8 + 37;
-  print(salarys);
-}
-if (true && (11 - 40) >= (13 - 4)) {
-  float distance = salary;
-  done = 13.6 + 0.9 >= 30 / 7;
-  print("alice");
-} else {
-  if (8 % 8) <= 20 - 30 {
-    print(valid);
-    print(salary);
-  }
-}
-int donse = 0;
-while (donse < 6) {
-  salarys = valid;
-  donse = donse + 1;
-}
-done = 27 * 17 >= 33;
-if (salarys) {
-  int seats = (32 * donse);
-  print(seats);
-  if (seats + seats > (26 % 3)) {
-    name = "bob";
+  int items = 0;
+  for (items = 0; items < 5; items = items + 1) {
+    salarys = (items - 29) == 19 - 3;
     print(salarys);
-    print(salarys);
-  } else if (4 / 4 != (donse * donse)) {
-    print(salary);
-    done = donse == (39 / 8);
+  }
+  print(items);
+  salary = (items % 2);
+}
+name = name;
+int points1 = 0;
+while (points1 < 5) {
+  float discount = 28.5 * salary;
+  salary = 9.8 + points1;
+  points1 = points1 + 1;
+}
+done = done || false;
+if (2 * 4) < 28 + points1 {
+  int names = points1;
+  print(names);
+  if (27.5 != names / 1) {
+    done = valid;
   } else {
-    int stock2 = donse;
-    print(stock2);
-    float area1 = salary - salary;
+    int age = names + names;
+    salarys = 13 <= points1 - points1;
+  }
+  int seats1 = 0;
+  while (seats1 < 3) {
+    names = (17 + seats1) / 4;
+    seats1 = seats1 + 1;
+  }
+  if (true) {
+    print(points1);
+    name = name;
+  } else {
+    int marks = (13 % 3);
+    print(marks);
+    int neme = (37 * points1);
+  }
+} else if ((points1 / 5) < (19 / 9) && name != "ok") {
+  int total3 = 21 + 3;
+  print(total3);
+  int j = 0;
+  while (j < 5) {
+    print("robot");
+    done = 22.3 - salary == 12;
+    int score = j;
+    j = j + 1;
   }
 } else {
-  int namex = 0;
-  while (namex < 6) {
-    salary = namex - donse;
-    valid = namex + 4 < (13 / 6) || salarys;
-    salarys = namex - 2 > (5 * donse);
-    namex = namex + 1;
-  }
-  if ((donse + 31) <= 27 % 1) {
-    done = namex + namex < 9;
-    done = name == "token";
-    print("world");
-  } else {
-    salary = donse;
-    print(name);
-  }
-  print(namex);
+  int tickets = points1;
+  print(tickets);
+  print(tickets);
+  print(name + "compiler");
 }
+print(done);

@@ -1,57 +1,62 @@
-string name = "ok";
-float namex = 5.9 - 38;
-bool active = false;
-if (active) {
-  int count = (2 + 13);
-  int j = (35 + count);
-  print(j);
-  int width = 20 * 26;
-  int items1 = 0;
-  while (items1 < 4) {
-    bool flag = !active;
-    items1 = items1 + 1;
-  }
-  namex = namex + namex;
-} else {
-  print((count * count));
+int result = 4;
+int y = result / 8;
+string resulst = "done";
+bool ok = true;
+bool resiulst = 28.8 * 18 == result;
+bool passed1 = resiulst;
+string course = resulst + "ok";
+int marks = 0;
+for (marks = 0; marks < 5; marks = marks + 1) {
+  int a1 = (35 % 5);
+  print(marks);
 }
-print(namex);
-int index = 0;
-while (index < 4) {
-  if ((count * 31) == index * count) {
-    string word = "alice";
-    float tax = 13.7 + count;
-    float price = 17.9 * 2.2;
+print(marks);
+if (passed1) {
+  float results = 27.1 * 13.4;
+  int height = marks;
+  print(height);
+  print(resiulst);
+  int resultsx = 0;
+  while (resultsx < 3) {
+    results = (y + height);
+    resultsx = resultsx + 1;
+  }
+  if (4 + marks != (13 / 8)) {
+    int rresulst = height % 5;
+    print(rresulst);
+    int courses = (39 + marks);
+    print(course);
+    print(y);
   } else {
-    int actives = (index / 2);
-    print(actives);
-    print(index);
-    bool ready = active;
+    int width = (31 + marks);
+    print(width);
+    print(height);
   }
-  index = index + 1;
-}
-if (active) {
-  print(count);
-  count = 30 + (index / 1);
-  int second = 0;
-  while (second < 5) {
-    print(name);
-    second = second + 1;
+} else {
+  ok = false;
+  if (ok) {
+    print(marks);
+    ok = 16.3 < marks;
+  } else if (resiulst) {
+    int num = marks + marks;
+    print(num);
+    ok = marks == (33 * num);
+    result = marks;
+  } else if (course != "done") {
+    int base1 = 35;
+    print(base1);
+    print(result);
+  } else {
+    results = results * marks;
   }
 }
-int years = 0;
-while (years < 4) {
-  string name3 = "alice";
-  print(name);
-  if (false) {
-    string word2 = "robot";
-    string label = "robot";
-  }
-  years = years + 1;
+int i = 0;
+while (i < 6) {
+  print(marks);
+  passed1 = !passed1;
+  i = i + 1;
 }
-int a = (count + index);
-if (active) {
-  print(name);
-}
-print(name);
-print(namex);
+print(resulst);
+print(results);
+print(marks);
+print(marks + marks);

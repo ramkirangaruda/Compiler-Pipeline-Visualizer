@@ -3,47 +3,49 @@ float voltage3 = 0.1;
 int k3 = 10 * 10;
 int value = (25 + 16);
 string label = "bob";
-print(value);
-print(active2);
-int size1 = 0;
-while (size1 < 4) {
-  if (active2 || (size1 + 35) == value) {
-    bool ready1 = active2;
-    int a = value;
-  } else if ((size1 + size1) <= k3 + size1 && false) {
-    print(k3);
-  } else if (label != "alice") {
-    print(voltage3);
-    print(voltage3);
-  }
-  label = label + "compiler";
-  size1 = size1 + 1;
+for (int second = 0; second < 5; second = second + 1) {
+  k3 = second + k3 * k3;
+  int days = (second / 9);
 }
-print(size1 - 36);
-if (size1 == value) {
-  int marks3 = value + 7;
-  print(marks3);
-  int slabel = k3;
-  k3 = 15 - size1 / 8;
-  int lives = 0;
-  while (lives < 2) {
-    int first = lives;
-    print("done");
-    print(active2);
-    lives = lives + 1;
-  }
-} else {
-  bool steps = k3;
-  print(label);
+active2 = (k3 + 21) > 23;
+float vnalue = voltage3;
+int points = 0;
+while (points < 5) {
   if (active2) {
-    int y3 = steps / 8;
-    print(y3);
-    print(steps);
-  } else if (true) {
-    int a2 = 33 + k3;
-    print(a2);
-    label = "alice";
+    int limit = true;
+    print(limit);
+    k3 = k3;
+  } else {
+    print(points);
+    value = 31 + (k3 - 38);
+    float distance = vnalue + 0;
   }
+  if (points == value) {
+    int marks3 = value + 7;
+    print(marks3);
+    int active2x = k3;
+    vnalue = 15 - points;
+    int activoe2 = 22;
+  } else if (value + 24 > value / 4) {
+    print(k3 <= 25 % 1);
+  } else if (!active2 && 15.8 * vnalue <= (points + k3)) {
+    int voltage3s = k3;
+    print(voltage3s);
+    print(vnalue);
+    int vnasue = value % 9;
+  } else if (value + points == value - k3) {
+    int labels = points;
+    print(labels);
+    value = 10;
+    print(points);
+  } else {
+    voltage3 = voltage3 + k3;
+    print(points);
+    print(label);
+  }
+  print(points);
+  points = points + 1;
 }
-print(size1);
+vnalue = vnalue - 30.7;
 print(label);
+print(k3);

@@ -11,19 +11,30 @@ print("robot");
 int age = 0;
 while (age < 4) {
   active = active;
-  bool stock = 5 % 6;
+  int stock = 5 % 6;
   age = age + 1;
 }
-title = title + "compiler";
-if (27 / 9 != 6 + age) {
-  int total1 = (10 + 28);
-  int a = 0;
-  while (a < 2) {
-    print(word);
-    a = a + 1;
+for (int titele = 0; titele < 3; titele = titele + 1) {
+  if (27 / 9 != 6 + age) {
+    int total1 = (10 + 28);
+    tickets = 5 % 9 / 1;
+  } else {
+    print(j);
+    print(tickets);
   }
-} else {
-  print(j);
-  print(tickets);
 }
-print(title);
+int actove = 0;
+for (actove = 0; actove < 2; actove = actove + 1) {
+  if (!active) {
+    float titlo = area1 + 36;
+  } else if (area1 - age >= 8 + j) {
+    int result = (19 * age);
+    print(result);
+    print(area1);
+    bool flag = area1 - j <= actove;
+  } else {
+    print(title);
+    bool days = 32 / 9;
+  }
+}
+print(area1 + 5.7 < (26 * area1s));

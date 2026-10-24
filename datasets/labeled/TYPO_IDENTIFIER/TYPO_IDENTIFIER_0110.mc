@@ -2,51 +2,33 @@ int seats = 5;
 int first2 = seats * seats;
 int a = (8 % 5);
 float weight = 1.6;
-print(a);
-print(first2);
-first2 = seats + 26 + seats % 9;
-if ((38 / 8) > (first2 % 4) && first2 <= a) {
-  if (a < seats) {
-    int height1 = 13 + 38;
-    print(height1);
-    print((height1 + first2));
-    print(false && height1 / 3 < (40 % 3));
-    bool weeight = (height1 * seats) > 36 % 4;
-  } else {
-    print(weight);
-    a = a + seats + a;
-  }
-} else {
-  int y = seats;
-  print(y);
-  a = (y - 2) + (39 / 8);
-  int steps = a;
+int index = 0;
+for (index = 0; index < 6; index = index + 1) {
+  seats = first2 - a % 6;
+  weight = weight + index;
+  print(weight);
 }
-if (seats < 37 + 30) {
-  a = first2 - a - 3 + a;
-  if ((seats + 36) != 25 % 3) {
-    print("yudu");
-    print(first2);
-    print("alice");
-  } else if (weight >= first2 / 6) {
-    print(seats);
-  }
-  int seight = a;
+print(index);
+print(index);
+bool done1 = seats > 25;
+if (14.3 != index) {
+  print(index);
 } else {
-  int j3 = seaats - 24;
-  print(j3);
-  j3 = (a % 4) + j3 - first2;
-  if (2 + first2 == seats) {
-    a = (seats % 6) * (8 + 0);
-    seats = first2 + first2 % 8;
-    int b2 = j3 + a;
-  } else {
-    int second = 19;
-    print(second);
-    print(weight);
-    a = first2;
-    print("compiler");
-  }
+  int second = index % 8;
 }
-first2 = seats + 0;
-print(first2);
+if (16.4 + weight < 36 + 1) {
+  if (weight + seats > (index * seats)) {
+    print(index);
+  }
+  if (weight + weiight <= (seats + 24)) {
+    int tickets = (40 + a);
+    print(tickets);
+    first2 = (39 / 8) % 2;
+    string ticoets = "done";
+  } else {
+    print(index);
+    seats = seats;
+  }
+  print(done1);
+}
+a = (25 % 1) - (35 + seats);

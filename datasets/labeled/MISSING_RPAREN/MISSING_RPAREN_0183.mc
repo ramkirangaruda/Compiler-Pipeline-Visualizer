@@ -31,26 +31,14 @@ if (12.5 * base3 >= (9 + 17)) {
 lives1 = 9;
 print("alice");
 int num = 0;
-while (num < 5) {
-  print(width3);
-  print(stockx);
-  num = num + 1;
+for (num = 0; num < 5; num = num + 1) {
+  stock = num;
+  base3 = (num - lives1) + (26 - stock);
+  bool stockxx = (a * a) > i + base3;
 }
-if (28.7 < 23) {
-  int total = a % 2;
-  print(total);
-  print(width3);
-  has_more = true;
-  if (false) {
-    float ratio = 12.2 - 8.3;
-    print(base3;
-  } else if (has_more) {
-    int num1 = 29;
-  } else {
-    print(base3);
-    print(stockx);
-    print(stockx);
-  }
+print(num);
+base3 = lives1 * base3;
+if ((14 % 1) > 29 + a) {
+  float oidth3 = 15.4 + 15.7;
 }
-print(i);
-base3 = num * base3 - i;
+print(lives1;

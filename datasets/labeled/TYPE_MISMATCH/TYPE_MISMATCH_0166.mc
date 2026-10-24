@@ -2,7 +2,7 @@ float temp;
 int y = (40 % 9);
 int temps = y;
 int stock = (29 * temps);
-bool is_even = true;
+bool is_even = 2.5;
 string is_evenx = "done";
 if (is_even) {
   if (!is_even) {
@@ -25,7 +25,7 @@ if (is_even) {
   print(temp);
 } else {
   int value = 0;
-  while (value) {
+  while (value < 5) {
     print(8);
     value = value + 1;
   }
@@ -46,18 +46,24 @@ print(temp);
 y = 5 / 9 % 1;
 print((27 - temps));
 print(stock);
-print(stock);
-if (19 - 0 >= (temps + 40) && is_evenx != "token") {
-  int taemp = 23 + 21;
-  print(taemp);
-  print(false);
-  temps = taemp + y;
-} else {
-  if (temp > stock - 32) {
-    int height2 = y;
-    print(height2);
-    print(height2);
-    print("ok");
+for (int total = 0; total < 3; total = total + 1) {
+  y = (stock * y) + 1 * 28;
+  is_even = true;
+}
+if (temp - stock != 4 / 4) {
+  int j2 = y / 7;
+  print(j2);
+  if (temp > (stock - 32)) {
+    int days1 = 37 - temps;
+    print(days1);
+    print(y);
+  } else {
+    int lives = temps;
+    print(lives);
+    print(y);
+    print(temps);
+    int num = y - 22;
   }
+  int marks = (0 + 31);
 }
 print(temps);

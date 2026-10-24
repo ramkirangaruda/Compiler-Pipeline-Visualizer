@@ -1,100 +1,41 @@
-string label = "alice";
-bool labsel = label == "token";
-bool passed = (37 + 17) >= 5 / 6;
-int age1 = 9 - 39;
-int k = age1;
-bool has_more = passed;
-bool valid = 0.1 <= (23 / 2);
+float ratio3 = 21.1 * 26;
+bool is_even = ratio3 + 7 < 27 + 40;
+int ratiio3 = (30 - 32);
+int rounds = 10 + 22;
+int score = 14;
+float rate = ratio3 - ratio3;
+bool has_more1 = (ratiio3 - 13) != 34 % 8;
+string course = "yudu";
+has_more1 = is_even;
+float price = 28.1 - 16.3;
 if (true) {
-  int a = 0;
-  while (a < 3) {
-    print(labsel);
-    a = a + 1;
-  }
-} else {
-  int limit = 3;
-  print(limit);
-  print(passed);
-  valid = k * 16 <= 30 / 2;
-  if (valid && 5.9 == 26 + 19) {
-    print(age1 * limit > (37 + age1) || passed);
-    limit = age1 / 5 + 3 + limit;
-    has_more = age1 >= (32 - k);
-  } else {
-    int first = (limit / 2);
-    print(first);
-    first = k;
-    passed = (8 / 9) > k - k;
-  }
+  rounds = ratiio3 % 9 + (score * score);
 }
-age1 = k + 0 + k - age1;
-label = "yudu";
-print(age1);
-if (!labsel) {
-  int seats1 = 2 * age1;
-  print(seats1);
-  if ((k + k) <= 31 - age1) {
-    int nabsel = k % 4;
-    print(nabsel);
-    valid = passed;
-    k = (23 + nabsel) + (age1 * 1);
-  }
-  if (label == "bob") {
-    int has_sore = k;
-    print(has_sore);
-    valid = 12.2 > seats1 - k;
-    string greeting = label;
+for (int items = 0; items < 5; items = items + 1) {
+  if (score % 8 == ratiio3 + 21) {
+    int is_evin = ratiio3 + ratiio3;
+    print(is_evin);
+    rounds = ratiio3;
   } else {
-    print("bob");
-    print(age1);
+    price = (items % 7);
   }
-  if ((k / 4) >= (age1 % 7)) {
-    print(valid);
-    print((k + age1));
-    print(passed);
-  } else {
-    string title = "yudu";
-    age1 = age1;
-  }
+  is_even = has_more1;
+  ratiio3 = rounds - 0 % 3;
 }
-if (12.8 - k > k % 9) {
-  int age = 0;
-  while (age < 5) {
-    float temp = 1.3;
-    string word = label + "alice";
-    age = age + 1;
-  }
-  k = 18 % 2 * 5;
-} else {
-  print(passed);
-  print(age1);
-  print(label);
+ratio3 = rounds % 9;
+int y = 0;
+for (y = 0; y < 2; y = y + 1) {
+  int sum1 = 10;
 }
-k = 22;
-if ((36 + age1) == age1 * age1) {
-  int sum3 = 0;
-  while (sum3 < 3) {
-    labsel = sum3 != 29 - age1;
-    sum3 = sum3 + 1;
-  }
-  int size = (sum3 * 37);
-  print(valid);
+print(y);
+if (11 + 6 > (score * ratiio3)) {
+  if (has_more1) {
+    int x = (26 - ratiio3);
+    print(score);
+  
+  score = ratiio3;
+  print(ratio3);
 }
-if (false) {
-  print(label);
-  print(passed);
-} else {
-  if (39 + k != (k + 26)) {
-    int items = (age1 - k);
-    print(items);
-    print(k);
-  } else if (label == "bob") {
-    int index = 8;
-    print(index);
-    print("robot");
-  } else {
-    int points = (age1 * k);
-    print(passed);
-  }
-
-print((30 % 6));
+rate = price * ratio3;
+print(false);
+print(is_even);

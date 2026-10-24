@@ -1,110 +1,70 @@
-float distance = 30.6;
-int y3 = 7;
-string course1 = "done";
-bool enabled = course1 == "bob";
-bool is_even = 6 <= 16;
-string label = "bob";
-if (enabled) {
-  int first = (y3 + 40);
-  print(first);
-  print(is_even);
-} else if ((y3 / 5) == y3 + y3) {
-  bool passed1 = 17.9 - y3 == (y3 % 6);
-  print(label);
-}
-if (40 + y3 > y3) {
-  if ((21 / 4) >= (y3 / 3)) {
-    int marks = (39 + y3);
-    print(marks);
-    distance = (4 / 2);
+bool valid = 20.8 - 9 == (31 % 6);
+int x = 20;
+bool valid2 = 23.1 - 23.3 == 27 + x;
+bool ok = valid;
+print(valid2);
+float voltage = 21.8 + 26.2;
+int b1 = 0;
+while (b1 < 5) {
+  if (valid) {
+    voltage = (9 / 6);
+    voltage = voltage * x;
   }
-  label = "token";
-  print(y3 < y3);
-} else {
-  int total = 0;
-  while (total < 6) {
-    label = label;
-    total = total + 1;
-  }
+  voltage = 24.3;
+  float voltage3 = 6.4;
+  b1 = b1 + 1;
 }
-if (distance < (7 + y3) || distance - y3 <= y3 - 38) {
-  int height2 = y3 - 17;
-  print(height2);
-  int items = 0;
-  while (items < 2) {
-    label = "pipeline";
-    bool valid = height2 - y3 <= y3;
-    items = items + 1;
-  }
-  int k1 = 2 - 37;
+int b = b1 + x;
+int points = 0;
+while (points < 3) {
+  print(true || (points + 15) != 25 * 0);
+  print(b1);
+  b = b1;
+  points = points + 1;
 }
-course1 = course1 + "token";
-if ((36 + y3) == y3 || 30 > y3) {
-  int ltabel = (y3 - 30);
-  print(ltabel);
-  y3 = y3 - ltabel / 9;
-  if (17 != y3) {
-    print(y3);
-    print(ltabel);
-    course1 = "compiler";
-  } else if (28.8 * ltabel >= 36 / 5) {
-    int b2 = (y3 % 6);
-    print(b2);
-    print("parse");
-    float temp = distance;
-  } else {
-    int sum = ltabel;
+for (int steps = 0; steps < 2; steps = steps + 1) {
+  if ((x / 6) > 40) {
+    int sum = (33 + 20);
     print(sum);
-    print(label + "yudu");
-    print(enabled);
-  }
-  ltabel = y3;
-} else {
-  if (is_even) {
-    int lrbel = (30 * y3);
-    print(lrbel);
-    print(lrbel);
-  } else {
-    print("token");
-    print(y3);
+    x = (20 + 1) + (steps - 23);
   }
 }
-print(label);
-if ((y3 + 25) < 29 + y3) {
-  int steps = y3 + y3;
-  print(steps);
-  label = "pipeline";
-  if (steps - steps != 4 * 20) {
-    int coiurse1 = (steps % 7);
-    print(coiurse1);
-    print(7);
-   else if (label != "token") {
-    int ies_even = steps;
-    print(ies_even);
-    print(enabled);
-  } else if (is_even) {
-    int count = y3 * y3;
+int y = 0;
+while (y < 4) {
+  if (x - 29 > b1 / 1) {
+    voltage = 30.1;
+    x = b1;
+    x = 0 - 6 + (y % 9);
+  }
+  print(b);
+  y = y + 1;
+
+if ((37 + 16) > (points / 6)) {
+  int lives = b1 + points;
+  print(lives);
+  if (valid) {
+    int j = (13 / 7);
+    print(j);
+    voltage = (j / 9);
+    valid = valid;
+    int result = 37 + j;
+  } else {
+    int count = x - y;
     print(count);
-    steps = count - steps - steps * 7;
-    count = steps - count + steps;
-  } else if (is_even) {
-    bool ready = y3 <= y3;
-  } else if (is_even) {
-    print(enabled);
-  } else {
-    int age = 19 - y3;
-    print(age);
-    float rate = distance;
-    float mean = rate + distance;
+    valid2 = (y - b) > b * b;
+    print(points);
+    voltage = y - b;
   }
+  voltage = x;
 } else {
-  bool flag1 = 18.5 == (6 + y3);
-  int height = 0;
-  while (height < 3) {
-    print(course1);
-    enabled = height / 5 != 1;
-    height = height + 1;
+  int score3 = 0;
+  while (score3 < 5) {
+    ok = (29 + 9) >= points;
+    print(11.4 + voltage < 4);
+    print(26);
+    score3 = score3 + 1;
   }
+  print(voltage);
+  print(ok);
 }
-int years3 = y3;
-print(course1);
+print(ok);

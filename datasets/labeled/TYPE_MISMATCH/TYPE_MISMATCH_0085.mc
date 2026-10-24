@@ -3,7 +3,7 @@ float city3s = 29.4 - 13;
 int second = (20 * 24);
 int a = (second + 23);
 int height = a;
-bool done = a > 18;
+float done = a > 18;
 if (city3 == "ok") {
   second = (3 % 5) * 1;
   second = (height + 2) - (height / 4);
@@ -42,59 +42,56 @@ if (32 % 1 <= (21 * a)) {
     a = height + (40 + second);
   }
 }
-int k = 0;
-while (k < 2) {
-  second = (k % 7) + (25 / 3);
-  print(city3s);
-  if (city3 != "yudu" || 3.5 + 22 != a * 8) {
-    a = a;
-    print(a);
-  } else if (!done) {
-    int citty3s = second;
-    print(citty3s);
-    done = (36 + 6) == (height - second) && (height - second) > (12 / 9);
-  } else if (done) {
-    float flag = false;
+for (int k = 0; k < 2; k = k + 1) {
+  if (true) {
+    int seats = height;
+  } else if (city3s != (34 - height)) {
+    print("yudu");
   } else {
+    print(k);
+    print(city3);
+    print(city3);
+  }
+  if ((second - k) < (second + a)) {
+    int years3 = height;
+    print(years3);
     print(second);
-  }
-  k = k + 1;
-}
-if (city3s == height / 9) {
-  int age = 0;
-  while (age < 4) {
-    height = a;
-    int result = (height + height);
-    age = age + 1;
-  }
-  print(second);
-}
-if (a > second - a) {
-  print(city3);
-  print(done);
-} else {
-  int seats = (27 + k);
-  print(seats);
-  if (a < 1) {
-    int items = 32 - k;
-    print(items);
-    seats = seats;
-    print(items);
-    city3s = city3s;
-  } else if (11.3 != 1) {
-    seats = seats + 36 + height;
-    float speed = city3s - city3s;
-  }
-  if (done) {
-    int b = (25 + seats);
-    print(b);
-    seats = height;
-    string name = "token";
-    string word2 = "done";
   } else {
-    int result2 = 16 / 1;
-    print(result2);
-    print(city3 == "hello");
+    int dnne = (height - second);
+    print(dnne);
+    float tax1 = 21.9 + city3s;
+  }
+  a = a / 4;
+}
+if (second % 5 == height) {
+  print((21 + second) < second);
+  print((second + 35));
+} else {
+  int points = (height + height);
+  print(points);
+  int result = 0;
+  while (result < 6) {
+    string city = "yudu";
+    print(a - 14 >= (29 + result));
+    int score = 9;
+    result = result + 1;
   }
 }
-print((a + second) >= second);
+if (city3s == a + 11) {
+  if (done) {
+    print(city3s);
+  } else if (!done) {
+    print(second);
+  } else {
+    int x = 36;
+  }
+  print(city3);
+  int base2 = 0;
+  while (base2 < 3) {
+    city3s = city3s - city3s;
+    print((1 + second));
+    bool done1 = city3 == "alice" || a <= second + 35;
+    base2 = base2 + 1;
+  }
+}
+print(city3s);

@@ -18,37 +18,60 @@ if (true) {
     rpeed = rpeed + 1;
   }
 }
-int a2 = 0;
-while (a2 < 2) {
-  float mean3 = 2.6 * 6;
-  if (lives < lives * 0) {
-    speed = true;
-  }
-  a2 = a2 + 1;
+for (int a2 = 0; a2 < 2; a2 = 2.75) {
+  print(b);
+  int level = a2 % 8;
+  speed = speed + 4.5;
 }
-if (true || 29 < a2) {
-  int score1 = lives;
-  print(score1);
-  if ((a2 % 3) != 13) {
-    int steps = (a2 + a2);
+if (true || false) {
+  print("compiler");
+} else if (16 == (b + 7)) {
+  if ((lives % 3) != 13) {
+    int steps = (lives + lives);
     print(steps);
     string owner = "bob";
-    print(a2);
+    print(steps);
   }
-  print(lives);
 } else {
+  print(lives);
   if (speed > (2 + lives)) {
     print(b);
   } else if (speed > 30 / 9) {
-    print(speed);
+    print(lives);
+  }
+  if (true) {
+    int sreed = (31 % 3);
+    print(sreed);
+    print(sreed);
+  } else {
+    print("world");
+    speed = speed - lives;
   }
 }
-if (true) {
-  int sreed = (31 % 3);
-  print(sreed);
-  if (sreed / 8 == lives - sreed) {
-    int apeed = (24 / 7);
+if (b + lives >= (17 / 8)) {
+  if (34 >= (10 - 28)) {
+    b = b + 10;
+  }
+  int years = 0;
+  while (years < 3) {
+    print(years);
+    b = (lives / 9) / 2;
+    speed = 27;
+    years = years + 1;
+  }
+  int second = 6 + years;
+} else if (2 - 35 > (4 / 7)) {
+  if ((b - b) >= b) {
+    int j = b;
+    print(j);
     print(b);
+    print(speed);
+  } else if (11 * lives != b + 12) {
+    print(speed);
+    speed = lives - 24;
   }
 }
-speed = speed + speed;
+for (int index1 = 0; index1 < 6; index1 = index1 + 1) {
+  int spoeed = lives;
+  print(lives);
+}

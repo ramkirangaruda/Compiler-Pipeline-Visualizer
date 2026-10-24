@@ -4,35 +4,50 @@ int y = (k + k);
 int count = k;
 float counts = area - y;
 print(count);
-int areas = 0;
-while (areas) {
+for (int areas = 0; areas < 2; areas = areas + 1) {
   print(area);
-  if (7 - count == 5 % 7) {
+}
+if (17 - count < y % 8) {
+  for (int days = 0; days < 5; days = days + 1) {
     print(counts);
-    float weight = counts - 1.1;
-  } else {
-    int countsx = (15 - y);
-    print(countsx);
-    y = 11 / 1 * (30 / 1);
+    print(days);
   }
-  print(areas);
-  areas = areas + 1;
 }
-area = counts * count;
-area = 12.5;
-int stock = 0;
-while (stock < 5) {
-  print(area);
-  if ((39 + areas) >= (count / 7)) {
-    bool found = y + k <= y + 9;
-    print("pipeline");
-    print(count);
+if ((count - y) > count) {
+  int index = y;
+  print(index);
+  print("ok");
+} else if (count - 20 < (count + k)) {
+  int seats = 13 + 32;
+  print(seats);
+  if ((37 - k) == seats || false) {
+    print(seats);
+    y = seats;
+  } else if (16.3 + 24.7 > 5) {
+    k = y / 9;
+    print(y);
   } else {
-    int points = 36;
-    print(points);
-    print("token");
-    y = y * 23 + points + 9;
+    int a = seats;
+    print(a);
+    print(area);
+    print(seats);
+    float voltage = 12.3 + 40;
   }
-  k = (7 * areas) - y;
-  stock = stock + 1;
+  y = (3.5);
+} else {
+  int limit = 15 % 2;
+  print(limit);
+  if (false || 24 - y != (limit - 27)) {
+    int height = (k * limit);
+    print(height);
+    string label = "done";
+    count = (12 - 33) * (16 + k);
+  }
 }
+int points = 0;
+while (points < 5) {
+  counts = counts - points;
+  print(counts);
+  points = points + 1;
+}
+print(23);

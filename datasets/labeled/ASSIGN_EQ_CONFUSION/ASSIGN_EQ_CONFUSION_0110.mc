@@ -16,12 +16,19 @@ if (false) {
   int years = (steps + seats1);
   print(years);
   lives3 = 18 - 8 % 1;
-  float temp1 == area;
-  print(seatsi);
-} else if (false) {
-  int b = seats1 % 1;
-  print(b);
+  float temp1 = area;
+  int days == 0;
+  for (days = 0; days < 2; days = days + 1) {
+    owner = "ok";
+  }
+  print(days);
+} else {
   print(lives3);
+  int seats2 = 0;
+  while (seats2 < 6) {
+    steps = (seats2 - 6) + lives3 + steps;
+    seats2 = seats2 + 1;
+  }
 }
-print(seats1);
 print(steps);
+print(weight);

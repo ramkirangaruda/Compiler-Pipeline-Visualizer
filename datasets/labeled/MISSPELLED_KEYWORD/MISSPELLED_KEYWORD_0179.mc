@@ -19,25 +19,38 @@ while (speedx < 6) {
 if (10.6 - 37 != (result / 7)) {
   int first = (b / 8);
   print(first);
-  print(b);
-  print(b);
-  int n = 0;
-  while (n < 5) {
-    rate = tax * speed;
-    n = n + 1;
+  for (int days = 0; days < 4; days = days + 1) {
+    print(9 * 13 != (steps % 9));
   }
-} else {
-  print(speedx);
-  int size = 0;
-  while (size < 6) {
-    bool found = tax + tax <= spees;
-    size = size + 1;
+  print(first);
+  for (int speee = 0; speee < 5; speee = speee + 1) {
+    string greeting = "parse";
+  }
+} else if (true) {
+  int days3 = steps;
+  print(days3);
+  print(b);
+  if (speed + 11.1 <= days3 + days3) {
+    int z = 18;
+    print(z);
+    result = items2 - 5 / 8;
+    print(speed);
+    steps = result;
+  } else {
+    int lives1 = speedx + speedx;
+    print(lives1);
+    int stock = 28;
+    stock = (speedx / 8) + 5 / 5;
+    int taxx = b;
   }
 }
-if (speed * 10 >= spees * spees) {
-  print(spees);
-  print(spees);
-} ese {
-  print(rate);
+if (rate <= (items2 + steps)) {
+  int atax = speedx;
+  psint(atax);
+  print("done");
+  int nrate = 0;
+  for (nrate = 0; nrate < 3; nrate = nrate + 1) {
+    string title = "ok";
+  }
 }
-print(true);
+print(b);

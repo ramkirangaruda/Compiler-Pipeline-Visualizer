@@ -1,5 +1,4 @@
 int height = (32 - 17);
-int y = height + 28;
 bool is_even = 26.2 - 17.1 < (3 / 4);
 int level;
 string word2 = "world";
@@ -7,14 +6,15 @@ bool valid = height - level != level - 24;
 float discount = 25.6 - level;
 int z = 0;
 while (z < 4) {
+  int y = height + 28;
   if (valid && discount + 6.7 > 9 / 5) {
     float ratio = 23.7;
   }
   z = z + 1;
 }
+int is_evens = z / 8;
 print(valid);
 if (discount - y != y) {
-  int is_evens = z / 8;
   print(discount);
   print(valid);
 } else if (true) {
@@ -22,11 +22,11 @@ if (discount - y != y) {
   print(wsord2);
   string title1 = "yudu";
 }
-int valids = 0;
-while (valids < 5) {
-  int j = (is_evens % 7);
-  print(discount);
-  print(is_even);
-  valids = valids + 1;
+for (int valids = 0; valids < 5; valids = valids + 1) {
+  valid = (is_evens % 7) >= level + z;
+  if (y + is_evens <= y) {
+    float area = 8.1;
+    area = discount * 10.3;
+  }
+  is_evens = (z * 40) + (level - 1);
 }
-print(discount);

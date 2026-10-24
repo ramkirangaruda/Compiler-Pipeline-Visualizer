@@ -1,77 +1,84 @@
 int z = 38;
 bool ok3 = true;
 float avg = 20.8 - 7.8;
-print(avg);
-avg = 36;
-if (false) {
-  int count3 = 0;
-  while (count3 < 4) {
-    print(ok3);
-    count3 = count3 + 1;
+for (int second = 0; second < 4; second = second + 1) {
+  if (false) {
+    int base = second * 38;
+    print(base);
+    print(second);
+    base = base;
+    float balance = 29.7 * base;
   }
-  if (ok3) {
-    print(count3);
-    print(count3);
-  } else if (avg * z <= z / 8) {
-    print(avg);
-  } else if (ok3) {
-    print(count3 % 2);
-    float balance = avg + 7.6;
-  } else if (count3 + z == (count3 + 14)) {
-    int index = z + count3;
-    print(index);
-    print(index);
-    print(ok3);
-  } else if (z + 35 <= (count3 + 7)) {
-    print("alice");
-  }
+}
+print("robot");
+if (ok3) {
+  print(ok3);
   print(z);
 }
-int first = 0;
-while (first < 4) {
-  print(true);
-  print(avg);
-  if (33 / 2 >= 23 + z) {
-    ok3 = true;
+print(z);
+int second2 = 18 - 37;
+for (int a1 = 0; a1 < 4; a1 = a1 + 1) {
+  print(z);
+}
+if (ok3) {
+  for (int marks1 = 0; marks1 < 4; marks1 = marks1 + 1) {
+    bool is_even = ok3 || avg >= marks1;
+    int limit = second2;
+    print(true);
+  }
+  if (false && z + 16 < (second2 / 3)) {
+    second2 = 28 * z * second2 % 4;
+    float speed = 0.6;
+    print(avg);
+  } else {
+    print(second2);
+    second2 = (28 + z) - second2 * second2;
+    print("hello");
+  }
+  print(second2);
+} else if ((18 * z) == (second2 / 6)) {
+  int avgs = 0;
+  while (avgs < 2) {
     print(ok3);
-    int level3 = z * 34;
+    print(second2);
+    print(avgs);
+    avgs = avgs + 1;
   }
-  first = first + 1;
+  z = 36;
 }
-int z1 = (z * 29);
-avg = avg - avg;
-int num = 0;
-while (num < 3) {
-  print(num);
-  if (21.2 < num) {
-    int size = z - 27;
-  } else if (false) {
-    int items3 = first - z;
+if (false) {
+  int items3 = z - z;
+  print(items3);
+  int ok3s = 0;
+  while (ok3s < 3) {
+    string greeting3 = "ok";
     print(items3);
-    ok3 = avg + 12 >= (z1 - 19);
+    string city3 = "alice";
+    ok3s = ok3s + 1;
   }
-  num = num + 1;
-}
-print(26 / 7);
-if (!ok3) {
-  print(first);
-  print(first);
-  int marks = 0;
-  while (marks < 3) {
+} else {
+  print(z);
+  int a = 0;
+  while (a < 4) {
+    print(avg);
     print(2);
     bool done2 = avg == (z + z);
-    marks = marks + 1;
+    a = a + 1;
   }
-} else if ((z1 + z1) == z) {
-  int tickets = first;
-  print(tickets);
+}
+if ((second2 + second2) == z) {
+  int tickets = z;
   int days = 0;
   while (days < 6) {
     avg = 26.8 + avg;
-    z1 = (first / 5) * 34;
-    print(first);
+    second2 = (second2 / 5) * 34;
+    print(tickets);
     days = days + 1;
   }
-  print(num);
+  print(days);
+} else {
+  print(21);
+  z = 38 / 5;
+  print(avg);
 }
 print(avg);

@@ -62,12 +62,13 @@ if (j + index <= (40 * j)) {
     size = size + j + 5;
   }
   int z1 = 0;
-  while (z1 < 5) {
-    size = 22;
-    z1 = z1 + 1;
+  for (z1 = 0; z1 < 5; z1 = z1 + 1) {
+    int x = j % 1;
   }
+  print(z1);
 } else {
-  int z = (12 + 13);
-  print(z);
-  print(index);
+  int lives = (1 + index);
+  print(lives);
+  print(index + lives);
 }
+print(j);

@@ -45,12 +45,21 @@ while (result < 5) {
 }
 sum = points + (22 * 10);
 if ((33 + sum) <= 27) {
-  int volaage2 = 0;
-  while (volaage2 < 4) {
-    sum = (9 + volaage2) % 5;
-    print((ratios - 14));
-    volaage2 = volaage2 + 1;
+  for (int volaage2 = 0; volaage2 < 4; volaage2 = volaage2 + 1) {
+    points = 14 % 3 * (9 + volaage2);
   }
-  ratios = result - volaage2 + sum;
+  if (true) {
+    int years1 = n;
+    print(stock);
+  } else {
+    int marks = n / 9;
+    print(marks);
+    print(voltage2);
+    print((steps + 31) <= stock);
+    ratio = stock;
+  }
+} else {
+  print(sum);
+  ratio = 12.9 - voltage2;
 }
-print(result);
+print(n % 9 < sum * 22);

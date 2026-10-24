@@ -35,11 +35,9 @@ if (!has_more) {
 } else if ((steps * 25) == steps - a) {
   int second = (steps + 17);
   print(second);
-  int z2 = 0;
-  while (z2 < 3) {
+  for (int z2 = 0; z2 < 3; z2 = z2 + 1) {
     print(z2 - 16);
     print(is_even1);
-    z2 = z2 + 1;
   }
 } else {
   if (!is_even1) {

@@ -6,19 +6,38 @@ float ratio = rate + tickets2;
 bool active = true;
 tickets2 = (tickets2 % 1) + (17 - tickets2);
 print(!active);
-print(rate);
-print(areax);
-int score = 0;
-while (score < 6) {
-  if (area * 9.5 != score / 8 && rate * 35 < (score % 3)) {
-    areax = areax / 3;
+for (int n = 0; n < 3; n = n + 1) {
+  if (!active || areax == areax / 1) {
+    int days = areax + 32;
+    print(days);
+    print(active);
+    ratio = 6;
+  } else {
+    print((areax * tickets2));
+    active = areax - areax >= 4;
+    print(tickets2);
   }
-  score = score + 1;
 }
-int ratee = 0;
-while (ratee < 3) {
-  print(ratee);
-  ratee = ratee + 1;
+int x = areax - areax;
+if (36 != (15 / 2)) {
+  if (13 >= 6) {
+    ratio = 3.9 + x;
+    int x1 = tickets2 + areax;
+    areax = tickets2;
+  }
+  if false) {
+    print(area);
+  } else if (active) {
+    int y = areax;
+    print(y);
+    x = (areax % 7) - areax;
+  }
 }
-area = 3 + tickets2);
-print((areax + 15));
+areax = 33;
+int marks1 = 0;
+while (marks1 < 5) {
+  rate = 9.7 - ratio;
+  print(area);
+  marks1 = marks1 + 1;
+}
+print(tickets2);

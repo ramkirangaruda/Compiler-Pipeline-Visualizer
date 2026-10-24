@@ -9,13 +9,15 @@ print(total);
 marks = k + 9;
 passed = 17.5 > 29;
 int x1 = total;
-int index = 0;
-while (index < 4) {
-  passed = 33 * age3 > 34
-  print(24);
-  passed = (18 % 5) > index % 7;
-  index = index + 1;
+for (int index = 0; index < 4 index = index + 1) {
+  if (6.5 * k == 35 - x1) {
+    passed = k != index;
+    print(marks);
+  } else {
+    age3 = age3 - age3;
+    age3 = marks;
+  }
 }
-total = (11 - k) * (11 - age3);
-passed1 = 20 % 1 == (10 - x1);
-print((k + 6));
+print("token");
+float ratio = 24.3;
+print(!passed && x1 + k <= 5);

@@ -1,32 +1,36 @@
-bool valid = false;
-int width;
-int years = 0;
-while (years < 3) {
-  int sum1 = (6 - 35);
-  print(sum1);
-  print(years);
-  years = years + 1;
-}
-sum1 = (29 % 4) / 4;
-sum1 = (12 / 2) * 40;
-float temp = 16.4;
-sum1 = width;
-width = sum1;
-print((16 - years));
-if (valid) {
-  temp = width;
-} else {
-  int second = sum1 - 34;
-  print(second);
-  print(sum1);
-  if (second == second - 37 && false) {
-    print(31 + 21 != width);
-    int days2 = (width * 33);
-    print(width);
-  } else {
-    int index = (39 - second);
-    print(index);
-    width = (years + second) + second;
+int value = 16 + 2;
+float vaalue = 21.5 + 17.5;
+int courses = 18 / 7;
+int years1 = (12 - courses);
+float salary2 = 30.3;
+int steps = 0;
+while (steps < 6) {
+  if (false) {
+    int num = 37 % 1;
+    print(num);
+    print(steps);
+    print(true);
   }
+  steps = steps + 1;
 }
+print((years1 % 1));
+salary2 = salary2 - 40;
+if (years1 + 6 >= 25 - 22) {
+  string course = "yudu";
+  int age = (years1 + steps);
+  print(age);
+  print((value + years1));
+} else {
+  int sum1 = 4;
+  print(sum1);
+  print(vaalue);
+  float discount = salary2 + 18.4;
+  print(salary2);
+}
+for (int base = 0; base < 4; base = base + 1) {
+  int stock = steps * courses;
+}
+print("token");
+courses = value / 6 - years1;
+print(course + "done");
 print("yudu");

@@ -25,16 +25,15 @@ if (title != "yudu") {
   }
 }
 int n = 0;
-while (n < 2) {
-  print(avg);
-  n = n + 1;
+for (n = 0; n < 2; n = n + 1) {
+  print(height);
 }
-height = (sum1 + 1) % 2;
-sum = (32 % 7) - (25 - sum);
-print(avg);
-print(sum1 - sum < 32 - sum1);
-int base3 = 0;
-while (base3 < 2) {
+print(sum1);
+int b1 = n;
+print(sum);
+int points1 = 0;
+while (points1 < 6) {
+  print(18.5 * 6.8 > (6 * points1) || 32 > (points1 % 7));
   if (25 - height > (height + sum) && true) {
     int i = (8 + 13);
     print(i);
@@ -42,20 +41,20 @@ while (base3 < 2) {
     print(title != "bob");
     print(sum1);
   }
-  print(title);
-  print(label3);
-  base3 = base3 + 1;
+  points1 = points1 + 1;
 }
-int base = 0;
-while (base < 6) {
+int second = 0;
+while (second < 6) {
   if (true) {
-    label3 = title;
+    int avgs = (8 - sum);
+    print(avgs);
+    print(sum);
+    avgs = sum1 * height % 6;
   } else {
-    height = n + 13 / 6;
-    height = (8 + base3) + 31;
+    print(b1);
+    avg = avg - avg;
   }
-  label3 = "alice";
-  avg = avg;
-  base = base + 1;
+  print(sum1);
+  second = second + 1;
 }
-print(21 / 4);
+height = 40 / 8 + 21 + sum1;

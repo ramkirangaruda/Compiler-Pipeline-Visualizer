@@ -3,8 +3,8 @@ int i = first2 - first2;
 float weight = 27.3 * 22.8;
 int count = (i * i);
 float voltage = weight;
-bool is_even = false && false;
 bool flag = is_even;
+bool is_even = false && false;
 if (true) {
   if (first2 + first2 > 23 % 4) {
     float distance3 = voltage * 36;
@@ -41,40 +41,13 @@ print(40 + first2);
 print(weight);
 print(voltage);
 if (weight == size) {
-  voltage = count - count;
-  int voltages = 0;
-  while (voltages < 6) {
-    print("bob");
-    voltages = voltages + 1;
+  int weightx = 0;
+  for (weightx = 0; weightx < 5; weightx = weightx + 1) {
+    voltage = i * 4;
+  }
+  print(weightx);
+  if ((size - weightx) == 15) {
+    print(flag);
   }
 }
-if (30.4 > size - size) {
-  int k2 = (i / 9);
-  print(k2);
-  print(first2);
-  print(i);
-  int b1 = 31;
-} else {
-  print(voltage - count == first2 * size);
-  if (flag) {
-    print(weight * 32 <= i % 2);
-  }
-  if (is_even) {
-    print(x2);
-    int x2 = (i % 1);
-    print(flag);
-    print(weight);
-    first2 = size;
-  } else if ((32 / 9) != count / 5) {
-    int seats = size;
-  } else if (!flag) {
-    int points2 = 3;
-    print(points2);
-    int size3 = (23 - size);
-  } else {
-    print(flag);
-    is_even = i - size <= (28 % 9);
-    i = i + size % 4;
-  }
-}
-print(size);
+count = (i - first2) / 9;

@@ -2,8 +2,8 @@ int height = (2 * 5);
 float heightx = 26.7;
 float balance = heightx + heightx;
 int seats = 32;
-string owner1 = "alice";
-int rounds = true;
+string owner1 = 42;
+int rounds = seats - seats;
 print(owner1);
 int balante = 23;
 if (0.3 != seats / 3) {
@@ -25,30 +25,24 @@ print(rounds);
 print(owner1);
 print((rounds + 35));
 if (true) {
-  int lives1 = 0;
-  while (lives1 < 3) {
-    print(height);
-    balante = seats;
-    print(balance);
-    lives1 = lives1 + 1;
+  for (int lives1 = 0; lives1 < 3; lives1 = lives1 + 1) {
+    print(owner1);
   }
-} else {
-  rounds = height + balante + 36;
-}
-seats = rounds + rounds / 4;
-int oiwner1 = 0;
-while (oiwner1 < 4) {
-  if (true) {
-    print(rounds);
-    bool ready = 25 / 9 > (balante % 2);
-    int bnalance = (12 / 5);
+} else if (seats - height > height) {
+  rounds = 29 - balante;
+  if (heightx + balance == seats * height) {
+    print(seats + balante);
   } else {
-    print(rounds);
-    heightx = heightx * seats;
+    rounds = height + 25 / 9;
+    print(balance);
+    heightx = balance;
   }
-  seats = rounds + seats % 9;
-  print(owner1);
-  oiwner1 = oiwner1 + 1;
 }
-print(height);
-print(balance);
+height = rounds / 6 * 32 / 8;
+int total = 0;
+while (total < 6) {
+  balance = (5 + 38);
+  total = total + 1;
+}
+balante = rounds;
+print(owner1);

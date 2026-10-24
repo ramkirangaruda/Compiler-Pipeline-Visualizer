@@ -1,29 +1,39 @@
-float area1 = 22.9 * 35;
-bool active = area1 * 24.9 != (31 / 1);
-int tickets = 16 + 36;
-int j = (tickets * 30);
-int area1s = 38;
-string word = "ok";
-print(active);
-print(area1);
-print("robot");
-int age = 0;
-while (age < 4) {
-  string title = "token";
-  active = active;
-  int stock = 5 % 6;
-  age = age + 1;
-}
-title = title + "compiler";
-if (27 / 9 != 6 + age) {
-  int total1 = (10 + 28);
-  int a = 0;
-  while (a < 2) {
-    print(word);
-    a = a + 1;
-  }
+string name3 = "bob";
+int naoe3 = 1;
+float naon3 = 10.1 * naoe3;
+int rounds = naoe3;
+int i = (rounds * rounds);
+print(naon3);
+if (false) {
+  bool found = (rounds - 20) == 25 * rounds;
+  int y = (23 * rounds);
+  print(y);
+  print(i);
 } else {
-  print(j);
-  print(tickets);
+  print(naoe3 - 3);
+  name3 = "done";
+  print(found);
 }
-print(title);
+int years = 0;
+while (years < 2) {
+  found = 21 * 38 < (naoe3 / 7);
+  found = found;
+  years = years + 1;
+}
+int z3 = 2 - i;
+if (found) {
+  int value = 34 % 6;
+  print(value);
+  bool flag1 = !found;
+}
+bool enabled3 = naon3 <= i;
+if ((9 / 2) < naoe3 - 20) {
+  int height = years;
+  print(height);
+  print(enabled3);
+  print(height);
+  rounds = i + naoe3 - (naoe3 + 10);
+}
+print(years);
+found = 35 * naoe3 == 1;
+print(years + years);

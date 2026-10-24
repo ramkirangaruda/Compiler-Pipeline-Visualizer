@@ -6,12 +6,10 @@ mean = mean + 7.5;
 print(active);
 if (active && !active) {
   int means = 10;
-  int lives = 0;
-  while (lives < 3) {
-    print(name);
+  for (int lives = 0; lives < 3; lives = lives + 1) {
+    name = "parse";
+    means = 36;
     print(means);
-    print(city);
-    lives = lives + 1;
   }
   print(city);
 } else {
@@ -21,26 +19,13 @@ if (active && !active) {
   city = "bob";
 }
 if (active) {
-  print(active);
-} else if (active) {
-  mean = mean + 17.1;
-} else {
-  int stock = means;
-  print(stock);
-  print(means);
-  if (mean >= (13 % 4)) {
-    int days = (stock / 8);
-    print(days);
-    name = "world";
-    int n1 = (12 + days);
-  } else {
-    print(name);
-    print(name);
+  int limit = 0;
+  for (limit = 0; limit < 4; limit = limit + 1) {
+    name = "parse";
   }
+  print(limit);
+} else {
+  means = 24;
 }
-int age = 0;
-while (age < 4) {
-  int num = age % 8;
-  age = age + 1;
-}
-print(active);
+print(means);
+print(means);

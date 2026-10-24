@@ -22,7 +22,7 @@ if (false) {
 print(msg);
 int a = 0;
 while (a < 6) {
-  if (!flag3 {
+  if (!flag3) {
     int flog3 = (marks % 4);
     print(flog3);
     index = flog3 % 8 / 2;
@@ -44,9 +44,9 @@ if (flag3) {
   index = index / 4 / 6;
 }
 int level = 0;
-while (level < 2) {
-  print(a);
-  level = level + 1;
+for (level = 0; level < 2; level = level + 1) {
+  index = level + level + 23 + 7;
 }
-print(marks);
-print(level);
+print(level;
+print(ratio);
+print(!flag3 || (a + 37) >= 17 / 4);

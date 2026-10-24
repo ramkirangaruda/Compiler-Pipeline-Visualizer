@@ -42,7 +42,10 @@ while (items < 2) {
 print(items + stock1);
 print(stock1);
 if (true) {
-  speed = height;
-  int spteed = (num + items);
+  for (int speaed = 0; speaed < 4; speaed = speaed + 1) {
+    print(speed);
+    int width2 = items * items;
+    print(total + width2);
+  }
+  float area = 19.2;
 }
-print(4);

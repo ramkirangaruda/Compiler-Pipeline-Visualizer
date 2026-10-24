@@ -1,47 +1,45 @@
-bool flag = 35 > (35 % 2);
-int flagx = (33 % 8);
-int y = (11 / 1);
-int fleag = 16 + y;
-bool passed3 = 23.5 + 21.9 != y * fleag;
-y = fleag % 4 * (35 * y);
+int result = (10 / 8);
+int size = 6 * 28;
+int num = 7 * 32;
+string inum = "robot";
+print("token");
+print("hello");
+print(inum);
+print(num);
+int y2 = size;
 if (false) {
-  print(y);
-  print(flagx);
- else {
-  int j2 = fleag + fleag;
-  print(j2);
-  if (passed3 && passed3) {
-    passed3 = !passed3;
-    print(j2);
-  } else if ((8 + flagx) <= y) {
-    int psassed3 = (j2 + 16);
-    print(psassed3);
-    print("alice");
+  int seats = size;
+  print(seats);
+  result = (16 / 8) / 4;
+  print(y2);
+} else if (true || inum == "token") {
+  if (false && 5.1 - 22.2 != 29) {
+    inum = "robot";
+    print(y2 * 27);
+    print(result);
+  }
+  if ((num / 2) >= y2 + 35) {
+    print(num);
   } else {
-    print(17.3 - fleag == (flagx - 35) || 18.5 != 1);
-    flagx = flagx;
-    print(y);
+    int a1 = result;
+    print(a1);
+    int value1 = (36 - 37);
+    num = 2;
   }
+} else if (inum != "compiler" && true) {
+  int base = result;
+  print(base);
+  if (num % 7 >= base / 1) {
+    print("alice");
+    print(size);
+    result = 25;
+  
+  print(size);
+} else if (true) {
+  print(inum);
+} else {
+  int rounds = num;
+  print(y2);
+  print(y2);
 }
-int years3 = 0;
-while (years3 < 6) {
-  print(years3);
-  fleag = fleag + 35 / 2;
-  years3 = years3 + 1;
-}
-print(y);
-bool flag3 = flag;
-if (years3 + 30 < 22 % 8) {
-  int num = flagx + 23;
-  print(num);
-  print(num);
-  num = y % 4 + 24;
-}
-if (flag) {
-  int points = y % 6;
-  print(points);
-  if (12.5 - 24.8 != 21 % 4) {
-    fleag = y;
-  }
-}
-print(15);
+print(num);

@@ -1,29 +1,25 @@
-int seats = 29 + 27;
-string word = "world";
-int woord = 1;
-bool flag = (seats / 3) > 2 && true;
-woord = (35 % 3) + (7 % 9);
-int wsord = 0;
-while (wsord < 6) {
-  print(seats);
-  if (6 - wsord >= wsord % 9) {
-    string woordx = "parse";
-  
-  wsord = wsord + 1;
+string city = "yudu";
+string text = city + "hello";
+float discount = 24.7;
+float citys = discount * discount;
+float ratio = 28.5 * 18.8;
+int i1 = (34 / 2);
+string cnitys = city;
+text = text + "ok";
+int base3 = 0;
+while (base3 < 4) {
+  print(i1);
+  base3 = base3 + 1;
 }
-if (!flag) {
-  print(word);
-} else {
-  print(word);
-  seats = (wsord / 3) + (woord / 9);
-  int lives1 = 0;
-  while (lives1 < 4) {
-    print("yudu");
-    flag = !flag;
-    flag = true;
-    lives1 = lives1 + 1;
-  }
-}
-woord = 2;
-float weight = 13.7 * woord;
-woord = (wsord / 1) + woord / 6;
+discount = ratio + 15;
+text = "compiler";
+print("compiler");
+int width = 37;
+int rounds3 = 0;
+while (rounds3 < 5) {
+  print("bob");
+  print(width % 1);
+  print((16 - 1) > (width % 4));
+  rounds3 = rounds3 + 1;
+
+print(i1);

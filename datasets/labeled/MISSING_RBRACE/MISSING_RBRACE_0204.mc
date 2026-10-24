@@ -1,60 +1,50 @@
-int rounds = (21 % 7);
-int seats3 = 32 * 35;
-int items = rounds / 5;
-bool valid1 = (seats3 + seats3) != items;
-string valtid1 = "alice";
-if (30.8 * seats3 < (28 - seats3)) {
-  int score2 = seats3;
-  print(score2);
-  seats3 = 1 + 12;
-  int valid1s = 0;
-  while (valid1s < 2) {
-    print(seats3);
-    valid1s = valid1s + 1;
-  }
-  if (!valid1) {
-    int a3 = 13 + items;
-    print(a3);
-    seats3 = valid1s;
-    print(score2);
-    valid1 = rounds * rounds > rounds;
-  }
-}
-print(items);
-print(seats3 - 36 > 24);
-print(14 + items < seats3 - 22);
-if (!valid1) {
-  int limit = 0;
-  while (limit < 5) {
-    valtid1 = "token";
-    seats3 = limit / 8 * (12 + 33);
-    limit = limit + 1;
-  }
-  print(valid1);
-  print(seats3);
+bool flag = 35 > (35 % 2);
+int flagx = (33 % 8);
+int y = (11 / 1);
+int fleag = 16 + y;
+bool passed3 = 23.5 + 21.9 != y * fleag;
+y = fleag % 4 * (35 * y);
+if (false) {
+  print(y);
+  for (int result2 = 0; result2 < 2; result2 = result2 + 1) {
+    print(y);
+  
 } else {
-  if (18.3 + 6 > (items - 39)) {
-    items = items;
-   else {
-    print(rounds);
-    print(rounds);
+  print(y);
+}
+if (true) {
+  for (int first = 0; first < 2; first = first + 1) {
+    int j = flagx + first;
   }
-  valid1 = valid1;
-  print(seats3);
-}
-if (valid1) {
-  print(valtid1);
-  int days = 0;
-  while (days < 3) {
-    print("hello");
-    days = days + 1;
+} else {
+  int a2 = 40;
+  print(a2);
+  print(y);
+  if (passed3) {
+    int points2 = flagx;
+    print(points2);
+    print(passed3);
+    int stock = points2 / 9;
+  } else {
+    passed3 = 18 + flagx == flagx + y && 23.9 >= flagx;
+    a2 = 21 / 5;
+    print(fleag + 35);
   }
 }
-seats3 = 10 % 7 / 8;
-print("token");
-if (!valid1) {
-  int marks = seats3;
-  print(marks);
-  print(seats3 - 24);
+print(y);
+bool flag3 = flag;
+if (y + 30 < 22 % 8) {
+  int num = flagx + 23;
+  print(num);
+  print(fleag);
+  num = y % 4 + 24;
 }
-print(valtid1);
+if (flag) {
+  int points = (fleag % 6);
+  print(points);
+  y = 37 / 3;
+} else {
+  print(passed3);
+  string msg1 = "bob";
+}
+print(flag3);

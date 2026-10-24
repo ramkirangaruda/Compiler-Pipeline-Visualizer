@@ -23,53 +23,56 @@ while (days < 5) {
   }
   days = days + 1;
 }
-int k = 0;
-while (k < 4) {
-  if (33 - days >= days * 25) {
-    city = course + "world";
-    num = 10 * (days / 1);
+for (int k = 0; k < 4; k = k + 1) {
+  if (false) {
+    print(true);
   }
-  k = k + 1;
 }
-print((k - num) == num);
-if (true) {
-  int z = num;
-  print(z);
-  if (days / 5 < k + num) {
-    print((z * days) == z - 27);
-    city = course + "alice";
+print(ratio);
+city = "ok";
+if (course == "world") {
+  int age = (days / 1);
+  print(age);
+  int limit1 = 0;
+  while (limit1 < 4) {
+    num = limit1;
+    print(course);
+    int count2 = (13 % 5);
+    limit1 = limit1 + 1;
+  }
+  ratio = 2 * days;
+}
+if (false) {
+  int ratios = 21;
+  print(ratios);
+  if (0 * days < (33 + 26)) {
+    print(ratios);
+    ratios = 7 + ratios % 5;
+    city = city + "done";
   } else {
-    int a1 = 16 / 9;
-    print(a1);
-    print((k - z));
-    print(num);
+    int n = 5;
+    print(n);
+    course = course;
+    print(days);
+    print(city == "parse");
+  }
+  city = "hello";
+  if (course == "token") {
+    ratios = (18 * 10) % 2;
+    ratio = ratio + num;
+    print(ratios);
   }
 } else {
-  if (true) {
-    print(19 % 4);
-  } else {
-    print(days);
-    bool is_even2 = num == (20 / 8);
-  }
-  bool valid = true;
+  int years = 6;
+  print(years);
+  print(days);
 }
-int csurse = 0;
-while (csurse < 2) {
-  course = "hello";
-  csurse = csurse + 1;
+float mean = 26.8 * num;
+int age3 = 0;
+while (age3 < 4) {
+  string msg = course + "ok";
+  age3 = age3 + 1;
 }
-int limit = 0;
-while (limit < 4) {
-  print(true);
-  print(city);
-  print(34 % 7);
-  limit = limit + 1;
-}
-if (28 / 5 >= limit) {
-  int b = (k + 0);
-  print(b);
-  num = days - (12 + b);
-}
-num = (22 * csurse) / 9;
-ratio = k;
-float distance = ratio * 0;
+num = num - (12 + age3);
+print(ratio);
+print(city);

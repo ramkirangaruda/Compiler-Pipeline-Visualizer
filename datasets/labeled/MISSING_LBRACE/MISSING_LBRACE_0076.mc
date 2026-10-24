@@ -1,36 +1,27 @@
-int stock3 = 10;
-int stock = (stock3 - 16);
-float tax1 = 27.8;
-float mean = tax1 - 27;
-int meanx = (stock3 + stock);
-float distance = tax1 * 36;
-bool active = mean - stock <= 34;
-string text = "done";
-if ((meanx / 7) >= stock) 
-  tax1 = 2.3;
-  int value = 0;
-  while (value < 4) {
-    meanx = 36 + (meanx + 5);
-    active = 25.4 * 4 <= 22;
-    print(distance);
-    value = value + 1;
-  }
-} else {
-  int size = stock3 + stock;
-  print(size);
-  print(size);
-  int years = 0;
-  while (years < 6) {
-    meanx = 11 * 9 + 3;
-    string course3 = "ok";
-    years = years + 1;
+float avg = 28.8 - 29;
+bool ok = 17 <= (22 * 21);
+bool enabled = false;
+int age = 5 / 7;
+bool found3 = age + age >= 1 || true;
+bool done = (19 / 1) != (15 / 1);
+avg = age % 8;
+avg = (12 % 3);
+int first3 = 0;
+for (first3 = 0; first3 < 5; first3 = first3 + 1) 
+  print((first3 / 2));
+  print(found3);
+}
+print(first3);
+if (found3) {
+  int b = 2;
+  print(b);
+  print("done");
+  int count = 0;
+  while (count < 3) {
+    print(true);
+    count = count + 1;
   }
 }
-stock = (stock * 23) / 9;
-print(active);
-print(mean);
-if (20 <= (6 + meanx)) {
-  print(active);
-  print(mean);
-}
-print(mean);
+found3 = (age + first3) < (23 % 2);
+print(done);
+print(found3);

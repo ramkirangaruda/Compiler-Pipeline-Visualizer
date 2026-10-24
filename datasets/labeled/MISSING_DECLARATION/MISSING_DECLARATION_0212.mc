@@ -4,25 +4,37 @@ string greeting1 = "hello";
 bool ready1 = 7 - 21 > tickets % 8 && greeting1 == "done";
 print(index / 1);
 if (index + 39 >= (19 + 23)) {
-  int steps = 0;
-  while (steps < 3) {
+  for (int steps = 0; steps < 3; steps = steps + 1) {
+    index = 34 % 8;
+    print(greeting1);
     print(index);
-    print(n2);
-    steps = steps + 1;
   }
 }
-if (29.5 - 11.7 <= n2 % 8 && greeting1 != "done") {
-  float distance = 22.6 + n2;
+for (int value = 0; value < 6; value = value + 1) {
+  if (value * tickets >= tickets % 7) {
+    print("alice");
+    print(n2);
+    print(value);
+  }
+}
+if (25.6 * 28.6 > 34) {
+  bool ok = ready1;
 } else {
-  int z1 = index;
-  print(z1);
-  print(n2);
+  int n3 = 0;
+  while (n3 < 5) {
+    bool is_even = ready1;
+    print(n2);
+    ready1 = index >= (25 / 6);
+    n3 = n3 + 1;
+  }
+}
+for (int b = 0; b < 6; b = b + 1) {
+  if (9 + 37 != tickets) {
+    int points = 5 + 28;
+    print(points);
+    greeting1 = "token";
+  }
+  ready1 = true;
   print(index);
 }
-print(34);
-if (ready1) {
-  n2 = 20 - tickets * (index * 28);
-  int total = n2 % 1;
-  tickets = 18;
-}
-print(true && 9 + 37 != index);
+print(tickets);

@@ -32,6 +32,23 @@ while (age2 < 2) {
 is_even = 25 * age2 < k1 + width;
 b = b / 7 % 1;
 print(b);
-ok = is_even || b * 18 < b - 2;
-ok = b <= (age2 % 6);
-print(k1);
+int n = 0;
+for (n = 0; n < 6; n = n + 1) {
+  string city1 = "parse";
+}
+print(n);
+if (false) {
+  if (6 < (age2 + n) || !active) {
+    int seats = 19 * age2;
+    print(seats);
+    print(discount1);
+    is_even = discount1 <= 38;
+  } else if ((26 + 32) >= n / 9) {
+    ok = discount1 <= (38 / 7);
+    print((age2 + n) == 31);
+  } else {
+    print(ok);
+    active = (width + 6) == age2 / 4;
+  }
+}
+print(age2);

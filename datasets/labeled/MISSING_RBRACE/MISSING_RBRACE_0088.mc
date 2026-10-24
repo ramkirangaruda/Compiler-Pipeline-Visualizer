@@ -1,45 +1,27 @@
-string owner = "pipeline";
-float owners = 11.7 * 18.5;
-int score = 2;
-string text2 = "hello";
-string ownerss = "robot";
-print(owners > score + score);
-int num = (3 / 8);
-int n = 0;
-while (n < 6) {
-  ownerss = "alice";
-  bool ready1 = text2 == "world";
-  if (owners * 16 < score) {
-    float distance3 = 17.3;
-  }
-  n = n + 1;
-}
-int marks = num;
-num = score;
-print(ownerss);
-bool ok = text2 != "pipeline" && false;
-if (num * score > (marks - score)) {
-  int ownrrs = n;
-  print(ownrrs);
-  int limit = 0;
-  while (limit < 6) {
-    print(n);
-    print(ok);
-    limit = limit + 1;
-  }
-  if (limit + 13 < n || 24 / 6 <= marks) {
-    int sum2 = (ownrrs / 1);
-    print(sum2);
-    print(owner);
-    string msg2 = "parse";
-  } else {
-    print(num);
-    print(text2);
-  }
-  float discount = owners * marks;
+string city2 = "bob";
+int first = 38;
+int oity2 = 10;
+int caty2 = (oity2 * oity2);
+int j3 = (caty2 + first);
+string title = "hello";
+if (3.2 * 17.1 == j3) {
+  int y3 = 30;
+  print(y3);
+  city2 = "pipeline";
+  print(j3 / 5);
+  oity2 = (caty2 + 6) + oity2 - oity2;
 } else {
-  int owener = num + marks;
-  print(text2);
-  owener = n;
+  print(oity2);
+  title = title;
+}
+print(j3);
+print(first);
+int tetle = 0;
+while (tetle < 2) {
+  caty2 = tetle;
+  print(tetle);
+  tetle = tetle + 1;
 
-print(text2);
+int score1 = tetle + 31;
+bool done = title == "pipeline";
+print(first);

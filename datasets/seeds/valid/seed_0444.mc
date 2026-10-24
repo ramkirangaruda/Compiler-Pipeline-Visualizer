@@ -9,35 +9,48 @@ if (16.2 - is_evenx < is_evenx - j1) {
 print(owner);
 bool rnte1 = 3 + 2 >= (4 + is_evenx);
 if (18 % 4 == is_evenx) {
-  j1 = j1 - is_evenx;
-  is_even = is_evenx / 9 != is_evenx + is_evenx || 22.4 + rate1 < is_evenx;
-} else if (rate1 * 16 < 26 || !is_even) {
-  rnte1 = (18 + 1) >= j1 || rate1 + 40 < (1 % 1);
-  print(j1);
-} else {
-  is_evenx = 21;
-  print(is_evenx);
-  int n = 0;
-  while (n < 6) {
-    print(n > is_evenx);
-    n = n + 1;
+  int limit = 0;
+  for (limit = 0; limit < 3; limit = limit + 1) {
+    print(is_even);
+  }
+  print(limit);
+  int level = 0;
+  while (level < 3) {
+    float limiot = 10.3;
+    print(is_evenx);
+    level = level + 1;
   }
 }
-int second = 11;
-print(rate1);
-int limit = 0;
-while (limit < 6) {
-  owner = "hello";
-  limit = limit + 1;
+print("world");
+owner = "alice";
+if (rate1 * 16 < 26 || !is_even) {
+  for (int value = 0; value < 4; value = value + 1) {
+    is_evenx = 2;
+  }
+  if (rate1 * 2 != 7) {
+    float rntte1 = rate1 * 6.9;
+  } else {
+    int score1 = (37 - 25);
+    print(score1);
+    owner = owner + "ok";
+  }
 }
-if ((j1 - j1) <= (limit * limit)) {
-  int stock = 31 + is_evenx;
-  print(stock);
-  print("done");
-  owner = owner;
+float area3 = rate1 + is_evenx;
+if (!is_even && false) {
+  int sum = 6;
+  print(sum);
+  if (23 < is_evenx) {
+    print(sum);
+    rate1 = 26 % 5;
+  }
 } else {
-  rate1 = j1;
+  int days = j1;
+  print(days);
+  if (!rnte1) {
+    int n = (is_evenx - 4);
+    print(n);
+    j1 = is_evenx;
+    is_evenx = n + (4 / 1);
+  }
 }
-int is_enen = (is_evenx - j1);
-is_evenx = limit + (4 / 1);
-print(rate1 * rate1 != j1);
+print(rate1);

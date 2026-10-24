@@ -16,63 +16,30 @@ if (22.3 + 15.2 >= (j - y)) {
     active = (j % 7) > stock2 % 4;
     width = width + 1;
   }
-  int ictive = 0;
-  wihle (ictive < 5) {
-    float discount = 25.1;
-    y = second;
-    int driscount = j;
-    ictive = ictive + 1;
+  for (nit ictive = 0; ictive < 5; ictive = ictive + 1) {
+    print(j);
+    stock2 = ictive;
   }
 }
-int sum = 0;
-while (sum < 2) {
-  print(second);
-  sum = sum + 1;
+int z = 0;
+while (z < 6) {
+  print(j);
+  j = (height + j) * 2;
+  z = z + 1;
 }
 if (second / 6 < y) {
-  int stock = sum + sum;
-  print(stock);
-  active = 0 < stock2 / 5 && 27.2 == j + 17;
-  int value = 0;
-  while (value < 6) {
-    active = 25.6 * y >= (height / 1);
-    stock = y * stock + stock2 * y;
-    print("yudu");
-    value = value + 1;
-  }
-} else {
-  int limit1 = 0;
-  while (limit1 < 3) {
-    height = limit1;
-    int steps = limit1 / 3;
-    print(limit1);
-    limit1 = limit1 + 1;
-  }
-  int score = 0;
-  while (score < 4) {
-    height = sum / 2 - y / 4;
-    print(sum);
-    score = score + 1;
-  }
-  int k3 = 0;
-  while (k3 < 6) {
-    print(limit1);
-    k3 = k3 + 1;
-  }
+  int sum = (z / 1);
+  print(sum);
+  print(z);
+  j = stock2 - z;
+} else if (27.2 == j + 17) {
+  print(y);
+  stock2 = z + second % 6;
+} else if (13 >= (6 * height)) {
+  height = 5;
+  print(!active);
 }
-print(36 - j);
-if (active) {
-  int rounds = 11 / 3;
-  print(rounds);
-  if (false) {
-    rounds = (39 % 5) % 4;
-    print(j);
-  } else {
-    int first2 = (19 / 6);
-    print(first2);
-    string msg3 = "parse";
-    print(msg3);
-  }
-}
-stock2 = second;
-print(active);
+stock2 = (z * y) - (height - 26);
+float mean = 25.3 * 11.5;
+float stock2x = mean;
+print(z);

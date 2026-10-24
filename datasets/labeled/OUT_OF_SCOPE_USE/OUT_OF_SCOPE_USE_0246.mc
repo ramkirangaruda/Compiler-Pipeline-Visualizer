@@ -1,32 +1,30 @@
-int base = (18 % 5);
-float ratio2 = 2.7 + 31;
-int stock = (base + 28);
-bool valid = 8.7 - 2 >= base;
-float discount = ratio2 + 3;
-base = (36 / 5) % 2;
-print(valid);
-if (30 >= (base % 6)) {
-  string validx = "yudu";
-  print(validx);
-  base = (stock % 9) * 0;
-} else {
-  ratio2 = 12.3 + base;
-  discount = discount - 16.7;
+int base = (35 - 40);
+int points = base - 6;
+int years1 = (points / 4);
+bool pointss = points != 22 / 4;
+string label = "parse";
+print(true);
+int index1 = (19 * 10);
+int rounds = 0;
+while (rounds < 4) {
+  int second2 = (points % 9);
+  pointss = true;
+  int age = 2 + 24;
+  rounds = rounds + 1;
 }
-int raoio2 = 0;
-while (raoio2 < 2) {
-  validx = "yudu";
-  if (false) {
-    int age = (9 / 7);
-    print(age);
-    print(age);
-    base = 2;
-  } else {
-    print(raoio2);
-    valid = 0 + 11 != (base + stock);
+if (true) {
+  int sum1 = (years1 + 3);
+  print(sum1);
+  if (25.2 - 25 > base) {
+    print(sum1);
+  } else if (17.9 - 21.2 == 9) {
+    int n = 20 * 10;
+    print(n);
+    print((37 % 7));
+    print(label);
+  } else if (pointss) {
+    second2 = years1 * base % 5;
+    float rate = 15.1 + 18.7;
   }
-  stock = (base / 6) % 5;
-  raoio2 = raoio2 + 1;
 }
-string ibase = "token";
-print(stock);
+bool lnabel = 6.7 + rounds >= second2 % 2;

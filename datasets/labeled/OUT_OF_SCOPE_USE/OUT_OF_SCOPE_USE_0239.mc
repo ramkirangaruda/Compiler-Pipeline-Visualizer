@@ -1,35 +1,34 @@
-int z = 26 + 30;
-bool ready1 = z % 6 < (14 + z);
-print("world");
-int total = 0;
-while (total < 6) {
-  bool flag = 16 + z == z % 4;
-  print(flag);
-  z = z;
-  total = total + 1;
-}
-ready1 = total <= 37 / 1;
-print(flag);
-if (1.2 * z < total - total) {
-  flag = total < total + total;
-  print(flag);
+float avg = 25.3;
+int height = 7 * 36;
+int years = 22 / 3;
+string name2 = "bob";
+int result = 38;
+bool active = false;
+bool ok2 = name2 != "bob";
+string title = "pipeline";
+if (active) {
+  title = "ok";
+  years = years - 10 - 36;
+  print(active);
 } else {
-  int steps = z - 10;
-  print(steps);
-  if (ready1) {
-    print(total);
-    print(z);
+  int second = 33 % 5;
+  print(second);
+  avg = (12 + 25);
+}
+for (int rounds = 0; rounds < 2; rounds = rounds + 1) {
+  if (27 * result >= (39 + 24)) {
+    string title1 = name2 + "compiler";
   } else {
-    int index = 36 * z;
-    print(index);
-    print((z + steps) >= z % 4);
+    print(avg == 8 * 26);
   }
+  print(years % 4);
+  result = (28 - 12) - height;
 }
-print("world");
-int first = 0;
-while (first < 3) {
-  flag = z - z < (25 / 1);
-  flag = z < (24 + total) || 31 % 9 <= first;
-  first = first + 1;
+print(rounds);
+print(result);
+if (25.3 - avg <= result * rounds) {
+  print(rounds);
 }
-print(first);
+print(ok2);
+years = 32;
+print(name2);

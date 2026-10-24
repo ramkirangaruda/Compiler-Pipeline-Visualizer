@@ -1,25 +1,41 @@
-float discount = 23.6 - 23;
-string course = "bob";
-float distance3 = discount + 20;
-bool courose = (27 + 15) > (27 + 4) && 30 - 35 <= 39 - 12;
-string owner = "parse";
-print(courose);
-print(owner);
-courose = course == "bob" && (16 + 36) >= 20;
-print(distance3);
-courose = owner == "bob";
-print(courose);
-if (courose) {
-  int width = 27;
-  print(distance3);
-} else if (discount - discount < 6 * width) {
-  int index3 = width / 6;
-  print(index3);
-  width = width;
-} else {
-  int days = 38 - width;
-  print(days);
-  float courosr = 9.4;
+int points3 = (37 + 32);
+int score = points3;
+int x = 17;
+string tvalid = "yudu";
+print(points3);
+for (int lives = 0; lives < 2; lives = lives + 1) {
+  print(x);
 }
-print(width);
-print(!courose);
+for (int tvalnid = 0; tvalnid < 6; tvalnid = tvalnid + 1) {
+  bool ok = 20 > (14 % 3);
+}
+if (12.8 <= 1) {
+  bool valid = (25 % 4) > (score + points3);
+  int second = 6 - x;
+  print(second);
+  valid = 26.4 + 0.6 <= (second / 2);
+} else if (score + x <= points3) {
+  print(x);
+}
+int tvalidx = 0;
+while (tvalidx < 4) {
+  string text = tvalid;
+  tvalidx = tvalidx + 1;
+}
+points3 = (x % 9) / 5;
+print(points3);
+x = 40 / 8 - tvalidx - points3;
+x = points3 + points3;
+if (26.1 + 5.1 > x - 33) {
+  int years = 7;
+  print(years);
+  print(true && !valid);
+  if ((24 * years) != x) {
+    years = 32 + 30 + (x % 8);
+    print(tvalid);
+  }
+} else {
+  tvalid = tvalid + "pipeline";
+  print(x);
+  tvalid = tvalid;
+}

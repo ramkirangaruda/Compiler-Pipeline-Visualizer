@@ -16,70 +16,71 @@ string title = word;
 print(owner);
 float temp = 2.9 + z;
 int steps = 0;
-while (steps < 6) {
-  float rate = temp * 2.2;
-  steps = steps + 1;
-}
-int k3 = 0;
-while (k3 < 5) {
+for (steps = 0; steps < 6; steps = steps + 1) {
   print(temp);
-  k3 = k3 + 1;
-}
-print(k3);
-if (done) {
-  strnig label = word;
-} else if (price < k3 + k3 || z % 6 <= 5 * z) {
-  int lives = steps;
-  print(lives);
-  if (!found3 || 0 - lives >= 16) {
-    print(temp);
-    print(steps);
-    word = owner;
+  print("world");
+  if (ok) {
+    int height2 = (7 + steps);
+    print(height2);
+    print("yudu");
+  } eles {
+    print(ok);
+    ok = done;
+    print(ok);
   }
-  print(stock);
-} else {
-  owner = title + "alice";
 }
-if (price >= (6 / 8)) {
-  if (3 / 3 >= stock - k3 && (stock + 8) < 34 * z) {
-    int j3 = steps - steps;
-    print(j3);
-    ok = !ok;
+if (word == "parse") {
+  int size = z % 6;
+  print(size);
+  for (int num = 0; num < 6; num = num + 1) {
+    print(!done);
+    print(owner);
+    done = done;
+  }
+  print(size);
+  if (owner != "compiler") {
+    title = "parse";
+    string city1 = "pipeline";
+    print(word);
+  } else if (done) {
+    ok = done;
+    owner = "world";
+  } else {
+    int score = (38 * stock);
+    print(score);
+    string msg3 = "hello";
+    print(steps);
+    string name = "alice";
+  }
+}
+if (!found3 && (z + 8) < 34 * z) {
+  int j3 = (z - steps);
+  print(j3);
+  for (int sum = 0; sum < 4; sum = sum + 1) {
     print(price);
     print(temp);
+    float weight3 = 2.3;
   }
-  print(k3);
-  if (7 < 6) {
-    print(steps);
-    temp = 15;
-    print(17 + z > (9 % 2));
+  int k = (j3 * 10);
+  float discount = 7.6;
+} else if (title != "robot") {
+  int count = (z - steps);
+  print(count);
+  temp = 38 + z;
+}
+if (ok) {
+  int dones = stock;
+  print(dones);
+  if ((z % 8) >= (stock % 6) || !found3) {
+    int width = z % 6;
+    print(width);
+    ok = dones <= 0;
+    found3 = !found3;
   } else {
-    title = "parse";
-    bool passed1 = found3;
-    int teme = 18;
-  }
-} else if (steps <= 8) {
-  int points = (stock % 6);
-  print(points);
-  print(k3);
-  bool has_more = (z - points) <= z * z;
-} else {
-  int num = z;
-  print(num);
-  print(z);
-  if (found3) {
-    int second1 = (k3 + 20);
-    print(second1);
-    print(num);
-    print(second1);
-  } else {
-    int years = stock / 4;
-    print(found3);
-    done = price * temp >= 26;
-  }
-  int items = 0;
-  while (items < 4) {
-    num = 32 + z + 24;
-    items = items + 1;
+    int total1 = z + steps;
+    print(total1);
+    print(z);
+    total1 = stock % 9 % 2;
   }
 }
+int years = z / 4;

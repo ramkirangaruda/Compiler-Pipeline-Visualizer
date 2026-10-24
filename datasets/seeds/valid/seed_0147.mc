@@ -9,5 +9,9 @@ dontt = dontt * 16;
 print(ok);
 ok = dontt * 18 == donte;
 k = (level + k) + (donte % 8);
-level = k + 21 / 9;
-print(done);
+int dontts = 0;
+for (dontts = 0; dontts < 5; dontts = dontts + 1) {
+  print(dontt);
+}
+print(dontts);
+print(k);

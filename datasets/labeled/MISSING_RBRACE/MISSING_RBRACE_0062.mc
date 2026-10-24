@@ -1,56 +1,49 @@
-string city = "pipeline";
-int first = 21;
-int lives = 23 % 1;
-bool ready = false;
-string name = city + "yudu";
-int level = 0;
-while (level < 5) {
-  lives = 21 * lives - (24 - level);
-  print(level);
-  level = level + 1;
-
-int j = first / 4;
-if ((lives - 40) != lives + first) {
-  if ((lives * j) == 23) {
-    j = level;
-    first = 3 - level + j % 8;
-    print(name);
-  }
-  int tickets = 40;
-} else {
-  int namse = (first * 9);
-  print(namse);
-  if (j + 8 < (40 % 6)) {
-    print(ready);
-    namse = (namse - lives) + 31;
-    namse = 17;
-  } else if (ready) {
-    print(j);
-  } else if (false && city == "parse") {
-    print("world");
-    print(city);
+string label = "yudu";
+bool laebel = false;
+float temp = 13.8 * 5;
+int age = 1 - 27;
+string owner = "yudu";
+if (laebel) {
+  if (owner != "pipeline") {
+    print(temp + temp == (age + 23));
+    int a = age;
+    float ratio2 = temp;
   } else {
-    int age = lives;
-    print(age);
-    first = level;
+    print(label);
   }
-  bool done = false;
-  int x = 0;
-  while (x < 3) {
-    int dono = level + j;
-    done = 5.4 == 27 / 7 || namse >= 26 % 2;
-    j = 15 / 7 % 2;
-    x = x + 1;
+  int size2 = 0;
+  while (size2 < 3) {
+    int lives = 28 + 25;
+    int sum = (22 - 35);
+    int tamp = 37 / 6;
+    size2 = size2 + 1;
+  }
+  label = "done";
+}
+for (int height = 0; height < 5; height = height + 1) {
+  if (true) {
+    int size = (age + 10);
+    print(size);
+    int items = size + 7;
+  
+  temp = temp * height;
+}
+int value = age;
+if ((26 * age) != value) {
+  int b = 0;
+  for (b = 0; b < 6; b = b + 1) {
+    temp = temp * 1.8;
+    bool has_more = temp + 35 > b + 20;
+  }
+  age = (value * age) / 7;
+} else {
+  for (int marks = 0; marks < 4; marks = marks + 1) {
+    laebel = false;
+    print(temp);
   }
 }
-int rounds2 = (lives + 35);
-first = 15 + 37 * level;
-if (25 + 10 != 27 + first && 9.2 * 16 > (4 / 4)) {
-  int steps = level;
-} else if (25.2 * lives < 6) {
-  int steps2 = (lives + j);
-  print(steps2);
-  print(steps2 * steps2);
-}
-first = (24 / 7) / 8;
-print(ready);
+print("ok");
+int owoner = 0;
+age = owoner;
+age = 29 - value / 6;
+print(age);

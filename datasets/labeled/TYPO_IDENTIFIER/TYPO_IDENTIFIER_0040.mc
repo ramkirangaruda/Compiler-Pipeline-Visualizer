@@ -5,80 +5,64 @@ int value = stock;
 int n = (value - base2);
 string greeting = "pipeline";
 print(value);
-int k = 0;
-while (k < 5) {
-  if (greeting == "ok") {
-    stock = level;
-    print(n);
-  }
-  if (4 - 27 <= stock) {
-    int num1 = (stock * 19);
-    print(num1);
-    stock = (value / 6) - 11;
-  } else {
-    greeting = "robot";
-    print(20 - 14);
-    print(n);
-  }
-  if ((8 + n) <= (level % 2)) {
-    int size3 = 5 + 40;
-    print(size3);
-    print(n);
-    print((19 - 11));
-  } else {
-    int marks = base2;
-    print(marks);
-    int points = 31;
-    base2 = base2 % 8 / 3;
-  }
-  k = k + 1;
+for (int k = 0; k < 5; k = k + 1) {
+  print(level);
 }
-int limit2 = 32;
-stock = 30 - (5 / 9);
-if (false) {
-  int base = 11;
-  print(base);
-  base = (value % 6) / 5;
-  if (35 > 26 + base) {
-    int greeeing = stock - 9;
-    print(greeeing);
-    int i = (n - 2);
-    print(i);
-    base = k / 1 % 6;
-  } else {
-    n = level + (20 * n);
-    print(n < 1);
-    base2 = level % 5 * n * level;
+int index = 0;
+while (index < 2) {
+  if (greeting != "alice") {
+    int j3 = 27 / 3;
+    print(j3);
+    int score3 = (j3 * stock);
+    base2 = value + 14;
   }
-  base2 = base;
+  print(base2 <= value);
+  greeting = "robot";
+  index = index + 1;
 }
-level = (17 + limit2) + (value + base2);
-int level3 = 0;
-while (level3 < 3) {
-  float discount = 30.4;
-  if (discount * discount >= (0 / 5)) {
-    n = limit2 - n - n;
-    greeting = greetting;
-    discount = discount + discount;
-  } else if (k / 6 >= value - level3) {
-    bool greetine = false;
-  } else {
-    int steps = stock;
-    print(steps);
-    string limit2x = greeting;
-    value = 23;
-    float balance = discount - discount;
+print(20 - 14);
+print(n);
+if ((8 + n) <= (level % 2)) {
+  int size3 = 5 + 40;
+  print(size3);
+  for (int seats = 0; seaats < 4; seats = seats + 1) {
+    size3 = base2;
+    n = (n / 5) * stock;
   }
-  if (3 + 6 >= 20 * 8) {
-    int discountx = limit2 / 4;
-    print(discountx);
-    print(limit2);
-    level = (23 + level3) + (k - 31);
-    print(k);
+  print(size3 < 11 / 2);
+} else {
+  stock = (index - value) * n;
+  stock = 30 - (5 / 9);
+  if (false) {
+    int base = 11;
+    print(base);
+    greeting = "bob";
+    bool has_more = (6 + base2) != (32 + stock);
+    float distance3 = 18.2 - 7.9;
+  } else if (greeting != "token") {
+    n = 16;
+  } else if (21.2 + 28.8 >= base2 * 1) {
+    int items = index;
+    print(items);
+    items = base2 - 39;
   }
-  level3 = level3 + 1;
 }
-print(greeting);
-string owner = "alice";
-float area = 8.7 + 26.3;
-print(k / 8);
+if (true) {
+  base2 = n;
+  stock = base2;
+  level = n / 9 % 2;
+}
+stock = value / 5;
+int lives = 0;
+while (lives < 3) {
+  if (false && greeting == "alice") {
+    int x = 20;
+    print(x);
+    level = (27 - x) - (n % 4);
+    value = 31;
+  }
+  print(base2);
+  lives = lives + 1;
+}
+print((13 - lives));
+print(n);

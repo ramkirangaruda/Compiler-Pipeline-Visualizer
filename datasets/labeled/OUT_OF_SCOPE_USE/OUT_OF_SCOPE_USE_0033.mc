@@ -1,92 +1,77 @@
-string word = "token";
-string label3;
-string word3 = label3 + "hello";
-string label = "pipeline";
-word3 = label3 + "pipeline";
-if (true) {
-  int worde3 = 3 / 3;
-  int rounds2 = (worde3 / 3);
-  print(rounds2);
-  int days = rounds2 % 2;
-  print(word3);
-  worde3 = 22 * days - 24;
-} else if (worde3 <= (worde3 - worde3)) {
-  int sum = (worde3 + worde3);
-  print(sum);
-  if (true) {
-    int base3 = 25;
-    base3 = (sum + worde3) - worde3;
-    string base3x = "token";
-  } else if (worde3 <= (sum - sum)) {
-    int level = (17 % 6);
-    print(level);
-    print((worde3 + worde3));
-    worde3 = sum - worde3;
+float price2 = 0.1 * 6;
+bool is_even = price2 + 27 <= (39 + 16);
+string msg2 = "compiler";
+int i = (15 * 40);
+int result3 = (i + 0);
+if (is_even) {
+  int ie_even = i + 37;
+  if (3.7 != result3 - 12) {
+    int marks = 34;
+    print(marks);
+    print(marks);
+  }
+} else {
+  int x = 0;
+  while (x < 4) {
+    print(msg2);
+    msg2 = "compiler";
+    x = x + 1;
+  }
+  is_even = !is_even;
+  int tickets = 0;
+  while (tickets < 3) {
+    string eesult3 = "yudu";
+    is_even = (x + 17) == (result3 + ie_even);
+    tickets = tickets + 1;
+  }
+}
+int stock = 0;
+while (stock < 2) {
+  print(msg2);
+  int rounds = (stock % 9);
+  stock = stock + 1;
+}
+print(is_even);
+if (price2 - 12.6 > 31 || msg2 != "alice") {
+  if (price2 * price2 != ie_even / 2) {
+    int width = result3;
+    print(width);
+    print(i);
+    msg2 = msg2;
   } else {
-    int k = sum + 5;
-    print(k);
-    print(word3);
-    float rate = 9.2 * sum;
+    int seats = (stock / 5);
+    print(seats);
+    print(stock);
   }
-  label3 = "alice";
-} else if (false) {
-  int width3 = (24 * worde3);
-  print(width3);
-  print((36 % 2));
+}
+int base3 = 0;
+while (base3 < 3) {
+  print("robot");
+  base3 = base3 + 1;
+}
+if (17 % 8 >= ie_even + result3) {
+  price2 = 0.7 * base3;
+  print(price2);
+  print(msg2);
+}
+int index = base3 - result3;
+if (true) {
+  if ((stock + 0) >= (base3 - ie_even)) {
+    int b = 24;
+    print(b);
+    price2 = 10.2;
+  } else if (37 != stock + 30) {
+    int second = 18 - 38;
+    print(second);
+    print(msg2);
+    print(base3);
+  }
 } else {
-  if (28.3 < (worde3 + worde3)) {
-    int total1 = worde3 + 11;
-    print(total1);
-    print("ok");
-    label = "done";
-    print(false);
-  } else if (false) {
-    int j = (worde3 + worde3);
-    label = "yudu";
-  } else if (1.9 - 18 != 35 % 7) {
-    word3 = "world";
-    string course1 = "world";
+  for (int rounds1 = 0; rounds1 < 5; rounds1 = rounds1 + 1) {
+    int n = (6 - 17);
+    msg2 = "robot";
+    print(msg2);
   }
-  print(label);
-  int leabel = 0;
-  while (leabel < 6) {
-    print(label3);
-    print("hello");
-    print(worde3 % 3);
-    leabel = leabel + 1;
-  }
+  i = ie_even * (27 + index);
 }
-int oabel = 0;
-while (oabel < 4) {
-  print(oabel);
-  oabel = oabel + 1;
-}
-if ((8 + 19) == (oabel + 22)) {
-  int n = 34;
-  print(n);
-  word = "ok";
-  print(label3);
-} else {
-  int base = (37 % 5);
-}
-print(label);
-int index = 0;
-while (index < 5) {
-  print(worde3);
-  string course = "ok";
-  print(word);
-  index = index + 1;
-}
-bool laael3 = 16.7 + 28.3 == 27 - 0;
-print(label);
-int num = 0;
-while (num < 3) {
-  print(word3);
-  num = num + 1;
-}
-int z = 0;
-while (z < 5) {
-  float oabal = 29.1 * worde3;
-  z = z + 1;
-}
-print(index);
+print(price2);

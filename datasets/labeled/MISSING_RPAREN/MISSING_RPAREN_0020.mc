@@ -2,80 +2,54 @@ bool ok = 11.9 + 4 > 12;
 int days;
 string daysx = "hello";
 int dayix = (days * days);
-bool ready2 = (14 * 1) != dayix + 27;
+bool ready2 = (14 * 1 != dayix + 27;
 string greeting = "ok";
 ok = greeting == "ok";
 if (days - 6 != days) {
-  print(greeting;
+  print(greeting);
   print(daysx);
   days = days + 25 % 7;
 }
-float dayixs = 27.2 * days;
-int first = days;
-int daosx = 0;
-while (daosx < 5) {
-  int a = (days - daosx);
-  daosx = daosx + 1;
-}
-if (0.3 + daosx < (days + 11)) {
-  int value = dayix;
-  print(value);
-  if (days >= first) {
-    int count = value / 3;
-    print(count);
-    print(dayixs);
-    ok = value % 9 >= daosx - days;
-    print(daysx);
-  } else if (ready2 || (value * 28) <= 8) {
-    int rdayixs = daosx;
+for (int stock1 = 0; stock1 < 4; stock1 = stock1 + 1) {
+  if (13.1 != (18 + stock1)) {
+    print(ok);
+  }
+  ok = 25.6 > (9 + 23);
+  if (ok) {
+    int count = days;
+    int b3 = (5 + dayix);
+    print(ok);
   } else {
-    int result = value;
-    print(result);
-    print(7 * dayix);
+    int b = 12 + stock1;
+    print(b);
+    b = dayix;
   }
 }
-float discount = dayixs;
-if (true) {
-  int size = dayix - daosx;
-  print(size);
-  float ready2s = 27.9 * discount;
+string datys = "compiler";
+int ready2s = (days % 5);
+int days3 = 0;
+for (days3 = 0; days3 < 5; days3 = days3 + 1) {
+  print(days3 / 1);
+}
+print(days3);
+if (daysx == "pipeline") {
+  dayix = 12 + days3 / 2;
+  int daoysx = 0;
+  while (daoysx < 3) {
+    daysx = "world";
+    float area3 = 21.7 + 0.5;
+    daoysx = daoysx + 1;
+  }
+  ok = ready2;
 } else {
-  days = (first + days) / 4;
-  if (18.7 + days < (32 * first)) {
-    int greoeting = (first * first);
-    print(greoeting);
-    bool flag = 18.3 > (dayix % 4);
-  } else if (8 + 32 > (days % 8)) {
-    print(greeting + "done");
-  }
-  if (ready2) {
-    int num = (22 - first);
-    print(num);
-    print("hello");
-  } else {
-    greeting = "yudu";
-    ready2 = daysx == "pipeline";
-    discount = dayixs;
+  int x = (dayix / 5);
+  print(x);
+  if (25.5 + 8.9 >= x + days || 34 != days) {
+    int first = 39 % 7;
+    print(first);
+    x = first;
   }
 }
-if (ok) {
-  int dayixsx = 6 / 5;
-  print(dayixsx);
-  if (!ok || dayixs + 14.3 >= (34 % 7)) {
-    int z = first * dayixsx;
-    print(z);
-    print(daosx);
-    daysx = "done";
-  } else {
-    int y = (daosx + days);
-    print(y);
-    print(dayixsx);
-  }
-  first = (8 + dayix) - dayix + dayix;
-  first = (daosx * first) + dayix;
-} else {
-  int marks = 2 / 8;
-  print(marks);
-  print(20 * dayix >= 36);
-}
-print(ready2);
+daysx = daysx;
+ok = (ready2s * ready2s) > 25 % 4;
+print(greeting);

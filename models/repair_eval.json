@@ -1,12 +1,12 @@
 {
   "ml": {
     "overall": {
-      "n": 650,
-      "label_accuracy": 0.9862,
-      "verified_fix_rate": 0.9615,
-      "exact_recovery_rate": 0.7015,
-      "top3_verified_rate": 0.9615,
-      "autofix_success_rate": 0.9877
+      "n": 653,
+      "label_accuracy": 0.9923,
+      "verified_fix_rate": 0.9587,
+      "exact_recovery_rate": 0.6983,
+      "top3_verified_rate": 0.9587,
+      "autofix_success_rate": 0.9816
     },
     "per_label": [
       {
@@ -21,15 +21,15 @@
         "label": "MISSING_RPAREN",
         "n": 54,
         "label_accuracy": 1.0,
-        "verified_fix_rate": 0.9815,
+        "verified_fix_rate": 0.963,
         "exact_recovery_rate": 0.9259,
-        "autofix_success_rate": 0.9815
+        "autofix_success_rate": 0.963
       },
       {
         "label": "MISSING_LPAREN",
         "n": 61,
-        "label_accuracy": 0.9836,
-        "verified_fix_rate": 0.6393,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 0.6557,
         "exact_recovery_rate": 0.5902,
         "autofix_success_rate": 0.9016
       },
@@ -38,7 +38,7 @@
         "n": 65,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.8154,
+        "exact_recovery_rate": 0.7538,
         "autofix_success_rate": 1.0
       },
       {
@@ -55,7 +55,7 @@
         "label_accuracy": 1.0,
         "verified_fix_rate": 0.9818,
         "exact_recovery_rate": 0.9818,
-        "autofix_success_rate": 1.0
+        "autofix_success_rate": 0.9818
       },
       {
         "label": "ASSIGN_EQ_CONFUSION",
@@ -68,33 +68,33 @@
       {
         "label": "TYPO_IDENTIFIER",
         "n": 54,
-        "label_accuracy": 0.9074,
+        "label_accuracy": 0.9815,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.9074,
+        "exact_recovery_rate": 0.9815,
         "autofix_success_rate": 1.0
       },
       {
         "label": "MISSING_DECLARATION",
         "n": 55,
-        "label_accuracy": 0.9455,
-        "verified_fix_rate": 0.9818,
-        "exact_recovery_rate": 0.1636,
-        "autofix_success_rate": 0.9818
+        "label_accuracy": 0.9273,
+        "verified_fix_rate": 0.9455,
+        "exact_recovery_rate": 0.0909,
+        "autofix_success_rate": 0.9455
       },
       {
         "label": "USE_BEFORE_DECLARATION",
         "n": 49,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.6122,
+        "exact_recovery_rate": 0.6327,
         "autofix_success_rate": 1.0
       },
       {
         "label": "OUT_OF_SCOPE_USE",
-        "n": 47,
+        "n": 50,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.0,
+        "exact_recovery_rate": 0.1,
         "autofix_success_rate": 1.0
       },
       {
@@ -102,19 +102,19 @@
         "n": 60,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.4333,
+        "exact_recovery_rate": 0.4,
         "autofix_success_rate": 1.0
       }
     ]
   },
   "baseline": {
     "overall": {
-      "n": 650,
-      "label_accuracy": 0.8754,
-      "verified_fix_rate": 0.8708,
-      "exact_recovery_rate": 0.6585,
-      "top3_verified_rate": 0.8708,
-      "autofix_success_rate": 0.8969
+      "n": 653,
+      "label_accuracy": 0.879,
+      "verified_fix_rate": 0.876,
+      "exact_recovery_rate": 0.6447,
+      "top3_verified_rate": 0.876,
+      "autofix_success_rate": 0.9005
     },
     "per_label": [
       {
@@ -129,16 +129,16 @@
         "label": "MISSING_RPAREN",
         "n": 54,
         "label_accuracy": 1.0,
-        "verified_fix_rate": 0.9815,
+        "verified_fix_rate": 0.963,
         "exact_recovery_rate": 0.9259,
-        "autofix_success_rate": 0.9815
+        "autofix_success_rate": 0.963
       },
       {
         "label": "MISSING_LPAREN",
         "n": 61,
         "label_accuracy": 0.3934,
-        "verified_fix_rate": 0.1311,
-        "exact_recovery_rate": 0.1311,
+        "verified_fix_rate": 0.1475,
+        "exact_recovery_rate": 0.1475,
         "autofix_success_rate": 0.3934
       },
       {
@@ -146,7 +146,7 @@
         "n": 65,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.8154,
+        "exact_recovery_rate": 0.7538,
         "autofix_success_rate": 1.0
       },
       {
@@ -184,45 +184,45 @@
       {
         "label": "MISSING_DECLARATION",
         "n": 55,
-        "label_accuracy": 0.7273,
+        "label_accuracy": 0.7455,
         "verified_fix_rate": 0.8,
-        "exact_recovery_rate": 0.1636,
+        "exact_recovery_rate": 0.0727,
         "autofix_success_rate": 0.8
       },
       {
         "label": "USE_BEFORE_DECLARATION",
         "n": 49,
-        "label_accuracy": 0.7755,
-        "verified_fix_rate": 0.9388,
-        "exact_recovery_rate": 0.5102,
-        "autofix_success_rate": 0.9388
+        "label_accuracy": 0.7551,
+        "verified_fix_rate": 0.9592,
+        "exact_recovery_rate": 0.4898,
+        "autofix_success_rate": 0.9592
       },
       {
         "label": "OUT_OF_SCOPE_USE",
-        "n": 47,
-        "label_accuracy": 0.6596,
-        "verified_fix_rate": 0.7021,
-        "exact_recovery_rate": 0.0,
-        "autofix_success_rate": 0.7021
+        "n": 50,
+        "label_accuracy": 0.72,
+        "verified_fix_rate": 0.76,
+        "exact_recovery_rate": 0.08,
+        "autofix_success_rate": 0.76
       },
       {
         "label": "TYPE_MISMATCH",
         "n": 60,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.4333,
+        "exact_recovery_rate": 0.4,
         "autofix_success_rate": 1.0
       }
     ]
   },
   "ml_rl": {
     "overall": {
-      "n": 650,
-      "label_accuracy": 0.9862,
-      "verified_fix_rate": 0.9615,
-      "exact_recovery_rate": 0.7154,
-      "top3_verified_rate": 0.9615,
-      "autofix_success_rate": 0.9877
+      "n": 653,
+      "label_accuracy": 0.9923,
+      "verified_fix_rate": 0.9587,
+      "exact_recovery_rate": 0.6998,
+      "top3_verified_rate": 0.9587,
+      "autofix_success_rate": 0.9816
     },
     "per_label": [
       {
@@ -237,15 +237,15 @@
         "label": "MISSING_RPAREN",
         "n": 54,
         "label_accuracy": 1.0,
-        "verified_fix_rate": 0.9815,
+        "verified_fix_rate": 0.963,
         "exact_recovery_rate": 0.9259,
-        "autofix_success_rate": 0.9815
+        "autofix_success_rate": 0.963
       },
       {
         "label": "MISSING_LPAREN",
         "n": 61,
-        "label_accuracy": 0.9836,
-        "verified_fix_rate": 0.6393,
+        "label_accuracy": 1.0,
+        "verified_fix_rate": 0.6557,
         "exact_recovery_rate": 0.5902,
         "autofix_success_rate": 0.9016
       },
@@ -254,7 +254,7 @@
         "n": 65,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.8154,
+        "exact_recovery_rate": 0.7538,
         "autofix_success_rate": 1.0
       },
       {
@@ -271,7 +271,7 @@
         "label_accuracy": 1.0,
         "verified_fix_rate": 0.9818,
         "exact_recovery_rate": 0.9818,
-        "autofix_success_rate": 1.0
+        "autofix_success_rate": 0.9818
       },
       {
         "label": "ASSIGN_EQ_CONFUSION",
@@ -284,33 +284,33 @@
       {
         "label": "TYPO_IDENTIFIER",
         "n": 54,
-        "label_accuracy": 0.9074,
+        "label_accuracy": 0.9815,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.9815,
+        "exact_recovery_rate": 1.0,
         "autofix_success_rate": 1.0
       },
       {
         "label": "MISSING_DECLARATION",
         "n": 55,
-        "label_accuracy": 0.9455,
-        "verified_fix_rate": 0.9818,
-        "exact_recovery_rate": 0.1636,
-        "autofix_success_rate": 0.9818
+        "label_accuracy": 0.9273,
+        "verified_fix_rate": 0.9455,
+        "exact_recovery_rate": 0.0909,
+        "autofix_success_rate": 0.9455
       },
       {
         "label": "USE_BEFORE_DECLARATION",
         "n": 49,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.6122,
+        "exact_recovery_rate": 0.6327,
         "autofix_success_rate": 1.0
       },
       {
         "label": "OUT_OF_SCOPE_USE",
-        "n": 47,
+        "n": 50,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.1064,
+        "exact_recovery_rate": 0.1,
         "autofix_success_rate": 1.0
       },
       {
@@ -318,7 +318,7 @@
         "n": 60,
         "label_accuracy": 1.0,
         "verified_fix_rate": 1.0,
-        "exact_recovery_rate": 0.4333,
+        "exact_recovery_rate": 0.4,
         "autofix_success_rate": 1.0
       }
     ]

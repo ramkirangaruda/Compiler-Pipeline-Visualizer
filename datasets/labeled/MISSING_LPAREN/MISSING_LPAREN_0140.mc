@@ -39,5 +39,12 @@ if (size * a > (points / 7)) {
     items = (19 / 3) - (19 % 4);
     height = height + 1;
   }
-  printsecond);
+  for (int k = 0; k < 4; k = k + 1) {
+    int num = 16 % 6;
+    int limit = second + 35;
+  }
+} else {
+  ok = !ok;
+  int rounds = size % 8;
 }
+printcourse);

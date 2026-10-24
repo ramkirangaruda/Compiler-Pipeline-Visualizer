@@ -1,33 +1,18 @@
-string greeting = "bob";
-bool found3 = true;
-int seats = (37 - 12);
-string label = "world";
-int days = seats;
-bool greetnng = days / 7 < (11 * seats);
-bool done3 = false;
-string owner = "ok";
-print(done3);
-print(label);
-int count3 = 0;
-while (count3 < 4) {
-  greeting = "pipeline";
-  print(label);
-  print(greeting);
-  count3 = count3 + 1;
-}
-int age = 0;
-while (age < 6) {
-  print(greeting);
-  age = age + 1;
+int marks1 = 40;
+int b = (marks1 + marks1);
+int a = (22 % 2);
+float marks1s = 14.9 - a;
+bool valid = 16 < a;
+bool emarks1s = (b + a) != (a * b) && a + b >= 4 % 6;
+string msg = "world";
+print(marks1);
+print(marks1);
+int msgs = 0;
+while (msgs < 5) {
+  print(b);
+  marks1 = (17 * b) - 35 * 14;
+  msgs = msgs + 1;
 
-print(days);
-greetnng = greetnng;
-int steps3 = 0;
-while (steps3 < 5) {
-  greetnng = (count3 / 9) >= (25 + seats);
-  print(done3);
-  steps3 = steps3 + 1;
-}
-print(found3);
-found3 = greeting == "bob" || !greetnng;
-print(age);
+print(23 + b);
+print(marks1);
+print(false);

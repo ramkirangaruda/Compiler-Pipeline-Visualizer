@@ -1,44 +1,33 @@
-string text = "yudu";
-float distance = 7.4 - 39;
-int b = 40;
-bool valid = true;
-print(b);
-int years = 0;
-while (years < 3) {
-  print(text);
-  bool done = !valid;
-  if (valid) {
-    distance = distance - b;
-  } else {
-    int days = (years + 24);
-    print(days);
-    print(true || done);
-    print(done);
+int seats = 15;
+float eseats = 5.1 - seats;
+int teseats = (seats + 31);
+bool passed2 = seats + teseats > teseats && seats >= 28;
+teseats = teseats - (teseats % 5);
+if (passed2) 
+  teseats = seats + teseats % 8;
+  int items = 0;
+  while (items < 5) {
+    int y1 = (seats + 17);
+    items = items + 1;
   }
-  years = years + 1;
-}
-if (8.5 - 11 >= (years - b)) {
-  int items = 3;
-  float salary = 22.7 + b;
-} else if (text != "ok") {
-  int limit = (6 * b);
-  print(limit);
-  b = limit / 7 * years / 7;
-  print("bob");
+  int n = 9;
 } else {
-  if (distance - 16.8 <= (years - years)) 
-    print(distance);
-    float speed = distance - distance;
-    print(speed);
-  } else if ((years - b) != (years + b)) {
-    int texts = years;
-    print(texts);
-    print("compiler");
-  }
+  print(eseats);
+  print("ok");
 }
-b = 31 - b % 1;
-print("done");
-print(years);
-valid = 4 + years == years % 9;
-print(20 * years);
-print(distance);
+print(passed2);
+print(eseats);
+int result = 0;
+while (result < 5) {
+  float weight1 = eseats;
+  if (eseats - result == seats) {
+    print(passed2);
+  }
+  weight1 = weight1;
+  result = result + 1;
+}
+if ((teseats / 8) != (result % 3)) {
+  int eseatsx = (seats - 16);
+  print(eseatsx);
+  passed2 = passed2;
+}

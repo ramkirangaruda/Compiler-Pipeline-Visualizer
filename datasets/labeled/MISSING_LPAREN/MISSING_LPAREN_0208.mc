@@ -9,57 +9,84 @@ while (rounds3 < 5) {
   rounds3 = rounds3 + 1;
 }
 if (vanid > 3 && true) {
-  valid = valid;
-  width = 30 - 34 / 7;
-} else if (!valid && flag) {
-  int index = (22 + 6);
-  print(index);
-  print(rounds3);
+  int valids = 0;
+  for (valids = 0; valids < 2; valids = valids + 1) {
+    print(rounds3);
+  }
+  print(valids);
+  bool is_even = flag;
 }
-if (width + width <= rounds3 % 1) {
-  int marks = rounds3;
-  print(marks);
-  int n1 = 0;
-  while (n1 < 6) {
-    print(greeting);
-    n1 = n1 + 1;
+flag = !valid;
+if (flag) {
+  vanid = (5 % 7);
+  print(vanid);
+  if (width + width <= rounds3 % 1) {
+    int marks = rounds3;
+    print(marks);
+    valid = valid;
+  } else {
+    greeting = "done";
+    print("done");
+    width = 11;
   }
 } else {
-  int second = 11;
-}
-int greetine = 0;
-while (greetine < 4) {
-  if (vanid < greetine * rounds3) {
-    int j2 = (0 + width);
-  }
-  greetine = greetine + 1;
-}
-if ((rounds3 % 6) == width) {
-  int items = (rounds3 + rounds3);
-  print(items);
-  print(valid);
-  width = (rounds3 + 25) % 9;
-  print("token");
-}
-flag = width / 5) >= (0 * 15);
-print((rounds3 * 33));
-if (width - width == 15) {
-  int years = 0;
-  while (years < 6) {
-    print(flag);
-    vanid = vanid;
-    years = years + 1;
-  }
-  valid = years + 28 > 12;
-  int flai = 0;
-  while (flai < 5) {
-    greeting = greeting;
-    greeting = "hello";
+  if (valid) {
     print(valid);
-    flai = flai + 1;
+    print("parse");
+    print(vanid);
+  } else if (33 < (0 + width)) {
+    int index = 14 + width;
+    print(index);
+  } else {
+    int count = (width / 4);
+    print(count);
+    print("token");
+    valid = flag;
+  }
+  print(width + 20 <= 24 && greeting == "hello");
+}
+if (18 % 2 == rounds3) {
+  if ((width - width) <= 15) {
+    print(valid);
+    print(vanid);
+    print(rounds3);
   }
 } else {
-  valid = 38 / 9 <= width + width;
+  int height = 0;
+  while (height < 5) {
+    greeting = "compiler";
+    print(height);
+    print(width);
+    height = height + 1;
+  }
 }
-valid = greetine > rounds3 + width;
-print(greetine * 32);
+int points2 = 0;
+for (points2 = 0; points2 < 3; points2 = points2 + 1) {
+  greeting = "hello";
+}
+print(points2);
+valid = true && 30.9 - 25.5 != width;
+for (int valed = 0; valed < 5; valed = valed + 1) {
+  if (false) {
+    int lives2 = (rounds3 * 15);
+    print(lives2);
+    float tax = vanid * vanid;
+    int j = 16;
+    j = rounds3 + 33 * valed;
+  }
+  print((width % 4));
+  if (true && !flag) {
+    int total = points2 + width;
+    print(total);
+    valid = (points2 * 36) == (14 % 2);
+    printpoints2);
+  }
+}
+int height1 = 0;
+for (height1 = 0; height1 < 4; height1 = height1 + 1) {
+  valid = vanid + vanid > (rounds3 / 1);
+  int first = width * height1;
+  print(points2);
+}
+print(height1);
+print(flag);

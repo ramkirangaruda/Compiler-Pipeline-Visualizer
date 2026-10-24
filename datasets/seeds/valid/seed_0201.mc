@@ -27,11 +27,35 @@ if (5 < sum + sum) {
   print(x);
   ready = (12 * sum) < result - j2;
 }
-flag = (j2 % 3) <= 3;
-ready = !flag;
-int items1 = 0;
-while (items1 < 5) {
-  print("bob");
-  items1 = items1 + 1;
+for (int stock = 0; stock < 5; stock = stock + 1) {
+  print("token");
+  print(sum);
+  print(ready);
 }
-print(flag);
+int value1 = 0;
+while (value1 < 2) {
+  if ((j2 + sum) < result * 18) {
+    int second1 = (sum % 4);
+    print(second1);
+    ready = ready;
+    print(sum);
+  } else {
+    result = (16 % 8) - result + 13;
+  }
+  if (ready) {
+    int second2 = value1 - 3;
+    print(flag);
+    print(second2);
+  } else if (28.6 * 13.1 <= (20 / 5)) {
+    print("ok");
+    sum = result * j2;
+  } else {
+    result = sum + 13 + 40;
+    print(flag);
+  }
+  value1 = value1 + 1;
+}
+if (flag && (result + 9) <= value1) {
+  j2 = sum;
+}
+print(2 % 8);

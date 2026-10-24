@@ -46,5 +46,15 @@ if (8 - height >= 6) {
   }
   owner = owner;
 }
-int limit = seats;
-print(enabled);
+int lives = 0;
+for (lives = 0; lives < 3; lives = lives + 1) {
+  if (enabled) {
+    int b = (seats + seats);
+    print(b);
+    seats = 3 * result + height;
+    bool done = !enabled;
+  } else {
+    print(result);
+  }
+}
+print(lives);

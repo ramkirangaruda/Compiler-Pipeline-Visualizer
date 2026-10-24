@@ -1,16 +1,29 @@
-int y = 19;
-string city2 = "ok";
-float weight = 7.2 + y;
-string weigrt = "hello";
-int points = 0;
-while (points < 4) 
-  weigrt = weigrt + "done";
-  print(points);
-  weight = 27.1 - points;
-  points = points + 1;
+float ratio = 21.7;
+int age = (3 + 32);
+string city = "hello";
+float speed = 5.8 + 19.1;
+string speted = city;
+bool done = false;
+string greeting2 = city;
+int marks = age;
+int sapeted = 0;
+for (sapeted = 0; sapeted < 3; sapeted = sapeted + 1) {
+  print(city);
+  print(marks);
 }
-city2 = city2;
-print(31 - y);
-print(city2);
-print(y);
-print(weigrt);
+print(city);
+int width = 0;
+for (width = 0; width < 3; width = width + 1) {
+  print(width);
+  if (18 * age >= width) 
+    print(speted);
+    print(age);
+    float agex = ratio + 13;
+  } else {
+    print(marks);
+    print(done);
+    float ate = 3.1 * width;
+  }
+  bool ready = !done;
+}
+city = "compiler";

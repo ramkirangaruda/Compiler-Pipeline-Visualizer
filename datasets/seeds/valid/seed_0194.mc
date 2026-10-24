@@ -11,44 +11,22 @@ if (flag) {
   print(j);
   print(items);
   int stock = total - j;
-  flag = j == (j % 5);
-}
-if (flag) {
-  int tsext = items * i;
-  print(tsext);
-  int lives = 0;
-  while (lives < 5) {
-    tsext = (1 % 2) + (items + 32);
-    lives = lives + 1;
+  int score = 0;
+  for (score = 0; score < 4; score = score + 1) {
+    print(total);
+    print(flag);
   }
-  print(course);
-} else {
-  int count = i + items;
-  print(count);
-  count = (31 - total) + (22 + 21);
+  print(score);
 }
-int i1 = (items % 1);
-flag = (i % 4) == total * 34;
-if (i1 < i) {
-  int k = (items + 17);
-  print(k);
-  flag = (21 + items) >= i + items && flag || 12.2 - 23.9 == (24 + i1);
-  if (3 <= items * items) {
-    int size = (4 + 23);
-    print(size);
-    print(total * total);
-  } else if (17.5 - 8.8 >= k) {
-    int index = items;
-    print(index);
-    i1 = 6 + 24;
-  } else {
-    int x = 22 * i;
-    print(x);
-    string tootal = "yudu";
-    k = (k + 16) + i / 6;
-    float tootals = 8.9 + 9.6;
-  }
-  flag = flag;
+print(items);
+flag = i <= i / 6;
+int flagx = 0;
+while (flagx < 2) {
+  print(flagx);
+  print(flagx);
+  flag = items <= (6 + flagx) && flagx - flagx <= total * i || !flag;
+  flagx = flagx + 1;
 }
-print(i1);
-print(text);
+flag = flag;
+items = flagx - total + (i % 5);
+print(flagx);

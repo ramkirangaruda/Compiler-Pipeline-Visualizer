@@ -69,31 +69,43 @@ if (valid) {
 } else {
   int level = 3 - 22;
   print(level);
-  print((30 * 4));
-  speed = speed * 15.2;
+  for (int k = 0; k < 4; k = k + 1) {
+    print(valid);
+  }
+  if (valid) {
+    marks = level + 20 + level * 9;
+    marks = 2;
+  }
 }
-if (valid || 5 - marks <= 39) {
-  int tritle3 = title3x;
-  print(tritle3);
-  tritle3 = (title3x + 36) + (15 / 5);
-  valid = valid;
-  if (tritle3 <= 25) {
+int speerd = 0;
+for (speerd = 0; speerd < 2; speerd = speerd + 1) {
+  valid = title3x < marks;
+  if (speerd <= 25) {
     int rounds = (marks % 7);
     print(rounds);
     print(speed);
   } else {
-    int value = tritle3 * tritle3;
+    int value = speerd * speerd;
     print(value);
     print(valid);
   }
+  int days = (0 / 7);
 }
-if (false) {
-  print(valid);
-  int titlt3 = 0;
-  while (titlt3 < 2) {
-    print(valid);
-    titlt3 = titlt3 + 1;
+print(speerd);
+int age = 0;
+while (age < 4) {
+  if (title3 != "hello") {
+    int result1 = (30 / 9);
+    print(result1);
+    print(age);
+    float weight = 17.1 - 30;
+    result1 = 4;
+  } else {
+    print(speerd);
+    int i = 28;
+    marks = speerd;
   }
-} else if (valid) {
-  print(title3x);
+  print(speerd);
+  age = age + 1;
 }
+print("bob");

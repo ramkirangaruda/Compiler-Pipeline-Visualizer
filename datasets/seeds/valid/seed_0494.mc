@@ -33,18 +33,7 @@ if (course == "world") {
   int z = n;
   int value2 = days2;
 }
-int second = 0;
-while (second < 4) {
-  if (area - 32 < 34) {
-    print(total);
-    discount = 23;
-    print(second);
-  } else {
-    discount = discount - 14;
-    print(days2);
-  }
-  float dayt2 = 1.3;
-  dayt2 = dayt2;
-  second = second + 1;
+for (int second = 0; second < 4; second = second + 1) {
+  print(second);
 }
-print(width2);
+print(discount);

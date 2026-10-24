@@ -1,47 +1,32 @@
-string city1 = "pipeline";
-int index = (12 % 3);
-int points = 21 + index;
-bool enabled = (18 - points) <= index;
-float rate = 14.1;
-if (rate + rate != index * index) {
-  int age = points % 6;
-  print(age);
-  enabled = city1 == "alice";
-} else if (index + points == (index + points) || (points / 5) <= (index / 7)) {
-  if (rate * rate < index) {
-    int stock1 = 40 + points;
-    print(stock1);
-    print(city1);
-    print(rate);
-    print(city1);
-  }
-  int base3 = 15;
-} else {
-  int seats = points;
-  print(seats);
-  bool poents = enabled;
-
-int rates = 0;
-while (rates < 5) {
-  enabled = false;
-  if (enabled) {
-    int enables = (points + 1);
-    print(enables);
-    enabled = enabled;
-    print(index);
-  } else {
-    int stock = points;
-    print(stock);
-    print(stock);
-    city1 = city1;
-  }
-  print(points);
-  rates = rates + 1;
+string course;
+string word = course + "ok";
+float wordx = 21.3;
+float price = wordx;
+price = 27 - 18;
+print(wordx);
+course = course;
+print(wordx);
+for (int steps = 0; steps < 5; steps = steps + 1) {
+  print("parse");
+  if (40 + 16 < (steps / 7)) {
+    print(course);
+    price = steps - steps;
+  
+  price = price + 27;
 }
-print(points);
-points = rates;
-int b = index % 8;
-print(5 / 3);
-print(rates);
-city1 = "hello";
-print(rates);
+if (true) {
+  int seats1 = 0;
+  while (seats1 < 4) {
+    course = word;
+    seats1 = seats1 + 1;
+  }
+  for (int woadx = 0; woadx < 3; woadx = woadx + 1) {
+    bool done = 13 <= woadx;
+    course = "ok";
+    print(done);
+  }
+  print(word);
+}
+print((2 % 9) < (20 - 0));
+print(wordx);
+print(course);

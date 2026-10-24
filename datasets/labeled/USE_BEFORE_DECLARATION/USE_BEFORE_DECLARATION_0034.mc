@@ -20,42 +20,30 @@ if (laebel) {
   }
   label = "done";
 }
-int height = 0;
-while (height < 5) {
+for (int height = 0; height < 5; height = height + 1) {
   if (true) {
     print(size);
     int size = (age + 10);
     int items = size + 7;
   }
   temp = temp * height;
-  height = height + 1;
 }
-int value = height;
-if ((26 * age) != height) {
+int value = age;
+if ((26 * age) != value) {
   int b = 0;
-  while (b < 6) {
-    print(owner);
-    b = b + 1;
+  for (b = 0; b < 6; b = b + 1) {
+    temp = temp * 1.8;
+    bool has_more = temp + 35 > b + 20;
   }
-  owner = label;
+  age = (value * age) / 7;
 } else {
-  temp = (value / 1);
-  print(10 * value);
-  if (!laebel) {
-    laebel = laebel;
-    temp = height;
-    print(value);
-  } else {
-    owner = "bob";
+  for (int marks = 0; marks < 4; marks = marks + 1) {
+    laebel = false;
     print(temp);
-    print("ok");
   }
 }
+print("ok");
 int owoner = 0;
 age = owoner;
-value = age;
-if (temp + temp == 29 * age) {
-  print(label);
-  int points = (age / 2);
-  laebel = false;
-}
+age = 29 - value / 6;
+print(age);

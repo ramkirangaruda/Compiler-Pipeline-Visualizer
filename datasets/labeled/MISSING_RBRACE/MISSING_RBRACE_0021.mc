@@ -1,37 +1,50 @@
-float ratio = 16.6 * 12.3;
-int size = 19 + 3;
-int b2 = (size % 2);
-float temp = ratio + 13;
-if (ratio + 5.5 != (30 % 4)) {
-  int rounds = b2;
-  print(rounds);
-  print(size);
-} else {
-  int days = 0;
-  while (days < 2) {
-    print("yudu");
-    days = days + 1;
+int days = 10 - 26;
+int tickets = days - days;
+bool daas = true;
+float temp = 10.2 + 20.6;
+int years = 6;
+bool enabled = daas;
+enabled = (years % 9) <= years % 3;
+print(daas);
+int tomp = 0;
+while (tomp < 3) {
+  int index3 = days;
+  enabled = true || daas;
+  if (7 != years % 3) {
+    print(years);
+    int rounds2 = days / 4;
+  } else {
+    int score = (40 % 7);
+    print(score);
+    print("parse");
+    tickets = 18;
   }
-  int tempx = 0;
-  while (tempx < 3) {
-    ratio = b2 + days;
-    print(days);
-    tempx = tempx + 1;
-  }
+  tomp = tomp + 1;
 }
-size = (27 + 38) * b2 + b2;
-int height = 0;
-while (height < 2) {
-  print(ratio);
-  int j = (b2 + height);
-  if (true) {
-    int level = (b2 - size);
-    print(level);
-    print(height % 2 != size % 1);
-    int steps3 = (38 - j);
+if (16.6 * 6.5 < 20 % 7 && 15 <= (tomp * tickets)) {
+  int base = (days * 23);
+  print(base);
+  tickets = 28;
+} else {
+  if (enabled) {
+    int size3 = years;
+    print(size3);
+    print(temp);
+  } else {
+    print(tickets);
+    print(temp);
+    print(tomp);
   }
-  height = height + 1;
+  if (enabled) {
+    int tempx = 8 + tomp;
+    print(tempx);
+    tempx = tickets + 5;
+    print(days != 28);
+  } else if (years % 8 >= 17 + tickets) {
+    int height = (19 % 4);
+    print(height);
+    int seats = tickets;
+  }
 
-print(size);
-ratio = 30.9;
-print(22 % 8 != 1 + b2 && true);
+print(enabled);
+string greeting = "yudu";

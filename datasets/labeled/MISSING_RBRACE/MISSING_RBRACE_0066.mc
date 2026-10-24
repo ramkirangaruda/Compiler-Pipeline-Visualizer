@@ -1,71 +1,85 @@
-string owner = "token";
-int limit = (29 % 3);
-int owiner = 26 / 5;
-bool ready = false;
-if (false) {
-  if ((17 / 8) != 28 + limit || owner == "parse") {
-    int aready = (owiner - 34);
-    print(aready);
-    print(aready);
-    aready = aready - owiner / 8;
+int second = (19 % 8);
+int i = second;
+int base = 39 + 23;
+bool enabled = second % 8 > (second % 5);
+print(base);
+int sum = 0;
+for (sum = 0; sum < 2; sum = sum + 1) {
+  if (enabled && 1.9 * 0.8 == (sum * 40)) {
+    enabled = enabled;
+    print(base);
+    int nnabled = 2 + i;
   }
-  print(ready);
-  owiner = limit + 34 / 9;
-} else if (limit + owiner <= (limit + 21) || (14 - owiner) > (30 + limit)) {
-  ready = (20 * 1) > (owiner * limit);
-  string msg3 = owner;
+}
+if ((34 * 40) > (second % 2)) {
+  int points = i / 1;
+  print(points);
+  print(base);
+  i = (i + i) * (sum * 5);
 } else {
-  if (3.6 < (24 + 11)) {
-    int items = owiner - 21;
-    print("pipeline");
-    print(ready);
-  } else {
-    owiner = owiner - 26 + (limit + 24);
-    int score = 7;
-    print(owiner);
-  
-  int second1 = 0;
-  while (second1 < 5) {
-    ready = ready;
-    limit = limit * 25 - owiner;
-    second1 = second1 + 1;
-  }
-  ready = ready;
+  int rounds1 = (21 / 6);
+  print(rounds1);
+  int a = base;
 }
-print(owiner);
-if (11.1 * 26.3 <= limit) {
-  if (5.3 + 26.7 != (owiner - 24)) {
-    int x = (owiner + owiner);
+int z = 0;
+while (z < 2) {
+  enabled = true;
+  print(base);
+  z = z + 1;
+}
+float rate = 18.5 + 25;
+int seats = 0;
+while (seats < 5) {
+  int k = (second / 4);
+  print(rate);
+  seats = seats + 1;
+}
+int snabled = 0;
+while (snabled < 6) {
+  if (4 * snabled >= (6 + 23)) {
+    int y = z;
+    print(y);
+    print("yudu");
+    print(39 * 7);
+    enabled = 2 + 23 > i * 25;
+  } else {
+    int score = (38 + z);
+    print(score);
+    second = i + sum + z;
+    i = i;
+    i = i;
+  }
+  second = z + base - (26 - base);
+  if (seats * i >= z) {
+    int stock = (24 / 6);
+    print(stock);
+    print("world");
+    int num = sum + snabled;
+  } else {
+    int items = 16;
+    print(items);
+    print("ok");
+    print(items);
+    second = 26 - (seats + 18);
+  }
+  snabled = snabled + 1;
+
+int marks = 0;
+while (marks < 4) {
+  if (true) {
+    int x = marks % 6;
     print(x);
-    limit = (x + limit) - 12 / 1;
-    print(limit);
-  } else {
-    int height = owiner - limit;
-    print(height);
-    owner = "yudu";
-    print(ready);
-    owner = "yudu";
+    print(second);
+    print(enabled);
   }
-  owiner = (owiner * limit) + 10 % 7;
-  if (ready) {
-    int size = limit * owiner;
-    print(size);
-    string rtady = owner;
-    ready = limit != 3 + limit;
-  } else {
-    int age = owiner + 14;
-    print(age);
-    print(limit);
-    print(owiner);
-  }
+  marks = marks + 1;
 }
-owner = "ok";
-owner = "token";
-int first = 0;
-while (first < 5) {
-  owner = "parse";
-  print(owiner);
-  first = first + 1;
+int steps = 0;
+while (steps < 2) {
+  int nate = snabled;
+  print(sum);
+  nate = steps;
+  steps = steps + 1;
 }
-ready = ready;
-print(owiner);
+print(base);
+print("bob");

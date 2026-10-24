@@ -8,39 +8,64 @@ while (limit < 5) {
   print(limit);
   limit = limit + 1;
 }
-int flar = 0;
-while (flar < 5) {
-  print(flar >= flar);
-  print(is_even);
-  print("ok");
-  flar = flar + 1;
+for (int flar = 0; flar < 5; flar = flar + 1) {
+  bool flag3 = 6 + 39 > 20;
 }
-flag = !flag;
-print(23)
-int base = 0;
-while (base < 5) {
-  print("parse");
-  if (is_even) {
-    int limit2 = 12 - flar;
-    print(limit2);
-    marks3 = limit;
-    print(11 == marks3 - 24 || !ok);
-    print(ok);
+int count = 0;
+while (count < 4) {
+  print(ok);
+  if (limit / 7 <= marks3 % 5) {
+    int filag = count - marks3;
+    print(filag);
+    print(filag);
+    is_even = !is_even;
+  } else if ((limit - marks3) < marks3) {
+    int is_eten = 28 % 1;
   }
-  base = base + 1;
+  count = count + 1;
 }
-print(is_even);
-flag = ok;
-if (base <= 3 * base) {
-  print(base);
-  print(limit);
-} else {
-  print(flar);
-}
+print(flag);
 if (is_even) {
-  int size = (40 * flar);
-  print(size);
-  int steps = size % 7;
-  print(23.1 != (flar + limit));
+  int j = 3 * limit;
+  print(j);
+  int rounds = 0;
+  while (rounds < 3) {
+    is_even = 33 % 4 != (count * 7);
+    rounds = rounds + 1;
+  }
+  int score = 0;
+  for (score = 0; score < 4; score = score + 1) {
+    print(11 + score);
+    print("pipeline");
+  }
+  print(score);
+} else if (ok) {
+  print("world");
+  print("bob");
+} else if (is_even) {
+  int second = (count - count);
+  print(second);
+  int flagx = 0;
+  while (flagx < 3) {
+    print(flagx);
+    print(second);
+    print(second);
+    flagx = flagx + 1;
+  }
+} else if (36 + limit != (10 / 6)) {
+  int days2 = count * 17
+  print(days2);
+  print(limit);
+  print(2.4 * 21.3 <= limit);
 }
-print(is_even);
+if (19.7 > (marks3 - marks3)) {
+  int value = 32 + count;
+  for (int age = 0; age < 2; age = age + 1) {
+    string course = "world";
+  }
+  print(marks3);
+}
+marks3 = limit % 1;
+flag = (limit + limit) == 38 / 3;
+print(true);
+print(limit);

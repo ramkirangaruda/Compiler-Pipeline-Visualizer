@@ -19,92 +19,69 @@ if (40 + y3 > y3) {
     distance = (4 / 2);
   }
   label = "token";
-  print(y3 < y3);
-} else {
-  int total = 0;
-  while (total < 6) {
+  int sum1 = 0;
+  for (sum1 = 0; sum1 < 4; sum1 = sum1 + 1) {
+    distance = distance - y3;
     label = label;
-    total = total + 1;
   }
+  print(sum1);
 }
-if (distance < (7 + y3) || distance - y3 <= y3 - 38) {
-  int height2 = y3 - 17;
-  print(height2);
-  int items = 0;
-  while (items < 2) {
-    label = "pipeline";
-    bool valid = height2 - y3 <= y3;
-    items = items + 1;
+float mean = 22.2;
+if (false) {
+  print(distance);
+  int seats2 = 0;
+  while (seats2 < 5) {
+    string title = label;
+    seats2 = seats2 + 1;
   }
-  int k1 = 2 - 37;
-}
-course1 = course1 + "token";
-if ((36 + y3) == y3 || 30 > y3) {
-  int ltabel = (y3 - 30);
-  print(ltabel);
-  y3 = y3 - ltabel / 9;
-  if (17 != y3) {
-    print(y3);
-    print(ltabel);
-    course1 = "compiler";
-  } else if (28.8 * ltabel >= 36 / 5) {
-    int b2 = (y3 % 6);
-    print(b2);
-    print("parse");
-    float temp = distance;
-  } else {
-    int sum = ltabel;
-    print(sum);
-    print(label + "yudu");
-    print(enabled);
-  }
-  ltabel = y3;
-} else {
-  if (is_even) {
-    print(lrbel);
-    int lrbel = (30 * y3);
-    print(lrbel);
-  } else {
-    print("token");
-    print(y3);
-  }
-}
-print(label);
-if ((y3 + 25) < 29 + y3) {
-  int steps = y3 + y3;
-  print(steps);
-  label = "pipeline";
-  if (steps - steps != 4 * 20) {
-    int coiurse1 = (steps % 7);
-    print(coiurse1);
-    print(7);
-  } else if (label != "token") {
-    int ies_even = steps;
-    print(ies_even);
-    print(enabled);
-  } else if (is_even) {
-    int count = y3 * y3;
-    print(count);
-    steps = count - steps - steps * 7;
-    count = steps - count + steps;
-  } else if (is_even) {
-    bool ready = y3 <= y3;
-  } else if (is_even) {
-    print(enabled);
-  } else {
-    int age = 19 - y3;
-    print(age);
-    float rate = distance;
-    float mean = rate + distance;
+  for (int lives = 0; lives < 3; lives = lives + 1) {
+    y3 = (y3 * seats2) * (lives / 3);
+    print(distance);
   }
 } else {
-  bool flag1 = 18.5 == (6 + y3);
-  int height = 0;
-  while (height < 3) {
-    print(course1);
-    enabled = height / 5 != 1;
-    height = height + 1;
+  if (label != "done" && 6 == y3) {
+    print(result);
+    int result = (11 - y3);
+    string name3 = label + "done";
   }
 }
-int years3 = y3;
-print(course1);
+if (distance < 28 / 3) {
+  int rounds3 = (y3 * 4);
+  print(rounds3);
+  int rounds1 = 0;
+  for (rounds1 = 0; rounds1 < 4; rounds1 = rounds1 + 1) {
+    print(course1 != "done");
+    print(true);
+  }
+  if (enabled) {
+    enabled = rounds3 / 3 <= (11 + rounds3);
+    print(rounds3);
+  } else {
+    print(distance - 1 >= (22 % 3));
+  }
+} else if (true) {
+  int seats = 14;
+  print(seats);
+  print(enabled);
+} else {
+  enabled = (y3 + 20) == (y3 + y3);
+  if (enabled) {
+    print(y3);
+    mean = mean - y3;
+    print(distance);
+  } else {
+    enabled = distance * mean == 12 * 0;
+  }
+}
+if (19 > 5) {
+  print(y3);
+}
+bool flag3 = enabled || 38 < y3;
+if (!flag3) {
+  bool active = enabled && !enabled;
+} else {
+  int points = (y3 - 31);
+  print(points);
+  flag3 = label != "token";
+}
+print(mean);

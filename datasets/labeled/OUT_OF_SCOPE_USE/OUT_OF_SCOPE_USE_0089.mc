@@ -1,75 +1,76 @@
-int size3 = 7;
-float seze3 = 13.5;
-string name2 = "parse";
-bool sizei = 1.3 >= 5 - size3;
-if (seze3 - size3 < 14 + size3 || sizei) {
-  int count = size3 * 34;
-  int x = 0;
-  while (x < 5) {
-    float balance = seze3 * 23;
-    x = x + 1;
-  }
-  print(count);
-  if (count * 4 >= 25 + 27) {
-    int name2x = count;
-    print(name2x);
-    count = (name2x - 21) + 8 + x;
-    print(sizei);
-  }
-} else if (1.6 * seze3 > 31) {
-  print(name2 + "ok");
+int j = (31 * 11);
+int level = 14 * 26;
+int first = level * 40;
+int items3;
+bool is_even = true;
+print(j);
+for (int nis_even = 0; nis_even < 4; nis_even = nis_even + 1) {
+  int items = (j * 30);
+  print(first);
+  j = (items + 18) % 9;
 }
-if (count * size3 > size3 % 7) {
-  int rounds2 = size3 - 12;
-  if (sizei) {
-    int a = (36 * size3);
-    print(a);
-    size3 = rounds2;
-    print(a);
+if (is_even) {
+  int marks = 19 * level;
+  int is_aven = 0;
+  while (is_aven < 2) {
+    print("yudu");
+    is_aven = is_aven + 1;
   }
-} else if (count / 8 <= (count / 9)) {
-  int height = count + size3;
-  print(height);
-  print(height);
-} else {
-  int name2s = count;
-  print(name2s);
-  if (size3 == 22 % 6) {
-    float size3s = seze3 + 40;
-    size3 = 22;
-    name2 = "yudu";
+  if (29.3 + marks < 14 * items3) {
+    int age1 = is_aven;
+    print(age1);
+    float speed3 = 13.3 * 15.6;
+  } else {
+    int width = 20;
+    print(width);
+    print(items3);
+    width = (first + first) + 35;
   }
-  print(sizei);
-  int days = 0;
-  while (days < 5) {
-    print(size3);
-    days = days + 1;
+} else if (20.8 * 0.7 < level) {
+  print(first);
+  first = items3;
+} else if (is_even) {
+  if (40 > j) {
+    print(marks);
+  } else if ((18 - first) < (items3 % 1)) {
+    print(is_even);
+  } else {
+    print(level - 13);
+    marks = items3 / 2 / 8;
   }
 }
-sizei = 28 > (12 + size3);
-if (24 == (31 + 14)) {
-  int years = size3 * size3;
-  print(years);
-  seze3 = 29.3 + 14.3;
-} else {
-  int sum = 29 + size3;
-  print(sum);
-  int base = 0;
-  while (base < 2) {
-    sizei = 0 + 12 == size3 + 36;
-    print(18 % 1);
-    int width1 = count;
-    base = base + 1;
+if (is_even) {
+  int is_evei = items3;
+  print(is_evei);
+  print(marks < (27 + j));
+  int is_evenx = 0;
+  while (is_evenx < 2) {
+    print(j);
+    print(marks);
+    is_evenx = is_evenx + 1;
   }
-  if (sizei) {
-    print(size3);
+  int is_evsen = 0;
+  for (is_evsen = 0; is_evsen < 4; is_evsen = is_evsen + 1) {
+    items3 = (marks - 3) % 9;
+    int years = is_evenx + 38;
+    print(is_evsen);
+  }
+  print(is_evsen);
+} else {
+  int is_evesn = (first / 2);
+  print(is_evesn);
+  is_evesn = (23 - 19) + (items3 * 11);
+}
+items3 = level;
+level = j / 5;
+print(first);
+if ((first + j) < (40 / 7) || is_even) {
+  int height3 = 2 + marks;
+  int tickets = 0;
+  while (tickets < 5) {
     print("done");
-  } else if (false) {
-    int siezei = (7 + size3);
-    print(siezei);
-    bool valid = size3 < base / 9;
+    marks = (14 - 14) + (tickets + j);
+    tickets = tickets + 1;
   }
 }
-int width = count / 1;
-print(count);
-print(width);
+print(is_even);

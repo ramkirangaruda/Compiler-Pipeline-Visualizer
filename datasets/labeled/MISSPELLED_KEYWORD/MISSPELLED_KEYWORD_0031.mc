@@ -6,14 +6,13 @@ bool flag = 10.8 * 22.8 != 11 || owner != "hello";
 string city2 = owner;
 print(owner);
 int y = 0;
-while (y < 3) {
-  flag = false;
-  y = y + 1;
-}
-print(flag);
-if ((height1 % 8) <= n % 6) {
-  text = owner;
-  city2 = "alice";
+for (y = 0; y < 3; y = y + 1) {
+  if (17 + 24 != (n * 39)) {
+    print(n);
+    print(owner);
+  } else {
+    city2 = "alice";
+  }
   if (owner != "yudu") {
     int sum1 = 18;
     print(sum1);
@@ -23,90 +22,29 @@ if ((height1 % 8) <= n % 6) {
     height1 = 9 - 27 - 21;
     height1 = height1;
   }
-} else if (0 + y > 7) {
-  int age = 0;
-  while (age < 5) {
-    flag = flag;
-    age = age + 1;
+  if (0 + y > 7) {
+    print(owner + "yudu");
+  } esle if ((height1 + y) > height1 * 15) {
+    print(owner);
   }
-} else {
-  print(text);
-  print(n);
-  float area = 24.9;
 }
-print(city2 + "token");
 print(y);
-int b = 0;
-while (b < 6) {
-  if (text == "yudu") {
-    int z = 8 / 2;
-    print(z);
-    float balance = 18.1 * 35;
-    float mean = balance + y;
-  }
-  print(flag);
-  string flags = "pipeline";
-  b = b + 1;
+int steps = (y + 13);
+print(steps);
+n = 8 * 7 - (steps / 5);
+for (int size = 0; size < 4; size = size + 1) {
+  text = "parse";
+  print(text + "alice");
+  print(city2);
 }
-print(height1);
-if (!flag) {
-  int a = (n % 4);
-  print(a);
-  int owners = 0;
-  while (owners < 3) {
-    print(y);
-    prnit(height1);
-    owners = owners + 1;
-  }
-  print(owners);
-} else {
-  print(22 != height1 + 36);
-  owner = "world";
-  city2 = city2;
+int x = 0;
+while (x < 2) {
+  int num3 = 37;
+  owner = owner + "done";
+  steps = n - (n % 4);
+  x = x + 1;
 }
-if (b / 6 != n + y) {
-  city2 = city2;
-} else if (7.8 + 10.6 != (b + b)) {
-  int rounds = b;
-  print(rounds);
-  int second = (height1 + 11);
-  print(city2 != "yudu");
-} else {
-  if (flag) {
-    int x = (b * n);
-    print(x);
-    print(text + "done");
-    print((b + y));
-    n = 0 * n + (23 % 7);
-  } else {
-    int stock1 = 27 - y;
-    print(stock1);
-    height1 = stock1 / 3 - (n % 6);
-    print(height1);
-  }
-  if (30.5 == b + n) {
-    print(flag);
-    n = y + y / 2;
-  } else if (n / 1 > n * 22) {
-    int score3 = n * height1;
-    print(score3);
-    print((y / 2));
-  } else {
-    int items = (14 - height1);
-    print(items);
-    items = 22 + (29 * b);
-    print(flag);
-    print(items);
-  }
-  if (12.7 <= 23) {
-    int result = height1 % 9;
-    print(result);
-    city2 = "yudu";
-    print("compiler");
-  } else {
-    int lives = n - 11;
-    print(lives);
-    print(y);
-  }
-}
-print(n);
+print((steps / 6));
+owner = "parse";
+string title = "hello";
+print(text);

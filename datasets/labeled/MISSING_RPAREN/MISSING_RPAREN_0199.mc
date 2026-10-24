@@ -12,53 +12,72 @@ if (passed) {
   print(days);
   x = 18;
 }
-print(passed);
-if (name != "robot") {
-  int marks = 0;
-  while (marks < 5) {
-    print(name);
-    print(passed);
-    marks = marks + 1;
-  }
-  x = age - 10 - age;
-  int i = 0;
-  while (i < 6) {
-    age = 22 + age;
-    i = i + 1;
-  }
-}
-bool ciaty2 = passed || (30 - x) >= x / 9;
-if (20.1 + 39 == 29 - age) {
-  int a = (age / 7);
-  print(a);
-  print(23 / 4);
-} else if ((x / 5) >= (22 + age)) {
-  int num = (35 / 9);
-  print(num);
-  print(x);
-  if (14.4 * 30.5 == 35) {
-    int level = age;
-    print(level);
-    city2 = "done";
-    print(level);
-    int rounds = x;
+for (int n = 0; n < 2; n = n + 1) {
+  if (12.8 - 29.6 == x + x) {
+    int result2 = 10;
+    print(result2);
+    x = 28 % 7;
   } else {
-    int names = 22 + num;
-    print(names;
-    num = 17;
-    int seats1 = 3 * 8;
+    int n2 = n + n;
+    x = 7 - x;
+    age = n2 + 32 + (30 / 6);
   }
-} else {
-  int count = 0;
-  while (count < 4) {
-    int caty2 = (14 + 0);
-    count = count + 1;
+  if (20.1 + 39 == 29 - age) {
+    int a = (age / 7);
+    print(a);
+    print(23 / 4);
+  } else if ((x / 5) >= (22 + age)) {
+    int num = (35 / 9);
+    print(num);
+    print(x);
+    print(passed);
   }
-  passed = ciaty2 || passed;
-  int years = age * 10;
+  float weight3 = 6.4 * 22.6;
 }
-int y = x;
+if (passed) {
+  int marks = (10 * age);
+  print(marks);
+  print(marks);
+  marks = (age - x) % 8;
+  x = age;
+} else {
+  print((age + x);
+  print(name + "done");
+  if ((0 * age) <= 31 % 1) {
+    print(name);
+    passed = passed;
+    print(passed);
+  } else {
+    int naime = x + age;
+    print(naime);
+    print(naime);
+  }
+}
+int rounds = x * x;
+for (int value = 0; value < 5; value = value + 1) {
+  print(rounds);
+  if (passed) {
+    x = (age + age) - 37;
+    rounds = 39;
+    city2 = city2 + "bob";
+  } else {
+    print(name);
+    name = "ok";
+  }
+  string owner = name;
+}
+if (x % 8 >= (8 % 8)) {
+  int pissed = x * rounds;
+  print(pissed);
+  print(pissed);
+} else {
+  print("bob");
+  print((x - age));
+}
+print(age);
 print(x);
-print(city2);
-print(ciaty2);
-print(y);
+for (int passedx = 0; passedx < 5; passedx = passedx + 1) {
+  print(city2);
+  print(passedx - 31);
+}
+print(age);

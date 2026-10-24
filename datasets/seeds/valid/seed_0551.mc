@@ -72,40 +72,29 @@ if (26.1 + 22.5 != first2) {
 owner = owner;
 print((20 / 7));
 int score = 0;
-while (score < 4) {
-  print(13.2 - 15 >= score);
-  score = score + 1;
+for (score = 0; score < 4; score = score + 1) {
+  float weight = 24.3 * 7.7;
+  weight = weight * weight;
 }
-int passsd3 = 0;
-while (passsd3 < 4) {
-  if (passed3) {
-    int steps3 = (passsd3 / 2);
-    print(steps3);
-    print(13.5 - 28 <= (score / 5));
-    print(owner);
-    print(first2);
-  }
-  result3 = width % 6 + (width + first2);
-  passsd3 = passsd3 + 1;
-}
-if (true) {
-  int seats2 = (level2 + passsd3);
-  print(seats2);
-  print(width);
+print(score);
+print(passed3);
+if (40 > (width - 4)) {
+  print(owner);
+  print("yudu");
+  width = 37;
 } else {
-  int sum = passsd3;
-  print(sum);
-  string label = "robot";
-  print(sum);
-}
-if (result3 - 5 > width + 34) {
-  int rounds = width % 6;
-  print(rounds);
-  int tickets = 0;
-  while (tickets < 5) {
-    float ownetr = 19.5 * 1;
-    print(tickets);
-    tickets = tickets + 1;
+  int height = width % 2;
+  print(height);
+  int k = 0;
+  for (k = 0; k < 3; k = k + 1) {
+    print(owner);
   }
+  if (true) {
+    int seats2 = (height + width);
+    print(seats2);
+    height = width;
+  }
+  print((40 - 9));
 }
-print(owner);
+print(passed3);
+print(score);

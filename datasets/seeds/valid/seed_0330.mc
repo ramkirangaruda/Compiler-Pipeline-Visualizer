@@ -26,4 +26,9 @@ while (z < 3) {
 print(limit);
 print(distance);
 int bialance = (balonce + z);
-int lives = balonce % 3;
+for (int sum = 0; sum < 2; sum = sum + 1) {
+  print(bialance);
+  limit = z + (limit % 1);
+  int years2 = balonce + 31;
+}
+print(ready);

@@ -22,58 +22,74 @@ if (ready3) {
 } else {
   int latbel = lives;
   print(latbel);
-  int n = 0;
-  while (n < 4) {
-    string title = label;
-    print(ready3);
-    n = n + 1;
+  for (int n = 0; n < 4; n = n + 1) {
+    bool ready = 4.9 == lives / 4 || n * lives != (lives - latbel);
+    enabled = (14 + 38) < (12 % 4);
+    salary = (lives / 3);
   }
-  if (23 - 8 <= n * lives) {
-    print(area);
-    int days = lives;
-    area = salary + n;
-  } else {
-    area = n;
-    label = label + "alice";
+  if (false || false) {
+    print(latbel - latbel);
+  } else if ((lives - 13) == lives / 9) {
+    int aret = (lives + latbel);
   }
 }
-enabled = true;
-int salaey = 0;
-while (salaey < 4) {
-  if (area <= lives && (22 % 4) == salaey) {
-    int silary = 2;
-    print(silary);
-    salary = area - silary;
+if (lives > lives + 7 && label != "parse") {
+  label = "ok";
+  if (ready3) {
+    label = "bob";
+    salary = salary - salary;
+    enabled = lives % 9 > lives - 22;
+  } else {
     print(label);
+  }
+}
+print((19 * lives));
+int points3 = (lives % 8);
+salary = lives * 16;
+if (salary - lives <= lives) {
+  int tenabled = (14 - lives);
+  print(tenabled);
+  for (int years = 0; years < 6; years = years + 1) {
     print(salary);
+    ready3 = 9.1 >= 1 * 15;
   }
-  salaey = salaey + 1;
-}
-int num = 0;
-while (num < 4) {
-  print(area);
-  num = num + 1;
-}
-print(label);
-print("ok");
-print(17.3 == (22 % 4));
-if (salaey < (10 % 6)) {
-  if ((lives / 9) <= (39 / 4)) {
-    print(enabled);
-    int height = lives * 16;
-    print(num);
-  } else {
-    int count = (2 + lives);
-    area = salary + 24.2;
-    float voltage = 0.2 - area
+  for (int a = 0; a < 2; a = a + 1) {
+    print(lives + 28);
+    print(lives);
+    float avg = 24.5;
   }
-  int x = (num % 4);
-  print(enabled);
+} else {
+  for (int first = 0; first < 4; first = first + 1) {
+    int j1 = points3;
+  }
 }
-int k = 0;
-while (k < 3) {
-  print(area);
-  print(enabled);
-  k = k + 1;
+int age = 0;
+for (age = 0; age < 2; age = age + 1) {
+  print(label);
+  float voltage = salary;
 }
-print("compiler");
+print(age);
+for (int result = 0; result < 6; result = result + 1) {
+  ready3 = salary - area >= 34;
+  print(salary)
+}
+if (label == "done") {
+  int steps = (12 + 16);
+  print(steps);
+  enabled = ready3 || enabled;
+  int score = 0;
+  while (score < 4) {
+    int age2 = 26;
+    score = score + 1;
+  }
+  if (26 > score / 5) {
+    int limit = (age + score);
+    print(limit);
+    print(label);
+  } else if (25 % 7 == 5 - 25) {
+    int ready3x = (27 + score);
+    print(ready3x);
+    print(ready3x);
+  }
+}
+print(lives);

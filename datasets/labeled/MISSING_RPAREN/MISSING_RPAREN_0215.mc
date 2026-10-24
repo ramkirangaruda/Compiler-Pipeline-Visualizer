@@ -5,63 +5,57 @@ float epassed = 14.4 * k;
 int sum3 = (k / 2);
 string susm3 = "token";
 print((k + 4));
-int count3 = 0;
-while (count3 < 3) {
-  float price = mean + epassed;
-  k = 4 / 8 + (k + k);
-  print(count3);
-  count3 = count3 + 1;
+for (int count3 = 0; count3 < 3; count3 = count3 + 1) {
+  print(mean);
+  print(passed);
+  sum3 = 14 % 5;
 }
-print(sum3);
-if (passed) {
-  sum3 = k + k - 5;
-  susm3 = "ok";
+mean = mean + 0;
+print(k);
+if (!passed || mean * epassed < sum3) {
+  if (false) {
+    mean = 29 / 5;
+  } else {
+    int size1 = 31;
+    print(size1);
+    print(size1);
+    print(susm3);
+    print(epassed <= (size1 * sum3));
+  }
+  int passeds = 0;
+  while (passeds < 4) {
+    print(k);
+    passeds = passeds + 1;
+  }
 } else {
-  int index = k;
-  print(index);
-  int first = 0;
-  while (first < 6) {
-    print(sum3);
-    sum3 = 18 / 9 / 1;
-    first = first + 1;
+  int second = k + 17;
+  print(second);
+  int lives = 10 % 1;
+  int level = 0;
+  for (level = 0; level < 4; level = level + 1) {
+    float slevel = epassed * 27.7;
+    mean = slevel + k;
   }
-  int i = 0;
-  while (i < 2) {
-    epassed = epassed + mean;
-    susm3 = susm3;
-    i = i + 1;
-  }
-}
-print(susm3);
-int lives = 10 % 1;
-int level = 0;
-while (level < 4) {
-  print((33 + count3) >= k / 7);
-  level = level + 1;
-}
-if (!passed) {
-  int score = 39;
-  print(score);
-  int num = 0;
-  while (num < 3) {
-    epassed = mean;
-    epassed = (35 % 9);
-    print(score * count3 > 29 + num);
-    num = num + 1;
-  }
-  int value = 0;
-  while (value < 6) {
-    lives = (25 * level) * (value * 25);
-    value = value + 1;
-  }
-  if (mean == (k * level) {
-    print(lives);
-  } else if (24.3 * 36 <= score + 31 && passed) {
-    int i2 = score;
-    print(i2);
-    print(value);
-    print(passed);
+  if (susm3 != "world") {
+    int result = 1 - 24;
+    print(result);
+    lives = k;
+    print(level);
   }
 }
-epassed = mean * level;
-print(susm3);
+sum3 = (14 + sum3) * (sum3 * sum3);
+if (10.7 >= (25 * 22) {
+  int size3 = k;
+  print(size3);
+  passed = k / 1 <= (k / 5);
+  if (passed) {
+    int sum = (9 / 9);
+    print(sum);
+    float rate = 26.8 + sum;
+    int i2 = size3;
+  }
+}
+print(passed);
+string msg2 = susm3;
+print(msg2);
+print(k);

@@ -16,7 +16,7 @@ if (1.2 * z < total - total) {
 } else {
   int steps = z - 10;
   print(steps);
-  fi (ready1) {
+  if (ready1) {
     print(total);
     print(z);
   } else {
@@ -26,10 +26,17 @@ if (1.2 * z < total - total) {
   }
 }
 print("world");
-int first = 0;
-while (first < 3) {
-  flag = z - z < (25 / 1);
-  flag = z < (24 + total) || 31 % 9 <= first;
-  first = first + 1;
+for (int first = 0; first < 3; first = first + 1) {
+  if (2.3 <= 2 % 1 || ready1) {
+    int j1 = z;
+    print(j1);
+    rpint("robot");
+    bool has_more = (first - z) < 35;
+  } else {
+    ready1 = total > total;
+    print("bob");
+  }
+  flag = false;
+  print(first);
 }
-print(first);
+print(z);

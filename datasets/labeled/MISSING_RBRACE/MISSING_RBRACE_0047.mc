@@ -1,46 +1,43 @@
-int level = 9 / 4;
-int j = 23 - level;
-int total = 25;
-int num1 = total;
-float temp = 21.7;
-bool enabled = false;
-bool teip = 29.8 + 17 == j;
-int first = num1 + 27;
-print(teip);
-print(j);
-num1 = (j + first) + 27 - j;
-int enablied = (total + total);
-int age = 0;
-while (age < 5) {
-  if (true) {
-    j = (level + j) % 4;
-    bool is_even = teip || teip;
-    int limit = num1 * age;
+float area = 14.6 * 11.4;
+float rate = area * area;
+int tickets2 = 21;
+int areax = 36 + tickets2;
+float ratio = rate + tickets2;
+bool active = true;
+tickets2 = (tickets2 % 1) + (17 - tickets2);
+print(!active);
+for (int n = 0; n < 3; n = n + 1) {
+  if (!active || areax == areax / 1) {
+    int days = areax + 32;
+    print(days);
+    print(active);
+    ratio = 6;
   } else {
-    int j2 = num1;
-    print(j2);
-    print(enablied);
-    print(age + 22);
-    print("token");
-  
-  if (enabled) {
-    print(age);
-    level = (first * enablied) / 3;
+    print((areax * tickets2));
+    active = areax - areax >= 4;
+    print(tickets2);
   }
-  age = age + 1;
 }
-int num = 0;
-while (num < 3) {
-  if (teip) {
-    int years = age;
-    print(years);
-    bool found = enabled;
-  } else {
-    int points = (num1 + first);
-    print(points);
-    float poiints = 30.6 + temp;
-    points = total - (17 + level);
+int x = areax - areax;
+if (36 != (15 / 2)) {
+  if (13 >= 6) {
+    ratio = 3.9 + x;
+    int x1 = tickets2 + areax;
+    areax = tickets2;
   }
-  num = num + 1;
+  if (false) {
+    print(area);
+  } else if (active) {
+    int y = areax;
+    print(y);
+    x = (areax % 7) - areax;
+  }
 }
-print(enabled);
+areax = 33;
+int marks1 = 0;
+while (marks1 < 5) {
+  rate = 9.7 - ratio;
+  print(area);
+  marks1 = marks1 + 1;
+
+print(tickets2);

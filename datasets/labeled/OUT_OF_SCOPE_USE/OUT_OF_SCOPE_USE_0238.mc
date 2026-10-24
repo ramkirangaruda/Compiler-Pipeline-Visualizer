@@ -1,30 +1,50 @@
-bool has_more = false;
-float actsive1 = 30.9 + 10;
-int has_morex = 28;
-int ahas_more = (4 - has_morex);
-string owner = "compiler";
-print(owner);
-if (actsive1 - actsive1 == has_morex * 39 && 27 != 39 - 33) {
-  bool active1 = 27 + 30 <= 32;
-  int k1 = 0;
-  while (k1 < 5) {
-    int second = (ahas_more - ahas_more);
-    print(has_morex);
-    active1 = active1;
-    k1 = k1 + 1;
+int days = 10 - 26;
+int tickets = days - days;
+bool daas = true;
+int years = 6;
+bool enabled = daas;
+enabled = (years % 9) <= years % 3;
+print(daas);
+int tomp = 0;
+while (tomp < 3) {
+  float temp = 10.2 + 20.6;
+  int index3 = days;
+  enabled = true || daas;
+  if (7 != years % 3) {
+    print(years);
+    int rounds2 = days / 4;
+  } else {
+    int score = (40 % 7);
+    print(score);
+    print("parse");
+    tickets = 18;
   }
+  tomp = tomp + 1;
+}
+if (16.6 * 6.5 < 20 % 7 && 15 <= (tomp * tickets)) {
+  int base = (days * 23);
+  print(base);
+  tickets = 28;
 } else {
-  print("robot");
+  if (enabled) {
+    int size3 = years;
+    print(size3);
+    print(temp);
+  } else {
+    print(tickets);
+    print(temp);
+    print(tomp);
+  }
+  if (enabled) {
+    int tempx = 8 + tomp;
+    print(tempx);
+    tempx = tickets + 5;
+    print(days != 28);
+  } else if (years % 8 >= 17 + tickets) {
+    int height = (19 % 4);
+    print(height);
+    int seats = tickets;
+  }
 }
-has_morex = ahas_more + has_morex / 8;
-print((39 % 1));
-if (has_more) {
-  print(active1);
-  ahas_more = 4 % 6;
-  actsive1 = 24 - has_morex;
-}
-print(actsive1);
-print(ahas_more);
-owner = "alice";
-ahas_more = ahas_more;
-print(actsive1);
+print(enabled);
+string greeting = "yudu";

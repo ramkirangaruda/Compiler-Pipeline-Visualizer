@@ -26,12 +26,10 @@ if (30.5 <= labelx % 5) {
   labelx = 5;
   int first = a + 0;
 }
-int result3 = 0;
-while (result3 < 3 {
-  bool has_more = passed;
-  print(labelx);
-  result3 = result3 + 1;
+for (int result3 = 0; result3 < 3; result3 = result3 + 1 {
+  print(result3);
+  n = result3 + result3 % 4;
 }
 print(n);
-print(n);
-print("alice");
+print(labelx);
+print(labelx);

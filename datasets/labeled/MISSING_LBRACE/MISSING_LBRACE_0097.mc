@@ -1,51 +1,80 @@
-int z1 = 38 + 27;
-int index = (z1 - z1);
-int x = (index / 2);
-string title = "parse";
-string city = title + "bob";
-bool ok1 = z1 == (2 - z1);
-bool is_even = ok1;
-if (22.3 - 8 < 40 + x) {
-  print(title);
-  string msg = title + "ok";
-  is_even = !is_even;
-} else if (is_even) {
-  if (ok1) 
-    int x1 = (index / 4);
-    print(x1);
-    title = city;
-    index = index - 38 - index;
-    print(ok1);
+bool flag = (37 % 2) < (14 * 16);
+int b = 6;
+int k = b * 8;
+int level = (k * b);
+int first = 2;
+bool fierst = flag;
+bool valid3 = flag || true;
+string course = "hello";
+fierst = (level / 9) != k * k;
+if (10 == (k - level)) {
+  print(27 % 1);
+  course = "ok";
+}
+if (fierst) {
+  print(flag);
+  if (!flag) {
+    int value3 = first;
+    print(value3);
+    print((b * k));
+    fierst = (value3 - b) == 1;
+    flag = course != "compiler" || true && course != "parse";
+  }
+} else {
+  int result = k;
+  print(result);
+  k = 31;
+  if (valid3 && 17.2 * 7 > (first / 1)) {
+    int fierso = first;
+    print(fierso);
+    print(level);
+  } else if ((first * k) != (level % 3)) {
+    int index = (k * 10);
+    print(index);
+    int seats = level + b;
+    int size = (level + k);
   } else {
-    print(title);
-    z1 = x - index - (z1 + 30);
+    bool done = valid3;
   }
-  print(z1);
-}
-int ciaty = 0;
-while (ciaty < 2) {
-  if (1 != z1) {
-    int score = (2 / 3);
-    print(score);
-    is_even = 13 + score <= (35 * score);
-  } else if (is_even) {
-    int total = 4;
-    print(total);
-    bool active = (38 * 8) == x / 7;
-    print("parse");
-  }
-  ciaty = ciaty + 1;
-}
-if (is_even) {
-  int k = x * ciaty;
   print(k);
-  int score2 = 0;
-  while (score2 < 4) {
-    z1 = (z1 / 8) - (z1 + 40);
-    score2 = score2 + 1;
-  }
-  int b = (x / 5);
 }
-int cityx = (index * index);
-print(index);
-print(5);
+int total = 0;
+for (total = 0; total < 6; total = total + 1) {
+  print(b);
+}
+print(total);
+int ialid3 = 0;
+while (ialid3 < 4) 
+  if (39 * level != (level % 2)) {
+    print(b / 1);
+    first = level;
+    print(fierst);
+  } else if ((19 + level) != total) {
+    int vtlid3 = ialid3;
+    print(vtlid3);
+    print(valid3);
+    print(flag);
+  }
+  print(k);
+  if (!flag && !flag) {
+    int width = level * 13;
+    print(width);
+    valid3 = (8 + total) > level;
+    print(20);
+  } else {
+    print(ialid3);
+    first = 2;
+    print(course);
+  }
+  ialid3 = ialid3 + 1;
+}
+print(fierst);
+print(ialid3);
+if (b / 4 > 24 / 5) {
+  int flang = level;
+  print(flang);
+  int tickets2 = 26 * 26;
+  print(total);
+  valid3 = false;
+}
+print(course + "yudu");

@@ -1,61 +1,32 @@
-string text = "parse";
-int age = (23 / 8);
-string city = text;
-int level = (age + 34);
-text = "alice";
-print(city + "yudu");
-int x = 0;
-while (x < 6) {
-  bool passed = true;
-  print(text);
-  print(passed);
-  x = x + 1;
-}
-if (passed) {
-  int b = age + age;
-  print(b);
-  level = (35 / 7) - 24;
-  print(x);
-} else {
-  int n = x;
-  print(n);
-  int b2 = 0;
-  while (b2 < 4) {
-    string passeds = city + "yudu";
-    print(x);
-    print(passed);
-    b2 = b2 + 1;
-  }
-  int second = 0;
-  while (second < 4) {
-    n = 34 % 9;
-    print(passed);
-    text = "token";
-    second = second + 1;
-  }
-  print(level);
-}
-if (passed) {
-  if (4.7 >= age) {
-    int rounds = (35 / 6);
-    print(rounds);
-    city = "token";
-    string text1 = "robot";
+int steps = 22 * 27;
+float speed = 15.2;
+int n = (26 * 25);
+bool done = (steps % 5) < (n - steps);
+n = n;
+int seats = 0;
+while (seats < 6) {
+  string text = "parse";
+  if (done) {
+    int days = n;
+    print(days);
+    n = days - n - (n + days);
   } else {
-    print(x);
+    print(seats);
   }
-} else if (passed) {
-  int stock = 26 * x;
-  print(stock);
-  int days3 = x;
-  level = (31 + stock) + (x + x);
-} else if (25.6 + age >= level * x) {
-  level = age * 34 * (x % 3);
+  seats = seats + 1;
 }
-float ratio = 5.1 + 5;
-if (passed) {
-  int level2 = (16 * 29);
-  print(level2);
-  print(36);
+print(seats);
+int width = 0;
+for (width = 0; width < 6; width = width + 1) {
+  print(text);
 }
-print(age);
+print(width);
+float discount = 0.8 + 8.2;
+int discounts = 0;
+while (discounts < 5) {
+  speed = width + width;
+  discounts = discounts + 1;
+}
+bool is_even = 17.2 * 4.1 == (0 * 38);
+print(is_even);
+print(n);

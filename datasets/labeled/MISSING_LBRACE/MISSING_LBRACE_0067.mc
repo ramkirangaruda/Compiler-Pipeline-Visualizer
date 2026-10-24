@@ -1,26 +1,37 @@
-float avg2 = 4.6 + 39;
-string greeting = "world";
-bool passed = greeting == "world";
-bool done = 33 < 14;
-print((39 % 8));
-print(avg2 <= 35 % 7);
-int b1 = 0;
-while (b1 < 3) {
-  print(passed);
-  if (true) {
-    print(b1);
+string text = "token";
+bool valid = 6 + 0 >= (3 / 1);
+int index = 33 - 14;
+bool found1 = 11.6 + 21.3 > 19 % 3;
+if (text == "done") {
+  for (int i = 0; i < 6; i = i + 1) 
+    print(i);
+    text = text;
+    valid = (4 - index) > 32;
   }
-  greeting = "pipeline";
-  b1 = b1 + 1;
-}
-greeting = "alice";
-print(avg2);
-if (passed) 
-  print(passed);
-  int dones = 0;
-  while (dones < 5) {
-    passed = b1 % 3 > (31 + 30);
-    dones = dones + 1;
+  found1 = (24 + index) != 15;
+} else {
+  int vasid = 0;
+  while (vasid < 3) {
+    found1 = index == vasid;
+    vasid = vasid + 1;
   }
+  found1 = 25 < index;
+  print(valid);
 }
-print(b1);
+float distance = 28.6 + 24.9;
+int count = 0;
+while (count < 2) {
+  float salary = distance - distance;
+  print(count);
+  print(count);
+  count = count + 1;
+}
+if (valid) {
+  int sum = 14;
+  print(sum);
+  sum = index - 19;
+} else {
+  text = "done";
+  print(valid);
+}
+print(distance);

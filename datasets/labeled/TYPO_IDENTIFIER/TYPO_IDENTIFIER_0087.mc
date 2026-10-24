@@ -35,10 +35,15 @@ while (marks2 < 5) {
   marks2 = marks2 + 1;
 }
 if (32 + x != saets && flag) {
-  print((6 / 1));
-  print(seats);
-  print(age);
+  for (int n = 0; n < 2; n = n + 1) {
+    print(flag);
+  }
+  int size = seats;
+  float marks2s = ticketss + 38;
 } else {
-  float label1s = ticketss + 38;
+  ticketss = distaence + 8;
 }
-seats = (8 / 8) - marks2;
+if (true) {
+  print(x);
+}
+print(ticketss);

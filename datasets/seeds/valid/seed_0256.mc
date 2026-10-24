@@ -15,59 +15,47 @@ if (!passed1 || size2 >= size2 % 9) {
   int value = size2 / 3;
   print(value);
   print(passed1);
-  passed1 = 8.2 > (size2 - 27);
-} else if (city != "pipeline") {
-  bool weights = 15 > 11;
+  int height = 0;
+  for (height = 0; height < 6; height = height + 1) {
+    value = 17;
+    print(city);
+    float salary1 = 3.4 + nidth;
+  }
+  print(height);
+} else if (width - size2 == (20 / 5)) {
+  int b = size2;
+  print(speed);
 } else {
-  int weightx = 0;
-  while (weightx < 6) {
-    int num = width % 4;
-    bool speeod = width <= width;
-    speeod = 35 / 8 == size2;
-    weightx = weightx + 1;
+  city = "done";
+  if (passed1 || nidth - speed == width) {
+    float discount = 28.2 - speed;
+    float area = 8.9;
   }
-  float voltage = nidth * 22;
 }
-int marks = 0;
-while (marks < 3) {
-  nidth = (11 + marks);
-  speed = 30;
-  if (city != "world") {
-    print(28);
-    int spaeed = (width + 23);
-    spaeed = width;
-  } else {
-    print(weight);
-    print(width);
-    int z = width;
-  }
-  marks = marks + 1;
+int n3 = 0;
+for (n3 = 0; n3 < 3; n3 = n3 + 1) {
+  print(30 < 3 + width);
+  int days2 = size2;
+  int level = (29 - size2);
 }
-print((width + size2));
-int j = 11;
-if (30.2 + weight > 5 + 15) {
-  int tickets = (10 / 6);
-  print(tickets);
+print(n3);
+if (9 - n3 == n3) {
+  int total = width * width;
+  print(total);
+  string text2 = city + "parse";
+} else if ((11 + width) != 33 + 32) {
+  int seats = width;
+  print(seats);
+  speed = 0 % 8;
+  print(city);
+} else {
   int days = 21;
+  print(days);
   print(size2);
+  print(city);
+  int weightx = (13 - 22);
 }
-if (nidth - j > size2 * 13) {
-  int lives = 0;
-  while (lives < 6) {
-    city = "token";
-    lives = lives + 1;
-  }
-  if (passed1) {
-    print(j);
-    string title = city + "done";
-    print(weight);
-  } else {
-    int level = 32 % 9;
-    print(level);
-    int size = (size2 / 8);
-    print(passed1);
-    int score2 = (level + 9);
-  }
-  print(width);
-}
-print(nidth);
+nidth = size2;
+print(width - 40);
+print(city);
+print((20 + width) >= (size2 / 4));

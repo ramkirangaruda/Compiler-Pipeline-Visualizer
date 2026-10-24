@@ -1,57 +1,60 @@
-int n3 = 28;
-string course = "done";
-int z2 = n3 % 7;
-int age = (n3 + n3);
-string word2;
-string label = "bob";
-print(z2);
-if (z2 - age == n3) {
-  bool enabled = true;
-  int courses = z2;
-  print(courses);
-  if ((courses * age) == (z2 + age)) {
-    int level = 14;
-    z2 = 0;
-    print(n3);
-  }
-  age = courses % 6;
+float discount = 7.7 + 11.6;
+float avg3 = discount - 6.4;
+int width = 1 + 6;
+int limit2 = (width + width);
+bool passed = width - 12 < (width % 9);
+string title3 = "world";
+print(width);
+int n = (limit2 + limit2);
+print(width);
+int size = width / 7;
+if (17.9 != size) {
+  float avg = 29.8 - discount;
+  avg = discount;
 } else {
-  float area = 4.8 + age;
-  print(course);
-}
-int stock = (33 - z2);
-print(true);
-if (10.4 != (20 - 14)) {
-  int a = (stock % 5);
-  print(a);
-  if (!enabled && 8.9 + 37 < (z2 + 29)) {
-    int steps = (36 % 5);
-    print(steps);
-    enabled = false;
+  int num3 = limit2 / 9;
+  print(num3);
+  print(size);
+  if ((limit2 * n) <= (22 % 1)) {
+    int a = (width * width);
+    string word = title3;
   } else {
-    int count3 = stock + 19;
-    print(count3);
-    print(z2);
-    n3 = count3;
+    print(limit2);
+    avg = avg3 * n;
+    print("parse");
   }
-  int level3 = 0;
-  while (level3 < 6) {
-    word2 = "ok";
-    int nenabled = (8 / 4);
-    level3 = level3 + 1;
+  if (false) {
+    int size3 = num3 / 5;
+    print(size3);
+    int marks = 38;
+    print(avg - marks >= (limit2 % 6));
+  } else if (passed) {
+    int first = 26 * num3;
+    print(first);
+    print(n);
+  } else if ((limit2 + limit2) != width / 3) {
+    n = (n + 27) + (n - limit2);
+  } else {
+    int points = num3;
+    print(points);
+    print((points + 17));
   }
-  if ((22 - 0) <= age) {
-    word2 = "token";
+}
+title3 = title3;
+print(avg);
+avg = avg3 + 27.2;
+if (passed) {
+  int ivg = 0;
+  while (ivg < 4) {
+    avg3 = 2 % 8;
+    ivg = ivg + 1;
+  }
+} else if (!passed) {
+  for (int result = 0; result < 6; result = result + 1) {
+    title3 = title3 + "done";
   }
 } else {
-  int width = (11 * 6);
-  print(width);
-  z2 = 36 + age - 8 / 9;
+  print(discount);
 }
-if (true) {
-  word2 = "hello";
-  print(label);
-  bool passed = (10 - 11) > stock;
-} else {
-  print(30 < n3);
-}
+float limite2 = avg3 - width;
+print(limite2);

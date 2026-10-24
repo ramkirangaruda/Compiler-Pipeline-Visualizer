@@ -4,40 +4,37 @@ int z = width1;
 bool is_even = 7.4 * years >= (11 * 27) && years * 32 >= years;
 string greeting = "alice";
 greeting = "alice";
-int gaeeting = 0;
-while (gaeeting < 3) {
-  print(gaeeting);
-  bool passed = false;
-  is_even = passed;
-  gaeeting = gaeeting + 1;
+for (int gaeeting = 0; gaeeting < 3; gaeeting = gaeeting + 1) {
+  years = gaeeting * (gaeeting + years);
 }
-print(width1);
-print(z);
-int score1 = 0;
-while (score1 < 4) {
-  z = width1 % 2 / 4;
-  score1 = score1 + 1;
-}
-if (!is_even) {
-  if (29.2 * 17.1 != (years + 31)) {
-    int num = (2 * 29);
-    is_even = is_even;
-  }
-} else if (!is_even) {
-  int greetiag == (gaeeting * score1);
-  print(greetiag);
-  greetiag = 4 / 5 + 29 % 2;
-  int stock1 = 0;
-  while (stock1 < 4) {
-    print(stock1);
-    stock1 = stock1 + 1;
+print(is_even);
+if (is_even && is_even) {
+  if ((35 % 4) != years) {
+    int is_evens = width1 + z;
+    print(is_evens);
+    print(is_even);
   }
 } else {
-  int result = (gaeeting * 25);
-  print(result);
-  int iss_even = 7;
-  bool valid = 10.6 * 18.7 == iss_even / 8;
+  int index = (z + 2);
+  print(index);
+  greeting = "ok";
+  int n = 2 * 26;
 }
-width1 = width1;
-print(greeting);
-print(score1);
+int first = 0;
+for (first = 0; first < 5; first = first + 1) {
+  years == width1;
+  print(first);
+}
+int count = 5;
+if (width1 != (z + first)) {
+  int width = 11 / 8;
+  print(width);
+  count = width / 6 - width;
+  print(greeting);
+} else {
+  string yeaars = "yudu";
+}
+for (int second = 0; second < 4; second = second + 1) {
+  greeting = "bob";
+}
+print("parse");

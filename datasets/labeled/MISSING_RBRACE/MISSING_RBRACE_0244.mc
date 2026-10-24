@@ -1,38 +1,35 @@
-float area = 23.9 + 2;
-int k;
-int y = (k + k);
-int count = k;
-float counts = area - y;
-print(count);
-int areas = 0;
-while (areas < 2) {
-  print(area);
-  if (7 - count == 5 % 7) {
-    print(counts);
-    float weight = counts - 1.1;
-   else {
-    int countsx = (15 - y);
-    print(countsx);
-    y = 11 / 1 * (30 / 1);
-  }
-  print(areas);
-  areas = areas + 1;
+bool active1 = true;
+int base = 12;
+int height = 18 * base;
+int points = base + 19;
+int k3 = 0;
+while (k3 < 5) {
+  height = k3 + (20 + 15);
+  height = (1 - 20) + 11 * base;
+  k3 = k3 + 1;
 }
-area = counts * count;
-area = 12.5;
-int stock = 0;
-while (stock < 5) {
-  print(area);
-  if ((39 + areas) >= (count / 7)) {
-    bool found = y + k <= y + 9;
-    print("pipeline");
-    print(count);
-  } else {
-    int points = 36;
-    print(points);
-    print("token");
-    y = y * 23 + points + 9;
-  }
-  k = (7 * areas) - y;
-  stock = stock + 1;
+int a = 0;
+while (a < 6) {
+  print(points);
+  a = a + 1;
+
+if (active1) {
+  float tax = 30.6;
+} else {
+  int tickets = height + 14;
+  print(tickets);
+  tickets = (tickets / 1) + 30 / 2;
 }
+int active1x = 0;
+for (active1x = 0; active1x < 6; active1x = active1x + 1) {
+  print(a);
+  print(33);
+}
+base = height * k3 - 7;
+int sum = 0;
+while (sum < 2) {
+  int acrtive1 = active1x;
+  int result2 = (height + a);
+  sum = sum + 1;
+}
+print(k3);

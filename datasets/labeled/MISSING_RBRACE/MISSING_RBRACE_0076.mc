@@ -1,60 +1,49 @@
-float salary = 26.9 - 7.7;
-bool salarys = 10 >= 34;
-string name = "pipeline";
-bool done = salary * salary <= 0 * 29;
-bool valid = salary + 30 == (31 + 21) || 25 == (27 % 1);
-if (26 + 39 != 31) {
-  print(done);
-} else {
-  salarys = (31 + 10) > 8 + 37;
-  print(salarys);
+string label = "token";
+int labels = (13 - 34);
+int items;
+float area = 30.7;
+bool ready1 = (items - items) >= 16 - 28;
+string greeting = label + "ok";
+int index = 0;
+while (index < 4) {
+  greeting = greeting;
+  index = index + 1;
 }
-if (true && (11 - 40) >= (13 - 4)) {
-  float distance = salary;
-  done = 13.6 + 0.9 >= 30 / 7;
-  print("alice");
+print(greeting);
+area = 24.1 - labels;
+int k2 = 0;
+while (k2 < 6) {
+  print(index);
+  greeting = "compiler";
+  k2 = k2 + 1;
+}
+items = k2 % 2 - (8 + 18);
+if (ready1) {
+  int num = (items / 7);
+  print(num);
+  print(ready1);
+  ready1 = ready1;
+  label = "done";
 } else {
-  if ((8 % 8) <= 20 - 30) {
-    print(valid);
-    print(salary);
+  int y = 17;
+  print(y);
+  int size = 0;
+  while (size < 5) {
+    string owner = "pipeline";
+    size = size + 1;
+  }
+  print(label);
+  if (ready1) {
+    int y1 = index;
+    ready1 = 11 != (19 / 1);
+  } else if (area + area != (y / 7)) {
+    int age = (labels + size);
+    print(age);
+    print(items - 35);
+  } else if (index > (labels + 6)) {
+    int count = 29;
+    print(count);
+    print(labels);
   
 }
-int donse = 0;
-while (donse < 6) {
-  salarys = valid;
-  donse = donse + 1;
-}
-done = 27 * 17 >= 33;
-if (salarys) {
-  int seats = (32 * donse);
-  print(seats);
-  if (seats + seats > (26 % 3)) {
-    name = "bob";
-    print(salarys);
-    print(salarys);
-  } else if (4 / 4 != (donse * donse)) {
-    print(salary);
-    done = donse == (39 / 8);
-  } else {
-    int stock2 = donse;
-    print(stock2);
-    float area1 = salary - salary;
-  }
-} else {
-  int namex = 0;
-  while (namex < 6) {
-    salary = namex - donse;
-    valid = namex + 4 < (13 / 6) || salarys;
-    salarys = namex - 2 > (5 * donse);
-    namex = namex + 1;
-  }
-  if ((donse + 31) <= 27 % 1) {
-    done = namex + namex < 9;
-    done = name == "token";
-    print("world");
-  } else {
-    salary = donse;
-    print(name);
-  }
-  print(namex);
-}
+print(labels - 32);

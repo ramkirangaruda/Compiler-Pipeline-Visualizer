@@ -1,100 +1,45 @@
-string label = "alice";
-bool labsel = label == "token";
-bool passed = (37 + 17) >= 5 / 6;
-int age1 = 9 - 39;
-int k = age1;
-bool has_more = passed;
-bool valid = 0.1 <= (23 / 2);
-if (true) {
-  int a = 0;
-  while (a < 3) {
-    print(labsel);
-    a = a + 1;
-  }
-} else 
-  int limit = 3;
-  print(limit);
-  print(passed);
-  valid = k * 16 <= 30 / 2;
-  if (valid && 5.9 == 26 + 19) {
-    print(age1 * limit > (37 + age1) || passed);
-    limit = age1 / 5 + 3 + limit;
-    has_more = age1 >= (32 - k);
-  } else {
-    int first = (limit / 2);
-    print(first);
-    first = k;
-    passed = (8 / 9) > k - k;
-  }
-}
-age1 = k + 0 + k - age1;
-label = "yudu";
-print(age1);
-if (!labsel) {
-  int seats1 = 2 * age1;
-  print(seats1);
-  if ((k + k) <= 31 - age1) {
-    int nabsel = k % 4;
-    print(nabsel);
-    valid = passed;
-    k = (23 + nabsel) + (age1 * 1);
-  }
-  if (label == "bob") {
-    int has_sore = k;
-    print(has_sore);
-    valid = 12.2 > seats1 - k;
-    string greeting = label;
-  } else {
-    print("bob");
-    print(age1);
-  }
-  if ((k / 4) >= (age1 % 7)) {
-    print(valid);
-    print((k + age1));
-    print(passed);
-  } else {
-    string title = "yudu";
-    age1 = age1;
-  }
-}
-if (12.8 - k > k % 9) {
-  int age = 0;
-  while (age < 5) {
-    float temp = 1.3;
-    string word = label + "alice";
-    age = age + 1;
-  }
-  k = 18 % 2 * 5;
-} else {
-  print(passed);
-  print(age1);
+string greeting = "bob";
+bool found3 = true;
+int seats = (37 - 12);
+string label = "world";
+int days = seats;
+bool greetnng = days / 7 < (11 * seats);
+bool done3 = false;
+string owner = "ok";
+print(done3);
+print(label);
+int count3 = 0;
+while (count3 < 4) {
+  greeting = "pipeline";
   print(label);
+  print(greeting);
+  count3 = count3 + 1;
 }
-k = 22;
-if ((36 + age1) == age1 * age1) {
-  int sum3 = 0;
-  while (sum3 < 3) {
-    labsel = sum3 != 29 - age1;
-    sum3 = sum3 + 1;
-  }
-  int size = (sum3 * 37);
-  print(valid);
-}
-if (false) {
-  print(label);
-  print(passed);
-} else {
-  if (39 + k != (k + 26)) {
-    int items = (age1 - k);
-    print(items);
-    print(k);
-  } else if (label == "bob") {
-    int index = 8;
-    print(index);
-    print("robot");
+for (int age = 0; age < 6; age = age + 1) {
+  if (36 % 2 >= (days * count3)) {
+    int steps = (34 * 31);
+    print(steps);
+    done3 = label == "hello";
+    print(owner);
+    float salary = 16.2 * seats;
   } else {
-    int points = (age1 * k);
-    print(passed);
+    int greetinn = (4 + 36);
+    print(greetinn);
+    owner = "compiler";
+    label = label;
+  }
+  float area = 26.3 + 16.5;
+}
+print(seats);
+print((14 % 8));
+if (greeting != "alice") {
+  int laebel = 0;
+  while (laebel < 5) 
+    greetnng = false;
+    int frund3 = (count3 * 28);
+    laebel = laebel + 1;
   }
 }
-print((30 % 6));
+string text1 = label;
+print(days);
+print(label);

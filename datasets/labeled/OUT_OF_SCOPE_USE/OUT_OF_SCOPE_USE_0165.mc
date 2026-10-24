@@ -1,47 +1,51 @@
-float salary1 = 25.3 - 12.1;
-int first3 = 28 % 8;
-bool found = 14.4 - 35 > (15 % 2) || (first3 / 8) < 28;
-float mean = salary1 + salary1;
-bool ok = !found || !found;
-if (salary1 - first3 != 31) {
-  string title = "parse";
-  int second = 21;
-  print(second);
-  print(ok);
-  mean = 11;
-}
-print(ok);
-if (mean + first3 >= 11) {
-  int width = first3 - first3;
-  print(width);
-  print(salary1);
-  if (title == "robot") {
-    width = (width % 6) / 5;
-    print(width);
-    print(ok);
-  } else if (mean > 20 * 11) {
-    int years = (first3 + width);
-    print(years);
-    print(title);
-  } else {
-    int marks1 = 33;
-    print(marks1);
-    print(mean);
-    print(marks1 <= width);
-    print(ok);
+int lives2 = 14 + 2;
+bool ready3 = 26.2 * lives2 != lives2 * 20;
+int seats = lives2 + 14;
+int days = (2 / 7);
+bool flag = ready3;
+if (ready3) {
+  int height = 21;
+  print(height);
+  int points = 0;
+  while (points < 3) {
+    print(days);
+    points = points + 1;
+  }
+  int lives = 0;
+  while (lives < 4) {
+    seats = (seats + 6) / 5;
+    lives = lives + 1;
   }
 }
-string course = title;
-mean = 17.5;
-if (24.4 <= (first3 % 3)) {
-  int steps3 = 0;
-  while (steps3 < 5) {
-    print(33);
-    course = "bob";
-    steps3 = steps3 + 1;
+seats = lives2;
+if (flag) {
+  string title3 = "done";
+  seats = 4 + lives2 / 2;
+  if (29.7 + 0.7 >= (4 % 6)) {
+    print(lives2);
+    print(title3);
+    print(days);
   }
-} else {
-  title = "alice";
-  bool has_more = 13 >= first3 / 1;
+} else if (title3 != "token") {
+  ready3 = ready3;
+  bool valid = lives2 / 2 <= 27;
 }
-print(first3);
+int x = 0;
+while (x < 2) {
+  print(ready3);
+  x = x + 1;
+}
+int limit = 0;
+while (limit < 6) {
+  print(ready3);
+  if (title3 != "bob") {
+    ready3 = flag;
+  }
+  int items = x;
+  limit = limit + 1;
+}
+days = (14 * 0) - lives2;
+if ((limit / 5) > x + 23 || !ready3) {
+  print(limit);
+}
+print(title3);

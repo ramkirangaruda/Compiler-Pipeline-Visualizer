@@ -20,8 +20,7 @@ if (balance3 * base1 > 22) {
   base1x = "hello";
 }
 y = (y - y) * (base1 + base1);
-int marks1 = 0;
-while (marks1 < 5) {
+for (int marks1 = 0; marks1 < 5; marks1 = marks1 + 1) {
   int base1xx = (39 / 3);
   print(base1);
   if (owner != "alice") {
@@ -33,14 +32,24 @@ while (marks1 < 5) {
     print("robot");
     bool is_even = true;
   }
-  marks1 = marks1 + 1;
 }
-print(size);
-int result = 0;
-while (result < 2) {
-  print(y);
-  int index = result;
-  result = result + 1;
+int x = 0;
+for (x = 0; x < 2; x = x + 1) {
+  if ((29 + y) == y % 6) {
+    bool sizesx = false;
+    y = base1 + (36 + size);
+    int num = base1 + 6;
+  } else {
+    base1x = owner;
+    base1x = "parse";
+  }
+  if (true) {
+    owners = owners + x * (8 / 1);
+    print(size);
+    float avg2 = 22.2 * 23.9;
+  }
 }
-owners = (0 + size) + (size + 9);
-print(owner);
+print(x);
+print(true);
+print(sizes);
+print(base1);

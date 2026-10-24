@@ -1,22 +1,35 @@
-int years = 22 - 27;
-string word = "world";
-int index = 40 + years;
-float voltage = 10.5;
-float indsx = voltage + index;
-index = index;
-print(years);
-int voltagie = 0;
-while (voltagie < 3) {
-  if (indsx == (26 % 5)) {
-    int k = voltagie % 1;
-    print(k);
-    string volnage = "ok";
-    word = "token";
+int total = 15;
+string course2 = "hello";
+int sum = (15 + 26);
+bool valid = false;
+string greeting = course2;
+print(greeting);
+course2 = "bob";
+if (greeting != "parse") {
+  if (0 >= (sum / 8)) {
+    total = 21 + (8 / 4);
+    print(total);
+  } else {
+    int coursie2 = total;
+    print(coursie2);
+    sum = 8 + 7;
+    print(total);
+  }
+  print(total);
+} else {
+  int marks = sum;
+  print(marks);
+  print(marks);
+  int a = 0;
+  for (a = 0; a < 6; a = a + 1) {
+    int base2 = a % 2;
+    print(valid);
   
-  word = "yudu";
-  voltagie = voltagie + 1;
+  print(a);
+  total = (sum % 4) + (13 + total);
 }
-print(voltagie);
-print("ok");
-print(years);
-print(indsx);
+print(valid);
+sum = sum;
+valid = !valid;
+total = total;
+print((sum - sum));

@@ -1,47 +1,32 @@
-float salary2 = 16.3 + 0.4;
-int i3 = (33 * 16);
-string salaro2 = "world";
-int salarry2 = i3 - i3;
-float area = 23.1 + salary2;
-string salarre2 = "token";
-int steps = 0;
-while (steps < 5) 
-  i3 = salarry2 + salarry2 / 6;
-  print(i3);
-  steps = steps + 1;
+int tickets = 12 % 2;
+int height = tickets;
+float weight = 22.2;
+float tax = 5.2 * height;
+int marks3 = (36 / 6);
+int x = height;
+bool enabled = true;
+string city3 = "parse";
+tickets = 24 % 2;
+int rounds = 0;
+while (rounds < 6) {
+  int marks = (6 / 2);
+  rounds = rounds + 1;
 }
-print("pipeline");
-string msg = salaro2;
-if (salarry2 - i3 > (salarry2 + 18)) {
-  if (salary2 * salary2 >= (11 + i3)) {
-    int salarret = 26 % 5;
-    print(salarret);
-    print(salarry2);
-    print(salarry2);
-    print(i3);
-  } else if (steps < i3) {
-    print(i3 >= 13 * salarry2);
-    salarry2 = (i3 - 5) + salarry2;
-  }
-  if (salary2 + 38 >= i3 % 3) {
-    int size = steps;
-    print(size);
-    salary2 = salary2;
-    salary2 = (size - 34);
-  } else {
-    print((salarry2 * salarry2));
-  }
+if ((34 + marks3) >= rounds) {
+  print(tickets);
+} else if ((rounds % 8) < 29 + 22) {
+  print(rounds);
+  marks3 = marks3;
 } else {
-  int limit = (9 - 33);
-  print(limit);
-  float temp = salary2 * i3;
-  print(salaro2);
-  int num = 0;
-  while (num < 5) {
-    print(msg);
-    num = num + 1;
-  }
+  x = (5 * 37) - (rounds * height);
 }
-int lives = i3;
-print(salary2);
-print(area);
+int oax = 0;
+while (oax < 2) 
+  print(tickets);
+  oax = oax + 1;
+}
+for (int first = 0; first < 2; first = first + 1) {
+  int j = (32 + first);
+}
+int result = (tickets + 10);
+print(enabled);

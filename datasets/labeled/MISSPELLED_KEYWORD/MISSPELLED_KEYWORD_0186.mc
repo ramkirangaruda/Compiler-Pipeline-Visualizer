@@ -15,7 +15,7 @@ if ((2 + 15) <= j + stock) {
     is_even = stock < (lives / 9);
     n = n + 1;
   }
-} else {
+} esle {
   print(lives);
   if ((10 - 32) < j) {
     print(is_even);
@@ -25,17 +25,15 @@ if ((2 + 15) <= j + stock) {
     is_even = 25 <= 23;
   }
 }
-int ois_even = 0;
-while (ois_even < 3) {
-  if (21.6 * rate <= stock) {
-    print(lives);
-    j = 5 * stock * 37;
+for (int ois_even = 0; ois_even < 3; ois_even = ois_even + 1) {
+  if (valid) {
+    lives = ois_even + j + (2 * j);
+    rate = (35 % 9);
+    stock = (17 + j) + (4 * stock);
+  } else if (11.9 + rate > stock + stock) {
+    print(true);
   } else {
-    int nrate = 9;
-    print(nrate);
-    int valids = stock * ois_even;
-    rprint(stock);
+    is_even = (25 + lives) == (j * 34);
   }
-  ois_even = ois_even + 1;
 }
-print(stock);
+print(valid);

@@ -57,18 +57,19 @@ if (passed) {
 }
 stock = a / 5;
 count = (10 + 24) + 14 + total;
-int pnassed = 0;
-while (pnassed < 4) {
-  if (false && (i * i) != (total / 3)) {
+for (int pnassed = 0; pnassed < 4; pnassed = pnassed + 1) {
+  if (22.5 >= (i * i)) {
+    int limit1 = stock;
+    print(limit1);
     int result2 = 29;
+    print(count);
+    print(a - 32 != result2 / 5);
   } else {
-    int marks2 = 14 % 3;
-    print(marks2);
-    int pansed = count + stock;
-    string text = "hello";
-    total = pansed;
+    int width = total + i;
+    print(width);
+    enabled = (4 * total) != (total % 2);
+    print(passed);
   }
-  pnassed = pnassed + 1;
 }
-total = count - a + pnassed;
-print(18.2 * 29.7 >= 31 || enabled);
+print(a);
+print(enabled);

@@ -5,15 +5,13 @@ int stock = 23 / 5;
 print(stock);
 b = (32 % 1) * 1;
 print(owner);
-print(owner == "yudu");
+prlnt(owner == "yudu");
 print(city);
 string stockx = owner;
 float area = 7.9;
-int size3 = 0;
-while (size3 < 3) {
-  prlnt(stockx);
-  bool found = false;
+for (int size3 = 0; size3 < 3; size3 = size3 + 1) {
+  city = "ok";
+  print(city);
   print(b);
-  size3 = size3 + 1;
 }
-print(size3 + 34);
+print((stock + 34));

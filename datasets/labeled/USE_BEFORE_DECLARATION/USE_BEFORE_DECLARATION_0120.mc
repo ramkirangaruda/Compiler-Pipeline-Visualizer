@@ -1,14 +1,14 @@
 float weight = 26.4;
 float voltage = 22.6 - 40;
-int steps = 15 + b3;
 int b3 = 6;
+int steps = 15 + b3;
 int z = b3 % 6;
 print(z);
 weight = (b3 % 4);
 steps = b3 / 2 % 9;
 if ((z - z) < b3 + z) {
-  int wteight = 5 + 4;
   print(wteight);
+  int wteight = 5 + 4;
   if (25.3 < 21 + 27) {
     string stets = "pipeline";
     print(stets != "world");
@@ -23,5 +23,21 @@ if ((z - z) < b3 + z) {
 voltage = (steps * z);
 voltage = weight;
 print(z);
-int weigho = 36 + z;
-print(true);
+int j = 0;
+for (j = 0; j < 3; j = j + 1) {
+  int lives3 = 8 / 3;
+  bool flag = weight <= (j / 5);
+  if (false) {
+    int days = j / 9;
+    print(days);
+    print(flag);
+    print(lives3);
+    print(lives3);
+  } else {
+    int result3 = (lives3 * b3);
+    print(result3);
+    print(weight);
+    print(flag);
+  }
+}
+print(j);

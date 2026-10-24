@@ -21,55 +21,32 @@ if (false) {
   }
 }
 int base = 0;
-while (base < 5) {
-  print(passed);
-  width = (width % 9) * base;
-  base = base + 1;
+for (base = 0; base < 5; base = base + 1) {
+  bool ok = passed;
 }
-print(width);
-print(width - 37);
-if (!passed) {
-  print(passed);
-  int passeds = 0;
-  while (passeds < 3) {
-    print(width);
-    passed = 11.3 - 16 < (passeds * 12);
-    passeds = passeds + 1;
+for (int marks1 = 0; marks1 < 2; marks1 = marks1 + 1) {
+  width = width - 37 / 2;
+  if (!passed) {
+    print(passed);
+    passed = 30 == marks1 + marks1;
+    print(marks1);
+  } else {
+    int index = 14;
+    print(index);
+    print(marks1);
   }
-  int n3 = 0;
-  while (n3 < 6) {
-    print(passeds);
-    passed = 14.5 * 5.5 >= (11 % 1);
-    n3 = n3 + 1;
-  }
-} else {
-  int index = k;
-  print(index);
-  int size = 0;
-  while (size < 4) {
-    int j = size - base;
-    int acourse = 40 / 6;
-    j = k / 6
-    size = size + 1;
-  }
-  int years1 = 0;
-  while (years1 < 3) {
-    print(width);
-    years1 = years1 + 1;
-  }
-  print((width - 32) != base);
 }
-int items = 0;
-while (items < 4) {
-  print(items);
-  course = "world";
-  items = items + 1;
+k = width - 40 * width;
+for (int num = 0; num < 4; num = num + 1) {
+  print(k);
 }
-int value1 = 0;
-while (value1 < 2) {
-  passed = (base + 3) >= base * 36;
-  width = (width * 29) / 9;
-  value1 = value1 + 1;
+for (int aourse = 0; aourse < 4; aourse = aourse + 1) {
+  k = width + 23 * base;
 }
-width = items;
-print(34 / 5);
+int items = 0
+for (items = 0; items < 4; items = items + 1) {
+  print((items + 7));
+  float widsh = 17.9;
+  print(course);
+}
+width = (18 + 13) - 37;

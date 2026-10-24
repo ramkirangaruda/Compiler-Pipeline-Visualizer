@@ -1,34 +1,43 @@
-int years = (36 * 33);
-int age = (32 - years);
-float area = 5.5;
-string areas = "alice";
-int tickets = age + age;
-int first1 = 35 % 3;
-bool passed2 = 2 * years < 20 + 35;
-print(passed2);
-area = area + 11.7;
-print(areas);
-years = 35 * age % 7;
-if (true) {
-  int n = first1;
-  print(n);
-  int lives = 0;
-  while (lives < 4) 
-    areas = "alice";
-    int i = (15 * tickets);
-    lives = lives + 1;
+bool ok3 = 4.2 < 20;
+int k = 15;
+int x = (k / 2);
+bool found = ok3;
+bool valid = (x - k) <= k;
+int vsalid = (k % 9);
+bool enabled = 31 + 24 != (x - vsalid);
+string text2 = "robot";
+vsalid = 6;
+if (13 + vsalid != 18) 
+  int base = x + x;
+  print(base);
+  int num = 0;
+  while (num < 2) {
+    vsalid = vsalid / 8;
+    print(valid);
+    num = num + 1;
+  }
+  enabled = text2 == "world";
+  print(k / 4 > (vsalid / 9));
+} else if (enabled && !found) {
+  int fouind = vsalid * x;
+  print(fouind);
+  if (27.3 - 27.8 < 7 - x) {
+    int a = 6 * fouind;
+    print(a);
+    print(fouind);
+    string greeting = "compiler";
+  }
+  for (int y = 0; y < 5; y = y + 1) {
+    text2 = "bob";
   }
 } else {
-  int aneas = years;
-  print(aneas);
-  int paassed2 = 23 / 4;
-  float voltage = area + 32;
-  int x = 0;
-  while (x < 3) {
-    print(tickets);
-    print(tickets);
-    x = x + 1;
-  }
+  print(found);
 }
-passed2 = tickets - years >= 38 + years;
-print(years);
+print(text2);
+print(enabled);
+int items1 = 0;
+for (items1 = 0; items1 < 6; items1 = items1 + 1) {
+  print(valid);
+  int base2 = x;
+}
+print(text2);

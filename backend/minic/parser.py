@@ -6,12 +6,14 @@ index of the offending token. Those facts are the raw material of the ML
 feature extractor.
 
     program   -> stmt* EOF
-    stmt      -> decl | assign | print | if | while | block
+    stmt      -> decl | assign | print | if | while | for | block
     decl      -> TYPE IDENT ( '=' expr )? ';'
     assign    -> IDENT '=' expr ';'
     print     -> 'print' '(' expr ')' ';'
     if        -> 'if' '(' expr ')' block ( 'else' ( if | block ) )?
     while     -> 'while' '(' expr ')' block
+    for       -> 'for' '(' (decl-no-';' | assign-no-';') ';' expr ';' assign-no-';' ')' block
+                 (desugared here to  { init; while (cond) { body; step } }, so every later phase is unchanged)
     block     -> '{' stmt* '}'
     expr      -> or ; or -> and ('||' and)* ; and -> eq ('&&' eq)*
     eq        -> rel (('=='|'!=') rel)* ; rel -> add (('<'|'>'|'<='|'>=') add)*
@@ -107,6 +109,8 @@ class Parser:
                 return self.parse_if()
             if t.value == "while":
                 return self.parse_while()
+            if t.value == "for":
+                return self.parse_for()
             if t.value == "print":
                 return self.parse_print()
             raise self.fail(["statement"], "statement", unexpected=True)  # stray 'else'
@@ -116,25 +120,26 @@ class Parser:
             return self.parse_assign()
         raise self.fail(["statement"], "statement", unexpected=True)
 
-    def parse_decl(self) -> A.VarDecl:
+    def parse_decl(self, in_for: bool = False) -> A.VarDecl:
         ty = self.advance()
-        name = self.expect("IDENT", ctx="decl_name")
+        name = self.expect("IDENT", ctx="for_decl_name" if in_for else "decl_name")
         init = None
         if self.at("OP", "="):
             self.advance()
             init = self.parse_expr()
-        semi = self.expect("PUNCT", ";", ctx="decl_end")
+        semi = self.toks[self.i - 1] if in_for else self.expect("PUNCT", ";", ctx="decl_end")
         node = A.VarDecl(
             vtype=ty.value, name=name.value, init=init,
             type_start=ty.start, type_end=ty.end, name_start=name.start, name_end=name.end,
         )
+        node._in_for = in_for
         return self.span(node, ty, semi)
 
-    def parse_assign(self) -> A.Assign:
+    def parse_assign(self, in_for: bool = False) -> A.Assign:
         name = self.advance()
-        self.expect("OP", "=", ctx="assign_op")
+        self.expect("OP", "=", ctx="for_assign_op" if in_for else "assign_op")
         value = self.parse_expr()
-        semi = self.expect("PUNCT", ";", ctx="assign_end")
+        semi = self.toks[self.i - 1] if in_for else self.expect("PUNCT", ";", ctx="assign_end")
         node = A.Assign(name=name.value, value=value, name_start=name.start, name_end=name.end)
         return self.span(node, name, semi)
 
@@ -183,6 +188,30 @@ class Parser:
         node = A.While(cond=cond, body=body)
         node.line, node.col, node.start, node.end = kw.line, kw.col, kw.start, body.end
         return node
+
+    def parse_for(self) -> A.Block:
+        kw = self.advance()
+        self.expect("PUNCT", "(", ctx="for_open")
+        if self.at("TYPE"):
+            init = self.parse_decl(in_for=True)
+        elif self.at("IDENT"):
+            init = self.parse_assign(in_for=True)
+        else:
+            raise self.fail(["declaration", "assignment"], "for_init", unexpected=True)
+        self.expect("PUNCT", ";", ctx="for_init_end")
+        cond = self.parse_expr()
+        self.expect("PUNCT", ";", ctx="for_cond_end")
+        if not self.at("IDENT"):
+            raise self.fail(["assignment"], "for_step", unexpected=True)
+        step = self.parse_assign(in_for=True)
+        self.expect("PUNCT", ")", ctx="for_close")
+        body = self.parse_block()
+        body.body.append(step)                       # the step runs at the end of every iteration
+        loop = A.While(cond=cond, body=body)
+        loop.line, loop.col, loop.start, loop.end = kw.line, kw.col, kw.start, body.end
+        outer = A.Block(body=[init, loop])           # the loop variable lives in this block only
+        outer._is_for = True
+        return self.span(outer, kw, self.toks[self.i - 1])
 
     # -------------------------------------------------------- expressions
     def parse_expr(self) -> A.Expr:

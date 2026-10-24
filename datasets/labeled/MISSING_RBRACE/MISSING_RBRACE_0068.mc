@@ -1,88 +1,70 @@
-int value = 7;
-string text = "world";
-int width = value + 12;
-print(value);
-if (text != "robot") {
-  text = "world";
-  text = text;
-} else if (37 % 3 >= 4) {
-  int z = 20;
-  print(z);
-  value = 21;
-} else {
-  int steps = width;
-  print(steps);
-  if (steps == 23 - 38) {
-    print(true);
-    print(value);
+string title = "hello";
+float nitle = 25.5 - 8;
+int titles = 30 + 37;
+bool flag = (35 / 7) >= (33 * titles);
+string name = title + "hello";
+if ((titles % 7) > (27 - 19) || 26.2 * titles > 0 * 31) {
+  int z = titles % 5;
+  if (nitle + 4.1 < 40 * titles) {
+    name = title + "compiler";
+  }
+  if (nitle * z == titles || flag) {
+    title = name;
+    print(z);
+    int sum2 = (z * 17);
   } else {
-    print(steps + steps);
-    print(width);
-    width = 30 + steps % 6;
+    print(flag);
   }
-
-if (width + value != width) {
-  int days = 0;
-  while (days < 6) {
-    print(value);
-    days = days + 1;
-  }
-  print("alice");
-}
-if (24.3 >= (value / 4)) {
-  width = 15 + value + 14 + 31;
-  if (false) {
-    width = value;
-    print(value);
-  } else if (true) {
-    int j = width;
-    print(j);
-    print(width);
-  }
-  bool found2 = false;
-}
-if (4.1 >= value % 4) {
-  int result = 0;
-  while (result < 2) {
-    text = "alice";
-    result = result + 1;
-  }
-  if (true) {
-    int stock = width - width;
-    print(stock);
-    float speed = 2.8 - 7.2;
-    value = value % 9 / 4;
-    speed = (7 - 0);
-  } else if (true) {
-    int points = 36;
-    width = result + (points % 1);
-  }
-  width = width + (width + result);
 } else {
-  if (false) {
-    int level = (value + 7);
-    print(level);
-    int second = value;
-    print(second);
-    print(value);
-  }
-  int b = 0;
-  while (b < 6) {
-    value = 15 % 6;
-    b = b + 1;
-  }
-  if (30.7 + 2.4 != 25 + 10) {
-    int lives3 = value / 1;
-    print(lives3);
-    print((value + b));
-    print(b);
-  } else {
-    int marks = (17 - 17);
-    print(marks);
-    print(value);
-    width = 24;
-  }
+  int second = titles + titles;
+  print(second);
+  title = title;
 }
-width = value / 2 / 7;
-text = text;
-text = "done";
+if (9.7 - 24.6 >= (titles % 8)) {
+  int points = 0;
+  while (points < 6) {
+    print(points);
+    points = points + 1;
+  }
+} else if (title == "done") {
+  int filag = 20 + titles;
+  print(filag);
+  filag = 18;
+  if (3 + filag < (5 + filag)) {
+    bool enabled = flag;
+  }
+} else if (titles % 1 > (7 + titles)) {
+  int y = titles + 26;
+  print(y);
+  print(name);
+  print(nitle);
+ else {
+  int nitae = titles / 4;
+  print(nitae);
+  print(flag);
+  print(nitae);
+}
+title = name + "hello";
+print(titles);
+print(2 % 1);
+if (13 - titles != 6) {
+  print(name);
+  int k = 0;
+  for (k = 0; k < 4; k = k + 1) {
+    print(k);
+  }
+  int sum3 = 0;
+  for (sum3 = 0; sum3 < 6; sum3 = sum3 + 1) {
+    print(name);
+  }
+  print(sum3);
+} else {
+  int total = (titles - 28);
+  print(total);
+  print(total);
+  print(name);
+}
+title = "compiler";
+title = title;
+print((18 - 3) != 31);
+int marks = titles;

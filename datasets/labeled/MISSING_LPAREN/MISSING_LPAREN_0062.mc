@@ -26,10 +26,13 @@ print(n);
 if ((marks1 - 4) <= (n + 32)) {
   int k3 = marks1 % 3;
   print(k3);
-  voltage3 = voltage3;
+  int a = 0;
+  for (a = 0; a < 6; a = a + 1) {
+    float mean = voltage3 * voltage3;
+    print(marks1 % 4));
+    marks1 = (years + 5) * (36 * k3);
+  }
 }
-if (!flag) {
-  title = word;
-}
-print(n);
-printn);
+print(18 / 8);
+float temp2 = voltage3 - n;
+print(flag);

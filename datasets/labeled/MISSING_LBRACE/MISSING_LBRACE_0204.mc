@@ -1,52 +1,60 @@
-int seats = 5;
-int first2 = seats * seats;
-int a = (8 % 5);
-float weight = 1.6;
-print(a);
-print(first2);
-first2 = seats + 26 + seats % 9;
-if ((38 / 8) > (first2 % 4) && first2 <= a) {
-  if (a < seats) {
-    int height1 = 13 + 38;
-    print(height1);
-    print((height1 + first2));
-    print(false && height1 / 3 < (40 % 3));
-    bool weeight = (height1 * seats) > 36 % 4;
-  } else {
-    print(weight);
-    a = a + seats + a;
-  }
-} else 
-  int y = seats;
-  print(y);
-  a = (y - 2) + (39 / 8);
-  int steps = a;
-}
-if (seats < 37 + 30) {
-  a = first2 - a - 3 + a;
-  if ((seats + 36) != 25 % 3) {
-    print("yudu");
-    print(first2);
-    print("alice");
-  } else if (weight >= first2 / 6) {
-    print(seats);
-  }
-  int seight = a;
+float discount = 7.7 + 11.6;
+float avg = 29.8 - discount;
+float avg3 = discount - 6.4;
+int width = 1 + 6;
+int limit2 = (width + width);
+bool passed = width - 12 < (width % 9);
+string title3 = "world";
+print(width);
+int n = (limit2 + limit2);
+print(width);
+int size = width / 7;
+if (17.9 != size) {
+  avg = discount;
 } else {
-  int j3 = seats - 24;
-  print(j3);
-  j3 = (a % 4) + j3 - first2;
-  if (2 + first2 == seats) {
-    a = (seats % 6) * (8 + 0);
-    seats = first2 + first2 % 8;
-    int b2 = j3 + a;
+  int num3 = limit2 / 9;
+  print(num3);
+  print(size);
+  if ((limit2 * n) <= (22 % 1)) {
+    int a = (width * width);
+    string word = title3;
   } else {
-    int second = 19;
-    print(second);
-    print(weight);
-    a = first2;
-    print("compiler");
+    print(limit2);
+    avg = avg3 * n;
+    print("parse");
+  }
+  if (false) {
+    int size3 = num3 / 5;
+    print(size3);
+    int marks = 38;
+    print(avg - marks >= (limit2 % 6));
+  } else if (passed) {
+    int first = 26 * num3;
+    print(first);
+    print(n);
+  } else if ((limit2 + limit2) != width / 3) {
+    n = (n + 27) + (n - limit2);
+  } else {
+    int points = num3;
+    print(points);
+    print((points + 17));
   }
 }
-first2 = seats + 0;
-print(first2);
+title3 = title3;
+print(avg);
+avg = avg3 + 27.2;
+if (passed) {
+  int ivg = 0;
+  while (ivg < 4) {
+    avg3 = 2 % 8;
+    ivg = ivg + 1;
+  }
+} else if (!passed) 
+  for (int result = 0; result < 6; result = result + 1) {
+    title3 = title3 + "done";
+  }
+} else {
+  print(discount);
+}
+float limite2 = avg3 - width;
+print(limite2);

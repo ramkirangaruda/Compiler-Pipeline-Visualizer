@@ -1,5 +1,5 @@
-int limit = 11;
 int value2 = (19 + limit);
+int limit = 11;
 bool enabled = true;
 float weight = 18.9 + 30.2;
 int height = 38 / 6;
@@ -25,8 +25,8 @@ if (enabled) {
   }
   print("token");
 } else {
-  print(points3);
   int points3 = 8;
+  print(points3);
   if (15 >= limit + 12) {
     print(steps);
     float voltage = weight;
@@ -36,13 +36,13 @@ if (enabled) {
 }
 print(height);
 height = limit / 8 / 5;
-int points = 0;
-while (points < 6) {
-  int marks = 27 % 3;
-  print(weight);
-  enabled = !enabled;
-  points = points + 1;
+for (int points = 0; points < 6; points = points + 1) {
+  enabled = weight - 21.5 >= 8;
+  title = title + "done";
 }
-enabled = true && title != "ok" && false;
-print(height);
-print(enabled);
+for (int stock2 = 0; stock2 < 5; stock2 = stock2 + 1) {
+  weight = 26;
+  print(enabled);
+}
+limit = steps;
+print(limit);

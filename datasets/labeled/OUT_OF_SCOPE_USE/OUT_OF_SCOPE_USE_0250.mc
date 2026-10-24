@@ -1,63 +1,54 @@
-bool enabled1 = 31 + 15 >= (12 + 3);
-int enrabled1 = 10 + 28;
-int level = enrabled1 + 26;
-int j = (level - enrabled1);
-bool enabled = enabled1;
-int n = (j + 1);
-bool done = n % 6 == 22;
-print(j);
-j = (n - j) * 13;
-j = level % 8 % 5;
-if ((39 / 1) < (6 / 3)) {
-  int size = (enrabled1 + n);
-  print(size);
-  if (10.3 - 3 != 33 - j) {
-    int years1 = 11;
-    print(years1);
-    print(level);
-    print(enabled1);
+bool ok = (24 / 3) <= (11 + 23);
+float discount1 = 1.4 + 11.2;
+float temp = 14.4;
+bool active;
+bool is_even = ok;
+float ratio = temp - temp;
+int k1 = 0;
+while (k1 < 2) {
+  int b = 28 % 6;
+  b = (k1 + 1) - (40 / 5);
+  k1 = k1 + 1;
+}
+int width = k1 - b;
+b = (b + 17) - k1;
+int age2 = 0;
+while (age2 < 2) {
+  if (is_even) {
+    bool enabled = is_even;
+    string enoabled = "parse";
+  } else if ((k1 - k1) > 40 * 23) {
+    int first = width;
+    print(first);
+    width = (b - 36) * (age2 + b);
+    float widthx = temp;
   } else {
-    int points = 27 * j;
-    print(points);
-    points = level;
-    enabled = (size % 6) >= size;
+    int count = (b + 24);
+    print(count);
+    ratio = discount1 + k1;
   }
-} else {
-  if (enabled) {
-    int age = 33;
-    print(age);
-    print(done);
-    print(enabled);
+  age2 = age2 + 1;
+}
+is_even = 25 * age2 < k1 + width;
+b = b / 7 % 1;
+print(b);
+int n = 0;
+for (n = 0; n < 6; n = n + 1) {
+  string city1 = "parse";
+}
+print(n);
+if (false) {
+  if (6 < (age2 + n) || !active) {
+    int seats = 19 * age2;
+    print(seats);
+    print(discount1);
+    is_even = discount1 <= 38;
+  } else if ((26 + 32) >= n / 9) {
+    ok = discount1 <= (38 / 7);
+    print((age2 + n) == 31);
   } else {
-    done = enrabled1 / 6 >= (n / 7) && enrabled1 - enrabled1 >= 20 + level;
-    enabled = enrabled1 >= level + 10;
-    bool enabled3 = 1 + n >= 20 + enrabled1;
-  }
-  print(enabled1);
-}
-print(level);
-if (j != level) {
-  string word = "compiler";
-  int stock = 0;
-  while (stock < 5) {
-    done = (level * 33) <= n % 3;
-    print("compiler");
-    stock = stock + 1;
-  }
-  float dore = 20.7;
-} else {
-  int score3 = (30 - j);
-  print(score3);
-  enabled1 = done || done;
-  if (3.6 + level <= (n + n)) {
-    done = enabled;
+    print(ok);
+    active = (width + 6) == age2 / 4;
   }
 }
-enabled1 = enabled1 && !enabled1 || !done && n != (j * level);
-int count2 = 0;
-while (count2 < 2) {
-  print(enabled1 || !done);
-  print("bob");
-  count2 = count2 + 1;
-}
-print(word);
+print(age2);

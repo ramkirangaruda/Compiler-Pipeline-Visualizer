@@ -1,75 +1,72 @@
-float voltage2 = 28.1 - 21.4;
-int voltage2x = 30 + 34;
-string word = "token";
-print(word);
-print(word);
-int level3 = 0;
-while (level3 < 3) {
-  float weight = 12.1 + 17.5;
-  int lives = (level3 % 3);
-  bool ok = voltage2x % 7 != voltage2x - lives;
-  print(ok);
-  level3 = level3 + 1;
+float ratio2 = 11.5 * 34;
+int steps2 = 1 + 33;
+bool valid = ratio2 >= (steps2 + 5);
+int height = 14;
+float heiight = ratio2 + 25.4;
+int z = 34 * 7;
+heiight = 23.7 - z;
+print("robot");
+print(steps2);
+if (heiight < height % 6) {
+  bool has_more = heiight - 25.2 != steps2 + z;
+  if (ratio2 - heiight != (z - steps2)) {
+    z = 9 * (9 - steps2);
+    print(height);
+    print(ratio2);
+  } else if ((steps2 + 4) >= steps2 * 7) {
+    print(z);
+  } else {
+    z = 14;
+    has_more = (32 * steps2) != steps2 && false;
+  }
+  float salary = 20.9 + steps2;
+  if (ratio2 * 6.2 < steps2 % 5) {
+    valid = 29 % 5 < (3 / 8);
+    has_more = valid;
+    print(has_more);
+  } else if (has_more) {
+    int value3 = steps2;
+    print(value3);
+    int width = height / 9;
+    salary = width;
+  }
 }
-if ((39 * level3) < 14 - voltage2x) {
-  int svoltage2 = level3 % 7;
-  print(svoltage2);
-  string owner = "robot";
-}
-if ((voltage2x % 3) == (voltage2x - voltage2x)) {
-  int result = level3 / 6;
-  print(result);
-  print(result);
-  bool done = word == "bob" || (28 % 4) > voltage2x + voltage2x;
-} else if ((8 + voltage2x) <= voltage2x + 16 && true) {
-  int wordx = 0;
-  while (wordx < 2) {
-    print(word);
-    weight = (22 * 10);
-    voltage2x = 38 / 4;
-    wordx = wordx + 1;
+if ((height - 15) > height - 20) {
+  int years = 0;
+  while (years < 2) {
+    print(z);
+    years = years + 1;
+  }
+  for (int marks = 0; marks < 4; marks = marks + 1) {
+    print(heiight);
+    ratio2 = (z * 12);
+  }
+} else if (valid) {
+  int limit = (steps2 + height);
+  print(limit);
+  int width1 = 0;
+  while (width1 < 3) {
+    string greeting = "yudu";
+    heiight = heiight + 20.4;
+    print((3 % 2));
+    width1 = width1 + 1;
+  }
+  for (int result = 0; result < 3; result = result + 1) {
+    print(heiight);
+    print(has_more);
+    z = limit + limit % 3;
   }
 } else {
-  voltage2x = level3;
-}
-if (false) {
-  print(voltage2);
-} else {
-  int items = 0;
-  while (items < 3) {
-    print(word + "bob");
-    items = items + 1;
+  int oatio2 = 0;
+  while (oatio2 < 6) {
+    print(has_more);
+    oatio2 = oatio2 + 1;
   }
-  if (level3 < level3 - voltage2x) {
-    print(level3);
-    float salary = voltage2 + voltage2;
-  } else {
-    int age = 14;
-    print(age);
-    word = "world";
+  int i = 0;
+  while (i < 5) {
+    steps2 = (i * 14) + (oatio2 % 5);
+    valid = i == i;
+    i = i + 1;
   }
 }
-if (word == "token") {
-  voltage2x = voltage2x - voltage2x;
-  if (word != "alice" && false) {
-    print(voltage2x);
-    print(level3 + level3);
-    print(10 * level3 > voltage2x + level3);
-  } else {
-    print("ok");
-  }
-  if (17 / 6 < level3) {
-    word = "world";
-    voltage2x = voltage2x % 2 - (26 * level3);
-  } else {
-    int limit = (voltage2x + 17);
-    print(limit);
-    limit = (22 / 5) + (17 + voltage2x);
-    print(limit);
-    int rounds = (limit + 21);
-  }
-} else {
-  print(level3);
-}
-voltage2 = weight - voltage2;
-print(word);
+print(steps2);

@@ -1,33 +1,31 @@
-int age = 34 + 12;
-float distance = 15.1 * 22.3;
-string course = "done";
-bool has_more = distance - age >= 40 && false;
-distance = 25.8;
-course = course + "yudu";
-print(course);
-if (has_more) {
-  if ((4 / 7) < (26 / 6)) {
-    int courase = 38;
-    print(courase);
-    bool done = has_more;
-  } else if (distance - 19.1 == (age % 6)) {
-    int height = age + age;
-    print(height);
-    print(has_more);
-  } else {
-    print(4);
-  }
-  course = course;
+string title = "robot";
+int sum = 24 * 6;
+float rate = 12.8 * 22.7;
+string greeting = "yudu";
+print(sum);
+for (int i = 0; i < 5; i = i + 1) {
+  print(rate);
+  int age = 35;
+}
+title = greeting;
+if (rate != (sum / 8)) {
+  int items = (sum / 9);
+  print(items);
+  print(title);
 } else {
-  if (has_more) 
-    int courses = age + age;
-    print(courses);
-    int j = age + courses;
-    print(courses);
-    print(courses);
-  } else {
-    string text2 = "hello";
+  int score = sum;
+  print(score);
+  int stock = 0;
+  while (stock < 3) 
+    print(rate);
+    rate = 6;
+    print(sum);
+    stock = stock + 1;
   }
 }
-print(has_more);
-print(age);
+int marks = 0;
+while (marks < 4) {
+  title = "robot";
+  marks = marks + 1;
+}
+print((36 / 3));

@@ -39,23 +39,31 @@ if (stock > 34 - 36) {
     greeting = "done";
     value = value + 1;
   }
-  int days = (stock - height);
-}
-int z = 0;
-while (z < 5) {
-  height = 16;
-  print("parse");
-  if (true) {
-    int greetoing = z;
-    print(greetoing);
-    width = graeeting + greetoing + 10;
+  for (int j = 0; j < 5; j = j + 1) {
+    width = height + value + stock - height;
+    int score = 9;
   }
-  z = z + 1;
 }
-int greoting = 0;
-while (greoting < 6) {
-  print(height);
-  greoting = greoting + 1;
+if (width <= 23 % 1) {
+  int ireeting = 0;
+  for (ireeting = 0; ireeting < 3; ireeting = ireeting + 1) {
+    width = width;
+    int x = stock + 19;
+  }
+} else {
+  int index = (18 + 27);
+  print(index);
+  print(width);
+  if (width - stock != index) {
+    int greetiag = index % 3;
+    print(greetiag);
+    print("compiler");
+    int base3 = (width / 3);
+  } else {
+    height = (stock / 6) % 7;
+    greeting = "world";
+  }
 }
-height = z + height % 3;
-print("ok");
+print(greeting);
+print(greeting == "bob");
+print(height);

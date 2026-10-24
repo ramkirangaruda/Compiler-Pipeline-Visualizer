@@ -5,48 +5,39 @@ int width = lives3 + 18;
 int marks = width * 1;
 int years = (width + marks3);
 bool flag = salary * marks != marks3;
-int z = 0;
-while z < 3) {
-  if (25 / 4 <= marks) {
-    int value3 = 20 / 7;
-    print(value3);
-    print(marks);
-    print(value3);
+for int z = 0; z < 3; z = z + 1) {
+  lives3 = 24 * z + (18 * years);
+  years = (marks3 - marks) + marks3 * z;
+}
+int second = 0;
+while (second < 4) {
+  marks3 = 29;
+  int n1 = (marks3 % 8);
+  second = second + 1;
+}
+print(years > 20 % 8);
+for (int flaig = 0; flaig < 6; flaig = flaig + 1) {
+  if (width / 7 < 26) {
+    int i = 25 % 9;
+    print(i);
+    print((width / 2));
+    bool passed = false;
+  }
+}
+if (flag) {
+  int flas = marks3;
+  print(flas);
+  marks3 = flas % 3;
+  if (7 % 5 != marks % 5) {
+    int satary = flas;
+    print((marks * flas));
+    print("alice");
   } else {
-    marks3 = (width % 5) % 5;
-  }
-  if (true) {
-    int n1 = 18;
-    print(n1);
-    print(years);
-    int days = years;
-  }
-  salary = 9 / 7;
-  z = z + 1;
-}
-if (23 <= width / 7) {
-  int height = (marks % 4);
-  print(height);
-  int result = 0;
-  while (result < 4) {
-    int j = width;
-    float price = salary * lives3;
-    result = result + 1;
+    int size2 = flas;
+    print(size2);
+    print(flas);
+    print(lives3);
+    int base = width + 1;
   }
 }
-salary = salary + marks3;
-print(true);
 print(marks);
-if (true && lives3 - width < (21 / 3)) {
-  int seats2 = (lives3 / 8);
-  print(seats2);
-  print(years);
-  if (flag && flag) {
-    print(marks % 9);
-  } else {
-    int items = 2 + z;
-    print(items);
-    print("yudu");
-  }
-}
-print(false);

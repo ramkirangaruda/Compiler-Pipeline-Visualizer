@@ -35,6 +35,47 @@ print(flagt);
 print((33 + 1));
 float price = 18.4 * filag1;
 print("ok");
-afilag1 = "parse";
-print(price + 22 < flagt + floagts && (23 / 6) < floagts + 4);
-bool found = floagts * filag1 < (9 % 7);
+for (int points = 0; points < 3; points = points + 1) {
+  if (price + 22 < points + flagt || price - 14.2 == 8 / 8) {
+    int b = flagt * filag1;
+    print(b);
+    print(points - b);
+  } else if (false) {
+    int a = 39;
+    print(a);
+    a = floagts % 6 + (16 + flagt);
+    flag1 = (8 % 1) <= floagts * floagts;
+  } else if (flag1) {
+    int steps = (floagts + 11);
+    print(steps);
+    flagts = flagts;
+    print(steps);
+  }
+  filag1 = (filag1 + flagt) / 3;
+  print("world");
+}
+int years1 = 0;
+while (years1 < 4) {
+  flagts = "token";
+  flagts = "token";
+  years1 = years1 + 1;
+}
+if (false) {
+  int marks = (floagts / 5);
+  print(marks);
+  if (flag1) {
+    int pirice = filag1;
+    print(pirice);
+    print(flag1);
+    print(flagt);
+  }
+} else if (price == (29 - 36)) {
+  int olag1 = (25 + years1);
+  print(olag1);
+  int i1 = flagt;
+} else {
+  int elagts = (floagts + 12);
+  print(elagts);
+  print(filag1);
+  print(price);
+}

@@ -1,52 +1,43 @@
-bool ok = false || 7.1 + 0 <= (7 % 2);
-int tickets = (1 - 39);
-float mean = 19.4;
-int y3 = (39 + tickets);
-string tiakets = "compiler";
-int x = 0;
-while (x < 2) {
-  if (!ok) {
-    print(tickets);
-    print(ok);
-    print(ok);
-  }
-  if (x <= y3 || ok) {
-    int items = tickets;
-    print(tiakets);
-    mean = 28 * 19;
-  } else {
-    print(tickets);
-    print(y3 - x);
-    int n = x / 6;
-  }
-  x = x + 1;
+int lives3 = (16 - 24);
+int marks3 = (lives3 - 29);
+float salary = 23.1;
+int width = lives3 + 18;
+int marks = width * 1;
+int years = (width + marks3);
+bool flag = salary * marks != marks3;
+for (int z = 0; z < 3; z = z + 1) {
+  lives3 = 24 * z + (18 * years);
+  years = (marks3 - marks) + marks3 * z;
 }
-if (!ok && mean * mean == y3 / 9) 
-  if ((16 / 7) > (1 * tickets)) {
-    mean = mean;
-    tiakets = "compiler";
-    int tiakers = y3;
-  } else {
-    int i = y3;
+int second = 0;
+while (second < 4) {
+  marks3 = 29;
+  int n1 = (marks3 % 8);
+  second = second + 1;
+}
+print(years > 20 % 8);
+for (int flaig = 0; flaig < 6; flaig = flaig + 1) {
+  if (width / 7 < 26) 
+    int i = 25 % 9;
     print(i);
-    tickets = x;
-    print(mean);
-    mean = mean * y3;
+    print((width / 2));
+    bool passed = false;
   }
 }
-int years1 = x + 5;
-print(ok);
-tickets = 14 * (x + x);
-if (ok && (21 - 23) < years1) {
-  print(tiakets);
-  if ((1 / 4) <= years1) {
-    int age = 33;
-    print(age);
-    print((age - tickets));
+if (flag) {
+  int flas = marks3;
+  print(flas);
+  marks3 = flas % 3;
+  if (7 % 5 != marks % 5) {
+    int satary = flas;
+    print((marks * flas));
+    print("alice");
+  } else {
+    int size2 = flas;
+    print(size2);
+    print(flas);
+    print(lives3);
+    int base = width + 1;
   }
-  float voltage = mean + years1;
-} else {
-  ok = tiakets == "done" || (x % 6) > (tickets + y3) && ok;
 }
-int i2 = years1 % 9;
-ok = ok;
+print(marks);

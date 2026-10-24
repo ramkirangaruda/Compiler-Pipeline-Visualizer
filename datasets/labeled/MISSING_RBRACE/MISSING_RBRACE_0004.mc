@@ -4,24 +4,16 @@ int size = steps;
 float temp = 2.3;
 int num1 = size + items;
 int n = 0;
-while (n < 2) {
-  print(temp);
-  n = n + 1;
+for (n = 0; n < 2; n = n + 1) {
+  print(num1);
 }
-int rounds = 8;
-print(steps);
-if (items % 1 < 17 && true) {
-  if (temp - 39 >= 21 && false) {
-    int tickets = steps;
-    print(tickets);
-    size = size;
-    int first2 = (rounds * rounds);
-  } else {
-    print(items % 2 > n);
-    temp = (30 - 19);
-    print("parse");
+print(n);
+print(items);
+size = 11;
+for (int i = 0; i < 3; i = i + 1) {
+  if (items * i == (n / 2)) {
+    print(n);
+    temp = items;
   }
-  temp = temp;
-  string name = "yudu";
 
 print(items);

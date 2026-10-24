@@ -21,51 +21,59 @@ if ((sum + 38) != sum - sum) {
   print(8 / 7);
   print(second2);
 }
-float sums = 13.7 - tax;
-int k = 0;
-while (k < 2) {
-  if ((k + sum) <= (seats + 7)) {
-    print((years + 33) >= sum + 29);
-  }
-  int taxx = (k % 5;
-  sums = 39 / 5;
-  k = k + 1;
+for (int limit1 = 0; limit1 < 6; limit1 = limit1 + 1) {
+  print("done");
 }
-print(has_more2);
-print(k);
-if (true) {
-  int has_motre2 = 21 - 4;
-  print(has_motre2);
-  if (is_even) {
-    int tickets3 = k * k;
-    print(tickets3);
-    years = tickets3 + has_motre2 + seats % 4;
+if (4 + seats != (years - seats)) {
+  int count = 0;
+  while (count < 2) {
+    print(sum);
+    count = count + 1;
+  }
+  if (3 % 3 == (count / 5) {
+    print(is_even);
+    bool seatts = tax * sum < years / 6;
   } else {
-    int z = (seats % 7);
-    print(z);
-    years = (years - z) % 7;
-    string title = "ok";
-  }
-  if (!has_more2 || has_motre2 <= 35 + seats) {
-    has_more2 = is_even;
-    seats = has_motre2;
-  }
-  if (years + seats < (2 / 5)) {
-    bool enabled = tax - sums <= (29 % 2);
-    print(sumx);
-    sumx = "ok";
-  } else if (false) {
-    int height = (seats + seats);
-    print(height);
-    print(13 / 2 == years - k);
-    print(!has_more2);
+    print(sum);
+    years = sum;
   }
 } else {
-  print(tax);
+  int height = seats / 6;
+  print(height);
+  tax = 28.9 - sum;
 }
-int marks = 0;
-while (marks < 2) {
-  print(years);
-  marks = marks + 1;
+years = sum;
+if (is_even) {
+  float rate = tax + 32;
+  has_more2 = has_more2;
+  int first = 0;
+  for (first = 0; first < 6; first = first + 1) {
+    print(sum);
+    print("robot");
+    print(seats);
+  }
+} else {
+  int sumxx = 0;
+  while (sumxx < 2) {
+    is_even = (1 + years) != sumxx + 35;
+    has_more2 = seats / 1 <= 10 + 8;
+    sumxx = sumxx + 1;
+  }
 }
-print(has_more2);
+for (int sum3 = 0; sum3 < 2; sum3 = sum3 + 1) {
+  print((2 / 5));
+  has_more2 = 37 % 8 <= (sum3 - 24);
+  print(sumx + "token");
+}
+int x1 = 0;
+while (x1 < 4) {
+  sum = 35 % 7 / 8;
+  int j3 = seats / 2;
+  if (tax > (30 / 3)) {
+    float balance = 3.9 + x1;
+    print(sum);
+  } else if (years != x1) {
+    j3 = 38 + j3;
+  }
+  x1 = x1 + 1;
+}

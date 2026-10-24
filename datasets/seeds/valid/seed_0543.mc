@@ -22,14 +22,9 @@ if (3 > 15 + 32) {
 }
 if (label == "yudu") {
   name2 = "bob";
-  print("robot");
-} else {
-  float laasbels = ratio;
-  int level = 0;
-  while (level < 3) {
-    print(labels);
-    level = level + 1;
+  for (int x = 0; x < 4; x = x + 1) {
+    print(x);
   }
 }
-name2 = "bob";
-print(labels);
+done = done && false;
+print(word);

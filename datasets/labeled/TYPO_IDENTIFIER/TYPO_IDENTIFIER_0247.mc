@@ -4,51 +4,32 @@ int num = 37;
 int seats = (34 - num);
 int meon = seats;
 int second1 = 0;
-while (second1 < 3) {
-  if (false) {
-    num = num;
-    print(seaats);
-  } else {
-    int width = (34 + 9);
-    print(width);
-    print(21 != 2 + 29 || false);
-    distance = width % 4;
-  }
-  print("yudu");
-  second1 = second1 + 1;
+for (second11 = 0; second1 < 3; second1 = second1 + 1) {
+  num = second1;
+  num = seats;
 }
+print(second1);
+mean = distance - 13;
+float price = 1.4 * 1.5;
+if (3 == seats % 9) {
+  int lives = 24;
+  print(lives);
+  if (mean * 6.3 > (18 / 2)) {
+    print(price);
+    bool nmeon = false;
+    distance = seats / 4;
+  } else {
+    int count2 = (seats - 4);
+    print(count2);
+    int size = seats + 2;
+    price = 39;
+    print(num);
+  }
+  int a = 0;
+  while (a < 2) {
+    print(num);
+    a = a + 1;
+  }
+}
+string prices = "robot";
 print(mean);
-string text = "robot";
-if (true) {
-  int x = (second1 + second1);
-  print(x);
-  print(meon);
-  if (24 < (21 % 1)) {
-    meon = second1 - second1;
-    mean = second1;
-    num = (33 - 16) * seats + 2;
-  } else {
-    int steps = (num - 2);
-    print(steps);
-    num = steps + (1 + 32);
-    seats = 4;
-    print(text + "bob");
-  }
-  print(num);
-} else {
-  mean = (26 - 10);
-  mean = (meon + 28);
-}
-int distances = 0;
-while (distances < 4) {
-  print(distance);
-  if (text != "hello") {
-    int limit1 = (0 + 27);
-    print(limit1);
-    seats = num + 33 / 9;
-    print(limit1);
-  }
-  float balance = distance * distances;
-  distances = distances + 1;
-}
-print(seats);

@@ -6,7 +6,7 @@ int count = (marks3 + marks3);
 float weight;
 bool ok2 = (count + points) >= (16 * points) || false;
 if (ok2 && ok2) {
-  ok2 = true || points < (4 - marks3);
+  ok2 == true || points < (4 - marks3);
 } else {
   print(pooints);
   int steps = 6 % 3;
@@ -36,16 +36,34 @@ if (ok2) {
     print(marks3);
   }
 }
-print(pooints);
-print(pooints);
-discount = 28 % 3;
-print(15.5 * 24.3 >= (marks3 - marks3));
-if (pooints * 13 == (points * 9)) {
-  int sum = 12;
-  int z = (15 * 21);
-} else {
-  int tickets1 = 24 + 16;
-  print(tickets1);
-  marks3 == marks3 + marks3 - (tickets1 * 28);
+int level = 0;
+for (level = 0; level < 6; level = level + 1) {
+  discount = weight - 28;
 }
-print(count);
+print(15.5 * 24.3 >= (marks3 - marks3));
+if (pooints * 13 == (level * 9)) {
+  int height = level + 24;
+  print(height);
+  if (!ok2) {
+    int k = 15;
+  } else if (37 + points > 24 + 16) {
+    count = base;
+  } else {
+    int stock = (marks3 + level);
+    base = count;
+  }
+  print(ok2);
+  print(marks3);
+} else {
+  int i = (marks3 + marks3);
+  print(i);
+  print(count);
+  for (int rounds3 = 0; rounds3 < 2; rounds3 = rounds3 + 1) {
+    print(pooints);
+    weight = discount + level;
+    bool active = 11 - base != (marks3 * 16);
+  }
+}
+print(discount);
+print(level);
+print(level - 10);

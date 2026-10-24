@@ -1,44 +1,36 @@
-int steps = (13 / 8);
-float tax;
-int taxx = 17;
-string greeting2 = "bob";
-int b2 = 28;
-int days2 = taxx % 7;
-bool enabled = true;
-string greeting = "robot";
-int n = 0;
-while (n < 3) {
-  b2 = (steps / 3) + (b2 * n);
-  print(greeting);
-  b2 = 16;
-  n = n + 1;
+bool passed = true;
+bool flag;
+float avg = 0.6 - 22.3;
+string city = "pipeline";
+bool has_more = flag;
+print("hello");
+int stock = 24 / 5;
+stock = stock % 4 + stock;
+has_more = avg - stock >= (29 + stock);
+int k = 0;
+while (k < 5) {
+  if (flag) {
+    has_more = !passed;
+    has_more = avg + k > 39;
+  } else {
+    int height = 18 + 6;
+    float distance1 = 1.9 + 5;
+  
+  print(avg);
+  int value = (28 * 39);
+  k = k + 1;
 }
-print(enabled);
-int total = 0;
-while (total < 5) {
-  greeting2 = "alice";
-  greeting = greeting + "ok";
-  total = total + 1;
-}
-if (b2 / 3 < steps && enabled) {
-  int index = steps + taxx;
-  print(index);
-  if (enabled) {
-    enabled = 24.2 - 11.9 == taxx;
-    taxx = (steps + 34) % 9;
-  }
-  bool tootal = false;
+print(flag);
+if (13 + stock <= (k + stock)) {
+  int x2 = stock * 13;
+  print(x2);
+  print(avg - x2 <= 9 * k);
+  x2 = (stock * k) % 8;
 } else {
-  string stepss = "yudu";
-  print(enabled);
-  print(days2);
-
-int age3 = 0;
-while (age3 < 2) {
-  print(greeting2);
-  print(age3);
-  age3 = age3 + 1;
+  int avag = stock;
+  print(avag);
+  int n = 14;
 }
-steps = steps;
-print(n);
-print(b2);
+print(flag);
+flag = has_more;
+print(flag);

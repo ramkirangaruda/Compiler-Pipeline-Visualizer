@@ -1,86 +1,80 @@
-int items = 3;
-string msg = "alice";
-bool is_even = (items * 1) < items * 38 && 15.7 * 1.6 <= items;
-string text2 = "world";
-if (items == (items + 2)) {
-  bool ready = 26.4 + 22.2 <= 8;
-  int renady = (items - 19);
-  print(renady);
-  bool enabled = is_even;
-  print(text2);
+bool flag = (37 % 2) < (14 * 16);
+int b = 6;
+int k = b * 8;
+int level = (k * b);
+bool fierst = flag;
+bool valid3 = flag || true;
+string course = "hello";
+fierst = (level / 9) != k * k;
+if (10 == (k - level)) {
+  print(27 % 1);
+  course = "ok";
+}
+if (fierst) {
+  int first = 2;
+  print(flag);
+  if (!flag) {
+    int value3 = first;
+    print(value3);
+    print((b * k));
+    fierst = (value3 - b) == 1;
+    flag = course != "compiler" || true && course != "parse";
+  }
 } else {
-  bool done3 = items >= items;
-}
-if (items == items % 3) {
-  int is_evenx = 0;
-  while (is_evenx < 6) {
-    ready = false;
-    items = items - items * items / 7;
-    is_evenx = is_evenx + 1;
-  }
-  if (14.6 * 18.4 >= 30 % 7) {
-    print((25 % 3) == 9 + 36);
-    print(is_evenx * is_evenx);
-  } else {
-    print(text2);
-  }
-}
-if (ready) {
-  int j = 2;
-  print(j);
-  if (11.7 != (20 + j)) {
-    int level = j * j;
+  int result = k;
+  print(result);
+  k = 31;
+  if (valid3 && 17.2 * 7 > (first / 1)) {
+    int fierso = first;
+    print(fierso);
     print(level);
-    is_even = level != 14 / 8;
-    print(ready);
-    string livel = "alice";
-  } else if (true) {
-    int z = j * j;
-    print(z);
-    print(z);
+  } else if ((first * k) != (level % 3)) {
+    int index = (k * 10);
+    print(index);
+    int seats = level + b;
+    int size = (level + k);
   } else {
-    int x = items % 9;
-    print(x);
-    float discount = 18.4 - items;
-    print(text2);
+    bool done = valid3;
   }
-  is_even = j == 20;
-  int msgs = 0;
-  while (msgs < 3) {
-    string is_eveen = text2;
-    text2 = is_eveen + "robot";
-    msgs = msgs + 1;
+  print(k);
+}
+int total = 0;
+for (total = 0; total < 6; total = total + 1) {
+  print(b);
+}
+print(total);
+int ialid3 = 0;
+while (ialid3 < 4) {
+  if (39 * level != (level % 2)) {
+    print(b / 1);
+    first = level;
+    print(fierst);
+  } else if ((19 + level) != total) {
+    int vtlid3 = ialid3;
+    print(vtlid3);
+    print(valid3);
+    print(flag);
   }
-} else {
-  msg = msg + "done";
-}
-print(text2);
-print(ready);
-items = 23 * items + (items % 8);
-int height = 0;
-while (height < 4) {
-  print((2 + items) == height * height);
-  height = height + 1;
-}
-if (is_even || items * 11 > items) {
-  int k2 = height + 16;
-  print(k2);
-  is_even = 3.3 * 13 != (items + height);
-  if (3.5 > (k2 % 6) && 9.2 < 31) {
-    int rounds = k2 + 16;
-    print(k2);
-  } else if (ready) {
-    print(k2);
+  print(k);
+  if (!flag && !flag) {
+    int width = level * 13;
+    print(width);
+    valid3 = (8 + total) > level;
+    print(20);
   } else {
-    print(msg);
+    print(ialid3);
+    first = 2;
+    print(course);
   }
-} else {
-  print((21 / 9));
+  ialid3 = ialid3 + 1;
 }
-if (is_even) {
-  items = height + 36 - items;
-  int years = 34;
-  ready = 14.4 - height <= (height % 4);
+print(fierst);
+print(ialid3);
+if (b / 4 > 24 / 5) {
+  int flang = level;
+  print(flang);
+  int tickets2 = 26 * 26;
+  print(total);
+  valid3 = false;
 }
-msg = "hello";
-print(msg);
+print(course + "yudu");

@@ -1,12 +1,11 @@
 int points = 37 / 1;
 int items = (points - 1);
-string course = "yudu";
 bool ready = (2 * 5) > 22 * 40;
+int a = items - points;
 string word = "pipeline";
 bool ok = false;
 string course1 = "hello";
 int size = (a % 8);
-int a = items - points;
 course1 = "pipeline";
 int n = 0;
 while (n < 5) {
@@ -39,5 +38,13 @@ if (size * a > (points / 7)) {
     items = (19 / 3) - (19 % 4);
     height = height + 1;
   }
-  print(second);
+  for (int k = 0; k < 4; k = k + 1) {
+    int num = 16 % 6;
+    int limit = second + 35;
+  }
+} else {
+  ok = !ok;
+  int rounds = size % 8;
 }
+print(course);
+string course = "yudu";

@@ -1,39 +1,35 @@
-float speed = 23.8;
-string speedx = "parse";
-int score = 23;
-if (true && 1 == (score / 1)) {
-  int spied = 8;
-  print(spied);
-  float avg = speed + 0.7;
-} else if (7.9 == score) {
-  speedx = "token";
+bool flag = 8.6 + 20 < 30 % 4;
+int points = (36 + 7);
+int total = 2 * points;
+int flatg = (3 * 14);
+bool passed3 = flag;
+if (2 < 3) {
+  string word3 = "ok";
+  int passid3 = points;
+  print(passid3);
+  print(flatg);
+  float balance = 10.4 - 12.3;
+  flag = word3 == "compiler";
 }
-int index = 0;
-while (index < 6) {
-  int k = score % 9;
-  int result3 = index % 9;
-  if (speedx != "robot") {
-    int steedx = (40 % 3);
-    print(steedx);
-    score = (result3 * 33) + (32 + k);
+int rounds = 0;
+while (rounds < 5) {
+  float mean3 = 26.6 - 11.3;
+  rounds = rounds + 1;
+}
+word3 = "compiler";
+if (total > 5) {
+  int k = 0;
+  for (k = 0; k < 2; k = k + 1) {
+    points = (11 * flatg) / 9;
   }
-  print(score);
-  index = index + 1;
-}
-int lives = 0;
-while (lives < 2) {
-  if (speedx == "pipeline") {
-    int y = (index - 18);
-    print(y);
-    print(speedx);
-    speedx = speedx + "bob";
-  } else {
-    score = 13 / 2 + index + index;
+  print(k);
+  passed3 = flag;
+} else {
+  if (6.2 * 30 > 9) {
+    print(flatg);
+    int passetd3 = 19 % 4;
+    total = 24 * 35 - (33 / 2);
   }
-  speed = 8.1;
-  lives = lives + 1;
 }
-print(5.7 + speed == k);
-print(speed);
-print(speed);
-print(lives);
+print(11 + 20 < flatg);
+print("world");

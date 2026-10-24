@@ -44,6 +44,13 @@ if (done) {
   }
 }
 title = title + "alice";
-indexx = 13.2 - 27;
-string name = title + "pipeline";
-print((limit - stock));
+for (int seats = 0; seats < 3; seats = seats + 1) {
+  print((seats + index) > (8 * 15));
+  print(limit);
+}
+int lives = 0;
+while (lives < 6) {
+  print(stock);
+  string label3 = "done";
+  lives = lives + 1;
+}

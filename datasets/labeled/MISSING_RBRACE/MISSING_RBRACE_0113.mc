@@ -1,39 +1,41 @@
-int tickets = (6 + 40);
-string word3 = "world";
-float rate = 8.6 * 10;
-bool passed = rate + 7.7 <= 3;
-string greeting = "yudu";
-int paised = tickets;
-if (21.6 + 17 >= tickets) {
-  word3 = "token";
-} else {
-  print(word3);
-  int gereeting = 0;
-  while (gereeting < 6) {
-    tickets = tickets % 7 + 31 + paised;
-    gereeting = gereeting + 1;
-  }
-  print(gereeting);
+float area = 27.9 * 17;
+float speed1;
+int stock = (16 + 23);
+int speee1 = (39 * stock);
+int total = 24;
+int b = 0;
+while (b < 6) {
+  speee1 = stock % 2 / 6;
+  print(stock);
+  print("pipeline");
+  b = b + 1;
 }
-int i = 0;
-while (i < 6) {
-  paised = tickets;
-  i = i + 1;
+int seats2 = 0;
+for (seats2 = 0; seats2 < 2; seats2 = seats2 + 1) {
+  print(stock / 6 != (total * total));
+  print(total);
+  speee1 = (speee1 % 1) + 39 + 29;
 }
-greeting = "bob";
-int rati = 0;
-while (rati < 3) {
-  if (word3 != "alice") {
-    paised = i;
-  
-  if ((tickets % 4) < 17 + 40) {
-    float speed = rate * 10.9;
-  } else {
-    int total = 4 * rati;
-    print(total);
-    print(paised);
-    print(total);
-  }
-  print(true);
-  rati = rati + 1;
+print(seats2);
+int points = 0;
+while (points < 3) {
+  print(area);
+  points = points + 1;
+
+if (false || area + speed1 == b + points) {
+  int araea = (points - 15);
+  print(araea);
+  print((points + points) < 31 * 30);
+  araea = 12 % 6 + araea;
+  print(total);
 }
+area = 7.4;
+int level1 = 0;
+while (level1 < 6) {
+  print(total);
+  print(speee1);
+  level1 = level1 + 1;
+}
+total = seats2 - level1 - (35 * points);
+speed1 = 34 / 9;
+speed1 = 28.2;

@@ -2,42 +2,33 @@ int k = 11 - 35;
 int num3 = (k * k);
 int b2 = num3;
 if (false) {
-  num3 = (num3 + b2) % 5;
-  if (27.6 * 24.9 == (22 + 2)) {
+  int points = 0;
+  for (points = 0; points < 6; points = points + 1) {
     print(num3);
-    print(num3);
-    k = b2 % 5 / 1;
+    print("yudu");
   }
-  num3 = k - (k + k);
+  print(points);
+  int lives = points + 29;
+  int count = (38 * lives);
+} else {
+  for (int age = 0; age < 5; age = age + 1) {
+    num3 = num3;
+  }
+  print(num3);
 }
-if (k > 21 - 40) {
-  print("hello");
-  if ((30 % 2) <= b2 / 9) {
-    int b = (14 * 36);
-    print(b);
-    print("bob");
-    int a = 7 % 6;
-    b = num3 + k + 17;
+b2 = 13;
+int score = 2 * 28;
+int marks3 = 0;
+while (marks3 < 2) {
+  if (34 > (num3 / 5)) {
+    print(num3);
+    int index = num3 + marks3;
   } else {
-    int rounds = (20 + 8);
-    print(rounds);
-    string word = "compiler";
-    print(k);
+    string greeting = "hello";
+    print(true);
   }
-} else if (false) {
-  int age = (num3 / 3);
-  print(age);
-  int result = 0;
-  while (result < 5) {
-    print(age);
-    result = result + 1;
-  }
-  print(age + 1);
+  num3 = k;
+  score = (k - 20) % 8;
+  marks3 = marks3 + 1;
 }
-int marks = 0;
-while (marks < 5) {
-  int items = marks + num3;
-  marks = marks + 1;
-}
-print(25.6 * 37 >= (13 % 9));
-string name = "token";
+print("done");

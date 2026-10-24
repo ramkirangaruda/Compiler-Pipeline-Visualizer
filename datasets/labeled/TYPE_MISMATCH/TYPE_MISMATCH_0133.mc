@@ -1,4 +1,4 @@
-bool flag = (2.5);
+bool flag = (27 % 4) <= (14 * 37);
 int lives = 9 - 19;
 float distance3 = 4.6 + 30.9;
 string title2 = "hello";
@@ -22,59 +22,50 @@ if (flag && 16.9 - 31 <= (lives % 2)) {
   int tickets = 0;
   while (tickets < 6) {
     print(tickets);
-    int a = 14;
+    bool a = 14;
     title2 = "pipeline";
     tickets = tickets + 1;
   }
 } else if (flag) {
   int y = 23;
   print(y);
-  print(title2);
-  if (lives <= (19 + 27)) {
-    y = y % 2 + 22 % 3;
-    distance3 = (13 / 6);
-  } else if (lives * 13 < 15 + 39) {
-    int result = 40;
-    print(result);
-    print(livrs);
-    title2 = "alice";
-  } else {
-    int days = y;
-    print(days);
-    print(distance3 + 20 != 3 / 5 || (y % 7) >= 40);
-    livrs = "alice";
+  int items = 0;
+  for (items = 0; items < 2; items = items + 1) {
+    title2 = "pipeline";
+  }
+  print(items);
+  for (int tttle2 = 0; tttle2 < 5; tttle2 = tttle2 + 1) {
+    string course = livrs;
+    bool ready = (30 * items) != lives - lives;
   }
 } else {
-  print(flag);
-  if (lives / 7 != (13 + lives)) {
-    int second2 = (35 + lives);
-    print(second2);
-    lives = 4;
-  } else if (flag) {
-    int seats = (lives % 8);
-    print(seats);
-    print(title2);
-  } else {
-    string distanee3 = livrs;
+  flag = (lives % 9) == lives % 6;
+  if (19 / 7 < lives % 4) {
+    int size = lives / 9;
+    print(size);
+    title2 = "world";
+    print(distance3 + distance3 <= size + size);
   }
 }
-if ((24 * lives) == 0 + 13) {
-  if (flag) {
-    print(livrs);
-  } else if (lives * 2 >= (lives * 26)) {
-    print(title2);
+print(title2);
+print(5);
+if (lives / 7 != (13 + lives)) {
+  int second2 = (35 + lives);
+  print(second2);
+  for (int j1 = 0; j1 < 5; j1 = j1 + 1) {
+    print(lives + lives >= 19 / 2);
   }
-  if (flag || lives < 17) {
-    int x = lives;
+} else {
+  bool livrss = distance3 - lives == 0 + 13;
+  flag = (lives + 12) > 2;
+  if (livrss) {
+    print(title2);
+    float salary = distance3 + 9;
+    int distance3s = lives;
+  } else {
+    int x = (36 + lives);
     print(x);
-    lives = (37 + 13) / 7;
+    bool passed1 = !flag;
   }
-  livrs = title2 + "alice";
-} else {
-  int titoe2 = (lives / 9);
-  print(titoe2);
-  lives = titoe2 / 4 % 6;
 }
-int b = (33 / 9);
 print(flag);
-print(distance3);

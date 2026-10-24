@@ -17,41 +17,14 @@ if (19 <= (steps + stepax)) {
 }
 value = (value + stepax) * (value / 2);
 items = stepax + stepax * 19 * value;
-int b = 0;
-while (b < 3) {
-  if (31 + 11 != (38 - 29)) {
-    float mean = 25.1 + value;
-    print(value);
-  } else {
-    int lives1 = steps + 20;
-    print("bob");
-  }
-  b = b + 1;
-}
-if (false) {
-  int steps2 = 17 * 34;
-  print(steps2);
-  int marks = 0;
-  while (marks < 6) {
-    bool ready = 4.8 - 0.9 >= 39 - steps;
-    steps2 = (stepax * value) - b % 6;
-    value = 28 * b;
-    marks = marks + 1;
-  }
-} else {
-  if (stepa != steps + 4) {
-    value = steps;
-    print(steps);
-  } else {
-    int rounds = (18 + stepax);
-    print(rounds);
-    print(items);
-    owner2 = owner2 + "bob";
-  }
-  int n = 0;
-  while (n < 4) {
-    int stock2 = items + n;
-    n = n + 1;
+for (int b = 0; b < 3; b = b + 1) {
+  if (false) {
+    print(owner2 == "done");
+    int width = 14 % 9;
+  } else if (true) {
+    stepa = (b + 13);
+    stepax = 18;
   }
 }
-print("pipeline");
+print("bob");
+print(items);

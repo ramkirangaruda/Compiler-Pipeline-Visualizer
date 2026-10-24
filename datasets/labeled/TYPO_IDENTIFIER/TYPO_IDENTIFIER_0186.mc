@@ -16,11 +16,15 @@ while (seats < 6) {
   seats = seats + 1;
 }
 print(seats);
-int b = (seats % 2);
+int width = 0;
+for (width = 0; width < 6; width = width + 1) {
+  print(text);
+}
+print(width);
 float discount = 0.8 + 8.2;
 int discounts = 0;
 while (discounts < 5) {
-  speed = b + b;
+  speed = width + width;
   discounts = discounts + 1;
 }
 bool is_even = 17.2 * 4.1 == (0 * 38);

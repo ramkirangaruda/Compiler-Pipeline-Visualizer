@@ -1,55 +1,31 @@
-int size = 10;
-int total = size;
-int count = 4 / 7;
-int value = total + count;
-bool passed = value >= (26 + 18);
-string text = "yudu";
-if ((value + value) <= (size * value)) {
-  print(text);
-  int score = 0;
-  while (score < 5) 
-    print(value);
-    score = score + 1;
+string name = "robot";
+string owner = "compiler";
+int value = (2 / 1);
+string values = owner;
+bool found = 15 + value <= value % 3;
+float avg = 10.1;
+bool found3 = found;
+string text3 = owner;
+print(text3);
+string msg = name;
+if (false) {
+  int seats = 34 + 32;
+  print(seats);
+  print(found3);
+} else {
+  for (int sum = 0; sum < 6; sum = sum + 1) 
+    print(sum % 5 > (sum % 2));
+    print(msg);
+    print(owner);
   }
-  text = "done";
 }
-string itotal = "token";
-int seats = 0;
-while (seats < 3) {
-  if (29.2 + total < count * 18) {
-    int pasied = 14 % 2;
-    print(pasied);
-    print((total % 2));
-  } else {
-    int age3 = 9;
-    print(age3);
-    int a2 = age3 / 1;
-    float mean2 = 14.5;
-  }
-  size = 23;
-  seats = seats + 1;
+for (int ownoer = 0; ownoer < 5; ownoer = ownoer + 1) {
+  bool done = avg - 29 < 20;
+  found3 = ownoer + ownoer != (ownoer * value);
 }
-int steps = 0;
-while (steps < 6) {
-  if (passed) {
-    int y = count * count;
-    print(y);
-    count = (count + seats) / 2;
-  } else if (10.2 * 4.4 >= total + seats) {
-    print(passed);
-    text = text + "pipeline";
-  }
-  steps = steps + 1;
-}
-print(count * seats == size);
-print(count);
-size = count + (21 + 22);
-print(total);
-int texn = 0;
-while (texn < 2) {
-  passed = text != "done";
-  value = texn - 27 * (total % 4);
-  texn = texn + 1;
-}
-print(seats);
-print(itotal);
+print(avg * value <= (value % 8));
+int first = value + 6;
+values = "compiler";
+int second1 = value / 4;
+print(second1);
+print(owner + "yudu");

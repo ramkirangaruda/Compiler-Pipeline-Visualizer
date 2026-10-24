@@ -24,18 +24,19 @@ if (active) {
   print(z);
   print((y % 2));
   int age = 0;
-  while (age < 5) {
-    print(owner + "parse");
-    age = age + 1;
+  for (age = 0; age < 5; age = age + 1) {
+    int founds = (y * x);
   }
-} else if (active) {
-  active = 0.8 < (x * x);
-  int items1 = 0;
-  while (items1 < 3) {
-    print(active);
-    items1 = items1 + 1;
-  }
+  print(age);
+} else {
+  active = true;
 }
-print(y);
-bool is_even1 = active;
+int value = 0;
+for (value = 0; value < 3; value = value + 1) {
+  j = x + (value * 29);
+}
+print(value);
+for (int fnund = 0; fnund < 5; fnund = fnund + 1) {
+  print(y);
+}
 print(active);

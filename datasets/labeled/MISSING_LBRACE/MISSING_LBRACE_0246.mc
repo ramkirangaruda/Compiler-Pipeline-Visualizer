@@ -1,52 +1,63 @@
-int first = 33;
-int marks = 38 + first;
-float mean = 13.8 * first;
-float balance = mean;
-int count = 25;
-float voltage = 0.5 + 21;
-string owner = "bob";
-print(mean);
-owner = "parse";
-print(owner);
-mean = voltage * 38;
-int n = first - marks;
-if (n > 30 / 6) {
+float salary = 26.9 - 7.7;
+bool salarys = 10 >= 34;
+string name = "pipeline";
+bool done = salary * salary <= 0 * 29;
+bool valid = salary + 30 == (31 + 21) || 25 == (27 % 1);
+if (26 + 39 != 31) {
+  print(done);
+} else {
+  int items = 0;
+  for (items = 0; items < 5; items = items + 1) {
+    salarys = (items - 29) == 19 - 3;
+    print(salarys);
+  }
+  print(items);
+  salary = (items % 2);
+}
+name = name;
+int points1 = 0;
+while (points1 < 5) {
+  float discount = 28.5 * salary;
+  salary = 9.8 + points1;
+  points1 = points1 + 1;
+}
+done = done || false;
+if ((2 * 4) < 28 + points1) {
+  int names = points1;
+  print(names);
+  if (27.5 != names / 1) {
+    done = valid;
+  } else 
+    int age = names + names;
+    salarys = 13 <= points1 - points1;
+  }
+  int seats1 = 0;
+  while (seats1 < 3) {
+    names = (17 + seats1) / 4;
+    seats1 = seats1 + 1;
+  }
   if (true) {
-    print((marks / 8));
-    int sum = 37 - marks;
+    print(points1);
+    name = name;
   } else {
-    int height1 = n;
-    print(height1);
-    count = marks;
-    int total = (count + 38);
+    int marks = (13 % 3);
+    print(marks);
+    int neme = (37 * points1);
   }
-  int points = 0;
-  while (points < 3) {
-    owner = "parse";
-    points = points + 1;
-  }
-  int score = 0;
-  while (score < 4) {
-    int lives3 = (points + 36);
-    lives3 = (score + 27) * (14 + first);
-    string volstage = "parse";
-    score = score + 1;
+} else if ((points1 / 5) < (19 / 9) && name != "ok") {
+  int total3 = 21 + 3;
+  print(total3);
+  int j = 0;
+  while (j < 5) {
+    print("robot");
+    done = 22.3 - salary == 12;
+    int score = j;
+    j = j + 1;
   }
 } else {
-  bool active3 = 6.5 * balance <= n * 15;
-  print(voltage);
+  int tickets = points1;
+  print(tickets);
+  print(tickets);
+  print(name + "compiler");
 }
-print(first);
-if (owner != "robot") 
-  if (owner == "world") {
-    print(mean);
-    string msg = "alice";
-    balance = (3 + n);
-  } else {
-    marks = (7 * count) + 21;
-    int days = 2 - first;
-  }
-}
-print("ok");
-print(mean);
-print(count - marks > marks);
+print(done);

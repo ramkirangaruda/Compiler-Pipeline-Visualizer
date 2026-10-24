@@ -10,17 +10,25 @@ while (rounds1 < 4) {
   rounds1 = rounds1 + 1;
 }
 k2 = (k2 - total) + 21;
-int stock3 = 0;
-while (stock3 < 3) {
-  if (31 - 16 > (k2 + stock)) {
-    stock = k2 / 3;
-    print(enabled);
-    print(total);
-  } else {
-    num = k2 / 4;
-  }
-  string label1 = "alice";
-  stock3 = stock3 + 1;
+for (int stock3 = 0; stock3 < 3; stock3 = stock3 + 1) {
+  num = 13 / 8 % 5;
 }
-print("alice");
-print((19 + 14));
+int n = 0;
+for (n = 0; n < 2; n = n + 1) {
+  if (enabled && enabled) {
+    int age = 21;
+    print(age);
+    print(rounds1);
+    print(num);
+  } else if (false || 35 - stock < total / 6) {
+    string greeting = "token";
+  } else {
+    int second2 = rounds1 + total;
+    print(second2);
+    float nsum = 24.5 + 30.6;
+    int seats1 = (rounds1 / 1);
+  }
+}
+print(n);
+print(k2);
+print(rounds1);

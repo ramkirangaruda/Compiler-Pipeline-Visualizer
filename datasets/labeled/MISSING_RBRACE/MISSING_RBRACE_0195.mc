@@ -1,52 +1,33 @@
-int rounds = 24 / 4;
-int num = (rounds + rounds);
-int level = (rounds * num);
-print((level + rounds) <= (num + level));
-rounds = level + num / 2;
-if (27 + num > level) {
-  int k = (level + num);
-  print(k);
-  print(num);
-  print(num);
-} else {
-  level = level;
-  print(rounds);
-}
-num = 29;
-print(num);
-int x3 = 20 % 4;
-int age3 = 0;
-while (age3 < 4) {
-  if (true) {
-    print(true);
-  } else if (6 * age3 >= (num * age3) && 33 != 2 * 38) {
-    level = age3;
-  } else if (x3 >= x3) {
-    int b = rounds;
-    print(b);
-    level = b % 4 - level + 31;
-  }
-  if (22.4 == rounds - level || x3 == age3) {
-    int days = (rounds - 12);
-    print(days);
-    print(true || 14.3 * rounds == (x3 * x3));
+int count2 = (19 - 16);
+string count2x = "compiler";
+string title = "alice";
+string label = "alice";
+count2 = (count2 + 4) * (count2 + count2);
+float avg = 30.3 * 29.7;
+print(label);
+if (avg + 39 != count2) {
+  if (24.5 >= 16 + count2) {
+    int rounds = 8;
+    print(title);
     print(rounds);
-  } else if (level == (x3 - level)) {
-    int y1 = 28;
-    print(y1);
-    bool found = 37 > (y1 * y1);
-   else if (21.7 - age3 >= 18) {
-    int value2 = (x3 - 9);
-    print(value2);
-    value2 = 6 + (21 / 2);
-    level = level % 4;
   } else {
-    int total2 = (level % 7);
-    print(total2);
-    int value = (level % 7);
-    print(x3);
-    level = age3;
+    print(title + "yudu");
+    print(count2);
+    print(count2);
   }
-  age3 = age3 + 1;
+  int score = 0;
+  while (score < 3) {
+    label = "done";
+    count2 = (count2 % 1) + (24 % 9);
+    count2x = "token";
+    score = score + 1;
+  }
+ else {
+  int seats = 2 / 5;
+  print(seats);
+  avg = avg;
 }
-level = num + 26;
+avg = avg * avg;
+count2x = "hello";
+print(false);
+avg = avg + 1.1;

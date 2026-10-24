@@ -1,89 +1,83 @@
-int count = 21 - 23;
-bool countx = 8.4 < 2;
-int n = (count % 8);
-int steps = 35;
-int z = 38;
-int total = (steps + z);
-bool active = countx;
-count = total;
-if (z > steps) {
-  int size = n;
-  print(size);
-  z = count;
-  countx = 2 * 23 >= steps;
-  if ((steps * z) == (steps - 12)) {
-    print(size);
+int result = 6;
+bool valid = 9 % 4 > result - 4;
+int value = 13 + result;
+bool resuet = value + 27 < (2 / 1);
+bool is_even = 15.8 > 25 % 5;
+int a = result / 7;
+bool enabled = !valid;
+string owner = "bob";
+print("alice");
+int points = 0;
+while (points < 2) {
+  a = value;
+  print(valid);
+  valid = 12 + 5 < result;
+  points = points + 1;
+}
+if ((27 + value) <= result) {
+  if (resuet) {
+    int second = (39 + value);
+    print(second);
+    bool oowner = 20 <= (result * points);
+    print(value >= 37);
   } else {
-    int countxx = z;
-    print(countxx);
-    active = true;
+    resuet = (value - 0) <= 32 + a;
+    float area = 30.2 - 0.2;
+    bool ready = area + 20 == a - 24;
   }
 } else {
-  n = (count - count) + (z - n);
-  int age = 0;
-  while (age < 5) {
-    countx = active;
-    countx = countx;
-    count = 2 + 27 + count;
-    age = age + 1;
-  }
+  int limit = 0;
+  while (limit < 6) {
+    resuet = (19 % 2) != (limit * limit);
+    int num = (22 - 20);
+    limit = limit + 1;
+  
 }
-if ((z + 24) > (13 - total)) {
-  print(active);
-  count = (z * 23) % 9;
+print(valid);
+int size = 0;
+while (size < 2) {
+  print(valid);
+  print(enabled);
+  print(valid);
+  size = size + 1;
 }
-if (4.1 - 26 >= n + total) {
-  int activex = 17;
-  print(activex);
-  if (19 <= (31 / 8)) {
-    steps = 0 - (n % 9);
-    active = true;
-   else {
-    print(total);
-    z = steps / 9;
-  }
-} else if (11.8 != (16 % 3)) {
-  int num = 26;
-  print(num);
-  print(countx);
-  print(z);
-} else {
-  print(n);
-  int value = 0;
-  while (value < 5) {
-    int b = total - 9;
-    active = countx || 24.4 + z <= count % 5;
-    value = value + 1;
-  }
-  if (37 + count < 12 - 36 || true) {
+int index = 0;
+while (index < 5) {
+  if (32 == (7 / 2)) {
+    is_even = 7.8 + 17.1 >= a;
     print("alice");
+    valid = is_even;
   } else {
+    int valiad = size;
+    print("alice");
+    print(valiad);
+  }
+  print(result);
+  index = index + 1;
+}
+print(resuet);
+if (owner == "pipeline") {
+  if (!resuet) {
+    print("compiler");
+    string city = "robot";
+  } else {
+    int count = 15 + 5;
     print(count);
+    enabled = 6.6 * 28.8 > 11;
+    float ratio3 = 20.2;
+    enabled = is_even;
   }
 }
-int acsive = steps - steps;
-int marks = 0;
-while (marks < 4) {
-  countx = 18 < (19 + total);
-  int second = steps;
-  print(total);
-  marks = marks + 1;
-}
-if (true) {
-  if (!countx) {
-    acsive = acsive + (39 - steps);
-  } else {
-    print(countx);
-  }
-  active = 3 * n < 40 % 4;
-  total = n / 5 % 7;
+if (size + index != (index + result)) {
+  print(a);
 } else {
-  print("yudu");
+  int width = (value - result);
+  print(width);
+  int enabledx = (24 * 34);
+  int height = 0;
+  while (height < 2) {
+    print("compiler");
+    height = height + 1;
+  }
 }
-int stock = 0;
-while (stock < 6) {
-  print(marks);
-  stock = stock + 1;
-}
-print(active);
-print(acsive - acsive);
+print(value);

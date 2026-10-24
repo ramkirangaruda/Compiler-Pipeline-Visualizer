@@ -1,46 +1,34 @@
-int y = 38 / 1;
-int base1 = 28 / 5;
-string owner = "done";
-int owners = 20;
-float balance3 = 11.5;
-string base1x = owner;
-string sizes = owner;
-if (balance3 * base1 > 22) {
-  int size = 13 - 19;
-  if ((1 + 24) >= size - 26) {
-    print(y);
-    size = size / 6;
-    y = base1 * 20 - size % 1;
-  }
-  if (true) {
-    base1 = 34 + base1 % 8;
-    owners = (14 * y) / 2;
-  }
-} else if (false && true) {
-  base1x = "hello";
+float mean = 15.7;
+bool ok = true && mean + 32 <= (20 - 32);
+float salary = mean + 8.9;
+string name = "robot";
+string word = name;
+string city2 = word + "bob";
+int ealary = 0;
+while (ealary < 5) {
+  bool msan = 30 + 2 == (40 - 30) && 9 - 6 <= 17 / 8;
+  print(5.8 > (ealary / 4));
+  name = word + "token";
+  ealary = ealary + 1;
 }
-y = (y - y) * (base1 + base1);
-int marks1 = 0;
-while (marks1 < 5) {
-  int base1xx = (39 / 3);
-  print(base1);
-  if (owner != "alice") {
-    print(base1);
-    print((17 / 8));
-  } else {
-    int bose1x = (11 * 33);
-    print(bose1x);
-    print("robot");
-    bool is_even = true;
+float ratio = salary + mean;
+salary = mean;
+for (int limit = 0; limit < 2; limit = limit + 1) {
+  word = name;
+  print(ratio);
+}
+word = name;
+print(msan);
+int n = 0;
+while (n < 2) {
+  print(n);
+  if (salary - ratio > (n * ealary)) {
+    print(ok);
   }
-  marks1 = marks1 + 1;
+  ok = ealary != 30;
+  n = n + 1;
 }
-print(size);
-int result = 0;
-while (result < 2) {
-  print(y);
-  int index = result;
-  result = result + 1;
-}
-owners = (0 + size) + (size + 9);
-print(owner);
+print(msan);
+int j = ealary;
+print(word == "compiler" && mean >= (n / 6));
+print("hello");

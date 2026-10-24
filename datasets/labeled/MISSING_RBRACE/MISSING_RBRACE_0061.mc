@@ -1,61 +1,57 @@
-string label = "yudu";
-bool laebel = false;
-float temp = 13.8 * 5;
-int age = 1 - 27;
-string owner = "yudu";
-if (laebel) {
-  if (owner != "pipeline") {
-    print(temp + temp == (age + 23));
-    int a = age;
-    float ratio2 = temp;
-  } else {
-    print(label);
+string name = "ok";
+int years = 39 * 38;
+float area = 24.1 - years;
+string aeea = name + "ok";
+int points = years - 8;
+float balance = area + 27.9;
+bool has_more1 = false || 0.8 - area > points + points;
+string word = "hello";
+print(points);
+years = (years % 4) + (points * years);
+aeea = "robot";
+if (5.6 != (35 % 8)) {
+  int marks = (points * 40);
+  print(marks);
+  int value = 0;
+  while (value < 5) {
+    print(name == "alice");
+    value = value + 1;
   }
-  int size2 = 0;
-  while (size2 < 3) {
-    int lives = 28 + 25;
-    int sum = (22 - 35);
-    int tamp = 37 / 6;
-    size2 = size2 + 1;
-  }
-  label = "done";
-}
-int height = 0;
-while (height < 5) {
-  if (true) {
-    int size = (age + 10);
-    print(size);
-    int items = size + 7;
+  if (has_more1) {
+    int wordx = years;
+    print(wordx);
+    word = "bob";
   
-  temp = temp * height;
-  height = height + 1;
-}
-int value = height;
-if ((26 * age) != height) {
-  int b = 0;
-  while (b < 6) {
-    print(owner);
-    b = b + 1;
-  }
-  owner = label;
+  int has_more1x = 33 / 7;
 } else {
-  temp = (value / 1);
-  print(10 * value);
-  if (!laebel) {
-    laebel = laebel;
-    temp = height;
-    print(value);
-  } else {
-    owner = "bob";
-    print(temp);
-    print("ok");
+  points = points;
+}
+if (has_more1) {
+  int size = (years + 6);
+  print(size);
+  int seats2 = 0;
+  while (seats2 < 6) {
+    int stock = 33 + 17;
+    size = size % 1;
+    balance = points;
+    seats2 = seats2 + 1;
   }
+  if (seats2 == points * seats2 && (size % 3) >= size + points) {
+    print(size);
+    print(has_more1);
+  } else {
+    int j2 = years % 3;
+    points = points;
+    size = 28 * (13 + 0);
+  }
+} else {
+  int n = (years - years);
+  print(n);
+  int b2 = 0;
+  while (b2 < 2) {
+    print(points);
+    b2 = b2 + 1;
+  }
+  aeea = word;
 }
-int owoner = 0;
-age = owoner;
-value = age;
-if (temp + temp == 29 * age) {
-  print(label);
-  int points = (age / 2);
-  laebel = false;
-}
+print(37 / 5 <= points + points);

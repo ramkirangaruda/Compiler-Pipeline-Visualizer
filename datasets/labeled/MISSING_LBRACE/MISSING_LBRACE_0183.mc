@@ -1,40 +1,38 @@
-int count1 = 23 - 22;
-int value = (36 - count1);
-string label = "world";
-bool flag2 = false || false;
-int width1 = 0;
-while (width1 < 4) 
-  float flag2s = 3.1;
-  print(count1 == count1 % 9 && value != 0 / 7);
-  width1 = width1 + 1;
-}
-value = value + 22;
-label = label + "hello";
-flag2 = 1 + value >= (count1 / 1);
-print(label);
-print(value);
-int sum = 0;
-while (sum < 3) {
-  print(sum % 8 <= (count1 - sum));
-  bool has_more1 = 5 + width1 != (sum / 7);
-  sum = sum + 1;
-}
-print((value - value));
-if ((sum * count1) <= (0 * value)) {
-  value = count1;
-  int first = 0;
-  while (first < 2) {
-    count1 = width1;
-    label = "bob";
-    float mean = 5.2;
-    first = first + 1;
+int age2 = 12;
+int width3 = age2;
+int y2 = (width3 % 5);
+bool enabled2 = (13 + y2) < age2 - 22;
+string title = "yudu";
+if (0.2 * 36 == width3) {
+  int items = y2;
+  print(items);
+  int num = 0;
+  while (num < 2) {
+    print(num);
+    string greeting = "bob";
+    print(items);
+    num = num + 1;
   }
-} else if (value > count1) {
-  if ((sum + value) > (width1 % 3) && (width1 + count1) > 40) {
-    print(!flag2);
-    print(value);
+  if (enabled2 || (21 + y2) != (4 * width3)) {
+    int b = 12;
+    print(b);
+    print(enabled2);
+    int size = y2;
+    float voltage = 20.3 + 3.8;
   }
-} else {
-  value = value + value + value / 4;
+  age2 = items - age2 + 2 - 29;
+} else 
+  int tickets = 23 / 8;
+  print(tickets);
+  int j1 = 0;
+  while (j1 < 5) {
+    print(3);
+    j1 = j1 + 1;
+  }
 }
-print(width1);
+print("world");
+y2 = (22 + y2) + 37 * y2;
+y2 = 17 - width3 * 16 / 7;
+enabled2 = false && title != "hello";
+int enabled2x = 27;
+print(enabled2x);

@@ -9,7 +9,7 @@ string msg = "ok";
 int has_mores = seats1;
 if (enabled) {
   int size = 36;
-  print(size);
+  print(size)
   print(has_more);
   if (has_mores % 7 >= size) {
     int width = (lives + seats1);
@@ -27,13 +27,24 @@ if (enabled) {
     mse = mse + 1;
   }
 }
-has_more = flag
-int z = 0;
-while (z < 5) {
-  has_mores = seats1 + z * lives + z;
-  float balance = ratio + 7.7;
-  z = z + 1;
+int n2 = 0;
+for (n2 = 0; n2 < 4; n2 = n2 + 1) {
+  enabled = msg != "yudu";
 }
-enabled = true;
-print((20 * 6) <= 21);
-print("token");
+print(n2);
+int sum3 = 0;
+while (sum3 < 2) {
+  if (has_more) {
+    string greeting = msg;
+  } else {
+    int has_mooe = lives;
+    print(has_mooe);
+    print((20 * 6) <= 21);
+    int snabled = (9 + 23);
+    has_more = ratio - 13 <= sum3 % 3;
+  }
+  sum3 = sum3 + 1;
+}
+print(ratio);
+print(seats1 == 2 * 31);
+print(sum3);

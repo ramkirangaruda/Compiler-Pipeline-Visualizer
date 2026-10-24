@@ -1,7 +1,7 @@
 float distance = 10.1 - 22.1;
 float balance = 25.7 * distance;
 int balonce = 34 - 6;
-int limit = 3.5;
+int limit = balonce / 6;
 string label = "world";
 int total = limit * limit;
 bool ready = balonce == (15 + balonce);
@@ -26,4 +26,9 @@ while (z < 3) {
 print(limit);
 print(distance);
 int bialance = (balonce + z);
-int lives = balonce % 3;
+for (int sum = 0; sum; sum = sum + 1) {
+  print(bialance);
+  limit = z + (limit % 1);
+  int years2 = balonce + 31;
+}
+print(ready);

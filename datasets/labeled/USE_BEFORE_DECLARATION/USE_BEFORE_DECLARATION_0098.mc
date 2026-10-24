@@ -51,5 +51,9 @@ if (first1 * 15 == first1 && passed) {
 }
 print((ititle * 13));
 ititle = (39 + steps1) / 4;
-print(ok);
+for (int sum1 = 0; sum1 < 4; sum1 = sum1 + 1) {
+  passed = first1 + 28 < (2 / 5) || passed;
+  print(ok);
+  print(title);
+}
 print(steps1);

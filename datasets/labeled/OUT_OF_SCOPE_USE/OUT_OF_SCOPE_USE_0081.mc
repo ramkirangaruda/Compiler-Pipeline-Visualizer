@@ -1,53 +1,40 @@
-bool enabled = (23 - 12) == 6 * 5;
-float temp = 17.8;
-int second = 0;
-while (second < 2) {
-  string word = "alice";
-  word = "ok";
-  temp = 30.6 * 23;
-  float weight = 13.7;
-  second = second + 1;
-}
-int tempx = 0;
-while (tempx < 3) {
-  int lives3 = (second + 38);
-  if ((lives3 / 6) == (second * second)) {
-    int count = (31 + 33);
-    print(count);
-    word = "hello";
+float salary3 = 4.5;
+bool ok = 0.3 - 13 != 9 + 28;
+int width = 1 + 13;
+bool has_more = true || salary3 > (width + width);
+string greeting;
+bool ready = 26.7 < width + width;
+string eniabled = greeting;
+has_more = salary3 * 19 >= (9 + width) && width > (width % 1);
+eniabled = eniabled + "ok";
+for (int value = 0; value < 3; value = value + 1) {
+  if (!ok) {
+    int size = (width / 1);
+    print(size);
+    has_more = (33 * size) <= (19 + size);
   }
-  lives3 = second;
-  tempx = tempx + 1;
+  width = 0;
+  print(salary3);
 }
-print(word + "compiler");
-int n = 0;
-while (n < 3) {
-  if (7.1 + tempx > 28 + 13) {
-    print(tempx);
-    print(temp);
-    temp = 1.5;
+int age = 0;
+while (age < 6) {
+  eniabled = eniabled;
+  if (salary3 * salary3 < width) {
+    print(age);
   } else {
-    enabled = (second / 8) > (26 + 14);
-    print(tempx);
+    int has_mores = 11 + width;
   }
-  if (enabled) {
-    word = "ok";
-    print(word);
-  } else {
-    print(enabled);
+  print(ready);
+  age = age + 1;
+}
+if (true) {
+  bool enabled = 24 < (21 - 8);
+  print("parse");
+  for (int base = 0; base < 6; base = base + 1) {
+    salary3 = 23.9 + 15;
   }
-  n = n + 1;
 }
-if (second + second <= second) {
-  enabled = word != "bob";
-}
-print(n);
-int z = (tempx + tempx);
-int years = 0;
-while (years < 5) {
-  string owner = "pipeline";
-  print(!enabled);
-  years = years + 1;
-}
-print((z + 30));
-print(years);
+float price = 19.7 + 8;
+print(enabled);
+float avg3 = price + 4;
+print(salary3);

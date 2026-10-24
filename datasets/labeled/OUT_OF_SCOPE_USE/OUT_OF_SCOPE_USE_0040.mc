@@ -1,33 +1,54 @@
-bool valid2 = (37 / 1) > 3;
-string greeting = "done";
-float avg = 29.5;
-bool ready2 = greeting != "hello";
-ready2 = ready2;
-valid2 = avg + 24 > (40 - 2);
-if (valid2) {
-  string word3 = "done";
-  int avo = 9;
-  print(avo);
-  print(greeting);
-  if (valid2) {
-    int index = 13;
-    print(index);
-    greeting = word3;
-    print(valid2);
-    print(avg * 40 != 25 - 23);
-  } else if (avo <= avo * avo) {
-    print(avo);
-    avo = avo;
+int steps = 7;
+float stepsx = 23.2;
+float ratio = stepsx + stepsx;
+if ((39 * 4) > 17) {
+  bool has_more2 = true;
+  string stepssx = "robot";
+  has_more2 = has_more2;
+  string stepsxx = stepssx;
+} else if (17.5 <= steps - steps) {
+  int num = (steps + 17);
+  print(num);
+  print(has_more2);
+  for (int result = 0; result < 4; result = result + 1) {
+    stepsx = ratio;
+    has_more2 = steps == steps;
+    steps = 38;
   }
-  print(avo);
+} else if (has_more2) {
+  print("ok");
+} else if (!has_more2 || false) {
+  has_more2 = (steps % 1) != 3;
+  has_more2 = has_more2;
+} else {
+  has_more2 = 39 / 2 > steps - 8;
 }
-int width = 0;
-while (width < 2) {
-  print(word3);
-  avg = 30;
-  width = width + 1;
+int ratios = 37 + steps;
+stepsx = 21.4 + 5.2;
+print(39);
+int score = 0;
+while (score < 6) {
+  if ((36 % 4) > ratios) {
+    print("yudu");
+    print(stepsx);
+    print(ratio);
+  } else if (false) {
+    int stock = (score % 5);
+    print(stock);
+    has_more2 = 5 / 6 > (31 + score);
+  } else if (has_more2 && has_more2) {
+    int value = (ratios + 15);
+    print(value);
+    string word = "bob";
+    value = steps;
+  } else {
+    int raoio = score;
+    print(raoio);
+    print(ratio);
+  }
+  int points1 = (steps % 8);
+  print(steps);
+  score = score + 1;
 }
-print(word3);
-greeting = word3 + "hello";
-greeting = word3 + "parse";
-print(width);
+int size = score / 1;
+bool is_even1 = ratio * stepsx <= 34;

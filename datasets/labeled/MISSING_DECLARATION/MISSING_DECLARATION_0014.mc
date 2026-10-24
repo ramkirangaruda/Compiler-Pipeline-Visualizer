@@ -25,28 +25,26 @@ print(enabled2);
 if (true || temp - 21.2 >= 11 % 2) {
   int n2 = score % 9;
   print(n2);
-  float balance = temp + 39;
-  enabled2 = (n2 % 1) != 20;
-}
-if (2 > i) {
-  int num = i * 9;
-  print(num);
-  enabled2 = (num % 2) >= (2 * 10);
-  if (enabled2) {
-    int lives = 5 - i;
-    print(i);
-  } else {
-    print(score);
+  for (int lives = 0; lives < 4; lives = lives + 1) {
+    enabled2 = temp + 34 < 4;
+    n2 = (score / 3) / 6;
   }
-  enabled2 = temp * area3 >= i / 7;
-} else if (i < score && !enabled2) {
-  int num1 = (i + i);
-  print(num1);
-  print("bob");
-  print(temp);
+  if (i != 18 * n2) {
+    int points = 22 * score;
+    print(points);
+    print(n2);
+    print((score / 1));
+    print(label);
+  } else if ((i / 6) > n2) {
+    int years = 8;
+  }
 }
-if (enabled2) {
-  string city3 = "alice";
+int age = 0;
+while (age < 5) {
+  print(0.5 + i < 19 || (i * score) == i);
+  print(age);
+  print(area3);
+  age = age + 1;
 }
-print(i);
 print(enabled2);
+score = i;

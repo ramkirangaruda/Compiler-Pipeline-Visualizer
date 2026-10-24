@@ -1,29 +1,38 @@
-string name = "token";
-float area = 9.9 + 12.7;
-int points = 22 - 31;
-string label = "yudu";
-if (label == "compiler") {
-  if (points > 0) {
-    int level = (points * points);
-    print(level);
-    print(label);
-    print(area);
-    print(level);
-  } else if (area * points == (points * points)) 
-    points = (16 * points) % 7;
-    print(label);
-  } else {
-    print(points % 8);
-    points = points * (34 * 33);
-    name = "pipeline";
+string greeting = "bob";
+float salary;
+string label = greeting;
+string owner = "token";
+bool has_more = greeting == "pipeline";
+int value = 0;
+while (value < 3) 
+  print("token");
+  if (has_more) {
+    int years = 11;
+    print(years);
+    owner = "parse";
+    label = "yudu";
   }
-} else if (points * points == 30) {
-  int years = points;
-  print(years);
-  print(name);
-  print(name);
+  value = value + 1;
 }
-print((points / 7));
-print(area);
-string msg = "done";
-print(name);
+label = "ok";
+if (!has_more) {
+  int i = 0;
+  while (i < 4) {
+    print(i);
+    print(greeting);
+    print(salary);
+    i = i + 1;
+  }
+  if (greeting != "robot") {
+    int score = 30 + 17;
+    salary = i / 6;
+  }
+}
+int num = 0;
+while (num < 5) {
+  print(owner);
+  print(num);
+  num = num + 1;
+}
+owner = "done";
+print(greeting);

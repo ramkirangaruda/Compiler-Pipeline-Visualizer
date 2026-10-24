@@ -1,45 +1,46 @@
-float weight = 20.6;
-int total = 22;
-float trotal = 27.8 * weight;
-int seats1 = total / 1;
-string irotal = "ok";
-bool done = seats1 != total;
-string city = irotal + "ok";
-done = done;
-print(done);
-total = (total + 33) / 7;
-if (seats1 > total) {
-  int donex = (seats1 % 9);
-} else if (30 != seats1 - seats1) {
-  print(total);
-} else {
-  int b = (total * total);
-  print(b);
-  int width = 0;
-  while (width < 2) {
-    total = 25 + 33 % 7;
-    done = irotal == "parse";
-    float salary = weight;
-    width = width + 1;
+int i3 = (12 * 23);
+string name2 = "world";
+int age2 = i3;
+int name2s = age2 + age2;
+string age2s = "compiler";
+print(false);
+print(name2s);
+print(name2);
+for (int num1 = 0; num1 < 3; num1 = num1 + 1) {
+  if ((i3 / 2) > 27) {
+    int result3 = (37 - 6);
+    print(result3);
+    print(result3);
+  } else if (7.6 + i3 >= (age2 - age2)) {
+    int i = num1;
+    print(i);
+    int a = (name2s * 7);
+    age2 = 39 - a / 7;
   }
-  if (11 - 38 < 5 - 16 && trotal - weight > (b - width)) 
-    print("alice");
-    print(irotal);
-    string owner = city;
-  } else if (weight - 25.2 < 15) {
-    print(trotal);
-    total = (1 * b) + b % 5;
+  if (false) {
+    int namea2 = 24 % 5;
+    print(namea2);
+    int rame2 = (29 % 6);
+    print((i3 + age2) >= 5 - age2 || age2s != "alice");
+    name2s = (9 / 2) + (7 % 2);
   } else {
-    print(done);
+    print(age2s);
+    name2s = age2 - 36 + name2s;
+  }
+  if (false) {
+    name2s = name2s + (age2 - i3);
+  } else {
+    int years2 = (num1 + 24);
+    print(years2);
+    name2s = num1 + years2 * i3;
   }
 }
-print(seats1);
-print(city);
-print(city);
-int marks = 0;
-while (marks < 5) {
-  done = true;
-  trotal = 12;
-  marks = marks + 1;
+print(i3);
+int years1 = 0;
+while (years1 < 5) 
+  int n = 26 * 22;
+  print(14);
+  years1 = years1 + 1;
 }
-print((40 / 3));
+int a1 = i3 + 16;
+print("hello");

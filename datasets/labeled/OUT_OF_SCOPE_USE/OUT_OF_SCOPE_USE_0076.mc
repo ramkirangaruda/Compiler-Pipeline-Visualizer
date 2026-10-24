@@ -1,52 +1,65 @@
-bool flag3 = 5.8 * 19 > 19 % 2;
-int marks = 19 + 4;
-int index = 40;
-float ratio = 21.5;
-string msg = "bob";
-if (false) {
-  int flage3 = (marks % 8);
-  print(marks);
-  if (!flag3) {
-    int rounds = (38 + flage3);
-  } else if (ratio + 24 == index) {
-    int width = (26 * marks);
-    print(width);
-    print(width);
-    bool widthx = index >= width;
+int total = 16;
+float rate = 4.7 * 3.8;
+int value = 24;
+int iate = 12 + total;
+int z = iate;
+int height1 = 0;
+while (height1 < 6) {
+  string city = "done";
+  print(value);
+  height1 = height1 + 1;
+}
+if (city == "ok" && true) {
+  int j1 = value + height1;
+  total = iate / 3 % 7;
+  int i1 = iate + 21;
+} else {
+  if ((25 / 7) != height1 * value) {
+    float area = rate;
+    print(city);
+    iate = (total + total) + 10;
   } else {
-    int days1 = (14 * index);
-    print(days1);
-    print(days1);
+    iate = value + (total - height1);
   }
 }
-print(msg);
-int a = 0;
-while (a < 6) {
-  if (!flag3) {
-    int flog3 = (marks % 4);
-    print(flog3);
-    index = flog3 % 8 / 2;
-    print(msg);
-    print(23 + flog3);
+if (false) {
+  for (int first1 = 0; first1 < 4; first1 = first1 + 1) {
+    rate = rate - rate;
+    rate = 28 * value;
+    print(city);
   }
-  a = a + 1;
+  iate = 32 - 3 + height1;
+} else if (city == "alice") {
+  iate = 8 + 34 % 3;
 }
-if (flag3) {
-  int mss = (a % 9);
-  print(mss);
-  marks = (38 - 16) / 1;
-  if (12 * a < 21 / 3) {
-    int value1 = flage3;
-    print(value1);
-    print(a);
-    print(flage3);
+int score = 0;
+while (score < 5) {
+  value = 7 + iate * height1 - total;
+  score = score + 1;
+}
+int x = 0;
+while (x < 5) {
+  print(height1);
+  if (34 * x != 6 * 4) {
+    int steps = 23;
+    print(steps);
+    print(city);
   }
-  index = index / 4 / 6;
+  x = x + 1;
 }
-int level = 0;
-while (level < 2) {
-  print(a);
-  level = level + 1;
+if (rate != 10) {
+  rate = 25.9 + rate;
+  if (13 * 14 >= score) {
+    int ratex = 15;
+    print(rate);
+  } else {
+    print((13 * height1));
+    bool ready = city != "token" && city != "yudu";
+    rate = rate;
+  }
+  int tickets = iate / 3;
+} else {
+  total = x;
+  iate = 39 * 4 % 8;
 }
-print(marks);
-print(level);
+print(score);

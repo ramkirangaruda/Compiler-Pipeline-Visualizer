@@ -1,46 +1,35 @@
-int base = (32 / 3);
-int value;
-bool flag1 = (35 + value) < value;
-int x = (value + 5);
-bool ok = (19 * x) == value;
-string course3 = "pipeline";
-print(ok);
-if (25 * 28 == 15 + 25) {
-  if (x % 4 >= 11 - x) {
-    int height1 = base + x;
-    print(height1);
-    print(x + 20);
-  }
-  int x2 = value;
-  int limit1 = 0;
-  while (limit1 < 3) {
-    flag1 = !flag1;
-    limit1 = limit1 + 1;
-  }
+string word = "world";
+float tord = 12.2 * 31;
+int second2 = (0 + 31);
+bool ready = word == "compiler";
+int age = 0;
+while (age < 2) {
+  tord = 13.1 * second2;
+  print(age);
+  print(ready);
+  age = age + 1;
 
-if (true) {
-  int years2 = 0;
-  while (years2 < 4) {
-    int couase3 = (years2 - 19);
-    int width = base * years2;
-    ok = !flag1;
-    years2 = years2 + 1;
+word = "bob";
+print(tord);
+second2 = 15 + 38;
+int sum = 0;
+while (sum < 4) {
+  print(age > 39 - second2);
+  int height = 14 + age;
+  sum = sum + 1;
+}
+print(ready);
+ready = tord + 36 == (second2 + sum);
+int eord = 0;
+while (eord < 2) {
+  print(ready);
+  if (ready) {
+    int days = (5 / 8);
+    print(days);
+    int total = (age + 30);
   }
-  print(flag1);
+  string city = word;
+  eord = eord + 1;
 }
-print(flag1);
-int j = x;
-flag1 = true;
-if (flag1) {
-  flag1 = (4 % 3) > 37;
-  j = 22 - j / 4;
-  j = base;
-} else {
-  int flag1x = j;
-  print(flag1x);
-  float price = 0.5;
-  flag1x = 37 * x - (flag1x + value);
-}
-print(course3);
-print(x);
-print(x);
+print(tord);
+word = word + "world";

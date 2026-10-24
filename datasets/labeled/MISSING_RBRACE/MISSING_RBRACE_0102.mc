@@ -1,43 +1,40 @@
-int k = 11 - 35;
-int num3 = (k * k);
-int b2 = num3;
-if (false) {
-  num3 = (num3 + b2) % 5;
-  if (27.6 * 24.9 == (22 + 2)) {
-    print(num3);
-    print(num3);
-    k = b2 % 5 / 1;
-  }
-  num3 = k - (k + k);
+int count1 = 23 - 22;
+int value = (36 - count1);
+string label = "world";
+bool flag2 = false || false;
+int width1 = 0;
+while (width1 < 4) {
+  float flag2s = 3.1;
+  print(count1 == count1 % 9 && value != 0 / 7);
+  width1 = width1 + 1;
+
+value = value + 22;
+label = label + "hello";
+flag2 = 1 + value >= (count1 / 1);
+print(label);
+print(value);
+int sum = 0;
+while (sum < 3) {
+  print(sum % 8 <= (count1 - sum));
+  bool has_more1 = 5 + width1 != (sum / 7);
+  sum = sum + 1;
 }
-if (k > 21 - 40) {
-  print("hello");
-  if ((30 % 2) <= b2 / 9) {
-    int b = (14 * 36);
-    print(b);
-    print("bob");
-    int a = 7 % 6;
-    b = num3 + k + 17;
-   else {
-    int rounds = (20 + 8);
-    print(rounds);
-    string word = "compiler";
-    print(k);
+print((value - value));
+if ((sum * count1) <= (0 * value)) {
+  value = count1;
+  int first = 0;
+  while (first < 2) {
+    count1 = width1;
+    label = "bob";
+    float mean = 5.2;
+    first = first + 1;
   }
-} else if (false) {
-  int age = (num3 / 3);
-  print(age);
-  int result = 0;
-  while (result < 5) {
-    print(age);
-    result = result + 1;
+} else if (value > count1) {
+  if ((sum + value) > (width1 % 3) && (width1 + count1) > 40) {
+    print(!flag2);
+    print(value);
   }
-  print(age + 1);
+} else {
+  value = value + value + value / 4;
 }
-int marks = 0;
-while (marks < 5) {
-  int items = marks + num3;
-  marks = marks + 1;
-}
-print(25.6 * 37 >= (13 % 9));
-string name = "token";
+print(width1);

@@ -43,14 +43,14 @@ if (passed) {
 }
 course2 = "pipeline";
 print("hello");
-print(course3);
-if ((i + 20) >= n * aowner) {
-  print((n + aowner) != aowner);
-  if (is_even1) {
-    print((1 / 9) > (aowner * aowner));
-    print(passed);
-  } else {
-    print(11 - 30);
+for (int rounds = 0; rounds < 3; rounds = rounds + 1) {
+  aowner = (rounds + 16) / 5;
+  owner = "bob";
+  print(23 + aowner < i);
+}
+if (30.7 - aowner != (1 - 32)) {
+  for (int tickets3 = 0; tickets3 < 4; tickets3 = tickets3 + 1) {
+    bool found = n + tickets3 > 11 - 30;
     print(i);
   }
 }

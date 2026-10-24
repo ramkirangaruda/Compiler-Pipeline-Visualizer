@@ -7,60 +7,70 @@ msg = "pipeline";
 if (area + area >= (29 - level)) {
   msg = msg;
 } else if (level != 10 + years) {
-  print(level);
+  int height3 = 0;
+  for (height3 = 0; height3 < 6; height3 = height3 + 1) {
+    level = height3;
+    years = height3;
+  }
+  print(height3);
+}
+int rounds3 = 0;
+while (rounds3 < 4) {
+  level = index + index % 9;
+  if ((level - level) == (33 + level)) {
+    int sarea = (level % 6);
+    print(sarea);
+    level = years;
+    print(sarea);
+  } else {
+    print(msg);
+  }
+  msg = msg + "alice";
+  rounds3 = rounds3 + 1;
+}
+if (true) {
+  int level3 = index;
+  print(level3);
+  index = 11;
+  years = 25 - 33 - years;
 } else {
-  int mssg = (30 - years);
-  print(mssg);
-  int msgx = 0;
-  while (msgx < 3) {
+  print(msg);
+}
+if (msg != "yudu" || false) {
+  int total = (10 % 9);
+  print(total);
+  for (int y = 0; y < 3; y = y + 1) {
+    print(22);
     print(years);
-    mssg = index - index % 6;
-    print(level * msgx);
-    msgx = msgx + 1;
+    index = (y % 3) * (y + 6);
   }
 }
-index = index;
-print("robot");
-if ((level * index) == years) {
-  if (years == index / 3) {
-    int steps1 = (23 + level);
-    index = (years - 9) - 11 * years;
-  } else if (27 - 1 <= index || area < 1) {
-    print(years);
-  } else {
-    int age = level / 9;
-    level = years * 40 * years;
-  }
-} else if (9 >= level) {
-  if (1 + 30 != 12) {
-    level = index / 5 - index * 13;
-    years = (index + 9) / 4;
-  } else {
-    print(level);
-    area = index % 2;
-    print(msg);
+if (1 + 30 != 12) {
+  level = rounds3 / 5 - level * 13;
+  years = (level + 9) / 4;
+} else {
+  if (area * rounds3 == years) {
+    print(index);
   }
   int asg = 0;
-  while (asg < 2) {
-    print(msg);
-    asg = asg + 1;
+  for (asg = 0; asg < 2; asg = asg + 1) {
+    print("done");
   }
-} else {
-  if (false) {
-    print(msg);
-  } else {
-    int score = (39 + years);
-    print(score);
+  print(asg);
+  int rarea = 0;
+  while (rarea < 2) {
     print(area);
-    msg = msg;
-    msg = "robot";
+    rarea = rarea + 1;
   }
 }
-int value = 0;
-while (value < 6) {
-  msg = "world";
-  value = value + 1;
+if ((years + level) < (39 + index)) {
+  int mag = 0;
+  for (mag = 0; mag < 4; mag = mag + 1) {
+    msg = "robot";
+    print(level);
+    print(msg);
+  }
+  print(mag);
 }
-print(level);
 print(index);
 print(index);

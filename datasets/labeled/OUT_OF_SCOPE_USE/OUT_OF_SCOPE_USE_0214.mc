@@ -1,33 +1,29 @@
-float distance3 = 19.5;
-bool done = true;
-bool ok3 = 12.4 == 6 - 0;
-done = (0 % 1) != 34 - 6;
-done = distance3 * 6 > (0 - 15);
-ok3 = (38 - 35) < 23 + 38;
-int height = 29;
-if (height < height || 25 <= 12 - height) {
-  string name = "parse";
-  int j = (height + height);
-  print(j);
-  int items = 0;
-  while (items < 2) {
-    ok3 = distance3 - 6 != items + j;
-    int years = (6 - height);
-    print(done);
-    items = items + 1;
-  }
-  if (28 == j - items) {
-    int days = height % 5;
-    print(days);
-    print(ok3);
-    j = height;
+int stock2 = 35;
+bool ok = (stock2 / 1) <= stock2 + stock2;
+int rounds = (13 + stock2);
+int result = stock2;
+string course2 = "bob";
+print(course2);
+print(ok);
+print(result);
+if (!ok && (result + result) >= 34) {
+  int steps = (11 + stock2);
+  print(steps);
+  steps = (15 + 16) / 1;
+  print(9 + stock2);
+} else {
+  float voltage = 9.8 - 16;
+}
+for (int base = 0; base < 2; base = base + 1) {
+  float temp = 15.8;
+  print(base);
+}
+for (int course2x = 0; course2x < 3; course2x = course2x + 1) {
+  result = 25 - stock2 / 6;
+  if (false && 7.9 != course2x - stock2) {
+    print(rounds);
+    print(course2x);
   }
 }
-int lives = height + height;
-int first2 = 0;
-while (first2 < 6) {
-  print(distance3);
-  print(height);
-  print(name);
-  first2 = first2 + 1;
-}
+print(course2x);
+course2 = "done";

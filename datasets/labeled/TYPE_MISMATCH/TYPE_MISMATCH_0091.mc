@@ -1,5 +1,5 @@
 int stock = 22 % 5;
-bool is_even = true;
+string is_even = true;
 float rate = 4.5 - 21.7;
 int j = 20;
 int lives = 15;
@@ -8,7 +8,7 @@ is_even = true;
 print(lives);
 is_even = stock * 30 != j + lives;
 if ((2 + 15) <= j + stock) {
-  int n = 3.5;
+  int n = 0;
   while (n < 2) {
     print(lives);
     j = 40 * j;
@@ -25,17 +25,15 @@ if ((2 + 15) <= j + stock) {
     is_even = 25 <= 23;
   }
 }
-int ois_even = 0;
-while (ois_even < 3) {
-  if (21.6 * rate <= stock) {
-    print(lives);
-    j = 5 * stock * 37;
+for (int ois_even = 0; ois_even < 3; ois_even = ois_even + 1) {
+  if (valid) {
+    lives = ois_even + j + (2 * j);
+    rate = (35 % 9);
+    stock = (17 + j) + (4 * stock);
+  } else if (11.9 + rate > stock + stock) {
+    print(true);
   } else {
-    int nrate = 9;
-    print(nrate);
-    int valids = stock * ois_even;
-    print(stock);
+    is_even = (25 + lives) == (j * 34);
   }
-  ois_even = ois_even + 1;
 }
-print(stock);
+print(valid);

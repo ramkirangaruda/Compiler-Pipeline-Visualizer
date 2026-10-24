@@ -19,17 +19,11 @@ if true) {
     result = result + 1;
   }
   int stock = 0;
-  while (stock < 4) {
-    is_even = !is_even;
-    stock = stock + 1;
+  for (stock = 0; stock < 4; stock = stock + 1) {
+    print(is_even);
   }
+  print(stock);
 }
-int sis_even = 0;
-while (sis_even < 3) {
-  weoght = steps;
-  is_even = is_even;
-  print(is_even);
-  sis_even = sis_even + 1;
-}
-string title = "compiler";
 print(weoght);
+weight = steps;
+print(is_even);

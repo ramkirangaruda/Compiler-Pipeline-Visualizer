@@ -1,81 +1,58 @@
-bool ok = 11.9 + 4 > 12;
-int days;
-string daysx = "hello";
-int dayix = (days * days);
-bool ready2 = (14 * 1) != dayix + 27;
-string greeting = "ok";
-ok = greeting == "ok";
-if (days - 6 != days) {
-  print(greeting);
-  print(daysx);
-  days = days + 25 % 7;
+bool enabled1 = 31 + 15 >= (12 + 3);
+int enrabled1 = 10 + 28;
+int level = enrabled1 + 26;
+int j = (level - enrabled1);
+bool enabled = enabled1;
+int n = (j + 1);
+bool done = n % 6 == 22;
+print(j);
+for (int points = 0; points < 4; points = points + 1) {
+  level = 19 - 30;
 }
-int first = days;
-int daosx = 0;
-while (daosx < 5) {
-  int a = (days - daosx);
-  daosx = daosx + 1;
+print(points);
+int ennbled = 0;
+for (ennbled = 0; ennbled < 5; ennbled = ennbled + 1) {
+  j = 8 + (39 / 1);
 }
-if (0.3 + daosx < (days + 11)) {
-  float dayixs = 27.2 * days;
-  int value = dayix;
-  print(value);
-  if (days >= first) {
-    int count = value / 3;
-    print(count);
-    print(dayixs);
-    ok = value % 9 >= daosx - days;
-    print(daysx);
-  } else if (ready2 || (value * 28) <= 8) {
-    int rdayixs = daosx;
-  } else {
-    int result = value;
-    print(result);
-    print(7 * dayix);
-  }
-}
-float discount = dayixs;
-if (true) {
-  int size = dayix - daosx;
-  print(size);
-  float ready2s = 27.9 * discount;
+if (j != (ennbled + n)) {
+  int seats = (37 + 3);
+  print(seats);
+  float entbled1 = 4.1 - enrabled1;
 } else {
-  days = (first + days) / 4;
-  if (18.7 + days < (32 * first)) {
-    int greoeting = (first * first);
-    print(greoeting);
-    bool flag = 18.3 > (dayix % 4);
-  } else if (8 + 32 > (days % 8)) {
-    print(greeting + "done");
-  }
-  if (ready2) {
-    int num = (22 - first);
-    print(num);
-    print("hello");
-  } else {
-    greeting = "yudu";
-    ready2 = daysx == "pipeline";
-    discount = dayixs;
-  }
+  print("bob");
 }
-if (ok) {
-  int dayixsx = 6 / 5;
-  print(dayixsx);
-  if (!ok || dayixs + 14.3 >= (34 % 7)) {
-    int z = first * dayixsx;
-    print(z);
-    print(daosx);
-    daysx = "done";
-  } else {
-    int y = (daosx + days);
-    print(y);
-    print(dayixsx);
-  }
-  first = (8 + dayix) - dayix + dayix;
-  first = (daosx * first) + dayix;
+if (false) {
+  done = 29.9 - 16.7 != 13;
+  j = n;
 } else {
-  int marks = 2 / 8;
-  print(marks);
-  print(20 * dayix >= 36);
+  int points1 = ennbled;
+  print(points1);
+  if ((j % 8) > ennbled - 18) {
+    enabled = (23 + 38) <= 5;
+  }
+  points1 = n / 7;
 }
-print(ready2);
+int a3 = 0;
+while (a3 < 2) {
+  print(points);
+  if (enabled) {
+    enabled = enrabled1 >= level + 10;
+    bool enabled3 = 1 + n >= 20 + enrabled1;
+  }
+  a3 = a3 + 1;
+}
+if (enabled) {
+  int i = (level / 6);
+  print(i);
+  print(enrabled1);
+} else {
+  print(enabled1);
+}
+int rounds = 33;
+int donex = 0;
+for (donex = 0; donex < 3; donex = donex + 1) {
+  print(done);
+  float speed = 21.4;
+}
+print(donex);
+print(n);

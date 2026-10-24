@@ -1,35 +1,25 @@
-int width = 22;
-int size = 22;
-int num = width;
-bool found = num == num + num || width + 29 != size;
-int limit = (num % 6);
-bool passed = (width * size) >= 9;
-print(found && num <= (num / 4));
-print(limit);
-if ((size + num) == (33 + num)) {
-  print(width);
-  int count = 4;
+int total = 5 % 1;
+int y = total + total;
+int i = y * total;
+int result = (total * 38);
+bool is_even = 16.5 < y + i;
+string totan = "hello";
+int rounds3 = 0;
+while (rounds3 < 5) {
+  int age = 9;
+  print(rounds3 * result > i / 2);
+  rounds3 = rounds3 + 1;
 }
-int piassed = 0;
-while (piassed < 3) {
-  string word3 = "alice";
-  print("done");
-  bool ready3 = passed;
-  piassed = piassed + 1;
+i = (result + 0) + (result * 1);
+print(is_even);
+int second = 0;
+while (second < 4) {
+  print(age);
+  print(second);
+  second = second + 1;
 }
-if ((width + limit) <= (3 - size) && !found) {
-  if (20.3 * 21.7 > (piassed + size)) {
-    num = (num * 11) + (piassed * 34);
-    float ratio = 15.4 - 23;
-    ratio = ratio;
-  } else {
-    int seats = 25 - 17;
-    print(seats);
-    float area = 22.1 - 25.9;
-  }
-  print(size);
-}
-print(word3 + "alice");
-int num3 = 3;
-print(piassed > (12 % 8));
-print(num3);
+int x = rounds3 % 4;
+is_even = (rounds3 % 7) < 40 + age;
+y = (i - y) / 3;
+print(result);
+print(age);

@@ -16,12 +16,30 @@ float emean3s = mean3 * z;
 float msgn = mean3;
 print(tickets);
 int steps2 = 0;
-while (steps2 < 5) {
-  emean3s = (32 / 2);
-  tickets = 31 * msg1s * (17 % 5);
-  steps2 = steps2 + 1;
+for (steps2 = 0; steps2 < 5; steps2 = steps2 + 1) {
+  if (msgn - msgn < (msg1s % 8)) {
+    print(msg1 == "bob");
+  } else {
+    print(tickets);
+    msgn = 2.2 - mean3;
+    print("robot");
+  }
+  int second = steps2 / 7;
+  bool has_more2 = tickets != emean3 * 20;
 }
-tickets = 0 * (msg1s - 19);
-emean3 = (27 % 9) + 17 - emean3;
-string owner = "ok";
-print(mean3);
+print(steps2);
+tickets = (20 * z) - 27;
+msg1 = msg1 + "yudu";
+if (steps2 < 33) {
+  if (emean3 > (age * emean3)) {
+    print(tickets);
+    emean3 = age / 2 % 5;
+  } else {
+    int value = 29;
+    print(value);
+    print(steps2);
+    string city = msg1 + "world";
+  }
+  age = (age / 6) + z;
+}
+print(msg1);

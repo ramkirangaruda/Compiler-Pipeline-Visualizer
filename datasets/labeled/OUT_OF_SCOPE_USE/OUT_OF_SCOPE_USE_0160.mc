@@ -1,43 +1,73 @@
-int lives2;
-int result = lives2;
-bool done = lives2 % 3 == (lives2 % 3);
-if (40 * lives2 > lives2) {
-  float rate1 = 26.4;
-  int n2 = result * 7;
-  print(n2);
-  result = lives2 * 33 % 8;
-  rate1 = rate1 - lives2;
-  rate1 = 9;
+string word = "alice";
+int tord = (10 * 17);
+int height = (29 + tord);
+bool flag;
+bool is_even = !flag;
+string owner = word;
+if (!flag) {
+  int result = 21;
+  int k = height;
+  int days = 29;
 } else {
-  print(lives2);
-}
-result = 20 + result / 7;
-if ((lives2 * result) != (lives2 / 2)) {
-  if (rate1 == (lives2 % 4)) {
-    int days = (33 % 9);
-    print(days);
-    print(done && rate1 >= (lives2 - lives2));
-    print(rate1);
+  if (5.9 + 37 == (6 + height)) {
+    print(result);
   } else {
-    int sum = (result % 9);
-    print(sum);
-    int y = 20;
+    int num3 = result + tord;
+    print(num3);
+    int value = num3 / 5;
+    int level2 = 35;
+    print(word);
   }
-  int a = (result + 6);
+}
+int height3 = 0;
+while (height3 < 4) {
+  print(tord);
+  int first = tord;
+  print(height3);
+  height3 = height3 + 1;
+}
+if (!is_even && !flag) {
+  for (int tickets = 0; tickets < 5; tickets = tickets + 1) {
+    int tickets2 = tickets;
+  }
+  int x = 0;
+  while (x < 5) {
+    tord = height;
+    print(height3);
+    print(result);
+    x = x + 1;
+  }
+  int j = 0;
+  while (j < 5) {
+    print(result);
+    print(x);
+    j = j + 1;
+  }
+}
+if (height < result + 5) {
+  int b = height / 7;
+  print(b);
+  print(b == (tord / 3));
+  is_even = false;
+} else if (!flag) {
+  int y = (height3 / 4);
 } else {
-  print(lives2);
-  if (22.4 <= (31 + 36)) {
-    int second = 13;
-    print(second);
-    result = (5 + 27) + (second + second);
+  int steps = 0;
+  while (steps < 5) {
+    flag = (height + height) >= (2 - result);
+    steps = steps + 1;
+  }
+  if (!is_even) {
+    owner = "token";
+    print(2);
   }
 }
-int n = 0;
-while (n < 6) {
-  string owner1 = "bob";
-  rate1 = 16.6;
-  bool ok = 35 >= lives2 - 34;
-  n = n + 1;
+print(flag);
+bool is_even3 = 23.4 + height3 == (tord - 27);
+print(is_even);
+int rounds = 0;
+while (rounds < 4) {
+  owner = "yudu";
+  float eeight3 = 10.3;
+  rounds = rounds + 1;
 }
-lives2 = n % 5 % 7;
-print(lives2);

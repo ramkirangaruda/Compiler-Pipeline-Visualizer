@@ -1,18 +1,23 @@
-bool is_even = 4.6 - 30.4 < 37;
-string label = "yudu";
-int z3 = 33 % 2;
-string is_eien = label + "bob";
-bool ok3 = 37 > (z3 % 7);
-int z = 0;
-while (z < 5) 
-  print(is_eien);
-  z = z + 1;
+int score2 = 19;
+int second = 33 / 1;
+int score1 = score2;
+float avg3 = 4.7;
+int steps;
+int result = 33 - score1;
+print(avg3);
+int svg3 = 0;
+for (svg3 = 0; svg3 < 5; svg3 = svg3 + 1) {
+  print(second);
+  if (false) 
+    int index = second;
+    print(index);
+    print(steps);
+    steps = (score1 * 38) + score1 + svg3;
+  }
+  print("robot");
 }
-print("ok");
-float distance = 23.5 * 19.4;
-print("world");
-int y = z3;
-print(ok3);
-print(y);
-float ie_eien = distance - distance;
-print(ie_eien);
+print(score2);
+steps = 23;
+print("pipeline");
+print(svg3);
+print(score2);

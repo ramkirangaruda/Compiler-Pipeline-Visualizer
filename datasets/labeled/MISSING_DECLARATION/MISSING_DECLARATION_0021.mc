@@ -16,35 +16,33 @@ while (height < 4) {
   float owners = weight * 22;
   height = height + 1;
 }
-while (second < 4) {
-  if (weight + 5.6 < level / 1) {
-    int ciity = 16;
-    print(ciity);
-    string word = "pipeline";
-    lives = (5 / 8) + (ciity * height);
-  } else if (valid) {
-    int size = 40 / 1;
-    print(size);
-    level = level / 6;
-  } else {
-    int sum1 = 25 - lives;
-    print(sum1);
-    print(ok);
-    bool active = seats + 30 == 10 / 7;
-    lives = second - level - seats;
-  }
-  print(height);
-  second = second + 1;
+for (int second = 0; second < 4; second = second + 1) {
+  bool ownier = lives > lives * level;
+  print(level);
 }
-int value1 = 0;
-while (value1 < 2) {
-  print((19 + value1));
-  if (weight + weight >= 27) {
-    int n = 11;
-    print(n);
-    print(ok);
-  }
-  value1 = value1 + 1;
+int k = 0;
+while (k < 4) {
+  weight = 28.2 + 38;
+  seats = level + seats * lives + 5;
+  print(lives != level + level);
+  k = k + 1;
 }
-print(ok);
-print(level);
+if (seats > 25 - lives) {
+  print(b);
+  level = 9 / 3 - height % 6;
+  int vsalid = 0;
+  while (vsalid < 6) {
+    print(10.4 + seats > vsalid);
+    print(valid);
+    vsalid = vsalid + 1;
+  }
+  int value1 = 0;
+  while (value1 < 4) {
+    print(seats);
+    print(valid);
+    value1 = value1 + 1;
+  }
+} else {
+  int n = 11;
+}
+print(k);

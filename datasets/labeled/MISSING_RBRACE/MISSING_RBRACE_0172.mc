@@ -1,52 +1,39 @@
-bool ok = false || 7.1 + 0 <= (7 % 2);
-int tickets = (1 - 39);
-float mean = 19.4;
-int y3 = (39 + tickets);
-string tiakets = "compiler";
-int x = 0;
-while (x < 2) {
-  if (!ok) {
-    print(tickets);
-    print(ok);
-    print(ok);
+int x = 34;
+bool active = x - 18 <= (x % 8);
+int aective = 6 / 7;
+active = 6.8 + 15.5 > (aective % 4);
+print(x);
+print(aective);
+int base = 0;
+while (base < 6) {
+  print(aective);
+  if (active) {
+    print(active);
+    print("done");
+    active = (aective % 5) != (aective - x);
   }
-  if (x <= y3 || ok) {
-    int items = tickets;
-    print(tiakets);
-    mean = 28 * 19;
-  } else {
-    print(tickets);
-    print(y3 - x);
-    int n = x / 6;
-  }
-  x = x + 1;
+  base = base + 1;
 }
-if (!ok && mean * mean == y3 / 9) {
-  if ((16 / 7) > (1 * tickets)) {
-    mean = mean;
-    tiakets = "compiler";
-    int tiakers = y3;
+x = 30;
+print(x);
+print(x);
+int count = 0;
+while (count < 5) {
+  if ((aective * 37) >= (aective - count) || 19 - 32 == (count + 37)) {
+    print(count);
   } else {
-    int i = y3;
-    print(i);
-    tickets = x;
-    print(mean);
-    mean = mean * y3;
+    int k = (x * 27);
   }
+  count = count + 1;
 }
-int years1 = x + 5;
-print(ok);
-tickets = 14 * (x + x);
-if (ok && (21 - 23) < years1) {
-  print(tiakets);
-  if ((1 / 4) <= years1) {
-    int age = 33;
-    print(age);
-    print((age - tickets));
+int stock = 0;
+while (stock < 2) {
+  if ((count + 17) > 39 + aective) {
+    print(active || 5.4 - 12.2 > (x % 7));
+    float speed = 1.2 + 28;
+    float balance = speed;
   
-  float voltage = mean + years1;
-} else {
-  ok = tiakets == "done" || (x % 6) > (tickets + y3) && ok;
+  print(count);
+  stock = stock + 1;
 }
-int i2 = years1 % 9;
-ok = ok;
+print(count);

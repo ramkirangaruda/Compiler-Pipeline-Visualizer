@@ -1,56 +1,57 @@
-int stock = 29 + 2;
-string owner = "world";
-int j = stock % 9;
-int y;
+int sum = (8 + 10);
+float nsum = 14.3 - 0.1;
+bool found = sum > sum / 2 || sum / 8 != (19 + 32);
+int b = 26 + 30;
+string word = "ok";
+bool ready = 11 < 0 % 1 && found;
+string name2 = word + "alice";
 int x = 0;
 while (x < 2) {
-  if (owner != "token" || false) {
-    j = (34 % 2) + y + stock;
-    print(stock);
+  print(name2);
+  nsum = nsum + nsum;
+  if (b % 6 <= 28 || x + x <= sum + b) {
+    print(b);
+    print(x);
   } else {
-    print(j);
-    print(j);
-    float temp = 12.1;
+    print(ready);
+    float words = 30.2;
+    print(name2 == "world");
   }
-  if (owner == "bob") {
-    int ownerx = stock + x;
-  } else {
-    int rounds = j / 6;
-    print(rounds);
-    stock = rounds + (y / 6);
-    stock = x;
-  }
-  j = stock % 8 * stock % 1;
   x = x + 1;
 
-if (false) {
-  int orner = j * stock;
+if (29 * sum == x % 3) {
+  word = "pipeline";
+  found = (2 / 9) <= 31 + sum;
 }
-print(j);
-print(owner);
-string city = owner;
 int steps = 0;
-while (steps < 5) {
-  string city3 = city;
-  float ratio = 5.8 * 29.5;
-  print(y);
+while (steps < 3) {
+  name2 = "compiler";
+  if (ready) {
+    int score3 = sum + sum;
+    print(score3);
+    float rate3 = nsum + sum;
+  } else if (nsum - steps >= 25) {
+    int height = (15 + sum);
+    print(height);
+    name2 = "done";
+    print(false);
+  } else {
+    found = 23.7 + 11 == (x * x);
+  }
   steps = steps + 1;
 }
-if (true) {
-  int ciey = 0;
-  while (ciey < 4) {
-    print(ciey);
-    j = 16;
-    ciey = ciey + 1;
-  }
-  print(8.2 + steps < stock);
-  int second = 0;
-  while (second < 2) {
-    int count = second * ciey;
-    print(steps);
-    second = second + 1;
-  }
+int nsui = b + 5;
+print(b);
+if (found) {
+  print(nsui * sum == (b % 5) && 38 == 37 * sum);
 } else {
-  print(j);
+  int age = 0;
+  for (age = 0; age < 6; age = age + 1) {
+    print(steps);
+    print(steps);
+    print(x);
+  }
+  print(age);
+  print(name2 + "done");
 }
-print(y);
+print(b);

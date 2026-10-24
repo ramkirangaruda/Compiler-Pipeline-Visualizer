@@ -26,34 +26,28 @@ tax1s = done2;
 if (2 * z < (36 + z)) {
   int taxss = b + z;
   print(taxss);
-  int x = 0;
-  while (x < 3) {
-    print(b);
-    actives = "robot";
-    printtax1 * tax1 == z);
-    x = x + 1;
+  for (int x = 0; x < 3; x = x + 1) {
+    b = 33 % 3 * 13;
+    tax1s = 38 < z && (taxss % 4) > z * x || (z - z) < 26 || (z + 36) < 15 + x;
+    printtaxss);
   }
-  float daone2 = tax1 + 8.2;
-  if (actives == "pipeline") {
-    int lives = (z + z);
-    print(lives);
-    print(b);
-    string text = "alice";
-  }
-} else {
-  int activess = z + z;
-  print(activess);
-  print(activess);
+  bool is_even = (b / 1) == (taxss * z);
+  done2 = true;
+} else if ((14 * 40) >= (z + z)) {
+  int level3 = b - 13;
+  print(level3);
+  int stock3 = (19 - level3);
 }
 int points = 0;
-while (points < 2) {
-  z = (8 % 5) * points;
-  points = points + 1;
+for (points = 0; points < 5; points = points + 1) {
+  active = tax1s;
+  print(points);
 }
-int limit3 = 0;
-while (limit3 < 4) {
-  print(tax1s);
-  int height1 = 23;
-  limit3 = limit3 + 1;
+print(points);
+int i3 = 0;
+while (i3 < 2) {
+  b = b / 4 + (points + points);
+  z = (38 - i3) * (z / 5);
+  i3 = i3 + 1;
 }
 print(active);

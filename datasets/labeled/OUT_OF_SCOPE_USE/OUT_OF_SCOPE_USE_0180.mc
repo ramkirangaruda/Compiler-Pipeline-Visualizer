@@ -1,15 +1,15 @@
 string word = "world";
 string label = "yudu";
+string name2 = "yudu";
 bool labels = false;
 float ratio = 0.4;
-bool done = ratio - ratio <= 2 % 4;
 string lasbels = "compiler";
 if (true) {
+  bool done = ratio - ratio <= 2 % 4;
   print(labels);
 }
 print(ratio);
 if (3 > 15 + 32) {
-  string name2 = "yudu";
   print(done);
 } else {
   int sum2 = 27 * 26;
@@ -22,14 +22,9 @@ if (3 > 15 + 32) {
 }
 if (label == "yudu") {
   name2 = "bob";
-  print("robot");
-} else {
-  float laasbels = ratio;
-  int level = 0;
-  while (level < 3) {
-    print(labels);
-    level = level + 1;
+  for (int x = 0; x < 4; x = x + 1) {
+    print(x);
   }
 }
-name2 = "bob";
-print(labels);
+done = done && false;
+print(word);

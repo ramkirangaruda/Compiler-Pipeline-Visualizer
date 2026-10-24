@@ -10,53 +10,21 @@ if ((6 % 2) < (33 % 6)) {
   print(seats3);
   print(limit);
 } else if (30.6 >= limit + limit) {
-  int points3 = 0;
-  while (points3 < 4) {
-    int value3 = (40 * 5);
+  for (int points3 = 0; points3 < 4; points3 = points3 + 1) {
+    y2 = (40 % 2) * limit;
     print(size1);
-    points3 = points3 + 1;
   }
-  print(limit);
-} else {
-  int b = size1;
-  print(b);
-  print(b);
-  print(owner);
+  print(flag);
 }
-int second = 0;
-while (second < 6) {
-  if (flag) {
-    int flagi3 = (19 % 1);
-    flagi3 = total + (second % 6);
-  } else {
-    int rounds = limit * total;
-    print(rounds);
-    total = limit / 3 * 33 + 26;
-  }
-  flag = flag3;
-  second = second + 1;
+int y = 0;
+while (y < 5) {
+  total = (29 % 1) / 4;
+  owner = owner + "yudu";
+  y = y + 1;
 }
-print((size1 / 5));
-int level = (size1 / 7);
-int marks = 0;
-while (marks < 4) {
-  flag3 = total > limit % 9;
-  print((y2 % 7));
-  print(y2);
-  marks = marks + 1;
-}
-limit = total * (second - total);
-if (flag3) {
-  int seats2 = 15 * marks;
-  print(seats2);
-  if (!flag) {
-    print(second);
-    print(second / 9);
-    int owners = (level * level);
-  } else {
-    print((marks + size1));
-    print(owner)
-    print(seats2);
-  }
-}
-print(y2);
+print(size1);
+print(size1)
+size1 = 3 % 1;
+owner = "hello";
+bool passed = (32 - total) <= limit;
+print(owner + "token");

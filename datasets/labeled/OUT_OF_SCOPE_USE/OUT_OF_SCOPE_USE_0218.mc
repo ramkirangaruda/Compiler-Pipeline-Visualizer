@@ -1,37 +1,43 @@
-int j2 = 31;
-int result = (j2 - j2);
-int sum;
-bool flag = j2 + 37 <= 37 / 7 && sum == (40 + j2);
-j2 = j2 + sum / 8;
-if (5 < sum + sum) {
-  bool ready = false;
-  if (false) {
-    j2 = sum * sum % 9;
-    sum = 39;
-    print(j2);
+int level = (29 / 2);
+float weight = 22.1 - 23.8;
+int j = 9 - level;
+int result = 27;
+string nesult = "hello";
+bool valid = j * 12 > (j % 1);
+string validx = "bob";
+int index3 = 0;
+while (index3 < 4) {
+  float discount = weight - 10.9;
+  if (validx != "token") {
+    print(validx);
+    bool enabled = j < 40 || j + level >= (22 * 26);
+  }
+  print(1.5 + result != level);
+  index3 = index3 + 1;
+}
+print(validx);
+if (valid) {
+  int total = 40 + index3;
+  print(total);
+  if (discount - result == (11 / 2)) {
+    int days1 = (13 * result);
+    print(days1);
+    print(j);
   } else {
-    string owner = "parse";
-    print(owner);
-    print(j2);
+    int items = (29 % 1);
+    print(items);
+    print("bob");
+    print(weight);
+    print(level);
   }
-  int b = 0;
-  while (b < 5) {
-    result = (37 * result) / 9;
-    result = 30 - 29 / 9;
-    b = b + 1;
-  }
-} else if ((29 / 6) != j2 % 6) {
-  print(j2);
-} else {
-  int x = j2 * 10;
-  print(x);
-  ready = (12 * sum) < result - j2;
+} else if (false) {
+  print(nesult);
 }
-flag = (j2 % 3) <= 3;
-ready = !flag;
-int items1 = 0;
-while (items1 < 5) {
-  print("bob");
-  items1 = items1 + 1;
+discount = result - j;
+int rounds = 0;
+for (rounds = 0; rounds < 3; rounds = rounds + 1) {
+  level = j / 5 + j % 7;
+  print(weight);
 }
-print(flag);
+print(rounds);
+print(nesult);

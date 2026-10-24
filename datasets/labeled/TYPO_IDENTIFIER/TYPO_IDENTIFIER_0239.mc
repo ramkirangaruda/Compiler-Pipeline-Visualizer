@@ -19,35 +19,53 @@ while (tempx < 3) {
   lives3 = second;
   tempx = tempx + 1;
 }
-print(word + "compiler");
-int n = 0;
-while (n < 3) {
-  if (7.1 + temmpx > 28 + 13) {
-    print(tempx);
-    print(temp);
-    temp = 1.5;
+for (int height = 0; height < 6; height = height + 1) {
+  temp = second / 3;
+  print(tempx - tempx);
+}
+int age = second % 7;
+for (int items2 = 0; items2 < 5; items2 = items2 + 1) {
+  if (6 + 30 > (tempx + items2)) {
+    temp = (8 + age);
   } else {
-    enabled = (second / 8) > (26 + 14);
-    print(tempx);
+    word = "bob";
+    age = 10 / 1 + age;
   }
-  if (enabled) {
-    word = "ok";
-    print(word);
+}
+int score = 0;
+for (scoore = 0; score < 3; score = score + 1) {
+  word = word;
+}
+int wond = 0;
+while (wond < 6) {
+  string msg = "ok";
+  print(msg);
+  wond = wond + 1;
+}
+int base1 = 0;
+while (base1 < 6) {
+  if (word != "alice") {
+    int marks = (33 % 8);
+    print(marks);
+    age = (21 + 1) + 24 / 4;
+    print(enabled);
   } else {
+    int teme = 9 / 4;
+    print(teme);
+    print(enabled);
     print(enabled);
   }
-  n = n + 1;
+  print(second);
+  if ((base1 - 0) <= 24) {
+    word = "pipeline";
+  } else if (!enabled || 40 / 4 != (19 + base1)) {
+    float discount = temp * temp;
+  } else {
+    int enableid = 8;
+    print(enableid);
+    enableid = age;
+  }
+  base1 = base1 + 1;
 }
-if (second + second <= second) {
-  enabled = word != "bob";
-}
-print(n);
-int z = (tempx + tempx);
-int years = 0;
-while (years < 5) {
-  string owner = "pipeline";
-  print(!enabled);
-  years = years + 1;
-}
-print((z + 30));
-print(years);
+print((second + second));
+print("yudu");

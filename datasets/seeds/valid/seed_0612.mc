@@ -23,10 +23,9 @@ if (text != "done") {
 }
 print(valid2);
 int seats = 0;
-while (seats < 3) {
-  print(found2);
-  print(4 % 6 < 33);
-  seats = seats + 1;
+for (seats = 0; seats < 3; seats = seats + 1) {
+  print("pipeline");
+  found2 = flag;
 }
-z = (years - 15) + (lives * 17);
-print(valid2);
+text = text + "compiler";
+years = lives;

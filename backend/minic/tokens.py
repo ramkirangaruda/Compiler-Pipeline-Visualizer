@@ -4,7 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
-KEYWORDS = ("if", "else", "while", "print")
+KEYWORDS = ("if", "else", "while", "for", "print")
 TYPES = ("int", "float", "bool", "string")
 BOOL_LITERALS = ("true", "false")
 ALL_RESERVED = KEYWORDS + TYPES

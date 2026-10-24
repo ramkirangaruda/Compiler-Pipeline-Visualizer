@@ -9,39 +9,67 @@ string owner = "alice";
 float weight = discount3;
 print(years / 3);
 print(years);
-owner = "compiler";
-print(yeairs);
-int x = years + years;
-int b3 = 0;
-while (b3 < 4) {
-  if (true) {
-    int i = (36 + 7);
-    print(years);
-  }
-  b3 = b3 + 1;
+for (int ownier = 0; ownier < 5; ownier = ownier + 1) {
+  float tax = discount3 + years;
+  discount3s = (30 + years) * 16;
+  print(ownier);
 }
-if (true) {
-  int stock3 = discounta3;
-  print(stock3);
-  int count = 0;
-  while (count < 4) {
-    print(weight);
-    print(discount3s + count);
-    count = count + 1;
+if (city != "token") {
+  if (ok) {
+    years = discount3s / 3;
+    city = city;
+    print("alice");
   }
-  if (true) {
+  print(discount3s);
+  if (discounta3 + years == 11) {
     city = city + "compiler";
     int age3 = 32 % 8;
   }
-  yeairs = yeairs + discount3s;
-} else if (owner == "alice") {
-  int tickets = 5 + x;
-  print(tickets);
-  int count2 = 0;
-  while (count2 < 3) {
-    print("robot");
-    count2 = count2 + 1;
-  }
-  float counat2 = yeairs;
+} else {
+  print(discount3s);
 }
-print(owner);
+if (false || false) {
+  int tickets = 0;
+  for (tickets = 0; tickets < 3; tickets = tickets + 1) {
+    print(discount3s);
+    years = 36 + 6 + (tickets + 39);
+  }
+  print(tickets);
+  if (tickets >= tickets) {
+    print(ok);
+    print("pipeline");
+  } else {
+    discounta3 = tickets;
+    print((35 - 28));
+    print(years);
+  }
+  owner = owner;
+} else {
+  print(discounta3 % 6);
+  owner = "done";
+}
+if (ok) {
+  print(owner);
+  print((7 + discount3s));
+  discount3s = 35 * 24 * discounta3;
+} else if (ok) {
+  int y = discount3s;
+  print(y);
+  print(31 + 6);
+  int yeairss = 0;
+  while (yeairss < 6) {
+    print(25 - years != discount3s % 2);
+    yeairs = yeairs - 22;
+    yeairss = yeairss + 1;
+  }
+} else {
+  int items = (years + years);
+  print(items);
+  if (true) {
+    print(discount3s);
+    print((25 + 7));
+  }
+  print(owner);
+}
+print(yeairs);
+print(ok);

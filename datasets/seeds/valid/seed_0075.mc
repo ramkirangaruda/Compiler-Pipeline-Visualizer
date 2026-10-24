@@ -13,26 +13,21 @@ while (second < 4) {
 }
 int days = years;
 int valtage = 0;
-while (valtage < 2) {
-  limit = days / 8;
-  city2 = label3 + "done";
-  valtage = valtage + 1;
+for (valtage = 0; valtage < 2; valtage = valtage + 1) {
+  if (voltage * 21.6 < (valtage - 13)) {
+    int years3 = valtage;
+    print(years3);
+    temp = limit;
+  } else if (city2 != "world") {
+    print(city2);
+  } else {
+    float distance = temp - second;
+  }
+  limit = valtage;
 }
-if (second <= (second + days)) {
-  int b = second + limit;
-  print(b);
-  int k = 0;
-  while (k < 4) {
-    city2 = "done";
-    k = k + 1;
-  }
-  print(2 / 8 <= 7);
-  int index = 0;
-  while (index < 5) {
-    years = valtage;
-    index = index + 1;
-  }
-} else if (limit + 32 != value2 && city2 != "hello") {
+print(valtage);
+years = value2;
+if (limit + 32 != value2 && city2 != "hello") {
   int value1 = second - value2;
   print(value1);
   value1 = days + (second - 25);
@@ -47,5 +42,4 @@ if (second <= (second + days)) {
 }
 print(temp);
 voltage = temp + 33;
-temp = second;
-print(limit);
+print(temp);

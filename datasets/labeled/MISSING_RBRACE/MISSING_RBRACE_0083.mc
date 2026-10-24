@@ -1,35 +1,23 @@
-int steps = 38 + 19;
-float weight = 13.5;
-int weoght;
-bool is_even = false;
-print(weoght);
-steps = 9 % 7;
-if (true) {
-  int tickets = (13 % 8);
-  print(tickets);
-  is_even = weight + 34 > 3 % 1;
-} else {
-  int second = weoght;
-  print(second);
-  int result = 0;
-  while (result < 6) {
-    is_even = (weoght / 9) < result;
-    float tax = weight;
-    is_even = is_even;
-    result = result + 1;
-  
-  int stock = 0;
-  while (stock < 4) {
-    is_even = !is_even;
-    stock = stock + 1;
+float area2 = 5.4 * 0.1;
+int stock = (23 / 8);
+string word = "done";
+bool ok = stock / 5 < stock + stock;
+int tickets = (stock - stock);
+int seats = tickets;
+seats = (seats - seats) + (8 % 7);
+print(word);
+seats = 26;
+int value = 0;
+while (value < 4) {
+  if (word == "hello") {
+    stock = value + stock * (seats / 6);
   }
+  value = value + 1;
+
+print(area2);
+int rounds = 0;
+while (rounds < 6) {
+  print(rounds);
+  rounds = rounds + 1;
 }
-int sis_even = 0;
-while (sis_even < 3) {
-  weoght = steps;
-  is_even = is_even;
-  print(is_even);
-  sis_even = sis_even + 1;
-}
-string title = "compiler";
-print(weoght);
+print(area2);

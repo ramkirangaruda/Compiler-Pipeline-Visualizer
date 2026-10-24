@@ -1,8 +1,8 @@
 int height = 27;
 string owner = "parse";
 string owner2 = owner;
-int seats = (height + height);
 bool enabled = (seats + 23) == 26 - height;
+int seats = (height + height);
 string msg = "robot";
 print(height);
 seats = (height - 40) * height - height;
@@ -11,8 +11,8 @@ owner = owner2 + "robot";
 int result = 0;
 while (result < 6) {
   if (false) {
-    print(score);
     int score = (20 * 35);
+    print(score);
     seats = (score / 5) % 2;
     print(19.1 - seats < seats);
     print("hello");
@@ -47,5 +47,15 @@ if (8 - height >= 6) {
   }
   owner = owner;
 }
-int limit = seats;
-print(enabled);
+int lives = 0;
+for (lives = 0; lives < 3; lives = lives + 1) {
+  if (enabled) {
+    int b = (seats + seats);
+    print(b);
+    seats = 3 * result + height;
+    bool done = !enabled;
+  } else {
+    print(result);
+  }
+}
+print(lives);

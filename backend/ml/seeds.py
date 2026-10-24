@@ -15,7 +15,7 @@ POOL = {
 }
 STRINGS = ["hello", "world", "compiler", "robot", "ok", "done", "alice", "bob", "yudu", "pipeline", "token", "parse"]
 CMP = ["<", ">", "<=", ">=", "==", "!="]
-RESERVED = {"if", "else", "while", "print", "int", "float", "bool", "string", "true", "false"}
+RESERVED = {"if", "else", "while", "for", "print", "int", "float", "bool", "string", "true", "false"}
 
 
 class Gen:
@@ -201,13 +201,38 @@ class Gen:
         self.vars.pop()
         self.emit("}")
 
+    def for_stmt(self, depth: int) -> None:
+        r = self.r
+        counter = self.fresh("int")
+        limit = r.randint(2, 6)
+        outer = r.random() < 0.4        # counter declared before the loop (and usable after it)
+        if outer:
+            self.emit(f"int {counter} = 0;")
+            self.vars[-1].append((counter, "int"))
+            head = f"for ({counter} = 0; {counter} < {limit}; {counter} = {counter} + 1)"
+        else:
+            head = f"for (int {counter} = 0; {counter} < {limit}; {counter} = {counter} + 1)"
+        self.protected.add(counter)
+        self.emit(head + " {")
+        self.vars.append([] if outer else [(counter, "int")])
+        self.ind += 1
+        for _ in range(r.randint(1, 3)):
+            self.stmt(depth + 1, allow_loops=False)
+        self.ind -= 1
+        self.vars.pop()
+        self.emit("}")
+        if outer and r.random() < 0.6:
+            self.emit(f"print({counter});")
+
     def stmt(self, depth: int, allow_loops: bool = True) -> None:
         r = self.r
         roll = r.random()
         if depth < 2 and roll < 0.22:
             self.if_stmt(depth)
-        elif depth < 2 and allow_loops and roll < 0.38:
+        elif depth < 2 and allow_loops and roll < 0.34:
             self.while_stmt(depth)
+        elif depth < 2 and allow_loops and roll < 0.43:
+            self.for_stmt(depth)
         else:
             self.simple()
 

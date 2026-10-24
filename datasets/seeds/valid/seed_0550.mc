@@ -38,19 +38,29 @@ if (true) {
   int texet = (base - y);
   print(texet);
   n2 = a - a;
-  print(done);
-  n2 = 29;
-} else {
-  int days = (26 % 9);
-  print(days);
-  if (26.6 < (4 * n2)) {
-    int i = 9 / 4;
-    print(i);
-    print(done);
-  } else {
-    print(done);
-    n2 = y;
-    print("world");
+  int count = 0;
+  for (count = 0; count < 3; count = count + 1) {
+    print(texet);
   }
+  print(count);
+  if (done) {
+    print(label + "hello");
+    text = text + "ok";
+  } else {
+    n2 = (36 % 5) / 1;
+    print(19.7 * 3.4 <= y);
+  }
+} else if (done) {
+  a3 = a3 + base / 7;
+} else {
+  int height = 40 - 26;
+  print(height);
+  if (label == "done" && a3 > (n2 + y)) {
+    n2 = 36 / 1;
+    height = 27 + y + 9;
+  } else {
+    print(label);
+  }
+  int tickets = (n2 + 11);
 }
-print("alice");
+print(25 + base < (14 / 5));

@@ -39,36 +39,53 @@ if (active) {
     int rounds = 24;
     print(rounds);
     seats = 11 % 3;
-    print(ready)
+    print(ready);
   } else {
     int tickets = (seats * 15);
     print(tickets);
     bool found = false;
   }
   int base3 = 0;
-  while (base3 < 3) {
-    seats = 0 / 5 * (35 / 3);
-    base3 = base3 + 1;
+  for (base3 = 0; base3 < 3; base3 = base3 + 1) {
+    course = course;
   }
 } else {
-  int firstxs = (count % 3);
-  print(firstxs);
-  active = (index3 * firstxs) > (39 + 26);
-  print(course);
-  print(firstxs);
+  active = false;
+  if (ready) {
+    int i = (seats - count);
+    print(i);
+    print(first);
+    print(active);
+    seats = (36 % 7) / 7;
+  }
 }
-int width2 = 0;
-while (width2 < 2) {
-  index3 = 29;
-  width2 = width2 + 1;
+if (active) {
+  int width2 = 0;
+  while (width2 < 2) {
+    index3 = 29;
+    width2 = width2 + 1;
+  }
+  firstx = "world";
 }
-firstx = "world";
-string city = firstx + "robot";
-int limit = 0;
-while (limit < 6) {
-  print(count);
-  limit = limit + 1;
+print(course);
+if (index3 > index3 / 1) {
+  if ((9 / 8) == seats * first) {
+    print(course);
+  } else if (16.2 - 5.8 == seats * first) {
+    index3 = (32 + count) - 40 + first;
+  } else {
+    int firstxs = first * 1;
+    print(firstxs);
+    course = course + "yudu";
+    firstxs = firstxs * 31 + (5 + 11);
+  }
+  int base = 40 + 24;
+} else {
+  firstx = course + "compiler";
+  print(index3);
 }
-course = course;
-int lives1 = 5;
-print(active);
+firstx = firstx + "hello";
+first = first;
+print(index3);
+int years = 16
+print((count / 9));

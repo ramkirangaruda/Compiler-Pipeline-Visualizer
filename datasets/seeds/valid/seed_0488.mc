@@ -18,7 +18,11 @@ while (a3 < 2) {
   print(valid);
   a3 = a3 + 1;
 }
-is_even1 = 1 + a3 != (rounds - rounds);
+for (int base = 0; base < 2; base = base + 1) {
+  print(count2);
+  print(is_even1);
+}
+print(count2);
 int marks = 0;
 while (marks < 2) {
   valid = marks % 2 <= 15 % 2 || done;
@@ -43,17 +47,4 @@ while (marks < 2) {
 temp = temp;
 count2 = 11;
 print(a3);
-if (false) {
-  if (a3 > (marks % 8)) {
-    int seats = count2;
-    print(seats);
-    print("pipeline");
-    valid = a3 - a3 <= a3;
-  } else {
-    int y = (rounds - a3);
-    print(y);
-    is_even1 = marks - 10 >= 12 + marks;
-  }
-  valid = temp + 4.6 > marks;
-}
 print(rounds);

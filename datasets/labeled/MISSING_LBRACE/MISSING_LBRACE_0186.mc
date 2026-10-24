@@ -1,46 +1,40 @@
-string msg = "yudu";
-int j2 = (5 + 33);
-bool msgs = j2 - 39 <= 3;
-int n = j2;
-int steps2 = n + j2;
-bool ready3;
-bool found = true;
-string course = "yudu";
-msg = "hello";
-print(j2);
-print(j2);
-print(found);
-if (true) {
-  int x = (j2 / 6);
-  print(x);
-  if (msgs) {
-    int a = 14;
-    print(a);
-    print(course);
-  } else if (40 >= x + 32) {
-    int height = (x + n);
-  } else 
-    int value3 = n;
-    print(value3);
-    x = 22 + 17;
+int count1 = 23 - 22;
+int value = (36 - count1);
+string label = "world";
+bool flag2 = false || false;
+int width1 = 0;
+while (width1 < 4) 
+  float flag2s = 3.1;
+  print(count1 == count1 % 9 && value != 0 / 7);
+  width1 = width1 + 1;
+}
+value = value + 22;
+label = label + "hello";
+flag2 = 1 + value >= (count1 / 1);
+print(label);
+print(value);
+int sum = 0;
+while (sum < 3) {
+  print(sum % 8 <= (count1 - sum));
+  bool has_more1 = 5 + width1 != (sum / 7);
+  sum = sum + 1;
+}
+print((value - value));
+if ((sum * count1) <= (0 * value)) {
+  value = count1;
+  int first = 0;
+  while (first < 2) {
+    count1 = width1;
+    label = "bob";
+    float mean = 5.2;
+    first = first + 1;
   }
-  int fouod = steps2 + x;
+} else if (value > count1) {
+  if ((sum + value) > (width1 % 3) && (width1 + count1) > 40) {
+    print(!flag2);
+    print(value);
+  }
 } else {
-  ready3 = found;
-  msg = course;
+  value = value + value + value / 4;
 }
-string word3 = msg + "world";
-float discount = 17.5 * 12.8;
-print(ready3);
-int nsgs = 0;
-while (nsgs < 4) {
-  if ((steps2 + 2) > (29 * nsgs)) {
-    int j = 24;
-    print(j);
-    int width = nsgs + 10;
-    int days1 = (steps2 % 5);
-  }
-  nsgs = nsgs + 1;
-}
-j2 = 16 - j2;
-print(found);
+print(width1);

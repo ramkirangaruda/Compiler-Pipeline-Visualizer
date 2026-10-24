@@ -1,27 +1,58 @@
-string city2 = "bob";
-int first = 38;
-int oity2 = 10;
-int caty2 = (oity2 * oity2);
-int j3 = (caty2 + first);
-string title = "hello";
-if (3.2 * 17.1 == j3) {
-  int y3 = 30;
-  print(y3);
-  city2 = "pipeline";
-  print(j3 / 5);
-  oity2 = (caty2 + 6) + oity2 - oity2;
+int second = (7 * 8);
+int stock = (second % 8);
+int result = 26;
+int value = second / 7;
+print(result);
+if (true) {
+  if (true && 0.9 + 2 >= (result / 1)) {
+    print(result);
+  }
+  for (int i2 = 0; i2 < 6; i2 = i2 + 1) {
+    second = 7;
+  }
+  int k = (value * 17);
 } else {
-  print(oity2);
-  title = title;
+  int num = 32;
+  print(num);
+  num = (1 + second) + (result / 3);
 }
-print(j3);
-print(first);
-int tetle = 0;
-while (tetle < 2) {
-  caty2 = tetle;
-  print(tetle);
-  tetle = tetle + 1;
+if (35 != 12) {
+  if (second <= stock && stock == second) {
+    int a = 1 + 13;
+    print(a);
+    print("world");
+    result = (value - second) % 3;
+    int height = stock - second;
+  } else {
+    int index3 = 9 / 6;
+    print(index3);
+    stock = result * (second / 3);
+  }
+  if (true) {
+    int points = (16 - 33);
+    print(points);
+    print(stock);
+    bool enabled = 35 > value || points + second >= (stock * 19);
+  }
+}
+int b = 0;
+while (b < 5) {
+  result = 15;
+  value = stock;
+  b = b + 1;
+}
+print(second);
+if (value != 29 + 28) {
+  int level1 = (19 + second);
+  print(level1);
+  print(1.8 != result - result);
+  if (17.8 == (b % 3)) {
+    result = (b * stock) % 9;
+  } else {
+    print(stock);
+    print("world");
+    print("world");
+  }
+  print(value);
 
-int score1 = tetle + 31;
-bool done = title == "pipeline";
-print(first);
+print(second);

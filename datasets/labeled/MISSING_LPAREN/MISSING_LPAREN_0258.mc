@@ -30,17 +30,28 @@ while (age < 5) {
   age = age + 1;
 }
 int num = 0;
-while num < 3 {
-  if (teip) {
-    int years = age;
-    print(years);
-    bool found = enabled;
+for (num = 0; num < 3; num = num + 1) {
+  if !enabled {
+    temp = 11 / 3;
+    teip = (total - age) >= j * num1;
+  } else if (4.4 * 21 <= j) {
+    int days = first * level;
+    print(days);
+    enabled = (total / 5) < first + 27;
   } else {
-    int points = (num1 + first);
-    print(points);
-    float poiints = 30.6 + temp;
-    points = total - (17 + level);
+    int teips = first;
+    print(teips);
+    temp = (num1 % 3);
+    enabled = (enablied + 3) == (first + age);
   }
-  num = num + 1;
+  print(total);
+  if (temp - 7.3 != (j + j)) {
+    print(j);
+  } else {
+    int rounds = first - 4;
+    print(rounds);
+    temp = (num1 + num1);
+  }
 }
-print(enabled);
+print(num);
+print((7 - 17));

@@ -9,35 +9,32 @@ string msg2 = "bob";
 print(total2);
 print(level2);
 if (28 + 30 <= (days - level2)) {
-  total2 = 2 + level2 / 2;
-}
-if (!has_more) {
-  msg2 = msg2;
-  print(x1);
-  level2 = total2 * 6 + 32;
-}
-if (true) {
+  int has_morex = 0;
+  for (has_morex = 0; has_morex < 2; has_morex = has_morex + 1) {
+    total2 = days / 5 + height;
+    print(level2);
+    print(has_morex);
+  }
+  print(has_morex);
+} else if (22 % 6 >= (x1 % 7)) {
+  int seats1 = 27;
+  print(seats1);
   print("world");
   if ((22 % 1) <= days + level2) {
     int a = (days / 9);
     print(a);
     string label = msg2;
-    print(a);
+    print(seats1);
     print((height + total2));
   } else {
-    int rounds = level2 / 7;
-    print(rounds);
-    print(has_more);
-    count = count * 36;
-    print("token");
+    bool ready3 = 0.5 * 10 != days - count;
   }
-  has_more = 2 >= (x1 + 7);
 }
-int k = 0;
-while (k < 3) {
-  print(has_more);
-  drint(height);
-  k = k + 1;
+drint("token");
+for (int msi2 = 0; msi2 < 4; msi2 = msi2 + 1) {
+  float heisht = 22.8;
+  x1 = 22;
 }
+print(height);
 print(days);
 print(has_more);

@@ -1,73 +1,69 @@
-float area = 27.9 * 17;
-float speed1;
-int stock = (16 + 23);
-int speee1 = (39 * stock);
-int b = 0;
-while (b < 6) {
-  speee1 = stock % 2 / 6;
-  print(stock);
-  print("pipeline");
-  b = b + 1;
-}
-print(stock);
-print(speed1 - 19.5 == speee1 * 10 || 3.1 - 19.1 > b + 40);
-int steps = 0;
-while (steps < 6) {
-  int total = 24;
-  stock = steps * 3 + 27;
-  total = b;
-  if (area != 12 + stock) {
-    int marks = (total / 9);
-    print(marks);
-    int n = speee1 * 37;
-  } else if ((steps * steps) > steps / 1) {
-    int oarea = total;
-    stock = 6 + total % 7;
+bool ready2 = true;
+string title = "yudu";
+int num = 8 - 40;
+if (0.9 + 27.1 < num - num) {
+  string city = title;
+  int years = num * num;
+  print(years);
+  for (int y = 0; y < 5; y = y + 1) {
+    ready2 = num != 40 * years;
+  }
+  if (false && ready2) {
+    num = (3 / 9) + (40 / 8);
+    print(title);
+    city = "robot";
+  } else if (18.1 + years <= (12 / 9) || (num - years) >= 26 / 7) {
+    int height = 1;
+    print(height);
+    city = title;
+    print(city);
   } else {
-    print(stock);
-    print(30 < stock);
-    print(speee1 > stock);
+    int a = (num + 18);
+    print(a);
+    print(num);
+    print(!ready2 || 6.6 * 18.2 == (11 - 4));
   }
-  steps = steps + 1;
-}
-print(true);
-if (b % 2 > (4 % 5)) {
-  total = (speee1 / 5) / 5;
-} else {
-  int artea = stock;
-  print(artea);
-  int value = b + 19;
-  if ((artea - 5) > (4 % 3)) {
-    float speed = speed1 - stock;
-    print(stock);
-  }
-}
-if (steps - 37 > (33 + total) || false) {
-  int k2 = 0;
-  while (k2 < 6) {
-    string name = "parse";
-    name = "alice";
-    k2 = k2 + 1;
-  }
-  print("hello");
-  speee1 = (steps * b) + b + b;
-} else {
-  int width1 = (3 - speee1);
-  print(width1);
-  if (speee1 + 2 <= total) {
-    total = 39 + 3;
-  }
-  area = (stock - b);
-}
-int j2 = (b % 2);
-int seats2 = 0;
-while (seats2 < 5) {
-  if (false || true) {
-    stock = speee1;
+  if (ready2) {
+    int rounds = years % 5;
+    print(rounds);
+    title = city;
+    print(rounds);
+    print(title);
+  } else if (ready2) {
+    int j = (num / 3);
+    print(j);
+    print(city);
   } else {
-    print("ok");
-    stock = seats2;
+    print(city);
+    ready2 = 14.9 - 17.4 == num;
+    title = "compiler";
   }
-  seats2 = seats2 + 1;
+} else {
+  int days = 26;
+  print(days);
+  if (!ready2) {
+    city = "hello";
+    float salary = 21.8 * 17.9;
+  }
 }
-print(seats2);
+city = "yudu";
+for (int citys = 0; citys < 3; citys = citys + 1) {
+  print((15 / 3));
+}
+int limit = 0;
+for (limit = 0; limit < 2; limit = limit + 1) {
+  ready2 = 28.8 != 17 / 5 || limit + 25 < 6 + limit;
+}
+if (!ready2 || ready2) {
+  if (9.7 - limit < 3 % 9) {
+    int reaody2 = num - limit;
+  }
+  int sum = 0;
+  while (sum < 4) {
+    print((36 * 30));
+    sum = sum + 1;
+  }
+}
+print(city);
+ready2 = num <= limit + num;
+print(17 + limit);

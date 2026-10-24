@@ -59,24 +59,27 @@ while (marks < 3) {
   marks = marks + 1;
 }
 if (ok) {
-  num = marks / 9;
-  print(a);
-  if (steps3 == years1 / 2) {
-    ok = !ok;
-    years1 = (37 + num) * (23 % 4);
-    num = (steps3 % 3) + marks;
+  for (int salaryx = 0; salaryx < 5; salaryx = salaryx + 1) {
+    score1 = 20;
   }
-} else {
-  num = (num / 1) % 7;
+  if (true) {
+    print(num);
+  } else {
+    print(steps3);
+  }
+  string greeting = "world";
 }
-if (ok) {
-  int level2 = 0;
-  while (level2 < 2) {
-    print(level > (score1 % 5));
+print((score1 + 5));
+int limit3 = 0;
+while (limit3 < 2) {
+  print(num * 35);
+  if ((33 - marks) <= (steps3 % 5)) {
+    int saliry = level;
+    print(saliry);
+    level = a;
     num = years1 + 21 + (marks * score1);
-    int salarys = (score1 / 8);
-    level2 = level2 + 1;
   }
+  years1 = score1;
+  limit3 = limit3 + 1;
 }
-int seats = 21;
-print(a);
+print("yudu");

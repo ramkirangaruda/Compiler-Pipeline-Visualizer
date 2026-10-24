@@ -16,7 +16,7 @@ if (count / 3 < 36 * count) {
   print(sum);
 }
 if ((0 + count) > 8) {
-  int k = stockk + count;
+  int k = stock + count;
   print(k);
   k = k / 4 - count;
   int second = 0;
@@ -31,7 +31,7 @@ if ((0 + count) > 8) {
     x = x + 1;
   }
 }
-int level = (count + 17);
+int level = (couunt + 17);
 if (level % 3 >= stock + stock) {
   print(discount);
   int steps1 = 0;
@@ -43,36 +43,19 @@ if (level % 3 >= stock + stock) {
   int seats2 = 18 + 14;
   print(seats2);
   discount = stock;
-  int b = 0;
-  while (b < 3) {
-    discount = 1.7 - discount;
-    print(stock);
-    level = seats2 + 37 / 6;
-    b = b + 1;
+  for (int b = 0; b < 3; b = b + 1) {
+    tax = 1.7 - discount;
   }
-  bool ok = (19 / 8) == (level + 27);
+  print(stock);
 }
-print(enabled);
-if (13 - stock >= count + count) {
+level = stock + 37 / 6;
+for (int height = 0; height < 5; height = height + 1) {
+  print(countt);
+}
+if ((stock / 7) == (count / 2)) {
+  print(stock);
+} else {
+  print(stock);
   int width = (stock % 4);
-  print(width);
-  if (!valid) {
-    print(width);
-    print(enabled);
-  }
-  if (8.8 > (stock + stock)) {
-    int countts = 15;
-    print(countts);
-    float mean = discount - 7.7;
-    print(mean);
-    int index = stock + countts;
-  } else {
-    int rounds2 = (30 / 2);
-    print(rounds2);
-    countt = countt + stock;
-    bool active = (6 * 37) > count + level;
-    print(countt);
-  }
-  bool flag = false;
 }
-print(tax);
+print(discount);

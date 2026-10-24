@@ -1,5 +1,5 @@
 float salary = 10.1 * 20.9;
-int items = 3.5;
+int items = 6 / 3;
 float ratio = salary * items;
 int second = items * items;
 bool ok = true;
@@ -17,18 +17,20 @@ if (ratio * ratio > (second + 20)) {
 city = msg;
 if (ok) {
   float temp = 19.6 * 17.7;
-  int age = 23 - 18;
-  city = msg;
+  int sum = 0;
+  for (sum = 0; sum < 4; sum = sum + 1) {
+    bool valid = (23 + items) == items / 9;
+    int rounds1 = 29 * 0;
+    print(temp);
+  }
+  print(sum);
+  print(sum);
+} else if ((16 + items) > items) {
+  print(items);
 } else {
-  int tickets1 = (items * second);
-  print(tickets1);
-  ok = (items + 7) >= 27;
-  if (27 - tickets1 < 2) {
-    int result1 = second % 2;
-    print(result1);
-    ratio = 1 - items;
-    print("yudu");
-    print(2 + second <= 31);
+  for (int count3 = 0; count3; count3 = count3 + 1) {
+    print(count3);
+    city = msg + "compiler";
   }
 }
-print(items);
+print(ratio);

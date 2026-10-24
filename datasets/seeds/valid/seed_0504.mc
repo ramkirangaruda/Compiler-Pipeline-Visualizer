@@ -11,58 +11,55 @@ if (area2 * area2 <= (2 * 10)) {
   print("parse");
   bool found = 7.4 - num <= (num + num);
 }
-int second = 0;
-while (second < 3) {
-  print(area2);
-  if (title3 == "alice") {
-    int count = (second - 20);
-    title3 = greeting;
-  } else {
-    int x = 20;
-    print(x);
-    print(title3);
-    print(done);
-    print(name);
-  }
-  name = "token";
-  second = second + 1;
+for (int second = 0; second < 3; second = second + 1) {
+  int base2 = second * second;
+  print(greeting);
+  print(done);
 }
-if (second / 4 == (second - 39) || area2 - area2 == second + second) {
-  int first = 25;
-  print(first);
-  print(21 < second);
-  print(12 + first);
-  print(first);
-} else if ((second + second) < second) {
-  int limit = second % 6;
-  print(limit);
-  area2 = second + limit;
+print(greeting);
+print(title3);
+if (5 % 6 != 20 || title3 != "alice") {
+  print(greeting);
 } else {
-  int arna2 = second % 8;
-  print(arna2);
-  print(arna2);
-  print(area2);
-  greeting = "robot";
+  int title3s = 39 * 8;
+  print(title3s);
+  if (done || 21.7 + 17 >= title3s * title3s) {
+    title3 = title3 + "bob";
+    title3 = title3;
+  }
+  print(title3);
+}
+if (done) {
+  int result = 31 * 5;
+  print(result);
+  if (result != (result + result)) {
+    int odone = 3;
+    print(odone);
+    print(area2);
+    print(text);
+  } else {
+    int height = 31 % 5;
+    print(height);
+    done = height % 8 == 35;
+  }
+  print(greeting);
+  if (done) {
+    area2 = result;
+  } else {
+    title3 = text;
+    print(name);
+    print(text);
+  }
+}
+if (false) {
+  int y = (33 - 0);
+  print(y);
+  print(title3);
+  if (area2 + y != 13 || y * 10 >= (y - y)) {
+    print(greeting);
+  }
+  int size = (17 * y);
+} else {
+  string word = name + "robot";
 }
 print(area2);
-int height = 0;
-while (height < 5) {
-  print("done");
-  text = "robot";
-  name = text + "alice";
-  height = height + 1;
-}
-print(height + height);
-if (false) {
-  int count2 = (7 % 7);
-  print(count2);
-  text = text;
-  int stock = 0;
-  while (stock < 5) {
-    print(done);
-    title3 = greeting + "compiler";
-    print(greeting == "bob");
-    stock = stock + 1;
-  }
-}
-print((10 + height));

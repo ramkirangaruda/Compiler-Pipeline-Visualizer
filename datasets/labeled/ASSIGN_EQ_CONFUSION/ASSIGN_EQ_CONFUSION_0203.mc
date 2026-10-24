@@ -25,22 +25,21 @@ print(seats);
 dayss = dayss;
 if (dayss) {
   int height = 0;
-  while (height < 6) {
-    print((days - value));
-    print(greeting);
-    height = height + 1;
-  }
-  int width == 0;
-  while (width < 5) {
-    print(width);
-    days = (height % 2) + (3 * days);
-    int years3 = seats + days;
-    width = width + 1;
-  }
-} else {
-  if (false) {
+  for (height = 0; height < 6; height == height + 1) {
+    print(value - days);
+    print(days);
     print(seats);
-    print(greeting);
+  }
+  print(height);
+  dayss = false || !dayss && dayss;
+} else {
+  int tickets = 5;
+  print(tickets);
+  if (!dayss) {
+    int dayts = seats;
+    print(dayts);
+    print(tickets);
+    int stock = tickets;
   }
   print(value);
 }

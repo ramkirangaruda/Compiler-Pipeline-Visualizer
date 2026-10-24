@@ -1,5 +1,5 @@
-bool active1 = 18 * 21 <= 13 * 19;
-int i = true;
+float active1 = 18 * 21 <= 13 * 19;
+int i = 13;
 float temp = 3.4 * 36;
 string city = "done";
 bool valid = (i / 8) < i - 14 && (39 - 13) <= (16 - 6);
@@ -18,19 +18,12 @@ if (32 <= (i % 1)) {
 } else if ((owner1s / 9) == (owner1s + owner1s)) {
   print((owner1s / 5));
 } else {
-  int ownerr1 = 0;
-  while (ownerr1 < 4) {
-    temp = 22;
-    print(owner1s);
-    print(owner1s);
-    ownerr1 = ownerr1 + 1;
+  for (int ownerr1 = 0; ownerr1 < 4; ownerr1 = ownerr1 + 1) {
+    int limit = owner1s;
   }
 }
-print(temp);
+print(valid);
+bool enabled = !valid;
 print(11 / 8);
 float speed = 16.1 - 10.9;
-if (active1 || 15.6 <= owner1s / 8) {
-  print(temp);
-  print(valid);
-  print("ok");
-}
+print(active1);

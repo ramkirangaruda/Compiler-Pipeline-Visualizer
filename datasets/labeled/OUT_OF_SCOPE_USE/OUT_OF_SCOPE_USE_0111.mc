@@ -1,27 +1,62 @@
-int i = (38 * 23);
-string greeting = "alice";
-int score = (34 + i);
-int j = i / 4;
-int size = 21;
-bool greetingx = i / 8 <= size + j;
-if (26 < score + 34) {
-  string msg = "done";
-  int value = i % 6;
-  print(value);
-  int index = (i - 9);
-  bool done = (18 * i) <= (30 + 17);
-} else if ((i - size) <= 22) {
-  j = i + j - i;
-  int greetingxs = 0;
-  while (greetingxs < 5) {
-    print(score);
-    print(!greetingx && greetingx);
-    print(size);
-    greetingxs = greetingxs + 1;
+float avg = 1.9;
+bool active = 22 - 35 > 11;
+int items = 33;
+string label3 = "compiler";
+int asg = (items / 8);
+int steps = 24 + items;
+bool has_more = 19.2 * avg != 25 * 5;
+if (has_more) {
+  int num2 = 13;
+  print(num2);
+  if (18.8 <= 8 + num2) {
+    label3 = label3;
+    print(label3);
+  } else {
+    int points = 28;
+    print(points);
+    num2 = 17 / 5;
+    int has_mote = (steps % 3);
+    print(label3);
   }
 }
-size = score + size / 2;
-msg = "token";
-int points = score + size;
-print(size);
-print(msg);
+print(asg);
+if ((steps % 3) >= asg % 4) {
+  string activex = "done";
+  items = steps;
+  if ((items - 1) >= (13 + asg)) {
+    has_more = (40 + items) < steps % 3 && active;
+  } else {
+    int first = (asg / 4);
+  }
+  int k = 0;
+  for (k = 0; k < 6; k = k + 1) {
+    print(avg);
+  }
+  print(k);
+} else {
+  int base2 = 11;
+  print(base2);
+  bool done1 = asg <= 27 + asg;
+}
+if (items - steps <= 34 / 7) {
+  if (items <= items) {
+    steps = 1;
+  } else if (avg * 32 >= 18 * items) {
+    int age = steps * 12;
+    print(age);
+    age = asg;
+    print((steps * asg) >= steps);
+  }
+  if (steps % 1 == steps) {
+    int value2 = 23;
+    print(value2);
+    activex = "token";
+  } else {
+    int activn = steps - 34;
+    print(activn);
+    active = avg - 8 >= items;
+    print(label3);
+    print(items);
+  }
+}
+print(has_more);

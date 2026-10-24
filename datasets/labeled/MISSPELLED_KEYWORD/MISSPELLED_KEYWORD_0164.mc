@@ -2,7 +2,7 @@ float distance3 = 16.6;
 float balance1 = 20.6 * 24;
 float ratio3 = balance1 * distance3;
 float weight = ratio3 + 37;
-float tax = 23.3 - weight;
+folat tax = 23.3 - weight;
 bool done = 9 - 4 <= (21 / 2);
 string name = "alice";
 weight = 22;
@@ -32,28 +32,9 @@ if (tax * balance1 > (21 - 1)) {
     print(done);
     lives = lives + 1;
   }
-  int j2 = 0;
-  while (j2 < 5) {
-    print(ratio3);
-    print(done);
-    j2 = j2 + 1;
+  for (int j2 = 0; j2 < 5; j2 = j2 + 1) {
+    print(37 / 6);
   }
 }
-if (done) {
-  int dotne = (11 % 9);
-  print(dotne);
-  print(ratio3);
-  print(name);
-} else {
-  int steps = 4 + 1;
-  print(steps);
-  if (distance3 + tax < (steps + steps)) {
-    int days = steps;
-    print(balance1);
-    print(!done || done);
-  } else {
-    print(ratio3);
-  }
-  pirnt(weight);
-}
-print(tax);
+print(24 + 27);
+print((11 / 9));

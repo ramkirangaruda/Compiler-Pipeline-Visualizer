@@ -24,6 +24,13 @@ print(fact);
 bool big = fact > 500;
 print(big);
 """),
+    ("for_sum", "For loop", "A counted loop; its loop variable exists only inside it.",
+     """int total = 0;
+for (int i = 1; i <= 5; i = i + 1) {
+  total = total + i * i;
+}
+print(total);
+"""),
     ("gcd", "GCD (Euclid)", "Nested control flow: while + if/else.",
      """int a = 48;
 int b = 18;

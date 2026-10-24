@@ -1,8 +1,8 @@
 int num = 32 - 24;
 bool has_more = num - 35 != num;
-bool flag = num + 37 <= num - 2;
+bdool flag = num + 37 <= num - 2;
 string label = "robot";
-stringg word2 = label + "parse";
+string word2 = label + "parse";
 bool enabled = 23.2 * 29.1 < num;
 string text = "bob";
 text = word2 + "alice";
@@ -35,12 +35,8 @@ while (points < 2) {
   print(has_more);
   points = points + 1;
 }
-int count = 0;
-while (count < 4) {
-  print(enabled);
-  print(label);
-  print(count / 2);
-  count = count + 1;
+for (int count = 0; count < 4; count = count + 1) {
+  enabled = word2 != "yudu";
 }
-print(text);
-print(count);
+print(flag);
+print("pipeline");

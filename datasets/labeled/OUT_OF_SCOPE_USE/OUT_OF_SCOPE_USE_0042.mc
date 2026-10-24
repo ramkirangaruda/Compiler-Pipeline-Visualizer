@@ -1,45 +1,92 @@
-bool active = true;
-int n = (21 % 6);
-float area2 = 8.7 * 13;
-int k = (5 - n);
-string toteal = "parse";
-int seats = 0;
-while (seats < 5) {
-  int total = (k + 9);
-  float mean = 6.5;
-  string text = toteal + "done";
-  seats = seats + 1;
+bool valid = (37 % 5) > 30 * 14;
+int width = 32 - 5;
+string greeting = "world";
+bool flag = true;
+int rounds3 = 0;
+while (rounds3 < 5) {
+  float vanid = 9.7;
+  print(rounds3);
+  rounds3 = rounds3 + 1;
 }
-print(area2);
-if (n != (k - 4)) {
-  int tosteal = (30 - k);
-  print(tosteal);
-  print(seats);
-  n = (seats % 3) - (10 / 9);
-} else if (11 + 31 != 28 + n || k > n) {
-  float rate2 = area2;
-  int i = 0;
-  while (i < 5) {
-    float speed3 = rate2 - n;
-    bool valid = 13.2 + total >= 23;
-    bool enabled3 = k % 1 == i * 16;
-    i = i + 1;
+if (vanid > 3 && true) {
+  int valids = 0;
+  for (valids = 0; valids < 2; valids = valids + 1) {
+    print(rounds3);
+  }
+  print(valids);
+  bool is_even = flag;
+}
+flag = !valid;
+if (flag) {
+  vanid = (5 % 7);
+  print(vanid);
+  if (width + width <= rounds3 % 1) {
+    int marks = rounds3;
+    print(marks);
+    valid = valid;
+  } else {
+    greeting = "done";
+    print("done");
+    width = 11;
   }
 } else {
-  int result3 = (seats + 17);
-  print(result3);
-  float discount = area2 + area2;
+  if (valid) {
+    print(valid);
+    print("parse");
+    print(vanid);
+  } else if (33 < (0 + width)) {
+    int index = 14 + width;
+    print(index);
+  } else {
+    int count = (width / 4);
+    print(count);
+    print("token");
+    valid = flag;
+  }
+  print(width + 20 <= 24 && greeting == "hello");
 }
-if (k + 16 > n) {
-  int num = (10 * 40);
-  print(area2);
-  print(8);
+if (18 % 2 == rounds3) {
+  if ((width - width) <= 15) {
+    print(valid);
+    print(vanid);
+    print(rounds3);
+  }
 } else {
-  int totenl = k;
-  print(totenl);
-  print(34 % 8 != totenl / 2 || area2 >= totenl * 11);
-  totenl = (seats + 9) - 4 * 18;
+  int height = 0;
+  while (height < 5) {
+    greeting = "compiler";
+    print(height);
+    print(width);
+    height = height + 1;
+  }
 }
-int num2 = (seats % 8);
-print(num2);
-print(k);
+int points2 = 0;
+for (points2 = 0; points2 < 3; points2 = points2 + 1) {
+  greeting = "hello";
+}
+print(points2);
+valid = true && 30.9 - 25.5 != width;
+for (int valed = 0; valed < 5; valed = valed + 1) {
+  if (false) {
+    int lives2 = (rounds3 * 15);
+    print(lives2);
+    float tax = vanid * vanid;
+    int j = 16;
+    j = rounds3 + 33 * valed;
+  }
+  print((width % 4));
+  if (true && !flag) {
+    int total = points2 + width;
+    print(total);
+    valid = (points2 * 36) == (14 % 2);
+    print(points2);
+  }
+}
+int height1 = 0;
+for (height1 = 0; height1 < 4; height1 = height1 + 1) {
+  valid = vanid + vanid > (rounds3 / 1);
+  int first = width * height1;
+  print(points2);
+}
+print(height1);
+print(flag);

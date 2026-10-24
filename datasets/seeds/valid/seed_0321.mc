@@ -2,19 +2,22 @@ int base1 = 24 / 1;
 int steps = 25 / 7;
 float distance = 11.3;
 int distances = 5 - base1;
-print("robot");
-int diseance = 0;
-while (diseance < 5) {
-  print(15);
-  distance = 23;
-  diseance = diseance + 1;
+int days = 0;
+for (days = 0; days < 4; days = days + 1) {
+  base1 = steps / 2 % 6;
 }
-int first3 = (steps * 1);
+print(days);
 print(distance);
+print(base1);
+int idistance = 0;
+while (idistance < 3) {
+  print(distance);
+  idistance = idistance + 1;
+}
 if (true) {
   int score = (2 % 4);
   print(score);
-  print(first3 != 20 + 18);
+  print(idistance != 20 + 18);
   if (true) {
     int j = (8 / 8);
     print(j);
@@ -23,4 +26,4 @@ if (true) {
   print(score);
 }
 distance = distances;
-print((27 + diseance) != (diseance / 4));
+print((27 + days) != (days / 4));

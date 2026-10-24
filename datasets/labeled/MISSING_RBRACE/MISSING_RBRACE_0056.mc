@@ -1,51 +1,41 @@
-int tickets = (7 % 1);
-int first = tickets;
-int seats = 11;
-string owner = "done";
-owner = owner;
-if (22.5 != (seats - seats)) {
-  seats = tickets % 4 / 9;
-  first = 16;
-  if (seats < 18) {
-    int marks = (5 * 14);
-    print(marks);
-    owner = "pipeline";
-    float ratio = 27.3 * 23;
-    print(marks);
-  }
- else {
-  if (tickets == first) {
-    int stock3 = 34 * 31;
-    print(stock3);
-    first = seats - 28 + 1 + 0;
-    owner = "alice";
+int years = 24;
+float rate = 14.5 * years;
+float weight = 17.4 - 16.9;
+bool passed1 = 16 + 22 != (years - years);
+int height = 0;
+for (height = 0; height < 3; height = height + 1) {
+  print(weight);
+  print((years * years));
+  weight = 33;
+
+print(height);
+print(weight);
+years = years + height + (9 - height);
+for (int a = 0; a < 4; a = a + 1) {
+  if (passed1 || weight != (a + years)) {
+    weight = height;
+    print("bob");
   } else {
-    int a = seats;
-    print(a);
-    float avg = 12.3 * 23;
-    float distance = 22.7 + avg;
-    print(tickets);
-  }
-  print(false);
-  int ownerx = 0;
-  while (ownerx < 2) {
-    print("alice");
-    ownerx = ownerx + 1;
+    print(rate);
   }
 }
-int n = 0;
-while (n < 5) {
-  print(n);
-  print(23 + 26);
-  print(owner);
-  n = n + 1;
+for (int lives = 0; lives < 3; lives = lives + 1) {
+  if (32 > 18) {
+    int total = height % 9;
+    print(total);
+    print(14 * years <= 34);
+  }
 }
-owner = owner + "yudu";
-seats = first * 3 * first;
-seats = 37;
-owner = "pipeline";
-if ((n + 32) >= (tickets / 6)) {
-  print(owner);
-  float area = 3.8;
+int passed1s = 0;
+while (passed1s < 4) {
+  passed1 = passed1;
+  if (passed1) {
+    print(years);
+  } else {
+    passed1 = passed1;
+    print(rate);
+  }
+  int items = passed1s + years;
+  passed1s = passed1s + 1;
 }
-print(first);
+print(passed1);

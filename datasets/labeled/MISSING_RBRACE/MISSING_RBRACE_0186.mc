@@ -1,30 +1,17 @@
-float area = 30.4 - 17;
-bool active = area >= 17 + 13;
-string course = "robot";
-int value = 6 - 28;
-int count1 = value - 21;
-bool enabled = (26 % 3) > (18 / 2) && value == (value * 12);
-string label = "alice";
-area = area;
-int stock3 = 0;
-while (stock3 < 3) {
-  print(course);
-  if (label == "robot") {
-    int seats = (stock3 + 36);
-    print(seats);
-    print(label);
-    print(enabled);
-    count1 = stock3;
-  } else if (area != 40 / 5) {
-    int score = (value * 12);
-    print(score);
-    print(count1);
-    int z = (stock3 + 1);
-  
-  print(stock3 % 7 != value);
-  stock3 = stock3 + 1;
-}
-print(count1 / 1);
-bool coursex = stock3 == 28;
-int result = (stock3 + count1);
-course = "pipeline";
+bool ok = (29 * 20) != 16;
+bool done = 24 + 0 > (2 + 26);
+int donte = (27 + 19);
+int level = (donte / 8);
+float dontt = 16.6 - 28.2;
+int k = 15;
+ok = 0.2 > 2 / 2;
+dontt = dontt * 16;
+print(ok);
+ok = dontt * 18 == donte;
+k = (level + k) + (donte % 8);
+int dontts = 0;
+for (dontts = 0; dontts < 5; dontts = dontts + 1) {
+  print(dontt);
+
+print(dontts);
+print(k);

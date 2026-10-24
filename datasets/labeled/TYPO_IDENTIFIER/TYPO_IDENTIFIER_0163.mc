@@ -7,18 +7,18 @@ bool valid1 = true;
 string msg = "ok";
 print(oarks);
 if (valdi1 && (oarksx / 5) == (17 - 14)) {
-  valid1 = valid1;
-  if ((31 * 22) <= 0) {
-    print(oarks);
-    print(b);
-    print(19.5 - b <= 25 - oarksx);
+  for (int result = 0; result < 2; result = result + 1) {
+    print("bob");
+    marks = b * 22 + b - oarksx;
   }
-  msg = "hello";
+  print(oarks);
+  marks = (17 / 1) * 25 - oarksx;
 } else {
-  int level = 5 - 22;
-  print(level);
-  print(valid1);
+  int items = (b * 37);
+  print(items);
+  print(items);
 }
+msg = "done";
 msg = "token";
 if (29.8 + oarksx > oarksx || marks <= b) {
   int a1 = marks % 4;
@@ -26,5 +26,4 @@ if (29.8 + oarksx > oarksx || marks <= b) {
 valid1 = false;
 print("yudu");
 msg = "bob";
-int msrg = (oarksx + 27);
-print(valid1);
+print("world");

@@ -1,43 +1,35 @@
-float rate1 = 26.4;
-int lives2;
-int result = lives2;
-bool done = lives2 % 3 == (lives2 % 3);
-if (40 * lives2 > lives2) {
-  int n2 = result * 7;
-  print(n2);
-  result = lives2 * 33 % 8;
-  rate1 = rate1 - lives2;
-  rate1 = 9;
-} else {
-  print(lives2);
+bool flag = 8.6 + 20 < 30 % 4;
+int points = (36 + 7);
+int total = 2 * points;
+int flatg = (3 * 14);
+bool passed3 = flag;
+string word3 = "ok";
+if (2 < 3) {
+  int passid3 = points;
+  print(passid3);
+  print(flatg);
+  float balance = 10.4 - 12.3;
+  flag = word3 == "compiler";
 }
-result = 20 + result / 7;
-if ((lives2 * result) != (lives2 / 2)) {
-  if (rate1 == (lives2 % 4)) {
-    int days = (33 % 9);
-    print(days);
-    print(done && rate1 >= (lives2 - lives2));
-    print(rate1);
-  } else {
-    int sum = (result % 9);
-    print(sum);
-    int y = 20;
-  
-  int a = (result + 6);
-} else {
-  print(lives2);
-  if (22.4 <= (31 + 36)) {
-    int second = 13;
-    print(second);
-    result = (5 + 27) + (second + second);
+int rounds = 0;
+while (rounds < 5) {
+  float mean3 = 26.6 - 11.3;
+  rounds = rounds + 1;
+}
+word3 = "compiler";
+if (total > 5) {
+  int k = 0;
+  for (k = 0; k < 2; k = k + 1) {
+    points = (11 * flatg) / 9;
+  }
+  print(k);
+  passed3 = flag;
+ else {
+  if (6.2 * 30 > 9) {
+    print(flatg);
+    int passetd3 = 19 % 4;
+    total = 24 * 35 - (33 / 2);
   }
 }
-int n = 0;
-while (n < 6) {
-  string owner1 = "bob";
-  rate1 = 16.6;
-  bool ok = 35 >= lives2 - 34;
-  n = n + 1;
-}
-lives2 = n % 5 % 7;
-print(lives2);
+print(11 + 20 < flatg);
+print("world");

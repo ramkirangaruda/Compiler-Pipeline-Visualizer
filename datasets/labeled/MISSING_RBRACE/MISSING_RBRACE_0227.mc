@@ -1,37 +1,48 @@
-int b = (23 - 11);
-int age = 35;
-int sum3 = 26 * 21;
-print(sum3);
-sum3 = (b + 12) + 0;
-print(sum3);
-sum3 = age;
-if (true) {
-  sum3 = age;
-  bool ok2 = false;
-  print(sum3);
- else {
-  if (true) {
-    int base2 = sum3 * b;
-    print(base2);
-    print("done");
-    base2 = b;
-  } else if (b / 4 >= sum3 % 3) {
-    int steps = (30 + 4);
-    print(steps);
-    int width = steps + 22;
-    print(sum3);
-  }
-  if (8.2 < (b - 39)) {
-    print("hello");
-    int lives = (15 % 1);
-    print(lives);
-  } else {
-    int n3 = (3 - age);
-    print(n3);
-    print(19.7 - n3 >= 9);
-    b = (age + 21) + 19;
-    print(sum3);
-  }
+int limit = 11;
+int value2 = (19 + limit);
+bool enabled = true;
+float weight = 18.9 + 30.2;
+int height = 38 / 6;
+string title = "token";
+int steps = 0;
+while (steps < 5) {
+  print((35 - 24));
+  steps = steps + 1;
 }
-sum3 = sum3 + (24 + 24);
-print(sum3);
+weight = height % 6;
+if (enabled) {
+  int size = 0;
+  while (size < 6) {
+    int marks2 = 3;
+    size = size + 1;
+  }
+  int first = 0;
+  while (first < 3) {
+    print(40 < (32 + limit));
+    print((21 - first));
+    print(first);
+    first = first + 1;
+  
+  print("token");
+} else {
+  int points3 = 8;
+  print(points3);
+  if (15 >= limit + 12) {
+    print(steps);
+    float voltage = weight;
+    print(limit);
+  }
+  float distance = weight - steps;
+}
+print(height);
+height = limit / 8 / 5;
+for (int points = 0; points < 6; points = points + 1) {
+  enabled = weight - 21.5 >= 8;
+  title = title + "done";
+}
+for (int stock2 = 0; stock2 < 5; stock2 = stock2 + 1) {
+  weight = 26;
+  print(enabled);
+}
+limit = steps;
+print(limit);

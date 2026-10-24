@@ -10,7 +10,7 @@ if (greeting != "parse") {
     total = 21 + (8 / 4);
     print(total);
   } else {
-    int coursie2 = total;
+    bool coursie2 = total;
     print(coursie2);
     sum = 8 + 7;
     print(total);
@@ -20,14 +20,16 @@ if (greeting != "parse") {
   int marks = sum;
   print(marks);
   print(marks);
-  print(course2);
-  print(marks);
+  int a = 0;
+  for (a = 0; a < 6; a = a + 1) {
+    int base2 = a % 2;
+    print(valid);
+  }
+  print(a);
+  total = (sum % 4) + (13 + total);
 }
 print(valid);
-int second = 0;
-while (second < 2) {
-  print("yudu");
-  second = "text";
-}
-print(valid);
-print(valid);
+sum = sum;
+valid = !valid;
+total = total;
+print((sum - sum));

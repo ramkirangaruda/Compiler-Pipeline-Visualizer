@@ -1,27 +1,56 @@
-bool ready = false;
-int j = 20 + 6;
-bool active = ready;
-int sum = 17;
-int num1 = 7;
-int actives = sum;
-bool is_even = 2.2 < 31 * num1;
-is_even = false;
-j = actives;
-sum = sum;
-int is_erven = 0;
-while (is_erven < 4) {
-  if (38 >= (actives % 1)) {
-    print(active);
-    sum = sum - actives + is_erven;
+string msg = "done";
+float meg = 19.7;
+int b = (32 + 37);
+int level = 4 - 3;
+int z1 = (level - b);
+float mean2 = meg * meg;
+for (int meano2 = 0; meano2 < 2; meano2 = meano2 + 1) {
+  print(b);
+  print(z1);
+}
+if (false) {
+  if ((33 * level) >= b) {
+    int meanr = (z1 + level);
+    print(meanr);
+    print(level);
+    print(msg != "alice");
+    print(b);
   } else {
-    int i = (j / 4);
-    print(i);
-    print(active);
-    num1 = 40 + j + i;
-    sum = 31;
+    int tickets = 20;
+    print(tickets);
+    int z = z1;
+  
+  if (msg != "hello") {
+    print((b + b));
+  } else if (meg + 27.1 == (20 * b) && true) {
+    print(msg);
+    meg = 7.2;
+  } else {
+    print(b);
   }
-  is_erven = is_erven + 1;
-
-ready = actives + j < actives / 2;
-ready = false;
-print(j);
+  if (false) {
+    bool found3 = mean2 == b;
+    print(msg);
+    print((16 + level) <= (b % 7));
+  } else {
+    int k = b;
+    print(z1);
+  }
+}
+print(level);
+int width = 0;
+while (width < 2) {
+  level = (width + 23) * b + width;
+  width = width + 1;
+}
+level = (z1 * 0) / 9;
+for (int n3 = 0; n3 < 4; n3 = n3 + 1) {
+  meg = 13.1;
+}
+print(level);
+z1 = level - b / 7;
+for (int msgx = 0; msgx < 3; msgx = msgx + 1) {
+  print(mean2);
+  mean2 = (b - level);
+}
+print(mean2);

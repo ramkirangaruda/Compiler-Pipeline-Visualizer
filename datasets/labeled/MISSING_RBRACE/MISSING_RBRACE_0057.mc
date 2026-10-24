@@ -1,79 +1,51 @@
-int x = 19 + 30;
-bool passed = (26 / 5) < (x - 1);
-int y = (x % 6);
-string passedx = "parse";
-int value = 0;
-while (value < 5) {
-  if (x / 8 > 15 + 37) {
-    int prssed = x;
-    print(prssed);
-    prssed = 10 + y + 20;
-  } else if (passed) {
-    print(passedx + "ok");
-  } else {
-    int first2 = 18 / 7;
-    print(first2);
-    print(passed);
-    print(passed);
+int tickets = (7 % 1);
+int first = tickets;
+int seats = 11;
+string owner = "done";
+owner = owner;
+if (22.5 != (seats - seats)) {
+  seats = tickets % 4 / 9;
+  first = 16;
+  if (seats < 18) {
+    int marks = (5 * 14);
+    print(marks);
+    owner = "pipeline";
+    float ratio = 27.3 * 23;
+    print(marks);
   }
-  value = value + 1;
-}
-print(passedx);
-if (34 - 13 < (y - value)) {
-  if (13 / 4 >= 15) {
-    int eassed = y;
-    print(eassed);
-    print(eassed);
-    print("hello");
-    float passeds = 2.3;
+ else {
+  if (tickets == first) {
+    int stock3 = 34 * 31;
+    print(stock3);
+    first = seats - 28 + 1 + 0;
+    owner = "alice";
   } else {
-    int first = 30 % 8;
-    print(first);
-    passed = passed;
-    x = x + y % 6;
-    print(first);
+    int a = seats;
+    print(a);
+    float avg = 12.3 * 23;
+    float distance = 22.7 + avg;
+    print(tickets);
   }
-  int items = 0;
-  while (items < 5) {
-    passedx = passedx + "token";
-    items = items + 1;
+  print(false);
+  int ownerx = 0;
+  while (ownerx < 2) {
+    print("alice");
+    ownerx = ownerx + 1;
   }
-} else {
-  passed = 22.9 != 39 / 9 || 6.2 * y <= y && passed;
-  y = y * 36 * x / 1;
 }
-print(passed || 0.9 - 24.2 == (36 + x));
-y = value;
-int limit = 0;
-while (limit < 5) {
-  float area = 22.2 + 6;
-  limit = limit + 1;
+int n = 0;
+while (n < 5) {
+  print(n);
+  print(23 + 26);
+  print(owner);
+  n = n + 1;
 }
-x = value * 36 + value;
-if (30.3 <= 28) {
-  int score = 25;
-  print(score);
-  int a = (x * 34);
-  passedx = passedx;
-} else {
-  passedx = "token";
+owner = owner + "yudu";
+seats = first * 3 * first;
+seats = 37;
+owner = "pipeline";
+if ((n + 32) >= (tickets / 6)) {
+  print(owner);
+  float area = 3.8;
 }
-if (30.1 + x < (limit % 6)) {
-  int result = 26;
-  print(result);
-  print(result);
-} else {
-  int count3 = 40 + limit;
-  print(count3);
-  x = y - 13 * 3;
-  if ((value % 6) > (limit + 20)) {
-    int steps = limit % 2;
-    print(steps);
-    float opassed = 1.7 + 19.5;
-  } else {
-    x = limit / 9;
-    print(10);
-    print(value);
-  
-}
-print(passedx);
+print(first);

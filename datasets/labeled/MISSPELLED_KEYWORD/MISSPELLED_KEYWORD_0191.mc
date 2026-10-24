@@ -4,41 +4,31 @@ float tize = sieze * sieze;
 int tickets2 = (size - 3);
 int points = 7 / 2;
 string owner = "robot";
-print(points);
-int level = 0;
-while (level < 4) {
-  tickets2 = (points * 27) + points;
-  level = level + 1;
+int age1 = 0;
+for (age1 = 0; age1 < 3; age1 = age1 + 1) {
+  tickets2 = (points * 27) + points + size;
 }
-if (size + size <= level) {
-  int age = size - 28;
-  print(age);
-  sieze = 28.1;
+print(age1);
+size = 35;
+tickets2 = (28 % 4) + 24 + 2;
+if (false) {
+  int items = size;
+  print(items);
+  print(sieze);
+} else if (age1 * age1 <= 7) {
+  int days1 = 38;
+  print(days1);
+  tickets2 = 2 + size / 5;
 } else {
-  int j1 = size;
-  print(j1);
-  print("done");
-  if ((tickets2 - level) < level + 39) {
-    int seats1 = level;
-    print(seats1);
-    tickets2 = size / 6 % 4;
-    print(points);
-    seats1 = tickets2;
-  } gelse if (level % 3 != 38 * tickets2) {
-    int index = (18 % 7);
-    print(index);
-    int k = 29 % 3;
-  } else if ((level + 3) > 8 % 7) {
-    size = points;
+  int marks = points;
+  print(marks);
+  idnt tizes = 0;
+  while (tizes < 4) {
+    marks = tizes / 3 * (age1 / 3);
+    print(owner);
+    tizes = tizes + 1;
   }
-  int years = tickets2 + size;
 }
-bool passed = (tickets2 - 19) != (points + 26);
-int seats2 = 0;
-while (seats2 < 5) {
-  tize = 3.6 - sieze;
-  int lives2 = 1;
-  seats2 = seats2 + 1;
-}
-sieze = 36 + 8;
-print(level);
+int index = (18 % 7);
+int k = 29 % 3;
+print(k + 3);

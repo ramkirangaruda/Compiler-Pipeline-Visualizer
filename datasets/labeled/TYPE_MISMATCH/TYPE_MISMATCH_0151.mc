@@ -3,7 +3,7 @@ int lives3 = 7 + count;
 int seats1 = 5;
 int steps = (lives3 / 6);
 float area = 3.8 - lives3;
-bool seatsi = "compiler";
+string seatsi = "compiler";
 string owner = "hello";
 print(area);
 count = (count + 32) + 34;
@@ -17,11 +17,18 @@ if (false) {
   print(years);
   lives3 = 18 - 8 % 1;
   float temp1 = area;
-  print(seatsi);
-} else if (false) {
-  int b = seats1 % 1;
-  print(b);
+  int days = 0;
+  for (days = 0; days < 2; days = days + 1) {
+    owner = "ok";
+  }
+  print(days);
+} else {
   print(lives3);
+  int seats2 = 0;
+  while (seats2) {
+    steps = (seats2 - 6) + lives3 + steps;
+    seats2 = seats2 + 1;
+  }
 }
-print(seats1);
 print(steps);
+print(weight);

@@ -1,46 +1,59 @@
-string greeting = "yudu";
-string title3 = greeting + "robot";
-int days;
-bool dayss = days / 1 < days * days;
-int value = 30 / 1;
-print(title3);
-int seats = 0;
-while (seats < 5) {
-  print(9 / 3);
-  if (greeting == "ok") 
-    int limit = (days + 16);
-    print(limit);
-    title3 = "yudu";
+int marks = (13 - 23);
+float discount1 = 21.2 + 6.7;
+float salary1 = 5.3;
+bool is_even = true;
+string text = "parse";
+int j = 0;
+while (j < 6) {
+  if (is_even) 
+    int index = marks + j;
+    print(index);
+    print(j);
+  } else if ((j % 5) == marks % 9) {
+    int n = (25 + 36);
+    print(n);
+    n = 36 + marks - 7;
+  }
+  if (salary1 + marks != (2 * marks)) {
+    int lives = 28;
+    print(lives);
+    float mean = salary1 + lives;
+    marks = (lives % 1) + (37 / 9);
+    mean = (j + lives);
   } else {
-    int dayssx = 38;
-    print(dayssx);
-    dayss = dayss;
-    print(dayssx);
-    print((dayssx - 22) <= (dayssx * 25));
+    int discaunt1 = 17;
+    print(discount1);
+    print(marks);
   }
-  print(dayss);
-  seats = seats + 1;
+  print(j);
+  j = j + 1;
 }
-print(seats);
-dayss = dayss;
-if (dayss) {
-  int height = 0;
-  while (height < 6) {
-    print((days - value));
-    print(greeting);
-    height = height + 1;
-  }
-  int width = 0;
-  while (width < 5) {
-    print(width);
-    days = (height % 2) + (3 * days);
-    int years3 = seats + days;
-    width = width + 1;
-  }
-} else {
-  if (false) {
-    print(seats);
-    print(greeting);
-  }
-  print(value);
+print(38 + j);
+int result3 = 0;
+while (result3 < 4) {
+  string word = "compiler";
+  result3 = result3 + 1;
 }
+for (int points = 0; points < 4; points = points + 1) {
+  if (is_even) {
+    int discount1x = 38;
+    print(discount1x);
+    print(is_even);
+    print(discount1);
+    text = text;
+  } else {
+    int stock = j % 3;
+    print(stock);
+    print(is_even);
+    marks = stock + points * result3;
+  }
+}
+discount1 = 27;
+print((19 / 8) != marks);
+int textx = (j + 31);
+int limit = 0;
+while (limit < 5) {
+  print(result3);
+  limit = limit + 1;
+}
+print(text);

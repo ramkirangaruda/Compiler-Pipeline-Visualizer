@@ -8,33 +8,45 @@ if (31 + steps > steps % 9) {
 } else {
   int rounds3 = 35;
   print(rounds3);
-  int first = (31 / 8);
-  print(passed3);
-  rounds3 = 3;
-}
-print(enabled);
-print(enabled);
-steps = (steps / 1) * 40 - steps;
-if (rate2 * rate2 >= (steps / 4)) {
-  print(steps * steps);
-  passed3 = passed3;
-} else {
-  int limit = 0;
-  while (limit < 6) {
-    enabled = (limit / 2) == 3 + 34;
-    limit = limit + 1;
+  for (int size = 0; size < 5; size = size + 1) {
+    print(steps);
+    passed3 = true;
+    int width = steps;
   }
-  int index = steps - steps;
-}
-if (steps - steps > steps * 20)) {
-  if (true) {
-    int size = 0;
-    print(size);
-    print(owner);
+  if ((36 / 6) < (8 * 21)) {
+    owner = "hello";
   } else {
-    int marks2 = (4 % 4);
-    enabled = enabled;
+    int seats = steps;
+    print(seats);
+    passed3 = 30.6 + rate2 >= 0 || rounds3 + steps != (33 + steps);
+    print((rounds3 / 2) == 3 + 34);
+    int index = (6 - seats);
   }
-  enabled = !enabled;
+  if ((rounds3 * steps) < (20 - 20)) {
+    int result = 21 - steps;
+    print(result);
+    int rounds = steps;
+  }
 }
-print(!enabled && !passed3);
+int passaed3 = 0;
+for (passaed3 = 0; passaed3 < 3; passaed3 = passaed3 + 1) {
+  print(passed3);
+}
+print(passaed3);
+if (passaed3 * passaed3 <= 40) {
+  int points1 = 0;
+  while (points1 < 6) {
+    enabled = passed3 && 22 < passaed3 - 32;
+    points1 = points1 + 1;
+  }
+  int days = 0;
+  while (days < 4) {
+    print(enabled);
+    print((26 - 14));
+    days = days + 1;
+  }
+}
+print(enabled);
+print(enabled);
+passed3 = (passaed3 / 5) <= (16 * steps);
+printenabled);

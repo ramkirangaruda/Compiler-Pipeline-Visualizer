@@ -14,53 +14,15 @@ if (found) {
     print(lives);
     print(ticketsx);
   }
-  print(height % 1);
-} else {
-  if (base != (33 - second2)) {
-    int items = base / 8;
-    print(items);
-    print(ticketsx);
-    found = (18 - tickets) >= (second2 / 3);
-    print(lives);
-  }
-  base = (6 % 9) + (second2 + 5);
-}
-if (lives + base <= (5 - base)) {
-  int x = tickets;
-  print(x);
-  if (7 + lives < 12) {
-    int width = 3;
-    base = tickets;
-  } else {
-    int score = lives + 3;
-    print(score);
-    base = tickets;
-    int y = (lives - 13);
-    string title = owner;
-  }
-  print(ticketsx);
-  owner = "world";
-} else if (true || 6 < (7 + lives)) {
-  int value = (7 + tickets);
-  print(value);
-  if (found || !found) {
-    float ratio = 22.8 + 13.6;
-    value = n + value + (20 + tickets);
-    print(owner);
-  }
-  if (owner != "done") {
-    owner = owner;
-    print(owner);
-    float rate = 1.9 + lives;
-  } else {
-    int owoer = 9;
-    print(owoer);
-    int j = (second2 + 1);
-    print(found);
+  int width = 0;
+  for (width = 0; width < 6; width = width + 1) {
+    print("done");
   }
 }
+print((33 - 8));
+print(n);
+print("yudu");
+print(base);
+second2 = 3;
+int tound = (second2 / 3);
 print(owner);
-print((lives + 0));
-print(tickets);
-print(lives);
-print(second2);

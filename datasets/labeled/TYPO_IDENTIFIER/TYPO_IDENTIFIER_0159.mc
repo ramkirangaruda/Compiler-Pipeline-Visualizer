@@ -24,7 +24,7 @@ if (17.9 != size) {
     print("parse");
   }
   if (false) {
-    int size3 = num3 / 5;
+    int size3 = nmu3 / 5;
     print(size3);
     int marks = 38;
     print(avg - marks >= (limit2 % 6));
@@ -49,19 +49,12 @@ if (passed) {
     avg3 = 2 % 8;
     ivg = ivg + 1;
   }
-} else if (!pasesd) {
-  int result = 0;
-  while (result < 6) {
-    print(limit2);
-    passed = true;
-    print(limit2);
-    result = result + 1;
+} else if (!passed) {
+  for (int result = 0; result < 6; result = result + 1) {
+    title3 = title3 + "done";
   }
 } else {
-  avg3 = avg3 - width;
-  print(width);
+  print(discount);
 }
-if (avg3 == n + limit2) {
-  print(passed);
-  int i = (size + limit2);
-}
+float limite2 = avg3 - width;
+print(limite2);

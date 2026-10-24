@@ -33,13 +33,60 @@ if (activre2 * 5 <= 3 && active2) {
   b = b - (37 % 9);
   print(activre2);
 }
-b = (b - b) + b;
-print(b);
-flag = !flag;
-int size = 0;
-while (size < 5) {
-  print(activre2);
-  activre2 = activre2 + 38;
-  size = size + 1;
+int n = 0;
+for (n = 0; n < 2; n = n + 1) {
+  active2 = flag;
+  if (b / 4 < 21 + 18) {
+    int a = (b / 4);
+    print(a);
+    a = (26 * 34) * a + b;
+    b = b + b + (b % 3);
+  } else {
+    print(city + "pipeline");
+  }
 }
-print(active2);
+print(n);
+if (true) {
+  b = 2;
+  flag = flag;
+}
+if (20.6 * activre2 <= 39 * 35) {
+  print(!flag);
+  if (23 * 30 == b - b) {
+    print(4);
+  }
+  int width = 0;
+  for (width = 0; width < 6; width = width + 1) {
+    int flai = width / 8;
+  }
+  print(width);
+} else {
+  print(city);
+  active2 = (34 * 2) == b % 3 && activre2 == n % 6 && flag;
+  print(n);
+}
+if (false) {
+  int marks = 10 * b;
+  print(marks);
+  marks = (28 + b) - (33 + b);
+  if (flag || 35 - n >= 24 - marks) {
+    city = "done";
+  } else if (city != "alice") {
+    int sum = (marks + n);
+    print(sum);
+    print(city);
+  } else {
+    int k = marks / 6;
+    print(k);
+    int total = 36;
+    float ratio2 = activre2 - total;
+    print(total);
+  }
+} else {
+  if (8 + 8 > n * n) {
+    print(active2);
+  }
+  print(active2);
+  print(n);
+}
+print(flag);

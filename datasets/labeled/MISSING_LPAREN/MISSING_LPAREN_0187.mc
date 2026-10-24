@@ -9,27 +9,18 @@ int tpeod = level * z2;
 if (false) {
   int marks = tpeod;
   print(marks);
-  if 12 + tpeod > (40 / 6) && tpeod <= marks) {
+  if (12 + tpeod > (40 / 6) && tpeod <= marks) {
     int j = level;
     print(j);
     z2 = z2;
     print(j);
   }
 }
-speod = "robot";
-int speods = 0;
-while (speods < 5) {
-  z2 = 9 + z2 - 10;
-  if (36 / 6 != level) {
-    string text = course;
-    z2 = speods;
-    speod = "parse";
-  } else if (15 != z2 / 4) {
-    print(speods);
-    speed = z2;
+int a = 0;
+for (a = 0; a < 3; a = a + 1) {
+  if (27 - 31) == (10 + 11)) {
+    print(z2);
   }
-  print(course);
-  speods = speods + 1;
 }
-print(speod);
-print(37 + 30);
+print(enabled);
+z2 = (z2 + z2) * (18 * 36);

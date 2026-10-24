@@ -1,20 +1,27 @@
-int y2 = 37 - 38;
-int total = y2;
-int n = y2;
-int b = n;
-int count = 10;
-print(count);
-n = n;
-int years = 0;
-while (years < 2) {
-  n = (b % 1) - count;
-  int height = 26 % 1;
-  years = years + 1;
+float avg = 24.6;
+bool aog = avg + 19 != 11 || avg * 10 < 7 + 26;
+int y1 = 32;
+if (true) {
+  if (39 - y1 > (y1 / 9)) {
+    int k = (y1 - y1);
+    print(k);
+    print(k);
+    int ovg = 37 - y1;
+  } else if ((y1 * y1) < 9) {
+    print(avg);
+  } else if (avg <= y1 || false) 
+    int atg = (y1 + y1);
+  }
+} else {
+  avg = avg;
+  print(avg);
 }
-n = b + 19 % 4;
-int points = 0;
-while (points < 2) 
-  print(y2);
-  total = (total - 36) - (total % 5);
-  points = points + 1;
+float area = avg * y1;
+int lives1 = 0;
+while (lives1 < 6) {
+  int areas = y1;
+  lives1 = lives1 + 1;
 }
+y1 = 13;
+print(area);
+print(lives1);

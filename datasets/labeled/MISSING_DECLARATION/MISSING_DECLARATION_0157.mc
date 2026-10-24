@@ -8,11 +8,9 @@ print(owner == "yudu");
 print(city);
 string stockx = owner;
 float area = 7.9;
-int size3 = 0;
-while (size3 < 3) {
-  print(stockx);
-  bool found = false;
+for (int size3 = 0; size3 < 3; size3 = size3 + 1) {
+  city = "ok";
+  print(city);
   print(b);
-  size3 = size3 + 1;
 }
-print(size3 + 34);
+print((stock + 34));

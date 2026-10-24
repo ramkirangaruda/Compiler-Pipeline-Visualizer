@@ -10,26 +10,35 @@ steps1 = steps1 * steps1 + steps1;
 if (27 > steps1 + steps1) {
   int a = (9 / 3);
   print(a);
-  int level = 0;
-  while (level < 4) {
+  for (int level = 0; level < 4; level = level + 1) {
     title = "alice";
     titlex = voltage;
     print(steps1);
-    level = level + 1;
   }
   titlex = titlex + steps1;
 } else {
   int n = 6 / 2;
   print(n);
-  int limit = 0;
-  while limit < 4 {
-    print(titlex);
-    discount = 8 - limit;
-    limit = limit + 1;
+  for (int limit = 0; limit < 4; limit = limit + 1) {
+    print("ok");
+    print(limit);
+    float steps1x = titlex;
   }
-  ready = true;
-  ready = ready;
+  if steps1 != steps1 {
+    bool enabled = name != "robot";
+  } else if (true) {
+    name = "world";
+  } else {
+    int value = steps1;
+    print(value);
+    print(name);
+  }
+  print("done");
 }
-float discount3 = 26.9 + steps1;
-steps1 = steps1 + 1;
-print(steps1);
+steps1 = 19;
+int second = 0;
+while (second < 5) {
+  ready = (8 % 6) < 0 + steps1;
+  second = second + 1;
+}
+print(second);

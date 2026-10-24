@@ -1,43 +1,30 @@
-int score3 = (25 + 11);
-int second3 = score3 - 19;
-int total = 12;
-string msg = "hello";
-int rounds = 33 - 38;
-int marks = (total + second3);
-bool markss = rounds <= total;
-int i1 = (second3 / 9);
-int age = score3;
-int items = 0;
-while (items < 5) {
-  print((i1 / 3) < score3 / 5);
-  items = items + 1;
-}
-string course = msg;
-course = msg;
-int height = age / 9;
-score3 = (14 * rounds) % 4;
-if (!markss) {
-  total = score3 + 30 % 2;
-  msg = "pipeline";
-  print(items);
-} else if (markss) {
-  int limit1 = 0;
-  while (limit1 < 4) {
-    rounds = 35 % 3;
-    bool has_more1 = second3 - rounds >= 10 + 9;
-    print(msg);
-    limit1 = limit1 + 1;
+int rounds3 = 35;
+float balance = 21.8 + rounds3;
+int tickets;
+string title = "parse";
+if (title != "done") {
+  int years = rounds3 - tickets;
+  print(years);
+  print(title);
+  for (int limit = 0; limit < 4; limit = limit + 1) {
+    years = 29;
+    tickets = 3;
   }
+  int marks = tickets - 5;
 } else {
-  markss = 2 + height > (second3 + 18);
+  int rounds2 = (tickets / 6);
+  print(rounds2);
+  print(balance);
+  balance = balance * balance;
+
+int seats = 0;
+while (seats < 3) {
+  rounds3 = (22 - rounds3) - tickets;
+  print(title);
+  print(balance);
+  seats = seats + 1;
 }
-int score = 0;
-while (score < 3) {
-  if (markss) {
-    int markssx = (24 + rounds);
-    print(markssx);
-    int years = marks - height;
-  
-  score = score + 1;
-}
-print(score3);
+balance = 30 + 34;
+tickets = 30;
+int size = 20 + rounds3;
+print(rounds3);

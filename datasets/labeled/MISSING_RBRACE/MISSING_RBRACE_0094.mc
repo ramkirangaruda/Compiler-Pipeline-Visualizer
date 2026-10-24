@@ -1,44 +1,44 @@
-bool found = 12 != (29 + 24);
-bool valid = (13 - 12) >= (1 + 19) || 14 / 5 <= 23 / 2;
-int days = 25 + 25;
-string text = "done";
-valid = days + 17 == (38 - 21);
-int k = 0;
-while (k < 3) {
-  if (true) {
-    found = valid;
-    valid = valid;
-    print(valid);
-  } else {
-    int steps = (days + days);
-    print(steps);
-    print(steps);
-  }
-  int years2 = days;
-  int sum = 0 / 9;
-  k = k + 1;
+int base3 = (25 + 3);
+int a = base3;
+int lives1 = base3;
+int stock = base3;
+string stockx = "parse";
+bool has_more = 4.5 - 35 > (base3 + base3);
+int width3 = 0;
+while (width3 < 6) {
+  float discount = 15.7;
+  print(stock);
+  print(has_more);
+  width3 = width3 + 1;
 }
-print("ok");
-print(text);
-print(valid);
-if (30.2 <= (29 * k)) {
-  if (text != "ok") {
-    int tsxt = (34 + k);
-    print(tsxt);
-  } else {
-    print(k);
-    print(found);
-  
-}
-int result = 0;
-while (result < 6) {
-  days = 36;
-  result = result + 1;
-}
-int rounds = days / 3;
-int valids = 0;
-while (valids < 2) {
+int i = 0;
+while (i < 3) {
+  int x = a + 29;
+  print(x);
+  i = i + 1;
+
+if (12.5 * base3 >= (9 + 17)) {
+  print((40 + 25) != stock % 6);
+  print(base3);
+  stock = 38 + (18 / 5);
+} else {
+  int result = i;
   print(result);
-  days = 15;
-  valids = valids + 1;
+  print(19 - base3);
+  base3 = width3;
+  print(width3);
 }
+lives1 = 9;
+print("alice");
+int num = 0;
+for (num = 0; num < 5; num = num + 1) {
+  stock = num;
+  base3 = (num - lives1) + (26 - stock);
+  bool stockxx = (a * a) > i + base3;
+}
+print(num);
+base3 = lives1 * base3;
+if ((14 % 1) > 29 + a) {
+  float oidth3 = 15.4 + 15.7;
+}
+print(lives1);

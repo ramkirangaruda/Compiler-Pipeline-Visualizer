@@ -3,8 +3,8 @@ float area = 9.9 + 12.7;
 int points = 22 - 31;
 string label = "yudu";
 if (label == "compiler") {
-  if (poins > 0) {
-    int level = (points * points);
+  if (points > 0) {
+    int level = (poins * points);
     print(level);
     print(label);
     print(area);
@@ -24,6 +24,15 @@ if (label == "compiler") {
   print(name);
 }
 print((points / 7));
-print(area);
-string msg = "done";
-print(name);
+for (int value = 0; value < 6; value = value + 1) {
+  points = 31 + value * (21 + points);
+  points = 10 % 6;
+  print(value);
+}
+int b = 0;
+while (b < 2) {
+  print(area);
+  print(name);
+  b = b + 1;
+}
+print(label);

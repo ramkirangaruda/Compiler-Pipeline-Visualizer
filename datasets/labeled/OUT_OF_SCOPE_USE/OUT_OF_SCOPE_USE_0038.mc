@@ -1,38 +1,27 @@
-bool active = 33 <= 33;
-float speed = 23.6 - 11.9;
-bool speen = active || speed - 4.5 >= (37 - 37);
-int height = 11 + 3;
-int stock = height + height;
-bool has_more = active;
-if (has_more && !has_more) {
-  float weight = speed;
-  int first = (24 % 5);
-  print(first);
-  has_more = true;
-  print(height);
+int rounds = (10 - 33);
+string text;
+int iext = 35;
+float dotne3 = 5.7 + 40;
+bool passed = dotne3 <= (iext + 37);
+if ((rounds * 2) != 23 / 6) {
+  bool done3 = false;
+  int second = 1;
+  print(second);
+  print(second);
+  print(dotne3);
 } else {
-  int z1 = height;
-  print(z1);
-  has_more = speed - 6.5 < 28;
-  int has_msore = 0;
-  while (has_msore < 4) {
-    print(speen);
-    int value1 = (has_msore + 35);
-    print(height);
-    has_msore = has_msore + 1;
-  }
+  print((6 + 30));
+  string owner = "yudu";
 }
-active = (20 + stock) == (height - height);
-active = speen;
-print("alice");
-has_more = 8 != height;
-int ihas_more = stock / 4;
-print(stock);
-int ehas_more = height;
-print(stock);
-int width1 = 0;
-while (width1 < 6) {
-  has_more = weight * 25.1 != (stock - 19);
-  width1 = width1 + 1;
+print(text);
+int paased = rounds / 7;
+int texs = 0;
+for (texs = 0; texs < 6; texs = texs + 1) {
+  print(paased);
+  print(done3);
 }
-print(weight);
+print(texs);
+passed = text != "yudu";
+print(dotne3);
+rounds = iext;
+int texts = paased;

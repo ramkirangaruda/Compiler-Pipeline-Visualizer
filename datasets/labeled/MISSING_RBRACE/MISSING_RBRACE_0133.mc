@@ -1,58 +1,48 @@
-int rounds3 = 35;
-float balance = 21.8 + rounds3;
-int tickets;
-string title = "parse";
-if (title != "done") {
-  int years = rounds3 - tickets;
-  print(years);
-  print(title);
-  print((years + rounds3) == 14 + 3);
-  if (true) {
-    int marks = tickets - 5;
+string label1 = "parse";
+int height = (16 / 7);
+float temp = 7.1 * height;
+int limit = (height % 4);
+string henight = label1 + "ok";
+float mean = 18.7 * height;
+string owner = "done";
+if (height * limit >= height / 5) {
+  if (limit > limit * height) {
+    print(true && true);
+  } else if (owner == "robot") {
+    int msean = 4 / 9;
+    print(msean);
+    henight = owner;
+    label1 = henight;
+  
+  int y3 = 0;
+  for (y3 = 0; y3 < 3; y3 = y3 + 1) {
+    henight = "compiler";
+    int marks = (height % 4);
     print(marks);
-    print(balance);
-    print(tickets);
-  } else {
-    int height = (15 - 11);
-    print(height);
-    print(rounds3);
-    balance = tickets / 1;
   }
-} else {
-  int b = 0;
-  while (b < 3) {
-    print(title);
-    print(rounds3);
-    b = b + 1;
-  }
-  int items = 0;
-  while (items < 3) {
-    tickets = tickets + b % 8;
-    title = "bob";
-    rounds3 = b + 21 + tickets + 20;
-    items = items + 1;
-  }
+  print(y3);
+  int sum3 = (y3 * 9);
 }
-print(rounds3);
-int base = 0;
-while (base < 5) {
-  tickets = tickets + (rounds3 + tickets);
-  if (false) {
-    int count = (base + 4);
-    print(count);
-    print(base);
-  } else {
-    int banlance = base;
-    print(banlance);
-    print((rounds3 + base));
-  }
-  base = base + 1;
+label1 = henight;
+print(temp);
+int index = (height + 6);
+if (true) {
+  index = 37;
+  print((27 % 6));
+  print(temp);
+} else if (label1 != "alice") {
+  temp = temp - 34;
+  limit = height + height * index;
 }
-bool found3 = balance + balance < 39;
-if ((30 + 12) >= tickets) {
-  print(balance);
- else if (7.8 > (tickets * 6)) {
-  print(found3);
-  tickets = rounds3 / 7;
+int total = 0;
+while (total < 6) {
+  print(11 == (38 + total));
+  print(temp);
+  print(label1);
+  total = total + 1;
 }
-print(title);
+int iowner = 0;
+for (iowner = 0; iowner < 2; iowner = iowner + 1) {
+  int henighot = 22;
+}
+print(height);

@@ -1,46 +1,51 @@
-bool ok3 = true;
-int i;
-int size = 1 * 26;
-bool is_even = i / 3 >= size;
-int value1 = 0;
-while (value1 < 6) {
-  if (26.1 - 14.6 >= (size - 10)) {
-    int total2 = value1;
-    print(total2);
-    ok3 = is_even;
-    print(is_even);
-    size = value1 / 1;
-  } else if (3.5 == 27 || 25 * i < 33) {
-    print(size);
-    print(size);
-   else if (ok3) {
-    int a2 = value1 + value1;
-    print(a2);
-    print(i);
-    print(false);
-  }
-  float tax1 = 21.2 + 22.1;
-  int value = 1 % 7;
-  value1 = value1 + 1;
+bool is_even = 7 - 23 != 2 || true;
+bool ready = 8.2 * 13.6 > (32 + 11);
+int a = (32 + 28);
+int is_evenx = a / 2;
+int result = a * 18;
+string city = "hello";
+int seats = 0;
+for (seats = 0; seats < 4; seats = seats + 1) {
+  print(a);
+  print(result);
 }
-print(value1);
-print(size);
-print(ok3);
-int x = 0;
-while (x < 5) {
-  if (28.2 * 24 >= value1 - value1) {
-    i = 5;
-    is_even = (x % 9) == (size + size);
-  } else {
-    int score = 1;
-    print(score);
-    i = 2 + (value1 + value1);
-    score = size + size % 6;
-  }
-  x = x + 1;
+if (a <= is_evenx) {
+  int sum = 34 / 4;
 }
-ok3 = size - 4 > size + value1;
-print(x);
-int sum = value1;
-print(i);
-print(28 + x);
+int tickets = 0;
+while (tickets < 2) {
+  print((result + 31));
+  if (tickets + tickets <= is_evenx) {
+    int cnity = (29 - tickets);
+    print(cnity);
+    print(city);
+    print(is_evenx);
+    print((6 + is_evenx) == (result / 5));
+  }
+  tickets = tickets + 1;
+}
+a = (0 + seats) + (seats + result);
+for (int years = 0; years < 2; years = years + 1) {
+  if (is_even) {
+    int j = (years / 4);
+    print(years);
+  } else if (22.2 + 0.6 >= is_evenx) {
+    int ncity = (result - 40);
+    print(ncity);
+    ncity = (tickets * years) + (2 % 6);
+    ncity = 8;
+   else if (8.5 <= years % 8) {
+    int total = (result / 6);
+    print(total);
+    float tax = 25.6 - seats;
+  }
+}
+int points2 = 0;
+while (points2 < 5) {
+  result = 20 * 23 / 5;
+  ready = 0.3 * 30.7 == (a / 4);
+  string word = city + "bob";
+  points2 = points2 + 1;
+}
+ready = 4.1 + 13 == seats;
+print(a);

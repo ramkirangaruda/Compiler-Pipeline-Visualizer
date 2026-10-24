@@ -49,37 +49,42 @@ if (ticktts) {
     num2 = 13 + (lives3 + limit3);
   }
 }
-ticktts = (limit3 * limit3) >= (11 % 1);
-limit3 = limit3;
-if (ticktts) {
-  limit3 = (9 * 15) + (tickets + 15);
-} else {
+for (int size = 0; size < 2; size = size + 1) {
   print(ticktts);
-}
-if (ticktts) {
-  tickets = limit3;
-  print(ticknts);
-  if (!ticktts || !ticktts) {
-    print(ttickets);
+  if (size > limit3) {
+    int count1 = limit3;
+    print(count1);
+    int i = tickets / 3;
     print(ticktts);
-  } else {
+    count1 = (tickets * 34) - limit3 % 5;
+  }
+}
+tickets = limit3;
+int points = 0;
+for (ppoints = 0; points < 5; points = points + 1) {
+  int a = 26;
+  if (ticktts) {
+    int tickttn = 22;
+    print(tickttn);
     tickets = 16 + 29 - 7;
-    ticktts = 18.5 - 8.6 == limit3;
-  }
-}
-if (4 - limit3 >= 20 || 25.8 == 23 / 2) {
-  int result2 = 37 / 1;
-  print(result2);
-  if (false) {
-    int limit = 34 / 5;
-    print(limit);
-    print(tickets);
-    limit3 = (4 % 8) - (tickets % 1);
+    ticktts = 18.5 - 8.6 == tickttn;
+    ticknts = "robot";
   } else {
-    int marks = 26;
-    print(marks);
-    print(marks);
+    int age2 = (tickets - 20);
+    print(age2);
+    age2 = points;
   }
 }
-print(limit3);
-print(ticknts);
+if (points == (6 + 37)) {
+  int limit = 34 / 5;
+  print(limit);
+  print(tickets);
+  limit3 = (4 % 8) - (tickets % 1);
+} else {
+  int marks = 26;
+  print(marks);
+  print(marks);
+}
+print(ticktts);
+bool ok2 = ticknts != "token";
+print((6 + limit3));

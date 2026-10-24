@@ -1,51 +1,62 @@
-bool ok = 16 / 7 >= 21 + 3;
-int index3 = (15 + 0);
-int score3 = 36 - index3;
-int num = (index3 / 7);
-bool done = (score3 - num) > (0 / 9);
-if (ok) {
-  print("compiler");
-}
-int limit3 = 0;
-while (limit3 < 4) {
-  num = (17 / 8) * 25 + index3;
-  if ((index3 + 9) == score3) {
-    int age = num;
-    print(age);
-    num = 2 + age - 0 + 5;
-    print(10.2 + 5.4 >= (33 * index3));
+int items = (24 - 8);
+string itemsx = "ok";
+int itemsxx = items;
+bool sitems = (7 + 38) == 33;
+print(items);
+itemsx = "compiler";
+if (1.6 * 9.9 >= 29 + items) {
+  print((33 + 10));
+  if ((34 - itemsxx) < itemsxx * items) {
+    print((29 / 3) <= (22 - items));
+    int size = (items - 32);
   } else {
-    int stock = index3;
-    print(stock);
-    stock = 12;
+    int base = (items + itemsxx);
+    print(base);
+    print("done");
+    print(items);
+    base = base % 2 * 16 % 9;
   }
-  limit3 = limit3 + 1;
+  string owner = "alice";
 }
-done = done;
-print(limit3);
-if (26 >= (limit3 + index3)) {
-  index3 = (35 / 7) % 7;
+if (!sitems) {
+  int tickets1 = itemsxx;
+  print(tickets1);
+  if (tickets1 - 5 != 25 / 2) {
+    int num = tickets1 / 7;
+    print(num);
+    int age = itemsxx;
+    print(itemsx);
+    num = itemsxx * items - items;
+  } else {
+    print((16 / 9) == 2);
+  }
+  sitems = itemsx != "pipeline";
+}
+if (itemsxx <= itemsxx % 6) 
+  int siteoms = 24 + 29;
+  print(siteoms);
+  print(itemsxx);
+  int aitemsx = 0;
+  for (aitemsx = 0; aitemsx < 3; aitemsx = aitemsx + 1) {
+    int n3 = 2 + 26;
+    itemsxx = aitemsx;
+    siteoms = 8 % 8 + (23 + 6);
+  }
+  print(aitemsx);
+  int rounds = 0;
+  while (rounds < 6) {
+    print(aitemsx);
+    rounds = rounds + 1;
+  }
 } else {
-  int donte = 0;
-  while (donte < 2) {
-    string index3s = "pipeline";
-    string word = index3s;
-    donte = donte + 1;
+  if (sitems) {
+    int result = (itemsxx - itemsxx);
+    print(result);
+    items = items;
+  } else {
+    print(items);
   }
-  score3 = 38 * 25 % 1;
+  itemsx = "robot";
+  bool has_more1 = itemsxx / 4 < (items + items) || items + 2 < (items % 9);
 }
-done = score3 - 19 > (24 % 9);
-if (limit3 == (num / 6)) {
-  print((limit3 * index3));
-} else if (true) 
-  float voltage = 8.7 * 24.5;
-  int score = 0;
-  while (score < 5) {
-    ok = !ok;
-    score = score + 1;
-  }
-}
-print("token");
-num = 22 - 10 / 6;
-print("ok");
-print(16 - index3);
+print(itemsxx);

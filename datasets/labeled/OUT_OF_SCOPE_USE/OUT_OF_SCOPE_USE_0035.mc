@@ -1,48 +1,13 @@
-int size = 9 - 23;
-int sum = (size - 27);
-float mean = 16.6 - 21.5;
-if (mean == (6 - 31)) {
-  string name = "bob";
-  if (mean > (size - 6)) {
-    name = "token";
-    print((37 % 5));
-    int j = sum;
-  } else {
-    int result = size + sum;
-    float avg = mean + 25.5;
-  }
-  int meann = 0;
-  while (meann < 6) {
-    print(24 - 30);
-    print(mean);
-    print(meann);
-    meann = meann + 1;
-  }
-  if (size > 23) {
-    int steps = (meann + 36);
-  }
-} else {
-  int lives = (size % 3);
-  print(lives);
-  lives = 34;
+float temp2 = 11.4 * 23.7;
+int tickets = (14 % 9);
+int age = tickets;
+int j = (age % 6);
+print(j);
+print(tickets);
+if (tickets * 33 < (age + 5) || age + j == (3 + 30)) {
+  string course = "robot";
+  age = tickets;
 }
-if (true) {
-  name = name + "world";
-}
-if (false) {
-  int index = (size + 24);
-  print(index);
-  print(size);
-} else if (mean * mean == 14) {
-  int level = size / 2;
-  print(level);
-  print(true);
-  sum = 16 + (size / 7);
-}
-print(size);
-mean = mean - 9.7;
-int limit1 = size * 24;
-if (true) {
-  mean = mean * limit1;
-}
-name = name + "robot";
+print(j);
+tickets = age - j + j;
+print(course);

@@ -43,73 +43,65 @@ while (b < 2) {
   b = b + 1;
 }
 if (y < b / 7) {
-  int balancex = (y / 5);
-  float salary = temp - balance;
-  print(title);
-} else if ((18 - b) >= 34) {
-  int items = y;
-  print(items);
-  print(title);
-  print(owner);
-} else {
-  int n = (ttemp + b);
-  int k = 0;
-  while (k < 4) {
-    print(y);
-    k = k + 1;
-  }
-}
-if (temp <= (y + 5)) {
-  int toemp = 0;
-  while (toemp < 5) {
-    ready = (toemp * toemp) == (b - y);
-    balance = 0.1 + toemp;
-    title = "pipeline";
-    toemp = toemp + 1;
-  }
-  if (temp < 3) {
-    int index = b + toemp;
-    print(index);
-    print(title);
-    print(temp);
-    print(index);
-  } else {
-    int result = (y - 9);
-    print(result);
-    ttemp = 14 + toemp;
-    print(ready);
+  int first1 = 0;
+  for (first1 = 0; first1 < 4; first1 = first1 + 1) {
     print(ttemp);
+    print(b);
   }
+  print(first1);
+  int limit = 1;
+  title = "token";
 } else {
-  int titlex = y / 2;
-  int k3 = 0;
-  while (k3 < 3) {
-    temp = 20.4 + 33;
-    k3 = k3 + 1;
+  int tickets = 25;
+  print(tickets);
+  temp = tickets * ttemp;
+  int steps = (19 + y);
+}
+for (int days = 0; days < 2; days = days + 1) {
+  if (!ready || ready) {
+    print(b);
+    print((ttemp + 5));
+    print(days);
+  } else if (28 != ttemp) {
+    balance = (13 % 2);
+    y = days % 4 + (y + 27);
+  } else if (temp == y) {
+    int age1 = b;
+    print(age1);
+    print(y);
+  }
+  balance = ttemp / 9;
+}
+print(ttemp);
+for (int balancex = 0; balancex < 6; balancex = balancex + 1) {
+  if (true && ready) {
+    int k2 = balancex - 11;
+    print(k2);
+    k2 = (16 / 7) + y;
+  } else if (ready) {
+    balance = 29.2 - ttemp;
+    int seats = (ttemp - 12);
+  } else {
+    int marks = (balancex + b);
+    print(marks);
+    print(33);
+    int j = 14;
+  }
+  temp = b;
+  if (balance - 22.5 < ttemp - 6) {
+    int base = y - 0;
+    print(base);
+    owner = owner;
+  } else {
+    int result = y + balancex;
+    print(result);
+    print(title);
   }
 }
-ready = true;
-if (true) {
-  int days = 0;
-  while (days < 4) {
-    ready = balance + 2.1 != ttemp + 1;
-    owner = "bob";
-    days = days + 1;
-  }
-  temp = (19 + 18);
-  int k1 = 0;
-  while (k1 < 6) {
-    balance = (0 / 4);
-    k1 = k1 + 1;
-  }
-} else if (ready) {
-  balance = balance - 12;
-} else {
-  int j = b;
-  print(j);
-  print(balance);
-  print(j);
+balance = 14;
+int lives2 = 0;
+while (lives2 < 6) {
+  ready = (y % 4) < b;
+  lives2 = lives2 + 1;
 }
-print(owner + "parse");
-title = "yudu";
-print(owner);
+print(title + "done");

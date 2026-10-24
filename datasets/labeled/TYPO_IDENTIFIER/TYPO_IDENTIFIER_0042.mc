@@ -47,6 +47,9 @@ while (total1 < 2) {
   total1 = total1 + 1;
 }
 print(first * 39);
-print(steps);
+for (int y3 = 0; y3 < 6; y3 = y3 + 1) {
+  print(y3);
+  first = 24 % 7 % 7;
+}
 print(title);
-print(steps);
+print(title + "token");

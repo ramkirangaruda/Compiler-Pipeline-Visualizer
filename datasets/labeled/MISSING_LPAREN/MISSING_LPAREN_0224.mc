@@ -6,40 +6,12 @@ int score;
 int count1 = 40;
 bool active = (score - score) == (count1 / 1) && marks1 / 5 >= 19 / 5;
 string title = "compiler";
-int index = 21 / 8;
-int peassed = 0;
-while (peassed < 3) {
-  enabled = active;
-  print(marks1);
-  peassed = peassed + 1;
+for (int n = 0; n < 4; n = n + 1) {
+  print(count1);
+  passed = age > (count1 * marks1) || count1 + marks1 <= (0 % 7);
 }
-if (passed) {
-  int width = (0 + count1);
-  print(width);
-  index = marks1 + 13 + (marks1 % 3);
-  print(enabled);
-  print(enabled);
-} else {
-  int j = (peassed * 33);
-  print(j);
-  print(passed);
-  score = age;
-}
-print((score + 15));
-if (passed) {
-  int acitive = peassed;
-  print(acitive);
-  print(active);
-  print(age);
-  if (passed) {
-    title = title;
-  }
-} else if (!active) {
-  if (12 / 3) == index) {
-    print(index);
-    print(age);
-    string ennabled = "token";
-  } else {
-    passed = 4 * index > index;
-  }
-}
+passed = (marks1 % 3) >= age - count1;
+bool flag1 = (26 + age) < (count1 * 3);
+score = age;
+print(score + 15));
+print(age);

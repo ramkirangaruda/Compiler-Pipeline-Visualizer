@@ -1,45 +1,30 @@
-bool passed = true;
-int paased = (39 * 3);
-int passred = paased;
-string msg = "bob";
-float mean = 22.4 - paased;
-int z = (paased + passred);
-bool has_more = passed;
-string city = "robot";
-mean = mean + 16;
-if (!has_more) {
-  int b = (15 - 20);
-  print(b);
-  if (has_more && mean + passred >= passred) {
-    int i = z;
-    print(i);
-    print(city);
-    print(paased);
-  } else if (true) {
-    float speed = mean + mean;
-    has_more = (z - passred) <= paased + b;
+int total = 15;
+int size1;
+bool flag3 = 21 + total > (size1 % 7);
+int y2 = total;
+int limit = total;
+string owner = "bob";
+bool flag = 19.1 - size1 <= 1;
+if ((6 % 2) < (33 % 6)) 
+  int seats3 = limit;
+  print(seats3);
+  print(limit);
+} else if (30.6 >= limit + limit) {
+  for (int points3 = 0; points3 < 4; points3 = points3 + 1) {
+    y2 = (40 % 2) * limit;
+    print(size1);
   }
-  print(has_more);
-  int menan = passred;
-} else {
-  int seats = 15 * paased;
-  print(seats);
-  if (!passed) {
-    int mnan = paased;
-    print(mnan);
-    print(mean);
-  } else if (has_more) 
-    int j = 18 + passred;
-    print(j);
-    passed = 19 - j < (23 + z);
-  } else {
-    print(z);
-    city = city + "done";
-  }
-  seats = paased / 6 + passred;
-  paased = 6 + 23 + z + 28;
+  print(flag);
 }
-int limit = passred / 4;
-print(z);
-print(passred);
-print(z);
+int y = 0;
+while (y < 5) {
+  total = (29 % 1) / 4;
+  owner = owner + "yudu";
+  y = y + 1;
+}
+print(size1);
+print(size1);
+size1 = 3 % 1;
+owner = "hello";
+bool passed = (32 - total) <= limit;
+print(owner + "token");

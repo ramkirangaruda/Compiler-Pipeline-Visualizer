@@ -1,33 +1,38 @@
-int first = 31;
-int lives = first;
-float tax = 14.1 * lives;
-bool enabled = lives > first + lives && false;
-string word = "hello";
-string label = word + "world";
-label = label + "bob";
-print(label);
-if (first < (33 % 5)) {
-  int level = 0;
-  while (level < 5) 
-    print(word);
-    enabled = (level - lives) == lives + first;
-    level = level + 1;
+int age = 27;
+string ate = "robot";
+bool done = age % 4 != age / 4 && true;
+float agee = 25.8 - age;
+bool atte = ate == "hello";
+int rounds1 = age * 8;
+string ase = ate;
+int index = 0;
+while (index < 5) {
+  print(rounds1);
+  if (done) {
+    int marks = rounds1 / 1;
+    print(marks);
+    print(atte);
+    ate = "yudu";
+  } else {
+    int years = index - index;
+    print(years);
+    print(agee);
   }
-  print(word);
-  if (true) {
-    int value = (first - level);
-    print(value);
-    int second = 25 / 9;
-    int height = 28 + first;
-    print("pipeline");
-  } else if (tax < lives) {
-    first = level / 2 + lives * 5;
-    float temp2 = tax * 0;
-  }
+  index = index + 1;
 }
-print(tax);
-int score = first + lives;
-word = word;
-print(first);
-print(enabled);
-print(word);
+atte = atte;
+int atex = 0;
+while (atex < 5) 
+  int seats = age / 4;
+  agee = agee - 0;
+  print(index);
+  atex = atex + 1;
+}
+int otte = 0;
+for (otte = 0; otte < 5; otte = otte + 1) {
+  print(agee);
+  int i = (index - otte);
+}
+print(otte);
+atte = ate == "compiler";
+print(ate);

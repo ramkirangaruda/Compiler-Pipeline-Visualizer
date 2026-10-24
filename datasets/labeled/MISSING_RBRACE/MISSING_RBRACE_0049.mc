@@ -1,77 +1,61 @@
-float ratio = 10.8 - 17.8;
-int stock1 = 5;
-string msg = "pipeline";
-int second2 = 39;
-bool valid1 = true;
-string label = "robot";
-label = "pipeline";
-print((stock1 * second2));
-print(second2);
-if (false) {
-  int result = stock1;
-  print(result);
-  if (ratio > (28 / 2)) {
-    valid1 = ratio + result > (stock1 + 10);
-   else if (ratio * 15 == second2 / 7) {
-    int labelx = 28;
-    print(labelx);
-    msg = "world";
-    print(stock1);
-  } else if (24 != 39) {
-    result = second2;
-  } else {
-    second2 = 13;
-    ratio = 28.4 + 1;
-  }
-  if (valid1 || !valid1) {
-    int first = stock1;
-    print(first);
-    float rate = ratio + 37;
-    print(rate - rate != first);
-    print(msg);
-  } else {
-    valid1 = true;
-    msg = "ok";
-  }
-  print(valid1);
+string text = "parse";
+bool passed = true;
+int age = (23 / 8);
+string city = text;
+int level = (age + 34);
+text = "alice";
+print(city + "yudu");
+int x = 0;
+while (x < 6) {
+  print(text);
+  print(passed);
+  x = x + 1;
+}
+if (passed) {
+  int b = age + age;
+  print(b);
+  level = (35 / 7) - 24;
+  print(x);
 } else {
-  int steps3 = stock1;
-  print(steps3);
-  steps3 = 11;
-}
-if ((13 - second2) != second2) {
-  if (stock1 > 1 + stock1) {
-    print(msg);
-    int second = (14 - 23);
-    print(stock1);
+  int n = x;
+  print(n);
+  int b2 = 0;
+  while (b2 < 4) {
+    string passeds = city + "yudu";
+    print(x);
+    print(passed);
+    b2 = b2 + 1;
   }
-  valid1 = valid1;
-  second2 = stock1 * 28 - (second2 / 5);
+  int second = 0;
+  while (second < 4) {
+    n = 34 % 9;
+    print(passed);
+    text = "token";
+    second = second + 1;
+  }
+  print(level);
 }
-int total = 0;
-while (total < 3) {
-  print(second2);
-  if (ratio >= 15 / 2 && total > 11 / 9) {
-    print(stock1);
-  } else if (second2 - 38 >= (total * second2)) {
-    int msgs = (13 / 4);
-    print(msgs);
-    float price = ratio + total;
+if (passed) {
+  if (4.7 >= age) {
+    int rounds = (35 / 6);
+    print(rounds);
+    city = "token";
+    string text1 = "robot";
   } else {
-    int laben = (6 - 10);
-    print(laben);
-    print(msg);
-    msg = "pipeline";
+    print(x);
   }
-  print(33 > stock1 + total);
-  total = total + 1;
+} else if (passed) {
+  int stock = 26 * x;
+  print(stock);
+  int days3 = x;
+  level = (31 + stock) + (x + x);
+} else if (25.6 + age >= level * x) {
+  level = age * 34 * (x % 3);
+
+float ratio = 5.1 + 5;
+if (passed) {
+  int level2 = (16 * 29);
+  print(level2);
+  print(36);
 }
-print(ratio);
-if (false) {
-  print(total);
-} else {
-  int items = 0 + second2;
-  print(items);
-  valid1 = msg != "hello";
-}
-print(label);
+print(age);

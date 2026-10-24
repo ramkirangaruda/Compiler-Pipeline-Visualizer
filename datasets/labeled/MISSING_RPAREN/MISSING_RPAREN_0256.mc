@@ -67,6 +67,11 @@ if (true) {
     print(base3;
   }
 } else {
-  print((6 + base3));
-  ie_even = 18 + index - i * 6;
+  for (int rounds1 = 0; rounds1 < 5; rounds1 = rounds1 + 1) {
+    int n = (6 - 17);
+    msg2 = "robot";
+    print(msg2);
+  }
+  i = ie_even * (27 + index);
 }
+print(price2);

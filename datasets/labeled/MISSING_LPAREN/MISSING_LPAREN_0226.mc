@@ -76,8 +76,17 @@ string course = "parse";
 print(points);
 int years = (5 - 5);
 int lives1 = 0;
-while (lives1 < 3) {
-  years = lives1;
-  msg = "world";
-  lives1 = lives1 + 1;
+for (lives1 = 0; lives1 < 3; lives1 = lives1 + 1) {
+  if (ok1) {
+    course = "yudu";
+    b1 = years;
+    float salary = 29.7 - 20.1;
+  } else {
+    int days = b1 * 37;
+    print(days);
+    print(years);
+    int i2 = 6;
+    msg = "ok";
+  }
 }
+print(b1);

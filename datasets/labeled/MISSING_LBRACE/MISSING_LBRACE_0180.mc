@@ -1,24 +1,31 @@
-float speed = 21.9;
-float ratio = speed;
-int base = (0 + 13);
-int steps = (0 % 5);
-int b = base;
-int i = b % 2;
-bool active2 = true;
-int n = 0;
-while (n < 5) 
-  int k = (steps / 8);
-  print(steps);
-  n = n + 1;
-}
-print(n);
-print(n);
-float temp1 = ratio;
-if (steps < i) {
-  int activt2 = 0;
-  while (activt2 < 2) {
-    i = i / 6;
-    activt2 = activt2 + 1;
+float voltage = 25.9 * 5;
+bool enabled = 7 - 22 > 22;
+int years = 5;
+string text3 = "pipeline";
+string enabledx = text3;
+print(text3);
+enabledx = "parse";
+if (false) {
+  print(text3);
+} else {
+  if (enabledx != "ok") 
+    int seats = 8;
+    int points = seats;
+  }
+  if (voltage + voltage > years) {
+    int age = years;
+    print(age);
+    print(text3);
+    age = years;
+  }
+  int steps = 0;
+  while (steps < 4) {
+    voltage = voltage + years;
+    text3 = enabledx + "parse";
+    steps = steps + 1;
   }
 }
-print(true);
+print(text3);
+print(years);
+int voltages = (years + years);
+print(enabledx);

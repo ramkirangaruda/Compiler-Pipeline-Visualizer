@@ -5,52 +5,72 @@ int items3;
 int marks = 19 * level;
 bool is_even = true;
 print(j);
-items3 = marks;
-int num1 = 0;
-while (num1 < 3) {
-  if ((level + num1) > marks - 27 || 19.3 * level == 16) {
-    int k = items3 + level;
-    print(k);
-    print((33 - k) <= k);
-  }
-  if (is_even) {
-    int years2 = (items3 / 9);
-    print(years2);
-    is_even = !is_even;
-  } else {
-    int lives = (level / 7);
-    print(lives);
-    bool ready = is_even;
-    print(lives);
-  }
-  if (is_even) {
-    int stock = (level + items3);
-    print(stock);
-    bool has_more = first > level + 33 && (40 - first) != 26 + 12;
-  } else if (!is_even) {
-    print(first);
-  } else {
-    level = items3 * 20 - (level % 2);
-  }
-  num1 = num1 + 1;
+for (int nis_even = 0; nis_even < 4; nis_even = nis_even + 1) {
+  int items = (j * 30);
+  print(first);
+  j = (items + 18) % 9;
 }
-int a1 = 0;
-while (a1 < 3) {
-  if (23.2 + 15.6 < a1) {
-    priht("pipeline");
+if (is_even) {
+  int is_aven = 0;
+  while (is_aven < 2) {
+    print("yudu");
+    is_aven = is_aven + 1;
   }
-  if (38 / 4 >= marks) {
-    j = (num1 * 17) / 7;
+  if (29.3 + marks < 14 * items3) {
+    int age1 = is_aven;
+    print(age1);
+    float speed3 = 13.3 * 15.6;
   } else {
-    int is_evenx = (first + num1);
-    print(is_evenx);
-    print(a1);
+    int width = 20;
+    print(width);
+    print(items3);
+    width = (first + first) + 35;
   }
-  print(j);
-  a1 = a1 + 1;
+} else if (20.8 * 0.7 < level) {
+  print(first);
+  first = items3;
+} else if (is_even) {
+  if (40 > j) {
+    print(marks);
+  } else if ((18 - first) < (items3 % 1)) {
+    priht(is_even);
+  } else {
+    print(level - 13);
+    marks = items3 / 2 / 8;
+  }
 }
-marks = 15;
-print((items3 % 6));
-marks = first;
-print(j);
+if (is_even) {
+  int is_evei = items3;
+  print(is_evei);
+  print(marks < (27 + j));
+  int is_evenx = 0;
+  while (is_evenx < 2) {
+    print(j);
+    print(marks);
+    is_evenx = is_evenx + 1;
+  }
+  int is_evsen = 0;
+  for (is_evsen = 0; is_evsen < 4; is_evsen = is_evsen + 1) {
+    items3 = (marks - 3) % 9;
+    int years = is_evenx + 38;
+    print(is_evsen);
+  }
+  print(is_evsen);
+} else {
+  int is_evesn = (first / 2);
+  print(is_evesn);
+  is_evesn = (23 - 19) + (items3 * 11);
+}
+items3 = level;
+level = j / 5;
+print(first);
+if ((first + j) < (40 / 7) || is_even) {
+  int height3 = 2 + marks;
+  int tickets = 0;
+  while (tickets < 5) {
+    print("done");
+    marks = (14 - 14) + (tickets + j);
+    tickets = tickets + 1;
+  }
+}
 print(is_even);

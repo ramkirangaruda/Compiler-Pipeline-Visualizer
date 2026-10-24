@@ -45,7 +45,13 @@ print(b)
 if (found) {
   print(nsui * sum == (b % 5) && 38 == 37 * sum);
 } else {
-  print(ready);
-  print(nsui);
+  int age = 0;
+  for (age = 0; age < 6; age = age + 1) {
+    print(steps);
+    print(steps);
+    print(x);
+  }
+  print(age);
+  print(name2 + "done");
 }
-print(word);
+print(b);

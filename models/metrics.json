@@ -1,11 +1,11 @@
 {
-  "trained_at": "2026-10-23T11:11:39+00:00",
+  "trained_at": "2026-10-24T07:07:48+00:00",
   "selected_model": "Gradient Boosting",
   "dataset": {
     "n_seeds": 700,
     "n_samples": 3120,
-    "n_train": 2470,
-    "n_test": 650,
+    "n_train": 2467,
+    "n_test": 653,
     "n_handwritten": 36,
     "per_label": {
       "MISSING_SEMICOLON": 260,
@@ -63,8 +63,8 @@
         "test": 49
       },
       "OUT_OF_SCOPE_USE": {
-        "train": 213,
-        "test": 47
+        "train": 210,
+        "test": 50
       },
       "TYPE_MISMATCH": {
         "train": 200,
@@ -76,48 +76,48 @@
   "models": [
     {
       "name": "Logistic Regression",
-      "cv_accuracy": 0.9826,
-      "cv_accuracy_std": 0.004,
-      "cv_macro_f1": 0.9825,
-      "test_accuracy": 0.9785,
+      "cv_accuracy": 0.9769,
+      "cv_accuracy_std": 0.0073,
+      "cv_macro_f1": 0.977,
+      "test_accuracy": 0.9786,
       "test_macro_f1": 0.9786,
-      "test_log_loss": 0.0585,
-      "train_seconds": 4.5
+      "test_log_loss": 0.0535,
+      "train_seconds": 0.8
     },
     {
       "name": "Decision Tree",
-      "cv_accuracy": 0.9789,
-      "cv_accuracy_std": 0.0049,
-      "cv_macro_f1": 0.9788,
-      "test_accuracy": 0.98,
-      "test_macro_f1": 0.98,
-      "test_log_loss": 0.7213,
-      "train_seconds": 2.1
+      "cv_accuracy": 0.9773,
+      "cv_accuracy_std": 0.0122,
+      "cv_macro_f1": 0.9777,
+      "test_accuracy": 0.9893,
+      "test_macro_f1": 0.9893,
+      "test_log_loss": 0.3864,
+      "train_seconds": 0.2
     },
     {
       "name": "Random Forest",
-      "cv_accuracy": 0.9818,
-      "cv_accuracy_std": 0.0034,
-      "cv_macro_f1": 0.9817,
-      "test_accuracy": 0.9815,
-      "test_macro_f1": 0.9816,
-      "test_log_loss": 0.095,
-      "train_seconds": 8.8
+      "cv_accuracy": 0.9797,
+      "cv_accuracy_std": 0.0105,
+      "cv_macro_f1": 0.9799,
+      "test_accuracy": 0.9877,
+      "test_macro_f1": 0.9877,
+      "test_log_loss": 0.0873,
+      "train_seconds": 3.2
     },
     {
       "name": "Gradient Boosting",
-      "cv_accuracy": 0.9842,
-      "cv_accuracy_std": 0.0039,
-      "cv_macro_f1": 0.9842,
-      "test_accuracy": 0.9862,
-      "test_macro_f1": 0.9864,
-      "test_log_loss": 0.0501,
-      "train_seconds": 118.5
+      "cv_accuracy": 0.9818,
+      "cv_accuracy_std": 0.0108,
+      "cv_macro_f1": 0.9821,
+      "test_accuracy": 0.9893,
+      "test_macro_f1": 0.9895,
+      "test_log_loss": 0.0365,
+      "train_seconds": 47.4
     }
   ],
   "test": {
-    "accuracy": 0.9862,
-    "macro_f1": 0.9864,
+    "accuracy": 0.9893,
+    "macro_f1": 0.9895,
     "per_class": [
       {
         "label": "MISSING_SEMICOLON",
@@ -136,8 +136,8 @@
       {
         "label": "MISSING_LPAREN",
         "precision": 1.0,
-        "recall": 0.9836,
-        "f1": 0.9917,
+        "recall": 0.9672,
+        "f1": 0.9833,
         "support": 61
       },
       {
@@ -170,16 +170,16 @@
       },
       {
         "label": "TYPO_IDENTIFIER",
-        "precision": 0.9423,
-        "recall": 0.9074,
-        "f1": 0.9245,
+        "precision": 0.9298,
+        "recall": 0.9815,
+        "f1": 0.955,
         "support": 54
       },
       {
         "label": "MISSING_DECLARATION",
-        "precision": 0.8966,
-        "recall": 0.9455,
-        "f1": 0.9204,
+        "precision": 0.9444,
+        "recall": 0.9273,
+        "f1": 0.9358,
         "support": 55
       },
       {
@@ -194,7 +194,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1": 1.0,
-        "support": 47
+        "support": 50
       },
       {
         "label": "TYPE_MISMATCH",
@@ -251,13 +251,13 @@
         [
           0,
           0,
-          60,
+          59,
           0,
           0,
           0,
           0,
           0,
-          1,
+          2,
           0,
           0,
           0
@@ -326,37 +326,37 @@
           0,
           0,
           0,
+          53,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          51,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           49,
-          5,
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          3,
-          52,
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          49,
           0,
           0
         ],
@@ -371,7 +371,7 @@
           0,
           0,
           0,
-          47,
+          50,
           0
         ],
         [
@@ -670,14 +670,14 @@
   },
   "baseline": {
     "test": {
-      "accuracy": 0.8754,
-      "macro_f1": 0.8706,
+      "accuracy": 0.879,
+      "macro_f1": 0.8745,
       "per_class": [
         {
           "label": "MISSING_SEMICOLON",
-          "precision": 0.8065,
+          "precision": 0.7692,
           "recall": 1.0,
-          "f1": 0.8929,
+          "f1": 0.8696,
           "support": 50
         },
         {
@@ -710,9 +710,9 @@
         },
         {
           "label": "MISSPELLED_KEYWORD",
-          "precision": 0.72,
+          "precision": 0.75,
           "recall": 0.9818,
-          "f1": 0.8308,
+          "f1": 0.8504,
           "support": 55
         },
         {
@@ -724,31 +724,31 @@
         },
         {
           "label": "TYPO_IDENTIFIER",
-          "precision": 0.5625,
+          "precision": 0.5745,
           "recall": 1.0,
-          "f1": 0.72,
+          "f1": 0.7297,
           "support": 54
         },
         {
           "label": "MISSING_DECLARATION",
           "precision": 1.0,
-          "recall": 0.7273,
-          "f1": 0.8421,
+          "recall": 0.7455,
+          "f1": 0.8542,
           "support": 55
         },
         {
           "label": "USE_BEFORE_DECLARATION",
           "precision": 1.0,
-          "recall": 0.7755,
-          "f1": 0.8736,
+          "recall": 0.7551,
+          "f1": 0.8605,
           "support": 49
         },
         {
           "label": "OUT_OF_SCOPE_USE",
           "precision": 1.0,
-          "recall": 0.6596,
-          "f1": 0.7949,
-          "support": 47
+          "recall": 0.72,
+          "f1": 0.8372,
+          "support": 50
         },
         {
           "label": "TYPE_MISMATCH",
@@ -803,12 +803,12 @@
             0
           ],
           [
-            11,
+            14,
             0,
             24,
             0,
             5,
-            21,
+            18,
             0,
             0,
             0,
@@ -894,8 +894,8 @@
             0,
             0,
             0,
-            15,
-            40,
+            14,
+            41,
             0,
             0,
             0
@@ -908,9 +908,9 @@
             0,
             0,
             0,
-            11,
+            12,
             0,
-            38,
+            37,
             0,
             0
           ],
@@ -922,10 +922,10 @@
             0,
             0,
             0,
-            16,
+            14,
             0,
             0,
-            31,
+            36,
             0
           ],
           [
@@ -1230,99 +1230,99 @@
     },
     {
       "range": "0.5-0.7",
-      "n": 5,
-      "accuracy": 0.6
+      "n": 4,
+      "accuracy": 0.25
     },
     {
       "range": "0.7-0.9",
-      "n": 9,
-      "accuracy": 0.5556
+      "n": 8,
+      "accuracy": 0.875
     },
     {
       "range": "0.9-1.0",
-      "n": 636,
+      "n": 641,
       "accuracy": 0.9953
     }
   ],
   "feature_importance": [
     {
       "feature": "brace_bal_total",
-      "importance": 0.2517
+      "importance": 0.2585
     },
     {
       "feature": "paren_bal_total",
-      "importance": 0.2151
-    },
-    {
-      "feature": "expected",
-      "importance": 0.1182
-    },
-    {
-      "feature": "sem_declared_later",
-      "importance": 0.1071
+      "importance": 0.1666
     },
     {
       "feature": "sem_closed_scope",
-      "importance": 0.0945
+      "importance": 0.1234
+    },
+    {
+      "feature": "sem_declared_later",
+      "importance": 0.1188
+    },
+    {
+      "feature": "expected",
+      "importance": 0.0937
     },
     {
       "feature": "found",
-      "importance": 0.0877
+      "importance": 0.0885
     },
     {
       "feature": "prev1_kw_dist",
-      "importance": 0.0763
-    },
-    {
-      "feature": "sem_n_close_visible",
-      "importance": 0.0618
+      "importance": 0.0833
     },
     {
       "feature": "sem_min_dist_all",
-      "importance": 0.0206
+      "importance": 0.0426
+    },
+    {
+      "feature": "sem_n_close_visible",
+      "importance": 0.034
     },
     {
       "feature": "sem_nearest_compat",
-      "importance": 0.0142
+      "importance": 0.0168
     },
     {
       "feature": "sem_min_ratio_visible",
-      "importance": 0.004
-    },
-    {
-      "feature": "token_ratio",
-      "importance": 0.0009
-    },
-    {
-      "feature": "prev5",
-      "importance": 0.0006
-    },
-    {
-      "feature": "err_stage",
-      "importance": 0.0
-    },
-    {
-      "feature": "err_code",
-      "importance": 0.0
-    },
-    {
-      "feature": "ctx",
-      "importance": 0.0
-    },
-    {
-      "feature": "prev1",
-      "importance": 0.0
-    },
-    {
-      "feature": "prev3",
-      "importance": 0.0
+      "importance": 0.0098
     },
     {
       "feature": "prev4",
-      "importance": 0.0
+      "importance": 0.0015
     },
     {
-      "feature": "next1",
+      "feature": "line_ratio",
+      "importance": 0.0015
+    },
+    {
+      "feature": "prev3",
+      "importance": 0.0012
+    },
+    {
+      "feature": "prev2",
+      "importance": 0.0006
+    },
+    {
+      "feature": "token_ratio",
+      "importance": 0.0006
+    },
+    {
+      "feature": "sem_same_first_char",
+      "importance": 0.0006
+    },
+    {
+      "feature": "prev5",
+      "importance": 0.0003
+    },
+    {
+      "feature": "sem_n_visible",
+      "importance": 0.0003
+    },
+    {
+      "feature": "err_stage",
       "importance": 0.0
     }
   ]

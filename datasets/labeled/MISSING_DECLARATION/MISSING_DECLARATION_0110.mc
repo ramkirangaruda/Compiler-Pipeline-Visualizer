@@ -28,10 +28,14 @@ while (msgx < 5) {
   x = msgx - x % 2;
   msgx = msgx + 1;
 }
-x = msgx + 5 * (x + 1);
-print(z);
-if (ok2) {
-  x = z;
+for (int sum = 0; sum < 4; sum = sum + 1) {
+  print(ak2);
+  print(msg);
+}
+print((ak2 % 1));
+x = msgx;
+int n = 0;
+while (n < 2) {
   if (msgx == (x % 7)) {
     print(!ok2);
     msg = "parse";
@@ -40,27 +44,13 @@ if (ok2) {
     print(k);
     z = msgx + 2 / 7;
     print((msgx * ak2));
-    x = (k * 0) * k + k;
+    x = 0 * z + k;
   }
-  print(msgx);
-} else if (z + 11 >= msgx + msgx) {
-  float balance = 27.2 + msgx;
+  n = n + 1;
+}
+int count = 0;
+while (count < 3) {
   print(ok2);
+  count = count + 1;
 }
-int a1 = 0;
-while (a1 < 4) {
-  if (!ok2 || (28 + z) <= (14 % 1)) {
-    msg = msg + "world";
-  }
-  a1 = a1 + 1;
-}
-if (z != 33) {
-  msg = msg;
-  int tickets3 = 0;
-  while (tickets3 < 2) {
-    ok2 = !ok2 || ak2 % 8 >= 24 + x || 15 * 3 == z * a1 || ok2;
-    print(tickets3);
-    tickets3 = tickets3 + 1;
-  }
-}
-print(x * x);
+print(30 >= (ak2 + n));

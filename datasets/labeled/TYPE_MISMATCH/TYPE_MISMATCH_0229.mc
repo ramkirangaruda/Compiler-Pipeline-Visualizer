@@ -1,33 +1,28 @@
-bool ready = 4 % 7 >= 14;
+bool ready = "yes";
 int rounds = (37 * 2);
 int age1;
 bool has_more2 = rounds == 11;
-print(ready);
-if (true) {
-  print(ready);
-  print(has_more2);
+for (int points = 0; points < 2; points = points + 1) {
+  string course3 = "yudu";
+  print(age1);
+  course3 = "done";
 }
-int level = 0;
-while (level < 4) {
-  if ((age1 - age1) >= 6 * age1) {
-    print(age1);
-    print(level);
-    print(has_more2);
+ready = (age1 + age1) >= 6 * age1;
+string greeting = "ok";
+int height2 = 0;
+while (height2 < 5) {
+  greeting = greeting + "done";
+  height2 = height2 + 1;
+}
+if (height2 < (rounds - 23)) {
+  int x = (35 + height2);
+  print(x);
+  if (false) {
+    int reasy = age1;
+    print(reasy);
+    float discount1 = 5.8 * 5.8;
+    ready = ready;
+    bool enabled = (height2 + x) != rounds % 1;
   }
-  age1 = 30;
-  level = level + 1;
+  int steps = rounds / 4;
 }
-if (ready) {
-  int level1 = (level * age1);
-  print(level1);
-  rounds = level % 5 % 4;
-  int lives2 = (18 - rounds);
-  int years = 2.75;
-} else {
-  print("bob");
-  has_more2 = (39 * level) > 10 || rounds % 4 <= 23;
-}
-if (29.3 + 30.5 != level + 17) {
-  print(rounds);
-}
-print(age1);

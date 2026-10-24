@@ -1,45 +1,45 @@
-int n3 = 40;
-float discount = 26.6;
-int n = (n3 - 16);
-string course = "parse";
-int tickets = n * n;
-bool ok = course != "robot" && false;
-string owner = course;
-if (n3 == 33) {
-  print(course);
-  course = "yudu";
+string label3 = "parse";
+int years = 22 + 27;
+int limit = (39 + years);
+float voltage = 5.6 + 29.3;
+int value2 = years - 38;
+string city2 = label3 + "ok";
+print(label3 != "world");
+float temp = voltage;
+int second = 0;
+while (second < 4) {
+  print(limit);
+  second = second + 1;
 }
-int steps2 = 0;
-while (steps2 < 5) 
-  owner = owner + "done";
-  course = "bob";
-  print(discount);
-  steps2 = steps2 + 1;
-}
-print(n);
-int width = 0;
-while (width < 3) {
-  n = n - n;
-  print(tickets);
-  print(owner != "ok");
-  width = width + 1;
-}
-if (ok) {
-  print(tickets * 24);
-  n = tickets % 6 + n3;
-  n3 = 27 - 30 % 6;
-} else {
-  int j = 0;
-  while (j < 6) {
-    discount = discount + 1.1;
-    discount = 15 + n3;
-    n3 = (35 / 2) * j * n;
-    j = j + 1;
+int days = years;
+int valtage = 0;
+for (valtage = 0; valtage < 2; valtage = valtage + 1) {
+  if (voltage * 21.6 < (valtage - 13)) {
+    int years3 = valtage;
+    print(years3);
+    temp = limit;
+  } else if (city2 != "world") {
+    print(city2);
+  } else {
+    float distance = temp - second;
   }
-  int first3 = 22 / 6;
-  string msg = owner + "bob";
+  limit = valtage;
 }
-print(ok);
-ok = true;
-print(discount);
-print(discount);
+print(valtage);
+years = value2;
+if (limit + 32 != value2 && city2 != "hello") 
+  int value1 = second - value2;
+  print(value1);
+  value1 = days + (second - 25);
+} else if (city2 != "robot" && false) {
+  int result3 = limit;
+  print(result3);
+  if ((12 / 4) < (0 / 2) || (result3 % 5) <= result3) {
+    print(label3);
+    print(days);
+    voltage = 24.7 - value2;
+  }
+}
+print(temp);
+voltage = temp + 33;
+print(temp);

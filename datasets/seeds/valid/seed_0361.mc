@@ -6,25 +6,27 @@ bool has_more = first == 10;
 string title3 = "token";
 if (has_more) {
   int a = 0;
-  while (a < 6) {
-    print(a);
-    print(19.3 * 27 <= 33 * first);
-    a = a + 1;
+  for (a = 0; a < 6; a = a + 1) {
+    price = (first + 39);
+  }
+}
+print(discount);
+print(discount);
+if (price + discount <= j + 33) {
+  has_more = 37 + j >= (3 - first);
+  print(has_more);
+  int lives = 0;
+  while (lives < 4) {
+    print(31 != j * 28);
+    lives = lives + 1;
   }
 } else {
-  int teitle3 = 39;
-  print(teitle3);
-  print(j);
-  print(teitle3);
+  int years = (first * 7);
+  print(years);
+  int result = 38;
+  float mean2 = discount + j;
 }
-if ((34 / 9) == j + j) {
-  print(has_more);
-  print(discount);
-  print(discount);
-}
+print((18 % 9) > (j % 5));
+bool ftrst = false || has_more;
+bool found = false;
 print(price);
-print(first);
-print(title3);
-print(discount);
-has_more = j <= (first + 30);
-print(j);

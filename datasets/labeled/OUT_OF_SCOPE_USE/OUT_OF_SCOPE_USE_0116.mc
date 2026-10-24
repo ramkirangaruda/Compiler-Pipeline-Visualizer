@@ -1,52 +1,75 @@
-int first = 33;
-int marks = 38 + first;
-float mean = 13.8 * first;
-int count = 25;
-float voltage = 0.5 + 21;
-string owner = "bob";
-print(mean);
-owner = "parse";
-print(owner);
-mean = voltage * 38;
-int n = first - marks;
-if (n > 30 / 6) {
-  float balance = mean;
-  if (true) {
-    print((marks / 8));
-    int sum = 37 - marks;
+float tax3 = 11.1 * 34;
+int a2 = (13 + 23);
+int b = a2;
+string msg = "ok";
+tax3 = 14 * 1;
+int result = 0;
+while (result < 6) {
+  int total = (33 + b);
+  if (msg != "parse" && b % 9 > 30) {
+    int nmsg = (38 / 8);
+    print(nmsg);
+    string greeting = "yudu";
   } else {
-    int height1 = n;
-    print(height1);
-    count = marks;
-    int total = (count + 38);
+    int first = (40 / 4);
+    print(first);
+    print(total);
   }
-  int points = 0;
-  while (points < 3) {
-    owner = "parse";
-    points = points + 1;
+  if (a2 * 1 != 39 - 10) {
+    tax3 = 8 + a2;
+    a2 = (a2 - a2) - total / 3;
+    a2 = 34 * 39 * a2;
+  } else if (8 * b <= 29) {
+    int n = (34 % 9);
+    print(n);
+    tax3 = 30.5 - tax3;
+    print(true);
   }
-  int score = 0;
-  while (score < 4) {
-    int lives3 = (points + 36);
-    lives3 = (score + 27) * (14 + first);
-    string volstage = "parse";
-    score = score + 1;
+  result = result + 1;
+}
+if (b - a2 <= a2 - a2) {
+  int limit = (4 + result);
+  print(limit);
+  for (int b3 = 0; b3 < 5; b3 = b3 + 1) {
+    int size1 = (23 * 40);
+  }
+  a2 = 29 - result;
+}
+print(total);
+print(msg + "parse");
+if (b > 28 + a2) {
+  int omsg = b / 1;
+  print(omsg);
+  float area = tax3 - tax3;
+  for (int days = 0; days < 3; days = days + 1) {
+    print(total);
+    print(result);
+  }
+}
+msg = "alice";
+if (msg == "parse") {
+  if ((18 + 26) >= a2) {
+    int age = a2 - result;
+    print(age);
+    print((b % 3));
+    tax3 = (39 / 2);
+  } else {
+    msg = msg + "world";
   }
 } else {
-  bool active3 = 6.5 * balance <= n * 15;
-  print(voltage);
+  print(total);
 }
-print(first);
-if (owner != "robot") {
-  if (owner == "world") {
-    print(mean);
-    string msg = "alice";
-    balance = (3 + n);
+if ((16 - 36) > 13) {
+  print(result);
+  if (7.5 == (15 + b)) {
+    int width = result % 5;
+    print(width);
+    float mean1 = tax3 - tax3;
+    string city = "yudu";
   } else {
-    marks = (7 * count) + 21;
-    int days = 2 - first;
+    print(msg);
+    tax3 = tax3 - tax3;
   }
+  print(total);
 }
-print("ok");
-print(mean);
-print(count - marks > marks);
+print(msg);

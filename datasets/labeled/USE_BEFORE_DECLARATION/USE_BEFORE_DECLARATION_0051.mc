@@ -1,7 +1,7 @@
 bool ok2 = false;
 float avg = 5.2 - 28.2;
-bool is_even = ok2;
 bool found = is_even;
+bool is_even = ok2;
 string isoeven = "alice";
 print("pipeline");
 int items3 = 0;
@@ -21,8 +21,8 @@ while (rounds2 < 6) {
     print(points);
     found = 8.5 + avg >= (rounds2 + level);
   } else if (found) {
-    print(years);
     int years = level;
+    print(years);
     print(ok2);
   }
   print(level);
@@ -47,28 +47,30 @@ if (!found) {
   }
 } else {
   int second = 0;
-  while (second < 3) {
-    print(level);
-    float price = 2.8 + avg;
-    second = second + 1;
+  for (second = 0; second < 3; second = second + 1) {
+    found = avg * avg >= (rounds2 + rounds2);
+    is_even = true;
+    print(is_even);
   }
-  int fouod = 0;
-  while (fouod < 6) {
-    avg = 21.8 + avg;
-    fouod = fouod + 1;
+  int nsoeven = (level % 3);
+}
+int faound = 0;
+for (faound = 0; faound < 3; faound = faound + 1) {
+  is_even = 33 / 2 <= (level + faound);
+  ok2 = found;
+}
+int stock = (18 / 8);
+if (37 > (stock + 40)) {
+  print(ok2);
+  if (found) {
+    int is_evei = rounds2;
+    print(is_evei);
+    print("yudu");
+    int base1 = (23 + num);
+    print(isoeven + "pipeline");
+  } else {
+    avg = 28.2 - 16.4;
   }
+  found = rounds2 + 25 >= 16;
 }
-if (is_even) {
-  print(found);
-  if (27 > num - level) {
-    level = num;
-  }
-}
-if (true) {
-  level = (33 + 12) / 8;
-  print(avg);
-} else {
-  avg = avg + rounds2;
-}
-ok2 = ok2;
-print(items3);
+print(rounds2);

@@ -1,7 +1,7 @@
 float avg = 17.6 * 9.1;
 string greeting = "pipeline";
+float temp = avg + avg;
 string greeting3 = greeting;
-int width = 36;
 int points = 3 + 29;
 int sum = 0;
 while (sum < 3) {
@@ -25,48 +25,67 @@ if (greeting != "compiler") {
     gieeting3 = gieeting3 + 1;
   }
 } else {
-  print(width);
-  greeting3 = "ok";
-  if (true) {
-    avg = avg;
-    print(avg);
+  int a = 0;
+  for (a = 0; a < 3; a = a + 1) {
+    print("hello");
+    avg = temp;
+    int value2 = (a * 35);
   }
-}
-int ttemp = 0;
-while (ttemp < 5) {
-  greeting = greeting3;
-  ttemp = ttemp + 1;
-}
-if (greeting == "ok") {
-  int height2 = 14 + 31;
-  print(height2);
-  points = 23 - width / 7;
-  print((7 % 5));
-  print(height2);
-} else {
-  if (width * 20 < (width + 2)) {
-    print(temp);
-    int num = (points + 21);
-  } else if (width + ttemp <= points + 26) {
-    print(points);
-  } else if (true) {
-    print(avg <= (points - width));
-    greeting = greeting3;
+  print(a);
+  if ((width * points) != a / 7) {
+    points = 17;
   } else {
-    print(width);
-    print(width);
+    avg = 2 / 1;
+    int years = 13;
   }
-  print(points);
-  print(greeting3);
+  print(greeting);
 }
-int stock = 0;
-while (stock < 6) {
-  greeting = greeting + "compiler";
-  if (false) {
-    int rounds = (stock + 18);
-    print(rounds);
-    greeting3 = "compiler";
+temp = 27.1 + width;
+if (4.2 - temp <= (width + 21) && points - width < (26 * points)) {
+  int greetings = width;
+  print(greetings);
+  int days = 0;
+  while (days < 6) {
+    greeting3 = "done";
+    int k = (sum % 3);
+    print(points);
+    days = days + 1;
   }
-  stock = stock + 1;
+  print("bob");
+  for (int num = 0; num < 2; num = num + 1) {
+    print(num);
+    width = (points + 5) % 7;
+  }
+} else if ((width % 5) == 18 + 2) {
+  int limit = 37 * width;
+  print(limit);
+  for (int n = 0; n < 6; n = n + 1) {
+    print(width);
+    print(greeting);
+    greeting = greeting;
+  }
+  int count = 0;
+  while (count < 2) {
+    limit = 38 + width / 7;
+    width = 24;
+    count = count + 1;
+  }
+} else {
+  int i = 0;
+  for (i = 0; i < 6; i = i + 1) {
+    temp = avg - i;
+    greeting = "bob";
+    int i2 = sum - points;
+  }
+  print((i + i));
 }
-print((points % 7));
+if (33 + 31 > 14 / 7) {
+  int level = 40;
+  if (temp - temp >= 6) {
+    points = level * width - sum * 22;
+  } else if (false) {
+    print(greeting3);
+    temp = temp;
+  }
+}
+print(temp);

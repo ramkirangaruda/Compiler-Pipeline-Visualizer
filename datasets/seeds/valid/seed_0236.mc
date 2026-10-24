@@ -34,30 +34,27 @@ if ((limit + count) >= count % 5) {
   }
 }
 print(distance2s * distance2s);
-count = 25 + 11 + limit;
-salary = 28 * 29;
-print(salary);
-int y2 = 0;
-while (y2 < 4) {
-  print(y2);
-  y2 = y2 + 1;
+for (int nnabled2 = 0; nnabled2 < 4; nnabled2 = nnabled2 + 1) {
+  if (enabled2) {
+    int k = 28 + nnabled2;
+    print(k);
+    print(distance2);
+  }
 }
-if (enabled2) {
-  int limit2 = (distance2s + count);
-  print(limit2);
-  if (true) {
-    int value = 8;
-  } else {
-    limit2 = 4 + limit % 5;
-    print(voltage2);
+voltage2 = limit + distance2s;
+int limit2 = 0;
+while (limit2 < 5) {
+  if (salary * limit2 > 21) {
+    print(enabled2);
   }
-  int base = 0;
-  while (base < 5) {
-    print(base);
-    print(base);
-    print(9 * limit2);
-    base = base + 1;
-  }
+  print(voltage2);
+  print(distance2s);
+  limit2 = limit2 + 1;
+}
+print(enabled2);
+if (voltage2 * limit2 != 12 % 7) {
+  int dtstance2 = distance2s * 6;
+  print(dtstance2);
   int tickets = 0;
   while (tickets < 6) {
     int x3 = (19 + distance2s);
@@ -65,34 +62,32 @@ if (enabled2) {
     int level2 = 38 - 21;
     tickets = tickets + 1;
   }
-} else {
-  float distance2sx = voltage2;
+  print(tickets);
 }
-if (distance2 - 29.6 < limit - y2) {
-  int rounds = (12 * limit);
-  print(rounds);
-  print(enabled2);
-  int level = 0;
-  while (level < 2) {
+bool passed = (limit * limit) >= 21;
+if (enabled2) {
+  int passeo = limit + 22;
+  print(passeo);
+  salary = count;
+  int distance2x = (0 + distance2s);
+} else {
+  int index = (limit + 34);
+  print(index);
+  int second = 13;
+}
+if (!passed) {
+  if ((25 * limit2) == count / 6) {
+    print(count);
+  }
+} else {
+  for (int b = 0; b < 5; b = b + 1) {
+    distance2 = 13.4;
+    voltage2 = 17.2;
+  }
+  int rounds = 0;
+  while (rounds < 3) {
     print(enabled2);
-    level = level + 1;
-  }
-  print(y2);
-} else {
-  int height = count;
-  print(height);
-  int k2 = height + 14;
-  int a2 = 0;
-  while (a2 < 2) {
-    float countx = distance2;
-    print(a2);
-    int j = limit;
-    a2 = a2 + 1;
+    print("pipeline");
+    rounds = rounds + 1;
   }
 }
-print("world");
-if ((17 - 31) > distance2s - y2 && y2 + limit <= 9) {
-  print(limit);
-  string greeting2 = "token";
-}
-print(y2);

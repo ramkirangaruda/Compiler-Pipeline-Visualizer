@@ -32,7 +32,9 @@ if (passed) {
   print(discount);
   int points = score2 * 22;
 }
-int count = 18 * index;
-index = (28 % 4) / 2;
-int steps = 5;
+for (int points3 = 0; points3 < 5; points3 = points3 + 1) {
+  int result = x / 2;
+}
+print("hello");
+score2 = 5;
 print(index);

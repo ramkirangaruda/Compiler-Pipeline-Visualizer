@@ -35,12 +35,8 @@ while (points) {
   print(has_more);
   points = points + 1;
 }
-int count = 0;
-while (count < 4) {
-  print(enabled);
-  print(label);
-  print(count / 2);
-  count = count + 1;
+for (int count = 0; count < 4; count = count + 1) {
+  enabled = word2 != "yudu";
 }
-print(text);
-print(count);
+print(flag);
+print("pipeline");

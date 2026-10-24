@@ -116,3 +116,26 @@ def test_optimizer_preserves_semantics_on_random_programs(seed):
     assert r["ok"], r["diagnostics"]
     assert r["execution"]["halted"] == "done"
     assert r["verify"]["match"], src
+
+
+# ------------------------------------------------------------------ for loops
+def test_for_loop_runs_and_scopes_its_counter():
+    from minic import compile_source
+    r = compile_source("int total = 0;\nfor (int i = 1; i <= 4; i = i + 1) {\n  total = total + i;\n}\nprint(total);\n")
+    assert r["ok"] and r["execution"]["output"] == ["10"]
+    r = compile_source("for (int i = 0; i < 3; i = i + 1) { }\nprint(i);\n")
+    assert not r["ok"] and r["diagnostics"][0]["code"] == "E_UNDECLARED"
+    r = compile_source("int i;\nfor (i = 0; i < 3; i = i + 1) { print(i); }\nprint(i);\n")
+    assert r["ok"] and r["execution"]["output"] == ["0", "1", "2", "3"]
+
+
+def test_for_loop_syntax_errors_and_repair():
+    from repair.engine import Engine
+    e = Engine()
+    src = "for (int i = 0; i < 3; i = i + 1 {\n  print(i);\n}\n"
+    res = e.diagnose(src)
+    assert res["entries"][0]["prediction"]["label"] == "MISSING_RPAREN"
+    assert e.autofix(src)["ok"]
+    out_of_scope = "for (int i = 0; i < 3; i = i + 1) { print(i); }\nprint(i);\n"
+    fixed = e.autofix(out_of_scope)
+    assert fixed["ok"] and "int i = 0;\nfor (i = 0" in fixed["final_source"]

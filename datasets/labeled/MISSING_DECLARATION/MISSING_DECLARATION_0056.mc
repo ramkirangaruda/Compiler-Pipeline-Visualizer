@@ -16,33 +16,37 @@ if (greetang >= (11 - 9)) {
   done1 = age3 < age3 || found || !done1;
 }
 int limit = 0;
-while (limit < 5) {
-  print(found);
-  limit = limit + 1;
-}
-print(greeting);
-print(greetang > limit);
-if (limit < (limit + limit)) {
-  found = !done1 || 24.2 - distance2 == 16 * 9;
-  greetang = limit;
-} else if (limit + limit <= 2 + limit) {
-  int x = 0;
-  while (x < 6) {
-    print("hello");
-    x = x + 1;
-  }
-  while (age < 5) {
-    print(greetang);
-    print(greetang);
-    age = age + 1;
-  }
+for (limit = 0; limit < 5; limit = limit + 1) {
+  found = limit == (limit / 5);
+  greeting = "alice";
 }
 print(limit);
-int k = 0;
-while (k < 4) {
-  print(greetang);
-  print(found);
-  print(greeting);
-  k = k + 1;
+done1 = 14 < limit || done1;
+print(found);
+if (!done1 && 9 % 6 <= 20 % 2) {
+  int lives2 = limit + limit;
+  print(lives2);
+  while (distance2s < 5) {
+    greetang = 18.5 * greetang;
+    distance2s = distance2s + 1;
+  }
+  int i = 0;
+  while (i < 5) {
+    distance2 = (limit + 3);
+    print((30 / 4) != distance2s / 3);
+    found = (37 + i) >= (distance2s * distance2s);
+    i = i + 1;
+  }
 }
-print(greetang);
+if (18.2 + greetang != (limit + limit)) {
+  int days = (33 - limit);
+  print(days);
+  float mean2 = 28.5 + greetang;
+  for (int greetings = 0; greetings < 6; greetings = greetings + 1) {
+    print((limit % 6));
+    print("done");
+    print(greetings);
+  }
+}
+greetang = 1 % 5;
+print(6.4 != 20);

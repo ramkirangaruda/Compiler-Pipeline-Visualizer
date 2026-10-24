@@ -1,51 +1,56 @@
-int limit2 = (39 * 4);
-float rate = 24.4;
-int arate = (limit2 + 5);
-int points = arate;
-bool enabled3 = true;
-string name = "bob";
-print(enabled3);
-points = 1 - limit2 * (25 + arate);
-int k = (limit2 * limit2);
-int n = 0;
-while (n < 4) {
-  print(26 - 27);
-  print(arate);
-  n = n + 1;
+bool is_even;
+int j1 = 40;
+int is_evenx = (31 + 15);
+float rate1 = 8.2 + 7.8;
+string owner = "yudu";
+if (16.2 - is_evenx < is_evenx - j1) {
+  is_evenx = 12 / 7;
 }
-if (rate + 5 > points / 1) {
-  float rate3 = rate - 19;
-  if (limit2 % 6 == points / 8) {
-    int level = 40 + 31;
-    print(level);
-    print(level);
-  } else {
-    int points2 = (0 - points);
-    print(points2);
-    print(k);
-    rate = 1 / 5;
+print(owner);
+bool rnte1 = 3 + 2 >= (4 + is_evenx);
+if (18 % 4 == is_evenx) {
+  int limit = 0;
+  for (limit = 0; limit < 3; limit = limit + 1) {
+    print(is_even);
   }
-  int days = arate - 6;
-
-if (enabled3 || rate > n) {
-  int stock = (arate % 9);
-  print(stock);
-  print(rate);
-  int size = 0;
-  while (size < 2) {
-    print(k);
-    limit2 = stock - 33 - k * 5;
-    rate = size;
-    size = size + 1;
+  print(limit);
+  int level = 0;
+  while (level < 3) {
+    float limiot = 10.3;
+    print(is_evenx);
+    level = level + 1;
+  }
+}
+print("world");
+owner = "alice";
+if (rate1 * 16 < 26 || !is_even) {
+  for (int value = 0; value < 4; value = value + 1) {
+    is_evenx = 2;
+  }
+  if (rate1 * 2 != 7) {
+    float rntte1 = rate1 * 6.9;
+   else {
+    int score1 = (37 - 25);
+    print(score1);
+    owner = owner + "ok";
+  }
+}
+float area3 = rate1 + is_evenx;
+if (!is_even && false) {
+  int sum = 6;
+  print(sum);
+  if (23 < is_evenx) {
+    print(sum);
+    rate1 = 26 % 5;
   }
 } else {
-  int first = (28 * points);
-  print(first);
-  if (enabled3) {
-    int nnabled3 = k * limit2;
-    print(nnabled3);
-    print(name == "ok" || true);
-    bool ok = (32 - 24) <= n + 14;
+  int days = j1;
+  print(days);
+  if (!rnte1) {
+    int n = (is_evenx - 4);
+    print(n);
+    j1 = is_evenx;
+    is_evenx = n + (4 / 1);
   }
 }
-print(name + "yudu");
+print(rate1);

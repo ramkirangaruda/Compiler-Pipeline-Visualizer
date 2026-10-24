@@ -18,27 +18,43 @@ while (k < 3) {
   int sum = 0 / 9;
   k = k + 1;
 }
-print("ok");
+for (int index = 0; index < 4; index = index + 1) {
+  if (valid) {
+    int founds = k + k;
+    print(founds);
+    print(index * 19);
+    valid = found && (27 % 2) <= founds && !valid;
+    print(k % 5 == index);
+  } else if (2.8 + 11 <= (28 - k)) {
+    int score = days * index;
+    print(score);
+    valid = 8.4 - 2.8 <= (37 % 8);
+  }
+  print(valid);
+}
 print(text);
-print(valid);
-if (30.2 <= (29 * k)) {
-  if (text != "ok") {
-    int tsxt = (34 + k);
-    print(tsxt);
-  } else {
-    print(k);
-    print(found);
+found = (days - k) == (k * k);
+if (21 / 1 < days + 19) {
+  int result = k % 1;
+  print(result);
+  print(text);
+  print(days);
+  if (text == "alice") {
+    int index1 = 10 + days;
+    int sum2 = (21 - result);
+  }
+} else {
+  print(text);
+  fund = (k % 4) != 1 + k;
+  if (26.4 - 27 <= k * 32) {
+    print(text);
+  } else if (!valid) {
+    int x = (days + days);
+    print(x);
+    print("robot");
   }
 }
-int result = 0;
-while (result < 6) {
-  days = 36;
-  rsult = result + 1;
-}
-int rounds = days / 3;
-int valids = 0;
-while (valids < 2) {
-  print(result);
-  days = 15;
-  valids = valids + 1;
-}
+print((days - 6));
+valid = false || 16.2 - 16.1 > 26 % 8 && 11.1 + k <= days + k;
+bool valid2 = 3 <= days / 9;
+print(days);

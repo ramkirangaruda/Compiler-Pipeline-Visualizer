@@ -34,36 +34,69 @@ if ((33 + 13) >= (0 % 9)) {
   } else {
     bool active = (16 * 33) > (0 / 5);
   }
-  int sum = 0;
-  while (sum < 4) {
-    owner = "hello";
-    oassed3 = owner + "ok";
-    print(owner);
-    sum = sum + 1;
+  for (int sum = 0; sum < 4; sum = sum + 1) {
+    print(passed3);
+    owner = "robot";
   }
-  int value = sum - 19;
+  temp = 37;
 }
-if (false) {
-  int second = 39 / 7;
-  print(second);
-  second = (second - 25) * (second - 8);
-  print(temp);
-}
-string title = "hello";
-int index = 12 + 14;
-oassed3 = "world";
 if (passed3) {
-  print(owner);
-  int base = index;
-} else {
-  if (passed3) {
-    int level = (index * index)
-    print(level);
-    temp = level + 22;
+  int num3 = 0;
+  while (num3 < 4) {
+    passed3 = true;
+    temp = temp + temp;
+    num3 = num3 + 1;
   }
-  print(30 * index != (index % 1));
-  float salary = temp * 0;
+  if ((8 / 3) == num3) {
+    oassed3 = owner
+  } else if ((32 / 4) > 37) {
+    int tickets = 28;
+    passed3 = false;
+  } else {
+    int result = num3;
+    print(result);
+    print(owner);
+    print(owner);
+    result = num3 + result % 6;
+  }
+} else if (40 == (25 / 5) || 29 < (9 * 12)) {
+  print(oassed3);
+  print((32 + 10));
 }
-print(oassed3);
-oassed3 = owner;
-print((23 / 5));
+print(owner);
+int points = 0;
+while (points < 4) {
+  print(temp);
+  int value = (5 + points);
+  points = points + 1;
+}
+for (int first2 = 0; first2 < 2; first2 = first2 + 1) {
+  oassed3 = "robot";
+  if (passed3) {
+    print(35);
+    temp = (first2 / 1);
+  } else {
+    print("bob");
+    oassed3 = owner;
+    temp = temp * 5;
+  }
+}
+if ((0 + points) <= points && !passed3) {
+  int y = 19;
+  print(y);
+  bool ok = temp + points < 5 % 7;
+  print(points);
+  print((11 % 1));
+} else {
+  int rounds = points * points;
+  print(rounds);
+  print((points / 9));
+}
+int width = 0;
+while (width < 3) {
+  print(false);
+  oassed3 = "yudu";
+  width = width + 1;
+}
+passed3 = true;
+print(points + width);

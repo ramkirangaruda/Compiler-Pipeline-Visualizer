@@ -1,23 +1,16 @@
-int rounds = (29 - 37);
-bool active = rounds < (rounds - rounds);
-float activex = 20.2;
-string owner = "parse";
-if (active) {
-  print(activex);
-  active = rounds - 24 < rounds * 31 && (rounds + rounds) != 33 % 3;
- else {
-  print("done");
-  float area = activex;
-}
-int days = 0;
-while (days < 4) {
-  print(rounds);
-  print(owner);
-  days = days + 1;
-}
-owner = owner;
-print(owner);
-print(activex);
-float rate3 = 22.5 - activex;
-print("world");
-print(activex);
+string label1 = "compiler";
+int days = 15 * 13;
+int labelo1 = days + days;
+string name = "yudu";
+print(labelo1);
+labelo1 = labelo1 - labelo1 + days;
+int second = 0;
+while (second < 4) {
+  float rate = 2.1 - days;
+  second = second + 1;
+
+string word = name + "parse";
+print(second);
+print(second);
+print(labelo1);
+print(days);

@@ -14,8 +14,7 @@ salary = salary - 13.8;
 bool is_even = done3 && total < (second / 2);
 int result = 9;
 is_even = !done3;
-int steps = 0;
-while (steps < 6) {
+for (int steps = 0; steps < 6; steps = steps + 1) {
   if (steps < second / 5) {
     int z3 = (13 - steps);
     print(z3);
@@ -29,31 +28,35 @@ while (steps < 6) {
   }
   print(salary);
   int days = width;
-  steps = steps + 1;
 }
 if (0.7 + salary == 1 - result) {
   int msog2 = width;
   print(msog2);
   float avg = salary + salary;
   if (done3 && width <= (second / 4)) {
-    print(avg);
-    print(second);
-  } else {
-    int y2 = 0 + 26;
-    total = steps;
-    total = width + (total / 3);
+    print(width);
+    print(msg2);
   }
-  print(done3);
-}
-if ((second / 7) > 38 || (1 + second) <= second + steps) {
-  total = steps;
-} else if (salary + second == second) {
+  print((width * width));
+} else {
+  int sealary = width;
+  print(sealary);
+  if (26.3 * salary > width) {
+    print(msg2);
+    msg2 = "robot";
+    result = 23;
+  } else {
+    print(done3);
+    is_even = (sealary * width) <= (total - 5);
+    int stock = width;
+  }
+  total = second / 2 - (result * 16);
   int lives = 0;
   while (lives < 2) {
-    result = (13 + lives) % 6;
-    print(lives);
-    width = 21 / 4 - (6 / 8);
+    int first = (width % 9);
+    print("compiler");
     lives = lives + 1;
   }
 }
+is_even = done3;
 print(result);

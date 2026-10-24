@@ -1,95 +1,92 @@
-bool valid = false;
-float price = 21.3 + 20;
-float salary = price * 25;
-bool ok = true;
-int x3 = 13 / 2;
-float area = salary;
-int tickets = 0;
-while (tickets < 2) {
-  if (salary < (x3 + x3)) {
-    ok = price - area > x3 + tickets;
-    print(valid);
-    area = salary - x3;
+int b = (30 * 22);
+bool active2 = b * b >= (b - 5);
+bool flag = (b / 1) <= (13 + 17);
+float activre2 = 20.8;
+string city = "ok";
+if (flag) {
+  int count = b;
+  print(count);
+  city = "done";
+  print("done");
+} else if (b != (5 / 9)) {
+  int result = (b + 8);
+  print(result);
+  b = b;
+  print(result);
+}
+print(city);
+print(city);
+if (0 * b <= b * b) {
+  int points = (b + b);
+  print(points);
+  if (21.9 >= points) {
+    int count2 = 1 - 2;
+    print(count2);
+    activre2 = b;
+    print(city);
+  }
+  b = 25 / 7 - b;
+}
+if (activre2 * 5 <= 3 && active2) {
+  b = 33 + b * b + b;
+} else {
+  b = b - (37 % 9);
+  print(activre2);
+}
+int n = 0;
+for (n = 0; n < 2; n = n + 1) {
+  active2 = flag;
+  if (b / 4 < 21 + 18) {
+    int a = (b / 4);
+    print(a);
+    a = (26 * 34) * a + b;
+    b = b + b + (b % 3);
   } else {
-    price = area;
-    bool ready = x3 < tickets;
+    print(city + "pipeline");
+  }
+}
+print(n);
+if (true) {
+  b = 2;
+  flag = flag;
+}
+if (20.6 * activre2 <= 39 * 35) {
+  print(!flag);
+  if (23 * 30 == b - b) {
+    print(4);
+  }
+  int width = 0;
+  for (width = 0; width < 6; width = width + 1) {
+    int flai = width / 8;
   
-  tickets = tickets + 1;
+  print(width);
+} else {
+  print(city);
+  active2 = (34 * 2) == b % 3 && activre2 == n % 6 && flag;
+  print(n);
 }
-print(x3);
-int result = 0;
-while (result < 2) {
-  if (!ok) {
-    int steps = x3;
-    print(steps);
-    steps = 9;
-    int index = (13 / 9);
-    print(salary);
-  }
-  int i1 = result / 2;
-  price = salary * result;
-  result = result + 1;
-}
-if (2 != tickets % 4) {
-  if ((x3 + tickets) < (x3 + tickets)) {
-    int value = (x3 % 9);
-    print(value);
-    int age = 16;
-    bool done = 10.9 + area != 0 * 2;
-    area = x3 / 9;
-  }
-  int height = 0;
-  while (height < 5) {
-    print(valid);
-    print(area);
-    float avg = 2.8;
-    height = height + 1;
+if (false) {
+  int marks = 10 * b;
+  print(marks);
+  marks = (28 + b) - (33 + b);
+  if (flag || 35 - n >= 24 - marks) {
+    city = "done";
+  } else if (city != "alice") {
+    int sum = (marks + n);
+    print(sum);
+    print(city);
+  } else {
+    int k = marks / 6;
+    print(k);
+    int total = 36;
+    float ratio2 = activre2 - total;
+    print(total);
   }
 } else {
-  if (23.5 + 40 <= 17 - result) {
-    print(salary);
-    string course1 = "token";
-    print(result);
-  } else if (9 == x3) {
-    price = 11.6;
-    ok = ok || x3 + x3 < (34 % 5);
-  } else {
-    int total1 = 6;
-    print(total1);
-    print(total1);
+  if (8 + 8 > n * n) {
+    print(active2);
   }
-  if (true) {
-    string iesult = "pipeline";
-    print("bob");
-    salary = price - price;
-  } else {
-    int lives = tickets + result;
-    print(lives);
-    print(result);
-    float mean = 27.8 * lives;
-    mean = 9.3;
-  }
-  int x = 0;
-  while (x < 4) {
-    bool is_even1 = valid;
-    x = x + 1;
-  }
+  print(active2);
+  print(n);
 }
-if (29 % 2 > x3) {
-  int y1 = result;
-  print(y1);
-  print(ok);
-} else {
-  print("pipeline");
-}
-price = price - 27.7;
-print(ok);
-float balance = salary;
-int score1 = 0;
-while (score1 < 6) {
-  print(area);
-  balance = (34 + score1);
-  score1 = score1 + 1;
-}
-balance = (37 + tickets);
-print("bob");
+print(flag);

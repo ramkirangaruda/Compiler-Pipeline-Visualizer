@@ -1,60 +1,76 @@
-float avg = 1.9;
-bool active = 22 - 35 > 11;
-int items = 33;
-string label3 = "compiler";
-int asg = (items / 8);
-int steps = 24 + items;
-bool has_more = 19.2 * avg != 25 * 5;
-string activex = "done";
-if (has_more) {
-  int num2 = 13;
-  print(num2);
-  if (18.8 <= 8 + num2) {
-    label3 = label3;
-    print(label3);
+float area = 25.4 + 8;
+int years = 3;
+string msg = "robot";
+int index = years + years;
+int level = index % 1;
+msg = "pipeline";
+if (area + area >= (29 - level)) {
+  msg = msg;
+} else if (level != 10 + years) {
+  int height3 = 0;
+  for (height3 = 0; height3 < 6; height3 = height3 + 1) {
+    level = height3;
+    years = height3;
+  }
+  print(height3);
+}
+int rounds3 = 0;
+while (rounds3 < 4) {
+  level = index + index % 9;
+  if ((level - level) == (33 + level)) {
+    int sarea = (level % 6);
+    print(sarea);
+    level = years;
+    print(sarea);
   } else {
-    int points = 28;
-    print(points);
-    num2 = 17 / 5;
-    int has_mote = (steps % 3);
-    print(label3);
+    print(msg);
+  }
+  msg = msg + "alice";
+  rounds3 = rounds3 + 1;
+}
+if (true) {
+  int level3 = index;
+  print(level3);
+  index = 11;
+  years = 25 - 33 - years;
+} else {
+  print(msg);
+}
+if (msg != "yudu" || false) {
+  int total = (10 % 9);
+  print(total);
+  for (int y = 0; y < 3; y = y + 1) {
+    print(22);
+    print(years);
+    index = (y % 3) * (y + 6);
   }
 }
-print(asg);
-if ((steps % 3) >= asg % 4) {
-  items = steps;
-  if ((items - 1) >= (13 + asg)) {
-    has_more = (40 + items) < steps % 3 && active;
-  } else {
-    int first = (asg / 4);
-  }
-  string owner = label3;
+if (1 + 30 != 12) {
+  level = rounds3 / 5 - level * 13;
+  years = (level + 9) / 4;
 } else {
-  if (active) {
-    int limit = 29;
-    print(limit);
-    print((31 + 7));
-    print((25 / 4));
-    print(activex + "token");
-  
+  if (area * rounds3 == years) {
+    print(index);
+  }
+  int asg = 0;
+  for (asg = 0; asg < 2; asg = asg + 1) {
+    print("done");
+  }
   print(asg);
+  int rarea = 0;
+  while (rarea < 2) {
+    print(area);
+    rarea = rarea + 1;
+  }
+
+if ((years + level) < (39 + index)) {
+  int mag = 0;
+  for (mag = 0; mag < 4; mag = mag + 1) {
+    msg = "robot";
+    print(level);
+    print(msg);
+  }
+  print(mag);
 }
-if (items <= items) {
-  steps = 1;
-} else if (avg * 32 >= 18 * items) {
-  int age = steps * 12;
-  print(age);
-  age = asg;
-  print((steps * asg) >= steps);
-}
-if (steps % 1 == steps) {
-  int value2 = 23;
-  print(value2);
-  activex = "token";
-} else {
-  int activn = steps - 34;
-  print(activn);
-  active = avg - 8 >= items;
-  print(label3);
-  print(items);
-}
+print(index);
+print(index);

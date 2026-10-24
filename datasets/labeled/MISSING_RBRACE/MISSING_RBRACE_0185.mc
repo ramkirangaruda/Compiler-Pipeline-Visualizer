@@ -1,74 +1,37 @@
-int total = 3 + 21;
-int stock = (total % 6);
-int width = (stock / 6);
-string tortal = "hello";
-bool tortat = (stock / 5) < (0 % 1);
-string msg = "yudu";
-bool done = !tortat && 11 > total * total;
-print(tortat);
-int first = 0;
-while (first < 6) {
-  print(first);
-  print("compiler");
-  first = first + 1;
-}
-if (tortat) {
-  int x1 = (total % 4);
-  print(x1);
-  if (!tortat) {
-    tortal = "world";
-   else {
-    done = (first * 3) != (2 * 26);
+int points = 19 * 18;
+float balance = 4.2;
+string owner1 = "parse";
+bool is_even = owner1 != "done";
+string word = owner1 + "hello";
+print(owner1);
+word = owner1;
+bool is_even3 = (points + 5) < 27;
+print(balance);
+int ownner1 = 0;
+while (ownner1 < 2) {
+  int index = 1;
+  if (balance - points < 16) {
+    int first2 = index + 7;
+    print(first2);
+    print(is_even);
   }
-  if (2.3 - total <= width) {
-    print(stock);
-  } else {
-    int tortnal = first;
-    print(tortnal);
-    msg = tortal + "yudu";
-    print(first);
+  print(points);
+  ownner1 = ownner1 + 1;
+
+float voltage2 = balance;
+if (voltage2 * balance <= (points - points)) {
+  int second1 = (points - 21);
+  print(second1);
+  if (second1 + 6 < (8 + 6) || !is_even3) {
+    int is_even3s = ownner1;
+    print(is_even3s);
+    second1 = 2 * second1 - 10 + 39;
+    print(ownner1);
   }
-}
-print(done);
-if (!tortat && true) {
-  int a = width;
-  print(a);
-  int count = 0;
-  while (count < 6) {
-    print(27 * width);
-    print(done);
-    count = count + 1;
-  }
-  print(width);
-  int i1 = 0;
-  while (i1 < 5) {
-    a = count;
-    tortat = tortat;
-    print(total);
-    i1 = i1 + 1;
-  }
-} else {
-  if (18.7 >= 1) {
-    int index = (16 - width);
-    print(index);
-    string label = "pipeline";
-    tortal = "ok";
-  }
-  int j = 0;
-  while (j < 5) {
-    width = stock - (28 * width);
-    print(done);
-    print(j);
-    j = j + 1;
+  points = (points + 26) / 5;
+  if (voltage2 < ownner1) {
+    bool done1 = is_even3;
+    print(11);
   }
 }
-done = stock / 7 == (stock + 31);
-if ((first * 26) > (width - 27)) {
-  print(msg);
-  print(done);
-} else {
-  int base = stock * 33;
-  print(base);
-  print(base - first >= total / 3);
-}
-print(width);
+print(ownner1);

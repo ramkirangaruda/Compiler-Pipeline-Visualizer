@@ -1,74 +1,61 @@
-bool ok = true;
-int i2 = (2 % 5);
-string text = "compiler";
-int tetxt = 10 + i2;
-int count1 = i2;
-bool active = ok;
-string greeting = text + "bob";
-if ((i2 + count1) >= 29 * 11) {
-  if (!active) {
-    tetxt = 22 - (i2 + 34);
-    print(ok);
-  }
-  int size = i2 + i2;
+string text = "parse";
+bool passed = true;
+int age = (23 / 8);
+string city = text;
+int level = (age + 34);
+text = "alice";
+print(city + "yudu");
+int x = 0;
+while (x < 6) {
+  print(text);
+  print(passed);
+  x = x + 1;
+}
+if (passed) {
+  int b = age + age;
+  print(b);
+  level = (35 / 7) - 24;
+  print(x);
 } else {
-  int greetintg = tetxt;
-  print(greetintg);
-  float countn1 = 5.5 + tetxt;
-  active = 20.2 < greetintg;
-  int value = 0;
-  while (value < 3) {
-    print(tetxt % 8);
-    print(greetintg);
-    greetintg = 8 - i2 + value;
-    value = value + 1;
+  int n = x;
+  print(n);
+  int b2 = 0;
+  while (b2 < 4) {
+    string passeds = city + "yudu";
+    print(x);
+    print(passed);
+    b2 = b2 + 1;
   }
+  int second = 0;
+  while (second < 4) {
+    n = 34 % 9;
+    print(passed);
+    text = "token";
+    second = second + 1;
+  }
+  print(level);
 }
-int height = 0;
-while (height < 3) {
-  count1 = i2 / 6 % 8;
-  int x = 20 + tetxt;
-  height = height + 1;
-}
-tetxt = 40 - (count1 % 5);
-print(count1);
-float temp = 7.7 * tetxt;
-int second = 0;
-while (second < 3) {
-  if (true) {
-    int days = second + tetxt;
-    print(days);
-    print(active);
-    text = "pipeline";
+if (passed) {
+  if (4.7 >= age) {
+    int rounds = (35 / 6);
+    print(rounds);
+    city = "token";
+    string text1 = "robot";
   } else {
-    int seats = second % 5;
-    print(seats);
-    int a = tetxt;
-    float area = temp * temp;
+    print(x);
   }
-  active = text == "token";
-  active = ok && true;
-  second = second + 1;
+} else if (passed) 
+  int stock = 26 * x;
+  print(stock);
+  int days3 = x;
+  level = (31 + stock) + (x + x);
+} else if (25.6 + age >= level * x) {
+  level = age * 34 * (x % 3);
 }
-if (i2 != second / 6) {
-  print(count1);
-  print(greeting);
-} else {
-  int width = 0;
-  while (width < 3) 
-    i2 = 5 + height - (13 - 24);
-    print(height * width);
-    width = width + 1;
-  }
-  print(second);
-  if (ok) {
-    int score = count1 / 2;
-    print(score);
-    print(greeting);
-    print(i2);
-  } else {
-    print(greeting);
-    print(i2);
-  }
+float ratio = 5.1 + 5;
+if (passed) {
+  int level2 = (16 * 29);
+  print(level2);
+  print(36);
 }
-print(greeting != "pipeline");
+print(age);

@@ -1,52 +1,30 @@
-bool flag3 = 5.8 * 19 > 19 % 2;
-int marks = 19 + 4;
-int flage3 = (marks % 8);
-int index = 40;
-float ratio = 21.5;
-string msg = "bob";
-if (false) {
-  print(marks);
-  if (!flag3) {
-    int rounds = (38 + flage3);
-  } else if (ratio + 24 == index) {
-    int width = (26 * marks);
-    print(width);
-    print(width);
-    bool widthx = index >= width;
-  } else {
-    int days1 = (14 * index);
-    print(days1);
-    print(days1);
-  }
+float tax = 20.4 + 31;
+bool rax = true;
+int raxs = 15;
+int num = 0;
+while (num < 5) {
+  raxs = 3 - 36 * num;
+  print(9 + num);
+  num = num + 1;
 }
-print(msg);
-int a = 0;
-while (a < 6) {
-  if (!flag3) {
-    int flog3 = (marks % 4);
-    print(flog3);
-    index = flog3 % 8 / 2;
-    print(msg);
-    print(23 + flog3);
-  }
-  a = a + 1;
-}
-if (flag3) {
-  int mss = (a % 9);
-  print(mss);
-  marks = (38 - 16) / 1;
-  if (12 * a < 21 / 3) {
-    int value1 = flage3;
-    print(value1);
-    print(a);
-    print(flage3);
+int b = 0;
+while (b < 4) {
+  print(rax);
+  if (rax) {
+    tax = tax + 15.8;
+  } else if (rax) {
+    print(tax);
+    rax = 28 - 3 < (7 + num);
   
-  index = index / 4 / 6;
+  b = b + 1;
 }
-int level = 0;
-while (level < 2) {
-  print(a);
-  level = level + 1;
+raxs = 16;
+print(raxs);
+for (int total = 0; total < 2; total = total + 1) {
+  if (7.7 + 7 >= (num / 4)) {
+    print(tax);
+  }
 }
-print(marks);
-print(level);
+float speed = tax + num;
+raxs = (num - num) + 26;
+print(raxs);

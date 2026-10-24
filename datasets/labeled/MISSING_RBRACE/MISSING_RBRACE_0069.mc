@@ -1,49 +1,88 @@
-string greeting;
-float distance2 = 6.4;
-float greetang = 11.3 + 40;
-bool found = false || 34 <= 8 / 3;
-bool done1 = 34 - 12 <= 33;
-if (greetang >= (11 - 9)) {
-  print(greeting + "yudu");
-  print(greeting);
-} else if (36 + 20 < 13 % 8) {
-  print(found);
+int value = 7;
+string text = "world";
+int width = value + 12;
+print(value);
+if (text != "robot") {
+  text = "world";
+  text = text;
+} else if (37 % 3 >= 4) {
+  int z = 20;
+  print(z);
+  value = 21;
 } else {
-  int age3 = 14 + 14;
-  print(age3);
-  print(greeting);
-  print(found);
-  done1 = age3 < age3 || found || !done1;
-}
-int limit = 0;
-while (limit < 5) {
-  print(found);
-  limit = limit + 1;
-}
-print(greeting);
-print(greetang > limit);
-if (limit < (limit + limit)) {
-  found = !done1 || 24.2 - distance2 == 16 * 9;
-  greetang = limit;
-} else if (limit + limit <= 2 + limit) {
-  int x = 0;
-  while (x < 6) {
-    print("hello");
-    x = x + 1;
+  int steps = width;
+  print(steps);
+  if (steps == 23 - 38) {
+    print(true);
+    print(value);
+  } else {
+    print(steps + steps);
+    print(width);
+    width = 30 + steps % 6;
   }
-  int age = 0;
-  while (age < 5) {
-    print(greetang);
-    print(greetang);
-    age = age + 1;
-  }
-}
-print(limit);
-int k = 0;
-while (k < 4) {
-  print(greetang);
-  print(found);
-  print(greeting);
-  k = k + 1;
 
-print(greetang);
+if (width + value != width) {
+  int days = 0;
+  while (days < 6) {
+    print(value);
+    days = days + 1;
+  }
+  print("alice");
+}
+if (24.3 >= (value / 4)) {
+  width = 15 + value + 14 + 31;
+  if (false) {
+    width = value;
+    print(value);
+  } else if (true) {
+    int j = width;
+    print(j);
+    print(width);
+  }
+  bool found2 = false;
+}
+if (4.1 >= value % 4) {
+  int result = 0;
+  while (result < 2) {
+    text = "alice";
+    result = result + 1;
+  }
+  if (true) {
+    int stock = width - width;
+    print(stock);
+    float speed = 2.8 - 7.2;
+    value = value % 9 / 4;
+    speed = (7 - 0);
+  } else if (true) {
+    int points = 36;
+    width = result + (points % 1);
+  }
+  width = width + (width + result);
+} else {
+  if (false) {
+    int level = (value + 7);
+    print(level);
+    int second = value;
+    print(second);
+    print(value);
+  }
+  int b = 0;
+  while (b < 6) {
+    value = 15 % 6;
+    b = b + 1;
+  }
+  if (30.7 + 2.4 != 25 + 10) {
+    int lives3 = value / 1;
+    print(lives3);
+    print((value + b));
+    print(b);
+  } else {
+    int marks = (17 - 17);
+    print(marks);
+    print(value);
+    width = 24;
+  }
+}
+width = value / 2 / 7;
+text = text;
+text = "done";

@@ -39,19 +39,51 @@ if (35 == tickets) {
   int days = tickets * 6;
   print(days);
   int num = foundx;
-  int index1 = (9 * num);
-  foundx = (4 + days) - foundx;
+  int level = 0;
+  for (level = 0; level < 5; level = level + 1) {
+    int width2 = (foundx - tickets);
+    int j = (foundx * days);
+  }
+  print(level);
+  print(found);
 } else {
-  int x2 = (foundx / 2);
-  print(x2);
-  found = x2 + x2 > (38 + 12);
-  greeting = "ok";
+  if (rate2 + foundx > (38 + 12)) {
+    int years = tickets;
+    print(years);
+    string owner = "token";
+    print(years * 3);
+    bool enabled = greeting != "robot";
+  } else {
+    print(greeting);
+    int rounds = (16 - tickets);
+    greeting = city;
+  }
+  int value = 0;
+  while (value < 2) {
+    print(value - 13);
+    print(value);
+    value = value + 1;
+  }
 }
-int result = 0;
-while (result < 6) {
-  greeting = "token";
-  print(result * 3);
-  result = result + 1;
+if (city == "token" || done) {
+  int k = 3 % 3;
+  print(k);
+  int stock = tickets / 1;
+  tickets = 7 / 8;
+  for (int i = 0; i < 4; i = i + 1) {
+    done = found;
+  }
+} else {
+  int x3 = 0;
+  while (x3 < 3) {
+    int total = x3 % 3;
+    print(tickets);
+    x3 = x3 + 1;
+  }
 }
-bool enabled = course != "robot";
-print(enabled);
+for (int rounds2 = 0; rounds2 < 2; rounds2 = rounds2 + 1) {
+  found = !done;
+  print(foundx * foundx);
+  print(found);
+}
+print(course);

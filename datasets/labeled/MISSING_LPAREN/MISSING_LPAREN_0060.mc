@@ -11,87 +11,73 @@ if (ok1) {
   int limit = (17 + 35);
   print(limit);
   print(word);
-  print(word);
-} else if (has_mtore % 4 <= n1 + n1) {
-  int size2 = 13 - rounds;
-  print(size2);
-  print(word + "ok");
-} else {
-  print(n1);
-  if (ok1s - 9.9 == (2 - 10)) {
-    print((aok1 - 8));
+  for (int level3 = 0; level3 < 5; level3 = level3 + 1) {
+    print(ok1s + ok1s < (0 / 7));
   }
-  int score = 0;
-  while (score < 3) {
+} else {
+  int count = 13 - 20;
+  print(count);
+  if (false) {
+    print(has_mtore);
+    tickets3 = rounds % 9 + (aok1 / 5);
+    rounds = count + 23 / 5;
+  } else if (ok1) {
+    count = 29;
     print(n1);
-    print(word);
-    ok1s = 7.2 * ok1s;
-    score = score + 1;
-  }
-}
-int hns_more = 0;
-while (hns_more < 2) {
-  print(tickets3);
-  if ((19 - 0) >= 24 + 7) {
-    int b = (hns_more / 9);
-    print(b);
-    int seats = tickets3;
-    print("pipeline");
-    print(ok1);
-  }
-  hns_more = hns_more + 1;
-}
-int n = (rounds - n1);
-print(rounds);
-if (rounds == aok1) {
-  int height = (n1 + 11);
-  print(height);
-  if (has_more) {
-    n = tickets3 % 9 % 3;
-    print(has_more);
-    print(ok1s + 23.9 <= (n * tickets3));
-  } else if (!has_more) {
-    int items = rounds + n1;
   } else {
-    print(hns_more);
-    has_mtore = 20;
-    print(word);
+    int words = (1 + 18);
+    print(words);
+    string msg = word + "parse";
   }
-  int width = height + has_mtore);
-  if (ok1s <= tickets3 + n) {
-    int ork1 = (31 + n1);
-    print(ork1);
-    int total = (n1 + 39);
-    ork1 = width + rounds + 33;
+  print(word);
+}
+if true) {
+  ok1s = 12.9 + 14;
+  print(has_mtore);
+  if ((20 * n1) == 28 * tickets3) {
+    int i = (has_mtore + 9);
+    print(i);
+    tickets3 = aok1;
+    has_more = 29 > rounds;
+    print(false);
   }
 } else {
-  int days = 14;
-  print(days);
+  aok1 = 32 + (rounds / 6);
+  rounds = tickets3 % 2;
+  if (38 % 6 == n1 + has_mtore) {
+    print((n1 % 1));
+    print(ok1);
+    print(aok1 % 2);
+  } else {
+    int k = (tickets3 * has_mtore);
+    print(k);
+    int n = (k + has_mtore);
+    print(ok1s <= (n1 + n));
+    print(k);
+  }
+}
+print("pipeline");
+print(rounds);
+int total = 0;
+while (total < 6) {
+  print(n1);
+  int score3 = has_mtore + aok1;
+  total = total + 1;
+}
+int lives3 = 0;
+while (lives3 < 5) {
+  print("robot");
   if (has_more && word == "parse") {
     print(word);
     print(aok1);
-    ok1 = has_mtore >= rounds;
-  } else if (has_more) {
-    int marks = (17 * has_mtore);
-    print(marks);
-    print(19 % 7 != has_mtore);
-  } else if (word == "parse") {
-    print(36);
+    ok1 = lives3 <= (aok1 % 7);
+  } else if (ok1s - 17.4 != tickets3 - rounds) {
+    float balance = ok1s + ok1s;
   } else {
-    int count2 = aok1;
-    print(n);
-    has_mtore = (8 / 7) + hns_more * 6;
+    has_mtore = 36 % 1;
   }
-  word = word + "world";
-  print(word);
+  lives3 = lives3 + 1;
 }
-ok1s = 19.5 + 9.3;
-if ((n1 + has_mtore) >= n - 30 && !ok1) {
-  bool flag = 9 - 19 <= (has_mtore - rounds);
-} else {
-  int i3 = (32 + 20);
-  print(i3);
-  print((27 - 6));
-}
-int j = (aok1 / 9);
+print((lives3 * has_mtore));
 print(rounds);
+print(total);

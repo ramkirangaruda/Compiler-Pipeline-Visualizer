@@ -35,12 +35,9 @@ if (valid) {
 }
 discount = result - j;
 int rounds = 0;
-while (rounds < 3) {
-  if (valid && j % 7 <= 3) {
-    print(result);
-  } else {
-    int validxs = j;
-  }
-  rounds = rounds + 1;
+for (rounds = 0; rounds < 3; rounds = rounds + 1) {
+  level = j / 5 + j % 7;
+  print(weight);
 }
-print(validx + "hello");
+print(rounds);
+print(nesult);

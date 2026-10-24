@@ -1,6 +1,6 @@
 string course2 = "world";
 float salary = 26.7;
-string ialary = (38 % 2);
+int ialary = (38 % 2);
 int days = ialary;
 string name = course2;
 int first = ialary;
@@ -19,8 +19,11 @@ while (value < 2) {
 }
 print(course2);
 int items = 0;
-while (items < 4) {
-  float distance2 = 4.6;
-  items = items + 1;
+for (items = 0; items < 4; items = items + 1) {
+  print(course2);
+  print(ialary);
+  if (ialary < (value * days)) {
+    name = 1.5;
+  }
 }
-print(course2);
+print(items);

@@ -1,36 +1,30 @@
-int lives = 7 + 35;
-bool valid = 9.3 * 5 >= 22 / 3;
-bool tives = 17.1 - lives < 1 / 7 && !valid;
-int tises = (27 - 38);
-int marks = tises;
-int num2 = 0;
-while (num2 < 6) {
-  tives = !valid;
-  print(num2);
-  lives = tises;
-  num2 = num2 + 1;
+int seats1 = (23 + 36);
+float seate1 = 24.1 + 15.6;
+bool has_more = seats1 <= (3 / 1);
+string city = "done";
+bool enabled = city == "alice";
+print(seats1);
+seate1 = seate1;
+for (int has_morex = 0; has_morex < 4; has_morex = has_morex + 1) {
+  seats1 = 30 + 26;
+  city = city;
 }
-if (valid) {
-  int days = lives;
-  print(days);
-  int limit2 = 0;
-  while (limit2 < 4) {
-    print(tives);
-    limit2 = limit2 + 1;
+if (has_more) {
+  int points = 21;
+  print(points);
+  if (0.5 - seate1 <= (points / 6)) {
+    float speed1 = 15.5 + 28;
+  } else {
+    print(points);
   }
-} else {
-  print(tives);
-  float mean = 2.2;
+} else if (city != "ok") {
+  print(has_more);
+  city = city + "ok";
 
-lives = 40;
-tises = (tises + lives) * (36 * num2);
-int base = 0;
-while (base < 6) {
-  int toives = 32 - num2;
-  base = base + 1;
+if (false) {
+  int lives2 = seats1 + seats1;
+  print(lives2);
+  print(enabled);
+  print(has_more);
+  bool is_even1 = enabled;
 }
-bool done = 28.4 <= (8 + 6);
-tises = 4 * 35 + (30 + marks);
-string nume = "bob";
-print(valid);
-print(done);

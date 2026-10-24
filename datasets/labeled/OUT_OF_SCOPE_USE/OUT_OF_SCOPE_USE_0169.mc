@@ -1,110 +1,95 @@
-int y3 = 7;
-string course1 = "done";
-bool enabled = course1 == "bob";
-bool is_even = 6 <= 16;
-string label = "bob";
-if (enabled) {
-  int first = (y3 + 40);
-  print(first);
-  print(is_even);
-} else if ((y3 / 5) == y3 + y3) {
-  bool passed1 = 17.9 - y3 == (y3 % 6);
+int lives = (26 - 21);
+float area = 18.5;
+string label = "compiler";
+bool enabled = lives > lives;
+bool ready3 = (20 / 5) == lives + lives;
+if (lives % 8 == 0) {
+  float salary = 19.7 - area;
+  print(lives * lives);
+  print(label != "token");
+} else {
+  print(salary);
+}
+if (ready3) {
+  int index = 0;
+  while (index < 5) {
+    print(lives);
+    ready3 = ready3;
+    index = index + 1;
+  }
+  int saleary = (lives + 36);
+  print(area);
+} else {
+  int latbel = lives;
+  print(latbel);
+  for (int n = 0; n < 4; n = n + 1) {
+    bool ready = 4.9 == lives / 4 || n * lives != (lives - latbel);
+    enabled = (14 + 38) < (12 % 4);
+    salary = (lives / 3);
+  }
+  if (false || false) {
+    print(latbel - latbel);
+  } else if ((lives - 13) == lives / 9) {
+    int aret = (lives + latbel);
+  }
+}
+if (lives > lives + 7 && label != "parse") {
+  label = "ok";
+  if (ready3) {
+    label = "bob";
+    salary = salary - salary;
+    enabled = lives % 9 > lives - 22;
+  } else {
+    print(label);
+  }
+}
+print((19 * lives));
+int points3 = (lives % 8);
+salary = lives * 16;
+if (salary - lives <= lives) {
+  int tenabled = (14 - lives);
+  print(tenabled);
+  for (int years = 0; years < 6; years = years + 1) {
+    print(salary);
+    ready3 = 9.1 >= 1 * 15;
+  }
+  for (int a = 0; a < 2; a = a + 1) {
+    print(lives + 28);
+    print(lives);
+    float avg = 24.5;
+  }
+} else {
+  for (int first = 0; first < 4; first = first + 1) {
+    int j1 = points3;
+  }
+}
+int age = 0;
+for (age = 0; age < 2; age = age + 1) {
   print(label);
+  float voltage = salary;
 }
-if (40 + y3 > y3) {
-  float distance = 30.6;
-  if ((21 / 4) >= (y3 / 3)) {
-    int marks = (39 + y3);
-    print(marks);
-    distance = (4 / 2);
-  }
-  label = "token";
-  print(y3 < y3);
-} else {
-  int total = 0;
-  while (total < 6) {
-    label = label;
-    total = total + 1;
-  }
+print(age);
+for (int result = 0; result < 6; result = result + 1) {
+  ready3 = salary - area >= 34;
+  print(salary);
 }
-if (distance < (7 + y3) || distance - y3 <= y3 - 38) {
-  int height2 = y3 - 17;
-  print(height2);
-  int items = 0;
-  while (items < 2) {
-    label = "pipeline";
-    bool valid = height2 - y3 <= y3;
-    items = items + 1;
-  }
-  int k1 = 2 - 37;
-}
-course1 = course1 + "token";
-if ((36 + y3) == y3 || 30 > y3) {
-  int ltabel = (y3 - 30);
-  print(ltabel);
-  y3 = y3 - ltabel / 9;
-  if (17 != y3) {
-    print(y3);
-    print(ltabel);
-    course1 = "compiler";
-  } else if (28.8 * ltabel >= 36 / 5) {
-    int b2 = (y3 % 6);
-    print(b2);
-    print("parse");
-    float temp = distance;
-  } else {
-    int sum = ltabel;
-    print(sum);
-    print(label + "yudu");
-    print(enabled);
-  }
-  ltabel = y3;
-} else {
-  if (is_even) {
-    int lrbel = (30 * y3);
-    print(lrbel);
-    print(lrbel);
-  } else {
-    print("token");
-    print(y3);
-  }
-}
-print(label);
-if ((y3 + 25) < 29 + y3) {
-  int steps = y3 + y3;
+if (label == "done") {
+  int steps = (12 + 16);
   print(steps);
-  label = "pipeline";
-  if (steps - steps != 4 * 20) {
-    int coiurse1 = (steps % 7);
-    print(coiurse1);
-    print(7);
-  } else if (label != "token") {
-    int ies_even = steps;
-    print(ies_even);
-    print(enabled);
-  } else if (is_even) {
-    int count = y3 * y3;
-    print(count);
-    steps = count - steps - steps * 7;
-    count = steps - count + steps;
-  } else if (is_even) {
-    bool ready = y3 <= y3;
-  } else if (is_even) {
-    print(enabled);
-  } else {
-    int age = 19 - y3;
-    print(age);
-    float rate = distance;
-    float mean = rate + distance;
+  enabled = ready3 || enabled;
+  int score = 0;
+  while (score < 4) {
+    int age2 = 26;
+    score = score + 1;
   }
-} else {
-  bool flag1 = 18.5 == (6 + y3);
-  int height = 0;
-  while (height < 3) {
-    print(course1);
-    enabled = height / 5 != 1;
-    height = height + 1;
+  if (26 > score / 5) {
+    int limit = (age + score);
+    print(limit);
+    print(label);
+  } else if (25 % 7 == 5 - 25) {
+    int ready3x = (27 + score);
+    print(ready3x);
+    print(ready3x);
   }
 }
-int years3 = y3;
-print(course1);
+print(lives);

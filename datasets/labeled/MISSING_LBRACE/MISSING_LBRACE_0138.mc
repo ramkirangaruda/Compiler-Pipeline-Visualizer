@@ -1,54 +1,62 @@
-float tax = 10.3 + 16.9;
-float distance3 = tax * tax;
-int seats = 29;
-distance3 = tax * 0.2;
-string seaes = "done";
-if (true) {
-  int first = seats;
-  print(first);
-  int n = 32 - 33;
+int width = 10;
+int total;
+float salary = 10.8 + 3.4;
+bool done3 = true;
+string msg2 = "hello";
+int second = 0;
+while (second < 4) {
+  print(salary);
+  second = second + 1;
 }
-int a1 = 0;
-while (a1 < 5) {
-  string label = seaes;
-  a1 = a1 + 1;
-}
-int marks = 0;
-while (marks < 2) {
-  distance3 = marks * marks;
-  tax = distance3 - seats;
-  distance3 = tax + marks;
-  marks = marks + 1;
-}
-if ((21 * a1) <= (seats * a1)) {
-  int distaice3 = a1;
-  print(distaice3);
-  int distante3 = 0;
-  while (distante3 < 2) {
-    print(distance3);
-    print((4 - distante3) > distaice3 + 30);
-    distante3 = distante3 + 1;
-  }
-  if (true) {
-    int taxx = distaice3;
-    print(taxx);
-    tax = distance3 + 30.8;
+print(second);
+total = width * total / 8;
+salary = salary - 13.8;
+bool is_even = done3 && total < (second / 2);
+int result = 9;
+is_even = !done3;
+for (int steps = 0; steps < 6; steps = steps + 1) 
+  if (steps < second / 5) {
+    int z3 = (13 - steps);
+    print(z3);
+    print(done3);
+    print(second);
+    float is_evens = salary + 5.8;
   } else {
-    tax = seats;
+    int sum1 = (width + total);
+    print(sum1);
+    sum1 = total % 4 + 24 + 4;
   }
-  tax = tax;
+  print(salary);
+  int days = width;
+}
+if (0.7 + salary == 1 - result) {
+  int msog2 = width;
+  print(msog2);
+  float avg = salary + salary;
+  if (done3 && width <= (second / 4)) {
+    print(width);
+    print(msg2);
+  }
+  print((width * width));
 } else {
-  int b = 2 * marks;
-  print(b);
-  distance3 = tax * b;
-  print(distance3);
-  if (distance3 != (b + 2)) {
-    print(distance3);
-  } else 
-    print(marks);
-    tax = distance3 + b;
-    print((marks - seats) < (seats + a1));
+  int sealary = width;
+  print(sealary);
+  if (26.3 * salary > width) {
+    print(msg2);
+    msg2 = "robot";
+    result = 23;
+  } else {
+    print(done3);
+    is_even = (sealary * width) <= (total - 5);
+    int stock = width;
+  }
+  total = second / 2 - (result * 16);
+  int lives = 0;
+  while (lives < 2) {
+    int first = (width % 9);
+    print("compiler");
+    lives = lives + 1;
   }
 }
-int x3 = (12 * a1);
-print(seaes);
+is_even = done3;
+print(result);

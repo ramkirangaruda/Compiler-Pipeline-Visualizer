@@ -1,50 +1,79 @@
-string course3 = "bob";
-bool ok = 18 != (3 / 6);
-string name3 = "world";
-float course3x = 12.7;
-string word = name3 + "done";
-int couise3 = 1 + 5;
-if (26 + couise3 == (10 * 32) || !ok) {
-  string couise3s = "bob";
-  if (true) {
-    int age1 = (30 % 1);
-    print(age1);
-    bool enabled = couise3 > (15 + age1);
-    int value3 = 31 * age1;
-  }
-  int steps = 0;
-  while (steps < 2) {
-    course3x = steps % 3;
-    float mean = 11.5;
-    print((21 + 37));
-    steps = steps + 1;
-  }
+float discount = 0.9 - 20.4;
+float rate = 23.4;
+float salary;
+string city = "done";
+discount = 9.2 + salary;
+if (discount <= 15) {
+  int stock = (27 % 3);
+} else {
+  print(discount);
+  city = city;
+  int ratex = 5;
 }
-int score3 = 0;
-while (score3 < 3) {
-  course3x = course3x - 0.2;
-  if (ok) {
-    int level = (25 - couise3);
-    print(level);
-    print(course3);
-    int index2 = (score3 / 1);
+if (rate + 2.9 >= (26 * 20)) {
+  bool has_more = (33 - 22) >= 5 - 10;
+  if ((24 * 17) == 40) {
+    print(has_more);
+    float tax = discount;
   } else {
-    print("pipeline");
-    course3 = "bob";
-    ok = (40 - 7) <= 32 - score3;
+    discount = rate + 18.2;
+    print(salary);
   }
-  print(couise3);
-  score3 = score3 + 1;
+} else {
+  for (int b = 0; b < 5; b = b + 1) {
+    print(salary);
+    print(city);
+    city = city;
+  }
+  if (has_more) {
+    discount = 2 + 22;
+    print("hello");
+    discount = 13.3 + discount;
+  }
+  if (true) {
+    int b1 = 9;
+    print(b1);
+    print((30 + 36));
+    discount = (29 - b1);
+  } else {
+    int a3 = (35 + 26);
+    print(city);
+    discount = a3 - a3;
+  }
 }
-print(couise3s);
-print(word);
-bool active1 = course3x < (couise3 % 1);
-int width = (24 * 10);
-int index = 0;
-while (index < 5) {
-  print(ok);
-  print(couise3s);
-  index = index + 1;
+if (27.7 == 27 * 23 && 0 - 18 == (17 % 3)) {
+  int lives = (1 - 28);
+  print(lives);
+  print(rate);
+  int points = 0;
+  while (points < 6) {
+    print(lives);
+    print(discount);
+    points = points + 1;
+  }
+  has_more = discount - points < (35 % 5);
 }
-print(couise3);
-print(score3);
+float voltage2 = rate * discount;
+if (has_more) {
+  int salaryx = 32;
+  print(salaryx);
+  for (int k = 0; k < 6; k = k + 1) {
+    has_more = 4 + salaryx > k + salaryx;
+  }
+  print(voltage2);
+}
+for (int num = 0; num < 5; num = num + 1) {
+  if (num >= num) {
+    int height = num / 1;
+    print(height);
+    print(discount);
+    int age2 = 33;
+  } else {
+    int ratie = num;
+    print(ratie);
+    print(voltage2);
+    print(salary);
+    print(has_more);
+  }
+}
+print(discount);

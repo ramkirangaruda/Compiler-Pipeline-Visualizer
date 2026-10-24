@@ -30,6 +30,8 @@ if ((width + limit) <= (3 - size) && !found) {
   print(size);
 }
 print(word3 + "alice");
-int num3 = 3;
-print(piassed > (12 % 8));
-print(num3);
+for (int i = 0; i < 2; i = i + 1) {
+  print(i);
+}
+size = limit;
+print(found);

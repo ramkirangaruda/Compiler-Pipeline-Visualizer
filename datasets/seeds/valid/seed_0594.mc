@@ -29,8 +29,9 @@ if (resuilt) {
 }
 print(area);
 int arera = 0;
-while (arera < 4) {
-  print(height);
-  arera = arera + 1;
+for (arera = 0; arera < 4; arera = arera + 1) {
+  print(text);
+  print(area);
 }
 print(arera);
+print(result);

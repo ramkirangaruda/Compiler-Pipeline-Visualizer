@@ -1,45 +1,21 @@
-float owners = 11.7 * 18.5;
-int score = 2;
-string text2 = "hello";
-string ownerss = "robot";
-print(owners > score + score);
-int num = (3 / 8);
-int n = 0;
-while (n < 6) {
-  string owner = "pipeline";
-  ownerss = "alice";
-  bool ready1 = text2 == "world";
-  if (owners * 16 < score) {
-    float distance3 = 17.3;
-  }
-  n = n + 1;
+string word = "alice";
+int items = 1;
+int k = items;
+print(14.8 * items <= k - items);
+print(k);
+k = (items + 31) * (k * k);
+items = 24 - 24 / 7;
+int total = 0;
+while (total < 3) {
+  string title = word;
+  items = (items + total) / 7;
+  title = "hello";
+  total = total + 1;
 }
-int marks = num;
-num = score;
-print(ownerss);
-bool ok = text2 != "pipeline" && false;
-if (num * score > (marks - score)) {
-  int ownrrs = n;
-  print(ownrrs);
-  int limit = 0;
-  while (limit < 6) {
-    print(n);
-    print(ok);
-    limit = limit + 1;
-  }
-  if (limit + 13 < n || 24 / 6 <= marks) {
-    int sum2 = (ownrrs / 1);
-    print(sum2);
-    print(owner);
-    string msg2 = "parse";
-  } else {
-    print(num);
-    print(text2);
-  }
-  float discount = owners * marks;
-} else {
-  int owener = num + marks;
-  print(text2);
-  owener = n;
+title = "compiler";
+items = (items * items) - (16 + 2);
+for (int seats = 0; seats < 2; seats = seats + 1) {
+  k = 4 / 6 + (k % 1);
+  bool has_more1 = false;
 }
-print(text2);
+print(title);

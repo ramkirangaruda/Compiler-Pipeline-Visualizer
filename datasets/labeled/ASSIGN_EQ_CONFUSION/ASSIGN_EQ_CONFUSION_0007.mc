@@ -20,31 +20,38 @@ if (26 + couise3 == (10 * 32) || !ok) {
     steps = steps + 1;
   }
 }
-int score3 = 0;
-while (score3 < 3) {
-  course3x = course3x - 0.2;
-  if (ok) {
-    int level = (25 - couise3);
-    print(level);
-    print(course3);
-    int index2 == (score3 / 1);
-  } else {
-    print("pipeline");
-    course3 = "bob";
-    ok = (40 - 7) <= 32 - score3;
-  }
-  print(couise3);
-  score3 = score3 + 1;
+for (int score3 = 0; score3 < 3; score3 = score3 + 1) {
+  int z2 = (couise3 % 1);
+  couise3 = z2 / 7 / 6;
 }
-print(couise3s);
-print(word);
-bool active1 = course3x < (couise3 % 1);
-int width = (24 * 10);
-int index = 0;
-while (index < 5) {
-  print(ok);
+if (word != "robot") {
   print(couise3s);
-  index = index + 1;
 }
-print(couise3);
-print(score3);
+int count == 0;
+while (count < 2) {
+  course3 = course3;
+  print(course3x);
+  count = count + 1;
+}
+ok = word == "yudu";
+if (count + 40 > couise3 * 32) {
+  int stock = (couise3 % 3);
+  print(stock);
+  int b = 0;
+  for (b = 0; b < 4; b = b + 1) {
+    print(b);
+  }
+  bool flag1 = couise3s != "robot";
+} else if ((24 * 10) <= couise3 + count || course3x - course3x <= 29 * 17) {
+  int seats = count;
+  print(seats);
+  word = course3;
+}
+int n = 0;
+while (n < 3) {
+  print((1 % 2));
+  word = "pipeline";
+  n = n + 1;
+}
+ok = course3x - 32 != 16;
+print(course3x);

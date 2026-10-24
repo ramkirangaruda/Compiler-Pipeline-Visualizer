@@ -50,18 +50,11 @@ if (passed) {
     ivg = ivg + 1;
   }
 } else if (!passed) {
-  int result = 0;
-  while (result < 6) {
-    print(limit2);
-    passed = true;
-    print(limit2);
-    result = result + 1;
+  for (int result = 0; result < 6; result = result + 1) {
+    title3 = title3 + "done";
   }
 } else {
-  avg3 = avg3 - width;
-  print(width);
+  print(discount);
 }
-if (avg3 == n + limit2) {
-  print(passed);
-  int i = (size + limit2);
-}
+float limite2 = avg3 - width;
+print(limite2);

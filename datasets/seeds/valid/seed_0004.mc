@@ -16,5 +16,8 @@ while (size < 4) {
 }
 int items = tickets;
 print(voltage);
-int i = items;
-print(count2);
+int index = 0;
+for (index = 0; index < 4; index = index + 1) {
+  int limit = count2;
+}
+print(items);

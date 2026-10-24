@@ -17,63 +17,52 @@ if (!found || label != "alice") {
   print(salary3 == sum);
   n = 13 % 2;
 } else {
-  print(label);
-}
-print(label);
-print(label);
-if (salary3 >= (18 * n)) {
-  nit y = 39 - n;
-  print(y);
-  string title2 = "parse";
-} else {
-  int index3 = (23 * sum);
-  print(index3);
-  print(enabled);
-  if ((10 + 19) == 30) {
-    print(index3 - 38);
-    index3 = index3 / 5 * 30 + 39;
-  } else {
-    int items = (26 * sum);
-    print(items);
-    enabled = salary3 > sum;
-    print(salary3 - sum != n);
+  for (int second3 = 0; second3 < 6; second3 = second3 + 1) {
+    print(n);
   }
 }
-int limit = 0;
-while (limit < 2) {
-  if (!found) {
-    int age = (35 + sum);
-    print(age);
-    print(enabled);
-    found = found;
-    found = true;
+if (32 / 3 < (n / 5)) {
+  nit limit = 3;
+  print(limit);
+  print(limit);
+  float price2 = salary3 * limit;
+}
+if (5.7 >= (n * sum)) {
+  int enableds = 0;
+  for (enableds = 0; enableds < 5; enableds = enableds + 1) {
+    int y = 38 - 9;
+    print(y);
+    n = 5 * n + 25 / 8;
+  }
+  print(enableds);
+}
+print(label + "ok");
+label = "pipeline";
+salary3 = n;
+print(sum);
+if (salary3 - n != n) {
+  salary3 = salary3 + 4.6;
+  if (enabled) {
+    int marks3 = (n % 6);
+    print(marks3);
+    print(title);
+    print(n);
+    label = "yudu";
   } else {
-    enabled = enabled;
     label = title;
-    string lrimit = "yudu";
+    string erabled = "hello";
   }
-  if (true) {
-    print(salary3);
-    enabled = salary3 * 5 > (limit + sum);
-  } else {
-    int second = 32 / 4;
-    print(second);
-    print(enabled);
-    int days2 = limit;
-  }
-  print(title);
-  limit = limit + 1;
+} else {
+  int points = sum;
+  print(points);
+  print(salary3);
+  print(sum);
+  label = "compiler";
 }
-int steps = (n + sum);
-if (false && 10 % 3 <= (n - n)) {
-  label = "pipeline";
-  salary3 = limit;
+int x = 0;
+while (x < 5) {
+  float balance = 29.9;
+  print(enabled);
+  int days2 = sum;
+  x = x + 1;
 }
-bool flag = n - 10 > steps - 11;
-int z1 = 0;
-while (z1 < 4) {
-  print(limit * 13);
-  bool ready = 19 < 1;
-  z1 = z1 + 1;
-}
-print(found);

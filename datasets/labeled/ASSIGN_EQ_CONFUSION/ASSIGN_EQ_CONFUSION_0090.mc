@@ -12,34 +12,36 @@ while (width1 < 5) {
   width1 = width1 + 1;
 }
 int b = (7 + 3);
-int total = 0;
-while (total < 2) {
-  print(total);
-  if (true) {
-    int height = b;
-    print(height);
-    print(worid);
-    print(width1);
-    print(word);
-  } else if ((15 % 6) == worid + total) {
-    print(word);
+for (int total = 0; total < 2; total = total + 1) {
+  print(b);
+  float discount = weight1 + total1;
+  print("bob");
+}
+if (size == b / 4) {
+  int num = width1;
+  print(num);
+  word = "done";
+  print(b);
+} else {
+  int i = (b + 12);
+  print(i);
+  if ((i % 5) < (34 - 20)) {
+    print((25 * b));
   } else {
-    print("pipeline");
+    print(weight1);
   }
-  total = total + 1;
+  weight1 = tstal1 + 26.3;
+  i = (total1 * 9) + size / 7;
 }
-int i = 0;
-while (i < 4) {
-  print(size);
-  print(worid);
-  i = i + 1;
-}
-int num3 = 0;
-while (num3 < 5) {
-  if (false) {
-    print((width1 * 23) >= (size + 0));
-    print(word);
+if (word != "parse") {
+  int rounds = total1;
+  print(rounds);
+  print(weight1);
+  word = "hello";
+  int age = 0;
+  while (age < 6) {
+    int steps = total1;
+    age = age + 1;
   }
-  num3 = num3 + 1;
 }
 print(size);

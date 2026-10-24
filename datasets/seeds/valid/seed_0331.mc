@@ -22,11 +22,11 @@ if (discount - y != y) {
   print(wsord2);
   string title1 = "yudu";
 }
-int valids = 0;
-while (valids < 5) {
-  int j = (is_evens % 7);
-  print(discount);
-  print(is_even);
-  valids = valids + 1;
+for (int valids = 0; valids < 5; valids = valids + 1) {
+  valid = (is_evens % 7) >= level + z;
+  if (y + is_evens <= y) {
+    float area = 8.1;
+    area = discount * 10.3;
+  }
+  is_evens = (z * 40) + (level - 1);
 }
-print(discount);

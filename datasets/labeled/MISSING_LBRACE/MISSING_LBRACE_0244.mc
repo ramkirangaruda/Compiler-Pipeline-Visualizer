@@ -1,24 +1,32 @@
-int k = (38 - 7);
-int base = (17 % 9);
-int first;
-bool is_even = true;
-int is_evenx = (23 - 17);
-print(first);
-print(is_even);
-int size = first - 19;
-base = (11 % 8) % 6;
-is_even = 26.8 != (size / 7) && is_even;
-if (!is_even) {
-  int is_evsen = 0;
-  while (is_evsen < 2) {
-    first = 13 * 24 + 9;
-    is_evsen = is_evsen + 1;
-  }
-  int is_evens = 0;
-  while (is_evens < 2) 
-    print(size);
-    int level3 = (36 * is_evsen);
-    is_evens = is_evens + 1;
+string text1 = "ok";
+int itext1 = 0;
+int first = 34 % 4;
+int texst1 = (7 * first);
+first = itext1;
+print(itext1);
+text1 = "pipeline";
+if (true) {
+  int textr1 = texst1 / 7;
+  print(textr1);
+  first = 39 + textr1 + texst1;
+} else 
+  texst1 = (itext1 + texst1) % 8;
+  if ((itext1 + 6) <= itext1) {
+    texst1 = texst1 / 5 / 8;
+  } else {
+    int y = 0 % 7;
+    print(y);
+    first = 35;
+    print(y);
   }
 }
-print(39 + k);
+print(24 + itext1);
+print(first);
+print(texst1);
+int steps = 0;
+while (steps < 2) {
+  print(itext1);
+  text1 = "done";
+  int j = 11 + steps;
+  steps = steps + 1;
+}

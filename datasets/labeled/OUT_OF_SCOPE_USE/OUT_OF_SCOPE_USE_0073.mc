@@ -1,34 +1,85 @@
-int j = 2;
-int score = (38 % 6);
-bool active = score <= (34 / 8);
-int height = score + score;
-int years3 = 30;
-string msg = "bob";
-print(active);
-score = 29;
-if (height * years3 < height + 10 || j != 2) {
-  float rate = 28.4 - height;
-  print("compiler");
-} else if (height - 11 <= score % 3) {
-  if ((score + years3) == height - height) {
-    print(j);
-    int days = (score + height);
+float speed = 29.9 - 31;
+int seats = (23 - 2);
+float ratio1 = speed * speed;
+string label = "done";
+if (false || 14 / 1 >= seats) {
+  int marks = (31 + seats);
+  print(marks);
+  int labels = 0;
+  while (labels < 3) {
+    print(seats);
+    print(label);
+    label = "done";
+    labels = labels + 1;
   }
-}
-print((height / 8) == score);
-print(rate);
-if (true) {
-  print(active);
-} else if (29.5 + height >= 12) {
-  print(years3);
+  for (int balancie = 0; balancie < 4; balancie = balancie + 1) {
+    bool balasncie = true;
+    seats = 2 / 7;
+    bool flag = label != "ok";
+  }
 } else {
-  int b = years3;
-  print(b);
-  print("hello");
-  if (11 >= score - j) {
-    float distance = rate + 24.6;
-    bool found1 = true;
+  if (seats - seats > 10 / 2) {
+    int level = (seats + seats);
+    print(level);
+    bool found = 8.9 * seats >= 15 - 15;
   }
 }
-years3 = years3 + 21 + 40 - 21;
-print(rate);
+int seats1 = 0;
+while (seats1 < 6) {
+  float balance = ratio1 + seats;
+  if (true) {
+    seats = 39 % 9;
+    ratio1 = seats;
+  }
+  balance = 27.2 * speed;
+  print(seats * 40);
+  seats1 = seats1 + 1;
+}
+print(seats);
+if (seats < seats) {
+  print(ratio1);
+  bool balancee = label == "compiler";
+}
+if (false) {
+  print((22 / 6));
+  for (int i = 0; i < 5; i = i + 1) {
+    print(seats1);
+    float seatsx = speed + 12;
+  }
+  if (balance >= (seats1 + seats1)) {
+    int stock = 32 * 34;
+    print(stock);
+    print(15 % 3);
+    print(seats);
+    seats = stock / 6;
+  }
+}
+print(seats);
+for (int lives = 0; lives < 2; lives = lives + 1) {
+  if (true) {
+    int num = (seats1 * 24);
+    print(num);
+    print(3 * lives);
+    label = label + "token";
+  } else if ((33 + seats) > seats1 && 16 < seats) {
+    float distance1 = 12.8 - ratio1;
+  }
+}
+if (seats > seats1) {
+  int x = seats1 % 7;
+  print(x);
+  label = "world";
+  if (label != "compiler") {
+    int total = 7;
+    print(total);
+    seats = x;
+    speed = 29.9;
+    print(seats >= (total * x));
+  } else {
+    int years = seats * x;
+    print(years);
+    print(speed);
+  }
+  print(balance);
+}
+float salary = ratio1 * balance;

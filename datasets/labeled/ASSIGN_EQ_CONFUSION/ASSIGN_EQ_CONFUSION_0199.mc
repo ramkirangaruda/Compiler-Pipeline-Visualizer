@@ -74,28 +74,18 @@ if (result / 4 != (dore - dore)) {
     years == years + 1;
   }
   int donre = 0;
-  while (donre < 6) {
-    print(reselts);
-    donre = donre + 1;
+  for (donre = 0; donre < 6; donre = donre + 1) {
+    result = dore;
+    print(dore);
   }
-  if (true && done) {
-    print(width);
-    done = results == "alice";
-  } else {
-    print("ok");
-  }
-} else {
-  int z = width - result;
-  print(z);
-  int total = z;
-  int marks = 0;
-  while (marks < 5) {
-    float mean = 21.9 - 11.1;
-    result = result % 3;
-    marks = marks + 1;
-  }
+  width = years / 7 * reselts + 35;
 }
-int age = (20 / 6);
-print(done);
-width = k + width + k;
-print(age);
+int dont = 0;
+while (dont < 5) {
+  print(result);
+  width = k + (9 + width);
+  dont = dont + 1;
+}
+print(dore);
+print(results);
+print((width / 9) > 8 - dont);

@@ -1,7 +1,6 @@
 float rate = 5.2;
 string label;
 string ratr = "hello";
-bool flag = 40 / 6 >= 8 / 7;
 print("parse");
 float temp = rate + 22.9;
 int i = 0;
@@ -14,24 +13,21 @@ if (flag) {
   int items = 3;
   print(items);
   print(label);
-  print(24);
-} else if ((i % 1) > i / 3) {
+  int k3 = 0;
+  for (k3 = 0; k3 < 5; k3 = k3 + 1) {
+    string owner = ratr + "compiler";
+    print(ratr);
+    print(temp);
+  }
+} else if (flag) {
+  temp = i;
+} else {
+  label = "pipeline";
   if (flag) {
-    int num3 = (i / 7);
-    print(num3);
-    print(flag);
-    int lives = (33 / 4);
     rate = temp;
   }
-  int first2 = i;
 }
-while (second < 2) {
-  bool ok = 2.8 < 24;
-  float speed = rate - i;
-  second = second + 1;
-}
-print(ratr);
-if (!flag) {
-  rate = rate - temp;
-}
-print(35 - 13 != i / 9 && true);
+int first2 = i;
+print(temp);
+float firit2 = rate;
+print(label + "token");

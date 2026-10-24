@@ -1,56 +1,56 @@
-int stock = 29 + 2;
-string owner = "world";
-int j = stock % 9;
-int x = 0;
-while (x < 2) {
-  int y;
-  if (owner != "token" || false) {
-    j = (34 % 2) + y + stock;
-    print(stock);
-  } else {
-    print(j);
-    print(j);
-    float temp = 12.1;
+int steps = 37;
+float price2 = 11.1 * 7.8;
+int n = (14 + steps);
+string course = "world";
+if (n * 38 < (21 - n) && n > 6) {
+  int score = 38 + steps;
+  print(score);
+  course = "alice";
+} else if (price2 + steps < (steps + 11)) {
+  int steapss = (16 * steps);
+  print(steapss);
+  n = (2 + n) / 1;
+  if ((23 + steps) < (steapss + n)) {
+    print((23 + 34));
+  } else if ((steps % 2) > (8 + 15)) {
+    int stock = 11;
   }
-  if (owner == "bob") {
-    int ownerx = stock + x;
-  } else {
-    int rounds = j / 6;
-    print(rounds);
-    stock = rounds + (y / 6);
-    stock = x;
-  }
-  j = stock % 8 * stock % 1;
-  x = x + 1;
-}
-if (false) {
-  int orner = j * stock;
-}
-print(j);
-print(owner);
-string city = owner;
-int steps = 0;
-while (steps < 5) {
-  string city3 = city;
-  float ratio = 5.8 * 29.5;
-  print(y);
-  steps = steps + 1;
-}
-if (true) {
-  int ciey = 0;
-  while (ciey < 4) {
-    print(ciey);
-    j = 16;
-    ciey = ciey + 1;
-  }
-  print(8.2 + steps < stock);
-  int second = 0;
-  while (second < 2) {
-    int count = second * ciey;
-    print(steps);
-    second = second + 1;
-  }
+} else if (course != "bob" || false) {
+  print(n);
+  int caurse = n;
 } else {
-  print(j);
+  if (true) {
+    steps = (n + 13) * steps / 5;
+  } else {
+    int x = (steps * n);
+    print(x);
+    string label = "world";
+  }
+  for (int j3 = 0; j3 < 3; j3 = j3 + 1) {
+    print(j3 % 4);
+    steps = steps;
+    int price2s = (38 * j3);
+  }
 }
-print(y);
+n = steps + (36 * steps);
+print("compiler");
+int arice2 = 0;
+while (arice2 < 2) {
+  float steaps = price2 - steps;
+  int size = 13 / 7;
+  print("compiler");
+  arice2 = arice2 + 1;
+}
+price2 = n / 2;
+int x1 = 0;
+for (x1 = 0; x1 < 3; x1 = x1 + 1) {
+  print(course);
+  steaps = price2 - n;
+}
+print(x1);
+int b = 0;
+while (b < 4) {
+  steps = x1;
+  print(b);
+  b = b + 1;
+}

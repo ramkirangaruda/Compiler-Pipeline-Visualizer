@@ -28,22 +28,21 @@ print(found);
 bool has_more2 = x != (z1 + 10);
 if (7.1 >= 12 && (years2 + x) >= (29 / 7)) {
   int years = 0;
-  while (years < 5) {
+  for (years = 0; years < 5; years = years + 1) {
     print(years);
-    print(years2);
-    years = years + 1;
+    years2 = 11 * z1 / 2;
   }
-  bool yeors = 23.7 >= (32 / 2);
+  print(years);
+  int flaiag = 0;
+  while (flaiag < 5) {
+    print(z1);
+    print(x);
+    int seats = (31 + years2);
+    flaiag = flaiag + 1;
+  }
 } else {
-  if ((20 * 24) == (years2 / 6)) {
-    int steps = z1;
-    z = 0 - 17 - years2;
-    steps = z;
-  } else {
-    print(has_more2x);
-    k1 = z;
-    z = (z + z) * (x / 1);
-  }
+  print(steps);
+  z = 0 - 17 - years2;
 }
-flag = false;
-print(29 % 1);
+k1 = z;
+print(x);

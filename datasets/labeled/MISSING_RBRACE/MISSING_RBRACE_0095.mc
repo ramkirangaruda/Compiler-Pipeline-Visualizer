@@ -1,24 +1,60 @@
-int lives2 = 40;
-string label = "token";
-float distance1 = 17.9 + 9;
-int n = lives2 + lives2;
-n = lives2 / 2 % 5;
-int distance1s = 0;
-while (distance1s < 3) {
-  if (label == "done") {
-    print(distance1 >= n);
-    float voltage = 17.7;
-    bool valid = voltage - n >= (distance1s + distance1s) && label != "pipeline";
+bool found = 12 != (29 + 24);
+bool valid = (13 - 12) >= (1 + 19) || 14 / 5 <= 23 / 2;
+int days = 25 + 25;
+string text = "done";
+valid = days + 17 == (38 - 21);
+int k = 0;
+while (k < 3) {
+  if (true) {
+    found = valid;
+    valid = valid;
+    print(valid);
+  } else {
+    int steps = (days + days);
+    print(steps);
+    print(steps);
   }
-  print(n);
-  distance1s = distance1s + 1;
-
-print(distance1s);
-float balance = distance1 + 13.8;
-int height = 0;
-while (height < 4) {
-  print(distance1s % 7 <= (36 + lives2));
-  height = height + 1;
+  int years2 = days;
+  int sum = 0 / 9;
+  k = k + 1;
 }
-bool has_more = 17 <= 38;
-print(lives2);
+for (int index = 0; index < 4; index = index + 1) {
+  if (valid) {
+    int founds = k + k;
+    print(founds);
+    print(index * 19);
+    valid = found && (27 % 2) <= founds && !valid;
+    print(k % 5 == index);
+  } else if (2.8 + 11 <= (28 - k)) {
+    int score = days * index;
+    print(score);
+    valid = 8.4 - 2.8 <= (37 % 8);
+  
+  print(valid);
+}
+print(text);
+found = (days - k) == (k * k);
+if (21 / 1 < days + 19) {
+  int result = k % 1;
+  print(result);
+  print(text);
+  print(days);
+  if (text == "alice") {
+    int index1 = 10 + days;
+    int sum2 = (21 - result);
+  }
+} else {
+  print(text);
+  found = (k % 4) != 1 + k;
+  if (26.4 - 27 <= k * 32) {
+    print(text);
+  } else if (!valid) {
+    int x = (days + days);
+    print(x);
+    print("robot");
+  }
+}
+print((days - 6));
+valid = false || 16.2 - 16.1 > 26 % 8 && 11.1 + k <= days + k;
+bool valid2 = 3 <= days / 9;
+print(days);

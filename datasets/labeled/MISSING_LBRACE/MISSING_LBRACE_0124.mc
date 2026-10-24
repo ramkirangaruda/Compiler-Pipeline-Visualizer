@@ -1,37 +1,19 @@
-string name = "robot";
-string owner = "compiler";
-int value = (2 / 1);
-string values = owner;
-bool found = 15 + value <= value % 3;
-float avg = 10.1;
-bool found3 = found;
-string text3 = owner;
-print(text3);
-string msg = name;
-if (false) {
-  int seats = 34 + 32;
-  print(seats);
-  print(found3);
-} else {
-  int sum = 0;
-  while (sum < 6) 
-    found3 = found;
-    avg = 35 / 9;
-    print(found);
-    sum = sum + 1;
-  }
-}
-if (owner != "yudu") {
-  int ownoer = 8 + 25;
-  float discount = 15.3 + avg;
-} else {
-  print(msg);
-  print(avg);
-}
-if (found3) {
-  found3 = avg * value <= (value % 8);
-}
+int count2 = 1 * 12;
+int points = (38 - count2);
+int num = 36 / 3;
+int base = (count2 % 7);
+string owner = "bob";
+int stock = base;
+print(count2);
+bool done = false;
 print("pipeline");
-print(text3);
-print(values);
-bool valid3 = found;
+points = 10 - points % 3;
+int b = 0;
+while (b < 2) 
+  count2 = stock / 4 - 8 * 14;
+  print(num);
+  b = b + 1;
+}
+print(owner);
+print(15 + num);
+print(base);

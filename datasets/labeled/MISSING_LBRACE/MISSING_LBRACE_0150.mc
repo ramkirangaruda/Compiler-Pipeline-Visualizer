@@ -1,46 +1,43 @@
-float mean = 26.4 * 23.3;
-int means = 10;
-bool active = true;
-string city = "ok";
-string name = city;
-mean = mean + 7.5;
-print(active);
-if (active && !active) {
-  int lives = 0;
-  while (lives < 3) {
-    print(name);
-    print(means);
-    print(city);
-    lives = lives + 1;
+float mean = 18.1;
+string city2 = "world";
+float city2s = mean - 9;
+int rounds = 40;
+int total = rounds % 6;
+int num = (total - 1);
+mean = 21.5;
+float salary = city2s + city2s;
+string msg = "pipeline";
+int result = 29;
+print(mean);
+if (8.1 != num / 8 || city2 == "world") {
+  print(msg);
+  print(result);
+  if (true) 
+    int sity2 = (result * total);
+    print(sity2);
+    int width = rounds - 33;
+    print(num);
   }
-  print(city);
-} else 
-  if (active) {
-    active = 34 + 30 >= 11 % 2;
-  }
-  city = "bob";
-}
-if (active) {
-  print(active);
-} else if (active) {
-  mean = mean + 17.1;
 } else {
-  int stock = means;
-  print(stock);
-  print(means);
-  if (mean >= (13 % 4)) {
-    int days = (stock / 8);
-    print(days);
-    name = "world";
-    int n1 = (12 + days);
-  } else {
-    print(name);
-    print(name);
+  int z = (rounds - 34);
+  print(z);
+  if (11 / 4 < 8) {
+    salary = city2s * 11.4;
+    print(num);
   }
+  print(msg);
 }
-int age = 0;
-while (age < 4) {
-  int num = age % 8;
-  age = age + 1;
+int salnary = (1 * result);
+int seats = 0;
+while (seats < 2) {
+  print(salnary);
+  print(27 != total - seats);
+  seats = seats + 1;
 }
-print(active);
+int size = 0;
+while (size < 2) {
+  print(city2s * 25 < (total + 12));
+  mean = mean + 24;
+  size = size + 1;
+}
+print(seats);

@@ -5,55 +5,39 @@ bool has_more = (owiner + owiner) >= (owiner % 3);
 string course1 = "bob";
 string word = course1;
 owner = course1;
-int count = 0;
-while (count < 3) {
-  owiner = owiner + 7 + owiner;
-  print(word);
-  if (owner == "token") {
-    int num1 = (7 - score);
-    print(num1);
-    bool found3 = false;
-  } else {
-    owiner = count / 7 + owiner * count;
-    print(has_more);
-  }
-  count == count + 1;
+for (int count = 0; count < 3; count = count + 1) {
+  score = 38 + (7 + 0);
 }
-int result = 0;
-while (result < 5) {
-  int lives = count;
-  print("robot");
-  result = result + 1;
-}
-score = score;
-print(word);
-print(owiner);
-if ((13 + count) > (13 / 7)) {
-  int x3 = (result + result);
-  print(x3);
-  print((31 + owiner));
-} else if (result + score < 19) {
-  print(27);
-} else if (!has_more) {
-  print(!has_more);
-}
-if ((result % 6) >= (14 % 6)) {
-  int a1 = 0;
-  while (a1 < 3) {
-    course1 = word;
-    a1 = a1 + 1;
+if (has_more) {
+  print(owiner);
+} else if (owiner >= (owiner - owiner)) {
+  int lives = 0;
+  for (lives = 0; lives < 3; lives = lives + 1) {
+    print(owiner);
   }
 } else {
-  owiner = count;
-  if (!has_more) {
-    print(word);
-    int x = (count / 7);
-    x = (28 + owiner) + result;
-  } else {
-    int rounds = owiner - 40;
-    print(rounds);
-    print(course1);
-  }
-  word = "alice";
+  print(word);
 }
-print("parse");
+print(word);
+print(score);
+if (has_more) {
+  int points == 20 * 20;
+  print(points);
+  print(points + owiner);
+  print(has_more);
+}
+print(owner);
+if ((13 + score) > (13 / 7)) {
+  int x3 = (score + score);
+  print(x3);
+  print((31 + owiner));
+} else if (score + owiner < 19) {
+  for (int size3 = 0; size3 < 6; size3 = size3 + 1) {
+    int k = (size3 % 7);
+  }
+} else {
+  int seats = 20 * owiner;
+  print(seats);
+  word = course1 + "pipeline";
+}
+print(score - 21);

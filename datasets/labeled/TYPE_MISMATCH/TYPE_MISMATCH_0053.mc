@@ -3,7 +3,7 @@ string word3 = "world";
 float rate = 8.6 * 10;
 bool passed = rate + 7.7 <= 3;
 string greeting = "yudu";
-int paised = tickets;
+int paised = 2.75;
 if (21.6 + 17 >= tickets) {
   word3 = "token";
 } else {
@@ -13,27 +13,27 @@ if (21.6 + 17 >= tickets) {
     tickets = tickets % 7 + 31 + paised;
     gereeting = gereeting + 1;
   }
-  print(gereeting);
-}
-int i = 0;
-while (i < 6) {
-  paised = tickets;
-  i = 3.5;
+  int x = 0;
+  for (x = 0; x < 4; x = x + 1) {
+    int seats1 = x;
+  }
 }
 greeting = "bob";
 int rati = 0;
 while (rati < 3) {
   if (word3 != "alice") {
-    paised = i;
+    paised = paised;
   }
   if ((tickets % 4) < 17 + 40) {
     float speed = rate * 10.9;
   } else {
-    int total = 4 * rati;
+    int total = 4 * paised;
     print(total);
     print(paised);
-    print(total);
+    print(greeting);
   }
-  print(true);
+  print(word3);
   rati = rati + 1;
 }
+int a = rati - 35;
+print(28);

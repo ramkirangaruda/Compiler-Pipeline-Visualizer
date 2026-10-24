@@ -35,37 +35,30 @@ if ((base2 / 7) > base2 * 15) {
 } else {
   int tickets = (count / 3);
   print(tickets);
-  int has_moere = 0;
-  while (has_moere < 5) {
+  for (int has_moere = 0; has_moere < 5; has_moere = has_moere + 1) {
+    count = 14;
+    print("bob");
+  }
+  print("bob");
+}
+if (14 + base2 != count + base2) {
+  int actirve = count;
+  print(actirve);
+  if (8.5 + count <= 24) {
+    print(base2 - count < actirve);
+    print((base2 - actirve));
+  } else {
+    has_more = !active;
     print(count);
-    string text = "alice";
-    has_moere = has_moere + 1;
   }
-  print(tickets);
-}
-int has_mores = 0;
-while (has_mores < 5) {
-  active = (21 + count) < 3;
-  has_mores = has_mores + 1;
-}
-count = count - (has_mores + 2);
-if (1 / 3 >= count) {
-  int has_miore = 31;
-  print(has_miore);
-  active = active;
-  base2 = base2 + count % 5;
-} else {
-  print(count);
-  print(has_more);
-  string title = "parse";
-}
-if (count / 4 <= base2 / 7 || base2 + count > count / 6) {
-  int index = count;
-  print(index);
-  if (30.2 + 33 <= has_mores) {
-    printcount);
-    int actiave = (5 - index);
+  if (active) {
+    has_more = has_more;
+  } else {
+    int limit = actirve;
+    print(active);
   }
-  print(has_more);
 }
-print(base2);
+bool flag = 28.7 - 31 == base2;
+print(active);
+active = count + base2 != 33 / 2);
+print("alice");

@@ -14,6 +14,25 @@ if ((33 * 2) > 29 / 1) {
 }
 tnxo2 = tnxo2 || tnxt2s;
 print(tnxt2s);
-print(text2);
-print((0 * 38));
-print(tnxt2);
+for (int size = 0; size < 6; size = size + 1) {
+  int tnxt2sx = 16 * size;
+  print(size);
+  tnxt2s = !tnxt2s;
+}
+int level1 = 0;
+while (level1 < 4) {
+  if (tnxo2) {
+    int seats3 = level1;
+    print(seats3);
+    seats3 = 33 * 15 * (13 + 19);
+    print(tnxt2s);
+    float speed1 = 18.9 - 27.8;
+  } else if (true) {
+    int items3 = (37 * level1);
+    print(items3);
+    print(level1);
+  } else {
+    print(text2);
+  }
+  level1 = level1 + 1;
+}

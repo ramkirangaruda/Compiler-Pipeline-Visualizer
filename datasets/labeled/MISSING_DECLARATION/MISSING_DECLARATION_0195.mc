@@ -23,12 +23,11 @@ if (greetineg1 != width3 / 4) {
 } else {
   int k1 = 8 / 6;
   print(k1);
-  int num = 0;
-  while (num < 2) {
-    days = width3 * num / 1;
-    num = num + 1;
+  for (int num = 0; num < 2; num = num + 1) {
+    greetineg1 = 22;
+    greetineg1 = 21;
+    print(k1);
   }
-  print(k1);
   int height = 0;
   while (height < 4) {
     greeting1 = word;
@@ -36,14 +35,13 @@ if (greetineg1 != width3 / 4) {
     float tax = 30.2 - 28.5;
     height = height + 1;
   }
+  int i = 0;
+  for (i = 0; i < 2; i = i + 1) {
+    string msg = "parse";
+    int y = n;
+    greetineg1 = 19;
+  }
 }
-int i = 0;
-while (i < 2) {
-  string course3 = "parse";
-  int y = n;
-  i = i + 1;
-}
-if (false) {
-  string msg = "alice";
-  print(msg != "bob");
-}
+days = (n + greetineg1) + 26 + 38;
+days = width3;
+print(days);

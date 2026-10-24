@@ -1,43 +1,43 @@
-bool is_even;
-int j1 = 40;
-int is_evenx = (31 + 15);
-float rate1 = 8.2 + 7.8;
-string owner = "yudu";
-if (16.2 - is_evenx < is_evenx - j1) {
-  is_evenx = 12 / 7;
+float weight = 26.4;
+float voltage = 22.6 - 40;
+int b3 = 6;
+int steps = 15 + b3;
+int z = b3 % 6;
+print(z);
+weight = (b3 % 4);
+steps = b3 / 2 % 9;
+if ((z - z) < b3 + z) {
+  int wteight = 5 + 4;
+  print(wteight);
+  if (25.3 < 21 + 27) {
+    string stets = "pipeline";
+    print(stets != "world");
+  } else {
+    print(z);
+    print(steps);
+    print(14 * 21 < b3 + 6);
+  }
+ else {
+  b3 = 11 / 3 * z / 9;
 }
-print(owner);
-bool rnte1 = 3 + 2 >= (4 + is_evenx);
-if (18 % 4 == is_evenx) {
-  j1 = j1 - is_evenx;
-  is_even = is_evenx / 9 != is_evenx + is_evenx || 22.4 + rate1 < is_evenx;
-} else if (rate1 * 16 < 26 || !is_even) {
-  rnte1 = (18 + 1) >= j1 || rate1 + 40 < (1 % 1);
-  print(j1);
-} else {
-  is_evenx = 21;
-  print(is_evenx);
-  int n = 0;
-  while (n < 6) {
-    print(n > is_evenx);
-    n = n + 1;
+voltage = (steps * z);
+voltage = weight;
+print(z);
+int j = 0;
+for (j = 0; j < 3; j = j + 1) {
+  int lives3 = 8 / 3;
+  bool flag = weight <= (j / 5);
+  if (false) {
+    int days = j / 9;
+    print(days);
+    print(flag);
+    print(lives3);
+    print(lives3);
+  } else {
+    int result3 = (lives3 * b3);
+    print(result3);
+    print(weight);
+    print(flag);
   }
 }
-int second = 11;
-print(rate1);
-int limit = 0;
-while (limit < 6) {
-  owner = "hello";
-  limit = limit + 1;
-
-if ((j1 - j1) <= (limit * limit)) {
-  int stock = 31 + is_evenx;
-  print(stock);
-  print("done");
-  owner = owner;
-} else {
-  rate1 = j1;
-}
-int is_enen = (is_evenx - j1);
-is_evenx = limit + (4 / 1);
-print(rate1 * rate1 != j1);
+print(j);

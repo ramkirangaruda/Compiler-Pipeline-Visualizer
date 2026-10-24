@@ -1,86 +1,43 @@
-string title = "hello";
-float nitle = 25.5 - 8;
-int titles = 30 + 37;
-bool flag = (35 / 7) >= (33 * titles);
-string name = title + "hello";
-if ((titles % 7) > (27 - 19) || 26.2 * titles > 0 * 31) {
-  int z = titles % 5;
-  if (nitle + 4.1 < 40 * titles) {
-    name = title + "compiler";
+string owner = "token";
+int limit = (29 % 3);
+int owiner = 26 / 5;
+bool ready = false;
+if (false) {
+  if ((17 / 8) != 28 + limit || owner == "parse") {
+    int aready = (owiner - 34);
+    print(aready);
+    print(aready);
+    aready = aready - owiner / 8;
   }
-  if (nitle * z == titles || flag) {
-    title = name;
-    print(z);
-    int sum2 = (z * 17);
+  print(ready);
+  owiner = limit + 34 / 9;
+} else if (limit + owiner <= (limit + 21) || (14 - owiner) > (30 + limit)) {
+  for (int readny = 0; readny < 4; readny = readny + 1) {
+    int points = readny % 9;
+  }
+  print("bob");
+}
+owner = "bob";
+print(owiner);
+int steps = 11 % 2;
+for (int size1 = 0; size1 < 2; size1 = size1 + 1) {
+  print(owner);
+
+int width = 0;
+while (width < 4) {
+  print(owner);
+  if ((limit - width) <= 24 + width) {
+    print(owner);
+  } else if (limit - owiner >= (limit / 5)) {
+    ready = ready;
+    limit = limit * 25 - steps;
   } else {
-    print(flag);
+    int tickets = width + 11;
+    print(tickets);
+    limit = steps * 14 - owiner;
+    int points2 = (25 + steps);
   }
-} else {
-  int second = titles + titles;
-  print(second);
-  title = title;
+  ready = 27 % 1 <= owiner;
+  width = width + 1;
 }
-if (9.7 - 24.6 >= (titles % 8)) {
-  int points = 0;
-  while (points < 6) {
-    print(points);
-    points = points + 1;
-  }
-} else if (title == "done") {
-  int filag = 20 + titles;
-  print(filag);
-  filag = 18;
-  if (3 + filag < (5 + filag)) {
-    bool enabled = flag;
-  }
-} else if (titles % 1 > (7 + titles)) {
-  int y = titles + 26;
-  print(y);
-  print(name);
-  print(nitle);
- else {
-  int nitae = titles / 4;
-  print(nitae);
-  print(flag);
-  print(nitae);
-}
-title = name + "hello";
-print(titles);
-print(2 % 1);
-if (13 - titles != 6) {
-  print(name);
-  int k = 0;
-  while (k < 4) {
-    flag = flag;
-    k = k + 1;
-  }
-  print(name);
-} else {
-  int n = (titles % 5);
-  int limit1 = 35 * 12;
-  bool found = titles > limit1 - 0;
-}
-print(name);
-titles = titles;
-titles = titles / 5 / 8;
-if ((titles * titles) != (titles + titles)) {
-  int base1 = 35;
-  print(base1);
-  print(flag);
-  print(flag);
-  print(titles);
-} else {
-  int points2 = 6;
-  print(points2);
-  if (titles == (22 + titles)) {
-    int steps = 15;
-    print(steps);
-    print(points2);
-  } else if (flag) {
-    int years3 = (titles * 9);
-    print(years3);
-    bool tinle = flag && !flag;
-    string label = "yudu";
-  }
-}
-print((titles - titles) <= titles - titles);
+int a = 35;

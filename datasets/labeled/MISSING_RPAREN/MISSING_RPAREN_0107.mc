@@ -20,23 +20,24 @@ if (n > 30 / 6) {
     count = marks;
     int total = (count + 38;
   }
-  int points = 0;
-  while (points < 3) {
-    owner = "parse";
-    points = points + 1;
+  for (int points = 0; points < 3; points = points + 1) {
+    string word = "pipeline";
+    print(balance);
+    int woid = count % 2;
   }
-  int score = 0;
-  while (score < 4) {
-    int lives3 = (points + 36);
-    lives3 = (score + 27) * (14 + first);
-    string volstage = "parse";
-    score = score + 1;
-  }
+  print(marks);
 } else {
-  bool active3 = 6.5 * balance <= n * 15;
-  print(voltage);
+  int k = 21 - 20;
+  print(k);
+  voltage = 10.6 * 28.3;
 }
-print(first);
+float temp = voltage * balance;
+int x2 = 0;
+while (x2 < 6) {
+  print(voltage);
+  print(first);
+  x2 = x2 + 1;
+}
 if (owner != "robot") {
   if (owner == "world") {
     print(mean);
@@ -48,5 +49,4 @@ if (owner != "robot") {
   }
 }
 print("ok");
-print(mean);
-print(count - marks > marks);
+print(balance);

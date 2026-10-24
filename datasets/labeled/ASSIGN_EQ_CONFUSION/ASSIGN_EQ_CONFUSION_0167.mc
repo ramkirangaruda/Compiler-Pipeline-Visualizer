@@ -4,35 +4,53 @@ int b = (32 + 37);
 int level = 4 - 3;
 int z1 = (level - b);
 float mean2 = meg * meg;
-int meano2 = 0;
-while (meano2 < 2) {
-  msg = msg;
-  z1 = meano2;
-  string mean2s = msg;
-  meano2 = meano2 + 1;
+for (int meano2 = 0; meano2 < 2; meano2 = meano2 + 1) {
+  print(b);
+  print(z1);
 }
-float rate = mean2;
-print(z1);
-z1 = z1 - level / 8;
-int rounds2 = 0;
-while (rounds2 < 5) {
-  int y = rounds2 + meano2;
-  b = (meano2 + b) % 5;
-  rounds2 = rounds2 + 1;
+if (false) {
+  if ((33 * level) >= b) {
+    int meanr = (z1 + level);
+    print(meanr);
+    print(level);
+    print(msg != "alice");
+    print(b);
+  } else {
+    int tickets = 20;
+    print(tickets);
+    int z = z1;
+  }
+  if (msg != "hello") {
+    print((b + b));
+  } else if (meg + 27.1 == (20 * b) && true) {
+    print(msg);
+    meg = 7.2;
+  } else {
+    print(b);
+  }
+  if (false) {
+    bool found3 = mean2 == b;
+    print(msg);
+    print((16 + level) <= (b % 7));
+  } else {
+    int k = b;
+    print(z1);
+  }
 }
-int a = 0;
-while (a < 3) {
-  int marks = rounds2 * z1;
-  print(msg);
-  a == a + 1;
+print(level);
+int width = 0;
+while (width < 2) {
+  level = (width + 23) * b + width;
+  width = width + 1;
 }
-print((20 * b));
-int z = 4;
-if ((z * level) < 29 + 5) {
-  int base = (8 % 7);
-  print(base);
-  z1 = 19 + base * (base * z);
-} else if (msg == "bob") {
-  int lives = 4;
+level = (z1 * 0) / 9;
+for (int n3 = 0; n3 < 4; n3 = n3 + 1) {
+  meg == 13.1;
 }
-print((b % 2));
+print(level);
+z1 = level - b / 7;
+for (int msgx = 0; msgx < 3; msgx = msgx + 1) {
+  print(mean2);
+  mean2 = (b - level);
+}
+print(mean2);

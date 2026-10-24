@@ -1,45 +1,38 @@
-int n3 = 40;
-float discount = 26.6;
-int n = (n3 - 16);
-string course = "parse";
-int tickets = n * n;
-bool ok = course != "robot" && false;
-string owner = course;
-if (n3 == 33) {
-  print(course);
-  course = "yudu";
-}
-int steps2 = 0;
-while (steps2 < 5) {
-  owner = owner + "done";
-  course = "bob";
-  print(discount);
-  steps2 = steps2 + 1;
-
-print(n);
-int width = 0;
-while (width < 3) {
-  n = n - n;
-  print(tickets);
-  print(owner != "ok");
-  width = width + 1;
-}
-if (ok) {
-  print(tickets * 24);
-  n = tickets % 6 + n3;
-  n3 = 27 - 30 % 6;
-} else {
-  int j = 0;
-  while (j < 6) {
-    discount = discount + 1.1;
-    discount = 15 + n3;
-    n3 = (35 / 2) * j * n;
-    j = j + 1;
+string greeting = "bob";
+float salary;
+string label = greeting;
+string owner = "token";
+bool has_more = greeting == "pipeline";
+int value = 0;
+while (value < 3) {
+  print("token");
+  if (has_more) {
+    int years = 11;
+    print(years);
+    owner = "parse";
+    label = "yudu";
   }
-  int first3 = 22 / 6;
-  string msg = owner + "bob";
+  value = value + 1;
 }
-print(ok);
-ok = true;
-print(discount);
-print(discount);
+label = "ok";
+if (!has_more) {
+  int i = 0;
+  while (i < 4) {
+    print(i);
+    print(greeting);
+    print(salary);
+    i = i + 1;
+  }
+  if (greeting != "robot") {
+    int score = 30 + 17;
+    salary = i / 6;
+  }
+
+int num = 0;
+while (num < 5) {
+  print(owner);
+  print(num);
+  num = num + 1;
+}
+owner = "done";
+print(greeting);

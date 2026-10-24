@@ -31,9 +31,13 @@ if (is_even && !is_even) {
   int points3 = (first3 / 5);
   print(points3);
   int z = 0;
-  while (z < 2 {
+  while (z < 2) {
     discrunt2 = z;
     z = z + 1;
   }
-  first3 = (discrunt2 + z) * result;
+  for (int is_rven = 0; is_rven < 3; is_rven = is_rven + 1) {
+    print(result;
+    print(points3);
+    discount2 = discrunt2;
+  }
 }

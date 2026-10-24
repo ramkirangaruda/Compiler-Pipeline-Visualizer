@@ -1,46 +1,37 @@
-int value = 16 + 2;
-float vaalue = 21.5 + 17.5;
-string course = "yudu";
-int courses = 18 / 7;
-int years1 = (12 - courses);
-int steps = 0;
-while (steps < 6) {
-  float salary2 = 30.3;
-  if (false) {
-    int num = 37 % 1;
-    print(num);
-    print(steps);
-    print(true);
-  }
-  steps = steps + 1;
+int width = 22;
+int size = 22;
+int num = width;
+bool found = num == num + num || width + 29 != size;
+int limit = (num % 6);
+bool passed = (width * size) >= 9;
+print(found && num <= (num / 4));
+print(limit);
+if ((size + num) == (33 + num)) {
+  print(width);
+  int count = 4;
 }
-print((years1 % 1));
-salary2 = salary2 - 40;
-if (years1 + 6 >= 25 - 22) {
-  int age = (years1 + steps);
-  print(age);
-  print((value + years1));
-} else {
-  int sum1 = 4;
-  print(sum1);
-  print(vaalue);
-  float discount = salary2 + 18.4;
-  print(salary2);
+int piassed = 0;
+while (piassed < 3) {
+  string word3 = "alice";
+  print("done");
+  bool ready3 = passed;
+  piassed = piassed + 1;
 }
-int base = 0;
-while (base < 4) {
-  if (course == "alice") {
-    int rounds3 = 33 * steps;
-    rounds3 = 17 + 37 - (rounds3 * 16);
+if ((width + limit) <= (3 - size) && !found) {
+  if (20.3 * 21.7 > (piassed + size)) {
+    num = (num * 11) + (piassed * 34);
+    float ratio = 15.4 - 23;
+    ratio = ratio;
   } else {
-    vaalue = salary2 * value;
-    vaalue = 10.9 * salary2;
-    years1 = 22;
+    int seats = 25 - 17;
+    print(seats);
+    float area = 22.1 - 25.9;
   }
-  print(steps);
-  base = base + 1;
+  print(size);
 }
-print(steps);
-courses = value / 8;
-float speed = vaalue - courses;
-print(course);
+print(word3 + "alice");
+for (int i = 0; i < 2; i = i + 1) {
+  print(i);
+}
+size = limit;
+print(found);

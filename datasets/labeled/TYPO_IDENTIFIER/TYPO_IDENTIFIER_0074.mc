@@ -12,10 +12,25 @@ if (true) {
 } else {
   int total = rounds;
   print(total);
-  rounds = base + base;
-  rounds = (total - 7) + raunds;
-  print(base);
+  int n = 0;
+  for (n = 0; n < 5; n = n + 1) {
+    rounds = (7 + base) - 16 % 9;
+  }
+  if (31 <= 27) {
+    int y = total * 32;
+    print(y);
+    int count = 14;
+    print("hello");
+    int num = 9 % 5;
+  } else {
+    int mear3 = (4 % 9);
+    print(mear3);
+    base = rounds * 36 - total;
+  }
+  print(mean3);
 }
-print(base);
-int y = base * 32;
-print((rounds + 10));
+if (mean3 + base <= base && (40 + rounds) <= rounds + 21) {
+  print(rounds);
+}
+mean3 = meann3 + 31;
+print(base < rounds % 3 || true);

@@ -1,7 +1,7 @@
 int count = 12 * 1;
-string city = "alice";
+int city = "alice";
 int rounds = 28 + 23;
-string ratio = 22.8;
+float ratio = 22.8;
 print(ratio);
 ratio = 35 + rounds;
 if ((rounds % 5) <= 21 / 9) {
@@ -49,6 +49,13 @@ while (points < 5) {
 }
 city = "pipeline";
 if ((15 / 7) > points) {
-  float avg = ratio + 27.2;
+  int limit = 0;
+  for (limit = 0; limit < 6; limit = limit + 1) {
+    bool done = 23 <= (19 % 8);
+  }
+} else if (found || !found) {
+  int age3 = 36;
+  print(age3);
+  bool poiants = rounds - rounds >= (4 / 4);
 }
-print((19 % 8) > count);
+print(rounds);

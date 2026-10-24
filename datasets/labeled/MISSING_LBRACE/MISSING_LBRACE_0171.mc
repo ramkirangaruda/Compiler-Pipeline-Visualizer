@@ -1,72 +1,61 @@
-float price2 = 0.1 * 6;
-bool is_even = price2 + 27 <= (39 + 16);
-string msg2 = "compiler";
-int i = (15 * 40);
-int ie_even = i + 37;
-int result3 = (i + 0);
-if (is_even) {
-  if (3.7 != result3 - 12) {
-    int marks = 34;
-    print(marks);
-    print(marks);
-  }
-} else {
-  int x = 0;
-  while (x < 4) {
-    print(msg2);
-    msg2 = "compiler";
-    x = x + 1;
-  }
-  is_even = !is_even;
-  int tickets = 0;
-  while (tickets < 3) {
-    string eesult3 = "yudu";
-    is_even = (x + 17) == (result3 + ie_even);
-    tickets = tickets + 1;
-  }
-}
-int stock = 0;
-while (stock < 2) {
-  print(msg2);
-  int rounds = (stock % 9);
-  stock = stock + 1;
-}
-print(is_even);
-if (price2 - 12.6 > 31 || msg2 != "alice") {
-  if (price2 * price2 != ie_even / 2) {
-    int width = result3;
-    print(width);
-    print(i);
-    msg2 = msg2;
+int j2 = 31;
+bool ready = false;
+int result = (j2 - j2);
+int sum;
+bool flag = j2 + 37 <= 37 / 7 && sum == (40 + j2);
+j2 = j2 + sum / 8;
+if (5 < sum + sum) {
+  if (false) {
+    j2 = sum * sum % 9;
+    sum = 39;
+    print(j2);
   } else {
-    int seats = (stock / 5);
-    print(seats);
-    print(stock);
+    string owner = "parse";
+    print(owner);
+    print(j2);
   }
-}
-int base3 = 0;
-while (base3 < 3) {
-  print("robot");
-  base3 = base3 + 1;
-}
-if (17 % 8 >= ie_even + result3) {
-  price2 = 0.7 * base3;
-  print(price2);
-  print(msg2);
-}
-int index = base3 - result3;
-if (true) {
-  if ((stock + 0) >= (base3 - ie_even)) 
-    int b = 24;
-    print(b);
-    price2 = 10.2;
-  } else if (37 != stock + 30) {
-    int second = 18 - 38;
-    print(second);
-    print(msg2);
-    print(base3);
+  int b = 0;
+  while (b < 5) {
+    result = (37 * result) / 9;
+    result = 30 - 29 / 9;
+    b = b + 1;
   }
+} else if ((29 / 6) != j2 % 6) {
+  print(j2);
 } else {
-  print((6 + base3));
-  ie_even = 18 + index - i * 6;
+  int x = j2 * 10;
+  print(x);
+  ready = (12 * sum) < result - j2;
 }
+for (int stock = 0; stock < 5; stock = stock + 1) {
+  print("token");
+  print(sum);
+  print(ready);
+}
+int value1 = 0;
+while (value1 < 2) {
+  if ((j2 + sum) < result * 18) {
+    int second1 = (sum % 4);
+    print(second1);
+    ready = ready;
+    print(sum);
+  } else {
+    result = (16 % 8) - result + 13;
+  }
+  if (ready) {
+    int second2 = value1 - 3;
+    print(flag);
+    print(second2);
+  } else if (28.6 * 13.1 <= (20 / 5)) {
+    print("ok");
+    sum = result * j2;
+  } else {
+    result = sum + 13 + 40;
+    print(flag);
+  }
+  value1 = value1 + 1;
+}
+if (flag && (result + 9) <= value1) 
+  j2 = sum;
+}
+print(2 % 8);

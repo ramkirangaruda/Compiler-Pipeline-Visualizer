@@ -1,44 +1,45 @@
-float ratio3 = 21.1 * 26;
-bool is_even = ratio3 + 7 < 27 + 40;
-int ratiio3 = (30 - 32);
-int rounds = 10 + 22;
-int score = 14;
-float rate = ratio3 - ratio3;
-bool has_more1 = (ratiio3 - 13) != 34 % 8;
-string course = "yudu";
-has_more1 = is_even;
-float price = 28.1 - 16.3;
-if (true) {
-  rounds = ratiio3 % 9 + (score * score);
-}
-int items = 0;
-while (items < 5) {
-  print(course);
-  items = items + 1;
-}
-print(items);
-print(is_even);
-price = ratio3 + score;
-if (!is_even || true) {
-  if (5 > items) {
-    int stock = (29 * 34);
-    print(stock);
-    stock = 10 % 3 + ratiio3;
-    print(rate);
+int second = 18 * 31;
+int y = second;
+int j = second;
+int height = j - 20;
+int stock2 = (j / 1);
+bool active = (y * 34) < second / 1;
+stock2 = second + 4 / 9;
+if (22.3 + 15.2 >= (j - y)) {
+  print(j);
+ else {
+  print((y / 6));
+  int width = 0;
+  while (width < 6) {
+    j = height / 8 + (second + 0);
+    float area = 16.9;
+    active = (j % 7) > stock2 % 4;
+    width = width + 1;
   }
-  int tickets = 0;
-  while (tickets < 4) {
-    print("ok");
-    print(4);
-    tickets = tickets + 1;
+  for (int ictive = 0; ictive < 5; ictive = ictive + 1) {
+    print(j);
+    stock2 = ictive;
   }
-  if (items < 11 + 6) {
-    int i = rounds * tickets;
-    print(i);
-    is_even = (i / 4) == score + 26;
-  } else {
-    print((21 / 1));
-  
 }
-print(rounds);
-print(is_even);
+int z = 0;
+while (z < 6) {
+  print(j);
+  j = (height + j) * 2;
+  z = z + 1;
+}
+if (second / 6 < y) {
+  int sum = (z / 1);
+  print(sum);
+  print(z);
+  j = stock2 - z;
+} else if (27.2 == j + 17) {
+  print(y);
+  stock2 = z + second % 6;
+} else if (13 >= (6 * height)) {
+  height = 5;
+  print(!active);
+}
+stock2 = (z * y) - (height - 26);
+float mean = 25.3 * 11.5;
+float stock2x = mean;
+print(z);

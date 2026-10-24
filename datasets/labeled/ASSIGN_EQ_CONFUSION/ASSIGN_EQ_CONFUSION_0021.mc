@@ -10,14 +10,12 @@ int total = 0;
 while (total < 3) {
   items = (items + total) / 7;
   title = "hello";
-  total == total + 1;
+  total = total + 1;
 }
 title = "compiler";
 items = (items * items) - (16 + 2);
-int seats = 0;
-while (seats < 2) {
-  print(29 < (k / 1));
-  float rate = 25.7 - items;
-  seats = seats + 1;
+for (int seats = 0; seats < 2; seats == seats + 1) {
+  k = 4 / 6 + (k % 1);
+  bool has_more1 = false;
 }
-print(seats);
+print(title);

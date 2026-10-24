@@ -2,34 +2,47 @@ string msg1 = "done";
 int z = 4 % 6;
 int y = (z + 22);
 int base3 = y + y;
+int msg1s = 8 / 2;
 bool has_more = true || msg1 == "bob";
 string course = "alice";
 print(msg1);
 int total = msg1s / 9;
-int msg1s = 8 / 2;
-print(y);
-z = 36 / 4 - z;
-int age = 0;
-while (age < 5) {
-  has_more = course != "token";
-  print(z);
-  age = age + 1;
-}
-if (age * 35 > (total - 0)) {
-  int courses = 12;
-  print(courses);
-  print(base3);
-  print(base3);
-}
-if (17.8 - 10.4 < base3 * 16) {
-  int nsg1 = msg1s;
-  print(nsg1);
-  int second = 0;
-  while (second < 5) {
-    has_more = (msg1s * nsg1) == (age + z);
-    int lives = age;
-    print(age);
-    second = second + 1;
+int marks1 = 0;
+for (marks1 = 0; marks1 < 3; marks1 = marks1 + 1) {
+  base3 = 30 + 27 + (15 - 36);
+  if ((z + z) <= (35 + base3) && (msg1s + total) > total) {
+    print(result);
+    int result = (22 + y);
+    print((msg1s * msg1s));
+  } else {
+    print(total);
   }
+  print(y);
 }
-print(z);
+print(marks1);
+int years = 0;
+while (years < 2) {
+  float mean = 20.7 - years;
+  msg1s = marks1 / 6 + 16 + total;
+  years = years + 1;
+}
+has_more = (40 - z) > (40 + msg1s);
+float salary = 11.1 * msg1s;
+if ((12 * 9) > 25 && base3 != z * z) {
+  int years3 = 36 * 35;
+  print(years3);
+  int height = 0;
+  for (height = 0; height < 5; height = height + 1) {
+    msg1s = (years3 - 35) + (27 + years);
+    bool done = 19 + height != 26;
+    y = 30;
+  }
+  print(height);
+} else {
+  int tickets2 = 8;
+  for (int x = 0; x < 6; x = x + 1) {
+    int i3 = (2 + 14);
+  }
+  base3 = z;
+}
+print(salary);

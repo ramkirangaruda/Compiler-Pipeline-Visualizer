@@ -1,79 +1,56 @@
-int lives = (26 - 21);
-float area = 18.5;
-string label = "compiler";
-bool enabled = lives > lives;
-float salary = 19.7 - area;
-bool ready3 = (20 / 5) == lives + lives;
-if (lives % 8 == 0) {
-  print(lives * lives);
-  print(label != "token");
-} else {
-  print(salary);
+string word = "world";
+int total = 19 + 3;
+int index1 = (total % 4);
+int k3 = 29 + index1;
+float weight3 = 28.4;
+bool intex1 = (10 / 3) <= 38 + 15 || k3 - 30 >= index1 * total;
+print(k3);
+k3 = (index1 + index1) + 37 / 9;
+if (intex1) {
+  int age = 40 * k3;
 }
-if (ready3) {
-  int index = 0;
-  while (index < 5) {
-    print(lives);
-    ready3 = ready3;
-    index = index + 1;
-  }
-  int saleary = (lives + 36);
-  print(area);
-} else {
-  int latbel = lives;
-  print(latbel);
-  int n = 0;
-  while (n < 4) {
-    string title = label;
-    print(ready3);
-    n = n + 1;
-  }
-  if (23 - 8 <= n * lives) {
-    print(area);
-    int days = lives;
-    area = salary + n;
-  } else {
-    area = n;
-    label = label + "alice";
-  }
+total = index1;
+if (28.4 == total - 37 || intex1) {
+  int i = 21 - 25;
+  print(i);
+  string greeting = word + "robot";
+  string iindex1 = "robot";
+  float temp = weight3 * 26.6;
+} else if ((index1 - index1) != (5 / 7)) {
+  int intex1x = 8;
+  print(intex1x);
+  print(word != "done" || intex1);
 }
-enabled = true;
-int salaey = 0;
-while (salaey < 4) 
-  if (area <= lives && (22 % 4) == salaey) {
-    int silary = 2;
-    print(silary);
-    salary = area - silary;
-    print(label);
-    print(salary);
+int marks3 = 0;
+while (marks3 < 5) {
+  total = marks3 * index1 + 10 / 7;
+  if (true) {
+    string weigat3 = word + "parse";
+    index1 = total % 9 - index1 - marks3;
+    k3 = k3;
   }
-  salaey = salaey + 1;
-}
-int num = 0;
-while (num < 4) {
-  print(area);
-  num = num + 1;
-}
-print(label);
-print("ok");
-print(17.3 == (22 % 4));
-if (salaey < (10 % 6)) {
-  if ((lives / 9) <= (39 / 4)) {
-    print(enabled);
-    int height = lives * 16;
-    print(num);
-  } else {
-    int count = (2 + lives);
-    area = salary + 24.2;
-    float voltage = 0.2 - area;
-  }
-  int x = (num % 4);
-  print(enabled);
-}
-int k = 0;
-while (k < 3) {
-  print(area);
-  print(enabled);
-  k = k + 1;
+  marks3 = marks3 + 1;
 }
 print("compiler");
+total = index1;
+print(total);
+int intex1s = 0;
+while (intex1s < 3) {
+  int x = marks3;
+  if (weight3 < 38 + 28 || intex1) {
+    print(index1 / 1);
+    index1 = 4;
+  } else if (1 * 27 < 19 || (k3 + intex1s) != 34) 
+    int years2 = k3 / 5;
+    print(years2);
+    float speed = weight3;
+    print(word);
+  } else if ((marks3 - 35) > total % 2) {
+    int marks = total;
+    print(marks);
+    intex1 = weight3 + marks3 <= intex1s;
+    int sntex1 = (total / 8);
+  }
+  intex1s = intex1s + 1;
+}
+print((31 - 25));

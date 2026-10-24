@@ -1,34 +1,30 @@
-bool flag = 8.6 + 20 < 30 % 4;
-int points = (36 + 7);
-int total = 2 * points;
-int flatg = (3 * 14);
-bool passed3 = flag;
-string word3 = "ok";
-if (2 < 3) {
-  int passid3 = points;
-  print(passid3);
-  print(flatg);
-  float balance = 10.4 - 12.3;
-  flag = word3 == "compiler";
+string city = "done";
+int caity = 31;
+int first = (18 / 3);
+int ciny = (9 * 19);
+int items3 = (4 / 5);
+float balance1 = 29.6 - caity;
+int result = 0;
+while (result < 3) {
+  print(caity);
+  ciny = 0;
+  if (items3 - 20 >= 13 / 9) {
+    int citys = items3 * ciny;
+    print(citys);
+    first = (caity + 19) + (items3 + ciny);
+  } else if (result - 30 == (result * 34)) {
+    int z = 30;
+    print(z);
+    ciny = (caity - 36) - z;
+   else {
+    balance1 = balance1 + caity;
+    float firstx = balance1 + items3;
+    string greeting = "alice";
+  }
+  result = result + 1;
 }
-int rounds = 0;
-while (rounds < 5) {
-  float mean3 = 26.6 - 11.3;
-  rounds = rounds + 1;
-}
-word3 = "compiler";
-if (total > 5) {
-  print(word3);
-  points = total;
-} else {
-  total = (1 % 5) - total % 9;
-  print(passed3);
-  if (total < rounds) {
-    int first1 = rounds;
-    print(first1);
-    print(flatg);
-    flag = flag;
-  
-}
-print("ok");
-print(word3);
+print(city);
+print((34 % 7));
+float mean = 3.1 + balance1;
+print(items3);
+print(city);

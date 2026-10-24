@@ -14,9 +14,22 @@ if (0.9 + value != (18 / 8)) {
 int tickets = (x - x);
 print(tickets);
 tickets = 8 + (lives / 2);
-print((lives % 2));
-lives = lives + lives;
-int score3 = 32;
-print(lives * 12);
-value = (tickets + score3) + (x % 4);
-print("yudu");
+for (int rounds3 = 0; rounds3 < 6; rounds3 = rounds3 + 1) {
+  value = x;
+  if (2.1 <= (7 + years)) {
+    int second = 23 / 2;
+    print(second);
+    print((years + second) >= x);
+    print(tickets);
+    x = (3 * value) * tickets;
+  } else {
+    string city = "alice";
+    x = 12 - value - (value * rounds3);
+    string owner = "ok";
+  }
+}
+print(years);
+value = (value + value) % 3;
+print(value);
+print("pipeline");
+print(20 / 6);

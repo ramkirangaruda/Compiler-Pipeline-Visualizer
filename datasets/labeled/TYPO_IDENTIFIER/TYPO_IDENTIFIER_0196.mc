@@ -15,27 +15,13 @@ if ((rounds * 2) != 23 / 6) {
 }
 print(text);
 int paased = rounds / 7;
-passed = passed;
-text = text;
-float distance3 = dotne3 + paased;
-paased = 12 + 10 * rounds;
-if (10.1 + rounds == 29 % 5) {
-  int width1 = 30 + rounds;
-  print(width1);
-  print(width1);
-  print(iext);
-  if (dotne3 + 6 != 0 - iext) {
-    int result = width1;
-    print(result);
-    string course = text + "pipeline";
-    print(resut);
-    done3 = done3;
-  } else if ((rounds - rounds) != (iext - 40)) {
-    print(width1);
-    float ratio1 = dotne3 + 14;
-  } else {
-    text = text + "token";
-    print(dotne3);
-  }
+int texs = 0;
+for (texs = 0; texs < 6; texs = tex + 1) {
+  print(paased);
+  print(done3);
 }
-print(passed);
+print(texs);
+passed = text != "yudu";
+print(dotne3);
+rounds = iext;
+int texts = paased;

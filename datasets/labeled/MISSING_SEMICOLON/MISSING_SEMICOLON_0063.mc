@@ -10,28 +10,29 @@ if (14 <= (2 + num)) {
 } else {
   print("ok");
   string text = "pipeline";
-  int width = (3 - b);
-}
-if (0 == 38) {
-  valid = distancex == distancex + num;
-  int limit = 0;
-  while (limit < 2) {
-    string msg1 = "done"
-    limit = limit + 1;
+  for (int height = 0; height < 3; height = height + 1) {
+    print(num);
+    distance = distance + 38
   }
-  int size = 0;
-  while (size < 3) {
-    print("ok");
-    size = size + 1;
-  }
-} else {
-  num = (distancex + num) - b + num;
-  print(29 == distancex);
 }
-distancex = 4 - b % 8;
+if (distance - num >= distancex * distancex) {
+  float disitancex = distance - 20;
+}
+print(distance);
+print("ok");
+distancex = distancex % 7;
 print(distancex);
+string course = "ok";
+int stock = 0;
+while (stock < 6) {
+  if (num + stock == b * 35) {
+    print(distancex);
+  } else {
+    print(num);
+    print(num);
+    int stock2 = (num / 6);
+  }
+  float mean = distance + distance;
+  stock = stock + 1;
+}
 print(valid);
-print(num);
-print(num);
-int stock2 = (num / 6);
-print(6 > num);

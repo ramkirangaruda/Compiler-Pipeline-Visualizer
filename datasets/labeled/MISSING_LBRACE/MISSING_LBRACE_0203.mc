@@ -1,57 +1,97 @@
-int n = 34;
-float discount2 = 6.2 - 3.1;
-float temp3;
-string greeting1 = "parse";
-float speed = 26.7 - 0;
-float balance1 = 11.9;
-bool found = true;
-print(greeting1);
-string text3 = "pipeline";
-if (found) {
-  string name3 = greeting1 + "world";
-} else {
-  int years = n - 5;
-  print(years);
-  found = found;
-  n = years * 23 - n / 2;
-}
-if (7.7 <= 22 || discount2 <= n * n) {
-  if (25 > (n + 27)) {
-    int size2 = n + 29;
-    print(size2);
-    print(temp3);
-    int y = 27;
-  } else {
-    bool ok = n >= (34 - n);
+bool ok = 4.6 - 4.2 > 28 + 36;
+int value = 17 % 9;
+int age = value;
+int n = (age / 3);
+float price = 22.5 - 28.9;
+print((age + n));
+if (ok) {
+  int i = n;
+  print(i);
+  int seats = 0;
+  while (seats < 5) {
+    string greeting = "token";
+    print(i);
+    price = age % 6;
+    seats = seats + 1;
   }
-  int value = 0;
-  while (value < 4) 
-    speed = speed - 38;
-    value = value + 1;
+  if (ok) {
+    value = age;
+    print("robot");
+    value = age + 39 - 35;
   }
-  if (greeting1 != "world") {
-    greeting1 = "hello";
-    print(speed);
-    greeting1 = "pipeline";
-  } else {
-    float ratio = temp3 * value;
-    print(greeting1 == "world");
-    int first2 = (n - n);
-  }
-} else {
-  int height = n * n;
-  print(height);
-  int x = 27;
-  if ((29 % 6) < n) {
-    discount2 = speed * 23.1;
-    n = 21 * n - (height + x);
-  } else {
-    int stock = x - 25;
-    print(stock);
+  int size = 0;
+  while (size < 4) 
+    float discount = price * 2.5;
+    print(i);
     print(n);
-    found = 35 > height / 5;
-    string temp3x = "alice";
+    size = size + 1;
   }
 }
-bool passed3 = (n % 9) < n;
-print(n);
+int days = 0;
+for (days = 0; days < 2; days = days + 1) {
+  value = 18 % 6 - age - age;
+  if (!ok || n > days) {
+    print(n);
+    string owner = "world";
+  } else {
+    price = 22.8;
+    price = 4 / 4;
+  }
+  if ((n + 2) <= days + age) {
+    int base = (n - age);
+    print(base);
+    print(ok);
+    base = base / 4;
+    print(age);
+  } else {
+    age = age + 21 + days;
+    print(n);
+    float ages = price;
+  }
+}
+print(days);
+if (12.5 < 5 && value / 6 < (n - days)) {
+  print(value);
+} else {
+  print(ok);
+}
+if ((value - days) != age) {
+  int sprice = (3 + 34);
+  print(sprice);
+  if (ok && 28 % 4 != days) {
+    print("pipeline");
+    print(ok);
+  } else if (price + price <= age) {
+    print("robot");
+    int base3 = 32 % 7;
+  } else {
+    string name1 = "world";
+  }
+  if (price - 27 != 30 * value) {
+    int pritce = sprice;
+    print(pritce);
+    n = pritce;
+    price = (1 / 9);
+    print(days);
+  } else {
+    int width2 = age / 4;
+    print(width2);
+    print(value);
+    print(price);
+  }
+  n = days;
+} else {
+  int priace = days;
+  print(priace);
+  int result = 0;
+  while (result < 6) {
+    print("parse");
+    int ptice = (33 % 7);
+    value = (priace * 12) * 20;
+    result = result + 1;
+  }
+  value = days % 1 % 4;
+}
+print("parse");
+print(ok);
+print(ok);

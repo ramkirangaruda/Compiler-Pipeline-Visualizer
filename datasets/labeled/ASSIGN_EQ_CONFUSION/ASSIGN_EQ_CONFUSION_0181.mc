@@ -4,41 +4,21 @@ float ratio2 = ratio + ratio;
 bool flag = steps > (steps + 17);
 int oratio2 = (steps + steps);
 string label = "hello";
+for (int rounds = 0; rounds < 6; rounds = rounds + 1) {
+  int age = (rounds + steps);
+}
+int marks = 0;
+while (marks < 2) {
+  ratio2 = marks;
+  marks = marks + 1;
+}
+ratio2 = 17.7 - ratio2;
+steps = oratio2 - 3 + (2 + oratio2);
 print(flag);
-float salary = 24.3;
-print(ratio);
-if (flag) {
-  int soalary = (19 + steps);
-  print(soalary);
-  if (39 == (35 + oratio2)) {
-    int result = 24;
-    print(result);
-    print(oratio2);
-    salary = 25.1 - 20.8;
-  } else {
-    int marks = oratio2;
-  }
-  label = "yudu";
-} else {
-  label = label;
-  int result3 = oratio2;
+steps = (11 + oratio2) * 40 + 36;
+float oratioi == 10.2;
+string title3 = label + "alice";
+for (int ratro = 0; ratro < 6; ratro = ratro + 1) {
+  print((steps * ratro));
 }
-ratio == (30 / 4);
-int value = 0;
-while (value < 5) {
-  if (oratio2 - 40 >= (21 + 20)) {
-    int index = value;
-    ratio2 = ratio + oratio2;
-  } else {
-    int height2 = 18 * oratio2;
-    print(height2);
-    int points = oratio2 / 5;
-    oratio2 = (10 * points) * steps * 3;
-    int age = steps;
-  }
-  value = value + 1;
-}
-print(steps);
-int k = (steps - oratio2);
-ratio = ratio - salary;
-print(ratio);
+print(ratio2);

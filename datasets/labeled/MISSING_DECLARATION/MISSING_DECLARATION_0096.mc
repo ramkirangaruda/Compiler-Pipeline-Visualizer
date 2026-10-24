@@ -23,6 +23,15 @@ if (label == "compiler") {
   print(name);
 }
 print((points / 7));
-print(area);
-string msg = "done";
-print(name);
+for (int value = 0; value < 6; value = value + 1) {
+  points = 31 + value * (21 + points);
+  points = 10 % 6;
+  print(value);
+}
+int b = 0;
+while (b < 2) {
+  print(area);
+  print(name);
+  b = b + 1;
+}
+print(label);

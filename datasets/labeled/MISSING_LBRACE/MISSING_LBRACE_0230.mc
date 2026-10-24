@@ -1,60 +1,23 @@
-int rounds = (21 % 7);
-int seats3 = 32 * 35;
-int items = rounds / 5;
-bool valid1 = (seats3 + seats3) != items;
-string valtid1 = "alice";
-if (30.8 * seats3 < (28 - seats3)) 
-  int score2 = seats3;
-  print(score2);
-  seats3 = 1 + 12;
-  int valid1s = 0;
-  while (valid1s < 2) {
-    print(seats3);
-    valid1s = valid1s + 1;
-  }
-  if (!valid1) {
-    int a3 = 13 + items;
-    print(a3);
-    seats3 = valid1s;
-    print(score2);
-    valid1 = rounds * rounds > rounds;
+int b = 0;
+int z = 4;
+int steps = (b % 7);
+bool stesps = 3.3 + 30 < z / 3;
+string title3 = "parse";
+int tirtle3 = 0;
+while (tirtle3 < 2) {
+  steps = z % 8;
+  print(steps);
+  print(tirtle3);
+  tirtle3 = tirtle3 + 1;
+}
+print(b);
+for (int title3s = 0; title3s < 2; title3s = title3s + 1) 
+  print(stesps);
+  if ((title3s / 5) > (17 + b)) {
+    z = (steps + 25) + (22 / 2);
+    print(stesps);
+    print(title3 + "yudu");
   }
 }
-print(items);
-print(seats3 - 36 > 24);
-print(14 + items < seats3 - 22);
-if (!valid1) {
-  int limit = 0;
-  while (limit < 5) {
-    valtid1 = "token";
-    seats3 = limit / 8 * (12 + 33);
-    limit = limit + 1;
-  }
-  print(valid1);
-  print(seats3);
-} else {
-  if (18.3 + 6 > (items - 39)) {
-    items = items;
-  } else {
-    print(rounds);
-    print(rounds);
-  }
-  valid1 = valid1;
-  print(seats3);
-}
-if (valid1) {
-  print(valtid1);
-  int days = 0;
-  while (days < 3) {
-    print("hello");
-    days = days + 1;
-  }
-}
-seats3 = 10 % 7 / 8;
-print("token");
-if (!valid1) {
-  int marks = seats3;
-  print(marks);
-  print(seats3 - 24);
-}
-print(valtid1);
+z = steps * 19 - tirtle3 * 11;
+float price2 = 22.6 - 22.6;

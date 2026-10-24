@@ -41,11 +41,15 @@ if (valid) {
 }
 print(days);
 print(days);
-valid = 12.5 >= (14 + tickets3);
-int textx = 0;
-while (textx < 6) {
-  text = text + "alice";
-  textx = textx + 1;
+int base = 0;
+for (base = 0; base < 6; base = base + 1) {
+  valid = 27 + days != 4 % 2 || days != (base * base);
+  print(tickets3);
 }
-print(enabled);
-print(tickets3);
+text = text;
+int value = 0;
+while (value < 6) {
+  tickets3 = (13 + value) * 14;
+  days = 8 + days % 1;
+  value = value + 1;
+}

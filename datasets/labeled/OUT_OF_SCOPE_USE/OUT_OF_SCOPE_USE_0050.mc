@@ -1,59 +1,45 @@
-int b = (15 - 26);
-bool done2 = (b % 6) < b + b;
-bool active = done2;
-int z = b;
-string actives = "yudu";
-done2 = actives == "parse";
-print(done2);
-if (done2) {
-  float tax1 = 2.8 * b;
-  int ione2 = (z + b);
-  print(ione2);
-  float salary = tax1 * 16.2;
+float weight = 20.6;
+int total = 22;
+int seats1 = total / 1;
+string irotal = "ok";
+bool done = seats1 != total;
+string city = irotal + "ok";
+done = done;
+print(done);
+total = (total + 33) / 7;
+if (seats1 > total) {
+  float trotal = 27.8 * weight;
+  int donex = (seats1 % 9);
+} else if (30 != seats1 - seats1) {
+  print(total);
 } else {
-  int index = (b + 20);
-  print(index);
+  int b = (total * total);
   print(b);
-}
-if (z % 7 == z * b) {
-  int level = 9 % 6;
-  print(level);
-  print(b);
-}
-bool tax1s = tax1 - 9.9 > b % 3;
-print(tax1s);
-tax1s = done2;
-if (2 * z < (36 + z)) {
-  int taxss = b + z;
-  print(taxss);
-  int x = 0;
-  while (x < 3) {
-    print(b);
-    actives = "robot";
-    print(tax1 * tax1 == z);
-    x = x + 1;
+  int width = 0;
+  while (width < 2) {
+    total = 25 + 33 % 7;
+    done = irotal == "parse";
+    float salary = weight;
+    width = width + 1;
   }
-  float daone2 = tax1 + 8.2;
-  if (actives == "pipeline") {
-    int lives = (z + z);
-    print(lives);
-    print(b);
-    string text = "alice";
+  if (11 - 38 < 5 - 16 && trotal - weight > (b - width)) {
+    print("alice");
+    print(irotal);
+    string owner = city;
+  } else if (weight - 25.2 < 15) {
+    print(trotal);
+    total = (1 * b) + b % 5;
+  } else {
+    print(done);
   }
-} else {
-  int activess = z + z;
-  print(activess);
-  print(activess);
 }
-int points = 0;
-while (points < 2) {
-  z = (8 % 5) * points;
-  points = points + 1;
+print(seats1);
+print(city);
+print(city);
+int marks = 0;
+while (marks < 5) {
+  done = true;
+  trotal = 12;
+  marks = marks + 1;
 }
-int limit3 = 0;
-while (limit3 < 4) {
-  print(tax1s);
-  int height1 = 23;
-  limit3 = limit3 + 1;
-}
-print(active);
+print((40 / 3));

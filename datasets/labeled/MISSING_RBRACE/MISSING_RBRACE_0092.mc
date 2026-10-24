@@ -1,54 +1,26 @@
-float distance = 25.5 + 16;
-float mean = distance - 6;
-int num = 37;
-int seats = (34 - num);
-int meon = seats;
-int second1 = 0;
-while (second1 < 3) {
-  if (false) {
-    num = num;
-    print(seats);
-  } else {
-    int width = (34 + 9);
-    print(width);
-    print(21 != 2 + 29 || false);
-    distance = width % 4;
+int steps = 33 + 21;
+int size = steps % 7;
+bool passed = true;
+float voltage2 = 21.9 - 1.7;
+int z = 32;
+print(size);
+if (size == z) {
+  int passeds = 0;
+  while (passeds < 6) {
+    print(size);
+    passeds = passeds + 1;
+  
+  print(passed);
+  int age = 0;
+  while (age < 6) {
+    size = age - passeds / 5;
+    print(size);
+    age = age + 1;
   }
-  print("yudu");
-  second1 = second1 + 1;
 }
-print(mean);
-string text = "robot";
-if (true) {
-  int x = (second1 + second1);
-  print(x);
-  print(meon);
-  if (24 < (21 % 1)) {
-    meon = second1 - second1;
-    mean = second1;
-    num = (33 - 16) * seats + 2;
-  } else {
-    int steps = (num - 2);
-    print(steps);
-    num = steps + (1 + 32);
-    seats = 4;
-    print(text + "bob");
-  }
-  print(num);
- else {
-  mean = (26 - 10);
-  mean = (meon + 28);
-}
-int distances = 0;
-while (distances < 4) {
-  print(distance);
-  if (text != "hello") {
-    int limit1 = (0 + 27);
-    print(limit1);
-    seats = num + 33 / 9;
-    print(limit1);
-  }
-  float balance = distance * distances;
-  distances = distances + 1;
-}
-print(seats);
+print("yudu");
+passed = z - size < (size - 17);
+voltage2 = 10.1 * z;
+print(z);
+print("bob");
+print(z);

@@ -1,27 +1,35 @@
-int stock = 15 / 2;
-int rounds3 = stock;
-float rounsds3 = 12.4;
-if (false) {
-  int z = (rounds3 * 24);
-  print(z);
-  int years = 0;
-  while (years < 6) {
-    rounds3 = 28 / 4 * (11 + 36);
-    print("compiler");
-    rounds3 = z % 3 + rounds3;
-    years = years + 1;
+string label = "done";
+int n = (37 / 8);
+bool passed = 32 - 20 > n - n;
+int labelx = n + 37;
+if (35 > labelx) {
+  if (passed) {
+    n = labelx;
+    labelx = (n * 15) * n % 6;
+    bool ok = passed;
   }
-} else 
-  int count1 = (rounds3 - rounds3);
-  print(count1);
-  print(stock);
+  if (passed) 
+    int j = (n * labelx);
+    print(j);
+    print(12 < labelx / 3);
+  }
+} else {
+  print(label);
 }
-rounsds3 = (rounds3 + 2);
-print(rounsds3);
-print(rounds3);
-stock = 19;
-print(stock);
-print("bob");
-print(stock);
-rounds3 = rounds3 - stock + 28;
-print(rounsds3);
+if (30.5 <= labelx % 5) {
+  int passei = labelx - n;
+  print(passei);
+  float price = 25.9 - 17;
+} else {
+  int a = (23 * 25);
+  print(a);
+  labelx = 5;
+  int first = a + 0;
+}
+for (int result3 = 0; result3 < 3; result3 = result3 + 1) {
+  print(result3);
+  n = result3 + result3 % 4;
+}
+print(n);
+print(labelx);
+print(labelx);

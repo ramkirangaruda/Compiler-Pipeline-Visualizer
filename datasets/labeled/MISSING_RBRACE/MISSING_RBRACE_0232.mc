@@ -1,43 +1,37 @@
-int days = 2 * 4;
-int num = days + days;
-int width1 = num / 8;
-int value = (num / 6);
-if (false) {
-  int n = (24 / 8);
-  print(n);
-  print((17 + width1));
-}
-int steps = 0;
-while (steps < 6) {
-  value = (19 * 34) % 3;
-  steps = steps + 1;
-}
-if (15.6 * 5.7 != 32 + days) {
-  int size = width1 % 9;
-  print(size);
-  print(steps);
-  int items = 0;
-  while (items < 2) {
-    string stepss = "alice";
-    print(size);
-    print(stepss);
-    items = items + 1;
-  
-}
-print(days);
-int z = 0;
-while (z < 6) {
-  if (value != (num - z)) {
-    int tickets3 = z;
-    print(tickets3);
+int b = (23 - 11);
+int age = 35;
+int sum3 = 26 * 21;
+print(sum3);
+sum3 = (b + 12) + 0;
+print(sum3);
+sum3 = age;
+if (true) {
+  sum3 = age;
+  bool ok2 = false;
+  print(sum3);
+ else {
+  if (true) {
+    int base2 = sum3 * b;
+    print(base2);
+    print("done");
+    base2 = b;
+  } else if (b / 4 >= sum3 % 3) {
+    int steps = (30 + 4);
     print(steps);
+    int width = steps + 22;
+    print(sum3);
   }
-  days = (26 * 21) * steps / 3;
-  int rounds = 20;
-  z = z + 1;
+  if (8.2 < (b - 39)) {
+    print("hello");
+    int lives = (15 % 1);
+    print(lives);
+  } else {
+    int n3 = (3 - age);
+    print(n3);
+    print(19.7 - n3 >= 9);
+    b = (age + 21) + 19;
+    print(sum3);
+  }
 }
-print("compiler");
-print(width1);
-print("alice");
-int second = value;
-print(width1);
+sum3 = sum3 + (24 + 24);
+print(sum3);

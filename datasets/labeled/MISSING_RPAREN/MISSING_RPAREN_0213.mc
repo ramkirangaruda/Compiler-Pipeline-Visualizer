@@ -13,26 +13,29 @@ while (years < 2) {
 float tax1 = 4.3;
 is_even3 = (40 + 24) <= b + years;
 int items1 = 0;
-while (items1 < 3) {
-  tax1 = 33 / 8;
-  if ((12 + 29) == b + 15) {
-    int seats1 = 18;
-    print(seats1);
-    print((17 + years));
-    print(items1);
-    print(items1);
-  } else if ((9 % 1 != 38) {
-    int orate2 = b - result1;
-    print(orate2);
-    print("parse");
-    int days = 36 % 5;
-  }
-  items1 = items1 + 1;
+for (items1 = 0; items1 < 3; items1 = items1 + 1) {
+  float salary = 3.9;
+  is_even3 = 4 - items1 > num;
+  b = (b / 9) * 2;
 }
-int steps = 15 % 3;
-print(is_even3);
-result1 = 5 % 7 + (years * b);
-print(is_even3);
-tax1 = (items1 / 7);
-print(tax1);
-print(steps % 7);
+print(items1);
+rate2 = 25.2 * years;
+for (int count = 0; count < 3; count = count + 1) {
+  if (tax1 * 2.9 > 8) {
+    int score = (22 - 37);
+    print(score);
+    float avg = tax1 * 24.3;
+    float avg2 = 14.9;
+    print(rate2);
+  }
+  print(3 * items1;
+  rate2 = (37 + 5);
+}
+if (found) {
+  print(num);
+  rate2 = rate2 - num;
+  print(found);
+}
+int limit = result1 + items1;
+is_even3 = (13 - years) >= 23 - b;
+int level3 = 7;

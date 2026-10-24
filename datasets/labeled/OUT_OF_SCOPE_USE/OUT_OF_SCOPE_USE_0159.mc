@@ -1,68 +1,45 @@
-string greeting = "pipeline";
-float area2 = 20.2 * 21.5;
-bool done = true || (7 - 22) > 25;
-string name = "robot";
-string title3 = "alice";
-if (area2 * area2 <= (2 * 10)) {
-  int num = 27 + 34;
-  print(num);
-  bool ok1 = done || 37 >= num / 7;
-  print("parse");
-  bool found = 7.4 - num <= (num + num);
-}
-int second = 0;
-while (second < 3) {
-  string text = "token";
-  print(area2);
-  if (title3 == "alice") {
-    int count = (second - 20);
-    title3 = greeting;
-  } else {
-    int x = 20;
-    print(x);
-    print(title3);
-    print(done);
-    print(name);
-  }
-  name = "token";
-  second = second + 1;
-}
-if (second / 4 == (second - 39) || area2 - area2 == second + second) {
-  int first = 25;
-  print(first);
-  print(21 < second);
-  print(12 + first);
-  print(first);
-} else if ((second + second) < second) {
-  int limit = second % 6;
-  print(limit);
-  area2 = second + limit;
+int lives2;
+int result = lives2;
+bool done = lives2 % 3 == (lives2 % 3);
+if (40 * lives2 > lives2) {
+  float rate1 = 26.4;
+  int n2 = result * 7;
+  print(n2);
+  result = lives2 * 33 % 8;
+  rate1 = rate1 - lives2;
+  rate1 = 9;
 } else {
-  int arna2 = second % 8;
-  print(arna2);
-  print(arna2);
-  print(area2);
-  greeting = "robot";
+  print(lives2);
 }
-print(area2);
-int height = 0;
-while (height < 5) {
-  print("done");
-  text = "robot";
-  name = text + "alice";
-  height = height + 1;
-}
-print(height + height);
-if (false) {
-  int count2 = (7 % 7);
-  print(count2);
-  text = text;
-  int stock = 0;
-  while (stock < 5) {
-    print(done);
-    title3 = greeting + "compiler";
-    print(greeting == "bob");
-    stock = stock + 1;
+result = 20 + result / 7;
+if ((lives2 * result) != (lives2 / 2)) {
+  if (rate1 == (lives2 % 4)) {
+    int days = (33 % 9);
+    print(days);
+    print(done && rate1 >= (lives2 - lives2));
+    print(rate1);
+  } else {
+    int sum = (result % 9);
+    print(sum);
+    int y = 20;
+  }
+  int base = 0;
+  for (base = 0; base < 4; base = base + 1) {
+    bool sase = done;
   }
 }
-print((10 + height));
+if (16 != (result / 4)) {
+  print(done);
+  print(done);
+  if (22.1 < result + 2) {
+    int rato1 = 35 * lives2;
+    print(rato1);
+    print(rate1);
+    lives2 = 16 % 6 + (10 + rato1);
+  } else {
+    float salary = rate1 * rate1;
+  }
+}
+print("robot");
+string city1 = "ok";
+print(lives2);

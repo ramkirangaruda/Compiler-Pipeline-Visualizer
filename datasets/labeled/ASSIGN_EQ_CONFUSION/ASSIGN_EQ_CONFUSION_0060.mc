@@ -10,7 +10,7 @@ while (years < 6) {
   limit = (39 + limit2) - 2;
   title = title;
   if (indexx + 0.1 >= limit2 + years) {
-    int size == (limit + years);
+    int size = (limit + years);
     print(size);
     print(limit2);
   } else {
@@ -44,6 +44,13 @@ if (done) {
   }
 }
 title = title + "alice";
-indexx = 13.2 - 27;
-string name = title + "pipeline";
-print((limit - stock));
+for (int seats = 0; seats < 3; seats = seats + 1) {
+  print((seats + index) > (8 * 15));
+  print(limit);
+}
+int lives == 0;
+while (lives < 6) {
+  print(stock);
+  string label3 = "done";
+  lives = lives + 1;
+}

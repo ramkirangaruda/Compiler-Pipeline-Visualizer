@@ -1,32 +1,20 @@
-int lives = 11 + 26;
-float balance = 15.7;
-int tickets = lives;
-float speed = balance;
-bool is_even = balance == 10 * lives;
-string title = "token";
-print(tickets);
-int first = 0;
-while (first < 4) {
-  balance = (first * lives);
-  first = first + 1;
-}
-print(tickets);
-if (is_even) {
-  int baalance = lives + first;
-  if (!is_even || is_even) {
-    speed = 6.4;
-    tickets = (baalance % 7) - baalance / 7;
+float voltage = 18.8 + 33;
+int voltnage = 14 * 15;
+float distance = 10.4 + voltage;
+float tax = distance + distance;
+string title = "yudu";
+string owner = title;
+bool valid = (3 * voltnage) > (voltnage / 5);
+string diastance = owner + "world";
+diastance = "yudu";
+string greeting3 = "yudu";
+if ((voltnage + voltnage) > 10 - voltnage) {
+  if ((voltnage - 14) <= (voltnage / 8)) {
+    int k = 4 - 28;
+    print(k);
+    voltage = voltnage + voltnage;
+    print(voltnage);
   
-} else {
-  print("parse");
 }
-int rounds = 0;
-while (rounds < 4) {
-  print(39);
-  if ((lives / 9) <= (lives / 9)) {
-    int y = 2;
-    print(rounds);
-  }
-  rounds = rounds + 1;
-}
-print(first);
+greeting3 = "bob";
+print(voltnage < voltnage + 4);

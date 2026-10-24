@@ -1,38 +1,65 @@
-string msg = "done";
-float meg = 19.7;
-int b = (32 + 37);
-int level = 4 - 3;
-int z1 = (level - b);
-float mean2 = meg * meg;
-int meano2 = 0;
-while (meano2 < 2) {
-  msg = msg;
-  z1 = meano2;
-  string mean2s = msg;
-  meano2 = meano2 + 1;
+int total = 16;
+float rate = 4.7 * 3.8;
+int value = 24;
+int iate = 12 + total;
+int z = iate;
+string city = "done";
+int height1 = 0;
+while (height1 < 6) {
+  print(value);
+  height1 = height1 + 1;
 }
-float rate = mean2;
-print(z1);
-z1 = z1 - level / 8;
-int rounds2 = 0;
-while (rounds2 < 5) {
-  int y = rounds2 + meano2;
-  b = (meano2 + b) % 5;
-  rounds2 = rounds2 + 1;
+if (city == "ok" && true) {
+  int j1 = value + height1;
+  total = iate / 3 % 7;
+  int i1 = iate + 21;
+} else {
+  if ((25 / 7) != height1 * value) {
+    float area = rate;
+    print(city);
+    iate = (total + total) + 10;
+  } else {
+    iate = value + (total - height1);
+  }
 
-int a = 0;
-while (a < 3) {
-  int marks = rounds2 * z1;
-  print(msg);
-  a = a + 1;
+if (false) {
+  for (int first1 = 0; first1 < 4; first1 = first1 + 1) {
+    rate = rate - rate;
+    rate = 28 * value;
+    print(city);
+  }
+  iate = 32 - 3 + height1;
+} else if (city == "alice") {
+  iate = 8 + 34 % 3;
 }
-print((20 * b));
-int z = 4;
-if ((z * level) < 29 + 5) {
-  int base = (8 % 7);
-  print(base);
-  z1 = 19 + base * (base * z);
-} else if (msg == "bob") {
-  int lives = 4;
+int score = 0;
+while (score < 5) {
+  value = 7 + iate * height1 - total;
+  score = score + 1;
 }
-print((b % 2));
+int x = 0;
+while (x < 5) {
+  print(height1);
+  if (34 * x != 6 * 4) {
+    int steps = 23;
+    print(steps);
+    print(city);
+  }
+  x = x + 1;
+}
+if (rate != 10) {
+  rate = 25.9 + rate;
+  if (13 * 14 >= score) {
+    int ratex = 15;
+    print(rate);
+  } else {
+    print((13 * height1));
+    bool ready = city != "token" && city != "yudu";
+    rate = rate;
+  }
+  int tickets = iate / 3;
+} else {
+  total = x;
+  iate = 39 * 4 % 8;
+}
+print(score);

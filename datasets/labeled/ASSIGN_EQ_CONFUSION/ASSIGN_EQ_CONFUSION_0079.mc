@@ -36,13 +36,27 @@ if (itemsxx <= itemsxx % 6) {
   int siteoms = 24 + 29;
   print(siteoms);
   print(itemsxx);
-  itemsx = "robot";
-  if (items >= 5 + itemsxx) {
-    print(itemsx + "world");
-    print(siteoms);
-  } else {
-    int k = itemsxx - items;
-    print(k);
-    int height = (8 % 9);
+  int aitemsx = 0;
+  for (aitemsx = 0; aitemsx < 3; aitemsx = aitemsx + 1) {
+    int n3 = 2 + 26;
+    itemsxx = aitemsx;
+    siteoms = 8 % 8 + (23 + 6);
   }
+  print(aitemsx);
+  int rounds = 0;
+  while (rounds < 6) {
+    print(aitemsx);
+    rounds = rounds + 1;
+  }
+} else {
+  if (sitems) {
+    int result = (itemsxx - itemsxx);
+    print(result);
+    items = items;
+  } else {
+    print(items);
+  }
+  itemsx = "robot";
+  bool has_more1 = itemsxx / 4 < (items + items) || items + 2 < (items % 9);
 }
+print(itemsxx);

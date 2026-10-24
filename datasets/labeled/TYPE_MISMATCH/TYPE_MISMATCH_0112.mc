@@ -3,42 +3,42 @@ float distance = 7.4 - 39;
 int b = 40;
 bool valid = true;
 print(b);
-int years = 0;
-while (years < 3) {
-  print(text);
-  bool done = 2.5;
-  if (valid) {
-    distance = distance - b;
+for (int years = 0; years; years = years + 1) {
+  print(distance);
+  if (distance + b < b / 2) {
+    distance = (years - b);
   } else {
-    int days = (years + 24);
-    print(days);
-    print(true || done);
-    print(done);
+    int rounds = (years / 7);
+    print(rounds);
+    print(true || valid);
+    print(rounds);
   }
-  years = years + 1;
 }
-if (8.5 - 11 >= (years - b)) {
+if (8.5 - 11 >= (b - b)) {
   int items = 3;
   float salary = 22.7 + b;
 } else if (text != "ok") {
   int limit = (6 * b);
   print(limit);
-  b = limit / 7 * years / 7;
-  print("bob");
-} else {
-  if (distance - 16.8 <= (years - years)) {
-    print(distance);
-    float speed = distance - distance;
-    print(speed);
-  } else if ((years - b) != (years + b)) {
-    int texts = years;
-    print(texts);
-    print("compiler");
+  for (int num = 0; num < 4; num = num + 1) {
+    float balance = distance * distance;
+    balance = b * num;
+    print(b);
   }
+  print(valid);
+} else {
+  print(text);
 }
-b = 31 - b % 1;
-print("done");
-print(years);
-valid = 4 + years == years % 9;
-print(20 * years);
-print(distance);
+distance = 20.7 - 31;
+print(text);
+distance = b;
+print(text);
+if (valid) {
+  if (valid) {
+    valid = distance >= b + 17;
+    int j = 31;
+  }
+} else {
+  valid = b + 4 < (34 % 9);
+  print("world");
+}

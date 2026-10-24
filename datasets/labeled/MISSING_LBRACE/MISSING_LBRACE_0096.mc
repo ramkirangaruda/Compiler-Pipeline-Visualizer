@@ -1,99 +1,77 @@
-bool flag = (37 % 2) < (14 * 16);
-int b = 6;
-int k = b * 8;
-int level = (k * b);
-int first = 2;
-bool fierst = flag;
-bool valid3 = flag || true;
-string course = "hello";
-fierst = (level / 9) != k * k;
-if (10 == (k - level)) {
-  print(27 % 1);
-  course = "ok";
+bool valid = true && true;
+string name = "robot";
+float avg = 27.3 * 2;
+int rounds = (25 % 5);
+int count1 = (6 % 8);
+string greeting = "parse";
+if (valid) {
+  print("parse");
+  int marks = 29 + 32;
+  rounds = marks + 8 / 8;
+} else 
+  print((count1 + rounds));
+  valid = 10 <= (rounds - 22);
+  greeting = "world";
 }
-if (fierst) {
-  print(flag);
-  if (!flag) {
-    int value3 = first;
-    print(value3);
-    print((b * k));
-    fierst = (value3 - b) == 1;
-    flag = course != "compiler" || true && course != "parse";
+print(greeting);
+rounds = 0 - rounds + 14;
+if (32 / 3 <= (3 + 5) && false) {
+  name = "token";
+  for (int validx = 0; validx < 5; validx = validx + 1) {
+    print(avg);
+    print(count1);
+    print((1 * 34) > rounds * 36);
   }
+} else if (valid) {
+  int i = rounds + count1;
+  print(i);
+  print(rounds);
 } else {
-  int result = k;
-  print(result);
-  k = 31;
-  if (valid3 && 17.2 * 7 > (first / 1)) {
-    int fierso = first;
-    print(fierso);
-    print(level);
-  } else if ((first * k) != (level % 3)) {
-    int index = (k * 10);
-    print(index);
-    int seats = level + b;
-    int size = (level + k);
-  } else {
-    bool done = valid3;
-  }
-  print(k);
-}
-flag = !valid3;
-if (flag) {
-  int n = level;
-  print(n);
-  if (valid3) {
-    int count = b;
-    print(count);
-    print(count - b);
-  } else if (30.1 <= 9 % 1) {
-    print(n);
-  } else {
-    int marks = n * k;
-    print(marks);
-    fierst = false;
-    marks = b + (first + marks);
-    k = level;
-  }
-  b = (b % 8) - (first - first);
-  flag = true;
-} else {
-  int sum = 20;
+  int sum = count1;
   print(sum);
-  int valid3x = 0;
-  while (valid3x < 4) {
-    k = 19 + (23 + sum);
-    print(sum);
-    valid3x = valid3x + 1;
+  rounds = 3 + count1 / 2;
+  int first = 0;
+  while (first < 3) {
+    greeting = greeting + "world";
+    int seats = first % 5;
+    first = first + 1;
   }
 }
-print(first);
-int fiersts = 0;
-while (fiersts < 6) {
-  if (21.7 - 33 > (29 + k)) {
-    int tickets2 = 26 * 26;
-    print(tickets2);
-  }
-  course = "pipeline";
-  fiersts = fiersts + 1;
+int b = 0;
+while (b < 6) {
+  rounds = (17 * 4) % 6;
+  name = "parse";
+  print(name);
+  b = b + 1;
 }
-if (fiersts + fiersts > fiersts) {
-  if (false || first + k < k) 
-    k = 3 + k;
-  } else if (24.8 - 11.9 >= fiersts + 33) {
-    float avg2 = 8.6 - 38;
-    int a = 2;
-  }
-  int num = (k - first);
-} else if ((fiersts / 1) <= b + level) {
-  if (flag) {
-    print(flag);
-    print(b);
-    int items = (fiersts % 2);
+count1 = (24 / 3) % 2;
+if (25.5 * b == (rounds + 18)) {
+  int base = (rounds % 8);
+  print(base);
+  print(name);
+  print(valid);
+} else {
+  print(rounds);
+  bool has_more = (rounds - 33) > 0;
+  print((count1 + b));
+}
+if ((20 * count1) != (34 + b)) {
+  int years = rounds + b;
+  print(years);
+  string city3 = greeting;
+  if ((12 % 6) >= (years / 5)) {
+    int namex = years - years;
+    print(namex);
+    print(name);
+    int greetins = (years + count1);
   } else {
-    int width = 26;
-    print(width);
-    course = "robot";
-    k = first;
+    float voltage = avg + avg;
   }
+} else {
+  int total = rounds;
+  print(total);
+  print(rounds);
+  print(valid);
 }
+print((count1 + count1));
+print(avg);

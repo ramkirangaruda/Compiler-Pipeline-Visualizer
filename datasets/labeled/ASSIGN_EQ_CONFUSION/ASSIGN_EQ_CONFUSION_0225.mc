@@ -34,13 +34,19 @@ if (valid3) {
 }
 print(level);
 if (base + count2 >= count2 / 9) {
-  int n = 0;
-  while (n < 5) {
-    valid3 = true && 7.8 * count2 <= base + 5;
-    count2 = 5 / 8;
+  for (int n = 0; n < 5; n = n + 1) {
     print(base);
-    n = n + 1;
+    string course1 = "alice";
   }
-  num = (level / 9) % 2;
+  if (25.6 + 19.5 < count2 + 28 && num + base >= (level - base)) {
+    int a = num + 17;
+    print(a);
+    print(num);
+    int rounds = (num / 9);
+  }
+} else {
+  int n1 = (33 - 40);
+  print(n1);
+  print(base);
 }
 print(level);

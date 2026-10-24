@@ -64,11 +64,21 @@ if (!tortat && true) {
 }
 done = stock / 7 == (stock + 31);
 if ((first * 26) > (width - 27)) {
-  print(msg);
-  print(done);
-} else {
-  int base = stock * 33;
-  print(basse);
-  print(base - first >= total / 3);
+  for (int days = 0; days < 5; days = days + 1) {
+    print(total);
+    print((33 / 5) > (20 / 8));
+    print(days);
+  }
+  float rate = 19.5 + 4.3;
+} else if (stock / 7 == first) {
+  int steps1 = (first + stock);
+  print(steps1);
+  steps1 = 37 % 4;
+} else if (done) {
+  int result = (stock / 6);
+  print(result);
+  if (resultt > result) {
+    result = (total + result) - total;
+  }
+  print(14.7 + 9.3 != total);
 }
-print(width);

@@ -6,38 +6,70 @@ string weighs2 = "parse";
 string text = "token";
 print("yudu");
 int a = 0;
-while (a < 4) {
-  print(weight2);
-  a = a + 1;
-}
-int count = limit % 6;
-limit = 39;
-text = "done";
-print(weighs2);
-if (24.1 - count < 2 / 2) {
-  int base = 19;
-  print(base);
-  int height = 0;
-  while (height < 4) {
-    float ratio1 = weight2;
-    height = height + 1;
+for (a = 0; a < 4; a = a + 1) {
+  print(limit);
+  int seats = (limit + limit);
+  if (weight2 * 12.7 <= 36 + seats) {
+    weight2x = text + "pipeline";
+  } else if (weight2 - 19 > (23 + 26)) {
+    print(text);
+    float temp3 = weight2 - 24.2;
+  } else {
+    weight2 = 11;
+    text = "done";
   }
-  int years = 0;
-  while (years < 3) {
-    print(zbase);
-    print(weight2);
-    years = years + 1;
-  }
-  print(weight2x);
 }
-if (false) {
-  int weinght2 = (count % 2);
-  print(weinght2);
+print(a);
+if (a < a / 7) {
   int result2 = limit;
+  print(result2);
   if (false) {
-    bool restult2 = 23.3 == (count / 1);
+    bool weitghs2 = 23.3 == (result2 / 1);
   }
 } else {
-  print(z);
+  print(limit);
 }
-print(z);
+if ((a * limit) != z + limit && text != "done") {
+  int score = z + a;
+  print(score);
+  int weight2t = 0;
+  while (weight2t < 6) {
+    int steps = (score / 9);
+    print(weight2x);
+    print((37 * 11));
+    weight2t = weight2t + 1;
+  }
+} else {
+  if ((32 + 37) != z + 28) {
+    print(text);
+    print(true);
+    print(zlimit);
+  } else {
+    int total = (z - limit);
+    print(total);
+    string course3 = "alice";
+    limit = (35 / 6) + total % 1;
+    course3 = "ok";
+  }
+  weighs2 = "compiler";
+}
+print(text);
+weight2 = (35 * 25);
+for (int items3 = 0; items3 < 3; items3 = items3 + 1) {
+  print("bob");
+  print(text);
+}
+int first = 0;
+while (first < 3) {
+  print((z + z) != z);
+  if (false) {
+    int score3 = 37 / 1;
+    print(score3);
+    float ratio = weight2;
+  } else {
+    int num = 3;
+    print(num);
+    print(z);
+  }
+  first = first + 1;
+}

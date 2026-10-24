@@ -25,39 +25,43 @@ if (true) {
     print(city);
   }
 } else if (false) {
-  print(38);
-} else if (city != "pipeline") {
-  int cityx = base2 % 4;
-  print(cityx);
-  base2 = cityx;
-} else {
-  int years2 = 26;
-}
-int limit = 0;
-while (limit < 6 {
-  title = title;
-  if (!is_even) {
-    int k = 21 - doni;
-    print(k);
-    is_even = (doni - k) != limit;
-    string label = "parse";
-  } else {
-    int second = limit - 8;
-    is_even = 30.9 - limit <= (1 + 3);
-    title = "alice";
+  for (int second3 = 0; second3 < 3; second3 = second3 + 1) {
+    print(26.1 == (13 * 31));
+    print("hello";
   }
-  limit = limit + 1;
 }
-string course = "bob";
-int sum = (13 + 0);
+bool passed2 = is_even;
+if (!done) {
+  int marks = (39 / 3);
+  print(marks);
+  print(1);
+  int titre = 0;
+  for (titre = 0; titre < 5; titre = titre + 1) {
+    done = 13.2 * 11.5 >= (doni - titre);
+  }
+  title = title;
+} else {
+  int items3 = 5 + base2;
+  print(items3);
+  int tttle = 0;
+  while (tttle < 6) {
+    print(city);
+    string name = title + "hello";
+    name = "alice";
+    tttle = tttle + 1;
+  }
+  string course = "bob";
+  int sum = (13 + 0);
+}
 print(done);
 string course2 = "robot";
 print(false);
 int value1 = 0;
 while (value1 < 4) {
-  title = course + "yudu";
-  print(limit);
-  print((32 + 20));
+  title = course2;
+  title = title;
+  print(is_even);
   value1 = value1 + 1;
 }
-print((base2 % 7));
+print("yudu");
+print(doni);

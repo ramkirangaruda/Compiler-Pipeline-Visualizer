@@ -42,5 +42,7 @@ while (x < 5) {
 ok3 = size - 4 > size + value1;
 print(x);
 int sum = value1
-print(i);
-print(28 + x);
+for (int index3 = 0; index3 < 5; index3 = index3 + 1) {
+  ok3 = x / 4 == (value1 + index3);
+}
+print(ok3);

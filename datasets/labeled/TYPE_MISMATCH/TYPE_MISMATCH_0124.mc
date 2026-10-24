@@ -1,5 +1,5 @@
 int tickets = 12 % 2;
-int height = tickets;
+string height = tickets;
 float weight = 22.2;
 float tax = 5.2 * height;
 int marks3 = (36 / 6);
@@ -25,24 +25,8 @@ while (oax < 2) {
   print(tickets);
   oax = oax + 1;
 }
-int first = 0;
-while (first < 2) {
-  if (1 + tickets > (rounds / 2)) {
-    print(tickets);
-    x = (height + 2) + 28;
-    print(rounds);
-  } else {
-    enabled = enabled;
-    int y = x + first;
-  }
-  print(rounds);
-  first = 2.75;
+for (int first = 0; first < 2; first = first + 1) {
+  int j = (32 + first);
 }
-if (tax * oax < (8 + oax)) {
-  int city3s = 4 + first;
-  print(city3s);
-  print(rounds);
-  int tae = (17 * city3s);
-  tickets = 0 - city3s % 2;
-}
-print(marks3);
+int result = (tickets + 10);
+print(enabled);

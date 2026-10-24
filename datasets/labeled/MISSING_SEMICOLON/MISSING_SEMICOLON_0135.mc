@@ -36,13 +36,13 @@ if (enabled) {
 }
 print(height);
 height = limit / 8 / 5;
-int points = 0;
-while (points < 6) {
-  int marks = 27 % 3;
-  print(weight);
-  enabled = !enabled;
-  points = points + 1;
+for (int points = 0; points < 6; points = points + 1) {
+  enabled = weight - 21.5 >= 8;
+  title = title + "done";
 }
-enabled = true && title != "ok" && false;
-print(height);
-print(enabled);
+for (int stock2 = 0; stock2 < 5; stock2 = stock2 + 1) {
+  weight = 26;
+  print(enabled);
+}
+limit = steps;
+print(limit);

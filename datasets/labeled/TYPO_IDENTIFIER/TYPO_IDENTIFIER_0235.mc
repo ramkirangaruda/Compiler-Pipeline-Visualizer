@@ -30,38 +30,54 @@ if (36 <= size / 2) {
 } else {
   print(rounds);
 }
-int count = 0;
-while (count < 4) {
-  owner = "world";
-  size = rounds * 39 - size;
-  int msgs = 12 - rounds;
-  count = count + 1;
-}
-bool done = rounds + 15 <= size + size;
-print("hello");
-print(rounds);
-int total = 0;
-while (total < 6) {
-  print((count - rounds) < 14 && false);
-  int lives = (size + size);
-  if (done) {
-    int result = rounds;
-    print(result);
-    print(owner);
-    print(lives);
-    found = 28 + 25 >= (size * 16);
-  } else if ((size * count) < count + 6 || !done) {
-    print(false);
-  } else if (21.9 > (count + count)) {
-    print(lives);
-    int items = count;
-  } else if ((rounds - 25) != (size + total) && !found) {
-    int value = (lives / 7);
-    print(value);
-    string greeting1 = "parse";
+for (int count = 0; count < 4; count = count + 1) {
+  if (22.6 + 5 != size % 3) {
+    print(count);
+    print(msg);
+    print(rounds + 12);
+  } else {
+    print(5 + 18 > rounds);
   }
-  total = total + 1;
+  print("hello");
 }
-print(done);
-print("hello");
-print(owner);
+print(rounds);
+for (int total = 0; total < 6; total = total + 1) {
+  float sizes = 17.3;
+  print(size);
+}
+int b = 0;
+while (b < 4) {
+  print(rounds);
+  print(b);
+  b = b + 1;
+}
+if (found) {
+  int founr = rounds;
+  print(founr);
+  int limit = founr + b;
+  if (10.4 + 9.9 < founr + 28) {
+    print(rounds);
+    print(limit);
+  } else {
+    int msgs = founr;
+    print(msgs);
+    limit = (26 / 2) * msgs;
+    print(msgs);
+  }
+  if (founr * b != (limit - limit)) {
+    print(17.4 + 10.1 != 38 && !found);
+  } else {
+    int n2 = (limit * 26);
+    string greeting1 = "parse";
+    string name1 = greeting1;
+  }
+}
+string course = "yudu";
+int height3 = 0;
+while (height3 < 4) {
+  int z = 34;
+  print(course);
+  int lives = (height3 * b);
+  height3 = height3 + 1;
+}
+print(msg);

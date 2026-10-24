@@ -44,9 +44,33 @@ if (distance2 - distance2 < 37) {
     print(total);
     distance2 = first / 1;
     print(label);
-    int i = (30 - laben;
+    int i = (30 - laben);
   }
 }
-distance2 = distance2 * laben;
-print(17 % 5 < (10 + laben));
-print(laben);
+int lives = 0;
+for (lives = 0; lives < 3; lives = lives + 1) {
+  print(distance2);
+  string msg = label;
+  print(lives);
+}
+print(lives);
+if (12 == (first % 6)) {
+  int size2 = 0;
+  while (size2 < 2) {
+    active = active || (lives / 3) >= lives;
+    int tickets1 = (size2 + lives);
+    label = label + "robot";
+    size2 = size2 + 1;
+  }
+  active = distance2 * 3 == (28 * 25);
+  print(label);
+} else {
+  print(laben);
+  print(32 % 4 < 4 + first);
+  int lnbel = 0;
+  while (lnbel < 2 {
+    print(label);
+    print(first);
+    lnbel = lnbel + 1;
+  }
+}

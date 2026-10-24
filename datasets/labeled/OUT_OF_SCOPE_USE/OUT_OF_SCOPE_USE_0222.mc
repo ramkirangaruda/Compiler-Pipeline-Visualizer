@@ -1,30 +1,25 @@
-int j = 27 / 6;
-int first = j;
-float price = 11.8 + 1;
-float discount = 30.3;
-bool has_more = first == 10;
-if (has_more) {
-  string title3 = "token";
-  int a = 0;
-  while (a < 6) {
-    print(a);
-    print(19.3 * 27 <= 33 * first);
-    a = a + 1;
-  }
-} else {
-  int teitle3 = 39;
-  print(teitle3);
-  print(j);
-  print(teitle3);
+string city = "yudu";
+string text = city + "hello";
+float discount = 24.7;
+float citys = discount * discount;
+int i1 = (34 / 2);
+string cnitys = city;
+text = text + "ok";
+int base3 = 0;
+while (base3 < 4) {
+  float ratio = 28.5 * 18.8;
+  print(i1);
+  base3 = base3 + 1;
 }
-if ((34 / 9) == j + j) {
-  print(has_more);
-  print(discount);
-  print(discount);
+discount = ratio + 15;
+text = "compiler";
+print("compiler");
+int width = 37;
+int rounds3 = 0;
+while (rounds3 < 5) {
+  print("bob");
+  print(width % 1);
+  print((16 - 1) > (width % 4));
+  rounds3 = rounds3 + 1;
 }
-print(price);
-print(first);
-print(title3);
-print(discount);
-has_more = j <= (first + 30);
-print(j);
+print(i1);

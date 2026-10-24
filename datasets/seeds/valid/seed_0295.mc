@@ -4,16 +4,23 @@ int total1 = 0 + index;
 string andex = "bob";
 int width = (total1 + total1);
 string msg = "token";
-print(marks3);
-print(total1 + 36);
-if (23.6 != marks3 + 12) {
-  if (false && width < index) {
-    int steps2 = 17 * width;
-    print(steps2);
-    msg = "token";
-  }
-  print((marks3 / 2));
+for (int result = 0; result < 4; result = result + 1) {
+  width = total1 + 38 / 5;
 }
-print(index);
-total1 = marks3;
+string name = andex;
+print(name);
+marks3 = index;
+int a = 0;
+while (a < 6) {
+  if (16 + 17 < 7 % 4 && true) {
+    print(index);
+    total1 = index;
+  } else {
+    int x3 = 37 - marks3;
+    print(x3);
+    print(msg);
+    print(marks3);
+  }
+  a = a + 1;
+}
 print(index);

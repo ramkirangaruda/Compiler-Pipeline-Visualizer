@@ -1,37 +1,40 @@
-int j2 = 31;
-bool ready = false;
-int result = (j2 - j2);
-int sum;
-bool flag = j2 + 37 <= 37 / 7 && sum == (40 + j2);
-j2 = j2 + sum / 8;
-if (5 < sum + sum) {
-  if (false) {
-    j2 = sum * sum % 9;
-    sum = 39;
-    print(j2);
-  } else {
-    string owner = "parse";
-    print(owner);
-    print(j2);
-  }
-  int b = 0;
-  while (b < 5) {
-    result = (37 * result) / 9;
-    result = 30 - 29 / 9;
-    b = b + 1;
-  }
-} else if ((29 / 6) != j2 % 6) {
-  print(j2);
+int second = (33 + 17);
+bool passed = 25 <= 24 / 2;
+string greeting = "compiler";
+int x3 = second + 2;
+greeting = "compiler";
+print(x3 / 3);
+if (24.4 <= (13 + second)) {
+  int y2 = (14 / 5);
+  print(y2);
+  print(y2);
+} else if (!passed) 
+  int index3 = (second + 37);
+  print(index3);
+  print(x3);
+}
+x3 = (27 * 21) - x3;
+if (true) {
+  print(greeting);
+  greeting = "compiler";
+} else if (8 == 15 % 7) {
+  second = second % 3 + second / 6;
 } else {
-  int x = j2 * 10;
-  print(x);
-  ready = (12 * sum) < result - j2;
+  int greerting = second;
+  print(greerting);
+  bool ok = passed;
+  if (x3 / 5 >= (greerting / 9)) {
+    int tickets = 15;
+    print(tickets);
+    int greetingx = second;
+    int seats3 = tickets - second;
+    int gneeting = tickets + tickets;
+  } else {
+    int limit1 = x3 * second;
+    print(limit1);
+    int greetings = x3;
+    print(second);
+  }
+  print(greerting);
 }
-flag = (j2 % 3) <= 3;
-ready = !flag;
-int items1 = 0;
-while (items1 < 5) 
-  print("bob");
-  items1 = items1 + 1;
-}
-print(flag);
+print(passed);

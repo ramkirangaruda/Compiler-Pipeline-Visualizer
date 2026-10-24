@@ -1,48 +1,29 @@
-int size = 9 - 23;
-int sum = (size - 27);
-float mean = 16.6 - 21.5;
-string name = "bob";
-if (mean == (6 - 31)) {
-  if (mean > (size - 6)) {
-    name = "token";
-    print((37 % 5));
-    int j = sum;
-  } else {
-    int result = size + sum;
-    float avg = mean + 25.5;
+int seats = 29 + 27;
+string word = "world";
+int woord = 1;
+bool flag = (seats / 3) > 2 && true;
+woord = (35 % 3) + (7 % 9);
+int wsord = 0;
+while (wsord < 6) {
+  print(seats);
+  if (6 - wsord >= wsord % 9) {
+    string woordx = "parse";
   
-  int meann = 0;
-  while (meann < 6) {
-    print(24 - 30);
-    print(mean);
-    print(meann);
-    meann = meann + 1;
-  }
-  if (size > 23) {
-    int steps = (meann + 36);
-  }
+  wsord = wsord + 1;
+}
+if (!flag) {
+  print(word);
 } else {
-  int lives = (size % 3);
-  print(lives);
-  lives = 34;
+  print(word);
+  seats = (wsord / 3) + (woord / 9);
+  int lives1 = 0;
+  while (lives1 < 4) {
+    print("yudu");
+    flag = !flag;
+    flag = true;
+    lives1 = lives1 + 1;
+  }
 }
-if (true) {
-  name = name + "world";
-}
-if (false) {
-  int index = (size + 24);
-  print(index);
-  print(size);
-} else if (mean * mean == 14) {
-  int level = size / 2;
-  print(level);
-  print(true);
-  sum = 16 + (size / 7);
-}
-print(size);
-mean = mean - 9.7;
-int limit1 = size * 24;
-if (true) {
-  mean = mean * limit1;
-}
-name = name + "robot";
+woord = 2;
+float weight = 13.7 * woord;
+woord = (wsord / 1) + woord / 6;

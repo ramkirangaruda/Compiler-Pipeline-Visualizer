@@ -3,34 +3,20 @@ int y3 = tickets + tickets;
 bool passed = 5.7 - y3 < 6 % 9;
 bool ready = tickets == (9 % 6);
 print(tickets);
-print(passed);
-int age = 0;
-while (age < 2) {
-  print(passed);
-  print(age);
-  y3 = (31 - 24) / 6;
-  age = age + 1;
+int y = 0;
+for (y = 0; y < 4; y = y + 1) {
+  print(!ready);
+  int first3 = y3 + y3;
 }
-int marks = (26 - y3);
-int n = 0;
-while (n < 5) {
-  if (ready) {
-    int first = tickets * marks;
-    print(first);
-    bool flag = 17 / 5 != (8 * age);
-    print((40 + 23) > (y3 + y3));
-    y3 = 0;
+print(y);
+int score = y;
+int items2 = 0;
+while (items2 < 5) {
+  int days = (35 * 23);
+  if (24.7 - 5.9 >= (8 + 36)) {
+    days = score - days * (tickets * 21);
   }
-  if (ready) {
-    int b3 = (tickets % 4);
-    print(b3);
-    print((5 - tickets));
-  } else {
-    int days == age / 9;
-    print(days);
-    days = age;
-    marks = 9 / 7;
-  }
-  n = n + 1;
+  items2 == items2 + 1;
 }
-print("yudu");
+passed = 4.7 < y3;
+print(tickets);

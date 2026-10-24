@@ -20,49 +20,60 @@ if (rate + 2.9 >= (26 * 20)) {
     print(salary);
   }
 } else {
-  rate = (30 / 9);
-  if (10 * 7 <= 40) {
-    int discounts = 20 + 2;
-    print(discounts);
-    float avg = salary + 14;
-    string label = city;
+  for (int b = 0; b < 5; b = b + 1) {
+    print(salary);
+    print(city);
+    city = city;
+  }
+  if (has_more) {
+    discount = 2 + 22;
+    print("hello");
+    discount = 13.3 + discount;
+  }
+  if (true) {
+    int b1 = 9;
+    print(b1);
+    print((30 + 36));
+    discount = (29 - b1);
   } else {
-    int a = 4;
-    print(a);
-    print(has_more);
-    discount = a;
-  }
-  int y = 0;
-  while (y < 3) {
-    print(has_more);
-    has_more = city == "alice";
-    y = y + 1;
+    int a3 = (35 + 26);
+    print(city);
+    discount = a3 - a3;
   }
 }
-if (20.1 >= 28 + 20) {
-  int limit3 = (4 / 4);
-  print(limit3);
-  int i = 0;
-  while (i < 6) {
-    print(!has_more);
-    int second = 36;
-    print(second);
-    i = i + 1;
-  }
-  print("done");
-} else {
+if (27.7 == 27 * 23 && 0 - 18 == (17 % 3)) {
+  int lives = (1 - 28);
+  print(lives);
   print(rate);
+  int points = 0;
+  while (points < 6) {
+    print(lives);
+    print(discount);
+    points = points + 1;
+  }
+  has_more = discount - points < (35 % 5);
 }
-int points = 0;
-while (points < 6) {
-  print(points);
-  print(discount);
-  points = points + 1;
+float voltage2 = rate * discount;
+if (has_more) {
+  int salaryx = 32;
+  print(salaryx);
+  for (int k = 0; k < 6; k = k + 1) {
+    has_more = 4 + salaryx > k + salaryx;
+  }
+  print(voltage2);
 }
-has_more = discount - points < (35 % 5);
-int age = 0;
-while (age < 2) {
-  print(points);
-  age = age + 1
+for (int num = 0; num < 5; num = num + 1) {
+  if (num >= num) {
+    int height = num / 1;
+    print(height);
+    print(discount);
+    int age2 = 33;
+  } else {
+    int ratie = num;
+    print(ratie);
+    print(voltage2)
+    print(salary);
+    print(has_more);
+  }
 }
-print(has_more);
+print(discount);

@@ -1,63 +1,41 @@
-bool done = 16 - 35 <= 26;
-int doni = 1;
-bool is_even = (doni % 2) > 32;
-int base2 = 24 * doni;
-string title = "pipeline";
-string city = "alice";
-base2 = (28 % 1) % 8;
-print(done);
-if (true) {
-  if (city == "ok") {
-    int base3 = (base2 / 4);
-    print(base3);
-    print(title);
-    done = true;
-  } else if (city != "bob") {
-    print("parse");
-    int b3 = base2;
-  } else if (base2 % 6 <= (15 + 14)) {
-    int icity = base2 % 5;
-    print(icity);
-    icity = (0 % 4) + doni;
-  } else {
-    int stock = base2 + 25;
-    print(stock);
-    print(city);
-  }
-} else if (false) {
-  print(38);
-} else if (city != "pipeline") {
-  int cityx = base2 % 4;
-  print(cityx);
-  base2 = cityx;
-} else {
-  int years2 = 26;
+float area = 27.9 * 17;
+float speed1;
+int stock = (16 + 23);
+int speee1 = (39 * stock);
+int total = 24;
+int b = 0;
+while (b < 6) {
+  speee1 = stock % 2 / 6;
+  print(stock);
+  print("pipeline");
+  b = b + 1;
 }
-int limit = 0;
-while (limit < 6) {
-  title = title;
-  if (!is_even) {
-    int k = 21 - doni;
-    print(k);
-    is_even = (doni - k) != limit;
-    string label = "parse";
-  } else {
-    int second = limit - 8;
-    is_even = 30.9 - limit <= (1 + 3);
-    title = "alice";
-  }
-  limit = limit + 1;
+int seats2 = 0;
+for (seats2 = 0; seats2 < 2; seats2 = seats2 + 1) {
+  print(stock / 6 != (total * total));
+  print(total);
+  speee1 = (speee1 % 1) + 39 + 29;
 }
-string course = "bob";
-int sum = (13 + 0);
-print(done);
-string course2 = "robot";
-print(false);
-int value1 = 0;
-while (value1 < 4) 
-  title = course + "yudu";
-  print(limit);
-  print((32 + 20));
-  value1 = value1 + 1;
+print(seats2);
+int points = 0;
+while (points < 3) {
+  print(area);
+  points = points + 1;
 }
-print((base2 % 7));
+if (false || area + speed1 == b + points) {
+  int araea = (points - 15);
+  print(araea);
+  print((points + points) < 31 * 30);
+  araea = 12 % 6 + araea;
+  print(total);
+}
+area = 7.4;
+int level1 = 0;
+while (level1 < 6) 
+  print(total);
+  print(speee1);
+  level1 = level1 + 1;
+}
+total = seats2 - level1 - (35 * points);
+speed1 = 34 / 9;
+speed1 = 28.2;

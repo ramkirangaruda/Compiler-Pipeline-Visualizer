@@ -1,68 +1,54 @@
-string greeting = "pipeline";
-float area2 = 20.2 * 21.5;
-bool done = true || (7 - 22) > 25;
-string text = "token";
-string name = "robot";
-string title3 = "alice";
-if (area2 * area2 <= (2 * 10)) {
-  int num = 27 + 34;
+int steps = 7;
+float stepsx = 23.2;
+float ratio = stepsx + stepsx;
+bool has_more2 = true;
+if ((39 * 4) > 17) {
+  string stepssx = "robot";
+  has_more2 = has_more2;
+  string stepsxx = stepssx;
+} else if (17.5 <= steps - steps) {
+  int num = (steps + 17);
   print(num);
-  bool ok1 = done || 37 >= num / 7;
-  print("parse");
-  bool found = 7.4 - num <= (num + num);
-}
-int second = 0;
-while (second < 3) {
-  print(area2);
-  if (title3 == "alice") {
-    int count = (second - 20);
-    title3 = greeting;
-  } else {
-    int x = 20;
-    print(x);
-    print(title3);
-    print(done);
-    print(name);
+  print(has_more2);
+  for (int result = 0; result < 4; result = result + 1) {
+    stepsx = ratio;
+    has_more2 = steps == steps;
+    steps = 38;
   }
-  name = "token";
-  second = second + 1;
-}
-if (second / 4 == (second - 39) || area2 - area2 == second + second) {
-  int first = 25;
-  print(first);
-  print(21 < second);
-  print(12 + first);
-  print(first);
-} else if ((second + second) < second) {
-  int limit = second % 6;
-  print(limit);
-  area2 = second + limit;
+} else if (has_more2) {
+  print("ok");
+} else if (!has_more2 || false) {
+  has_more2 = (steps % 1) != 3;
+  has_more2 = has_more2;
 } else {
-  int arna2 = second % 8;
-  print(arna2);
-  print(arna2);
-  print(area2);
-  greeting = "robot";
+  has_more2 = 39 / 2 > steps - 8;
 }
-print(area2);
-int height = 0;
-while (height < 5) {
-  print("done");
-  text = "robot";
-  name = text + "alice";
-  height = height + 1;
-
-print(height + height);
-if (false) {
-  int count2 = (7 % 7);
-  print(count2);
-  text = text;
-  int stock = 0;
-  while (stock < 5) {
-    print(done);
-    title3 = greeting + "compiler";
-    print(greeting == "bob");
-    stock = stock + 1;
+int ratios = 37 + steps;
+stepsx = 21.4 + 5.2;
+print(39);
+int score = 0;
+while (score < 6) {
+  if ((36 % 4) > ratios) {
+    print("yudu");
+    print(stepsx);
+    print(ratio);
+  } else if (false) {
+    int stock = (score % 5);
+    print(stock);
+    has_more2 = 5 / 6 > (31 + score);
+   else if (has_more2 && has_more2) {
+    int value = (ratios + 15);
+    print(value);
+    string word = "bob";
+    value = steps;
+  } else {
+    int raoio = score;
+    print(raoio);
+    print(ratio);
   }
+  int points1 = (steps % 8);
+  print(steps);
+  score = score + 1;
 }
-print((10 + height));
+int size = score / 1;
+bool is_even1 = ratio * stepsx <= 34;

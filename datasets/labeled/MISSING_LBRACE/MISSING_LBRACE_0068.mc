@@ -1,41 +1,49 @@
-int stock = 22 % 5;
-bool is_even = true;
-float rate = 4.5 - 21.7;
-int j = 20;
-int lives = 15;
-bool valid = is_even || stock % 9 != stock;
-is_even = true;
-print(lives);
-is_even = stock * 30 != j + lives;
-if ((2 + 15) <= j + stock) {
-  int n = 0;
-  while (n < 2) {
-    print(lives);
-    j = 40 * j;
-    is_even = stock < (lives / 9);
-    n = n + 1;
+float avg2 = 4.6 + 39;
+string greeting = "world";
+bool passed = greeting == "world";
+bool done = 33 < 14;
+print((39 % 8));
+print(avg2 <= 35 % 7);
+for (int b1 = 0; b1 < 3; b1 = b1 + 1) {
+  passed = done;
+}
+int avg2x = 0;
+while (avg2x < 6) {
+  print("alice");
+  avg2 = 17.8 - avg2;
+  if (done) {
+    print(passed);
+    print("robot");
+  }
+  avg2x = avg2x + 1;
+}
+if (avg2x - avg2x >= avg2x + 31 || avg2 * avg2 <= (17 * avg2x)) {
+  greeting = greeting + "ok";
+  greeting = "world";
+  if (32 >= 0 - 30) {
+    int goeeting = avg2x - avg2x;
+    avg2 = 10.1;
+  } else {
+    int age = (avg2x + 18);
+    print(age);
+    bool ready = (avg2x - 0) <= (avg2x + 8);
+    print(age);
+    print(avg2);
   }
 } else {
-  print(lives);
-  if ((10 - 32) < j) {
-    print(is_even);
-    float ntock = 8.5 + rate;
-    print(valid);
+  if (done) {
+    print(passed);
+    avg2 = (avg2x + avg2x);
+    int score = (avg2x - avg2x);
   } else {
-    is_even = 25 <= 23;
+    int total = avg2x - avg2x;
+    print(total);
+    print(avg2x);
+  }
+  if (done) 
+    passed = passed;
+    print(avg2x);
   }
 }
-int ois_even = 0;
-while (ois_even < 3) {
-  if (21.6 * rate <= stock) 
-    print(lives);
-    j = 5 * stock * 37;
-  } else {
-    int nrate = 9;
-    print(nrate);
-    int valids = stock * ois_even;
-    print(stock);
-  }
-  ois_even = ois_even + 1;
-}
-print(stock);
+bool found = 31 > (avg2x / 9);
+print("parse");

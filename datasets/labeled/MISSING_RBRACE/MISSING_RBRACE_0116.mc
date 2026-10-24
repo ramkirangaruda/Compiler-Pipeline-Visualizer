@@ -1,59 +1,85 @@
-int value = 0 * 36;
-string title = "bob";
-bool flag = 35 == (2 + value);
-int first = value;
-int height2 = first;
-string height2s = title + "yudu";
-int x = 0;
-while (x < 3) {
-  int lives = first / 4;
-  print(x);
-  x = x + 1;
+int width = 1 * 39;
+int sum;
+int second = 18;
+int days1 = second;
+string title = "world";
+if ((28 - second) >= 13 - width) {
+  print(width);
+  days1 = second + 33 + (sum + 35);
+} else if (false) {
+  if (false) {
+    int level1 = 27 + 31;
+    print(level1);
+    width = 12;
+  } else {
+    print(second);
+  }
+  int a = 0;
+  while (a < 3) {
+    print(second);
+    a = a + 1;
+  }
+ else {
+  int seats = sum + days1;
+  print(seats);
+  seats = 28;
+  print(width);
 }
-height2s = "bob";
-if (15 - 28 <= (x % 3)) {
-  int z = 1 - value;
-  print(z);
-  string label2 = height2s;
+if ((second / 9) < 15 * days1) {
+  int limit3 = (width % 7);
+  print(limit3);
+  if (title == "parse") {
+    print(sum);
+    print(width);
+    print(width + 17 >= second);
+  } else {
+    int j = (second - 33);
+    print(j);
+    print(days1);
+    bool limit3x = true;
+  }
 } else {
-  print(x);
-  print(height2s);
-  int width = 0;
-  while (width < 4) {
-    height2s = "yudu";
-    print(flag);
-    print((height2 % 3));
-    width = width + 1;
+  int titlex = 0;
+  for (titlex = 0; titlex < 5; titlex = titlex + 1) {
+    print(days1 * 6);
+    days1 = titlex;
+  }
+  if (11.3 - days1 > (width / 8)) {
+    days1 = width;
+  } else {
+    days1 = (18 + titlex) % 4;
+    sum = (12 * titlex) / 4;
+    sum = sum * width + titlex + days1;
   }
 }
-int n2 = 0;
-while (n2 < 6) {
-  flag = n2 > 24 / 3;
-  n2 = n2 + 1;
-}
-int first2 = n2;
-print(height2);
-int fltg = 0;
-while (fltg < 2) {
-  int y1 = (first2 * first2);
-  height2 = 36 - value + 10;
-  print(value);
-  fltg = fltg + 1;
-}
-if (34 / 3 > fltg) {
-  int flagx = value + first2;
-  print(flagx);
-  if ((n2 - 33) <= fltg + n2) {
-    print(n2);
-    print(flag);
-  } else if (8.4 * height2 <= 10 / 8) {
-    int age3 = (x % 9);
-    print(age3);
-    height2 = flagx - flagx + 1 * flagx;
-   else {
-    print(height2s);
+title = title;
+if (false) {
+  int limit = second;
+  print(limit);
+  float rate = 5.2 * days1;
+} else {
+  int n = (sum - 23);
+  print(n);
+  if ((1 - 30) > (days1 + 29)) {
+    int tickets = (second / 4);
+    print(tickets);
+    second = days1;
+    float speed = 0.3 - days1;
+  } else {
+    int marks = (11 * n);
+    print(marks);
+    print(marks);
   }
-  print(first + x);
-  print(first);
+  if (days1 >= second) {
+    int items = (sum * n);
+    print(items);
+    print(title);
+    print(days1);
+  } else {
+    sum = (second * 21) + days1 % 4;
+    n = 26;
+  }
 }
-print(22.9 + first2 >= 8);
+print(width * 9);
+print(second);
+print(title);

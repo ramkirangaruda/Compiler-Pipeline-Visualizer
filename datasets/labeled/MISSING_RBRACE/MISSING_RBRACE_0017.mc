@@ -24,13 +24,14 @@ if (marks3 + j >= 17) {
     print(marks3);
     stock3 = stock3 + 1;
   }
-}
-int labeil3 = 0;
-while (labeil3 < 3) {
+
+for (int labeil3 = 0; labeil3 < 3; labeil3 = labeil3 + 1) {
   if (true) {
-    int total2 = marks3 - labeil3;
-    print(marks3);
-    print(3.1 + 21.5 == j + 33);
+    int level = (j - labeil3);
+    print(level);
+    mean = j + 29;
+    int total = 2 * marks3;
+    print(label3);
   } else if (false) {
     int base2 = marks3 - marks3;
     print(base2);
@@ -39,46 +40,18 @@ while (labeil3 < 3) {
   } else {
     marks3 = marks3 - 7 + 7;
   }
-  print(marks3);
-  marks3 = (labeil3 + j) + j;
-  labeil3 = labeil3 + 1;
-
-bool enabled = false;
-mean = (marks3 + 13);
-if (labeil3 % 3 != 24) {
-  print(enabled);
-  int marks = labeil3 + 9;
-} else if (!enabled) {
-  int i = (32 / 1);
-  mean = 21 / 2;
-} else {
-  int meatn = labeil3 - marks3;
-  print(meatn);
-  if (mean * mean > (32 % 1)) {
-    int enablred = 7 + labeil3;
-    print(enablred);
-    print(enabled);
-    print("done");
-    print(enabled);
-  }
 }
-print(marks3);
-int base3 = 0;
-while (base3 < 5) {
-  print(labeil3);
-  int first2 = (base3 * labeil3);
-  if (!enabled || 19 != (j / 4)) {
-    int seats = labeil3 % 4;
-    print(seats);
-    print(mean);
-    int score1 = base3 / 5;
-  } else {
-    int height = 20 / 1;
-    print(height);
-    print(enabled);
-    first2 = 17 + first2 * (first2 - 33);
-  }
-  base3 = base3 + 1;
+int y2 = 0;
+while (y2 < 2) {
+  j = (j * marks3) % 9;
+  y2 = y2 + 1;
 }
-int index3 = (5 + labeil3);
-print("world");
+print(mean);
+marks3 = j;
+bool passed3 = false;
+if (j + 32 >= j * 24) {
+  print(label3);
+  print(j % 4);
+}
+int i = (32 / 1);
+print(i);

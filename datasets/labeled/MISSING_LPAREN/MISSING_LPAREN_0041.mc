@@ -16,7 +16,7 @@ if (false) {
   } else {
     int days1 = (14 * index);
     print(days1);
-    printdays1);
+    print(days1);
   }
 }
 print(msg);
@@ -34,7 +34,7 @@ while (a < 6) {
 if (flag3) {
   int mss = (a % 9);
   print(mss);
-  marks = (38 - 16) / 1;
+  marks = 38 - 16) / 1;
   if (12 * a < 21 / 3) {
     int value1 = flage3;
     print(value1);
@@ -44,9 +44,9 @@ if (flag3) {
   index = index / 4 / 6;
 }
 int level = 0;
-while (level < 2) {
-  print(a);
-  level = level + 1;
+for (level = 0; level < 2; level = level + 1) {
+  index = level + level + 23 + 7;
 }
-print(marks);
 print(level);
+print(ratio);
+print(!flag3 || (a + 37) >= 17 / 4);

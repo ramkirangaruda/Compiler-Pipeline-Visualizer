@@ -1,54 +1,61 @@
-int b = 20 / 9;
-int lives = (18 / 5);
-float speed;
-if (false || (lives + lives) <= b + 2) {
-  print((lives % 5));
+int points3 = 2;
+float temp = 24.2 + 30.7;
+bool ready = (points3 * 0) != (points3 * points3);
+float price = temp * points3;
+float area3 = 5.5 * temp;
+float avg = price - points3;
+string label = "alice";
+price = 15.9 - 40;
+if (area3 - avg > (points3 + points3)) {
+  if (temp * price > points3) {
+    temp = 13 - points3;
+  
+  print(avg);
 }
-if (true) {
-  print(b);
-  int k = 0;
-  while (k < 3) {
-    print("hello");
-    k = k + 1;
+if (temp + 15 > points3 % 4) {
+  int labels = (points3 - points3);
+  print(labels);
+  if ((5 + 32) != 20 / 4) {
+    print(price);
+  } else {
+    int level = (points3 % 2);
+    print(level);
+    print("parse");
   }
-  int rpeed = 0;
-  while (rpeed < 4) {
-    print(speed);
-    int seats = (lives % 4);
-    rpeed = rpeed + 1;
+  if (false) {
+    int value = labels / 5;
+    print(value);
+    area3 = temp;
+    int x = (points3 / 5);
   }
-}
-int a2 = 0;
-while (a2 < 2) {
-  float mean3 = 2.6 * 6;
-  if (lives < lives * 0) {
-    speed = mean3 - speed;
-  }
-  a2 = a2 + 1;
-}
-if (true || 29 < a2) {
-  int score1 = lives;
-  print(score1);
-  if ((a2 % 3) != 13) {
-    int steps = (a2 + a2);
-    print(steps);
-    string owner = "bob";
-    print(a2);
-  }
-  print(lives);
 } else {
-  if (speed > (2 + lives)) {
-    print(b);
-   else if (speed > 30 / 9) {
-    print(speed);
+  int points2 = points3 / 6;
+  print(points2);
+  ready = !ready;
+  float tax = avg * 8;
+  print(price);
+}
+print("token");
+if (ready && 30 > (13 + points3)) {
+  int tickets1 = points3 / 3;
+  print(tickets1);
+  int base = 0;
+  while (base < 3) {
+    points3 = tickets1 % 6;
+    ready = points3 >= (tickets1 % 7);
+    print(points3);
+    base = base + 1;
+  }
+} else {
+  for (int avsg = 0; avsg < 4; avsg = avsg + 1) {
+    print(avg);
+    string msg1 = label;
+    print(area3);
+  }
+  for (int n1 = 0; n1 < 3; n1 = n1 + 1) {
+    print((points3 + n1));
   }
 }
-if (true) {
-  int sreed = (31 % 3);
-  print(sreed);
-  if (sreed / 8 == lives - sreed) {
-    int apeed = (24 / 7);
-    print(b);
-  }
-}
-speed = speed + speed;
+area3 = 20 + points3;
+print(area3);
+print(price);

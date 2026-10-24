@@ -1,48 +1,51 @@
-string greeting = "world";
-int days = (27 / 7);
-int greetings = (8 * days);
-int index3 = greetings;
-string inidex3 = greeting + "world";
-if (false) {
-  print(greeting);
+bool ready = 33 >= (17 + 1);
+bool passed = 7 != 29;
+bool has_more = (24 % 2) > 37 * 8;
+bool flag = ready;
+bool flag3 = (1 * 39) >= (9 % 3);
+int a = 33;
+if (13.9 + a >= a / 5) {
+  if (1 == (a * a)) {
+    has_more = false;
+  }
+  if (!passed) {
+    int days1 = a % 3;
+    print(days1);
+    print(passed);
+    has_more = days1 * days1 >= (a % 3);
+  }
+  print(passed);
+}
+if (!ready) {
+  int limit = (38 * 38);
+  print(limit);
+  int size3 = 0;
+  for (size3 = 0; size3 < 6; size3 = size3 + 1) {
+    limit = limit / 1;
+    ready = (limit - size3) != limit * limit;
+    print(limit);
+  }
+  if (24.8 + 24 <= 38 * size3) {
+    int readys = 18 + 5;
+    print(readys);
+    int i2 = 13 + limit;
+  }
 } else {
-  int base = 10;
-  print(base);
-  print(greeting + "pipeline");
+  int j = a;
+  print(j);
+  j = (1 - a) % 4;
 }
-print(greeting);
-if (true) {
-  days = 2 / 7;
-} else {
-  int count = 0;
-  while (count < 2) {
-    greetings = count + index3 * (days + 35);
-    days = greetings * 31 * (26 % 1);
-    count = count + 1;
-  }
-  int y = 0;
-  while (y < 5) {
-    print((2 % 9));
-    int i = 35 - 29;
-    y = y + 1;
-  }
-  if (true) {
-    int b = count - index3;
-  }
+if (flag) {
+  int items = 38;
+  print(items);
+  ready = !passed;
+ else {
+  int steps = (a % 1);
+  print(steps);
+  print(a);
+  print(ready);
 }
-print(inidex3);
-if (days == 20) {
-  days = 23 / 6 + (index3 / 8);
-  print(greeting);
-  int n = 0;
-  while (n < 6) {
-    greeting = "compiler";
-    n = n + 1;
-  
-}
-greeting = inidex3 + "done";
-print(greetings);
-print(index3);
-inidex3 = "robot";
-greetings = (days + 19) % 9;
-print(inidex3);
+has_more = a != 24;
+print("parse");
+int height = a * a;
+print("alice");

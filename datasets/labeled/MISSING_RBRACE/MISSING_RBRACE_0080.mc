@@ -1,49 +1,25 @@
-int lives = 21;
-float voltage = 12.4 + 25;
-int stock1 = lives;
-int level = (28 + stock1);
-float rate = 14.4;
-int steps = lives + lives;
-bool ok = 6 * stock1 == lives + 40;
-string word = "robot";
-string msg = word + "pipeline";
-stock1 = 33 / 6 + lives - stock1;
-print((steps / 8) <= 16);
-print(steps);
-if ((lives - lives) < 5 % 5) {
-  int msgx = steps;
-  print(msgx);
-  int z = 0;
-  while (z < 6) {
-    float ratio1 = rate + 24.2;
-    int i1 = level;
-    z = z + 1;
+string word = "hello";
+int limit = 24 + 17;
+bool has_more = word != "pipeline";
+int level = 0;
+for (level = 0; level < 6; level = level + 1) {
+  if (limit < level + level) {
+    print(level);
+    print(level % 8);
+    print(has_more);
   }
-  print((18 % 7));
-  print(ok || ok);
+  has_more = true || !has_more && 1 / 9 != (level - 6);
 }
-if (ok) {
-  int aoltage = 11 / 9;
-  print(aoltage);
-  print(20 * 14);
-  if (ok) {
-    int msgs = level - lives;
-    print(msgs);
-    lives = level % 5;
-    print(aoltage);
-    print((stock1 / 2));
-  } else {
-    print(msg);
-  }
-} else {
-  print(voltage);
-  int count2 = 0;
-  while (count2 < 5) {
-    int size2 = 24;
-    int sate = (size2 + count2);
-    print(steps);
-    count2 = count2 + 1;
-  
+for (int steps = 0; steps < 3; steps = steps + 1) {
+  print(level);
 }
-steps = (level + 15) + (8 % 2);
-print(msg);
+print(limit + 14 < (21 - level));
+has_more = has_more;
+for (int y = 0; y < 2; y = y + 1) {
+  has_more = 11 % 6 >= (level + level);
+  print(has_more);
+
+print("done");
+float rate = 26.2 + 37;
+float balance = rate * 8.1;
+print(has_more);

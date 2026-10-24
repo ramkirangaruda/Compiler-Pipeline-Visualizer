@@ -1,71 +1,55 @@
-int seats = (31 % 3);
-int sum = (seats + seats);
-float tax = 11.9 - sum;
-int years = (sum * seats);
-bool is_even = tax + seats >= 30;
-bool has_more2 = (years * years) == 39 + sum;
-if ((sum + 38) != sum - sum) {
-  int value = years % 3;
-  print(value);
-  print(sum);
-  int score2 = 0;
-  while (score2 < 5) {
-    tax = (years + value);
-    print(seats);
-    sum = value + seats * score2 * score2;
-    score2 = score2 + 1;
+int size = 13 - 19;
+int base1 = 28 / 5;
+string owner = "done";
+int owners = 20;
+float balance3 = 11.5;
+string base1x = owner;
+string sizes = owner;
+if (balance3 * base1 > 22) {
+  int y = 38 / 1;
+  if ((1 + 24) >= size - 26) {
+    print(y);
+    size = size / 6;
+    y = base1 * 20 - size % 1;
   }
-} else {
-  int second2 = 29;
-  print(8 / 7);
-  print(second2);
-}
-float sums = 13.7 - tax;
-int k = 0;
-while (k < 2) {
-  string sumx = "token";
-  if ((k + sum) <= (seats + 7)) {
-    print((years + 33) >= sum + 29);
+  if (true) {
+    base1 = 34 + base1 % 8;
+    owners = (14 * y) / 2;
   }
-  int taxx = (k % 5);
-  sums = 39 / 5;
-  k = k + 1;
+} else if (false && true) {
+  base1x = "hello";
 }
-print(has_more2);
-print(k);
-if (true) {
-  int has_motre2 = 21 - 4;
-  print(has_motre2);
-  if (is_even) {
-    int tickets3 = k * k;
-    print(tickets3);
-    years = tickets3 + has_motre2 + seats % 4;
+y = (y - y) * (base1 + base1);
+for (int marks1 = 0; marks1 < 5; marks1 = marks1 + 1) {
+  int base1xx = (39 / 3);
+  print(base1);
+  if (owner != "alice") {
+    print(base1);
+    print((17 / 8));
   } else {
-    int z = (seats % 7);
-    print(z);
-    years = (years - z) % 7;
-    string title = "ok";
+    int bose1x = (11 * 33);
+    print(bose1x);
+    print("robot");
+    bool is_even = true;
   }
-  if (!has_more2 || has_motre2 <= 35 + seats) {
-    has_more2 = is_even;
-    seats = has_motre2;
-  }
-  if (years + seats < (2 / 5)) {
-    bool enabled = tax - sums <= (29 % 2);
-    print(sumx);
-    sumx = "ok";
-  } else if (false) {
-    int height = (seats + seats);
-    print(height);
-    print(13 / 2 == years - k);
-    print(!has_more2);
-  }
-} else {
-  print(tax);
 }
-int marks = 0;
-while (marks < 2) {
-  print(years);
-  marks = marks + 1;
+int x = 0;
+for (x = 0; x < 2; x = x + 1) {
+  if ((29 + y) == y % 6) {
+    bool sizesx = false;
+    y = base1 + (36 + size);
+    int num = base1 + 6;
+  } else {
+    base1x = owner;
+    base1x = "parse";
+  }
+  if (true) {
+    owners = owners + x * (8 / 1);
+    print(size);
+    float avg2 = 22.2 * 23.9;
+  }
 }
-print(has_more2);
+print(x);
+print(true);
+print(sizes);
+print(base1);

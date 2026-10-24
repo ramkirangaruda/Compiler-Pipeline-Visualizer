@@ -27,33 +27,17 @@ if (13 + vsalid != 18) {
     print(fouind);
     string greeting = "compiler";
   }
-  int y = 0;
-  while (y < 5) {
-    print(text2);
-    string founn = "token";
-    y = y + 1;
+  for (int y = 0; y < 5; y = y + 1) {
+    text2 = "bob";
   }
-} else if (x % 9 != 23) {
-  int items1 = x / 9;
-  print(items1);
-  valid = 27 > (k + 27) || text2 == "token";
 } else {
-  print((x + k));
+  print(found);
 }
-int size1 == 0;
-while (size1 < 3) {
-  if ((k + k) <= (vsalid % 6)) {
-    valid = 1.7 <= vsalid;
-    string name2 = "token";
-  } else if (ok3) {
-    print(k);
-  } else if (found) {
-    vsalid = x + 17 + (37 - k);
-    valid = valid;
-  }
-  k = (k + k) + 26 + 16;
-  size1 = size1 + 1;
+print(text2);
+print(enabled);
+int items1 = 0;
+for (items1 = 0; items1 < 6; items1 = items1 + 1) {
+  print(valid);
+  int base2 == x;
 }
-int index = size1;
-int size = size1 + vsalid;
 print(text2);

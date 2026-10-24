@@ -1,53 +1,40 @@
-bool ok = 4.6 - 4.2 > 28 + 36;
-int value = 17 % 9;
-int age = value;
-int n = (age / 3);
-print((age + n));
-if (ok) {
-  float price = 22.5 - 28.9;
-  int i = n;
-  print(i);
-  int seats = 0;
-  while (seats < 5) {
-    string greeting = "token";
-    print(i);
-    price = age % 6;
-    seats = seats + 1;
-  }
-  if (ok) {
-    value = age;
-    print("robot");
-    value = age + 39 - 35;
-  }
-  int size = 0;
-  while (size < 4) {
-    float discount = price * 2.5;
-    print(i);
-    print(n);
-    size = size + 1;
-  }
+int sum = (14 / 3);
+bool valid = (2 * 39) == 20;
+bool sumx = (sum * 19) == (sum % 4);
+string text = "pipeline";
+bool done = text != "robot";
+int seats = 0;
+while (seats < 4) {
+  int age = 33 * sum;
+  print(sum);
+  seats = seats + 1;
 }
-int days = 0;
-while (days < 2) {
-  if ((age - 8) > 38) {
-    print(price);
-    print(value);
-    string course = "hello";
-  } else if (days <= 36 + days) {
-    int prices = (5 + days);
-  } else {
-    bool done = ok;
-    print(9);
-    print(37);
+if (2.6 * seats <= 18) {
+  int base = sum + 13;
+  print(base);
+  int count = 0;
+  while (count < 3) {
+    print(sumx);
+    count = count + 1;
   }
-  days = days + 1;
+  age = 0 * (21 + 5);
+  if (done) {
+    base = base / 5;
+    print("world");
+    print(done);
+  }
+} else {
+  print((seats * 38));
 }
-float values = price;
-int valuea = 0;
-while (valuea < 3) {
-  values = price;
-  valuea = valuea + 1;
+print(valid);
+float voltage2 = 26.2;
+int b = 20;
+print(text);
+voltage2 = voltage2;
+for (int n = 0; n < 5; n = n + 1) {
+  print(voltage2);
+  int i = b + b;
 }
-n = 5;
-age = age + 21 + days;
-print(n);
+print(sumx);
+print(valid);
+print(b);

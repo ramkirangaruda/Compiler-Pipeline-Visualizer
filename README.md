@@ -62,7 +62,7 @@ python -m ml.build_dataset        # writes datasets/ (seeds, labeled/<CAUSE>/, f
 python -m ml.train                # compares 4 models, writes models/*.joblib + metrics.json
 python -m ml.evaluate_repair      # end-to-end repair evaluation -> models/repair_eval.json
 python -m ml.rl.train_rl          # trains + evaluates the RL fix policy -> models/rl_policy.json, rl_metrics.json
-python -m pytest                  # 212 tests
+python -m pytest                  # 214 tests
 ```
 
 Production build of the UI: `npm run build` (output in `frontend/dist`).
@@ -94,13 +94,13 @@ The classifier says *why* the program failed; reinforcement learning decides *wh
 
 | Held-out programs with 1-3 faults (1,500) | Heuristic order | **RL policy** | Random |
 |---|---|---|---|
-| Exact recovery of the intended program | 37.5 % | **39.0 %** | 29.2 % |
-| Ends in a program that compiles | 98.3 % | 98.3 % | 95.9 % |
-| Mean tokens still differing from the intended program | 9.59 | **8.24** | 9.22 |
+| Exact recovery of the intended program | 38.5 % | **39.1 %** | 28.2 % |
+| Ends in a program that compiles | 98.6 % | 98.6 % | 94.7 % |
+| Mean tokens still differing from the intended program | 9.27 | **9.15** | 9.08 |
 
-Paired bootstrap, RL minus heuristic: exact recovery **+1.5 pts** (95 % CI +0.9 to +2.2), distance **-1.36 tokens** (CI -1.51 to -1.21) -
-the intervals exclude zero, so the improvement is real, but it is **modest**. On single-fault programs the RL ordering lifts exact recovery
-from 70.2 % to 71.5 %. The gain comes from choices the heuristic cannot rank well, mainly where a declaration should be placed; the policy
+Paired bootstrap, RL minus heuristic: exact recovery **+0.5 pts** (95 % CI +0.2 to +0.9), distance **-0.12 tokens** (CI -0.16 to -0.08) -
+the intervals exclude zero, so the improvement is real, but it is **small**. On single-fault programs the RL ordering barely moves exact
+recovery (69.8 % to 70.0 %). The gain comes from choices the heuristic cannot rank well, mainly where a declaration should be placed; the policy
 can only choose among the candidates the repair generators propose, which caps what it can achieve.
 
 ## The language (MiniC)
@@ -117,7 +117,7 @@ if (avg > 50.0 && n == 0) { print(label + "big"); } else { print("small"); }
 ```
 
 Types `int float bool string`; `int → float` widening only; conditions must be `bool`; `&&`/`||` short-circuit;
-blocks have their own scope. The grammar is on the Architecture page and in `backend/minic/parser.py`.
+blocks have their own scope. Statements: declaration, assignment, `print`, `if`/`else`, `while` and `for` (the loop variable lives only inside the loop). The grammar is on the Architecture page and in `backend/minic/parser.py`.
 
 ## The 12 causes the classifier distinguishes
 
@@ -134,10 +134,10 @@ end-to-end against the real compiler. Exact numbers are on the Dashboard and in 
 
 | | ML (Gradient Boosting) | Rule baseline |
 |---|---|---|
-| Cause accuracy (650 held-out programs) | **98.6 %** | 87.5 % |
+| Cause accuracy (653 held-out programs) | **98.9 %** | 87.9 % |
 | Hand-written programs (36) | **100 %** | 88.9 % |
-| Top-ranked fix recompiles cleanly | **96.2 %** | 87.1 % |
-| Auto-fix ends in a clean program | **98.8 %** | 89.7 % |
+| Top-ranked fix recompiles cleanly | **95.9 %** | 87.6 % |
+| Auto-fix ends in a clean program | **98.2 %** | 90.1 % |
 
 **Honesty notes.** The training data is synthetic (valid programs corrupted by mutators), which is why
 the hand-written set exists. Programs are assumed to contain one fault at a time; several faults are repaired

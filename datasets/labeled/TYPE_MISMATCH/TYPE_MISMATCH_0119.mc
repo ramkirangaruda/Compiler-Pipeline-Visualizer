@@ -1,10 +1,10 @@
 int items = 32 - 6;
-bool width = items * items;
+int width = items * items;
 int steps = (width / 1);
 string name1 = "pipeline";
 items = width;
 int a = 0;
-while (a < 4) {
+while (a) {
   if (name1 == "done") {
     int days = items;
     print(days);
@@ -63,6 +63,15 @@ if ((a + a) <= steps) {
 }
 if (25.5 + 20 > (a - n)) {
   print(width >= 26);
-  print(steps);
+  int index = 0;
+  for (index = 0; index < 6; index = index + 1) {
+    steps = 30;
+  }
+} else {
+  int value = (steps % 3);
+  print(value);
+  width = (25 / 1) * (31 + steps);
+  bool namee1 = 24.2 != (steps + value) && false;
+  print(name1);
 }
-print((items - 2));
+print(items);

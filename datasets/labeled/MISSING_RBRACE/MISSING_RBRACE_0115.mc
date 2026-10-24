@@ -1,63 +1,103 @@
-int width = 1 * 39;
-int sum;
-int second = 18;
-int days1 = second;
-string title = "world";
-if ((28 - second) >= 13 - width) {
-  print(width);
-  days1 = second + 33 + (sum + 35);
-} else if (false) {
-  if (false) {
-    int level1 = 27 + 31;
-    print(level1);
-    width = 12;
+int tickets = 38 + 17;
+float weight2 = 11.3;
+int teight2 = tickets - 10;
+int reight2 = teight2;
+int marks = teight2 + reight2;
+int years = 30;
+bool passed2 = (marks % 4) < tickets;
+if (28 <= teight2 + tickets) {
+  int age = 31 / 4;
+  print(age);
+  if (!passed2) {
+    int x = years * tickets;
+    print(x);
+    print(reight2);
   } else {
-    print(second);
+    int limit3 = 15 * 25;
+    print(limit3);
+    print("yudu");
+    print("token");
+    marks = age;
   
-  int a = 0;
-  while (a < 3) {
-    print(second);
-    a = a + 1;
+  age = 17;
+} else if (false) {
+  passed2 = teight2 / 1 >= tickets % 9;
+} else if (weight2 + teight2 >= (reight2 + 1)) {
+  int i = 0;
+  while (i < 4) {
+    print(22 + reight2);
+    i = i + 1;
   }
-} else {
-  int seats = sum + days1;
-  print(seats);
-  seats = 28;
-  print(width);
 }
-if ((second / 9) < 15 * days1) {
-  int limit3 = (width % 7);
-  print(limit3);
-  if (title == "parse") {
-    print(sum);
-    print(width);
-    print(width + 17 >= second);
+if (passed2) {
+  float balance = weight2 + weight2;
+}
+passed2 = marks == (tickets / 1);
+marks = (25 + teight2) * years + years;
+if (teight2 + marks <= tickets) {
+  if (true) {
+    int weight2s = 25 + 22;
+    print(weight2s);
+    print(weight2s);
+    tickets = marks;
+    print(weight2);
   } else {
-    int j = (second - 33);
+    int j = (years / 6);
     print(j);
-    print(days1);
-    bool limit3x = true;
+    print(reight2);
+    print(marks);
   }
 } else {
-  width = (29 / 7) / 7;
-  print(width);
-}
-print(sum);
-days1 = sum;
-print(title);
-int k = 0;
-while (k < 3) {
-  if (30.1 - width >= (second - days1)) {
-    int size = k;
-    print(size);
-    second = 18;
-    int b = second + width;
-  } else {
-    int titale = second % 9;
-    print(titale);
-    sum = days1 + 26 % 2;
-    int marks = (7 - k);
+  print(weight2);
+  if (weight2 + marks <= (tickets + tickets)) {
+    int level = reight2 * 31;
+    print(teight2);
+  } else if (!passed2) {
+    int weitght2 = (37 * tickets);
   }
-  int titlex = k;
-  k = k + 1;
+  print(tickets + teight2);
 }
+int rounds3 = 0;
+while (rounds3 < 3) {
+  tickets = 39 + rounds3 - (38 / 3);
+  rounds3 = rounds3 + 1;
+}
+for (int num3 = 0; num3 < 4; num3 = num3 + 1) {
+  if (weight2 * num3 >= 27 % 4) {
+    print(marks);
+    print(marks);
+  } else if (weight2 <= tickets % 8) {
+    print(teight2);
+  } else {
+    int possed2 = num3 / 9;
+    print(possed2);
+    print(passed2);
+    tickets = 36 * 39 / 6;
+  }
+  print((5 + tickets));
+  print("hello");
+}
+if (!passed2 || !passed2) {
+  int steps = marks;
+  print(steps);
+  if (true) {
+    bool done3 = true;
+    years = teight2 + teight2 / 3;
+    print(weight2);
+  } else {
+    print(years);
+    marks = 7 / 4;
+    print(weight2);
+  }
+  print((teight2 * marks));
+  int oeight2 = steps + steps;
+} else {
+  print(passed2);
+}
+if (passed2 && !passed2) {
+  print(reight2);
+  print(marks);
+  print(marks);
+}
+print(passed2);
+print(tickets);

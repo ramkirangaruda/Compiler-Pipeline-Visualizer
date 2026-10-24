@@ -1,4 +1,4 @@
-string name = "token";
+string name == "token";
 float area = 9.9 + 12.7;
 int points = 22 - 31;
 string label = "yudu";
@@ -9,7 +9,7 @@ if (label == "compiler") {
     print(label);
     print(area);
     print(level);
-  } else if (area * points = (points * points)) {
+  } else if (area * points == (points * points)) {
     points = (16 * points) % 7;
     print(label);
   } else {
@@ -24,6 +24,15 @@ if (label == "compiler") {
   print(name);
 }
 print((points / 7));
-print(area);
-string msg = "done";
-print(name);
+for (int value = 0; value < 6; value = value + 1) {
+  points = 31 + value * (21 + points);
+  points = 10 % 6;
+  print(value);
+}
+int b = 0;
+while (b < 2) {
+  print(area);
+  print(name);
+  b = b + 1;
+}
+print(label);

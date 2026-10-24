@@ -42,22 +42,15 @@ if (level < (21 - 24)) {
   print(z3);
   passed1 = weight1 + b > (z3 + b);
 }
-int wetight1 = 0;
-while (wetight1 < 2) {
-  ratio = weight1 - b;
-  passed1 = ratio == 34 + 37;
-  int lives = 27 % 4;
-  wetight1 = wetight1 + 1;
+for (int wetight1 = 0; wetight1 < 2; wetight1 = wetight1 + 1) {
+  weight1 = (a + b);
+  print(passed1);
+  passed1 = 17.2 * 14.4 == (wetight1 * 19;
 }
-if (false && (35 * level) != (wetight1 - index) {
-  ratio = (b + index);
-  weight1 = index;
-} else {
-  int i1 = (29 / 8);
-  print(i1);
-  int steps = wetight1 + level;
-  int passeds = (25 % 9);
-  weight1 = 10.2;
+print(a);
+int y = 0;
+for (y = 0; y < 5; y = y + 1) {
+  print(0 == a + 24 || 9 >= (28 * y));
 }
-int age = 38;
-print(wetight1);
+print(y);
+print(passed1);

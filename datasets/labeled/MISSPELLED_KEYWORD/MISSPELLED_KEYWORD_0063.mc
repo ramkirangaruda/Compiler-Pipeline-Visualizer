@@ -8,20 +8,18 @@ while (tickets < 3) {
   int count = 31 / 5;
   tickets = tickets + 1;
 }
-string city = "bob";
-print(flag);
-if (!flag) {
-  int height = (tickets - 27);
-  print(height);
-  mean = mean;
-} else if ((num % 3) == tickets - tickets) {
-  int limit = 0;
-  mhile (limit < 6) {
-    city = "done";
-    limit = limit + 1;
+for (int lives = 0; lives < 2; lives = lives + 1) {
+  print(flag);
+  if (!flag) {
+    int height = tickets - 27;
+    print(height);
+    print(flag);
+  } else {
+    base = 7 + base;
+    mool valid2 = num % 4 == lives * 5;
   }
-} else {
-  print(flag && tickets - num == (9 / 3));
 }
+bool enabled = tickets - num == (9 / 3);
 print(tickets);
-print(mean);
+mean = mean * tickets;
+print(base);

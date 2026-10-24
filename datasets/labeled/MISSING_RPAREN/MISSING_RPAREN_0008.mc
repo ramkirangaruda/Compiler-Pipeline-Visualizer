@@ -21,24 +21,15 @@ if (active1) {
   tickets = (tickets / 1) + 30 / 2;
 }
 int active1x = 0;
-while (active1x < 6) {
-  base = base - 10 + (active1x + base);
-  active1x = active1x + 1;
+for (active1x = 0; active1x < 6; active1x = active1x + 1) {
+  print(a;
+  print(33);
 }
-int n = 0;
-while (n < 6) {
-  print(active1);
-  n = n + 1;
+base = height * k3 - 7;
+int sum = 0;
+while (sum < 2) {
+  int acrtive1 = active1x;
+  int result2 = (height + a);
+  sum = sum + 1;
 }
-if (k3 - base != k3 % 1 && (17 + n) < (active1x % 8)) {
-  float speed2 = 5.2 + 30;
-  print((points + 25));
-  if (active1) {
-    print(active1;
-    height = height + (k3 % 6);
-  } else {
-    print(base);
-    int size = 12;
-    bool aetive1x = speed2 <= size;
-  }
-}
+print(k3);

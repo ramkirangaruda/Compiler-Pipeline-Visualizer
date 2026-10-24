@@ -1,53 +1,61 @@
-int second = 2;
-int level = second + second;
-int z = (11 + second);
-float tax = 21.5 * 17.9;
-float speed = 12.8 * 39;
-level = (second - level) * 21 - second;
-int spoed = 0;
-while (spoed < 2) {
-  second = second / 5;
-  speed = (spoed - 5);
-  tax = speed - z;
-  spoed = spoed + 1;
-}
-print(speed);
-speed = (2 % 5);
-int width = 0;
-while (width < 3) {
-  print(speed);
-  print("world");
-  speed = (level / 1);
-  width = width + 1;
-}
-print(speed);
-if ((second + 40) < (12 * width)) {
-  int score = 0;
-  while (score < 6) {
-    string ewidth = "bob";
-    score = score + 1;
+int second = 35;
+float secondx = 5.1 * 0;
+int seciondx = second;
+int n3 = 10 % 2;
+int limit;
+float balance = secondx * secondx;
+bool found = true;
+print("compiler");
+print(n3);
+if (found || 11 / 8 == 10 + n3) {
+  int balnnce = n3;
+  print(balnnce);
+  int banlance = 0;
+  while (banlance < 3) {
+    print(second);
+    print(1 != (limit % 9));
+    print(second * seciondx > balnnce * limit);
+    banlance = banlance + 1;
   }
-  speed = (36 * level);
-} else if (level + 9 != 16) {
-  int y3 = z;
-  print(y3);
-  if (false) {
-    int itax = 0;
-    print(itax);
-    second = 15;
+} else {
+  int k = second / 7;
+  print(k);
+  int balarce = (limit / 3);
+  k = balarce * (seciondx / 7);
+  int x = 10;
+}
+for (int balancex = 0; balancex < 4; balancex = balancex + 1) {
+  print("done");
+}
+print(balance);
+found = secondx > n3;
+if (found) {
+  limit = seciondx + 32;
+} else {
+  if (true) {
+    int second2 = (n3 / 9);
+    print(second2);
+    seciondx = second2;
   } else {
-    int total = 32 + width;
-    print(total);
-    print("world");
+    print(9 == 16 % 6);
   }
-  z = width - 34;
- else {
-  int b1 = 0;
-  while (b1 < 5) {
-    print(25 % 7);
-    print("bob");
-    b1 = b1 + 1;
+  if (found) {
+    int height = (23 % 7);
+    print(height);
+    int rounds = limit + second;
+  } else {
+    int n = 19 * 26;
+    print(n);
+    seciondx = 10;
+    print(limit);
+    second = second + limit + (n3 * n);
   }
-  bool ok1 = (second / 6) != second;
+  bool ok = (seciondx + 40) < (n3 / 3);
 }
-print(spoed);
+print(1 / 7);
+int days = 0;
+for (days = 0; days < 4; days = days + 1) {
+  print((n3 % 8) <= second);
+
+print(days);
+print(found);

@@ -1,47 +1,51 @@
-float area = 28.5 - 11.2;
-int rounds = (31 / 2);
-string name = "hello";
-float temp = area + 16;
-string owner = "parse";
-string name3 = owner + "yudu";
-print(owner);
-int tickets3 = (rounds + rounds);
-int items = (16 + tickets3);
-int b = 0;
-while (b < 5) {
-  owner = name;
-  name = owner + "token";
-  b = b + 1;
+int level = 40 * 34;
+string city = "done";
+int days2 = (level % 4);
+string days2s = "hello";
+float levenl = 18.9;
+string msg = days2s;
+int n = 0;
+while (n < 5) {
+  if (days2 / 4 == days2 - level) {
+    print(levenl);
+    int value = 33 - 3;
+  } else {
+    int days2sx = days2;
+    print(days2sx);
+    print(days2s);
+  
+  n = n + 1;
 }
-float ratio = temp;
-rounds = 15 + (rounds - tickets3);
-if (area <= (b / 1)) {
-  print(tickets3);
-  int items2 = 0;
-  while (items2 < 6) {
-    print(items2);
-    print(33 - b == 2 % 4);
-    items2 = items2 + 1;
+for (int total = 0; total < 6; total = total + 1) {
+  if (11.8 * level == (30 % 7)) {
+    print(18 - 28 == total % 3);
+    int size = 27;
+    print((n + 18));
+  } else {
+    level = level;
   }
-  int a = items * 23;
-}
-print(false);
-print((24 * tickets3));
-int areas = 0;
-while (areas < 3) {
-  name = "hello";
-  if (false) {
-    int nameo3 = (tickets3 % 9);
-    print(nameo3);
-    temp = 23.3 + 10.9;
-    int size = areas + 16;
-    int y = (nameo3 * b);
-   else if (name != "parse") {
-    int first = 29;
-    print(first);
-    name = name + "compiler";
-    print(tickets3);
+  if (true) {
+    print("ok");
+    print(city);
+    print(level * days2);
+  } else {
+    int rounds = 29 - days2;
+    days2s = "compiler";
   }
-  areas = areas + 1;
 }
-print(b);
+if (19 / 5 < 40 % 1 || city != "bob") {
+  print(days2);
+  print(days2);
+  level = (26 - n) * n + days2;
+}
+for (int k3 = 0; k3 < 4; k3 = k3 + 1) {
+  levenl = 13 + level;
+  days2 = days2 + k3 - level;
+  string course2 = "token";
+}
+for (int age = 0; age < 2; age = age + 1) {
+  city = "yudu";
+  string name = days2s + "bob";
+  level = 38 + (age + 28);
+}
+print(levenl);

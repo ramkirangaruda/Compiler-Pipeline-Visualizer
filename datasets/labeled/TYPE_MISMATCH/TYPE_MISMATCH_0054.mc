@@ -3,55 +3,49 @@ float ratio1 = 15.6 - 16.4;
 bool active2 = (sum / 2) < sum;
 bool sumx = 27 >= (sum + 22);
 if (ratio1 + 19.2 != 38 / 6) {
-  ratio1 = ratio1 * ratio1;
-  int n = (sum + sum);
-  if (29 / 7 <= n % 8) {
+  for (int age = 0; age < 2; age = age + 1) {
     print(sumx);
-    n = 28;
-  } else if (!active2) {
-    int steps = n * sum;
-    print(steps);
-    n = n;
-  } else if (20.5 * ratio1 == sum / 6) {
-    print("robot");
+    print(32);
+    sum = 27 + age % 4;
   }
-} else {
-  int j = 0;
-  while (j < 4) {
-    print(active2);
-    print(j);
-    j = j + 1;
-  }
-  int soumx = 0;
-  while (soumx < 3) {
-    int height = (j / 5);
-    print(14 + soumx);
-    soumx = soumx + 1;
+  print(28.4 <= 0 % 8);
+  if (ratio1 - ratio1 < sum) {
+    int points = sum;
+    print(points);
+    bool has_more = active2;
+  } else {
+    ratio1 = 27.5 + 28;
+    ratio1 = 13.3 * sum;
+    float weight = ratio1;
   }
 }
-if (27 / 6 < 7 + sum) {
-  int score = sum;
-  print(score);
-  if (score < (18 / 5)) {
-    int actsive2 = sum % 6;
-    print(actsive2);
-    score = sum;
-  } else {
-    int first2 = ("text");
-    print(first2);
-    int first = sum;
-  }
-  ratio1 = score + 22;
+int items = 0;
+while (items < 5) {
+  int ratio1x = items;
+  print(ratio1);
+  active2 = (30 + 0) != sum || !sumx;
+  items = items + 1;
+}
+print(ratio1);
+if (ratio1 - ratio1 <= (18 + 19)) {
+  int actsive2 = sum % 6;
+  print(actsive2);
+  actsive2 = sum;
 } else {
-  int age3 = (sum / 4);
-  print(age3);
-  ratio1 = ratio1 + 3;
-  print(active2);
+  int first2 = (31 / 5);
+  print(first2);
+  int first = sum;
+}
+ratio1 = items + 22;
+bool first3 = 0;
+while (first3 < 2) {
+  if (sum - items > items - items) {
+    print("robot");
+    active2 = sum == items + 7;
+    active2 = 6 + 34 <= (24 % 4) || 28.4 * 4.5 >= (sum + items) && 1.8 - first3 < 22 + sum;
+  }
+  first3 = first3 + 1;
 }
 sumx = sumx;
-sumx = !active2;
 print(sumx);
-sumx = ratio1 + 29.7 == 34;
-float som = ratio1 - 40;
-int rounds = (sum * sum);
-print(rounds);
+print(items % 5 > 8);

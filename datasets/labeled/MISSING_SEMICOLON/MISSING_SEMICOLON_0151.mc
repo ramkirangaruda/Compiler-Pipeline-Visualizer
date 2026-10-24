@@ -28,33 +28,35 @@ if ((steps % 3) >= asg % 4) {
   } else {
     int first = (asg / 4);
   }
-  string owner = label3;
-} else {
-  if (active) {
-    int limit = 29;
-    print(limit);
-    print((31 + 7));
-    print((25 / 4));
-    print(activex + "token");
+  int k = 0;
+  for (k = 0; k < 6; k = k + 1) {
+    print(avg);
   }
-  print(asg);
-}
-if (items <= items) {
-  steps = 1;
-} else if (avg * 32 >= 18 * items) {
-  int age = steps * 12;
-  print(age);
-  age = asg;
-  print((steps * asg) >= steps);
-}
-if (steps % 1 == steps) {
-  int value2 = 23;
-  print(value2);
-  activex = "token";
+  print(k);
 } else {
-  int activn = steps - 34;
-  print(activn);
-  active = avg - 8 >= items;
-  print(label3);
-  print(items);
+  int base2 = 11;
+  print(base2);
+  bool done1 = asg <= 27 + asg;
 }
+if (items - steps <= 34 / 7) {
+  if (items <= items) {
+    steps = 1;
+  } else if (avg * 32 >= 18 * items) {
+    int age = steps * 12;
+    print(age);
+    age = asg;
+    print((steps * asg) >= steps);
+  }
+  if (steps % 1 == steps) {
+    int value2 = 23;
+    print(value2);
+    activex = "token";
+  } else {
+    int activn = steps - 34;
+    print(activn);
+    active = avg - 8 >= items;
+    print(label3);
+    print(items);
+  }
+}
+print(has_more);

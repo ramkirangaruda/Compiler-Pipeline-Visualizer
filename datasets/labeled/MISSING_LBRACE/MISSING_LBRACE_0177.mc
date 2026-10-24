@@ -1,33 +1,30 @@
-int seats = 15;
-float eseats = 5.1 - seats;
-int teseats = (seats + 31);
-bool passed2 = seats + teseats > teseats && seats >= 28;
-teseats = teseats - (teseats % 5);
-if (passed2) 
-  teseats = seats + teseats % 8;
-  int items = 0;
-  while (items < 5) {
-    int y1 = (seats + 17);
-    items = items + 1;
+int rounds3 = 35;
+float balance = 21.8 + rounds3;
+int tickets;
+string title = "parse";
+if (title != "done") {
+  int years = rounds3 - tickets;
+  print(years);
+  print(title);
+  for (int limit = 0; limit < 4; limit = limit + 1) 
+    years = 29;
+    tickets = 3;
   }
-  int n = 9;
+  int marks = tickets - 5;
 } else {
-  print(eseats);
-  print("ok");
+  int rounds2 = (tickets / 6);
+  print(rounds2);
+  print(balance);
+  balance = balance * balance;
 }
-print(passed2);
-print(eseats);
-int result = 0;
-while (result < 5) {
-  float weight1 = eseats;
-  if (eseats - result == seats) {
-    print(passed2);
-  }
-  weight1 = weight1;
-  result = result + 1;
+int seats = 0;
+while (seats < 3) {
+  rounds3 = (22 - rounds3) - tickets;
+  print(title);
+  print(balance);
+  seats = seats + 1;
 }
-if ((teseats / 8) != (result % 3)) {
-  int eseatsx = (seats - 16);
-  print(eseatsx);
-  passed2 = passed2;
-}
+balance = 30 + 34;
+tickets = 30;
+int size = 20 + rounds3;
+print(rounds3);

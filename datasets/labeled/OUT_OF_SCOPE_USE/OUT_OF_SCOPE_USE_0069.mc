@@ -1,61 +1,55 @@
-int tickets = 16 + 16;
-string word = "robot";
-string balanca = "robot";
-string label1 = balanca;
-bool enabled = balanca != "world";
-string name = word + "done";
-int width = 0;
-while (width < 3) {
-  float balance = 18.3 * 5.4;
-  print(tickets);
-  print(balance);
-  print(width != 11);
-  width = width + 1;
+string text = "token";
+int size = (27 + 20);
+int x3 = 25 - size;
+int k3 = (x3 * x3);
+string owner3 = "done";
+for (int k = 0; k < 3; k = k + 1) {
+  x3 = (37 + size) % 2;
 }
-int years2 = (tickets % 8);
-if (balance + balance <= (16 * years2)) {
-  word = name;
-  label1 = "robot";
-  print(enabled);
+owner3 = "robot";
+k3 = (11 - 3) - k3 + k3;
+int tetxt = 0;
+while (tetxt < 5) {
+  int second = k3 + k3;
+  tetxt = tetxt + 1;
+}
+if (2 != tetxt % 5) {
+  string name = text;
+  int b = size;
+  print(b);
+  x3 = 21 + 8 + (26 / 1);
+  print(x3);
+  text = text + "world";
 } else {
-  int y = 0;
-  while (y < 6) {
-    enabled = true;
-    years2 = (width / 5) - (width + 14);
-    y = y + 1;
+  int lives = (k3 % 1);
+  print(lives);
+  x3 = 11 / 4;
+  if (false) {
+    text = name;
+    lives = x3 + 16 % 3;
+    name = "yudu";
+  } else {
+    int index = (k3 * k3);
+    print(index);
+    print(owner3);
   }
-  int height2 = 38 / 1;
+  size = lives % 3;
 }
-name = "robot";
-int marks = 0;
-while (marks < 6) {
-  enabled = 10 / 5 >= years2;
-  if (enabled) {
-    float mean = balance + years2;
-    string text3 = "parse";
-    print(balance);
+for (int namie = 0; namie < 4; namie = namie + 1) {
+  bool tetxts = true;
+  if ((k3 % 7) >= (tetxt / 7)) {
+    int seats = (k3 + k3);
+    print(seats);
+    name = "yudu";
+    print("parse");
+    print(text);
+  } else {
+    int level = 5 + namie;
+    print(level);
+    level = (size / 8) + size * k3;
+    print(size);
+    int limit = namie;
   }
-  if ((years2 + years2) >= 12) {
-    int k = (tickets / 2);
-    print(k);
-    print(k + marks);
-    k = marks;
-    float speed = balance;
-  } else if (false) {
-    int n = (tickets + 34);
-    print(n);
-    label1 = word + "bob";
-  }
-  marks = marks + 1;
+  print(tetxts);
 }
-if (balance - balance > marks && (4 - tickets) != width) {
-  print(label1);
-  years2 = (years2 + 19) % 1;
-  if ((25 * 22) < 4) {
-    int total2 = marks;
-    print(total2);
-    print(total2);
-  }
-}
-print(label1);
-print(balance);
+print(owner3);

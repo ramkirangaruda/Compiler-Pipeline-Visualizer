@@ -22,21 +22,19 @@ while (points < 3) {
   b = b1;
   points = points + 1;
 }
-int steps = 0;
-while (steps < 2) {
+for (int steps = 0; steps < 2; steps = steps + 1) {
   if ((x / 6) > 40) {
     int sum = (33 + 20);
     print(sum);
     x = (20 + 1) + (steps - 23);
   }
-  steps = steps + 1;
 }
 int y = 0;
 while (y < 4) {
   if (x - 29 > b1 / 1) {
     voltage = 30.1;
     x = b1;
-    x = 0 - 6 + (steps % 9);
+    x = 0 - 6 + (y % 9);
   }
   print(b);
   y = y + 1;
@@ -47,21 +45,26 @@ if ((37 + 16) > (points / 6)) {
   if (valid) {
     int j = (13 / 7);
     print(j);
-    voltage = x / 9;
-    valid = (24 * points) < 14 + 29;
-    print(valid2);
-  } else if (7.5 != points) {
-    lives = b * points;
+    voltage = (j / 9);
+    valid = valid;
+    int result = 37 + j;
+  } else {
+    int count = x - y;
+    print(count);
+    valid2 = (y - b) > b * b;
+    print(points);
+    voltage = y - b;
   }
-  int limit = (26 % 5);
+  voltage = x;
 } else {
-  int level = y;
-  print(level);
-  int points1 = 0;
-  while (points1 < 4) {
-    valid = b1 != level;
-    points1 = points1 + 1;
+  int score3 = 0;
+  while (score3 < 5) {
+    ok = (29 + 9) >= points;
+    print(11.4 + voltage < 4);
+    print(26);
+    score3 = score3 + 1;
   }
-  print(valid2);
+  print(voltage);
+  print(ok);
 }
-print(x);
+print(ok);

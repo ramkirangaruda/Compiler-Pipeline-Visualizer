@@ -13,8 +13,16 @@ while (result < 5) {
   result = result + 1;
 }
 int count1 = 0;
-while (count1 < 2) {
-  print(text2);
-  count1 = count1 + 1;
+for (count1 = 0; count1 < 2; count1 = count1 + 1) {
+  if (second >= items + result) {
+    print(text2);
+    int a = (0 / 9);
+    print(items);
+  } else {
+    int days2 = items;
+    found = (25 + 19) < result % 1;
+  }
+  a3 = 16 - 17 + items + 36;
 }
-print(found);
+print(count1);
+print(count1);

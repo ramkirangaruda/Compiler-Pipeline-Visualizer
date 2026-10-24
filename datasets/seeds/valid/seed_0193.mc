@@ -30,29 +30,30 @@ while (x < 2) {
 }
 leveo = points / 1 == level;
 if (!leveo) {
-  leveo = leveel && leveel;
-  level = 15 + 16 + level;
-  leveo = 26 / 5 == (6 - x);
-} else {
-  int total3 = (23 - 10);
-  print(total3);
-  if (3 + second > total3 - total3) {
-    int height = total3 + level;
-    print(height);
-    print(level);
-    int sum = level;
-  } else {
-    print(level);
-    print(total3);
+  for (int size = 0; size < 5; size = size + 1) {
+    leveo = leveel;
   }
-  bool done = (points % 3) >= (total3 - 31);
-}
-int age = 0;
-while (age < 4) {
-  print(level);
-  if ((points / 1) != (39 % 9)) {
-    int seats = points - age;
-    print(seats);
+  limit = (40 - 26) + 15 + 16;
+  int tickets = 0;
+  while (tickets < 3) {
+    string word = "compiler";
+    tickets = tickets + 1;
+  }
+} else {
+  if (29.3 * 11.4 != level) {
+    bool flag = leveel;
+    print(limit != points + limit);
+    print(points);
+  }
+  int items = 0;
+  while (items < 2) {
+    print(points);
+    print(22.5 * 21.9 >= second + 24);
+    print(greeting);
+    items = items + 1;
+  }
+  if (5.8 * points >= second * items || items * level > (items + points)) {
+    second = points - items + x + x;
     print(points);
     print(level);
   } else if (4.2 - second > 1 || level == second) {
@@ -64,18 +65,17 @@ while (age < 4) {
     second = (points - first1) * (31 / 5);
     print(leveo);
   }
-  age = age + 1;
 }
 print(x);
 if (5 - 9 == (24 + points)) {
   int j = second / 2;
   level = 14 + (limit / 1);
-  leveel = age >= 33 / 9;
+  leveel = j >= 33 / 9;
 } else {
   int graeeting = 0;
   while (graeeting < 4) {
-    print(points * x > 4 + age);
-    level = age;
+    print(points * x > 4 + graeeting);
+    level = graeeting;
     graeeting = graeeting + 1;
   }
   print((x / 9));
@@ -85,7 +85,7 @@ if (5 - 9 == (24 + points)) {
     print(x);
     print(x);
   } else {
-    int steps = age;
+    int steps = graeeting;
     print(steps);
     print("alice");
   }
@@ -98,4 +98,15 @@ if ((level - 17) < points) {
   print(x);
   print(second);
 }
-print(leveo);
+if (second + level == (20 % 8)) {
+  int y = (second + limit);
+  print(y);
+  float levol = 25.3 + 7.6;
+  print(level);
+  if (y >= (6 + y)) {
+    print(x);
+    int i = x;
+    points = 12 * second + 20;
+  }
+}
+print(x);

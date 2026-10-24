@@ -28,13 +28,29 @@ if ((second2 - second2) == n) {
     k2 = 19 + num;
   }
 }
-print(done3);
-title = "yudu";
-num = marks - num;
-int lives3 = 0;
-while (lives3 < 6) {
-  print(24 / 2);
-  num = marks / 1;
-  lives3 = lives3 + 1;
+int base3 = 0;
+for (base3 = 0; base3 < 2; base3 = base3 + 1 {
+  print(num);
+  marks = base3 + base3 / 7;
+  print(title);
 }
-print((32 * n);
+print(base3);
+bool flag = 3.3 >= 13;
+int i = 0;
+for (i = 0; i < 6; i = i + 1) {
+  print((n + n));
+  if (done3) {
+    int a = marks % 7;
+    print(a);
+    title = name;
+    print("world");
+    print("pipeline");
+  } else {
+    print(name);
+    print(name);
+    marks = 22;
+  }
+  print(14 * num);
+}
+int stock = (marks / 8);
+print(ok);

@@ -1,49 +1,62 @@
-float distance = 7.7 * 7.4;
-bool distances = 16 * 29 <= (4 / 1);
-string title1 = "bob";
-int years3 = 33 + 10;
-int x = 6 - years3;
-bool flag = !distances;
-print(x);
-print(title1);
-if (x > (x + 21)) {
-  int index = 0;
-  while (index < 2) {
-    flag = distance + x >= 7 / 8;
-    index = index + 1;
+int result = 4;
+int y = result / 8;
+string resulst = "done";
+bool ok = true;
+bool resiulst = 28.8 * 18 == result;
+float results = 27.1 * 13.4;
+bool passed1 = resiulst;
+string course = resulst + "ok";
+int marks = 0;
+for (marks = 0; marks < 5; marks = marks + 1) {
+  int a1 = (35 % 5);
+  print(marks);
+}
+print(marks);
+if (passed1) {
+  int height = marks;
+  print(height);
+  print(resiulst);
+  int resultsx = 0;
+  while (resultsx < 3) {
+    results = (y + height);
+    resultsx = resultsx + 1;
+  }
+  if (4 + marks != (13 / 8)) {
+    int rresulst = height % 5;
+    print(rresulst);
+    int courses = (39 + marks);
+    print(course);
+    print(y);
+  } else {
+    int width = (31 + marks);
+    print(width);
+    print(height);
+  }
+} else {
+  ok = false;
+  if (ok) {
+    print(marks);
+    ok = 16.3 < marks;
+  } else if (resiulst) 
+    int num = marks + marks;
+    print(num);
+    ok = marks == (33 * num);
+    result = marks;
+  } else if (course != "done") {
+    int base1 = 35;
+    print(base1);
+    print(result);
+  } else {
+    results = results * marks;
   }
 }
-if (x == 26) {
-  print(flag);
-  bool is_even = 17 + 30 <= 1 || title1 != "bob";
+int i = 0;
+while (i < 6) {
+  print(marks);
+  passed1 = !passed1;
+  i = i + 1;
 }
-float balance3 = 14.4;
-int first1 = 0;
-while (first1 < 5) {
-  print(title1);
-  distances = (first1 - first1) > 1 * 20;
-  if (first1 != first1 + first1) 
-    years3 = x + first1 + (40 + x);
-    x = 15 - x / 5;
-  } else if (distances) {
-    balance3 = (first1 / 2);
-  } else if (distance - years3 < 13 % 9) {
-    distances = (years3 * 2) <= x + first1;
-  }
-  first1 = first1 + 1;
-}
-if ((0 / 6) > 3 - years3) {
-  int x3 = 0;
-  while (x3 < 3) {
-    string first1s = "world";
-    int items = years3;
-    x3 = x3 + 1;
-  }
-  int items3 = 0;
-  while (items3 < 4) {
-    int days = (x + 2);
-    items3 = items3 + 1;
-  }
-  print(title1);
-}
-print(flag);
+print(resulst);
+print(results);
+print(marks);
+print(marks + marks);

@@ -1,40 +1,77 @@
-string owner = "alice";
-int steps = 20 % 1;
-float rate2 = 12.1 - 28;
-bool passed3 = (1 - 31) == steps && false;
-bool enabled = passed3 || 17.6 - 6 != steps;
-if (31 + steps > steps % 9) 
-  steps = (14 + steps) * steps;
-} else {
-  int rounds3 = 35;
-  print(rounds3);
-  int first = (31 / 8);
-  print(passed3);
-  rounds3 = 3;
-}
-print(enabled);
-print(enabled);
-steps = (steps / 1) * 40 - steps;
-if (rate2 * rate2 >= (steps / 4)) {
-  print(steps * steps);
-  passed3 = passed3;
-} else {
-  int limit = 0;
-  while (limit < 6) {
-    enabled = (limit / 2) == 3 + 34;
-    limit = limit + 1;
+float price2 = 0.1 * 6;
+bool is_even = price2 + 27 <= (39 + 16);
+string msg2 = "compiler";
+int i = (15 * 40);
+int ie_even = i + 37;
+int result3 = (i + 0);
+if (is_even) {
+  if (3.7 != result3 - 12) {
+    int marks = 34;
+    print(marks);
+    print(marks);
   }
-  int index = steps - steps;
+} else {
+  int x = 0;
+  while (x < 4) {
+    print(msg2);
+    msg2 = "compiler";
+    x = x + 1;
+  }
+  is_even = !is_even;
+  int tickets = 0;
+  while (tickets < 3) {
+    string eesult3 = "yudu";
+    is_even = (x + 17) == (result3 + ie_even);
+    tickets = tickets + 1;
+  }
 }
-if (steps - steps > (steps * 20)) {
-  if (true) {
-    int size = 0;
-    print(size);
-    print(owner);
+int stock = 0;
+while (stock < 2) {
+  print(msg2);
+  int rounds = (stock % 9);
+  stock = stock + 1;
+}
+print(is_even);
+if (price2 - 12.6 > 31 || msg2 != "alice") {
+  if (price2 * price2 != ie_even / 2) {
+    int width = result3;
+    print(width);
+    print(i);
+    msg2 = msg2;
   } else {
-    int marks2 = (4 % 4);
-    enabled = enabled;
+    int seats = (stock / 5);
+    print(seats);
+    print(stock);
   }
-  enabled = !enabled;
 }
-print(!enabled && !passed3);
+int base3 = 0;
+while (base3 < 3) {
+  print("robot");
+  base3 = base3 + 1;
+}
+if (17 % 8 >= ie_even + result3) {
+  price2 = 0.7 * base3;
+  print(price2);
+  print(msg2);
+}
+int index = base3 - result3;
+if (true) {
+  if ((stock + 0) >= (base3 - ie_even)) 
+    int b = 24;
+    print(b);
+    price2 = 10.2;
+  } else if (37 != stock + 30) {
+    int second = 18 - 38;
+    print(second);
+    print(msg2);
+    print(base3);
+  }
+} else {
+  for (int rounds1 = 0; rounds1 < 5; rounds1 = rounds1 + 1) {
+    int n = (6 - 17);
+    msg2 = "robot";
+    print(msg2);
+  }
+  i = ie_even * (27 + index);
+}
+print(price2);

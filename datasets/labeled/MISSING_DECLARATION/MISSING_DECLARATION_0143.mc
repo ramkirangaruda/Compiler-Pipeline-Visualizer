@@ -42,11 +42,11 @@ if (second + 5 != j) {
   } else if (second * 25 < 15) {
     print(40 % 3);
   } else {
+    int speod = (23 / 6);
     print(j * speod);
   }
   print(j);
 } else {
-  int fliag3 = 15 / 7;
   print(fliag3);
   if (!passed) {
     int stock = second * 2;
@@ -72,18 +72,16 @@ if (28.6 + 28.7 >= 10 * age) {
   flag3 = flag3;
   bool is_even = passed;
 } else {
-  int n = 0;
-  while (n < 5) {
-    print(greeting);
-    print(done);
-    n = n + 1;
+  for (int n = 0; n < 5; n = n + 1) {
+    print(j);
+    done = false;
+    done = passed;
   }
-  int rounds = 0;
-  while (rounds < 2) {
-    print((39 / 1));
-    print(age);
-    rounds = rounds + 1;
-  }
-  int size = 27 % 6;
+  int i = (35 / 8);
+  print(i);
 }
-print(greeting);
+if (passed) {
+  print(done);
+  print(j);
+}
+print(done);

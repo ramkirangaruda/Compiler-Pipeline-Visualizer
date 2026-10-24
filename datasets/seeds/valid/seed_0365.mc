@@ -31,45 +31,85 @@ if (flag) {
 }
 print("world");
 if (temt == (temt - temt)) {
-  print(owner);
-  print("yudu");
-  if (flag) {
-    int lives2 = (temt * 36);
-    print(lives2);
-    float avg = temp - 25;
-    owner1 = "robot";
-  } else {
-    int felag = temt;
-    print(felag);
-    owner1 = owner1 + "bob";
-    print((12 % 7) >= felag - temt || temt % 5 != felag);
-  }
-} else {
-  int result = temt + temt;
-  print(result);
-  if (temt + 2 > 30 + result) {
-    int j = 26;
-    print(j);
+  for (int second = 0; second < 4; second = second + 1) {
     print(temp);
-  } else {
-    int level = 19;
-    print(level);
-    owner1 = "done";
-    print((result + temt) <= level / 1);
-    int ownea = 13;
   }
-  if (result * temt <= (temt % 4)) {
-    print(result);
-    temp = temp * result;
-  } else {
-    int lives = 35;
-    print(lives);
-    string text2 = owner1 + "compiler";
+  int lives2 = (temt * 36);
+  float avg = temp - 25;
+} else {
+  if (owner != "pipeline" && true) {
+    owner1 = "compiler";
+  }
+  int owners = 0;
+  while (owners < 4) {
+    print("yudu");
+    string text = owner;
+    text = owner;
+    owners = owners + 1;
   }
 }
-owner1 = owner;
-int lives3 = temt + temt;
-int etemp = temt + temt;
-owner1 = owner1;
-float salary = temp - 6;
-print(owner);
+print(40);
+if ((temt - 26) > temt) {
+  print(flag);
+} else {
+  flag = flag;
+  if (30 - temt < temt % 1) {
+    print(temp);
+    print((19 * temt) > (temt - temt) && !flag);
+  } else if (!flag || !flag) {
+    print(13);
+    print(temt * temt);
+  } else {
+    owner = "robot";
+    temt = temt;
+    temt = temt;
+  }
+  print(temt);
+}
+if (false) {
+  int marks = (temt - 27);
+  print(marks);
+  owner = owner1;
+  print(marks);
+  int level = (marks + marks);
+} else {
+  if (flag) {
+    int ownerx = temt;
+    print(ownerx);
+    print(owner != "token");
+  } else {
+    int z = 16 + temt;
+  }
+}
+if (7.7 - 17 == temt) {
+  print(owner1);
+} else if (true) {
+  int lives = 32 * 33;
+  print(lives);
+  lives = 1 / 7;
+  print(temp);
+} else {
+  int points = 16 + temt;
+  print(points);
+  int index = 0;
+  for (index = 0; index < 3; index = index + 1) {
+    owner = "token";
+    owner1 = "pipeline";
+    float balance = temp * temp;
+  }
+  print(index);
+}
+int count1 = 0;
+while (count1 < 4) {
+  if (temt > (temt + count1)) {
+    owner = "hello";
+  } else if (false) {
+    owner1 = owner;
+  } else {
+    int limit = (33 - count1);
+    print(limit);
+    print(owner);
+    temp = limit + limit;
+  }
+  count1 = count1 + 1;
+}

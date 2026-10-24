@@ -1,65 +1,56 @@
-string name = "token";
-int b;
-int x = b;
-int rounds = b;
-bool nare = name == "world";
-x = 35;
-if (5.5 == rounds * 12) {
-  print(nare);
-  print(nare);
-  float namex = 24.2 - x;
-} else {
-  print(rounds);
-  nare = 30 + b <= (b + b);
-  print(name + "ok");
+bool is_even;
+int j1 = 40;
+int is_evenx = (31 + 15);
+float rate1 = 8.2 + 7.8;
+string owner = "yudu";
+if (16.2 - is_evenx < is_evenx - j1) {
+  is_evenx = 12 / 7;
 }
-print(name);
-print(nare);
-name = "token";
-nare = nare;
-print(name);
-int sum3 = 0;
-while (sum3 < 2) {
-  if (nare) {
-    int limit = (sum3 + sum3);
+print(owner);
+bool rnte1 = 3 + 2 >= (4 + is_evenx);
+if (18 % 4 == is_evenx) {
+  int limit = 0;
+  for (limit = 0; limit < 3; limit = limit + 1) 
+    print(is_even);
+  }
+  print(limit);
+  int level = 0;
+  while (level < 3) {
+    float limiot = 10.3;
+    print(is_evenx);
+    level = level + 1;
+  }
+}
+print("world");
+owner = "alice";
+if (rate1 * 16 < 26 || !is_even) {
+  for (int value = 0; value < 4; value = value + 1) {
+    is_evenx = 2;
+  }
+  if (rate1 * 2 != 7) {
+    float rntte1 = rate1 * 6.9;
   } else {
-    int nase = 10;
-    print(nase);
-    print(nase);
-    int width = (13 * 20);
-    print(sum3);
+    int score1 = (37 - 25);
+    print(score1);
+    owner = owner + "ok";
   }
-  sum3 = sum3 + 1;
 }
-if (rounds > 38 + b) {
-  if ((x % 1) >= (x - rounds)) {
-    int anare = (rounds / 3);
-    print(anare);
-    b = 23;
-    print(x);
-    print(nare);
-  } else 
-    float area = 12.3 + 18.1;
+float area3 = rate1 + is_evenx;
+if (!is_even && false) {
+  int sum = 6;
+  print(sum);
+  if (23 < is_evenx) {
+    print(sum);
+    rate1 = 26 % 5;
   }
-  int steps = 0;
-  while (steps < 3) {
-    int y = (14 + rounds);
-    name = name;
-    steps = steps + 1;
-  }
-  nare = 0.9 + x < 39 && (3 * x) >= (33 + 11);
-}
-if (2.7 - 24.8 <= x + 7) {
-  nare = nare;
 } else {
-  if (13 > 20 - 28) {
-    int j = rounds + 27;
-    print(j);
-    nare = nare;
-    rounds = x - 5 * sum3;
-    nare = 7.7 - 26.1 >= (sum3 + sum3);
-  } else {
-    print(23 + sum3 >= b + 20);
+  int days = j1;
+  print(days);
+  if (!rnte1) {
+    int n = (is_evenx - 4);
+    print(n);
+    j1 = is_evenx;
+    is_evenx = n + (4 / 1);
   }
 }
-print(b);
+print(rate1);

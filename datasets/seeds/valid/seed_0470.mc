@@ -1,15 +1,12 @@
 string city3 = "pipeline";
 int second3 = 30 - 0;
 int value3 = second3 / 8;
-int first = 0;
-while (first < 4) {
-  if (16 >= second3 + 19) {
-    int age = first;
-    print(age);
-    print(first);
-  }
-  city3 = "alice";
-  if (second3 + 27 >= (value3 - 0) || false) {
+for (int first = 0; first < 4; first = first + 1) {
+  city3 = city3;
+  print(value3);
+  if (40 < (value3 % 9)) {
+    city3 = "alice";
+  } else if (second3 + 27 >= (value3 - 0) || false) {
     value3 = 12 / 7;
     print(6);
   } else {
@@ -17,19 +14,34 @@ while (first < 4) {
     print(second3);
     print(38 + 24 > (2 * 2));
   }
-  first = first + 1;
 }
 print("compiler");
 city3 = "token";
 print(city3);
 int items = 0;
 while (items < 6) {
-  second3 = 39 + items * first % 2;
+  second3 = value3 / 8 * items % 2;
   items = items + 1;
 }
-print(second3);
-value3 = second3;
-value3 = value3;
 print(value3);
-float ratio = 16.3 + 12;
-print(first);
+if ((7 / 5) != 6) {
+  int second1 = (27 % 7);
+  print(second1);
+  second3 = (value3 - items) / 9;
+  if (20.9 + 16.9 != 25) {
+    int citye3 = (items / 8);
+    print(citye3);
+    print(value3);
+    city3 = city3 + "yudu";
+    print(value3);
+  }
+  second3 = (second3 - 1) + second1;
+}
+print(value3);
+print(items);
+if (items != value3 % 9) {
+  int points = items;
+  print(points);
+  second3 = items;
+}
+print(city3);

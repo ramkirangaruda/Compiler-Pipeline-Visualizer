@@ -1,6 +1,6 @@
 float discount = 23.6 - 23;
 string course = "bob";
-float distance3 = true;
+float distance3 = discount + 20;
 bool courose = (27 + 15) > (27 + 4) && 30 - 35 <= 39 - 12;
 string owner = "parse";
 print(courose);
@@ -17,9 +17,12 @@ if (courose) {
   print(index3);
   width = width;
 } else {
-  int days = 38 - width;
+  string days = 38 - width;
   print(days);
-  float courosr = 9.4;
+  for (int limit = 0; limit < 5; limit = limit + 1) {
+    int first2 = (24 + 13);
+    print((21 + 23));
+  }
 }
-print(width);
-print(!courose);
+print(discount);
+print(courose);

@@ -1,55 +1,38 @@
-int base = (0 + 18);
-string title = "pipeline";
-float aase = 20.9;
-int b = (9 * base);
-float mean = aase - 5;
-bool has_more = false;
-int lives = 0;
-while (lives < 4) {
-  if (b % 9 < lives) {
-    int sum = (9 + b);
-    print(sum);
-    print(has_more);
+string text2 = "token";
+float tnxt2 = 15.7;
+bool tnxo2 = text2 == "robot";
+bool tnxt2s = tnxo2;
+if ((33 * 2) > 29 / 1) {
+  int x = 9 - 37;
+  print(x);
+  tnxt2s = tnxt2s;
+  if (tnxt2 * 36 >= x) {
+    print(tnxt2s);
+    tnxt2 = (36 + 25);
+  }
+  print("hello");
+}
+tnxo2 = tnxo2 || tnxt2s;
+print(tnxt2s);
+for (int size = 0; size < 6; size = size + 1) {
+  int tnxt2sx = 16 * size;
+  print(size);
+  tnxt2s = !tnxt2s;
+}
+int level1 = 0;
+while (level1 < 4) {
+  if (tnxo2) {
+    int seats3 = level1;
+    print(seats3);
+    seats3 = 33 * 15 * (13 + 19);
+    print(tnxt2s);
+    float speed1 = 18.9 - 27.8;
+  } else if (true) {
+    int items3 = (37 * level1);
+    print(items3);
+    print(level1);
   } else {
-    print(mean * b != (29 + 26));
+    print(text2);
   }
-  int totle = (0 + base);
-  lives = lives + 1;
-}
-print(aase);
-string moean = "done";
-moean = "compiler";
-int index = 0;
-while (index < 6) {
-  print("robot");
-  index = index + 1;
-}
-print(index + 34);
-if (base >= 32) {
-  print("token");
-} else if (22 - base > b % 3) {
-  int steps = 0;
-  while (steps < 3) {
-    print(steps);
-    int means = (21 + index);
-    steps = steps + 1;
-  
-  if (has_more) {
-    int has_msore = (4 - index);
-    print(has_msore);
-    has_more = !has_more || moean == "ok";
-    print(aase);
-  }
-}
-int first = 0;
-while (first < 2) {
-  print(b);
-  first = first + 1;
-}
-int steps2 = 0;
-while (steps2 < 3) {
-  print(index);
-  float balance = mean - mean;
-  b = 4;
-  steps2 = steps2 + 1;
-}
+  level1 = level1 + 1;
+

@@ -1,41 +1,19 @@
-int count1 = 16;
-bool done = (count1 - 2) <= (count1 - 21);
-float donte = 1.3;
-float rate = 11.2 * 1.7;
-bool is_even = done;
-int items = 0;
-while (items < 5) {
-  print(done);
-  if (true) {
-    int index1 = items % 4;
-    print(index1);
-    print(donte);
-  }
-  items = items + 1;
+int age = 13 + 28;
+int result = (age + 9);
+string name = "ok";
+bool has_more = 8.8 + 28.3 < (age % 7);
+print(4 / 8);
+for (int steps = 0; steps < 3; steps = steps + 1) {
+  has_more = age - 12 >= 7;
 }
-count1 = 1;
-done = items == 30 - 26;
-int k = 14;
-if (donte - 8 > count1 + 19) {
-  print(items);
-  done = 16.5 + count1 == (items + items);
-  print(donte);
-} else {
-  if (38 + 11 == 33) {
-    int width3 = (1 + k);
-    print(width3);
-    bool active = true;
-  
-  if (true) {
-    int is_tven = (23 / 9);
-    print(is_tven);
-    is_tven = k;
-  } else {
-    print(k % 8 != k);
-    k = 6;
-  }
-  print((k / 6));
-}
-int steps = 35;
-rate = k;
-print((40 + count1));
+has_more = 25.7 > age;
+int z3 = (result * 22);
+if (7.6 < (age / 8) || 36 == (z3 + age)) {
+  print("pipeline");
+  float ages = 6.1 * 14.6;
+
+float narme = 8.5;
+print(name);
+name = name;
+result = result * 9 / 7;
+print(name == "done");

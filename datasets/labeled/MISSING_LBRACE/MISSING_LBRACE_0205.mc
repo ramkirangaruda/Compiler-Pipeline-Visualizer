@@ -1,36 +1,42 @@
-string label;
-string greeting = "done";
-string course = "robot";
-string title = greeting;
-print(course);
-if (greeting == "pipeline") {
-  course = "token";
-} else 
-  int y1 = 15;
-  print(y1);
-  print(title);
-  title = "robot";
-  print(y1 + y1);
-}
-if (6.1 - 34 >= (16 * 9)) {
-  print(course);
-  if (true) {
-    greeting = "compiler";
-    print(greeting);
-    bool has_more = 34 + 10 < 16 + 17;
+int level = (16 * 33);
+int tickets = level;
+int limit = 1 * 5;
+level = 4;
+print(limit < tickets * 12);
+print(limit + limit <= level + limit);
+if (false) 
+  int level3 = 20;
+  print(level3);
+  limit = tickets;
+  int width = 0;
+  while (width < 4) {
+    print(tickets);
+    width = width + 1;
   }
-  course = "hello";
+} else {
+  limit = (level % 8) + 7 - 39;
+  limit = 15 + level % 8;
 }
-print(false);
-int num = 0;
-while (num < 5) {
-  greeting = label + "compiler";
-  print(course);
-  print(num);
-  num = num + 1;
+int j = 0;
+while (j < 5) {
+  string label = "bob";
+  j = j + 1;
 }
-label = "world";
-print(label);
-print(course);
-title = title + "hello";
-print(greeting);
+limit = (25 + limit) * (level + level);
+int x = 0;
+while (x < 5) {
+  string limitx = "compiler";
+  tickets = j;
+  if ((34 * 26) < tickets + level) {
+    int limitxx = tickets;
+  } else {
+    int lives = 24;
+    print(lives);
+    print(15.4 >= (tickets + 30));
+    level = (33 + 7) / 1;
+  }
+  x = x + 1;
+}
+float distance = 9.2;
+print("pipeline");
+print(distance);

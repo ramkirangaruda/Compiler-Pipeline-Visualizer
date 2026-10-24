@@ -11,56 +11,22 @@ limit1 = 24 / 2;
 course = "world";
 limit1 = score + base - (base + base);
 if (14.7 - 2 >= (limit1 - 1)) {
-  print(course);
-} else {
-  int count = 0;
-  while (count < 4) {
-    print(base);
-    print(z);
-    count = count + 1;
+  for (int n = 0; n < 3; n = n + 1) {
+    print("parse");
+    base = score % 6;
   }
-  print(course);
-  print("hello");
 }
-if (false) {
-  if (false) {
-    int items = (score / 4);
-    print(items);
-    float speed = 6.9;
-    int speedx = z + base;
-    print(score);
-  }
-} else if (false) {
-  if (21 < 27 * 26) {
-    z = 36 / 8;
-    course = course + "pipeline";
+for (int count = 0; count < 6; count = count + 1) {
+  if (z < 34) {
+    print(16.8 + 25 <= (count - 33));
     print(course);
   } else {
-    int tickets2 = (score % 7);
-    print(tickets2);
-    print(z);
-    course = course + "bob";
-    int seats = limit1 % 5;
+    int rounds = (count * 1);
+    print(rounds);
+    course = "ok";
   }
-} else {
-  int k = base * limit1;
-  print(k);
-  int count1 = 0;
-  while (count1 < 3) {
-    print(z % 4);
-    count1 = count1 + 1;
-  }
-  int marks = k + 17;
+  print(z);
+  course = "alice";
 }
-if (course == "bob") {
-  int coursex = 34;
-} else {
-  limit1 = (z * limit1) + 29 + 11;
-  if (13 % 8 > 9 + 17) {
-    int years2 = limit1 * base;
-    print(years2);
-    base = 18 / 6 / 4;
-    print(course);
-  }
-}
-print(score);
+print(false);
+print((score % 5));

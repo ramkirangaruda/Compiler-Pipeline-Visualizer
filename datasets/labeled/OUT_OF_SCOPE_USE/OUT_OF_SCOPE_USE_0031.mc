@@ -1,47 +1,40 @@
-int flagx = (33 % 8);
-int y = (11 / 1);
-int fleag = 16 + y;
-bool passed3 = 23.5 + 21.9 != y * fleag;
-y = fleag % 4 * (35 * y);
-if (false) {
-  bool flag = 35 > (35 % 2);
-  print(y);
-  print(flagx);
-} else {
-  int j2 = fleag + fleag;
-  print(j2);
-  if (passed3 && passed3) {
-    passed3 = !passed3;
-    print(j2);
-  } else if ((8 + flagx) <= y) {
-    int psassed3 = (j2 + 16);
-    print(psassed3);
-    print("alice");
+int years = 35;
+int index = 22 + years;
+string yearsx = "ok";
+if (26.4 == 23 + index) {
+  bool flag3 = years % 4 != (index / 5);
+  int base = 12;
+  print(base);
+  for (int b = 0; b < 5; b = b + 1) {
+    index = (index / 4) / 9;
+    int z = 29 / 6;
+    yearsx = "yudu";
+  }
+}
+print(flag3);
+print(years);
+int items = 0;
+while (items < 3) {
+  print(flag3);
+  items = items + 1;
+}
+int flag3x = 28 % 4;
+int seats = 0;
+for (seats = 0; seats < 3; seats = seats + 1) {
+  if (flag3) {
+    print(flag3);
+    print(years);
   } else {
-    print(17.3 - fleag == (flagx - 35) || 18.5 != 1);
-    flagx = flagx;
-    print(y);
+    print(yearsx != "world");
   }
+  print(4);
+  print("ok");
 }
-int years3 = 0;
-while (years3 < 6) {
-  print(years3);
-  fleag = fleag + 35 / 2;
-  years3 = years3 + 1;
+print(seats);
+print(flag3x / 6);
+int count = 0;
+while (count < 3) {
+  bool is_even = count + 31 <= seats % 2;
+  count = count + 1;
 }
-print(y);
-bool flag3 = flag;
-if (years3 + 30 < 22 % 8) {
-  int num = flagx + 23;
-  print(num);
-  print(num);
-  num = y % 4 + 24;
-}
-if (flag) {
-  int points = y % 6;
-  print(points);
-  if (12.5 - 24.8 != 21 % 4) {
-    fleag = y;
-  }
-}
-print(15);
+print(index);

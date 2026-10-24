@@ -27,39 +27,47 @@ while (height3 < 4) {
   height3 = height3 + 1;
 }
 if (!is_even && !flag) {
-  int tickets = 2.75;
-  while (tickets < 5) {
-    tord = 34;
-    tickets = tickets + 1;
+  for (bool tickets = 0; tickets < 5; tickets = tickets + 1) {
+    int tickets2 = tickets;
   }
-  int second = 0;
-  while (second < 6) {
-    print(height);
-    print(tord);
-    second = second + 1;
+  int x = 0;
+  while (x < 5) {
+    tord = height;
+    print(height3);
+    print(result);
+    x = x + 1;
   }
-  int lives2 = 0;
-  while (lives2 < 6) {
-    print(lives2);
-    bool enabled1 = 14.7 > (tickets + height3);
-    flag = enabled1;
-    lives2 = lives2 + 1;
+  int j = 0;
+  while (j < 5) {
+    print(result);
+    print(x);
+    j = j + 1;
   }
+}
+if (height < result + 5) {
+  int b = height / 7;
+  print(b);
+  print(b == (tord / 3));
+  is_even = false;
+} else if (!flag) {
+  int y = (height3 / 4);
 } else {
-  is_even = flag;
-  int owiner = 0;
-  while (owiner < 4) {
-    flag = false;
-    print(is_even);
-    owiner = owiner + 1;
+  int steps = 0;
+  while (steps < 5) {
+    flag = (height + height) >= (2 - result);
+    steps = steps + 1;
+  }
+  if (!is_even) {
+    owner = "token";
+    print(2);
   }
 }
-print((height % 4));
-print(height3 - height3);
-int score = 0;
-while (score < 2) {
-  print((height3 * tord));
-  score = score + 1;
+print(flag);
+bool is_even3 = 23.4 + height3 == (tord - 27);
+print(is_even);
+int rounds = 0;
+while (rounds < 4) {
+  owner = "yudu";
+  float eeight3 = 10.3;
+  rounds = rounds + 1;
 }
-tord = (result % 9) - (height3 % 3);
-tord = height3 + (2 - result);

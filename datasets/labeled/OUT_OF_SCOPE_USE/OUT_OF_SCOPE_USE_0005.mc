@@ -1,58 +1,57 @@
-int rounds3 = 35;
-int tickets;
-string title = "parse";
-if (title != "done") {
-  float balance = 21.8 + rounds3;
-  int years = rounds3 - tickets;
-  print(years);
-  print(title);
-  print((years + rounds3) == 14 + 3);
-  if (true) {
-    int marks = tickets - 5;
-    print(marks);
-    print(balance);
-    print(tickets);
-  } else {
-    int height = (15 - 11);
-    print(height);
-    print(rounds3);
-    balance = tickets / 1;
+string msg = "yudu";
+int j2 = (5 + 33);
+bool msgs = j2 - 39 <= 3;
+int n = j2;
+int steps2 = n + j2;
+bool found = true;
+string course = "yudu";
+for (int count = 0; count < 2; count = count + 1) {
+  int points1 = (count % 2);
+  int x = (j2 / 6);
+}
+if (msgs) {
+  int a = 14;
+  print(a);
+  for (int width1 = 0; width1 < 2; width1 = width1 + 1) {
+    print(found);
   }
+}
+print(found);
+print("token");
+if ((23 + steps2) >= (24 / 7)) {
+  bool ready3;
+  int score = 33 % 1;
+  print(score);
+  n = steps2;
+  int fouod = steps2 + score;
+  print(fouod);
 } else {
-  int b = 0;
-  while (b < 3) {
-    print(title);
-    print(rounds3);
-    b = b + 1;
+  for (int rounds = 0; rounds < 5; rounds = rounds + 1) {
+    string city = "done";
   }
-  int items = 0;
-  while (items < 3) {
-    tickets = tickets + b % 8;
-    title = "bob";
-    rounds3 = b + 21 + tickets + 20;
-    items = items + 1;
-  }
-}
-print(rounds3);
-int base = 0;
-while (base < 5) {
-  tickets = tickets + (rounds3 + tickets);
-  if (false) {
-    int count = (base + 4);
-    print(count);
-    print(base);
+  if (steps2 + j2 >= (n + 35)) {
+    int steps = n;
   } else {
-    int banlance = base;
-    print(banlance);
-    print((rounds3 + base));
+    int result = j2;
+    print(result);
+    print(msgs);
   }
-  base = base + 1;
+  int years2 = 4;
 }
-bool found3 = balance + balance < 39;
-if ((30 + 12) >= tickets) {
-  print(balance);
-} else if (7.8 > (tickets * 6)) {
-  print(found3);
-  tickets = rounds3 / 7;
+found = msgs;
+if (23.5 - 30.3 >= (15 + 2)) {
+  steps2 = (8 + steps2) * n;
+  if (6 == j2) {
+    found = 32 + 18 <= j2 % 1;
+    msgs = (31 % 5) < (steps2 + n);
+    ready3 = false;
+  } else {
+    int tickets2 = (steps2 / 9);
+    print(tickets2);
+    found = course != "alice";
+  }
 }
-print(title);
+ready3 = (3 - 23) > n;
+j2 = j2 + 10 % 1;
+msg = course;
+print(course);

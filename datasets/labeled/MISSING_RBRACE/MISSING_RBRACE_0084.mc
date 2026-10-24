@@ -1,45 +1,29 @@
-int b = (30 * 22);
-bool active2 = b * b >= (b - 5);
-bool flag = (b / 1) <= (13 + 17);
-float activre2 = 20.8;
-string city = "ok";
-if (flag) {
-  int count = b;
-  print(count);
-  city = "done";
-  print("done");
-} else if (b != (5 / 9)) {
-  int result = (b + 8);
-  print(result);
-  b = b;
-  print(result);
-}
-print(city);
-print(city);
-if (0 * b <= b * b) {
-  int points = (b + b);
-  print(points);
-  if (21.9 >= points) {
-    int count2 = 1 - 2;
-    print(count2);
-    activre2 = b;
-    print(city);
-  }
-  b = 25 / 7 - b;
-}
-if (activre2 * 5 <= 3 && active2) {
-  b = 33 + b * b + b;
+int steps = 38 + 19;
+float weight = 13.5;
+int weoght;
+bool is_even = false;
+print(weoght);
+steps = 9 % 7;
+if (true) {
+  int tickets = (13 % 8);
+  print(tickets);
+  is_even = weight + 34 > 3 % 1;
 } else {
-  b = b - (37 % 9);
-  print(activre2);
+  int second = weoght;
+  print(second);
+  int result = 0;
+  while (result < 6) {
+    is_even = (weoght / 9) < result;
+    float tax = weight;
+    is_even = is_even;
+    result = result + 1;
+  
+  int stock = 0;
+  for (stock = 0; stock < 4; stock = stock + 1) {
+    print(is_even);
+  }
+  print(stock);
 }
-b = (b - b) + b;
-print(b);
-flag = !flag;
-int size = 0;
-while (size < 5) {
-  print(activre2);
-  activre2 = activre2 + 38;
-  size = size + 1;
-
-print(active2);
+print(weoght);
+weight = steps;
+print(is_even);

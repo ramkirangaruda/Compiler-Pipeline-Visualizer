@@ -1,5 +1,5 @@
 float ratio = 16.6 * 12.3;
-bool size = 19 + 3;
+int size = 19 + 3;
 int b2 = (size % 2);
 float temp = ratio + 13;
 if (ratio + 5.5 != (30 % 4)) {
@@ -8,30 +8,63 @@ if (ratio + 5.5 != (30 % 4)) {
   print(size);
 } else {
   int days = 0;
-  while (days < 2) {
-    print("yudu");
-    days = days + 1;
+  for (days = 0; days < 2; days = days + 1) {
+    print(false && 11 != b2);
   }
-  int tempx = 0;
-  while (tempx < 3) {
-    ratio = b2 + days;
-    print(days);
-    tempx = tempx + 1;
+  int base1 = 0;
+  for (base1 = 0; base1; base1 = base1 + 1) {
+    print(false);
+  }
+  print(base1);
+}
+if (false) {
+  int score = 0;
+  while (score < 6) {
+    print(temp);
+    print(temp);
+    int index = (27 / 2);
+    score = score + 1;
+  }
+  int height1 = 0;
+  for (height1 = 0; height1 < 6; height1 = height1 + 1) {
+    print(ratio);
+  }
+  int a1 = 0;
+  while (a1 < 4) {
+    print(b2);
+    bool sheight1 = ratio * score >= 38 + 13;
+    a1 = a1 + 1;
+  }
+} else if (temp - ratio != (size % 2)) {
+  temp = b2 * 20;
+} else {
+  int sum1 = size;
+  print(sum1);
+  if (6 % 6 == size + 29) {
+    int rounds3 = sum1 - b2;
+    print(rounds3);
+    size = rounds3 - (size + b2);
+    b2 = 11 % 5 / 5;
+    print("parse");
+  } else {
+    print("robot");
+  }
+  if (false) {
+    print(size);
+    print((b2 + 25));
+    b2 = size / 6;
+  } else if (sum1 > b2 % 3) {
+    int first = (b2 + sum1);
+    print(first);
+    print(sum1);
+    print(b2);
+  } else {
+    print(temp);
+    sum1 = sum1;
+    string site = "world";
   }
 }
-size = (27 + 38) * b2 + b2;
-int height = 0;
-while (height < 2) {
-  print(ratio);
-  int j = (b2 + height);
-  if (true) {
-    int level = (b2 - size);
-    print(level);
-    print(height % 2 != size % 1);
-    int steps3 = (38 - j);
-  }
-  height = height + 1;
-}
-print(size);
-ratio = 30.9;
-print(22 % 8 != 1 + b2 && true);
+b2 = size;
+print(b2);
+print(b2);
+print((size + b2));

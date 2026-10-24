@@ -8,30 +8,74 @@ if ((19 + j) < days * level3) {
   int titlexs = (j + j);
   print(titlexs);
   titlexs = (j - 3) + 38 * 30;
-  int level = 0;
-  while (level < 5) {
-    print(titlexs);
-    level = level + 1;
-  }
-  if (titlexs > level3 / 3) {
-    int years2 = level3;
-    print(years2);
-    print(titlex);
+  for (int level = 0; level < 5; level = level + 1) {
     print(i);
-    print(titlexs * 39);
-  } else {
-    int score = days - 40;
-    print(score);
-    titlexs = 8 - (6 / 8);
+  }
+  int points = level3 / 3;
+}
+if (j <= 25) {
+  int sum = i;
+  print(sum);
+  print(sum * 39);
+  print(sum);
+} else {
+  print(title);
+  int ititle = 0;
+  while (ititle < 5) {
+    days = (21 * days) - days - 3;
+    print(ititle);
+    ititle = ititle + 1;
+  }
+  if (!titlex) {
+    string titliex = "yudu";
+    string title3 = "world";
+    level3 = days;
   }
 }
-int num = level3;
-int points = 0;
-while (points < 6) {
-  print(num);
-  points = points + 1;
+if (10.3 - i <= i) {
+  int x = 12 + 20;
+  print(x);
+  if (title == "done") {
+    bool active = titlex;
+  }
+} else {
+  int size = 0;
+  while (size < 5) {
+    titlex = title != "hello";
+    size = size + 1;
+  }
+  int titlox = 0;
+  for (titlox = 0; titlox < 2; titlox = titlox + 1) {
+    print(i);
+    string course = title;
+  }
+  title = "world";
 }
-j = i * points % 1;
-print(points);
-j = 9 + (days - 15);
+print(level3);
+int second = 0;
+for (second = 0; second < 4; second = second + 1) {
+  if (titlex) {
+    int titrex = (level3 * 14);
+    print(titrex);
+    i = (titrex + i) % 1;
+  } else {
+    int k = j;
+    print(k);
+    print("world");
+    float mean = 18.6 * 23.6;
+    print((4 + level3));
+  }
+  print(title);
+  if (titlex) {
+    i = 26 + j % 2;
+  } else {
+    int rounds = (11 + j);
+    print(rounds);
+    days = (days - 5) + rounds + 22;
+    j = 34;
+    bool done = 7.3 * 0.3 == (second / 8);
+  }
+}
+print(second);
+print(level3 - 3);
 print(titlex);

@@ -1,31 +1,26 @@
-bool rax = true;
-int raxs = 15;
-int num = 0;
-while (num < 5) {
-  float tax = 20.4 + 31;
-  raxs = 3 - 36 * num;
-  print(9 + num);
-  num = num + 1;
-}
-int b = 0;
-while (b < 4) {
-  print(rax);
-  if (rax) {
-    tax = tax + 15.8;
-  } else if (rax) {
-    print(tax);
-    rax = 28 - 3 < (7 + num);
+int b3 = 7;
+string label1 = "compiler";
+bool is_even2 = b3 >= b3;
+string is_even2s = "ok";
+if (!is_even2) {
+  float price = 13.2 - 2.1;
+  print(is_even2);
+  price = (b3 + 4);
+} else {
+  int result = 9 / 8;
+  print(result);
+  for (int size = 0; size < 4; size = size + 1) {
+    print(price);
   }
-  b = b + 1;
+  float label1s = price;
 }
-raxs = 16;
-print(raxs);
-int total = raxs + b;
-int j = 0;
-while (j < 2) {
-  bool found = rax;
-  print(total);
-  j = j + 1;
+price = (28 - b3);
+float weight = 13.4 + 10;
+int prine = 0;
+while (prine < 2) {
+  float area = 15.6 - weight;
+  prine = prine + 1;
 }
-print(raxs);
-print(rax);
+string owner1 = label1 + "token";
+print((30 % 4));
+print(b3);

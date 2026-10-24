@@ -40,6 +40,9 @@ export default function Home() {
             lineColor="rgba(255,255,255,0.10)" hoverColor="#2CF7A4" hoverFillColor="#2CF7A4" fillOpacity={0.18}
             radius={2.2} glow={0.25} />
         </div>
+        <div className="container project-title">
+          <h2>ML-Powered Compiler for Error Localization and Intelligent Repair</h2>
+        </div>
         <div className="container hero-inner">
           <div className="hero-copy">
             <div className="eyebrow fade-in"><span className="dot on" /> Compiler Design × Machine Learning</div>

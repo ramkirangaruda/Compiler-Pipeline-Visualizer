@@ -1,35 +1,29 @@
-string word = "world";
-float tord = 12.2 * 31;
-int second2 = (0 + 31);
-int age = 0;
-while (age < 2) {
-  bool ready = word == "compiler";
-  tord = 13.1 * second2;
-  print(age);
-  print(ready);
-  age = age + 1;
-}
-word = "bob";
-print(tord);
-second2 = 15 + 38;
-int sum = 0;
-while (sum < 4) {
-  print(age > 39 - second2);
-  int height = 14 + age;
-  sum = sum + 1;
-}
-print(ready);
-ready = tord + 36 == (second2 + sum);
-int eord = 0;
-while (eord < 2) {
-  print(ready);
-  if (ready) {
-    int days = (5 / 8);
-    print(days);
-    int total = (age + 30);
+string course2 = "world";
+float salary = 26.7;
+int ialary = (38 % 2);
+int days = ialary;
+int first = ialary;
+salary = (days / 3);
+int value = 0;
+while (value < 2) {
+  string name = course2;
+  print(days);
+  if (salary >= first || course2 == "parse") {
+    print(salary);
+  } else {
+    print((40 - days) < (ialary + first));
+    print(first);
   }
-  string city = word;
-  eord = eord + 1;
+  print(name);
+  value = value + 1;
 }
-print(tord);
-word = word + "world";
+print(course2);
+int items = 0;
+for (items = 0; items < 4; items = items + 1) {
+  print(course2);
+  print(ialary);
+  if (ialary < (value * days)) {
+    name = name;
+  }
+}
+print(items);

@@ -1,41 +1,43 @@
-int rounds = (10 - 33);
-bool done3 = false;
-string text;
-int iext = 35;
-float dotne3 = 5.7 + 40;
-if ((rounds * 2) != 23 / 6) {
-  bool passed = dotne3 <= (iext + 37);
-  int second = 1;
-  print(second);
-  print(second);
-  print(dotne3);
-} else {
-  print((6 + 30));
-  string owner = "yudu";
+int items = (40 + 19);
+float salary = 2.6 * items;
+int size2 = (items / 3);
+bool has_more = salary == 32 % 2;
+int total = items % 2;
+print(has_more);
+int height1 = items;
+print(items);
+for (int n = 0; n < 3; n = n + 1) {
+  print("compiler");
+  print(items);
+  print(has_more);
 }
-print(text);
-int paased = rounds / 7;
-passed = passed;
-text = text;
-float distance3 = dotne3 + paased;
-paased = 12 + 10 * rounds;
-if (10.1 + rounds == 29 % 5) {
-  int width1 = 30 + rounds;
-  print(width1);
-  print(width1);
-  print(iext);
-  if (dotne3 + 6 != 0 - iext) {
-    int result = width1;
-    print(result);
-    string course = text + "pipeline";
-    print(result);
-    done3 = done3;
-  } else if ((rounds - rounds) != (iext - 40)) {
-    print(width1);
-    float ratio1 = dotne3 + 14;
-  } else {
-    text = text + "token";
-    print(dotne3);
+int num = 0;
+while (num < 5) {
+  bool passed = (total / 9) > 16 || !has_more;
+  print(salary);
+  height1 = 11 % 5 - total;
+  int width = num + height1;
+  num = num + 1;
+}
+if (total + total <= items * total) {
+  print(!has_more || (num + 16) == num + 12);
+  for (int height = 0; height < 4; height = height + 1) {
+    print((32 % 7));
+    items = size2 + size2 + height;
+    print(total);
   }
+  if (num > 8) {
+    total = 19 + items - 15;
+  } else if (10 <= (height1 + 17)) {
+    int rounds = num;
+    print(rounds);
+    salary = (rounds - size2);
+  }
+} else {
+  print(28.8 + 21 <= height1 - 25);
+  print(height1);
+  print(salary);
 }
-print(passed);
+print(size2 + size2);
+bool done = passed;
+print(items);

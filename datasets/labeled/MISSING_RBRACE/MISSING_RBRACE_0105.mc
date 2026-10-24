@@ -1,84 +1,32 @@
-int score = 16;
-int a = 28 - 5;
-float scores = 30.4;
-bool ready = false;
-if (a == score / 3 || !ready) {
-  print("ok");
-  if (11.6 + 12.8 <= (score / 7)) {
-    int items3 = score;
-    scores = items3;
-  } else if (ready) {
-    int score2 = score;
-    print(score2);
-    int days3 = 38;
-    scores = score2;
-  }
-
-if ((score % 7) < (a % 1)) {
-  int b = a + score;
-  if (9.8 < a * 27 && b >= 39) {
-    float scote = 14.4;
-  }
+float discount3 = 19.8 - 3.1;
+float avg1 = discount3 - 14.7;
+string name1 = "yudu";
+string aavg1 = name1 + "alice";
+string ava1 = "bob";
+bool ok1 = false || true;
+string city3 = name1;
+bool passed = 18 % 6 != (3 + 24);
+int a = 0;
+while (a < 6) {
+  print(ok1);
+  name1 = "pipeline";
+  a = a + 1;
+}
+aavg1 = "hello";
+int result = 0;
+for (result = 0; result < 4; result = result + 1) {
+  print(avg1);
+  print(ava1);
+}
+if (ok1) {
+  int rounds1 = 0;
+  while (rounds1 < 5) {
+    ava1 = "hello";
+    rounds1 = rounds1 + 1;
+  
+  print(result);
 } else {
-  if (!ready) {
-    scores = 25 / 3;
-    a = 39 - a / 8;
-    ready = (score - score) == (score % 1);
-  }
+  name1 = "compiler";
+  int index1 = (a + a);
 }
-int height = a / 7;
-float distance = scores;
-int tickets = 0;
-while (tickets < 2) {
-  if (19.8 < 34) {
-    height = (15 + height) * a / 5;
-  } else {
-    int distances = (height % 9);
-    print(distances);
-    print(ready);
-    print(ready);
-    print("robot");
-  }
-  tickets = tickets + 1;
-}
-if (36 == height) {
-  if (score < score) {
-    print(score + height <= (tickets % 1));
-    print(ready);
-    float balance = scores + a;
-  }
-  float rate = distance * distance;
-  print("hello");
-} else {
-  int base = (a + height);
-  print(base);
-  if (true) {
-    print("alice");
-    print(tickets);
-  } else {
-    int items = (base - tickets);
-    print(items);
-    scores = 29 - 5;
-    float area = scores + items;
-  }
-  int count = 0;
-  while (count < 5) {
-    print(scores);
-    count = count + 1;
-  }
-  if (!ready) {
-    int points = a;
-    print(points);
-    points = points;
-    print(a);
-    int marks2 = score;
-  } else if (tickets + 11 > 8 - 40) {
-    int marks1 = (score - 33);
-    print(marks1);
-    print(score);
-    print(count);
-  }
-}
-print(distance);
-score = 25;
-print((38 * height));
+print(aavg1);

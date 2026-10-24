@@ -6,53 +6,25 @@ if (title != "done") {
   int years = rounds3 - tickets;
   print(years);
   print(title);
-  print((years + rounds3) == 14 + 3);
-  if (true) {
-    int marks = tickets - 5;
-    print(marks);
-    print(balance);
-    print(tickets);
-  } else {
-    int height = (15 - 11);
-    print(height);
-    print(rounds3);
-    balance = tickets / 1;
+  for (int limit = 0; limit < 4; limit = limit + 1) {
+    years = 29;
+    tickets = 3;
   }
+  int marks = tickets - 5;
 } else {
-  int b = 0;
-  while (b < 3) {
-    print(title);
-    print(rounds3);
-    b = b + 1;
-  }
-  int items = 0;
-  while (items < 3) {
-    tickets = tickets + b % 8;
-    title = "bob";
-    rounds3 = b + 21 + tickets + 20;
-    items = items + 1;
-  }
-}
-print(rounds3);
-int base = 0;
-while (base < 5) {
-  tickets = tickets + (rounds3 + tickets);
-  if (false) {
-    int count = (base + 4);
-    print(count);
-    print(base);
-  } else {
-    int banlance = base;
-    print(banlanc);
-    print((rounds3 + base));
-  }
-  base = base + 1;
-}
-bool found3 = balance + balance < 39;
-if ((30 + 12) >= tickets) {
+  int rounds2 = (tickets / 6);
+  print(rounds2);
   print(balance);
-} else if (7.8 > (tickets * 6)) {
-  print(found3);
-  tickets = rounds3 / 7;
+  balance = balance * balance;
 }
-print(title);
+int seats = 0;
+while (seas < 3) {
+  rounds3 = (22 - rounds3) - tickets;
+  print(title);
+  print(balance);
+  seats = seats + 1;
+}
+balance = 30 + 34;
+tickets = 30;
+int size = 20 + rounds3;
+print(rounds3);

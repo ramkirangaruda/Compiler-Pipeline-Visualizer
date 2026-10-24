@@ -8,59 +8,33 @@ string owner3 = "pipeline";
 if (y > (seats - seats)) {
   int points = 40;
   print(points);
-  int flaag1 = 0;
-  while (flaag1 < 3) {
-    print(flag1);
-    seats = 28 + 18;
-    flaag1 = flaag1 + 1;
+  for (int flaag1 = 0; flaag1 < 3; flaag1 = flaag1 + 1) {
+    flag1 = !flag1;
   }
-} else {
-  int fnlag1 = 2;
 }
-print(value);
-int a = 0;
-while (a < 3) {
-  count = 22 / 2 / 9;
-  print(seats);
-  a = a + 1;
+bool found2 = !flag1;
+int index = 0;
+while (index < 5) {
+  if (found2 && value + count > y - y) {
+    int age = (24 + y);
+    print(y;
+    owner3 = "alice";
+  }
+  index = index + 1;
 }
-count = 24;
-print(value);
-int height = 0;
-while (height < 4) {
-  owner3 = label;
-  print(label != "world");
-  height = height + 1;
+int owner3s = 0;
+for (owner3s = 0; owner3s < 6; owner3s = owner3s + 1) {
+  float coeunt = 3.3;
 }
-if ((y + 12) > height - y && 30.6 - value >= 4) {
-  if (10 != 27 + y) {
-    seats = a % 3 % 9;
+if (true) {
+  if (flag1) {
+    print(32 % 7 == index);
   } else {
-    int level = (height - 39);
-    print(level);
-    print(seats);
-    print(level);
-    flag1 = 5.4 - 16.5 != y;
+    print(value);
   }
-} else {
-  if (21 / 8 >= height % 6 {
-    print(40 + 26);
-  } else {
-    int rounds = a;
-    print(rounds);
-    print("alice");
-    print(flag1);
-    print(count);
-  }
-  float mean = 19.2 - 28.7;
-  int ownet3 = 3;
+  print(owner3);
 }
-if ((y + 28) != y - value) {
-  int width = 32 % 7;
-  print(width);
-  print(y);
-  if (owner3 != "pipeline") {
-    int stock = seats % 6;
-  }
-}
-print(label);
+print(y);
+print(index);
+float area = 22.2 + 12.7;
+print(y);

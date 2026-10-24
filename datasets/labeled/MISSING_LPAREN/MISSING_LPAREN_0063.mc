@@ -21,7 +21,7 @@ if (true || flag3) {
     width1 = width1 + 1;
   }
   int base = 0;
-  while (base < 3) {
+  while base < 3 {
     x = x * 7 - (second + x);
     base = base + 1;
   }
@@ -73,18 +73,16 @@ if (28.6 + 28.7 >= 10 * age) {
   flag3 = flag3;
   bool is_even = passed;
 } else {
-  int n = 0;
-  while (n < 5) {
-    print(greeting);
-    print(done);
-    n = n + 1;
+  for (int n = 0; n < 5; n = n + 1) {
+    print(j);
+    done = false;
+    done = passed;
   }
-  int rounds = 0;
-  while rounds < 2 {
-    print((39 / 1));
-    print(age);
-    rounds = rounds + 1;
-  }
-  int size = 27 % 6;
+  int i = (35 / 8);
+  print(i);
 }
-print(greeting);
+if (passed) {
+  print(done);
+  print(j);
+}
+print(done);

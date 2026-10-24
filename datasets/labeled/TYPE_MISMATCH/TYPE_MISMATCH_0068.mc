@@ -24,28 +24,35 @@ if ((age3 / 5) >= (age3 + age3)) {
   area2 = 35 / 5;
   owner = "yudu";
 }
-bool first = 0;
+int first = 0;
 while (first < 3) {
   print(age3);
   first = first + 1;
 }
-int arta2 = 0;
-while (arta2 < 3) {
-  print(area2);
-  print(owner);
-  arta2 = arta2 + 1;
-}
-if (ready) {
-  int z = 1;
-  print(z);
-  if (area2 * area2 < (arta2 + first)) {
-    print(5);
+for (int arta2 = 0; arta2 < 3; arta2 = arta2 + 1) {
+  if (age3 * 17 > (5 * age3)) {
+    int total3 = (age3 * first);
+    print(total3);
+    area2 = weight - 40;
+    owner = "world";
     bool done3 = weight - age3 >= age3 + age3 || !ready;
   }
   age3 = 1 % 3;
-  print(first);
+  print(owner);
 }
-age3 = arta2 + (arta2 + 12);
-print((age3 - age3) < 32);
-int rounds2 = age3;
-print(age3);
+ready = !ready;
+ready = 17 - first >= first / 7;
+if ((first - age3) >= first) {
+  int wetight = 39;
+  print(wetight);
+  ready = 30.8 != 11 + 21;
+} else if (0 * first < 4 % 8) {
+  string readoy = owner;
+  age3 = 36;
+} else {
+  for (int items2 = 0; items2 < 4; items2 = items2 + 1) {
+    int area2x = "text";
+    print(area2);
+  }
+}
+owner = owner;

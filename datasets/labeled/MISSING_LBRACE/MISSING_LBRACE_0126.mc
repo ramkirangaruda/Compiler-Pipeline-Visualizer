@@ -1,61 +1,57 @@
-string text = "parse";
-bool passed = true;
-int age = (23 / 8);
-string city = text;
-int level = (age + 34);
-text = "alice";
-print(city + "yudu");
-int x = 0;
-while (x < 6) {
+int size = 10;
+int total = size;
+int count = 4 / 7;
+int value = total + count;
+bool passed = value >= (26 + 18);
+string text = "yudu";
+if ((value + value) <= (size * value)) {
+  for (int z = 0; z < 2; z = z + 1) 
+    passed = 19 + count <= 9 + size;
+    total = (34 + z) % 9;
+    total = 38;
+  }
   print(text);
-  print(passed);
-  x = x + 1;
-}
-if (passed) {
-  int b = age + age;
-  print(b);
-  level = (35 / 7) - 24;
-  print(x);
+  size = value + size / 8;
 } else {
-  int n = x;
-  print(n);
-  int b2 = 0;
-  while (b2 < 4) {
-    string passeds = city + "yudu";
-    print(x);
-    print(passed);
-    b2 = b2 + 1;
-  }
-  int second = 0;
-  while (second < 4) {
-    n = 34 % 9;
-    print(passed);
-    text = "token";
-    second = second + 1;
-  }
-  print(level);
-}
-if (passed) {
-  if (4.7 >= age) {
-    int rounds = (35 / 6);
-    print(rounds);
-    city = "token";
-    string text1 = "robot";
-  } else {
-    print(x);
-  }
-} else if (passed) 
-  int stock = 26 * x;
+  int stock = value;
   print(stock);
-  int days3 = x;
-  level = (31 + stock) + (x + x);
-} else if (25.6 + age >= level * x) {
-  level = age * 34 * (x % 3);
+  size = 16;
+  if (5.3 + total <= (stock / 1)) {
+    print(text);
+  } else {
+    int level = (2 - 34);
+    print(level);
+    print(total);
+  }
 }
-float ratio = 5.1 + 5;
-if (passed) {
-  int level2 = (16 * 29);
-  print(level2);
-  print(36);
+print(value);
+print(text);
+print(passed);
+int steps = 0;
+while (steps < 2) {
+  passed = false;
+  if (passed) {
+    size = total + steps / 4;
+    print((count + 39));
+    print(text);
+  }
+  print(passed);
+  steps = steps + 1;
 }
-print(age);
+print(count);
+if ((steps * 12) > (value - 9)) {
+  int size1 = 0;
+  while (size1 < 4) {
+    bool ateps = passed;
+    int atepi = 8;
+    print(atepi);
+    size1 = size1 + 1;
+  }
+  text = text;
+} else if (size % 6 >= value % 8) {
+  print("ok");
+}
+count = 33;
+print(total);
+count = (total + 6) + (14 - 39);
+print(passed);

@@ -11,61 +11,43 @@ while (y1 < 3) {
   text = "yudu";
   y1 = y1 + 1;
 }
-print(y2);
-if (y1 >= (39 % 6)) {
-  int index = 40 + y1;
-  print(index);
-  y2 = (y2 % 2) + 15 + y1;
-  if (is_even) {
-    int value = 34;
-    print(value);
-    float weight = distance * 23;
-  } else if (text != "pipeline") {
-    int j = 11 + stock;
-    print(j);
-    print("yudu");
-    is_even = 13.6 - y2 < 21;
+for (int limit = 0; limit < 2; limit = limit + 1) {
+  bool valid = 19.8 - y1 >= (y2 % 2);
+  if (15 + y1 != (y2 + y2)) {
+    int teet = (33 + 34);
+    print(teet);
+    print(!is_even);
+  } else if (32 < (limit * y2)) {
+    string title = "yudu";
   }
-} else if (true) {
-  int texot = 0;
-  while (texot < 6) {
-    print(y2);
-    print(done1);
-    print("hello");
-    texot = texot + 1;
-  }
-  print("done");
-} else {
-  int distances = stock - 39;
-  print(distances);
-  int size = 0;
-  whil (size < 5) {
-    print(distances);
-    print(distance >= 17 / 2);
-    size = size + 1;
-  }
-  print(4);
 }
-print(text);
-int marks = stock % 8;
-is_even = text == "ok";
+print(done1);
+for (int ss_even = 0; ss_even < 2; ss_even = ss_even + 1) {
+  done1 = 12 + y2 < 17;
+}
+if ((19 - stock) < stock) {
+  print(text);
+  text = text;
+  int years = 0;
+  while (years < 3) {
+    string city = text;
+    print(is_even);
+    years = years + 1;
+  }
+}
 print(is_even);
-if (text == "token") {
-  float area = distance;
-} else {
-  int years = y1 / 2;
-  print(years);
+distance = (37 - y1);
+if (25.9 - 30.9 >= (y2 * 20)) {
   if (done1) {
-    int total3 = marks;
-    print(total3);
-    text = text;
-    string greeting1 = text + "parse";
-    print(y1);
-  } else if (stock > (y2 / 3)) {
-    int second = years;
-    print(second);
     print(done1);
-    y2 = 6 + 36 % 7;
+    stock = 37;
+    print(text);
+  } else {
+    in width = (stock - stock);
+    print(width);
+    print(text);
   }
+  is_even = is_even;
+  int tistance = stock * 1;
 }
-print(marks * 11);
+print(distance);

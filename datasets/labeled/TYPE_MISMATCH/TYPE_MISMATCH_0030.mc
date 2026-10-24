@@ -24,7 +24,7 @@ if (tax * balance1 > (21 - 1)) {
     print(distancse3);
     int i = (23 % 9);
   }
-  int num = (29 * lives2);
+  int num = ("text");
 } else {
   print(balance1);
   int lives = 0;
@@ -32,28 +32,9 @@ if (tax * balance1 > (21 - 1)) {
     print(done);
     lives = lives + 1;
   }
-  int j2 = 0;
-  while (j2 < 5) {
-    print(ratio3);
-    print(done);
-    j2 = j2 + 1;
+  for (int j2 = 0; j2 < 5; j2 = j2 + 1) {
+    print(37 / 6);
   }
 }
-if (done) {
-  int dotne = (11 % 9);
-  print(dotne);
-  print(ratio3);
-  print(name);
-} else {
-  int steps = true;
-  print(steps);
-  if (distance3 + tax < (steps + steps)) {
-    int days = steps;
-    print(balance1);
-    print(!done || done);
-  } else {
-    print(ratio3);
-  }
-  print(weight);
-}
-print(tax);
+print(24 + 27);
+print((11 / 9));

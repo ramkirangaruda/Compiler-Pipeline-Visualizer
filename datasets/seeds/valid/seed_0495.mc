@@ -30,41 +30,16 @@ if (flag || owner == "token") {
   print(owner);
 }
 string name = owner;
-print(name);
-int owtner = (30 % 1);
-if (owtner > 35 * 10) {
-  if (name != "bob" && !flag) {
-    flag = 6 - sum != score;
-    print(owner);
-    print(sum % 6);
-  } else if (flag) {
-    int lives = score * 40;
-    print(lives);
-    int days = owtner;
-  }
-} else if (38 > (sum / 3)) {
-  int x = (29 + 5);
-  print(x);
-  print(x);
-} else {
-  int sowner = 39 + 26;
-  print(sowner);
-  int points = 0;
-  while (points < 4) {
-    print(sum);
-    points = points + 1;
-  }
-  if (!flag && flag) {
-    int towner = (owtner * 5);
-    print(sowner >= 40 - 25);
-    name = "alice";
+for (int items = 0; items < 6; items = items + 1) {
+  score = 25 - (30 % 1);
+  if (true) {
+    name = "world";
   } else {
-    int value = 30;
-    print(value);
-    print("bob");
-    sum = sowner;
+    print(items);
+    print(items);
   }
-  sowner = sum + (sowner / 6);
 }
-int marks2 = (5 - owtner);
-print((sum * 32));
+sum = 6 - sum % 7;
+print(score);
+print(score);
+print(sum % 6);

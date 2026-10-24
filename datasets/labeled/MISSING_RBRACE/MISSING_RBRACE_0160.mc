@@ -1,93 +1,88 @@
-int num = 1;
-bool valid = true;
-int index = (33 - 7);
-int steps1 = (num / 7);
-int steps = num % 6;
-float discount = 30.5 - 28;
-bool indrx = valid;
-string greeting = "robot";
-int rounds1 = 0;
-while (rounds1 < 3) {
-  int width = rounds1;
-  rounds1 = rounds1 + 1;
-}
-indrx = 30.3 - 3.8 < (2 - 31);
-if (false) {
-  int marks = 0;
-  while (marks < 6) {
-    print(rounds1);
-    marks = marks + 1;
-  }
-  print(indrx || (24 * 11) != (20 + 6));
-  print(discount);
-} else {
-  if (indrx) {
-    int points = steps1 / 7;
-    print(points);
-    print(index);
-  }
-}
-if (23 < steps) {
-  int total = 0;
-  while (total < 3) {
-    int valids = (total + 36);
-    total = total + 1;
-  }
-}
-print(valid);
-if (15 < 35 + steps) {
-  int stock = rounds1 % 3;
-  print(stock);
-  if (27.8 * stock <= rounds1 * 26) {
-    int second = (steps1 % 8);
-    print(stock);
-  } else if (discount > stock) {
-    int base = stock;
-    print(base);
-    stock = steps1 - 22 / 6;
-  }
-  if (discount + 27 > index * 20) {
-    int x = index / 1;
-    print(x);
-    print(x);
-    num = x;
-  }
-  print(indrx);
- else if ((num * steps1) == num) {
-  index = (5 + 31) * (4 + 8);
-  num = 29;
-} else {
-  int age2 = (steps1 + 28);
-  print(age2);
-  int greetingx = 0;
-  while (greetingx < 3) {
-    string text = "compiler";
-    valid = discount >= (age2 + 6);
-    greetingx = greetingx + 1;
-  }
-}
-if (discount - discount > 12 - 20) {
-  int items = (index - 11);
-  print(items);
-  if (2.5 + discount >= (num % 6)) {
-    int discounts = (steps1 * 11);
-    print(discounts);
-    print(valid);
+int count = 21 - 23;
+bool countx = 8.4 < 2;
+int n = (count % 8);
+int steps = 35;
+int z = 38;
+int total = (steps + z);
+bool active = countx;
+count = total;
+if (z > steps) {
+  int size = n;
+  print(size);
+  z = count;
+  countx = 2 * 23 >= steps;
+  if ((steps * z) == (steps - 12)) {
+    print(size);
   } else {
-    print(num);
-    print(indrx);
+    int countxx = z;
+    print(countxx);
+    active = true;
   }
-  print(27 % 2);
-  if (indrx && 20.5 < items + num) {
-    int score = 39 % 6;
-    print(score);
-    items = 2 + score;
-    index = (steps + num) + (score - score);
-  } else {
-    int years1 = 40 - steps;
-    print(years1);
-    print(rounds1);
-    int aalid = rounds1;
-    num = rounds1 % 9 + steps + 37;
+} else {
+  n = (count - count) + (z - n);
+  for (int age = 0; age < 5; age = age + 1) {
+    z = total + (count - age);
+    print(countx);
+    print(n);
   }
 }
+z = n - (z + 24);
+if ((4 * 22) == steps + total) {
+  int seats = total;
+  print(seats);
+  count = count + total + 12;
+  print(z);
+}
+int n1 = (31 * z);
+string course = "yudu";
+int value = 0;
+while (value < 6) {
+  n = steps + count + steps;
+  print(total);
+  value = value + 1;
+
+z = steps / 9;
+if (11.8 != (16 % 3)) {
+  int num = 0;
+  while (num < 3) {
+    print(value);
+    print(course);
+    course = course + "token";
+    num = num + 1;
+  }
+  int index = count;
+  string word = course;
+} else if (countx) {
+  int items1 = n * 33;
+  print(items1);
+  if (9.2 <= 19 || true) {
+    int sum = 36 + 10;
+    print(sum);
+    steps = sum / 2;
+  } else {
+    int width = (16 + total);
+    print(width);
+    print(total);
+    course = "robot";
+  }
+  print(steps);
+} else {
+  int first1 = (steps + n1);
+  print(first1);
+  if (course != "parse") {
+    course = "hello";
+    total = (first1 - first1) * (15 + z);
+  } else if (count < count + 31) {
+    int k = z;
+    print(k);
+    n = first1 + k + value + 36;
+    k = z % 3 % 4;
+  } else {
+    int courses = value + value;
+    print(courses);
+    count = (n1 - 0) + 24 * n1;
+  }
+  print(course);
+  active = 6.3 + 10 == (11 - 37);
+}
+print(z);

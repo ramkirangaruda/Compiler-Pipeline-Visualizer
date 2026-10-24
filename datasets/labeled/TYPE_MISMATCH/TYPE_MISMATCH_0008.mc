@@ -28,7 +28,7 @@ if (false) {
 }
 print(j);
 print(owner);
-string city = 1.5;
+string city = owner;
 int steps = 0;
 while (steps < 5) {
   string city3 = city;
@@ -37,20 +37,26 @@ while (steps < 5) {
   steps = steps + 1;
 }
 if (true) {
-  int ciey = 0;
-  while (ciey < 4) {
-    print(ciey);
-    j = 16;
-    ciey = ciey + 1;
+  for (int ciey = 0; ciey < 4; ciey = ciey + 1) {
+    y = (13 % 9) * 38 + y;
+    print(stock);
   }
-  print(8.2 + steps < stock);
   int second = 0;
   while (second < 2) {
-    int count = second * ciey;
-    print(steps);
+    int count = steps * second;
+    print(y);
     second = second + 1;
   }
+  int b = 0;
+  for (b = 0; b < 6; b = b + 1) {
+    city = 1.5;
+    j = x;
+  }
+  print(b);
 } else {
-  print(j);
+  int value = (38 - 25);
+  print(value);
+  city = "world";
+  print(owner == "hello");
 }
 print(y);

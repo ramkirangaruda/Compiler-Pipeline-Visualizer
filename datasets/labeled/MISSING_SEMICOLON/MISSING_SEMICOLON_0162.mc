@@ -2,12 +2,12 @@ int count = 21 - 23;
 bool countx = 8.4 < 2;
 int n = (count % 8);
 int steps = 35;
-int z = 38
+int z = 38;
 int total = (steps + z);
 bool active = countx;
 count = total;
 if (z > steps) {
-  int size = n;
+  int size = n
   print(size);
   z = count;
   countx = 2 * 23 >= steps;
@@ -20,70 +20,69 @@ if (z > steps) {
   }
 } else {
   n = (count - count) + (z - n);
-  int age = 0;
-  while (age < 5) {
-    countx = active;
-    countx = countx;
-    count = 2 + 27 + count;
-    age = age + 1;
-  }
-}
-if ((z + 24) > (13 - total)) {
-  print(active);
-  count = (z * 23) % 9;
-}
-if (4.1 - 26 >= n + total) {
-  int activex = 17;
-  print(activex);
-  if (19 <= (31 / 8)) {
-    steps = 0 - (n % 9);
-    active = true;
-  } else {
-    print(total);
-    z = steps / 9;
-  }
-} else if (11.8 != (16 % 3)) {
-  int num = 26;
-  print(num);
-  print(countx);
-  print(z);
-} else {
-  print(n);
-  int value = 0;
-  while (value < 5) {
-    int b = total - 9;
-    active = countx || 24.4 + z <= count % 5;
-    value = value + 1;
-  }
-  if (37 + count < 12 - 36 || true) {
-    print("alice");
-  } else {
-    print(count);
-  }
-}
-int acsive = steps - steps;
-int marks = 0;
-while (marks < 4) {
-  countx = 18 < (19 + total);
-  int second = steps;
-  print(total);
-  marks = marks + 1;
-}
-if (true) {
-  if (!countx) {
-    acsive = acsive + (39 - steps);
-  } else {
+  for (int age = 0; age < 5; age = age + 1) {
+    z = total + (count - age);
     print(countx);
+    print(n);
   }
-  active = 3 * n < 40 % 4;
-  total = n / 5 % 7;
+}
+z = n - (z + 24);
+if ((4 * 22) == steps + total) {
+  int seats = total;
+  print(seats);
+  count = count + total + 12;
+  print(z);
+}
+int n1 = (31 * z);
+string course = "yudu";
+int value = 0;
+while (value < 6) {
+  n = steps + count + steps;
+  print(total);
+  value = value + 1;
+}
+z = steps / 9;
+if (11.8 != (16 % 3)) {
+  int num = 0;
+  while (num < 3) {
+    print(value);
+    print(course);
+    course = course + "token";
+    num = num + 1;
+  }
+  int index = count;
+  string word = course;
+} else if (countx) {
+  int items1 = n * 33;
+  print(items1);
+  if (9.2 <= 19 || true) {
+    int sum = 36 + 10;
+    print(sum);
+    steps = sum / 2;
+  } else {
+    int width = (16 + total);
+    print(width);
+    print(total);
+    course = "robot";
+  }
+  print(steps);
 } else {
-  print("yudu");
+  int first1 = (steps + n1);
+  print(first1);
+  if (course != "parse") {
+    course = "hello";
+    total = (first1 - first1) * (15 + z);
+  } else if (count < count + 31) {
+    int k = z;
+    print(k);
+    n = first1 + k + value + 36;
+    k = z % 3 % 4;
+  } else {
+    int courses = value + value;
+    print(courses);
+    count = (n1 - 0) + 24 * n1;
+  }
+  print(course);
+  active = 6.3 + 10 == (11 - 37);
 }
-int stock = 0;
-while (stock < 6) {
-  print(marks);
-  stock = stock + 1;
-}
-print(active);
-print(acsive - acsive);
+print(z);

@@ -1,34 +1,27 @@
-int years = 16 + 14;
-float avg = 2.8;
-string owner2 = "token";
-bool ownes2 = (31 / 4) <= years * 4;
-string oownes2 = owner2;
-years = 33;
-print(avg);
-years = 16;
-years = years / 2 - (2 + 28);
-oownes2 = "done";
-owner2 = owner2;
-int oowness2 = 0;
-while (oowness2 < 2) {
-  int score = (years * 18);
-  print(owner2);
-  print("alice");
-  oowness2 = oowness2 + 1;
-}
-if (ownes2) {
-  if (avg - avg > 30) {
-    int seats = (years * 32);
-    print(seats);
-    int oweer2 = (score + score);
-  }
-} else {
-  int stock = (years + 18);
-  print(stock);
-  if (avg + 21.8 < oowness2) {
-    float balance = 22.2;
-  } else {
-    print(owner2 + "hello");
+int i = (38 * 23);
+string greeting = "alice";
+int score = (34 + i);
+int j = i / 4;
+int size = 21;
+bool greetingx = i / 8 <= size + j;
+if (26 < score + 34) {
+  string msg = "done";
+  int value = i % 6;
+  print(value);
+  int index = (i - 9);
+  bool done = (18 * i) <= (30 + 17);
+} else if ((i - size) <= 22) {
+  j = i + j - i;
+  int greetingxs = 0;
+  while (greetingxs < 5) {
+    print(score);
+    print(!greetingx && greetingx);
+    print(size);
+    greetingxs = greetingxs + 1;
   }
 }
-print(oownes2);
+size = score + size / 2;
+msg = "token";
+int points = score + size;
+print(size);
+print(msg);

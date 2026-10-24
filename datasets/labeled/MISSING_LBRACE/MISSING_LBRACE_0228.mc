@@ -1,36 +1,64 @@
-int count3 = 30;
-string title = "pipeline";
-float distance = 3.2;
-string text = title;
-int marks3 = (count3 % 1);
-bool found = false;
-bool ready = marks3 % 1 != 20;
-if (ready) 
-  print((marks3 + marks3));
-  print(text);
-  print(distance);
-} else if (33 * marks3 <= count3 + 11) {
-  int steps = count3 / 7;
+int base2 = 39;
+int count = (base2 % 1);
+bool has_more = false;
+bool active = 9.4 == base2 - base2;
+if (has_more) {
+  if (24 + count == count - count) {
+    has_more = count / 1 == (count % 9);
+    print(active);
+  } else 
+    int has_morex = (count + base2);
+    print(has_morex);
+    print(base2);
+    print((count % 9));
+  }
+  int items = 0;
+  while (items < 6) {
+    print(items);
+    count = 32 % 9;
+    print(items);
+    items = items + 1;
+  }
+  print(count);
+} else if ((count / 4) > (count + count)) {
+  int steps = (count / 9);
   print(steps);
-  bool valid = found;
+  steps = (base2 + count) - (base2 / 7);
+} else if (base2 <= 31 / 2) {
+  int score = 26;
+  print(score);
+  print(base2);
 }
-if ((36 + count3) > (39 - marks3)) {
-  int i2 = (33 + 0);
-  print(i2);
-  if (29 + count3 > (marks3 - 38)) {
-    print(false);
-    print(title);
-    string greeting = "token";
+print(base2);
+if ((base2 / 7) > base2 * 15) {
+  has_more = count == base2 + 28;
+} else {
+  int tickets = (count / 3);
+  print(tickets);
+  for (int has_moere = 0; has_moere < 5; has_moere = has_moere + 1) {
+    count = 14;
+    print("bob");
+  }
+  print("bob");
+}
+if (14 + base2 != count + base2) {
+  int actirve = count;
+  print(actirve);
+  if (8.5 + count <= 24) {
+    print(base2 - count < actirve);
+    print((base2 - actirve));
+  } else {
+    has_more = !active;
+    print(count);
+  }
+  if (active) {
+    has_more = has_more;
+  } else {
+    int limit = actirve;
+    print(active);
   }
 }
-int distaice = 0;
-while (distaice < 6) {
-  bool active = (3 - count3) < (count3 + marks3);
-  print(found);
-  active = distance - 6.3 != (distaice % 2);
-  distaice = distaice + 1;
-}
-distance = 5 - distaice;
-int stitle = (33 + 0);
-int x2 = 1 - stitle;
-print(found);
+bool flag = 28.7 - 31 == base2;
+print(active);
+active = count + base2 != (33 / 2);
+print("alice");

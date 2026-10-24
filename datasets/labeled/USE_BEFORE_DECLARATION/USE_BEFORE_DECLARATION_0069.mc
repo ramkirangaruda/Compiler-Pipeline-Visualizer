@@ -33,47 +33,38 @@ if (34 - 13 < (y - value)) {
     x = x + y % 6;
     print(first);
   }
-  int items = 0;
-  while (items < 5) {
-    passedx = passedx + "token";
-    items = items + 1;
-  }
-} else {
-  passed = 22.9 != 39 / 9 || 6.2 * y <= y && passed;
-  y = y * 36 * x / 1;
-}
-print(passed || 0.9 - 24.2 == (36 + x));
-y = value;
-int limit = 0;
-while (limit < 5) {
-  float area = 22.2 + 6;
-  limit = limit + 1;
-}
-x = value * 36 + value;
-if (30.3 <= 28) {
-  int score = 25;
-  print(score);
-  int a = (x * 34);
-  passedx = passedx;
-} else {
-  passedx = "token";
-}
-if (30.1 + x < (limit % 6)) {
-  int result = 26;
-  print(result);
-  print(result);
-} else {
-  int count3 = 40 + limit;
-  print(count3);
-  x = y - 13 * 3;
-  if ((value % 6) > (limit + 20)) {
-    int steps = limit % 2;
-    print(steps);
-    float opassed = 1.7 + 19.5;
-  } else {
-    x = limit / 9;
-    print(10);
-    print(value);
+  for (int items = 0; items < 5; items = items + 1) {
+    print(passedx);
   }
 }
-print(passedx);
+int score1 = 0;
+while (score1 < 4) {
+  print(score1);
+  print(17.3 - 16.4 < (y - score1));
+  score1 = score1 + 1;
+}
+int passedxs = 0;
+for (passedxs = 0; passedxs < 3; passedxs = passedxs + 1) {
+  x = score1 + score1 + 36 / 6;
+  print(score1);
+  y = (x + 36) % 8;
+}
+int tickets = 0;
+while (tickets < 4) {
+  int num1 = x - value;
+  passed = 11.6 - 30.3 <= (num1 - 8);
+  int k = (num1 * num1);
+  tickets = tickets + 1;
+}
+float rate2 = 18.8;
+if (rate2 + 13.7 != 27 && x >= (y * score1)) {
+  rate2 = 8;
+  print(passed);
+}
+int lives3 = 0;
+while (lives3 < 5) {
+  int j = passedxs - y;
+  j = score1;
+  lives3 = lives3 + 1;
+}
+print(rate2);

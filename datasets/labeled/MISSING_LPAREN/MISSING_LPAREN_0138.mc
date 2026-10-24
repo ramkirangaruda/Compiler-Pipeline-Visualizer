@@ -14,16 +14,17 @@ if (!ok && (result + result) >= 34) {
 } else {
   float voltage = 9.8 - 16;
 }
-result = 27;
-float temp = 15.8;
-int n3 = 0;
-while (n3 < 4) {
-  print(stock2);
-  print(ok);
-  if (22 * n3 > rounds) {
-    ok = ok;
-    print(course2);
-  }
-  n3 = n3 + 1;
+for (int base = 0; base < 2; base = base + 1) {
+  float temp = 15.8;
+  print(base);
 }
-printtemp);
+int course2x = 0;
+for (course2x = 0; course2x < 3; course2x = course2x + 1) {
+  result = 25 - stock2 / 6;
+  if (false && 7.9 != course2x - stock2) {
+    print(rounds);
+    printcourse2x);
+  }
+}
+print(course2x);
+course2 = "done";

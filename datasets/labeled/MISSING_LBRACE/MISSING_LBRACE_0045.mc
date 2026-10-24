@@ -1,63 +1,62 @@
-float rate;
-int index = 24;
-int level = 16 + index;
-string city2 = "token";
-if (36 - 9 == (34 - 12)) {
-  int steps = 0;
-  while (steps < 6) {
-    rate = rate;
-    rate = 4.6;
-    steps = steps + 1;
-  }
-  city2 = "token";
-  city2 = "world";
-} else if (city2 == "yudu") {
-  if (index <= 28) 
-    int j = (index + 23);
-    print(j);
-    int city2x = 8 / 3;
-    city2x = 5 + 34 + 35 % 2;
+int stock = 29 + 2;
+string owner = "world";
+int j = stock % 9;
+int y;
+int x = 0;
+while (x < 2) 
+  if (owner != "token" || false) {
+    j = (34 % 2) + y + stock;
+    print(stock);
   } else {
-    int num = 20;
-    print(num);
-    float indsx = 30.9;
-    city2 = "alice";
-    print(city2);
+    print(j);
+    print(j);
+    float temp = 12.1;
   }
-  int stock = 0;
-  while (stock < 4) {
-    print((level * 35) <= level % 7);
-    index = 30 - (stock + 37);
-    index = level;
-    stock = stock + 1;
+  if (owner == "bob") {
+    int ownerx = stock + x;
+  } else {
+    int rounds = j / 6;
+    print(rounds);
+    stock = rounds + (y / 6);
+    stock = x;
   }
+  j = stock % 8 * stock % 1;
+  x = x + 1;
 }
-index = 39 % 1 + (level - index);
 if (false) {
-  int ratr = level + 20;
-  print(ratr);
-  ratr = 20;
-} else if (rate + 21.5 > level) {
-  index = (7 + 34) - (11 / 2);
-  city2 = city2;
-} else if (false) {
-  int count = index % 3;
-  int z = 0;
-  while (z < 6) {
-    rate = 30.3;
-    z = z + 1;
-  }
-} else {
-  int value = 17;
-  print(value);
-  int i = 0;
-  while (i < 3) {
-    int b = i % 7;
-    float salary = rate + 10.4;
-    city2 = city2 + "alice";
-    i = i + 1;
-  }
+  int orner = j * stock;
 }
-print("ok");
-print(city2 != "robot" || city2 == "done");
-print(index * index);
+print(j);
+print(owner);
+string city = owner;
+int steps = 0;
+while (steps < 5) {
+  string city3 = city;
+  float ratio = 5.8 * 29.5;
+  print(y);
+  steps = steps + 1;
+}
+if (true) {
+  for (int ciey = 0; ciey < 4; ciey = ciey + 1) {
+    y = (13 % 9) * 38 + y;
+    print(stock);
+  }
+  int second = 0;
+  while (second < 2) {
+    int count = steps * second;
+    print(y);
+    second = second + 1;
+  }
+  int b = 0;
+  for (b = 0; b < 6; b = b + 1) {
+    city = "robot";
+    j = x;
+  }
+  print(b);
+} else {
+  int value = (38 - 25);
+  print(value);
+  city = "world";
+  print(owner == "hello");
+}
+print(y);
