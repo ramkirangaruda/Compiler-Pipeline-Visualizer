@@ -75,3 +75,13 @@ datasets/
 
 The labelled programs are synthetic. The hand-written set exists so that accuracy is also reported on programs
 that were not produced by the generator; real student programs would be the natural next dataset.
+
+## Real C: `datasets/c/`
+
+The same layout for real C programs (`*.c`), built by `python -m ml.build_dataset_c`:
+
+* `seeds/valid/` - 600 valid programs; **gcc (`-std=c11`) and the project's C front end both accept every one**.
+* `labeled/<CAUSE>/` - 14 causes (the 12 above + `MISSING_INCLUDE`, `WRONG_ARG_COUNT`), 200 programs each. Every sample is rejected by the
+  C front end *and* by gcc; the builder drops any mutant gcc would accept. `labels.csv` records gcc's verdict per row.
+* `handwritten/<CAUSE>/` - 42 textbook-style programs (3 per cause) as an out-of-distribution test set.
+* `processed/` - 50-column feature vectors, label map, `dataset_stats.json` (including the gcc cross-check counts).

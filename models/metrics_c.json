@@ -1,0 +1,1628 @@
+{
+  "trained_at": "2026-10-23T19:40:19+00:00",
+  "selected_model": "Logistic Regression",
+  "language": "c",
+  "dataset": {
+    "n_seeds": 600,
+    "n_samples": 2800,
+    "n_train": 2231,
+    "n_test": 569,
+    "n_handwritten": 42,
+    "per_label": {
+      "MISSING_SEMICOLON": 200,
+      "MISSING_RPAREN": 200,
+      "MISSING_LPAREN": 200,
+      "MISSING_RBRACE": 200,
+      "MISSING_LBRACE": 200,
+      "MISSPELLED_KEYWORD": 200,
+      "ASSIGN_EQ_CONFUSION": 200,
+      "TYPO_IDENTIFIER": 200,
+      "MISSING_DECLARATION": 200,
+      "USE_BEFORE_DECLARATION": 200,
+      "OUT_OF_SCOPE_USE": 200,
+      "TYPE_MISMATCH": 200,
+      "MISSING_INCLUDE": 200,
+      "WRONG_ARG_COUNT": 200
+    },
+    "per_label_split": {
+      "MISSING_SEMICOLON": {
+        "train": 157,
+        "test": 43
+      },
+      "MISSING_RPAREN": {
+        "train": 158,
+        "test": 42
+      },
+      "MISSING_LPAREN": {
+        "train": 160,
+        "test": 40
+      },
+      "MISSING_RBRACE": {
+        "train": 159,
+        "test": 41
+      },
+      "MISSING_LBRACE": {
+        "train": 149,
+        "test": 51
+      },
+      "MISSPELLED_KEYWORD": {
+        "train": 161,
+        "test": 39
+      },
+      "ASSIGN_EQ_CONFUSION": {
+        "train": 162,
+        "test": 38
+      },
+      "TYPO_IDENTIFIER": {
+        "train": 162,
+        "test": 38
+      },
+      "MISSING_DECLARATION": {
+        "train": 153,
+        "test": 47
+      },
+      "USE_BEFORE_DECLARATION": {
+        "train": 162,
+        "test": 38
+      },
+      "OUT_OF_SCOPE_USE": {
+        "train": 160,
+        "test": 40
+      },
+      "TYPE_MISMATCH": {
+        "train": 158,
+        "test": 42
+      },
+      "MISSING_INCLUDE": {
+        "train": 162,
+        "test": 38
+      },
+      "WRONG_ARG_COUNT": {
+        "train": 168,
+        "test": 32
+      }
+    },
+    "n_features": 50
+  },
+  "models": [
+    {
+      "name": "Logistic Regression",
+      "cv_accuracy": 0.9879,
+      "cv_accuracy_std": 0.0046,
+      "cv_macro_f1": 0.9877,
+      "test_accuracy": 0.9824,
+      "test_macro_f1": 0.983,
+      "test_log_loss": 0.0485,
+      "train_seconds": 3.4
+    },
+    {
+      "name": "Decision Tree",
+      "cv_accuracy": 0.9834,
+      "cv_accuracy_std": 0.0066,
+      "cv_macro_f1": 0.9833,
+      "test_accuracy": 0.9824,
+      "test_macro_f1": 0.9831,
+      "test_log_loss": 0.3483,
+      "train_seconds": 1.0
+    },
+    {
+      "name": "Random Forest",
+      "cv_accuracy": 0.9852,
+      "cv_accuracy_std": 0.0056,
+      "cv_macro_f1": 0.985,
+      "test_accuracy": 0.9824,
+      "test_macro_f1": 0.9832,
+      "test_log_loss": 0.1282,
+      "train_seconds": 11.3
+    },
+    {
+      "name": "Gradient Boosting",
+      "cv_accuracy": 0.9848,
+      "cv_accuracy_std": 0.0061,
+      "cv_macro_f1": 0.9846,
+      "test_accuracy": 0.9789,
+      "test_macro_f1": 0.9798,
+      "test_log_loss": 0.0491,
+      "train_seconds": 223.9
+    }
+  ],
+  "test": {
+    "accuracy": 0.9824,
+    "macro_f1": 0.983,
+    "per_class": [
+      {
+        "label": "MISSING_SEMICOLON",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 43
+      },
+      {
+        "label": "MISSING_RPAREN",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 42
+      },
+      {
+        "label": "MISSING_LPAREN",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 40
+      },
+      {
+        "label": "MISSING_RBRACE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 41
+      },
+      {
+        "label": "MISSING_LBRACE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 51
+      },
+      {
+        "label": "MISSPELLED_KEYWORD",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 39
+      },
+      {
+        "label": "ASSIGN_EQ_CONFUSION",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 38
+      },
+      {
+        "label": "TYPO_IDENTIFIER",
+        "precision": 0.8684,
+        "recall": 0.8684,
+        "f1": 0.8684,
+        "support": 38
+      },
+      {
+        "label": "MISSING_DECLARATION",
+        "precision": 0.8936,
+        "recall": 0.8936,
+        "f1": 0.8936,
+        "support": 47
+      },
+      {
+        "label": "USE_BEFORE_DECLARATION",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 38
+      },
+      {
+        "label": "OUT_OF_SCOPE_USE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 40
+      },
+      {
+        "label": "TYPE_MISMATCH",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 42
+      },
+      {
+        "label": "MISSING_INCLUDE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 38
+      },
+      {
+        "label": "WRONG_ARG_COUNT",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 32
+      }
+    ],
+    "confusion": {
+      "labels": [
+        "MISSING_SEMICOLON",
+        "MISSING_RPAREN",
+        "MISSING_LPAREN",
+        "MISSING_RBRACE",
+        "MISSING_LBRACE",
+        "MISSPELLED_KEYWORD",
+        "ASSIGN_EQ_CONFUSION",
+        "TYPO_IDENTIFIER",
+        "MISSING_DECLARATION",
+        "USE_BEFORE_DECLARATION",
+        "OUT_OF_SCOPE_USE",
+        "TYPE_MISMATCH",
+        "MISSING_INCLUDE",
+        "WRONG_ARG_COUNT"
+      ],
+      "matrix": [
+        [
+          43,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          42,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          41,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          51,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          39,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          38,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          33,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          42,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          38,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          42,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          38,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    }
+  },
+  "handwritten": {
+    "accuracy": 0.9762,
+    "macro_f1": 0.9755,
+    "per_class": [
+      {
+        "label": "MISSING_SEMICOLON",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_RPAREN",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_LPAREN",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_RBRACE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_LBRACE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSPELLED_KEYWORD",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "ASSIGN_EQ_CONFUSION",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "TYPO_IDENTIFIER",
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8,
+        "support": 3
+      },
+      {
+        "label": "MISSING_DECLARATION",
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571,
+        "support": 3
+      },
+      {
+        "label": "USE_BEFORE_DECLARATION",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "OUT_OF_SCOPE_USE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "TYPE_MISMATCH",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "MISSING_INCLUDE",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      {
+        "label": "WRONG_ARG_COUNT",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      }
+    ],
+    "confusion": {
+      "labels": [
+        "MISSING_SEMICOLON",
+        "MISSING_RPAREN",
+        "MISSING_LPAREN",
+        "MISSING_RBRACE",
+        "MISSING_LBRACE",
+        "MISSPELLED_KEYWORD",
+        "ASSIGN_EQ_CONFUSION",
+        "TYPO_IDENTIFIER",
+        "MISSING_DECLARATION",
+        "USE_BEFORE_DECLARATION",
+        "OUT_OF_SCOPE_USE",
+        "TYPE_MISMATCH",
+        "MISSING_INCLUDE",
+        "WRONG_ARG_COUNT"
+      ],
+      "matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "n": 42
+  },
+  "baseline": {
+    "test": {
+      "accuracy": 0.6784,
+      "macro_f1": 0.6895,
+      "per_class": [
+        {
+          "label": "MISSING_SEMICOLON",
+          "precision": 0.2671,
+          "recall": 1.0,
+          "f1": 0.4216,
+          "support": 43
+        },
+        {
+          "label": "MISSING_RPAREN",
+          "precision": 0.7949,
+          "recall": 0.7381,
+          "f1": 0.7654,
+          "support": 42
+        },
+        {
+          "label": "MISSING_LPAREN",
+          "precision": 1.0,
+          "recall": 0.45,
+          "f1": 0.6207,
+          "support": 40
+        },
+        {
+          "label": "MISSING_RBRACE",
+          "precision": 1.0,
+          "recall": 0.6341,
+          "f1": 0.7761,
+          "support": 41
+        },
+        {
+          "label": "MISSING_LBRACE",
+          "precision": 1.0,
+          "recall": 0.2353,
+          "f1": 0.381,
+          "support": 51
+        },
+        {
+          "label": "MISSPELLED_KEYWORD",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 39
+        },
+        {
+          "label": "ASSIGN_EQ_CONFUSION",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 38
+        },
+        {
+          "label": "TYPO_IDENTIFIER",
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1": 0.5714,
+          "support": 38
+        },
+        {
+          "label": "MISSING_DECLARATION",
+          "precision": 1.0,
+          "recall": 0.5319,
+          "f1": 0.6944,
+          "support": 47
+        },
+        {
+          "label": "USE_BEFORE_DECLARATION",
+          "precision": 1.0,
+          "recall": 0.5789,
+          "f1": 0.7333,
+          "support": 38
+        },
+        {
+          "label": "OUT_OF_SCOPE_USE",
+          "precision": 1.0,
+          "recall": 0.525,
+          "f1": 0.6885,
+          "support": 40
+        },
+        {
+          "label": "TYPE_MISMATCH",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 42
+        },
+        {
+          "label": "MISSING_INCLUDE",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 38
+        },
+        {
+          "label": "WRONG_ARG_COUNT",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 32
+        }
+      ],
+      "confusion": {
+        "labels": [
+          "MISSING_SEMICOLON",
+          "MISSING_RPAREN",
+          "MISSING_LPAREN",
+          "MISSING_RBRACE",
+          "MISSING_LBRACE",
+          "MISSPELLED_KEYWORD",
+          "ASSIGN_EQ_CONFUSION",
+          "TYPO_IDENTIFIER",
+          "MISSING_DECLARATION",
+          "USE_BEFORE_DECLARATION",
+          "OUT_OF_SCOPE_USE",
+          "TYPE_MISMATCH",
+          "MISSING_INCLUDE",
+          "WRONG_ARG_COUNT"
+        ],
+        "matrix": [
+          [
+            43,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            31,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            22,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            0,
+            0,
+            26,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            36,
+            3,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            34,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            22,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            16,
+            0,
+            22,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            19,
+            0,
+            0,
+            21,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            42,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            38,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            32
+          ]
+        ]
+      }
+    },
+    "handwritten": {
+      "accuracy": 0.7619,
+      "macro_f1": 0.7469,
+      "per_class": [
+        {
+          "label": "MISSING_SEMICOLON",
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4,
+          "support": 3
+        },
+        {
+          "label": "MISSING_RPAREN",
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        },
+        {
+          "label": "MISSING_LPAREN",
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        },
+        {
+          "label": "MISSING_RBRACE",
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        },
+        {
+          "label": "MISSING_LBRACE",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        {
+          "label": "MISSPELLED_KEYWORD",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        {
+          "label": "ASSIGN_EQ_CONFUSION",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "TYPO_IDENTIFIER",
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571,
+          "support": 3
+        },
+        {
+          "label": "MISSING_DECLARATION",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "USE_BEFORE_DECLARATION",
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        },
+        {
+          "label": "OUT_OF_SCOPE_USE",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "TYPE_MISMATCH",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "MISSING_INCLUDE",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        {
+          "label": "WRONG_ARG_COUNT",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      ],
+      "confusion": {
+        "labels": [
+          "MISSING_SEMICOLON",
+          "MISSING_RPAREN",
+          "MISSING_LPAREN",
+          "MISSING_RBRACE",
+          "MISSING_LBRACE",
+          "MISSPELLED_KEYWORD",
+          "ASSIGN_EQ_CONFUSION",
+          "TYPO_IDENTIFIER",
+          "MISSING_DECLARATION",
+          "USE_BEFORE_DECLARATION",
+          "OUT_OF_SCOPE_USE",
+          "TYPE_MISMATCH",
+          "MISSING_INCLUDE",
+          "WRONG_ARG_COUNT"
+        ],
+        "matrix": [
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ]
+      }
+    }
+  },
+  "reliability": [
+    {
+      "range": "0.0-0.5",
+      "n": 0,
+      "accuracy": null
+    },
+    {
+      "range": "0.5-0.7",
+      "n": 11,
+      "accuracy": 0.8182
+    },
+    {
+      "range": "0.7-0.9",
+      "n": 16,
+      "accuracy": 0.5625
+    },
+    {
+      "range": "0.9-1.0",
+      "n": 542,
+      "accuracy": 0.9982
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "paren_bal_total",
+      "importance": 0.11
+    },
+    {
+      "feature": "brace_bal_total",
+      "importance": 0.1083
+    },
+    {
+      "feature": "sem_declared_later",
+      "importance": 0.1054
+    },
+    {
+      "feature": "c_closed_in_for",
+      "importance": 0.078
+    },
+    {
+      "feature": "sem_min_ratio_visible",
+      "importance": 0.0267
+    },
+    {
+      "feature": "sem_min_dist_visible",
+      "importance": 0.0116
+    },
+    {
+      "feature": "sem_n_close_visible",
+      "importance": 0.0105
+    },
+    {
+      "feature": "sem_closed_scope",
+      "importance": 0.0095
+    },
+    {
+      "feature": "sem_same_first_char",
+      "importance": 0.0074
+    },
+    {
+      "feature": "err_code",
+      "importance": 0.0067
+    },
+    {
+      "feature": "nl_before_found",
+      "importance": 0.0067
+    },
+    {
+      "feature": "found_first_on_line",
+      "importance": 0.0067
+    },
+    {
+      "feature": "sem_lvalue",
+      "importance": 0.006
+    },
+    {
+      "feature": "next1",
+      "importance": 0.0053
+    },
+    {
+      "feature": "prev1",
+      "importance": 0.0049
+    },
+    {
+      "feature": "sem_min_dist_keyword",
+      "importance": 0.0049
+    },
+    {
+      "feature": "paren_bal_before",
+      "importance": 0.0046
+    },
+    {
+      "feature": "sem_n_visible",
+      "importance": 0.0046
+    },
+    {
+      "feature": "c_argc_given",
+      "importance": 0.0032
+    },
+    {
+      "feature": "prev3",
+      "importance": 0.0028
+    }
+  ]
+}

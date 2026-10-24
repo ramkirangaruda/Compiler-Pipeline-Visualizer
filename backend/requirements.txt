@@ -9,3 +9,4 @@ pandas==3.0.6
 joblib==1.6.0
 pytest==9.1.1
 httpx==0.28.1
+pycparser==2.22

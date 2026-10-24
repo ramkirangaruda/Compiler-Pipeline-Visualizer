@@ -8,14 +8,10 @@ import uuid
 from collections import OrderedDict
 from typing import Optional
 
-from minic.pipeline import Frontend, run_frontend
 from minic.tokens import Diagnostic
 
-from . import baseline
-from .candidates import generate, gen_rules
+from . import langs
 from .classifier import MODEL_PATH, Classifier
-from .features import extract
-from .labels import CANDIDATE_CAUSES, LABELS, ML_CODES
 from .rl.features import candidate_matrix
 from .rl.policy import POLICY_PATH, Policy
 from .validator import validate
@@ -44,6 +40,11 @@ class Engine:
         self.clf = classifier
         if self.clf is None and load and MODEL_PATH.exists():
             self.clf = Classifier()
+        # one classifier per language; "minic" is the original model (self.clf)
+        self.clfs: dict[str, Optional[Classifier]] = {"minic": self.clf, "c": None}
+        c = langs.get("c")
+        if load and c.model_path.exists():
+            self.clfs["c"] = Classifier(c.model_path, c.columns)
         # reinforcement-learning fix policy (optional; trained by `python -m ml.rl.train_rl`)
         self.policy: Optional[Policy] = None
         self._lock = threading.Lock()
@@ -61,9 +62,9 @@ class Engine:
         return self.clf is not None
 
     @staticmethod
-    def _constrain(probs: dict[str, float], code: str) -> dict[str, float]:
+    def _constrain(probs: dict[str, float], code: str, causes: dict) -> dict[str, float]:
         """Keep only the causes the compiler's own error code leaves possible, renormalised."""
-        allowed = CANDIDATE_CAUSES.get(code)
+        allowed = causes.get(code)
         if not allowed:
             return probs
         kept = {l: p for l, p in probs.items() if l in allowed}
@@ -73,24 +74,26 @@ class Engine:
         return {l: p / total for l, p in kept.items()}
 
     # ----------------------------------------------------------- one diag
-    def diagnose_one(self, d: Diagnostic, fe: Frontend, mode: str = "ml", ranker: str = "heuristic",
+    def diagnose_one(self, d: Diagnostic, fe, mode: str = "ml", ranker: str = "heuristic",
                      explain: bool = True) -> dict:
         source = fe.source
+        lang = langs.get(fe.lang)
+        LABELS, clf = lang.labels, self.clfs[lang.key]
         entry: dict = {"diagnostic": d.to_dict(), "duplicates": 0}
 
-        if d.code not in ML_CODES:
+        if d.code not in lang.ml_codes:
             entry["handled_by"] = "rules"
-            raw = gen_rules(d, fe)
+            raw = lang.gen_rules(d, fe)
             entry["prediction"] = None
             probs = None
         else:
-            feats = extract(d, fe)
-            base_label = baseline.predict(feats)
-            if mode == "baseline" or self.clf is None:
+            feats = lang.extract(d, fe)
+            base_label = lang.baseline_predict(feats)
+            if mode == "baseline" or clf is None:
                 probs = {base_label: 1.0}
                 entry["handled_by"] = "baseline" if mode == "baseline" else "rules-fallback"
             else:
-                probs = self._constrain(self.clf.predict_proba(feats), d.code)
+                probs = self._constrain(clf.predict_proba(feats), d.code, lang.candidate_causes)
                 entry["handled_by"] = "ml"
             ranked = sorted(probs.items(), key=lambda kv: -kv[1])
             top_label, top_p = ranked[0]
@@ -105,13 +108,13 @@ class Engine:
                 "low_confidence": top_p < 0.5,
                 "probs": [{"label": l, "title": LABELS[l]["title"], "prob": round(p, 4)} for l, p in ranked[:6]],
             }
-            if explain and self.clf is not None and mode == "ml":
-                entry["explanation"] = self.clf.explain(feats, top_label)
+            if explain and clf is not None and mode == "ml":
+                entry["explanation"] = clf.explain(feats, top_label)
             raw = []
             for l, p in ranked[:3]:
                 if p < 0.02 and raw:
                     break
-                for c in generate(l, d, fe):
+                for c in lang.generate(l, d, fe):
                     c["prob"] = p
                     raw.append(c)
 
@@ -175,24 +178,29 @@ class Engine:
 
     # ---------------------------------------------------------- whole file
     def diagnose(self, source: str, mode: str = "ml", only_first: bool = False, ranker: str = "heuristic",
-                 explain: bool = True) -> dict:
-        fe = run_frontend(source)
+                 explain: bool = True, language: str = "minic") -> dict:
+        lang = langs.get(language)
+        fe = lang.run_frontend(source)
         errors = fe.errors
-        entries, undeclared_seen = [], {}
+        entries, seen = [], {}
         for d in errors:
+            key = None
             if d.code == "E_UNDECLARED":
-                name = d.extra["name"]
-                if name in undeclared_seen:
-                    undeclared_seen[name]["duplicates"] += 1
-                    continue
+                key = ("E_UNDECLARED", d.extra["name"])
+            elif d.code == "E_MISSING_INCLUDE":
+                key = ("E_MISSING_INCLUDE", d.extra["header"])
+            if key in seen:
+                seen[key]["duplicates"] += 1
+                continue
             entry = self.diagnose_one(d, fe, mode, ranker, explain)
-            if d.code == "E_UNDECLARED":
-                undeclared_seen[d.extra["name"]] = entry
+            if key is not None:
+                seen[key] = entry
             entries.append(entry)
             if only_first:
                 break
         return {
-            "model_loaded": self.model_loaded,
+            "language": lang.key,
+            "model_loaded": self.clfs[lang.key] is not None,
             "mode": mode,
             "ranker": ranker if self.policy is not None else "heuristic",
             "errors": len(errors),
@@ -200,13 +208,15 @@ class Engine:
         }
 
     # ------------------------------------------------------------- autofix
-    def autofix(self, source: str, max_steps: int = 12, mode: str = "ml", ranker: str = "heuristic") -> dict:
+    def autofix(self, source: str, max_steps: int = 12, mode: str = "ml", ranker: str = "heuristic",
+                language: str = "minic") -> dict:
+        lang = langs.get(language)
         steps, cur = [], source
         for i in range(max_steps):
-            fe = run_frontend(cur)
+            fe = lang.run_frontend(cur)
             if not fe.errors:
                 break
-            res = self.diagnose(cur, mode=mode, only_first=True, ranker=ranker, explain=False)
+            res = self.diagnose(cur, mode=mode, only_first=True, ranker=ranker, explain=False, language=lang.key)
             if not res["entries"]:
                 break
             e = res["entries"][0]
@@ -229,8 +239,9 @@ class Engine:
                 }
             )
             cur = best["new_source"]
-        final = run_frontend(cur)
+        final = lang.run_frontend(cur)
         return {
+            "language": lang.key,
             "ok": not final.errors,
             "steps": steps,
             "final_source": cur,

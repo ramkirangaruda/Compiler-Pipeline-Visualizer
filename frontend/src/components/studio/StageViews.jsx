@@ -190,7 +190,7 @@ export function CodeView({ tac, optimized, verify }) {
 /* --------------------------------------------------------------------- run */
 const isTemp = (n) => /^t\d+$/.test(n);
 
-export function RunView({ execution, code, onLine }) {
+export function RunView({ execution, code, onLine, base = 0 }) {
   const trace = execution?.trace || [];
   const [pos, setPos] = useState(trace.length);
   const [playing, setPlaying] = useState(false);
@@ -228,7 +228,9 @@ export function RunView({ execution, code, onLine }) {
       <div className="run-out">
         <div className="vm-sub">Output</div>
         <div className="console">
-          {state.out.length === 0 ? <span className="muted">(the program printed nothing{done ? '' : ' yet'})</span> : state.out.map((o, i) => <div key={i}>&gt; {o}</div>)}
+          {state.out.length === 0 ? <span className="muted">(the program printed nothing{done ? '' : ' yet'})</span>
+            : execution.language === 'c' ? <pre className="c-out">{state.out.join('')}</pre>
+              : state.out.map((o, i) => <div key={i}>&gt; {o}</div>)}
           {done && execution.halted === 'error' && <div className="rt-err">{execution.error}</div>}
           {done && execution.halted === 'step_limit' && <div className="rt-err">Stopped after the step limit (possible infinite loop).</div>}
         </div>
@@ -252,7 +254,7 @@ export function RunView({ execution, code, onLine }) {
         <div className="ins-list" ref={listRef}>
           {code.map((i, k) => (
             <div key={k} className={`ins ${i.op === 'label' ? 'label' : ''} ${k === curPc ? 'cur' : ''}`}>
-              <span className="ix">{i.op === 'label' ? '' : k}</span><code>{i.text}</code>
+              <span className="ix">{i.op === 'label' ? '' : k + base}</span><code>{i.text}</code>
             </div>
           ))}
         </div>
