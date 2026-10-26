@@ -29,4 +29,5 @@ export const SHORT = {
   MISSING_RBRACE: 'Missing }', MISSING_LBRACE: 'Missing {', MISSPELLED_KEYWORD: 'Keyword typo',
   ASSIGN_EQ_CONFUSION: '= vs ==', TYPO_IDENTIFIER: 'Variable typo', MISSING_DECLARATION: 'No declaration',
   USE_BEFORE_DECLARATION: 'Use before decl', OUT_OF_SCOPE_USE: 'Out of scope', TYPE_MISMATCH: 'Type mismatch',
+  MISSING_INCLUDE: 'Missing #include', WRONG_ARG_COUNT: 'Wrong arg count',
 };

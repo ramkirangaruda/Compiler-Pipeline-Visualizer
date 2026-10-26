@@ -52,7 +52,7 @@ def decay(t: str) -> str:
 
 
 def is_int(t: str) -> bool:
-    return t in INT_TYPES or t.startswith("enum ")
+    return t in INT_TYPES or (t.startswith("enum ") and not t.endswith(("*", "[]")))
 
 
 def is_float(t: str) -> bool:
@@ -98,7 +98,7 @@ def compat(target: str, value: str, literal_zero: bool = False, is_string_litera
         return None
     if is_num(target) and is_num(value):
         return None
-    if target.startswith(("struct ", "union ")) or value.startswith(("struct ", "union ")):
+    if (target.startswith(("struct ", "union ")) and not target.endswith("*")) or (value.startswith(("struct ", "union ")) and not value.endswith("*")):
         return None if target == value else "incompatible aggregate types"
     if target.endswith("*"):
         if is_int(value):

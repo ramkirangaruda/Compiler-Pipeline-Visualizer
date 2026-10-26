@@ -7,6 +7,7 @@ const ICONS = {
   ir: <path d="M5 7h14M5 12h9M5 17h12" />,
   optimizer: <path d="M12 3l2.4 5.2 5.6.7-4.1 3.9 1 5.6L12 15.6 7.1 18.4l1-5.6L4 8.9l5.6-.7z" />,
   vm: <path d="M7 5l12 7-12 7z" />,
+  gcc: <path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z" />,
 };
 
 const mlSteps = (c) => [
@@ -14,10 +15,10 @@ const mlSteps = (c) => [
   ['ML classifier', `rank ${c ? 14 : 12} causes`],
   ['Repair generator', 'candidate edits'],
   ['RL policy', 'chooses the fix'],
-  ['Validator', 're-compile each fix'],
+  ['Validator', c ? 'gcc rebuilds each fix' : 're-compile each fix'],
 ];
 
-const TAB_OF = { lexer: 'tokens', parser: 'tree', semantic: 'symbols', ir: 'code', optimizer: 'code', vm: 'run' };
+const TAB_OF = { lexer: 'tokens', parser: 'tree', semantic: 'symbols', ir: 'code', optimizer: 'code', vm: 'run', gcc: 'diagnosis' };
 
 export default function PipelineStrip({ stages, diagnosis, onSelect, language }) {
   const ML_STEPS = mlSteps(language === 'c');

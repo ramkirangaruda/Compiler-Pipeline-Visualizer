@@ -25,11 +25,11 @@ function Stat({ children, label }) {
 export default function Home() {
   const [m, setM] = useState(null);
   useEffect(() => { api.model().then(setM).catch(() => {}); }, []);
-  const acc = m?.metrics?.test?.accuracy ?? 0.986;
+  const acc = m?.metrics?.test?.accuracy ?? 0.98;
   const fix = m?.repair_eval?.ml?.overall?.autofix_success_rate ?? 0.98;
-  const n = m?.metrics?.dataset?.n_samples ?? 3120;
+  const n = m?.metrics?.dataset?.n_samples ?? 2800;
   const base = m?.metrics?.baseline?.test?.accuracy;
-  const nFeat = m?.metrics?.dataset?.n_features ?? 40;
+  const nFeat = m?.metrics?.dataset?.n_features ?? 50;
 
   return (
     <>
@@ -52,7 +52,7 @@ export default function Home() {
               <span className="ht-line" style={{ '--i': 2 }}>Let <span className="hl">ML</span> fix it.</span>
             </h1>
             <BlurText
-              text="A real compiler for a C-like language that explains its own errors - ML ranks the likely cause, and the compiler re-checks every fix before you see it."
+              text="Real C, checked by the real compiler: ML ranks the likely cause of an error, and gcc re-checks every fix before you see it."
               className="hero-sub" delay={60} animateBy="words" direction="top" />
             <div className="hero-cta">
               <Magnet padding={60} magnetStrength={3}>
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
             <div className="stats">
               <Stat label="error causes classified">
-                <CountUp to={12} duration={1.6} trigger="load" />
+                <CountUp to={14} duration={1.6} trigger="load" />
               </Stat>
               <Stat label="labelled programs">
                 <CountUp to={n} duration={2} separator="," trigger="load" />
@@ -87,11 +87,11 @@ export default function Home() {
             <SplitText text="The compiler finds the failure. ML finds the cause. RL picks the fix. The compiler checks it."
               tag="h2" className="how-title" splitType="words" delay={40} textAlign="left" color="#5423E7" />
             <ol className="how-steps">
-              <li><b>1 · Detect</b><span>Lexer, parser and semantic analyzer report <em>what</em> failed - with the expected tokens, parse context and symbol-table facts.</span></li>
+              <li><b>1 · Detect</b><span>gcc and our own front end report <em>what</em> failed - with the expected tokens, parse context and symbol-table facts.</span></li>
               <li><b>2 · Featurize</b><span>Those compiler-internal facts become a {nFeat}-feature vector. No raw text is fed to the model.</span></li>
-              <li><b>3 · Classify</b><span>A trained classifier ranks <em>why</em> it failed across 12 causes and explains which features mattered.</span></li>
+              <li><b>3 · Classify</b><span>A trained classifier ranks <em>why</em> it failed across 14 causes and explains which features mattered.</span></li>
               <li><b>4 · Choose</b><span>A <em>reinforcement-learning</em> policy decides which candidate fix to apply first - rewarded by the compiler, and still learning from your accepts and undos.</span></li>
-              <li><b>5 · Validate</b><span>Each candidate repair is re-run through lexer → parser → semantic analysis. Only fixes the compiler accepts are offered.</span></li>
+              <li><b>5 · Validate</b><span>Each candidate repair is rebuilt with gcc. Only fixes the real compiler accepts are offered.</span></li>
             </ol>
             <Link to="/architecture" className="learn-more">Read the architecture →</Link>
           </div>

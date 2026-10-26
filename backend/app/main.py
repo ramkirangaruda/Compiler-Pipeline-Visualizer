@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import sys
 import threading
 import time
@@ -17,6 +18,7 @@ from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
+from cfront import gcc as G
 from cfront.pipeline import compile_source as compile_c
 from minic import compile_source
 from repair import langs
@@ -36,7 +38,10 @@ MODELS = ROOT / "models"
 MAX_SOURCE = 20_000
 
 app = FastAPI(title="Compiler Pipeline Visualizer API", version="1.0.0")
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+# Only the app's own pages may call the API from a browser: it compiles (and, for C, runs gcc on) the code it is sent,
+# so an arbitrary website must not be able to drive it. Set PIPELINE_CORS_ORIGINS="*" to open it up deliberately.
+_ORIGINS = os.environ.get("PIPELINE_CORS_ORIGINS", "http://127.0.0.1:8010,http://localhost:8010,http://127.0.0.1:5173,http://localhost:5173").split(",")
+app.add_middleware(CORSMiddleware, allow_origins=_ORIGINS, allow_methods=["*"], allow_headers=["*"])
 
 
 @app.exception_handler(RecursionError)
@@ -93,7 +98,17 @@ def _record(diag: dict) -> None:
 def health():
     return {"status": "ok", "model_loaded": engine.model_loaded,
             "model": engine.clf.model_name if engine.clf else None,
-            "languages": {k: c.model_name if c else None for k, c in engine.clfs.items()}}
+            "languages": {k: c.model_name if c else None for k, c in engine.clfs.items()},
+            "gcc": G.COMPILER if G.available() else None}
+
+
+@app.get("/api/stress")
+def stress():
+    """Results of the stress test: random damage to real programs, repaired and judged by gcc."""
+    data = _read_json(MODELS / "stress_c.json")
+    if data:
+        data = {k: v for k, v in data.items() if k != "failures"}
+    return {"stress": data, "compiler": {"name": G.COMPILER, "available": G.available()}}
 
 
 @app.get("/api/examples")

@@ -7,6 +7,7 @@ function Entry({ e, onApply }) {
   const p = e.prediction;
   const best = e.candidates.find((c) => c.id === e.best);
   const others = e.candidates.filter((c) => c.id !== e.best && c.status !== 'rejected');
+  const lastResort = e.candidates.find((c) => c.id === e.last_resort);
   const rejected = e.candidates.filter((c) => c.status === 'rejected').length;
   const also = p ? p.probs.slice(1).filter((x) => x.prob >= 0.03).slice(0, 2) : [];
   const why = (e.explanation || []).filter((x) => x.contribution > 0).slice(0, 3);
@@ -33,7 +34,11 @@ function Entry({ e, onApply }) {
           <div className="dx-conf" title="model confidence">{pct(p.confidence, 0)}</div>
         </div>
       ) : (
-        <p className="dx-also">This error is handled by a fixed rule, so no model is involved.</p>
+        <p className="dx-also">
+          {d.code === 'E_GCC'
+            ? 'The compiler reported this error. It is outside the causes the model was trained on, so the suggestions below come from gcc itself and a repair search - and every one was re-checked by gcc.'
+            : 'This error is handled by a fixed rule, so no model is involved.'}
+        </p>
       )}
 
       {best ? (
@@ -47,7 +52,10 @@ function Entry({ e, onApply }) {
           <button className="btn btn-sm" onClick={() => onApply(best.new_source, best, e)}>Apply fix</button>
         </div>
       ) : (
-        <p className="dx-none">No automatic fix found for this error.</p>
+        <p className="dx-none">
+          No safe automatic fix for this error - the message above says what gcc found.
+          {lastResort ? ' As a last resort you can comment the line out (the code on it is lost).' : ''}
+        </p>
       )}
 
       {others.length > 0 && (

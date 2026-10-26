@@ -16,22 +16,22 @@ function Diagram() {
         <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" /></marker>
       </defs>
       <text x="10" y="22" className="lane">COMPILER (the backbone)</text>
-      {box(10, 40, 120, 64, 'Source', 'MiniC text', 'src')}
+      {box(10, 40, 120, 64, 'Source', 'C program', 'src')}
       {box(170, 40, 120, 64, 'Lexer', 'tokens')}
       {box(330, 40, 120, 64, 'Parser', 'AST + context')}
       {box(490, 40, 130, 64, 'Semantic', 'symbols, types', 'mint')}
-      {box(660, 40, 120, 64, 'IR gen', '3-address')}
-      {box(820, 40, 170, 64, 'Optimizer → VM', 'folding · liveness', 'yellow')}
+      {box(660, 40, 120, 64, 'gcc', 'the judge', 'yellow')}
+      {box(820, 40, 170, 64, 'Run', 'interpreter · trace', 'mint')}
       {arrow('M130,72 L168,72')}{arrow('M290,72 L328,72')}{arrow('M450,72 L488,72')}{arrow('M620,72 L658,72')}{arrow('M780,72 L818,72')}
       <text x="240" y="208" className="lane err">ON FAILURE: ML classifier + RL policy sit inside this loop</text>
       {arrow('M390,104 C390,165 125,150 125,220', 'err')}{arrow('M555,104 C555,175 175,168 175,220', 'err')}
       <text x="250" y="150" className="lbl err">error + compiler facts</text>
       {box(30, 222, 170, 76, 'Feature extractor', 'parse state · tokens · symbols', 'err')}
-      {box(235, 222, 170, 76, 'ML classifier', '12 causes + confidence', 'ml')}
-      {box(440, 222, 190, 76, 'Repair generator', 'candidate edits per cause', 'mint')}
+      {box(235, 222, 170, 76, 'ML classifier', '14 causes + confidence', 'ml')}
+      {box(440, 222, 190, 76, 'Repair generator', 'own + gcc fix-its + search', 'mint')}
       {box(665, 222, 190, 76, 'RL policy', 'REINFORCE · picks the fix', 'rl')}
       {arrow('M200,260 L233,260', 'err')}{arrow('M405,260 L438,260', 'err')}{arrow('M630,260 L663,260', 'err')}
-      {box(665, 380, 190, 76, 'Compiler validator', 're-run lexer·parser·semantic', 'yellow')}
+      {box(665, 380, 190, 76, 'gcc validator', 'rebuild every candidate', 'yellow')}
       {arrow('M760,298 L760,378', 'err')}
       {arrow('M855,418 C955,418 955,262 857,262', 'loop')}
       <text x="868" y="338" className="lbl loop">rejected →</text>

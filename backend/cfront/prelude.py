@@ -27,6 +27,11 @@ int getchar(void);
 char *fgets(char *s, int n, FILE *stream);
 FILE *fopen(const char *path, const char *mode);
 int fclose(FILE *stream);
+int putc(int c, FILE *stream); int fputc(int c, FILE *stream); int getc(FILE *stream); int fgetc(FILE *stream);
+size_t fread(void *p, size_t size, size_t n, FILE *stream); size_t fwrite(const void *p, size_t size, size_t n, FILE *stream);
+int fseek(FILE *stream, long off, int whence); long ftell(FILE *stream); void rewind(FILE *stream); int fflush(FILE *stream);
+int feof(FILE *stream); int ferror(FILE *stream); void perror(const char *s); int remove(const char *path); int rename(const char *a, const char *b);
+extern int SEEK_SET; extern int SEEK_CUR; extern int SEEK_END;
 """,
     "stdlib.h": """
 void *malloc(size_t size);
@@ -42,6 +47,11 @@ int atoi(const char *s);
 long atol(const char *s);
 double atof(const char *s);
 extern int EXIT_SUCCESS; extern int EXIT_FAILURE; extern int RAND_MAX;
+void qsort(void *base, size_t n, size_t size, int (*cmp)(const void *, const void *));
+void *bsearch(const void *key, const void *base, size_t n, size_t size, int (*cmp)(const void *, const void *));
+long strtol(const char *s, char **end, int base); unsigned long strtoul(const char *s, char **end, int base);
+double strtod(const char *s, char **end); long long atoll(const char *s); long long llabs(long long x);
+void abort(void); int atexit(void (*f)(void)); char *getenv(const char *name); int system(const char *cmd);
 """,
     "string.h": """
 size_t strlen(const char *s);
@@ -54,12 +64,18 @@ char *strchr(const char *s, int c);
 char *strstr(const char *a, const char *b);
 void *memset(void *p, int c, size_t n);
 void *memcpy(void *dst, const void *src, size_t n);
+char *strrchr(const char *s, int c); char *strtok(char *s, const char *delim); void *memmove(void *dst, const void *src, size_t n);
+int memcmp(const void *a, const void *b, size_t n); char *strdup(const char *s); char *strncat(char *dst, const char *src, size_t n);
+size_t strspn(const char *s, const char *accept); size_t strcspn(const char *s, const char *reject); char *strerror(int e);
 """,
     "math.h": """
 double sqrt(double x); double pow(double x, double y); double sin(double x); double cos(double x);
 double tan(double x); double fabs(double x); double floor(double x); double ceil(double x);
 double log(double x); double log10(double x); double exp(double x); double fmod(double x, double y);
 double round(double x); double atan(double x); double atan2(double y, double x);
+double trunc(double x); double cbrt(double x); double hypot(double x, double y); double log2(double x); double fmax(double a, double b);
+double fmin(double a, double b); double asin(double x); double acos(double x); double sinh(double x); double cosh(double x); double tanh(double x);
+float sqrtf(float x); float powf(float x, float y); float fabsf(float x);
 extern double M_PI; extern double M_E;
 """,
     "ctype.h": """

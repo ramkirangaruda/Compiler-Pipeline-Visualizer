@@ -5,9 +5,9 @@ gcc as the correctness oracle). Both share the engine, the validator and the rei
 each has its own feature set, classifier, taxonomy and candidate generators."""
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Callable
+from typing import Callable, Optional
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -32,6 +32,8 @@ class Lang:
     metrics_path: Path
     eval_path: Path
     data_dir: Path
+    extras: Optional[Callable] = None          # candidates that do not depend on our own front end (C: gcc fix-its + search)
+    extra_labels: dict = field(default_factory=dict)
 
     @property
     def columns(self) -> list:
@@ -47,11 +49,12 @@ def get(key: str = "minic") -> Lang:
         return _CACHE[key]
     if key == "c":
         from cfront.pipeline import run_frontend
-        from . import baseline_c, candidates_c, features_c, labels_c
+        from . import baseline_c, candidates_c, candidates_gcc, features_c, labels_c
         lang = Lang("c", "C", ".c", run_frontend, features_c.extract, candidates_c.generate, candidates_c.gen_rules,
                     baseline_c.predict, labels_c.LABELS, labels_c.LABEL_NAMES, labels_c.ML_CODES, labels_c.CANDIDATE_CAUSES,
                     features_c.CAT_COLUMNS, features_c.NUM_COLUMNS, ROOT / "models" / "error_classifier_c.joblib",
-                    ROOT / "models" / "metrics_c.json", ROOT / "models" / "repair_eval_c.json", ROOT / "datasets" / "c")
+                    ROOT / "models" / "metrics_c.json", ROOT / "models" / "repair_eval_c.json", ROOT / "datasets" / "c",
+                    extras=candidates_gcc.extras, extra_labels=labels_c.EXTRA_LABELS)
     else:
         from minic.pipeline import run_frontend
         from . import baseline, candidates, features, labels

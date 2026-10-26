@@ -3,9 +3,52 @@ and pushed back through lexer -> parser -> semantic analysis. A suggestion is
 only presented as a fix if the compiler accepts it."""
 from __future__ import annotations
 
+import re
+
 from minic.tokens import Diagnostic
 
 from .candidates import Edit, apply_edits
+
+
+def _sig(g) -> str:
+    return re.sub(r"'[^']*'", "'_'", g.message)
+
+
+def _to_old(new_off: int, edits: list) -> int:
+    """Where an offset of the repaired program sits in the original program."""
+    adj = 0
+    for e in sorted(edits, key=lambda x: (x.start, x.end)):
+        new_start = e.start + adj
+        new_end = new_start + len(e.text)
+        if new_off < new_start:
+            break
+        if new_off < new_end:
+            return e.start
+        adj += len(e.text) - (e.end - e.start)
+    return new_off - adj
+
+
+def _validate_gcc(source: str, new_source: str, edits: list, before, after, target: Diagnostic) -> dict:
+    """The real compiler is the judge: a fix is verified when gcc builds the result, partial when it resolves
+    the targeted error (or gets gcc past it) without causing a pile of new ones, rejected otherwise."""
+    ge_b, ge_a = before.gcc.errors, after.gcc.errors
+    n_b, n_a = len(ge_b), len(ge_a)
+    if not ge_a:
+        return {"status": "verified", "reason": "gcc builds it with 0 errors", "errors_after": 0, "new_source": new_source,
+                "progress": len(source) + 1}
+    tgt = next((g for g in ge_b if g.line == target.line), ge_b[0]) if ge_b else None
+    status, reason = "rejected", f"Still fails: {ge_a[0].message}"
+    if tgt is not None:
+        shift = sum(e.text.count("\n") - source[e.start:e.end].count("\n") for e in edits if e.end <= tgt.start)
+        persists = any(_sig(a) == _sig(tgt) and a.line == tgt.line + shift for a in ge_a)
+        if not persists and n_a <= n_b + 2:
+            status, reason = "partial", f"That error is gone; {n_a} other error(s) remain"
+        elif persists and ge_a[0].line > ge_b[0].line + shift and ge_a[0].line != tgt.line + shift:
+            status, reason = "partial", f"gcc gets past this point; next problem on line {ge_a[0].line}"
+        elif n_a < n_b:
+            status, reason = "partial", f"{n_b - n_a} fewer error(s)"
+    return {"status": status, "reason": reason, "errors_after": n_a, "new_source": new_source,
+            "progress": _to_old(ge_a[0].start, edits)}
 
 
 def _signature(d: Diagnostic) -> tuple:
@@ -18,6 +61,8 @@ def validate(source: str, edits: list[Edit], before, target: Diagnostic) -> dict
     except ValueError:
         return {"status": "rejected", "reason": "edits overlap", "errors_after": -1, "new_source": source}
     after = before.rerun(new_source)
+    if getattr(before, "judged_by_gcc", False) and getattr(after, "judged_by_gcc", False):
+        return _validate_gcc(source, new_source, edits, before, after, target)
     errs = after.errors
     n_before, n_after = len(before.errors), len(errs)
 

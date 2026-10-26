@@ -1,28 +1,31 @@
 # Compiler Pipeline Visualizer
 
-**A compiler that diagnoses its own errors with machine learning - and verifies every fix before it shows it to you.**
+**A C compiler front end that diagnoses its own errors with machine learning - and has the real C compiler (gcc) verify every fix before it shows it to you.**
 
-MiniC is a small, statically-typed, C-like language. This project implements its complete compiler
-pipeline and adds an ML layer to the *error-diagnosis* phase: when compilation fails, features produced
-by the compiler itself (parser state, expected tokens, token context, symbol-table facts) are fed to a
-classifier that ranks the **cause** of the error and proposes a repair. The compiler then re-runs
-lexer → parser → semantic analysis on every candidate fix, and only fixes it accepts are offered.
+The project works on **real C**. When a program fails, features produced by the compiler itself (parser state, expected tokens, token
+context, symbol-table facts) go to a classifier that ranks the **cause** of the error and proposes a repair. For anything outside the
+causes the model was trained on, the compiler's own *fix-its* and a small repair search supply the candidates. **gcc is the judge**: a fix
+is shown only if gcc accepts the result, and a reinforcement-learning policy decides which valid fix comes first. (MiniC, the small
+teaching language the project started from, is still in the Studio as a second tab.)
 
 > Compiler techniques are the backbone; ML is one component inside the system - and the compiler has the last word.
 
 ```
-Source → Lexer → Parser → Semantic → IR (3AC) → Optimizer → VM
-              ╲        ╲        ╲
-               └── on failure: Feature extractor → ML classifier → Repair generator → Compiler validator ↺
+C source -> Lexer -> Parser -> Semantic -> gcc (the judge) -> Run
+                 |
+                 +-- on failure: Feature extractor -> ML classifier -> Repair generators (own + gcc fix-its + search)
+                                 -> RL policy -> gcc validator --(rejected: next candidate)--+
+                                                       |                                      |
+                                                       +--> verified fix shown <--------------+
 ```
 
 ## What is in the box
 
 | Part | Where | What |
 |---|---|---|
-| Compiler | `backend/minic/` | lexer, recursive-descent parser, AST, scoped symbol table + type checker, three-address code, optimizer (folding, algebraic, copy/constant propagation, branch folding, unreachable code, liveness-based DCE), basic blocks + CFG + live-variable analysis, VM with execution trace |
-| Real C | `backend/cfront/` | tokenizer, pycparser grammar, header-aware prelude, C scope/type checker, tree-walking interpreter (output matches gcc) |
-| ML repair | `backend/repair/` | 40 compiler-derived features, 12-cause classifier, candidate repair generators, compiler validation loop, auto-fix, rule baseline, feature-occlusion explanations |
+| MiniC compiler | `backend/minic/` | the teaching language (with `if`, `while`, `for`): lexer, recursive-descent parser, AST, scoped symbol table + type checker, three-address code, optimizer (folding, algebraic, copy/constant propagation, branch folding, unreachable code, liveness-based DCE), basic blocks + CFG + live-variable analysis, VM with execution trace |
+| Real C | `backend/cfront/` | tokenizer, pycparser grammar, header-aware prelude, C scope/type checker, **gcc as the judge** (diagnostics, fix-its, link check), tree-walking interpreter (output matches gcc) |
+| ML repair | `backend/repair/` | compiler-derived features (40 for MiniC, 50 for C), classifiers (12 / 14 causes), candidate generators incl. gcc fix-its and a repair search, gcc validation loop, backtracking auto-fix, rule baseline, feature-occlusion explanations |
 | Reinforcement learning | `backend/repair/rl/`, `backend/ml/rl/` | REINFORCE fix-selection policy over compiler-validated candidates, repair MDP, multi-fault generator, online learning from user accepts/undos |
 | Training | `backend/ml/` | seed-program generator, 12 error mutators, dataset builder, model comparison + training, end-to-end repair evaluation |
 | API | `backend/app/` | FastAPI: compile, diagnose, autofix, examples, model metrics, dataset browser |
@@ -66,7 +69,8 @@ python -m ml.rl.train_rl          # trains + evaluates the RL fix policy -> mode
 python -m ml.build_dataset_c      # real C: datasets/c/ (every sample cross-checked with gcc)
 python -m ml.train --lang c       # C classifier -> models/error_classifier_c.joblib, metrics_c.json
 python -m ml.evaluate_repair --lang c
-python -m pytest                  # 231 tests
+python -m ml.stress_c             # random-damage stress test judged by gcc -> models/stress_c.json
+python -m pytest                  # 244 tests
 ```
 
 Production build of the UI: `npm run build` (output in `frontend/dist`).
@@ -74,7 +78,7 @@ Production build of the UI: `npm run build` (output in `frontend/dist`).
 ## The web app
 
 * **Home** - the 3D pipeline scene and a short explanation of how it works.
-* **Studio** - type MiniC and it compiles as you type. When the program fails you get one clear diagnosis: the
+* **Studio** - type C (or MiniC, from the switch) and it is checked as you type. When the program fails you get one clear diagnosis: the
   likely cause, how sure the model is, and a suggested fix (checked by the compiler) with a diff and an **Apply fix**
   button; **Undo** reverts it. When it compiles, tabs show the program's output and every compiler phase
   (tokens, syntax tree, symbols, optimized code, flow graph). The example menu has working and broken programs.
@@ -107,27 +111,57 @@ the intervals exclude zero, so the improvement is real, but it is **small**. On 
 recovery (69.8 % to 70.0 %). The gain comes from choices the heuristic cannot rank well, mainly where a declaration should be placed; the policy
 can only choose among the candidates the repair generators propose, which caps what it can achieve.
 
-## Real C, not just MiniC
+## Any error, not just the trained ones
 
-The Studio has a **MiniC | C** switch. C is the real language: the same diagnose-and-repair loop runs on ordinary C programs.
+A classifier can only recognise what it was trained on. So the pipeline does not rely on it alone:
 
-* **Front end** (`backend/cfront/`) - own tokenizer + preprocessor-directive handling, [pycparser](https://github.com/eliben/pycparser)
-  for the grammar (its LALR tables tell us which tokens it *would* have accepted - the C counterpart of MiniC's expected-token set),
-  and our own scope/type analysis with real C rules (pointers, arrays, structs, typedefs, enums, for-loop scope, call arity).
-  Standard-library declarations are fed to the parser **only if the matching `#include` is present**, so forgetting `<stdio.h>`
-  is a genuine, diagnosable error exactly as in a real compiler.
-* **Interpreter** (`backend/cfront/interp.py`) - runs the checked program (32-bit integer wrap-around, pointer arithmetic, `printf`, the
-  common `<string.h>`/`<math.h>`/`<stdlib.h>`/`<ctype.h>` functions) with a step trace for the Run tab. It matches gcc's output on every seed program.
-* **14 causes** - the 12 MiniC causes plus *missing `#include`* and *wrong argument count*; 50 features; its own classifier, candidate
-  generators (hoist a loop variable out of a `for`, add `&`/`*`, cast a float operand of `%`, add the missing header …) and gcc-style validation loop.
-  The reinforcement-learning policy is shared: it ranks candidates by generic features, so it works for either language.
-* **Data** (`datasets/c/`) - 600 valid seed programs, **2,800 labelled broken programs in one folder per cause**, 42 hand-written textbook-style
-  programs. **gcc (`-std=c11`) is the independent oracle**: every seed compiles with gcc, and every labelled mutant is rejected by gcc
-  (it agreed on 2,800/2,800 candidates before filtering).
+1. **gcc decides what is an error.** Every program goes through gcc (`-std=gnu11 -Wall`, JSON diagnostics, plus a link check for
+   "no `main()`" and undefined references). A program gcc accepts is never reported as broken, whatever our own front end thinks.
+2. **Two sources of candidate fixes.** (a) Our own front end + ML for the 14 trained causes (typos, missing declarations, scope, types,
+   missing `#include`, wrong argument count, missing `;` `)` `}` ...). (b) For everything else: gcc's own fix-its ("did you mean ...?",
+   "insert `;`"), the right `#include` for a library name, a prototype for a function defined later, a repair search around the point where
+   gcc stopped, operator and type swaps, struct-member and `const` fixes, a stub for an undefined function, a missing `main()`.
+3. **gcc validates every candidate** (in parallel) as verified / partial / rejected; partial fixes are ranked by how far gcc gets.
+4. **Auto-fix backtracks.** A greedy walk first; if it gets stuck, a best-first search can back out of a wrong turn.
+5. **Last resort, never automatic.** "Comment out the statement" is offered when nothing else works; it is always labelled and never chosen
+   by Fix / Fix all.
 
-Rebuild: `python -m ml.build_dataset_c`, `python -m ml.train --lang c`, `python -m ml.evaluate_repair --lang c`.
-**C results** (569 held-out programs, split by seed): cause accuracy **98.2 %** (rule baseline 67.8 %); hand-written programs 97.6 % (baseline 76.2 %); top-ranked fix recompiles cleanly **91.4 %** (baseline 66.4 %); auto-fix ends in a clean program **95.6 %** (baseline 71.2 %); exact recovery of the original program 64.5 % (65.6 % with the RL ordering). Selected model: Logistic Regression.
-Not supported: the preprocessor beyond `#include`/`#define` constants, `goto`, function pointers, unions/bit-fields in the interpreter, `scanf` input.
+### How well does it do? (stress test, `python -m ml.stress_c`)
+
+Twenty textbook programs and generated ones are damaged by **random edits unrelated to the training mutators** (delete / insert / replace /
+swap a token, delete or duplicate a line, delete or insert a character, misspell a name, drop an `#include`, change a type, cut the file
+short). Only programs gcc rejects are kept. The numbers below are from a fresh random seed that was never used while tuning.
+
+| 720 broken programs | repaired to a program gcc builds | exactly the original program |
+|---|---|---|
+| **all** | **95.3 %** (98.2 % if the last resort is allowed) | 48 % |
+| small slips (one token or character) | 96.5 % | 59 % |
+| structural damage (a line or the end of the file) | 91.7 % | 14 % |
+
+**There is no promise that every possible error can be fixed.** A fix has to be both accepted by gcc *and* what the programmer meant, and
+the second part cannot be known: delete a line of a program and there are many valid programs that compile, but only one was intended.
+What is guaranteed: (1) a fix marked *verified* really builds with gcc, (2) nothing crashes or hangs on hostile input (empty, binary,
+huge, deeply nested, macro bombs, `#include "/etc/passwd"`, infinite loops - see `tests/test_c.py`), and (3) every error shows gcc's
+exact message even when no fix is found. Code that is logically wrong but compiles is not an error and is not touched.
+
+### The parts
+
+* **Own front end** (`backend/cfront/`) - tokenizer, [pycparser](https://github.com/eliben/pycparser) for the grammar (its LALR tables tell us which
+  tokens it *would* have accepted), and our own scope/type analysis. Library declarations are fed to the parser only if the matching
+  `#include` is present, so forgetting `<stdio.h>` is a genuine, diagnosable error.
+* **gcc layer** (`cfront/gcc.py`) - runs the compiler, parses its diagnostics and fix-its, never executes the program, and refuses
+  `#include` of local or absolute paths. If no C compiler is on `PATH` the system falls back to the own front end alone.
+* **Interpreter** (`cfront/interp.py`) - runs checked programs for the Run tab (32-bit wrap-around, pointers, `printf`, common libc) with
+  a step trace; matches gcc's output on every generated seed. Real execution of anything else is off by default
+  (`PIPELINE_NATIVE_RUN=1` builds and runs it with gcc; only enable it on your own machine).
+* **ML** - 14 causes, 50 features, its own classifier (98.2 % on 569 held-out programs, rules 67.8 %; hand-written 97.6 % vs 76.2 %).
+  The reinforcement-learning policy is shared with MiniC.
+* **Data** (`datasets/c/`) - 600 valid seeds, 2,800 labelled broken programs in one folder per cause, 42 hand-written programs; every
+  sample is rejected by gcc (it agreed on 2,800 / 2,800 candidates before filtering).
+
+Rebuild: `python -m ml.build_dataset_c`, `python -m ml.train --lang c`, `python -m ml.evaluate_repair --lang c`, `python -m ml.stress_c`.
+Needs gcc (or clang) on `PATH`; on Windows install MSYS2 / MinGW-w64.
+Not supported by the interpreter: `goto`, function pointers, unions, `scanf` input (gcc still judges such programs).
 
 ## The language (MiniC)
 
@@ -153,7 +187,7 @@ Semantic: misspelled variable · missing declaration · use before declaration �
 A compiler *symptom* is ambiguous: `undeclared identifier 'nam'` can be a typo, a missing declaration, a
 use-before-declaration or a scope error - each needs a different fix. That ambiguity is where ML earns its place.
 
-## Results
+## Results (MiniC classifier; the C numbers are in the section above)
 
 Measured on held-out programs (train/test split by seed program, so no leakage), on a hand-written set, and
 end-to-end against the real compiler. Exact numbers are on the Dashboard and in `models/metrics.json`.

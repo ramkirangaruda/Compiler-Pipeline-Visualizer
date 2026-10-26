@@ -77,10 +77,15 @@ def evaluate(engine: Engine, rows: list[dict], mode: str, ranker: str = "heurist
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--lang", default="minic", choices=["minic", "c"])
-    lang = langs.get(ap.parse_args().lang)
+    ap.add_argument("--limit", type=int, default=0, help="evaluate only a seeded random sample of this many test programs")
+    args = ap.parse_args()
+    lang = langs.get(args.lang)
     engine = Engine()
     assert engine.clfs[lang.key] is not None, "train the model first: python -m ml.train" + (" --lang c" if lang.key == "c" else "")
     rows = [r for r in csv.DictReader((lang.data_dir / "manifest.csv").open(encoding="utf-8")) if r["split"] == "test"]
+    if args.limit and args.limit < len(rows):
+        import random
+        rows = random.Random(5).sample(rows, args.limit)
     print(f"evaluating {len(rows)} held-out {lang.title} programs")
     out = {"ml": evaluate(engine, rows, "ml", lang=lang), "baseline": evaluate(engine, rows, "baseline", lang=lang)}
     if engine.policy is not None:  # same single-fault programs, fixes ordered by the RL policy instead of the heuristic

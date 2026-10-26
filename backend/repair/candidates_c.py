@@ -297,6 +297,8 @@ def gen_wrong_argc(d: Diagnostic, fe) -> list[dict]:
 # -------------------------------------------------------------------- rule fixes
 def gen_rules(d: Diagnostic, fe) -> list[dict]:
     src = fe.source
+    if d.code == "E_GCC":              # anything gcc reports that our own front end does not model: see candidates_gcc.py
+        return []
     if d.code == "E_UNEXPECTED_CHAR":
         return [make("RULE_BASED", f"Delete the stray character {d.extra['char']!r}",
                      "Characters outside the language alphabet are removed.", [Edit(d.start, d.end, "")], 0.8)]

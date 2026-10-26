@@ -804,7 +804,7 @@ class Analyzer:
             if 0 <= fmt_i < len(spec_types) and spec_types[fmt_i]:
                 self.hint(a, spec_types[fmt_i])
         if sym is None or sym.kind not in ("func", "lib") or sym.params is None:
-            return "unknown" if sym is None or sym.kind == "macro" else sym.type
+            return "unknown" if sym is None or sym.kind == "macro" or sym.type.startswith("function") else sym.type
         if isinstance(name_node, C.ID) and name_node.name in PRINTF_FAMILY and spec_types:
             fi = PRINTF_FAMILY[name_node.name]
             given = len(args) - fi - 1

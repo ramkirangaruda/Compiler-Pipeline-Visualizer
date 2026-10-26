@@ -35,3 +35,10 @@ CANDIDATE_CAUSES = {
     "E_MISSING_INCLUDE": ["MISSING_INCLUDE"],
     "E_WRONG_ARGC": ["WRONG_ARG_COUNT"],
 }
+
+# fix types that come from the compiler's own suggestions and the repair search rather than from a classifier class
+EXTRA_LABELS = {
+    "GCC_FIXIT": {"title": "Compiler suggestion", "family": "gcc", "explain": "The compiler itself proposed this edit."},
+    "SEARCH_FIX": {"title": "Repair search", "family": "gcc", "explain": "A small edit near the point where the compiler stopped."},
+    "LAST_RESORT": {"title": "Last resort", "family": "gcc", "explain": "Comment the line out: it removes the code."},
+}

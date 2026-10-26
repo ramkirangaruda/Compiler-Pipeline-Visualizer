@@ -11,7 +11,7 @@ const FALLBACK = {
   minic: 'int width = 10;\nint height = 20\nint area = width * height;\nprint(area);\n',
   c: '#include <stdio.h>\n\nint main(void) {\n    int width = 10;\n    int height = 20\n    printf("%d\\n", width * height);\n    return 0;\n}\n',
 };
-const LANGS = [['minic', 'MiniC'], ['c', 'C']];
+const LANGS = [['c', 'C'], ['minic', 'MiniC']];
 const store = (k, v) => { try { sessionStorage.setItem(k, v); } catch { /* storage unavailable */ } };
 const load = (k) => { try { return sessionStorage.getItem(k); } catch { return null; } };
 const LABEL = {
@@ -23,7 +23,7 @@ const TABS_OK = { minic: ['run', 'tokens', 'tree', 'symbols', 'code', 'flow'], c
 
 export default function Studio() {
   const [examples, setExamples] = useState([]);
-  const [language, setLanguage] = useState(() => (load('studio:lang') === 'c' ? 'c' : 'minic'));
+  const [language, setLanguage] = useState(() => (load('studio:lang') === 'minic' ? 'minic' : 'c'));
   const [sources, setSources] = useState(() => ({ minic: load('studio:source') || FALLBACK.minic, c: load('studio:source:c') || FALLBACK.c }));
   const source = sources[language];
   const setSource = useCallback((v) => setSources((s) => ({ ...s, [language]: typeof v === 'function' ? v(s[language]) : v })), [language]);

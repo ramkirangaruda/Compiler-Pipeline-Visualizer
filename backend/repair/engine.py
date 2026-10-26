@@ -6,6 +6,7 @@ import difflib
 import threading
 import uuid
 from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor
 from typing import Optional
 
 from minic.tokens import Diagnostic
@@ -118,18 +119,29 @@ class Engine:
                     c["prob"] = p
                     raw.append(c)
 
-        cands, seen = [], set()
+        if lang.extras is not None and mode != "baseline":
+            raw = list(raw) + lang.extras(d, fe)         # the compiler's own suggestions and the repair search
+
+        uniq, seen = [], set()
         for c in raw:
             key = tuple((e.start, e.end, e.text) for e in c["edits"])
-            if key in seen:
-                continue
-            seen.add(key)
-            v = validate(source, c["edits"], fe, d)
+            if key not in seen:
+                seen.add(key)
+                uniq.append(c)
+        if getattr(fe, "judged_by_gcc", False) and len(uniq) > 1:
+            with ThreadPoolExecutor(min(8, len(uniq))) as pool:    # gcc runs in separate processes: validate in parallel
+                verdicts = list(pool.map(lambda c: validate(source, c["edits"], fe, d), uniq))
+        else:
+            verdicts = [validate(source, c["edits"], fe, d) for c in uniq]
+        titles = {**LABELS, **lang.extra_labels}
+
+        cands = []
+        for c, v in zip(uniq, verdicts):
             p = c.get("prob", 1.0)
             cands.append(
                 {
                     "label": c["label"],
-                    "label_title": LABELS.get(c["label"], {}).get("title", "Rule-based fix"),
+                    "label_title": titles.get(c["label"], {}).get("title", "Rule-based fix"),
                     "strategy": c.get("strategy", "default"),
                     "title": c["title"],
                     "description": c["description"],
@@ -140,11 +152,15 @@ class Engine:
                     "status": v["status"],
                     "reason": v["reason"],
                     "errors_after": v["errors_after"],
+                    "progress": v.get("progress", 0),
                     "new_source": v["new_source"],
                     "diff": diff_hunks(source, v["new_source"]),
                 }
             )
-        cands.sort(key=lambda c: (-STATUS_RANK[c["status"]], -c["score"]))
+        # verified first, then partial. Among gcc-judged fixes the one that gets the compiler furthest wins; the
+        # last-resort edit is always behind the real fixes of its status
+        cands.sort(key=lambda c: (-STATUS_RANK[c["status"]], c["label"] == "LAST_RESORT", -c["progress"],
+                                  c["errors_after"] if c["progress"] else 0, -c["score"]))
         cands = cands[:10]
         entry["ranker"] = "heuristic"
         if self.policy is not None and cands:
@@ -170,20 +186,24 @@ class Engine:
             for i, c in enumerate(cands):
                 c["id"] = f"fix-{i + 1}"
         entry["candidates"] = cands
-        best = next((c for c in cands if c["status"] != "rejected"), None)
+        # the last-resort fix (comment the line out) is listed but never chosen automatically
+        best = next((c for c in cands if c["status"] != "rejected" and c["label"] != "LAST_RESORT"), None)
         entry["best"] = best["id"] if best else None
+        entry["last_resort"] = next((c["id"] for c in cands if c["label"] == "LAST_RESORT" and c["status"] != "rejected"), None)
         if best:
             entry["localized"] = offset_to_pos(source, min(e["start"] for e in best["edits"]))
         return entry
 
     # ---------------------------------------------------------- whole file
     def diagnose(self, source: str, mode: str = "ml", only_first: bool = False, ranker: str = "heuristic",
-                 explain: bool = True, language: str = "minic") -> dict:
+                 explain: bool = True, language: str = "minic", max_entries: int = 6) -> dict:
         lang = langs.get(language)
         fe = lang.run_frontend(source)
         errors = fe.errors
         entries, seen = [], {}
         for d in errors:
+            if len(entries) >= max_entries:      # later errors are usually knock-on effects of the first ones
+                break
             key = None
             if d.code == "E_UNDECLARED":
                 key = ("E_UNDECLARED", d.extra["name"])
@@ -208,11 +228,67 @@ class Engine:
         }
 
     # ------------------------------------------------------------- autofix
-    def autofix(self, source: str, max_steps: int = 12, mode: str = "ml", ranker: str = "heuristic",
-                language: str = "minic") -> dict:
+    def autofix(self, source: str, max_steps: int = 20, mode: str = "ml", ranker: str = "heuristic",
+                language: str = "minic", allow_last_resort: bool = False, search: bool = True, budget: float = 25.0,
+                total_budget: float = 40.0) -> dict:
+        """Apply the best fix, re-check, repeat. If that greedy walk gets stuck, fall back to a best-first search that
+        can back out of a wrong turn (every state it visits is judged by the compiler)."""
+        import time
+        t0 = time.time()
+        res = self._greedy(source, max_steps, mode, ranker, language, allow_last_resort, deadline=t0 + total_budget * 0.5)
+        if res["ok"] or not search:
+            return res
+        left = total_budget - (time.time() - t0)
+        if left < 3:
+            return res
+        found = self._best_first(source, mode, ranker, language, allow_last_resort, min(budget, left))
+        return found if found["ok"] else res
+
+    def _best_first(self, source: str, mode: str, ranker: str, language: str, allow_last_resort: bool, budget: float,
+                    width: int = 3, max_depth: int = 10) -> dict:
+        import heapq
+        import itertools
+        import time
         lang = langs.get(language)
-        steps, cur = [], source
+        t0, tick = time.time(), itertools.count()
+        visited = {source}
+        heap = [(len(lang.run_frontend(source).errors), 0, next(tick), source, [])]
+        best = (heap[0][0], source, [])
+        while heap and time.time() - t0 < budget:
+            errs, cost, _, cur, steps = heapq.heappop(heap)
+            if len(steps) >= max_depth:
+                continue
+            res = self.diagnose(cur, mode=mode, only_first=True, ranker=ranker, explain=False, language=lang.key)
+            if not res["entries"]:
+                continue
+            e = res["entries"][0]
+            opts = [c for c in e["candidates"] if c["status"] != "rejected" and c["new_source"] not in visited
+                    and (allow_last_resort or c["label"] != "LAST_RESORT")]
+            for c in opts[:width]:
+                visited.add(c["new_source"])
+                pred = e.get("prediction")
+                step = {"iteration": len(steps) + 1, "message": e["diagnostic"]["message"], "line": e["diagnostic"]["line"],
+                        "label": c["label"], "label_title": c["label_title"], "confidence": pred["confidence"] if pred else None,
+                        "title": c["title"], "status": c["status"], "diff": c["diff"]}
+                new_steps = steps + [step]
+                if c["status"] == "verified":
+                    return {"language": lang.key, "ok": True, "steps": new_steps, "final_source": c["new_source"], "remaining": [], "searched": True}
+                n = c["errors_after"] if c["errors_after"] >= 0 else 99
+                heapq.heappush(heap, (n, cost + 1, next(tick), c["new_source"], new_steps))
+                if n < best[0]:
+                    best = (n, c["new_source"], new_steps)
+        final = lang.run_frontend(best[1])
+        return {"language": lang.key, "ok": not final.errors, "steps": best[2], "final_source": best[1],
+                "remaining": [d.message for d in final.errors], "searched": True}
+
+    def _greedy(self, source: str, max_steps: int, mode: str, ranker: str, language: str, allow_last_resort: bool,
+                deadline: Optional[float] = None) -> dict:
+        import time
+        lang = langs.get(language)
+        steps, cur, visited = [], source, {source}
         for i in range(max_steps):
+            if deadline is not None and time.time() > deadline:
+                break
             fe = lang.run_frontend(cur)
             if not fe.errors:
                 break
@@ -220,7 +296,13 @@ class Engine:
             if not res["entries"]:
                 break
             e = res["entries"][0]
-            best = next((c for c in e["candidates"] if c["id"] == e["best"]), None)
+            pick = e["best"] or (e.get("last_resort") if allow_last_resort else None)
+            best = next((c for c in e["candidates"] if c["id"] == pick), None)
+            if best is not None and best["new_source"] in visited:      # never go round in circles
+                best = next((c for c in e["candidates"] if c["status"] != "rejected" and c["new_source"] not in visited
+                             and (allow_last_resort or c["label"] != "LAST_RESORT")), None)
+            if best is not None:
+                visited.add(best["new_source"])
             if best is None:
                 steps.append({"iteration": i + 1, "stuck": True, "message": e["diagnostic"]["message"], "line": e["diagnostic"]["line"]})
                 break
