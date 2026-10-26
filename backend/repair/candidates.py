@@ -101,7 +101,8 @@ def gen_rparen(d: Diagnostic, fe: Frontend) -> list[dict]:
     ]
 
 
-_OPERAND = ("IDENT", "INT", "FLOAT", "STRING", "BOOL")
+_OPERAND = ("IDENT", "INT", "FLOAT", "STRING", "BOOL", "CHAR")
+FUSED = {"minic": ("print", "while", "if"), "c": ("printf", "while", "if", "for", "switch")}
 
 
 def gen_lparen(d: Diagnostic, fe: Frontend) -> list[dict]:
@@ -114,7 +115,7 @@ def gen_lparen(d: Diagnostic, fe: Frontend) -> list[dict]:
     prev = toks[idx - 1] if idx > 0 else None
     if prev is not None and prev.kind == "IDENT":
         # `print(x)` with the '(' deleted lexes as one identifier: `printx)`
-        for kw in ("print", "while", "if"):
+        for kw in FUSED.get(getattr(fe, "lang", "minic"), FUSED["minic"]):
             if prev.value.startswith(kw) and len(prev.value) > len(kw):
                 pos = prev.start + len(kw)
                 pre.append(make("MISSING_LPAREN", f"Split `{prev.value}` into `{kw}(`",
@@ -232,14 +233,14 @@ def gen_keyword(d: Diagnostic, fe: Frontend) -> list[dict]:
         return []
     found = fe.tokens[idx]
     out = []
-    for kw in ALL_RESERVED:
+    for kw in getattr(fe, "keywords", ALL_RESERVED):
         dist = edit_distance(bad.value, kw)
         if dist > 3:
             continue
         bonus = 0.0
-        if found.value == "(" and kw in ("if", "while", "print"):
+        if found.value == "(" and kw in ("if", "while", "print", "for", "switch", "return", "sizeof"):
             bonus = 0.15
-        elif found.kind == "IDENT" and kw in ("int", "float", "bool", "string"):
+        elif found.kind == "IDENT" and kw in ("int", "float", "bool", "string", "char", "double", "long", "void", "short", "unsigned"):
             bonus = 0.15
         elif found.value == "{" and kw == "else":
             bonus = 0.15

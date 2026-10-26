@@ -174,11 +174,12 @@ print(avg);
 
 def all_examples() -> list[dict]:
     out = [
-        {"id": i, "name": n, "category": "valid", "description": d, "source": s, "expected": None}
+        {"id": i, "name": n, "category": "valid", "description": d, "source": s, "expected": None, "language": "minic"}
         for i, n, d, s in VALID
     ]
     for label, title, src in BROKEN:
-        out.append({"id": label.lower(), "name": title, "category": "broken", "description": "", "source": src, "expected": label})
+        out.append({"id": label.lower(), "name": title, "category": "broken", "description": "", "source": src, "expected": label, "language": "minic"})
     out.append({"id": "multi", "name": MULTI[1], "category": "broken", "description": "Three independent semantic errors.",
-                "source": MULTI[2], "expected": None})
-    return out
+                "source": MULTI[2], "expected": None, "language": "minic"})
+    from .examples_c import c_examples
+    return out + c_examples()

@@ -26,7 +26,33 @@ const miniC = StreamLanguage.define({
   },
 });
 
+const C_KEYWORDS = /^(if|else|while|for|do|switch|case|default|break|continue|return|goto|sizeof|struct|union|enum|typedef|static|extern|const|volatile)\b/;
+const C_TYPES = /^(int|char|float|double|void|long|short|signed|unsigned|_Bool|size_t|FILE)\b/;
+
+const cLang = StreamLanguage.define({
+  token(stream) {
+    if (stream.eatSpace()) return null;
+    if (stream.match('//')) { stream.skipToEnd(); return 'comment'; }
+    if (stream.match('/*')) { while (!stream.eol() && !stream.match('*/')) stream.next(); return 'comment'; }
+    if (stream.sol() && stream.match(/^\s*#\s*\w+.*/)) return 'macro';
+    if (stream.match(/^"(?:[^"\\]|\\.)*"?/)) return 'string';
+    if (stream.match(/^'(?:[^'\\]|\\.)*'?/)) return 'string';
+    if (stream.match(/^(0[xX][0-9a-fA-F]+|\d+\.?\d*([eE][+-]?\d+)?[fFuUlL]*)/)) return 'number';
+    if (stream.match(C_KEYWORDS)) return 'keyword';
+    if (stream.match(C_TYPES)) return 'typeName';
+    if (stream.match(/^[A-Za-z_]\w*/)) return 'variableName';
+    if (stream.match(/^(==|!=|<=|>=|&&|\|\||\+\+|--|->|<<|>>|[-+*/%&|^~!<>=]=?)/)) return 'operator';
+    stream.next();
+    return 'punctuation';
+  },
+  tokenTable: {
+    keyword: t.keyword, typeName: t.typeName, macro: t.processingInstruction, number: t.number, string: t.string,
+    comment: t.comment, operator: t.operator, variableName: t.variableName, punctuation: t.punctuation,
+  },
+});
+
 const highlight = HighlightStyle.define([
+  { tag: t.processingInstruction, color: '#ff9ec1' },
   { tag: t.keyword, color: '#E7D623', fontWeight: '700' },
   { tag: t.typeName, color: '#2CF7A4', fontWeight: '700' },
   { tag: t.bool, color: '#ff9ec1' },
@@ -85,14 +111,14 @@ const lineField = StateField.define({
  * props.mlLines: line numbers the ML localised the fault to (mint highlight)
  * props.errLines: line numbers where the compiler detected the error (red tint)
  */
-export default function Editor({ value, onChange, diagnostics = [], mlLines = [], errLines = [], execLine = 0, onRun }) {
+export default function Editor({ value, onChange, diagnostics = [], mlLines = [], errLines = [], execLine = 0, onRun, language = 'minic' }) {
   const view = useRef(null);
   const onRunRef = useRef(onRun);
   onRunRef.current = onRun;
 
   const extensions = useMemo(
     () => [
-      miniC,
+      language === 'c' ? cLang : miniC,
       syntaxHighlighting(highlight),
       lintGutter(),
       linter(null),
@@ -100,7 +126,7 @@ export default function Editor({ value, onChange, diagnostics = [], mlLines = []
       EditorView.lineWrapping,
       Prec.highest(keymap.of([{ key: 'Mod-Enter', run: () => { onRunRef.current?.(); return true; } }])),
     ],
-    [],
+    [language],
   );
 
   const apply = useCallback(() => {
@@ -127,7 +153,7 @@ export default function Editor({ value, onChange, diagnostics = [], mlLines = []
       basicSetup={{ foldGutter: false, highlightActiveLine: true, autocompletion: false }}
       onChange={onChange}
       onCreateEditor={(v) => { view.current = v; apply(); }}
-      aria-label="MiniC source editor"
+      aria-label={language === 'c' ? 'C source editor' : 'MiniC source editor'}
     />
   );
 }

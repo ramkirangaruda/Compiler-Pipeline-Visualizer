@@ -9,9 +9,9 @@ const ICONS = {
   vm: <path d="M7 5l12 7-12 7z" />,
 };
 
-const ML_STEPS = [
-  ['Feature extractor', 'compiler state → 40 features'],
-  ['ML classifier', 'rank 12 causes'],
+const mlSteps = (c) => [
+  ['Feature extractor', `compiler state → ${c ? 50 : 40} features`],
+  ['ML classifier', `rank ${c ? 14 : 12} causes`],
   ['Repair generator', 'candidate edits'],
   ['RL policy', 'chooses the fix'],
   ['Validator', 're-compile each fix'],
@@ -19,7 +19,8 @@ const ML_STEPS = [
 
 const TAB_OF = { lexer: 'tokens', parser: 'tree', semantic: 'symbols', ir: 'code', optimizer: 'code', vm: 'run' };
 
-export default function PipelineStrip({ stages, diagnosis, onSelect }) {
+export default function PipelineStrip({ stages, diagnosis, onSelect, language }) {
+  const ML_STEPS = mlSteps(language === 'c');
   const failed = stages?.some((s) => s.status === 'error');
   const has = !!diagnosis?.entries?.length;
   const verified = diagnosis?.entries?.some((e) => e.candidates?.some((c) => c.status === 'verified'));

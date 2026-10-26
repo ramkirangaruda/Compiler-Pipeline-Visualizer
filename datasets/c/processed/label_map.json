@@ -1,0 +1,86 @@
+{
+  "MISSING_SEMICOLON": {
+    "id": 0,
+    "title": "Missing semicolon",
+    "family": "syntax",
+    "explain": "A statement was not terminated with ';' before the next statement began."
+  },
+  "MISSING_RPAREN": {
+    "id": 1,
+    "title": "Missing closing parenthesis",
+    "family": "syntax",
+    "explain": "An opening '(' was never matched by a closing ')'."
+  },
+  "MISSING_LPAREN": {
+    "id": 2,
+    "title": "Missing opening parenthesis",
+    "family": "syntax",
+    "explain": "A ')' appears without its matching '(' - the condition or argument list is not opened."
+  },
+  "MISSING_RBRACE": {
+    "id": 3,
+    "title": "Missing closing brace",
+    "family": "syntax",
+    "explain": "A block was opened with '{' but never closed with '}'."
+  },
+  "MISSING_LBRACE": {
+    "id": 4,
+    "title": "Missing opening brace",
+    "family": "syntax",
+    "explain": "An if/while/else header must be followed by a '{ ... }' block."
+  },
+  "MISSPELLED_KEYWORD": {
+    "id": 5,
+    "title": "Misspelled keyword or type",
+    "family": "syntax",
+    "explain": "An identifier sits where a C keyword or type name was expected and is within a few edits of one."
+  },
+  "ASSIGN_EQ_CONFUSION": {
+    "id": 6,
+    "title": "'=' and '==' confused",
+    "family": "syntax",
+    "explain": "Assignment '=' and comparison '==' were swapped."
+  },
+  "TYPO_IDENTIFIER": {
+    "id": 7,
+    "title": "Misspelled variable name",
+    "family": "semantic",
+    "explain": "The identifier is not declared, but it is a few edits away from a variable that is in scope."
+  },
+  "MISSING_DECLARATION": {
+    "id": 8,
+    "title": "Missing declaration",
+    "family": "semantic",
+    "explain": "The variable is used but never declared anywhere in the program."
+  },
+  "USE_BEFORE_DECLARATION": {
+    "id": 9,
+    "title": "Used before declaration",
+    "family": "semantic",
+    "explain": "The variable is declared later in the same scope - the use comes first."
+  },
+  "OUT_OF_SCOPE_USE": {
+    "id": 10,
+    "title": "Used outside its scope",
+    "family": "semantic",
+    "explain": "The variable was declared inside a block (or a for-loop header) that has already ended."
+  },
+  "TYPE_MISMATCH": {
+    "id": 11,
+    "title": "Type mismatch",
+    "family": "semantic",
+    "explain": "The value's type is incompatible with the variable, operator or condition it is used in."
+  },
+  "MISSING_INCLUDE": {
+    "id": 12,
+    "title": "Missing #include",
+    "family": "semantic",
+    "explain": "A standard-library function or constant is used, but the header that declares it is not included."
+  },
+  "WRONG_ARG_COUNT": {
+    "id": 13,
+    "title": "Wrong number of arguments",
+    "family": "semantic",
+    "explain": "The call passes more or fewer arguments than the function's declaration accepts."
+  }
+}

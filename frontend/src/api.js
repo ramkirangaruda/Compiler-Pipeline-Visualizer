@@ -16,9 +16,9 @@ const post = (path, body) =>
 export const api = {
   health: () => req('/health'),
   examples: () => req('/examples'),
-  compile: (source, optimize = true, mode = 'ml', ranker = 'rl') => post('/compile', { source, optimize, mode, ranker }),
-  autofix: (source, mode = 'ml', ranker = 'rl') => post('/autofix', { source, mode, ranker }),
-  model: () => req('/model'),
+  compile: (source, language = 'minic', optimize = true, mode = 'ml', ranker = 'rl') => post('/compile', { source, language, optimize, mode, ranker }),
+  autofix: (source, language = 'minic', mode = 'ml', ranker = 'rl') => post('/autofix', { source, language, mode, ranker }),
+  model: (language = 'minic') => req(`/model?language=${language}`),
   session: () => req('/session'),
   rl: () => req('/rl'),
   rlFeedback: (decision_id, candidate_id, reward) => post('/rl/feedback', { decision_id, candidate_id, reward }),

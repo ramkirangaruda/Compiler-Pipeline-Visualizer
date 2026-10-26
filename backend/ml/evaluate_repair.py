@@ -14,24 +14,25 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-from minic.lexer import lex
-from minic.pipeline import run_frontend
+import argparse
+
+from repair import langs
 from repair.engine import Engine
-from repair.labels import LABEL_NAMES
 
 ROOT = Path(__file__).resolve().parents[2]
 
 
-def toks(src: str) -> list:
-    return [(t.kind, t.value) for t in lex(src)[0]]
+def toks(src: str, lang) -> list:
+    return [(t.kind, t.value) for t in lang.run_frontend(src).tokens]
 
 
-def evaluate(engine: Engine, rows: list[dict], mode: str, ranker: str = "heuristic") -> dict:
+def evaluate(engine: Engine, rows: list[dict], mode: str, ranker: str = "heuristic", lang=None) -> dict:
+    lang = lang or langs.get("minic")
     per = defaultdict(lambda: {"n": 0, "label_ok": 0, "verified": 0, "exact": 0, "top3_verified": 0, "autofix": 0})
     for r in rows:
-        src = (ROOT / "datasets" / r["file"]).read_text(encoding="utf-8")
-        seed = (ROOT / "datasets" / "seeds" / "valid" / f"{r['seed_id']}.mc").read_text(encoding="utf-8")
-        res = engine.diagnose(src, mode=mode, only_first=True, ranker=ranker, explain=False)
+        src = (lang.data_dir / r["file"]).read_text(encoding="utf-8")
+        seed = (lang.data_dir / "seeds" / "valid" / f"{r['seed_id']}{lang.ext}").read_text(encoding="utf-8")
+        res = engine.diagnose(src, mode=mode, only_first=True, ranker=ranker, explain=False, language=lang.key)
         p = per[r["label"]]
         p["n"] += 1
         if not res["entries"]:
@@ -42,11 +43,11 @@ def evaluate(engine: Engine, rows: list[dict], mode: str, ranker: str = "heurist
         cands = [c for c in e["candidates"] if c["status"] != "rejected"]
         if cands and cands[0]["status"] == "verified":
             p["verified"] += 1
-            if toks(cands[0]["new_source"]) == toks(seed):
+            if toks(cands[0]["new_source"], lang) == toks(seed, lang):
                 p["exact"] += 1
         if any(c["status"] == "verified" for c in e["candidates"][:3]):
             p["top3_verified"] += 1
-        if engine.autofix(src, mode=mode, ranker=ranker)["ok"]:
+        if engine.autofix(src, mode=mode, ranker=ranker, language=lang.key)["ok"]:
             p["autofix"] += 1
     total = {k: sum(v[k] for v in per.values()) for k in ("n", "label_ok", "verified", "exact", "top3_verified", "autofix")}
     rate = lambda a, b: round(a / b, 4) if b else 0.0
@@ -68,20 +69,23 @@ def evaluate(engine: Engine, rows: list[dict], mode: str, ranker: str = "heurist
                 "exact_recovery_rate": rate(per[l]["exact"], per[l]["n"]),
                 "autofix_success_rate": rate(per[l]["autofix"], per[l]["n"]),
             }
-            for l in LABEL_NAMES
+            for l in lang.label_names
         ],
     }
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--lang", default="minic", choices=["minic", "c"])
+    lang = langs.get(ap.parse_args().lang)
     engine = Engine()
-    assert engine.model_loaded, "train the model first: python -m ml.train"
-    rows = [r for r in csv.DictReader((ROOT / "datasets" / "manifest.csv").open(encoding="utf-8")) if r["split"] == "test"]
-    print(f"evaluating {len(rows)} held-out programs")
-    out = {"ml": evaluate(engine, rows, "ml"), "baseline": evaluate(engine, rows, "baseline")}
+    assert engine.clfs[lang.key] is not None, "train the model first: python -m ml.train" + (" --lang c" if lang.key == "c" else "")
+    rows = [r for r in csv.DictReader((lang.data_dir / "manifest.csv").open(encoding="utf-8")) if r["split"] == "test"]
+    print(f"evaluating {len(rows)} held-out {lang.title} programs")
+    out = {"ml": evaluate(engine, rows, "ml", lang=lang), "baseline": evaluate(engine, rows, "baseline", lang=lang)}
     if engine.policy is not None:  # same single-fault programs, fixes ordered by the RL policy instead of the heuristic
-        out["ml_rl"] = evaluate(engine, rows, "ml", ranker="rl")
-    (ROOT / "models" / "repair_eval.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
+        out["ml_rl"] = evaluate(engine, rows, "ml", ranker="rl", lang=lang)
+    lang.eval_path.write_text(json.dumps(out, indent=2), encoding="utf-8")
     for k in out:
         print(k, out[k]["overall"])
 
