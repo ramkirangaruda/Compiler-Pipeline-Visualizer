@@ -125,7 +125,7 @@ export default function Dashboard() {
             </Chart>
           )}
 
-          <Chart title="Four models compared" note="Cross-validated macro-F1. Gradient Boosting was chosen for the most trustworthy confidence." height={380}>
+          <Chart title="Four models compared" note={`Cross-validated macro-F1. The models are this close, so ${m.selected_model} was chosen for the best-calibrated confidence.`} height={380}>
             <BarChart data={models} margin={{ left: -10, right: 8, top: 10 }}>
               <CartesianGrid stroke={C.grid} vertical={false} />
               <XAxis dataKey="name" tick={axis} /><YAxis domain={[0.9, 1]} tick={axis} tickFormatter={pctTick} />

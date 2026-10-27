@@ -73,7 +73,7 @@ export default function App() {
       </main>
       <footer className="footer">
         <div className="container footer-inner">
-          <span>Compiler Design project · MiniC compiler + ML-assisted error repair</span>
+          <span>Compiler Design project · C front end judged by gcc + ML-assisted error repair</span>
           <span>UI components from <a href="https://reactbits.dev" target="_blank" rel="noreferrer">React Bits</a> · palette inspired by Yudu Robotics</span>
         </div>
       </footer>
