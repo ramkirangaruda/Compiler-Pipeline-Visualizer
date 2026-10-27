@@ -123,7 +123,12 @@ A classifier can only recognise what it was trained on. So the pipeline does not
    gcc stopped, operator and type swaps, struct-member and `const` fixes, a stub for an undefined function, a missing `main()`.
 3. **gcc validates every candidate** (in parallel) as verified / partial / rejected; partial fixes are ranked by how far gcc gets.
 4. **Auto-fix backtracks.** A greedy walk first; if it gets stuck, a best-first search can back out of a wrong turn.
-5. **Last resort, never automatic.** "Comment out the statement" is offered when nothing else works; it is always labelled and never chosen
+5. **Ask an LLM (optional).** When the built-in fixes are weak guesses or absent, an **Ask an LLM** button sends the program and gcc's
+   errors to a language model (Groq by default, `openai/gpt-oss-120b`). The model only *proposes* a corrected program; gcc rebuilds it,
+   a wrong answer is thrown away (its new errors are fed back for one retry), and only builds that pass are offered with a diff and
+   Apply. Off until a key exists: put `GROQ_API_KEY=...` in the git-ignored `backend/.env` (see `.env.example`) or the environment.
+   The key stays on the server; the program is sent to the provider only when you click.
+6. **Last resort, never automatic.** "Comment out the statement" is offered when nothing else works; it is always labelled and never chosen
    by Fix / Fix all.
 
 ### How well does it do? (stress test, `python -m ml.stress_c`)

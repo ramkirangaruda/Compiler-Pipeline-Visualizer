@@ -36,6 +36,7 @@ export default function Studio() {
   const [execLine, setExecLine] = useState(0);
   const [fixing, setFixing] = useState(false);
   const seq = useRef(0);
+  const [llm, setLlm] = useState({ busy: false, result: null, error: null });
 
   useEffect(() => { api.examples().then(setExamples).catch((e) => setError(e.message)); }, []);
 
@@ -68,6 +69,7 @@ export default function Studio() {
 
   // when the program changes because of something other than a fix, forget the undo banner
   useEffect(() => { if (applied && source !== applied.source) setApplied(null); }, [source]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { setLlm({ busy: false, result: null, error: null }); }, [source, language]);
   useEffect(() => {
     if (!toast) return undefined;
     const t = setTimeout(() => setToast(null), 3500);
@@ -93,6 +95,16 @@ export default function Studio() {
     feedback(applied.decision, applied.candidate, -1);
     setSource(applied.previous);
     setApplied(null);
+  };
+
+  const askLlm = async () => {
+    setLlm({ busy: true, result: null, error: null });
+    setTab('diagnosis');
+    try {
+      setLlm({ busy: false, result: await api.llmFix(source), error: null });
+    } catch (e) {
+      setLlm({ busy: false, result: null, error: e.message });
+    }
   };
 
   const fixAll = async () => {
@@ -124,11 +136,12 @@ export default function Studio() {
   );
   const entryFor = (d) => dx?.entries?.find((e) => e.diagnostic.start === d.start && e.diagnostic.code === d.code);
 
+  const hasFix = (dx?.entries || []).some((e) => { const b = e.candidates?.find((c) => c.id === e.best); return b && b.score >= 0.5; });
   const tabs = ok ? TABS_OK[language] : TABS_FAILING;
   const srcLines = useMemo(() => source.split('\n').map((text) => ({ op: 'src', text })), [source]);
   let body = <div className="empty"><span className="loader" /> Compiling…</div>;
   if (result) {
-    if (tab === 'diagnosis') body = <DiagnosisView diagnosis={dx} onApply={applyFix} />;
+    if (tab === 'diagnosis') body = <DiagnosisView diagnosis={dx} onApply={applyFix} llm={language === 'c' ? llm : null} onAskLlm={askLlm} />;
     else if (tab === 'tokens') body = <TokensView tokens={result.tokens} source={source} />;
     else if (tab === 'tree') body = <TreeView ast={result.ast ?? result.ast_tree} />;
     else if (tab === 'symbols') body = <SymbolsView symbols={result.symbols} />;
@@ -181,6 +194,7 @@ export default function Studio() {
                 <div className="problems-head">
                   <b>Problems</b>
                   {diags.length > 1 && <button className="btn btn-sm btn-yellow" onClick={fixAll} disabled={fixing}>{fixing ? 'Fixing…' : 'Fix all'}</button>}
+                  {language === 'c' && !hasFix && <button className="btn btn-sm" onClick={askLlm} disabled={llm.busy}>{llm.busy ? 'Asking…' : 'Ask an LLM'}</button>}
                 </div>
                 {diags.map((d, i) => {
                   const e = entryFor(d);

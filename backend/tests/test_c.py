@@ -244,3 +244,51 @@ def test_last_resort_is_never_chosen_automatically(engine):
     for e in res["entries"]:
         best = next((c for c in e["candidates"] if c["id"] == e["best"]), None)
         assert best is None or best["label"] != "LAST_RESORT"
+
+
+# ------------------------------------------------------------ "Ask an LLM" (network mocked)
+from repair import llm as _llm  # noqa: E402
+
+BROKEN_CALL = H + "int main(void) {" + NL + "    printf(" + chr(34) + "%d" + chr(34) + ", average(1, 3));" + NL + "    return 0;" + NL + "}" + NL
+
+
+def _fake_reply(code, title="Define average"):
+    import json
+    return json.dumps({"fixes": [{"title": title, "explanation": "adds it", "code": code}]})
+
+
+@needs_gcc
+def test_llm_suggestions_are_checked_by_gcc(monkeypatch):
+    good = "int average(int a, int b) { return (a + b) / 2; }" + NL + BROKEN_CALL
+    still_broken = BROKEN_CALL.replace("average(1, 3)", "average(1, 3, 4)")
+    replies = iter([_fake_reply(still_broken, "wrong"), _fake_reply(good)])
+    monkeypatch.setattr(_llm, "provider", lambda: {"name": "fake", "url": "", "key": "x", "model": "m"})
+    monkeypatch.setattr(_llm, "chat", lambda messages, max_tokens=0: next(replies))
+    res = _llm.suggest(BROKEN_CALL, run_frontend)
+    assert res["configured"] and res["suggestions"]
+    assert all(not run_frontend(s["new_source"]).errors for s in res["suggestions"] if s["status"] == "verified")
+    assert res["suggestions"][0]["status"] == "verified"
+    assert res["rejected"] >= 1                      # the first, wrong answer was thrown away by gcc
+
+
+@needs_gcc
+def test_llm_answer_that_does_not_build_is_never_offered(monkeypatch):
+    monkeypatch.setattr(_llm, "provider", lambda: {"name": "fake", "url": "", "key": "x", "model": "m"})
+    monkeypatch.setattr(_llm, "chat", lambda messages, max_tokens=0: _fake_reply(BROKEN_CALL.replace("average", "avrage")))
+    res = _llm.suggest(BROKEN_CALL, run_frontend)
+    assert res["suggestions"] == []
+
+
+def test_llm_is_off_without_a_key(monkeypatch):
+    monkeypatch.setattr(_llm, "provider", lambda: None)
+    res = _llm.suggest(BROKEN_CALL, run_frontend)
+    assert res["configured"] is False and res["suggestions"] == []
+
+
+def test_llm_endpoint_never_returns_the_key(monkeypatch):
+    monkeypatch.setattr(_llm, "provider", lambda: None)
+    c = TestClient(app)
+    body = c.post("/api/llm-fix", json={"source": BROKEN_CALL}).text
+    health = c.get("/api/health").text
+    secret = __import__("os").environ.get("GROQ_API_KEY", "")
+    assert not secret or (secret not in body and secret not in health)

@@ -21,7 +21,7 @@ from pydantic import BaseModel, Field
 from cfront import gcc as G
 from cfront.pipeline import compile_source as compile_c
 from minic import compile_source
-from repair import langs
+from repair import langs, llm
 from repair.engine import Engine
 from repair.labels import LABELS
 
@@ -99,7 +99,26 @@ def health():
     return {"status": "ok", "model_loaded": engine.model_loaded,
             "model": engine.clf.model_name if engine.clf else None,
             "languages": {k: c.model_name if c else None for k, c in engine.clfs.items()},
-            "gcc": G.COMPILER if G.available() else None}
+            "gcc": G.COMPILER if G.available() else None, "llm": llm.status()}
+
+
+class LlmIn(BaseModel):
+    source: str = Field(max_length=MAX_SOURCE)
+
+
+_LLM_CALLS: list[float] = []
+
+
+@app.post("/api/llm-fix")
+def llm_fix(body: LlmIn):
+    """Ask a language model for fixes; gcc re-checks every one. Only works when an API key is configured on the server."""
+    _check(body.source)
+    now = time.time()
+    _LLM_CALLS[:] = [t for t in _LLM_CALLS if now - t < 60]
+    if len(_LLM_CALLS) >= 12:
+        raise HTTPException(429, "too many LLM requests: wait a minute")
+    _LLM_CALLS.append(now)
+    return llm.suggest(body.source, langs.get("c").run_frontend)
 
 
 @app.get("/api/stress")

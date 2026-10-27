@@ -11,3 +11,7 @@ frontend/dist/
 .DS_Store
 Thumbs.db
 *.log
+
+# secrets: API keys live here and are never committed
+.env
+backend/.env

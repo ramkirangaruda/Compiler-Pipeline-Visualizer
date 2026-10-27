@@ -20,6 +20,7 @@ export const api = {
   autofix: (source, language = 'minic', mode = 'ml', ranker = 'rl') => post('/autofix', { source, language, mode, ranker }),
   model: (language = 'c') => req(`/model?language=${language}`),
   stress: () => req('/stress'),
+  llmFix: (source) => post('/llm-fix', { source }),
   session: () => req('/session'),
   rl: () => req('/rl'),
   rlFeedback: (decision_id, candidate_id, reward) => post('/rl/feedback', { decision_id, candidate_id, reward }),

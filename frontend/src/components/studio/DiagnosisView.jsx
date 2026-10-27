@@ -74,7 +74,51 @@ function Entry({ e, onApply }) {
   );
 }
 
-export default function DiagnosisView({ diagnosis, onApply }) {
+function LlmBox({ llm, onAsk, onApply, noFix }) {
+  const r = llm.result;
+  if (!noFix && !llm.busy && !r && !llm.error) {
+    return <p className="dx-more"><button className="btn-flat" onClick={onAsk}>Not what you meant? Ask an LLM</button></p>;
+  }
+  return (
+    <section className="dx-card dx-llm fade-in">
+      <div className="dx-top"><span className="badge partial">LLM</span><span className="dx-msg">Ask a language model</span></div>
+      {!r && !llm.busy && !llm.error && (
+        <>
+          <p className="dx-also">
+            {noFix ? 'The built-in fixes are weak guesses for this error (or there is none). ' : ''}
+            A language model can suggest a fix; gcc rebuilds every suggestion and only builds that pass are offered. Clicking sends your program to the model provider.
+          </p>
+          <button className="btn btn-sm" onClick={onAsk}>Ask an LLM</button>
+        </>
+      )}
+      {llm.busy && <p className="dx-also"><span className="loader" /> Asking the model, then checking its answer with gcc…</p>}
+      {llm.error && <p className="dx-none">{llm.error}</p>}
+      {r && r.message && <p className={r.suggestions?.length ? 'dx-also' : 'dx-none'}>{r.message}</p>}
+      {r && (r.suggestions || []).map((c) => (
+        <div className="dx-fix" key={c.id}>
+          <div className="dx-fix-head">
+            <span className={`badge ${c.status === 'verified' ? 'ok' : 'partial'}`}>{c.status === 'verified' ? '✓ checked by gcc' : '◐ partial: gcc still reports errors'}</span>
+            <b>{c.title}</b>
+          </div>
+          <p>{c.description}</p>
+          <Diff hunks={c.diff} />
+          <button className="btn btn-sm" onClick={() => onApply(c.new_source, c, null)}>Apply fix</button>
+        </div>
+      ))}
+      {r && r.configured && (r.suggestions || []).length === 0 && !llm.busy && <button className="btn-flat" onClick={onAsk}>Try again</button>}
+    </section>
+  );
+}
+
+export default function DiagnosisView({ diagnosis, onApply, llm, onAskLlm }) {
   if (!diagnosis?.entries?.length) return <div className="empty">No diagnosis available.</div>;
-  return <div className="dx">{diagnosis.entries.map((e, i) => <Entry key={i} e={e} onApply={onApply} />)}</div>;
+  // a built-in fix only counts as strong if it is a confident one: a low score means the search was guessing
+  const strong = diagnosis.entries.some((e) => { const b = e.candidates.find((c) => c.id === e.best); return b && b.score >= 0.5; });
+  const noFix = !strong;
+  return (
+    <div className="dx">
+      {diagnosis.entries.map((e, i) => <Entry key={i} e={e} onApply={onApply} />)}
+      {llm && <LlmBox llm={llm} onAsk={onAskLlm} onApply={onApply} noFix={noFix} />}
+    </div>
+  );
 }
