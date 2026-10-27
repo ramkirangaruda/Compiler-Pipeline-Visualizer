@@ -143,6 +143,10 @@ short). Only programs gcc rejects are kept. The numbers below are from a fresh r
 | small slips (one token or character) | 96.5 % | 59 % |
 | structural damage (a line or the end of the file) | 91.7 % | 14 % |
 
+**What the LLM button adds** (`python -m ml.llm_eval`): on the 34 stress-test programs the built-in repair could *not* fix, the model plus
+gcc produced a build for **34 of 34**. That is a small, synthetic sample, and "builds" is not "is what the programmer meant" - but it shows the
+button covers the long tail the trained parts miss.
+
 **There is no promise that every possible error can be fixed.** A fix has to be both accepted by gcc *and* what the programmer meant, and
 the second part cannot be known: delete a line of a program and there are many valid programs that compile, but only one was intended.
 What is guaranteed: (1) a fix marked *verified* really builds with gcc, (2) nothing crashes or hangs on hostile input (empty, binary,

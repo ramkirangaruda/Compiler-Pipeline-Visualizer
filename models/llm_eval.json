@@ -1,0 +1,318 @@
+{
+  "n": 34,
+  "fixed_by_llm": 34,
+  "rate": 1.0,
+  "model": {
+    "configured": true,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b"
+  },
+  "rows": [
+    {
+      "op": "delete_token",
+      "message": "gcc: called object 'compute(count1, 11, 26)' is not a function or function pointer (line 43)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 3.8
+    },
+    {
+      "op": "delete_token",
+      "message": "Syntax error: expected '(' before 'void' on line 4",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 2.1
+    },
+    {
+      "op": "insert_token",
+      "message": "Lexical error: unexpected character '\\\\' on line 71",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 5.8
+    },
+    {
+      "op": "replace_token",
+      "message": "Syntax error: unexpected '\"%d\\n\"' on line 14",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 23.6
+    },
+    {
+      "op": "replace_token",
+      "message": "gcc: invalid preprocessing directive #( (line 17)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 4.0
+    },
+    {
+      "op": "replace_token",
+      "message": "Syntax error: unexpected '=' on line 37",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 4.9
+    },
+    {
+      "op": "replace_token",
+      "message": "Syntax error: expected '(' or ')' before '{' on line 57",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 25.1
+    },
+    {
+      "op": "replace_token",
+      "message": "Syntax error: expected ';' or '(' before ')' on line 7",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 4.0
+    },
+    {
+      "op": "swap_tokens",
+      "message": "Syntax error: unexpected 'steps2' on line 23",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 24.0
+    },
+    {
+      "op": "delete_line",
+      "message": "Syntax error: expected ')' before '\"%d\\n\"' on line 34",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 5.4
+    },
+    {
+      "op": "delete_line",
+      "message": "Syntax error: expected ')' before '\"p=%d\\n\"' on line 5",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 3.6
+    },
+    {
+      "op": "delete_line",
+      "message": "gcc: expected identifier or '(' before '}' token (line 7)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 3.6
+    },
+    {
+      "op": "delete_line",
+      "message": "Syntax error: expected '{' before ';' on line 19",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 23.8
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ')' before '\"base2=%d\\n\"' on line 39",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 3.3
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ')' before '\"seats1=%d\\n\"' on line 41",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 5.2
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ')' before '\"items=%d\\n\"' on line 38",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 4.7
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ')' before '\"index of 12: %d\\n\"' on line 26",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 24.0
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ')' before '\"\\n%d primes\\n\"' on line 19",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 2.1
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ';' or '(' before 'for' on line 34",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 4.4
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ';' or '(' before 'while' on line 51",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 28.9
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: unexpected end of file; expected ';' or '(' or '{'",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 23.7
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ')' before '\"titole=%d\\n\"' on line 38",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 4.4
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ';' or '(' before 'while' on line 38",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 3.8
+    },
+    {
+      "op": "duplicate_line",
+      "message": "Syntax error: expected ';' or '(' before 'while' on line 37",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 4.2
+    },
+    {
+      "op": "delete_char",
+      "message": "gcc: missing terminating '>' character (line 1)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 22.9
+    },
+    {
+      "op": "delete_char",
+      "message": "gcc: type of 'vid' defaults to 'int' (line 11)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 4.4
+    },
+    {
+      "op": "insert_char",
+      "message": "gcc: stdio.9h: No such file or directory (line 1)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 3.0
+    },
+    {
+      "op": "insert_char",
+      "message": "gcc: invalid preprocessing directive #incl; did you mean #include? (line 1)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 3.0
+    },
+    {
+      "op": "wrong_type",
+      "message": "gcc: declaration of 'scores' as array of voids (line 22)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 2.3
+    },
+    {
+      "op": "wrong_type",
+      "message": "Type error: array subscript is not an integer (line 23)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 23.1
+    },
+    {
+      "op": "wrong_type",
+      "message": "Type error: operator '%' cannot be applied to 'double' and 'int' (line 10)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 1.9
+    },
+    {
+      "op": "wrong_type",
+      "message": "gcc: 'return' with a value, in function returning void (line 5)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 5.4
+    },
+    {
+      "op": "wrong_type",
+      "message": "Type error: array subscript is not an integer (line 10)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 2.2
+    },
+    {
+      "op": "wrong_type",
+      "message": "Type error: operator '%' cannot be applied to 'double' and 'int' (line 10)",
+      "verified": true,
+      "partial": false,
+      "rejected": 0,
+      "error": false,
+      "seconds": 2.4
+    }
+  ]
+}
