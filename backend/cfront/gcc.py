@@ -24,6 +24,7 @@ from typing import Optional
 COMPILER = shutil.which("gcc") or shutil.which("cc") or shutil.which("clang")
 STD = "-std=gnu11"
 TIMEOUT = 10
+NL = chr(10)
 _BAD_INCLUDE = re.compile(
     r'^\s*#\s*(?:include|include_next|embed|import)\s*(?:"|<\s*(?:[/\\]|[A-Za-z]:|\.\.))|__has_include(?:_next)?\s*\(\s*["<]', re.M)
 
@@ -157,7 +158,26 @@ def _link_errors(obj: str, d: str, source: str) -> list:
     return [_link_diag("the linker failed: " + ((r.stderr or b"").decode("utf-8", "replace").strip().splitlines() or ["unknown error"])[-1][:200], source)]
 
 
-def run(source: str, link: bool = False) -> GccResult:
+def run(source: str, link: bool = False, _depth: int = 0) -> GccResult:
+    """Compile `source` with gcc. gcc stops dead at an #include it cannot find (a typo such as <stio.h> hides every other
+    error in the file), so after such an error the check is repeated with that line blanked out - same length, so every
+    offset still points into the original - and the errors it reveals are added."""
+    res = _run_once(source, link)
+    if res.available and res.errors and _depth < 3:
+        first = res.errors[0]
+        if "No such file or directory" in first.message and first.kind == "error":
+            ls = source.rfind(NL, 0, first.start) + 1
+            le = source.find(NL, first.start)
+            le = len(source) if le < 0 else le
+            if source[ls:le].lstrip().startswith("#"):
+                more = run(source[:ls] + " " * (le - ls) + source[le:], False, _depth + 1)
+                seen = {(x.line, x.message) for x in res.errors}
+                res.errors = res.errors + [x for x in more.errors if (x.line, x.message) not in seen]
+                res.warnings = res.warnings + more.warnings
+    return res
+
+
+def _run_once(source: str, link: bool = False) -> GccResult:
     if COMPILER is None:
         return GccResult(False)
     if _BAD_INCLUDE.search(source):

@@ -108,7 +108,11 @@ def _typos(g, fe, name) -> list[dict]:
     if t.value != name:
         t = next((x for x in fe.tokens if x.start <= g.start < x.end or x.start == g.start), t)
     if t.value != name:
-        return []
+        # gcc sometimes points at a neighbouring token (e.g. `main` for a misspelled parameter type): use the named one on that line
+        same = sorted((x for x in fe.tokens if x.value == name and abs(x.line - g.line) <= 0), key=lambda x: abs(x.start - g.start))
+        if not same:
+            return []
+        t = same[0]
     is_type = "unknown type name" in g.message
     pool = set(TYPE_WORDS) | ({x.value for x in fe.tokens if x.kind == "IDENT"} | set(HEADER_OF) | set(KEYWORD_WORDS))
     if is_type:
@@ -609,6 +613,22 @@ def _bad_directive(g, fe) -> list[dict]:
     return [make("SEARCH_FIX", "Delete the stray `#`", f"`#{m.group(1)}` is not a preprocessor directive.", [Edit(k, k + 1, "")], 0.8)]
 
 
+def _unterminated_include(g, fe) -> list[dict]:
+    m = re.search(r"missing terminating (['\"])?([>\"])(['\"])? character", g.message)
+    if not m:
+        return []
+    closer = ">" if ">" in g.message.split("terminating", 1)[1][:6] else '"'
+    src = fe.source
+    ls = line_start(src, min(g.start, len(src)))
+    le = line_end(src, ls)
+    line = src[ls:le]
+    if not re.match(r"\s*#\s*include", line):
+        return []
+    end = ls + len(line.rstrip())
+    return [make("SEARCH_FIX", f"Close the header name with `{closer}`", f"The `#include` on line {g.line} is missing its closing `{closer}`.",
+                 [Edit(end, end, closer)], 0.9)]
+
+
 # ------------------------------------------------------------------------- entry
 def extras(d, fe, limit: int = 60) -> list[dict]:
     g = _gdiag(d, fe)
@@ -617,7 +637,7 @@ def extras(d, fe, limit: int = 60) -> list[dict]:
     name = _name_in(g.message)
     cands = (_fixits(g, fe) + _headers(g, fe, name) + _prototype(g, fe, name) + _typos(g, fe, name) + _declare(g, fe, name)
              + _redefinition(g, fe) + _argcount(g, fe) + _const(g, fe) + _link(g, fe) + _members(g, fe) + _operators(g, fe)
-             + _void_variable(g, fe) + _header_name(g, fe) + _bad_directive(g, fe))
+             + _void_variable(g, fe) + _header_name(g, fe) + _bad_directive(g, fe) + _unterminated_include(g, fe))
     if g.kind != "link":
         cands += _search(g, fe) + _swaps(g, fe) + _fills(g, fe)
     seen, uniq = set(), []

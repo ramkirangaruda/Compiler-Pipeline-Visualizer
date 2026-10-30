@@ -292,3 +292,41 @@ def test_llm_endpoint_never_returns_the_key(monkeypatch):
     health = c.get("/api/health").text
     secret = __import__("os").environ.get("GROQ_API_KEY", "")
     assert not secret or (secret not in body and secret not in health)
+
+
+# ------------------------------------------- many mistakes at once, one hidden behind a fatal error
+MANY_MISTAKES = r'''#include <stio.h>
+
+int main(vod) {
+    int a[6] = {5, 2, 9, 1, 7, 3}
+    for (int i = 0; i < 6; i++) {
+        for (int j = 0; j < 5 - i; j++) {
+            if (a[j] > a[j + 1]) {
+                int t = a[j]
+                a[j] = a[j + 1];
+                a[j + 1] = t;
+            }
+        }
+    }
+    fo(int i = 0; i < 6; i++)
+        printf("%d ", a[i]);
+    printf("\n");
+    return 0;
+'''
+
+
+@needs_gcc
+def test_errors_hidden_behind_a_missing_header_are_all_reported():
+    fe = run_frontend(MANY_MISTAKES)
+    lines = {d.line for d in fe.errors}
+    # the misspelled header, `vod`, the two missing semicolons, `fo`, and the missing closing brace
+    assert {1, 3, 5, 9, 14, 17} <= lines, sorted(lines)
+
+
+@needs_gcc
+def test_many_mistakes_are_repaired_into_the_intended_program(engine):
+    res = engine.autofix(MANY_MISTAKES, language="c")
+    assert res["ok"], res["remaining"]
+    fixed = res["final_source"]
+    assert "<stdio.h>" in fixed and "main(void)" in fixed and "for(int i" in fixed.replace(" ", "", 0) or "for (int i" in fixed
+    assert not run_frontend(fixed).errors

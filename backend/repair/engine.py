@@ -11,7 +11,7 @@ from typing import Optional
 
 from minic.tokens import Diagnostic
 
-from . import langs
+from . import langs, llm
 from .classifier import MODEL_PATH, Classifier
 from .rl.features import candidate_matrix
 from .rl.policy import POLICY_PATH, Policy
@@ -76,7 +76,7 @@ class Engine:
 
     # ----------------------------------------------------------- one diag
     def diagnose_one(self, d: Diagnostic, fe, mode: str = "ml", ranker: str = "heuristic",
-                     explain: bool = True) -> dict:
+                     explain: bool = True, assist: bool = False) -> dict:
         source = fe.source
         lang = langs.get(fe.lang)
         LABELS, clf = lang.labels, self.clfs[lang.key]
@@ -122,12 +122,14 @@ class Engine:
         if lang.extras is not None and mode != "baseline":
             raw = list(raw) + lang.extras(d, fe)         # the compiler's own suggestions and the repair search
 
-        uniq, seen = [], set()
+        # the same edit can come from several generators: keep the copy with the best score
+        best_copy: dict = {}
         for c in raw:
             key = tuple((e.start, e.end, e.text) for e in c["edits"])
-            if key not in seen:
-                seen.add(key)
-                uniq.append(c)
+            sc = c.get("prob", 1.0) * c["local_score"]
+            if key not in best_copy or sc > best_copy[key][0]:
+                best_copy[key] = (sc, c)
+        uniq = [c for _, c in best_copy.values()]
         if getattr(fe, "judged_by_gcc", False) and len(uniq) > 1:
             with ThreadPoolExecutor(min(8, len(uniq))) as pool:    # gcc runs in separate processes: validate in parallel
                 verdicts = list(pool.map(lambda c: validate(source, c["edits"], fe, d), uniq))
@@ -135,31 +137,48 @@ class Engine:
             verdicts = [validate(source, c["edits"], fe, d) for c in uniq]
         titles = {**LABELS, **lang.extra_labels}
 
-        cands = []
-        for c, v in zip(uniq, verdicts):
+        def build(c, v):
             p = c.get("prob", 1.0)
-            cands.append(
-                {
-                    "label": c["label"],
-                    "label_title": titles.get(c["label"], {}).get("title", "Rule-based fix"),
-                    "strategy": c.get("strategy", "default"),
-                    "title": c["title"],
-                    "description": c["description"],
-                    "edits": [e.to_dict() for e in c["edits"]],
-                    "prob": round(p, 4),
-                    "local_score": c["local_score"],
-                    "score": round(p * c["local_score"], 4),
-                    "status": v["status"],
-                    "reason": v["reason"],
-                    "errors_after": v["errors_after"],
-                    "progress": v.get("progress", 0),
-                    "new_source": v["new_source"],
-                    "diff": diff_hunks(source, v["new_source"]),
-                }
-            )
+            return {
+                "label": c["label"],
+                "label_title": titles.get(c["label"], {}).get("title", "Rule-based fix"),
+                "strategy": c.get("strategy", "default"),
+                "title": c["title"],
+                "description": c["description"],
+                "edits": [e.to_dict() for e in c["edits"]],
+                "prob": round(p, 4),
+                "local_score": c["local_score"],
+                "score": round(p * c["local_score"], 4),
+                "status": v["status"],
+                "reason": v["reason"],
+                "errors_after": v["errors_after"],
+                "progress": v.get("progress", 0),
+                "continuity": v.get("continuity", 0),
+                "suspicious": bool(v.get("suspicious")),
+                "new_source": v["new_source"],
+                "diff": diff_hunks(source, v["new_source"]),
+            }
+
+        cands = [build(c, v) for c, v in zip(uniq, verdicts)]
+        # when nothing built in is a confident fix, bring in suggestions that use the surrounding code as context;
+        # they are judged by the compiler exactly like every other candidate
+        if assist and getattr(fe, "judged_by_gcc", False) and not any(
+                c["status"] != "rejected" and c["label"] != "LAST_RESORT" and c["score"] >= 0.5 for c in cands):
+            seen_src = {c["new_source"] for c in cands}
+            proposals = llm.candidates(source, d, lang.run_frontend)
+            took_single = False
+            # one edit at a time, nearest the error first; every edit together is only a fallback when no single edit works
+            for c in sorted(proposals, key=lambda c: bool(c.get("combined"))):
+                if c.get("combined") and took_single:
+                    continue
+                v = validate(source, c["edits"], fe, d)
+                if v["status"] != "rejected" and v["new_source"] not in seen_src:
+                    seen_src.add(v["new_source"])
+                    cands.append(build(c, v))
+                    took_single = took_single or not c.get("combined")
         # verified first, then partial. Among gcc-judged fixes the one that gets the compiler furthest wins; the
         # last-resort edit is always behind the real fixes of its status
-        cands.sort(key=lambda c: (-STATUS_RANK[c["status"]], c["label"] == "LAST_RESORT", -c["progress"],
+        cands.sort(key=lambda c: (-STATUS_RANK[c["status"]], c["suspicious"], c["label"] == "LAST_RESORT", -c["progress"],
                                   c["errors_after"] if c["progress"] else 0, -c["score"]))
         cands = cands[:10]
         entry["ranker"] = "heuristic"
@@ -196,7 +215,7 @@ class Engine:
 
     # ---------------------------------------------------------- whole file
     def diagnose(self, source: str, mode: str = "ml", only_first: bool = False, ranker: str = "heuristic",
-                 explain: bool = True, language: str = "minic", max_entries: int = 6) -> dict:
+                 explain: bool = True, language: str = "minic", max_entries: int = 6, assist: bool = False) -> dict:
         lang = langs.get(language)
         fe = lang.run_frontend(source)
         errors = fe.errors
@@ -212,7 +231,7 @@ class Engine:
             if key in seen:
                 seen[key]["duplicates"] += 1
                 continue
-            entry = self.diagnose_one(d, fe, mode, ranker, explain)
+            entry = self.diagnose_one(d, fe, mode, ranker, explain, assist)
             if key is not None:
                 seen[key] = entry
             entries.append(entry)
@@ -230,22 +249,22 @@ class Engine:
     # ------------------------------------------------------------- autofix
     def autofix(self, source: str, max_steps: int = 20, mode: str = "ml", ranker: str = "heuristic",
                 language: str = "minic", allow_last_resort: bool = False, search: bool = True, budget: float = 25.0,
-                total_budget: float = 40.0) -> dict:
+                total_budget: float = 40.0, assist: bool = False) -> dict:
         """Apply the best fix, re-check, repeat. If that greedy walk gets stuck, fall back to a best-first search that
         can back out of a wrong turn (every state it visits is judged by the compiler)."""
         import time
         t0 = time.time()
-        res = self._greedy(source, max_steps, mode, ranker, language, allow_last_resort, deadline=t0 + total_budget * 0.5)
+        res = self._greedy(source, max_steps, mode, ranker, language, allow_last_resort, deadline=t0 + total_budget * 0.5, assist=assist)
         if res["ok"] or not search:
             return res
         left = total_budget - (time.time() - t0)
         if left < 3:
             return res
-        found = self._best_first(source, mode, ranker, language, allow_last_resort, min(budget, left))
+        found = self._best_first(source, mode, ranker, language, allow_last_resort, min(budget, left), assist=assist)
         return found if found["ok"] else res
 
     def _best_first(self, source: str, mode: str, ranker: str, language: str, allow_last_resort: bool, budget: float,
-                    width: int = 3, max_depth: int = 10) -> dict:
+                    width: int = 3, max_depth: int = 10, assist: bool = False) -> dict:
         import heapq
         import itertools
         import time
@@ -258,7 +277,7 @@ class Engine:
             errs, cost, _, cur, steps = heapq.heappop(heap)
             if len(steps) >= max_depth:
                 continue
-            res = self.diagnose(cur, mode=mode, only_first=True, ranker=ranker, explain=False, language=lang.key)
+            res = self.diagnose(cur, mode=mode, only_first=True, ranker=ranker, explain=False, language=lang.key, assist=assist)
             if not res["entries"]:
                 continue
             e = res["entries"][0]
@@ -282,7 +301,7 @@ class Engine:
                 "remaining": [d.message for d in final.errors], "searched": True}
 
     def _greedy(self, source: str, max_steps: int, mode: str, ranker: str, language: str, allow_last_resort: bool,
-                deadline: Optional[float] = None) -> dict:
+                deadline: Optional[float] = None, assist: bool = False) -> dict:
         import time
         lang = langs.get(language)
         steps, cur, visited = [], source, {source}
@@ -292,7 +311,7 @@ class Engine:
             fe = lang.run_frontend(cur)
             if not fe.errors:
                 break
-            res = self.diagnose(cur, mode=mode, only_first=True, ranker=ranker, explain=False, language=lang.key)
+            res = self.diagnose(cur, mode=mode, only_first=True, ranker=ranker, explain=False, language=lang.key, assist=assist)
             if not res["entries"]:
                 break
             e = res["entries"][0]

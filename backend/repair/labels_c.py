@@ -40,5 +40,6 @@ CANDIDATE_CAUSES = {
 EXTRA_LABELS = {
     "GCC_FIXIT": {"title": "Compiler suggestion", "family": "gcc", "explain": "The compiler itself proposed this edit."},
     "SEARCH_FIX": {"title": "Repair search", "family": "gcc", "explain": "A small edit near the point where the compiler stopped."},
+    "CONTEXT_FIX": {"title": "Context-aware fix", "family": "gcc", "explain": "An edit chosen from how the rest of the program uses this code, then re-checked by the compiler."},
     "LAST_RESORT": {"title": "Last resort", "family": "gcc", "explain": "Comment the line out: it removes the code."},
 }

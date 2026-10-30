@@ -70,6 +70,7 @@ class SourceIn(BaseModel):
     mode: Literal["ml", "baseline"] = "ml"
     ranker: Literal["heuristic", "rl"] = "rl"  # who orders the candidate fixes
     language: Literal["minic", "c"] = "minic"
+    assist: bool = False      # also look for fixes that need the surrounding code as context (slower)
 
 
 class FeedbackIn(BaseModel):
@@ -163,7 +164,7 @@ def compile_(body: SourceIn):
 @app.post("/api/diagnose")
 def diagnose(body: SourceIn):
     _check(body.source)
-    diag = engine.diagnose(body.source, mode=body.mode, ranker=body.ranker, language=body.language)
+    diag = engine.diagnose(body.source, mode=body.mode, ranker=body.ranker, language=body.language, assist=body.assist)
     _record(diag)
     return diag
 
